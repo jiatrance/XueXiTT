@@ -1,0 +1,340 @@
+1
+00:00:00,060 --> 00:00:02,909
+<font color="#CCCCCC">alright guys</font><font color="#E5E5E5"> so the last main concept I</font>
+
+2
+00:00:02,909 --> 00:00:04,740
+want<font color="#E5E5E5"> to talk about</font><font color="#CCCCCC"> regarding arguments</font>
+
+3
+00:00:04,740 --> 00:00:08,130
+is how to unpack<font color="#E5E5E5"> arguments and this is</font>
+
+4
+00:00:08,130 --> 00:00:10,559
+actually handy and a lot of<font color="#E5E5E5"> instances as</font>
+
+5
+00:00:10,559 --> 00:00:11,880
+you're going to see whenever<font color="#E5E5E5"> you make</font>
+
+6
+00:00:11,880 --> 00:00:15,480
+bigger programs later<font color="#E5E5E5"> on so let's go</font>
+
+7
+00:00:15,480 --> 00:00:17,190
+ahead<font color="#E5E5E5"> and</font><font color="#CCCCCC"> make a</font><font color="#E5E5E5"> simple function</font><font color="#CCCCCC"> and</font>
+
+8
+00:00:17,190 --> 00:00:23,519
+I'll name it health calculator<font color="#E5E5E5"> so what</font>
+
+9
+00:00:23,519 --> 00:00:26,310
+<font color="#E5E5E5">this function does is it takes three</font>
+
+10
+00:00:26,310 --> 00:00:29,250
+parameters it takes your age<font color="#CCCCCC"> we'll say</font>
+
+11
+00:00:29,250 --> 00:00:32,189
+the amount of apples<font color="#CCCCCC"> you ate in a week</font>
+
+12
+00:00:32,189 --> 00:00:37,590
+and<font color="#E5E5E5"> also the amount of cigarettes you</font>
+
+13
+00:00:37,590 --> 00:00:40,890
+<font color="#CCCCCC">smoke in a week and with this</font><font color="#E5E5E5"> it</font>
+
+14
+00:00:40,890 --> 00:00:44,070
+<font color="#E5E5E5">calculates</font><font color="#CCCCCC"> on your expected age</font><font color="#E5E5E5"> that</font>
+
+15
+00:00:44,070 --> 00:00:46,980
+<font color="#CCCCCC">you're going to</font><font color="#E5E5E5"> live</font><font color="#CCCCCC"> -</font><font color="#E5E5E5"> so the formula</font>
+
+16
+00:00:46,980 --> 00:00:49,800
+<font color="#E5E5E5">for that see if I can come up</font><font color="#CCCCCC"> with</font>
+
+17
+00:00:49,800 --> 00:00:52,530
+something somewhat realistic<font color="#CCCCCC"> is 100</font>
+
+18
+00:00:52,530 --> 00:00:59,070
+<font color="#E5E5E5">minus your age and then it adds let me</font>
+
+19
+00:00:59,070 --> 00:01:00,800
+add something<font color="#E5E5E5"> they'll be easier</font>
+
+20
+00:01:00,800 --> 00:01:04,860
+so what<font color="#E5E5E5"> Apple is</font><font color="#CCCCCC"> eight and we'll</font>
+
+21
+00:01:04,860 --> 00:01:07,590
+multiply it by like<font color="#CCCCCC"> 3.5</font><font color="#E5E5E5"> if the values</font>
+
+22
+00:01:07,590 --> 00:01:09,510
+<font color="#E5E5E5">really weird I can change it later on</font>
+
+23
+00:01:09,510 --> 00:01:18,630
+<font color="#CCCCCC">but and of course six smoked</font><font color="#E5E5E5"> x</font><font color="#CCCCCC"> -</font><font color="#E5E5E5"> all</font>
+
+24
+00:01:18,630 --> 00:01:22,170
+right so of course the younger<font color="#E5E5E5"> the</font>
+
+25
+00:01:22,170 --> 00:01:25,020
+better the more apples you<font color="#E5E5E5"> a increases</font>
+
+26
+00:01:25,020 --> 00:01:27,299
+it and<font color="#E5E5E5"> the amount of cigarettes</font><font color="#CCCCCC"> you</font>
+
+27
+00:01:27,299 --> 00:01:30,329
+smoke decreases it<font color="#E5E5E5"> so then we get a</font>
+
+28
+00:01:30,329 --> 00:01:36,210
+final answer<font color="#E5E5E5"> and</font><font color="#CCCCCC"> we'll actually say this</font>
+
+29
+00:01:36,210 --> 00:01:37,829
+<font color="#CCCCCC">isn't your expected age would just say</font>
+
+30
+00:01:37,829 --> 00:01:39,180
+that this<font color="#CCCCCC"> is just some like health</font>
+
+31
+00:01:39,180 --> 00:01:44,250
+rating<font color="#CCCCCC"> on a scale of 1 - yeah like 200</font>
+
+32
+00:01:44,250 --> 00:01:47,759
+it's probably going<font color="#E5E5E5"> to be</font><font color="#CCCCCC"> around</font><font color="#E5E5E5"> so what</font>
+
+33
+00:01:47,759 --> 00:01:51,030
+we can<font color="#E5E5E5"> do of</font><font color="#CCCCCC"> course</font><font color="#E5E5E5"> passing three</font>
+
+34
+00:01:51,030 --> 00:01:53,909
+parameters here which are<font color="#E5E5E5"> three integers</font>
+
+35
+00:01:53,909 --> 00:01:55,409
+and<font color="#E5E5E5"> we can pass</font><font color="#CCCCCC"> them in in a couple</font>
+
+36
+00:01:55,409 --> 00:02:02,360
+<font color="#E5E5E5">different</font><font color="#CCCCCC"> ways so say that we had a list</font>
+
+37
+00:02:02,810 --> 00:02:07,170
+and<font color="#E5E5E5"> we'll say I don't smoke it</font><font color="#CCCCCC"> also zero</font>
+
+38
+00:02:07,170 --> 00:02:08,580
+<font color="#E5E5E5">so I'm 27 years old</font>
+
+39
+00:02:08,580 --> 00:02:11,400
+I eat<font color="#E5E5E5"> 20 apples a week I really don't</font>
+
+40
+00:02:11,400 --> 00:02:13,890
+<font color="#CCCCCC">bug</font><font color="#E5E5E5"> and I actually never smoked a</font>
+
+41
+00:02:13,890 --> 00:02:15,510
+cigarette in my<font color="#E5E5E5"> life because if you do</font>
+
+42
+00:02:15,510 --> 00:02:18,420
+you<font color="#CCCCCC"> are an idiot so this is my</font>
+
+43
+00:02:18,420 --> 00:02:21,000
+information<font color="#CCCCCC"> and we</font><font color="#E5E5E5"> also have</font><font color="#CCCCCC"> information</font>
+
+44
+00:02:21,000 --> 00:02:23,460
+from a ton of<font color="#E5E5E5"> other</font><font color="#CCCCCC"> people</font><font color="#E5E5E5"> because you</font>
+
+45
+00:02:23,460 --> 00:02:25,260
+<font color="#CCCCCC">know</font><font color="#E5E5E5"> we</font><font color="#CCCCCC"> just came up with this new</font>
+
+46
+00:02:25,260 --> 00:02:26,910
+formula<font color="#E5E5E5"> everyone wants to try it out so</font>
+
+47
+00:02:26,910 --> 00:02:28,640
+<font color="#CCCCCC">you</font><font color="#E5E5E5"> got a whole database of information</font>
+
+48
+00:02:28,640 --> 00:02:32,310
+<font color="#CCCCCC">so what</font><font color="#E5E5E5"> we can do is you can run our</font>
+
+49
+00:02:32,310 --> 00:02:34,620
+program and<font color="#E5E5E5"> pass in these parameters the</font>
+
+50
+00:02:34,620 --> 00:02:36,740
+<font color="#CCCCCC">first way that we</font><font color="#E5E5E5"> knew how the old way</font>
+
+51
+00:02:36,740 --> 00:02:41,160
+lucky that is<font color="#E5E5E5"> zero which is my age lucky</font>
+
+52
+00:02:41,160 --> 00:02:47,460
+that<font color="#E5E5E5"> a</font><font color="#CCCCCC"> 1 which is</font><font color="#E5E5E5"> apples and</font><font color="#CCCCCC"> Buckey data</font>
+
+53
+00:02:47,460 --> 00:02:51,660
+<font color="#CCCCCC">2 which is</font><font color="#E5E5E5"> cigarette smoke</font><font color="#CCCCCC"> and whenever</font>
+
+54
+00:02:51,660 --> 00:02:54,300
+you<font color="#E5E5E5"> run this all right so my health</font>
+
+55
+00:02:54,300 --> 00:02:56,370
+rating<font color="#E5E5E5"> whatever you know this weird</font>
+
+56
+00:02:56,370 --> 00:02:59,820
+formula is called is 143<font color="#CCCCCC"> I can guess and</font>
+
+57
+00:02:59,820 --> 00:03:02,100
+<font color="#CCCCCC">that's</font><font color="#E5E5E5"> pretty good however</font><font color="#CCCCCC"> if we have</font><font color="#E5E5E5"> to</font>
+
+58
+00:03:02,100 --> 00:03:04,170
+do this<font color="#E5E5E5"> for</font><font color="#CCCCCC"> everyone it's going to take</font>
+
+59
+00:03:04,170 --> 00:03:06,720
+a lot of<font color="#E5E5E5"> lines of code</font><font color="#CCCCCC"> so I want to</font><font color="#E5E5E5"> show</font>
+
+60
+00:03:06,720 --> 00:03:10,620
+you guys<font color="#E5E5E5"> a real quick or quicker way so</font>
+
+61
+00:03:10,620 --> 00:03:13,500
+whenever we call this function<font color="#E5E5E5"> what we</font>
+
+62
+00:03:13,500 --> 00:03:16,230
+can do is we<font color="#E5E5E5"> can just actually type</font><font color="#CCCCCC"> the</font>
+
+63
+00:03:16,230 --> 00:03:19,709
+name of<font color="#E5E5E5"> the list</font><font color="#CCCCCC"> right in here</font><font color="#E5E5E5"> and add a</font>
+
+64
+00:03:19,709 --> 00:03:22,620
+star<font color="#E5E5E5"> before</font><font color="#CCCCCC"> it</font><font color="#E5E5E5"> now what this is going</font><font color="#CCCCCC"> to</font>
+
+65
+00:03:22,620 --> 00:03:26,400
+do is it's called unpacking an argument
+
+66
+00:03:26,400 --> 00:03:29,010
+list so it<font color="#E5E5E5"> pretty much takes this list</font>
+
+67
+00:03:29,010 --> 00:03:33,620
+and it passes each item in<font color="#CCCCCC"> one at a time</font>
+
+68
+00:03:33,620 --> 00:03:36,150
+<font color="#E5E5E5">so instead of having to write all this</font>
+
+69
+00:03:36,150 --> 00:03:38,700
+crap<font color="#CCCCCC"> we just say</font><font color="#E5E5E5"> okay take this a list</font>
+
+70
+00:03:38,700 --> 00:03:42,209
+and the<font color="#CCCCCC"> extra comedians unpack it so now</font>
+
+71
+00:03:42,209 --> 00:03:44,910
+whenever you run it check it out it
+
+72
+00:03:44,910 --> 00:03:47,580
+prints<font color="#CCCCCC"> out the same exact thing</font><font color="#E5E5E5"> it</font>
+
+73
+00:03:47,580 --> 00:03:49,650
+treats it the same exact way it<font color="#E5E5E5"> just</font>
+
+74
+00:03:49,650 --> 00:03:53,880
+saves us a lot<font color="#CCCCCC"> of</font><font color="#E5E5E5"> coding so that</font><font color="#CCCCCC"> my</font>
+
+75
+00:03:53,880 --> 00:03:55,800
+friend is<font color="#E5E5E5"> how</font><font color="#CCCCCC"> you unpack arguments and</font>
+
+76
+00:03:55,800 --> 00:03:58,290
+the good news<font color="#E5E5E5"> is right now we're done</font>
+
+77
+00:03:58,290 --> 00:04:00,090
+with functions we're done with arguments
+
+78
+00:04:00,090 --> 00:04:02,360
+<font color="#CCCCCC">we're ready to move on</font><font color="#E5E5E5"> to something else</font>
+
+79
+00:04:02,360 --> 00:04:04,680
+<font color="#CCCCCC">because I want</font><font color="#E5E5E5"> to run through the basics</font>
+
+80
+00:04:04,680 --> 00:04:06,209
+real quick<font color="#E5E5E5"> because I want to start</font>
+
+81
+00:04:06,209 --> 00:04:09,090
+<font color="#E5E5E5">building bigger</font><font color="#CCCCCC"> awesome programs that</font>
+
+82
+00:04:09,090 --> 00:04:11,670
+are actually<font color="#CCCCCC"> useful</font><font color="#E5E5E5"> so for now of course</font>
+
+83
+00:04:11,670 --> 00:04:13,200
+thank you<font color="#E5E5E5"> guys for watching if you</font><font color="#CCCCCC"> have</font>
+
+84
+00:04:13,200 --> 00:04:15,060
+<font color="#CCCCCC">any questions asked</font><font color="#E5E5E5"> me on my forum</font>
+
+85
+00:04:15,060 --> 00:00:00,000
+and I'll see you<font color="#CCCCCC"> next time</font>
+

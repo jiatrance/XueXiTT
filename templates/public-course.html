@@ -1,0 +1,179 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+{% block custom_css %}
+    <link href="https://vjs.zencdn.net/7.0.3/video-js.css" rel="stylesheet">
+{% endblock %}
+{% block title %}公开课{% endblock %}
+{% block breadcrumb %}
+   <li class="breadcrumb-item"><a href="{% url 'index' %}">Home</a></li>
+    <li class="breadcrumb-item">公开课</li>
+{% endblock %}
+{% block content %}
+        <section class="content">
+        <div class="container-fluid">
+
+            <div class="row">
+              <div class="col-md-9">
+                <!-- Custom Tabs -->
+                <div class="card">
+                  <div class="card-header d-flex p-0">
+                    <h3 class="card-title p-3">{{ course.name }}</h3>
+                  </div><!-- /.card-header -->
+                  <div class="card-body">
+                    <div class="row">
+                         <div class="col-md-12">
+                                <div id='mediaspace2' class="mailbox-attachment-icon has-img">This text will be replaced</div>
+                          </div>
+                <!-- ./card -->
+              </div>
+              </div>
+                <div class="card-footer">
+                 <div class="d-flex justify-content-between align-items-center border-bottom mb-3">
+                   <span class="font-weight-bold">
+                      <span class="text-muted">{{ video.name }}</span>
+                     </span>
+                     </div>
+                </div>
+              </div>
+                <div class="card  card-info">
+                      <div class="card-header no-border">
+                        <h3 class="card-title">评论</h3>
+                      </div>
+                  <!-- /.card-body -->
+                <div class="card-footer card-comments">
+                    <ul class="list-group" id="comment-list">
+                        {% for comment in comments %}
+                        <li class="list-group-item">
+                            <div class="card-comment">
+                              <!-- User image -->
+                              <img class="img-circle img-sm" src="{{ MEDIA_URL }}{{ comment.user.image }}" alt="User Image">
+
+                              <div class="comment-text">
+                                <span class="username">
+                                  {{ comment.user.nick_name }}
+                                  <span class="text-muted float-right">{{ comment.add_time|date:'Y-m-d H:i:s' }}</span>
+                                </span><!-- /.username -->
+                                {{ comment.comments }}
+                              </div>
+                              <!-- /.comment-text -->
+                            </div>
+                        </li>
+                        {% endfor %}
+                    </ul>
+                <!-- /.card-comment -->
+                </div>
+                            <!-- /.card-footer -->
+                        <div class="card-footer">
+                        <form action="#" method="post">
+                          <img class="img-fluid img-circle img-sm" src="{{ MEDIA_URL }}{{ request.user.image }}" alt="Alt Text">
+                          <!-- .img-push is used to add margin to elements next to floating images -->
+                          <div class="img-push">
+                              <textarea type="text" id="remark" class="form-control form-control-sm" placeholder="Write comment"></textarea>
+                              <br>
+                            <button type="button" id="add_comment" class="btn btn-default float-right">提交</button>
+                          </div>
+                        </form>
+                </div>
+            </div>
+                    <!-- /.tab-content -->
+              </div>
+                <br>
+              <!-- /.col -->
+             <div class="col-md-3">
+                <div class="card">
+                      <div class="card-header no-border">
+                        <h3 class="card-title">课程列表</h3>
+                      </div>
+                      <div class="card-body">
+                          {% for video in videos %}
+                        <div class="d-flex justify-content-between align-items-center border-bottom mb-3">
+                          <p class="text-info text-lg">
+                            <a href="{% url 'course:video_info' video.id %}">{{ video.name }}</a>
+                          </p>
+                        </div>
+                          {% endfor %}
+                       </div>
+                </div>
+            </div>
+        <!-- /.row -->
+        <!-- END CUSTOM TABS -->
+                </div>
+        </div>
+        </section>
+{% endblock %}
+
+{% block custom_script %}
+    <script src="{% static 'jwplayer/jwplayer.js' %}"></script>
+    <script>jwplayer.key="XbJktrxq5rM9wk2n+fE7Jkg07sbrlT6rMqKU+v9LyOU=";</script>
+<script type='text/javascript'>
+  jwplayer('mediaspace2').setup({
+    playlist: [{
+        flashplayer: '{% static 'jwplayer/jwplayer.flash.swf' %}',
+        fallback: 'true',
+        sources: [{
+                    file: "{{ video.url }}"
+        },{
+            file: ''
+        }],
+         tracks: [{
+                file: "{{ MEDIA_URL }}{{ video.en_subtitle }}",
+                label: "English",
+                kind: "captions",
+                "default": true
+            },{
+                file: "{{ MEDIA_URL }}{{ video.cn_subtitle }}",
+                kind: "captions",
+                label: "中文"
+          }]
+    }],
+    controlbar: 'bottom',
+        width:'100%',
+        aspectratio:"16:9",
+        autostart:true,
+  });
+</script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('#add_comment').click(function () {
+            if ($("#remark").val()==''){
+                alert('跟进信息不能为空')
+                return
+            }
+            remark= $("#remark").val();
+                 $.ajax({
+                  url:"{% url 'course:video_comments'%}",
+                  type:'POST',
+                  data:{
+                      csrfmiddlewaretoken:'{{ csrf_token }}',
+                      comment:remark,
+                      video_id:{{ video.id }}
+                   },
+                   success: function(data) {
+                    if(data.status == 'fail'){
+                        if(data.msg == '用户未登录'){
+                            window.location.href="{% url 'users:login' %}";
+                        }else{
+                            alert(data.msg)
+                        }
+
+                    }else if(data.status == 'success'){
+
+                     var temp= "<li class='list-group-item'>"+
+                            "<div class='card-comment'>"+
+                                '<img class="img-circle img-sm" src="'+ data.img + '" alt="User Image">'+
+                            '<div class="comment-text">'+
+                                '<span class="username">'+data.name+'<span class="text-muted float-right">'+
+                         data.add_time+ '</span>'+'</span>'+
+                          data.comments+'</div>'+
+                            '</div>'+
+                            '</li>';
+
+                      $("#comment-list").prepend(temp);
+                      $("#remark").val('');
+                    }
+                   },
+        })
+    })
+    })
+    </script>
+{% endblock %}

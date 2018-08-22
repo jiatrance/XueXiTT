@@ -1,0 +1,676 @@
+1
+00:00:00,170 --> 00:00:02,190
+<font color="#CCCCCC">alright guys welcome</font><font color="#E5E5E5"> to</font><font color="#CCCCCC"> another video</font>
+
+2
+00:00:02,190 --> 00:00:03,750
+and I'm going<font color="#E5E5E5"> to be teaching you</font><font color="#CCCCCC"> about</font>
+
+3
+00:00:03,750 --> 00:00:06,240
+<font color="#E5E5E5">the for loop in this video pretty much</font>
+
+4
+00:00:06,240 --> 00:00:09,300
+<font color="#E5E5E5">how we can have a huge list and we</font><font color="#CCCCCC"> can</font>
+
+5
+00:00:09,300 --> 00:00:11,610
+loop through<font color="#CCCCCC"> and pretty much do</font>
+
+6
+00:00:11,610 --> 00:00:14,070
+something to one item<font color="#E5E5E5"> at a time without</font>
+
+7
+00:00:14,070 --> 00:00:16,379
+<font color="#E5E5E5">having</font><font color="#CCCCCC"> to</font><font color="#E5E5E5"> write code over</font><font color="#CCCCCC"> and over and</font>
+
+8
+00:00:16,379 --> 00:00:19,260
+<font color="#CCCCCC">over again</font><font color="#E5E5E5"> so</font><font color="#CCCCCC"> you know how in</font><font color="#E5E5E5"> the last</font>
+
+9
+00:00:19,260 --> 00:00:20,880
+<font color="#E5E5E5">couple of videos I showed you guys</font><font color="#CCCCCC"> how</font>
+
+10
+00:00:20,880 --> 00:00:23,519
+<font color="#CCCCCC">to make a list with numbers</font><font color="#E5E5E5"> pretty much</font>
+
+11
+00:00:23,519 --> 00:00:27,570
+you know we did something<font color="#E5E5E5"> like</font><font color="#CCCCCC"> that</font><font color="#E5E5E5"> well</font>
+
+12
+00:00:27,570 --> 00:00:29,670
+in<font color="#E5E5E5"> this video I want to spice things up</font>
+
+13
+00:00:29,670 --> 00:00:31,529
+<font color="#CCCCCC">I'm actually going to</font><font color="#E5E5E5"> be making a list</font>
+
+14
+00:00:31,529 --> 00:00:36,030
+of foods<font color="#CCCCCC"> and of course just</font><font color="#E5E5E5"> like before</font>
+
+15
+00:00:36,030 --> 00:00:39,210
+<font color="#E5E5E5">whenever we have a list of strings</font><font color="#CCCCCC"> the</font>
+
+16
+00:00:39,210 --> 00:00:41,309
+set of<font color="#CCCCCC"> numbers</font><font color="#E5E5E5"> we</font><font color="#CCCCCC"> put them inside square</font>
+
+17
+00:00:41,309 --> 00:00:43,500
+brackets<font color="#E5E5E5"> and of course we need</font><font color="#CCCCCC"> to put</font>
+
+18
+00:00:43,500 --> 00:00:46,559
+every string inside<font color="#CCCCCC"> a quotation mark</font>
+
+19
+00:00:46,559 --> 00:00:49,530
+single quotes<font color="#E5E5E5"> so we'll say that this is</font>
+
+20
+00:00:49,530 --> 00:00:51,680
+just<font color="#CCCCCC"> my grocery list or something and</font>
+
+21
+00:00:51,680 --> 00:00:54,420
+the first item<font color="#E5E5E5"> is bacon and this is</font>
+
+22
+00:00:54,420 --> 00:00:56,070
+actually my grocery list<font color="#E5E5E5"> believe it or</font>
+
+23
+00:00:56,070 --> 00:00:59,129
+not so I need to buy tuna running a
+
+24
+00:00:59,129 --> 00:01:01,260
+<font color="#E5E5E5">little low on that I also</font><font color="#CCCCCC"> need to get</font>
+
+25
+00:01:01,260 --> 00:01:04,530
+<font color="#E5E5E5">some</font><font color="#CCCCCC"> ham oh</font><font color="#E5E5E5"> was that</font><font color="#CCCCCC"> one other thing I</font>
+
+26
+00:01:04,530 --> 00:01:05,720
+<font color="#E5E5E5">needed</font>
+
+27
+00:01:05,720 --> 00:01:09,299
+snausages<font color="#CCCCCC"> and I'm</font><font color="#E5E5E5"> having a party</font><font color="#CCCCCC"> um</font>
+
+28
+00:01:09,299 --> 00:01:12,810
+tomorrow so<font color="#E5E5E5"> I got to grab some beef</font>
+
+29
+00:01:12,810 --> 00:01:16,560
+because<font color="#E5E5E5"> it's a beef party so right now</font>
+
+30
+00:01:16,560 --> 00:01:20,040
+we<font color="#CCCCCC"> have a huge list of items</font><font color="#E5E5E5"> of crap</font>
+
+31
+00:01:20,040 --> 00:01:22,439
+that<font color="#CCCCCC"> I got to pick up pretty much for</font>
+
+32
+00:01:22,439 --> 00:01:25,409
+groceries or just to eat now say that
+
+33
+00:01:25,409 --> 00:01:27,330
+<font color="#E5E5E5">was making a</font><font color="#CCCCCC"> program to print all of</font>
+
+34
+00:01:27,330 --> 00:01:30,869
+<font color="#E5E5E5">these items out one by</font><font color="#CCCCCC"> one well</font><font color="#E5E5E5"> okay</font>
+
+35
+00:01:30,869 --> 00:01:35,040
+print here print oh<font color="#E5E5E5"> okay so print oh my</font>
+
+36
+00:01:35,040 --> 00:01:37,290
+god this is<font color="#E5E5E5"> taken forever would it be</font>
+
+37
+00:01:37,290 --> 00:01:37,860
+<font color="#CCCCCC">awesome</font>
+
+38
+00:01:37,860 --> 00:01:40,170
+<font color="#E5E5E5">if there is an easy way to loop through</font>
+
+39
+00:01:40,170 --> 00:01:45,030
+<font color="#E5E5E5">this and write one bit</font><font color="#CCCCCC"> of code to print</font>
+
+40
+00:01:45,030 --> 00:01:46,470
+<font color="#E5E5E5">each item out one by one</font>
+
+41
+00:01:46,470 --> 00:01:49,740
+oh well lucky<font color="#CCCCCC"> for you guys there</font><font color="#E5E5E5"> is it's</font>
+
+42
+00:01:49,740 --> 00:01:52,829
+called a<font color="#E5E5E5"> for loop now what this does is</font>
+
+43
+00:01:52,829 --> 00:01:55,200
+it basically<font color="#E5E5E5"> takes a list and allows you</font>
+
+44
+00:01:55,200 --> 00:01:58,560
+to<font color="#E5E5E5"> treat each item</font><font color="#CCCCCC"> individually</font><font color="#E5E5E5"> and do</font>
+
+45
+00:01:58,560 --> 00:02:03,840
+<font color="#E5E5E5">anything you want with</font><font color="#CCCCCC"> it</font><font color="#E5E5E5"> so since these</font>
+
+46
+00:02:03,840 --> 00:02:05,280
+items are going<font color="#E5E5E5"> to change</font>
+
+47
+00:02:05,280 --> 00:02:08,429
+bacon tuna ham<font color="#CCCCCC"> you just can't make five</font>
+
+48
+00:02:08,429 --> 00:02:10,080
+different variables or else that<font color="#E5E5E5"> will</font>
+
+49
+00:02:10,080 --> 00:02:12,180
+defeat the purpose<font color="#CCCCCC"> well I could barely</font>
+
+50
+00:02:12,180 --> 00:02:13,830
+say that defeat<font color="#E5E5E5"> the</font>
+
+51
+00:02:13,830 --> 00:02:16,200
+<font color="#CCCCCC">best there you go Bucky</font><font color="#E5E5E5"> so pretty much</font>
+
+52
+00:02:16,200 --> 00:02:17,790
+the first<font color="#E5E5E5"> thing you need</font><font color="#CCCCCC"> right after</font>
+
+53
+00:02:17,790 --> 00:02:20,100
+<font color="#E5E5E5">this for loop is a variable so I'm just</font>
+
+54
+00:02:20,100 --> 00:02:22,230
+<font color="#E5E5E5">going to name my variable</font><font color="#CCCCCC"> f and this</font><font color="#E5E5E5"> is</font>
+
+55
+00:02:22,230 --> 00:02:24,240
+going<font color="#E5E5E5"> to be a placeholder for each</font><font color="#CCCCCC"> item</font>
+
+56
+00:02:24,240 --> 00:02:26,490
+so the first time<font color="#E5E5E5"> it loops</font><font color="#CCCCCC"> F is going to</font>
+
+57
+00:02:26,490 --> 00:02:28,590
+be equal to bacon<font color="#E5E5E5"> the next time F is</font>
+
+58
+00:02:28,590 --> 00:02:32,480
+going<font color="#E5E5E5"> to be equal to tuna F ham so I</font>
+
+59
+00:02:32,480 --> 00:02:35,670
+just said F ham<font color="#E5E5E5"> like I hate here or</font>
+
+60
+00:02:35,670 --> 00:02:36,210
+something
+
+61
+00:02:36,210 --> 00:02:38,760
+but anyways that's what F<font color="#CCCCCC"> does and then</font>
+
+62
+00:02:38,760 --> 00:02:40,320
+we<font color="#E5E5E5"> don't need a bunch</font><font color="#CCCCCC"> of variables</font><font color="#E5E5E5"> we</font>
+
+63
+00:02:40,320 --> 00:02:42,600
+<font color="#CCCCCC">can just use this variable</font><font color="#E5E5E5"> and it's</font>
+
+64
+00:02:42,600 --> 00:02:43,620
+equal to<font color="#E5E5E5"> a bunch of different items</font>
+
+65
+00:02:43,620 --> 00:02:47,190
+<font color="#E5E5E5">pretty handy so the next thing and the</font>
+
+66
+00:02:47,190 --> 00:02:48,360
+<font color="#E5E5E5">only other thing you have to write for</font>
+
+67
+00:02:48,360 --> 00:02:51,360
+<font color="#CCCCCC">the beginning</font><font color="#E5E5E5"> of this loop is what list</font>
+
+68
+00:02:51,360 --> 00:02:53,459
+<font color="#CCCCCC">do you want to loop</font><font color="#E5E5E5"> through well right</font>
+
+69
+00:02:53,459 --> 00:02:55,730
+now we only<font color="#E5E5E5"> have one list called foods</font>
+
+70
+00:02:55,730 --> 00:03:00,959
+so foods<font color="#E5E5E5"> now if you had um a bunch of</font>
+
+71
+00:03:00,959 --> 00:03:03,000
+<font color="#CCCCCC">Lists then just make sure to</font><font color="#E5E5E5"> change it</font>
+
+72
+00:03:03,000 --> 00:03:08,010
+right<font color="#E5E5E5"> there but basically arm</font><font color="#CCCCCC"> I mean</font>
+
+73
+00:03:08,010 --> 00:03:09,540
+this is pretty easy<font color="#CCCCCC"> to understand what's</font>
+
+74
+00:03:09,540 --> 00:03:13,440
+<font color="#CCCCCC">going on it says for</font><font color="#E5E5E5"> F for each item in</font>
+
+75
+00:03:13,440 --> 00:03:15,870
+foods and the item is going<font color="#CCCCCC"> to</font><font color="#E5E5E5"> be named</font>
+
+76
+00:03:15,870 --> 00:03:17,970
+<font color="#E5E5E5">F that's what our variable is name is</font>
+
+77
+00:03:17,970 --> 00:03:20,340
+<font color="#E5E5E5">going to be and then what do you want to</font>
+
+78
+00:03:20,340 --> 00:03:22,170
+do with<font color="#E5E5E5"> it well let's just go ahead and</font>
+
+79
+00:03:22,170 --> 00:03:23,610
+<font color="#CCCCCC">print it</font><font color="#E5E5E5"> out</font><font color="#CCCCCC"> on the</font><font color="#E5E5E5"> screen</font>
+
+80
+00:03:23,610 --> 00:03:26,280
+first and foremost<font color="#E5E5E5"> now let me run this</font>
+
+81
+00:03:26,280 --> 00:03:27,269
+and you guys<font color="#CCCCCC"> are</font><font color="#E5E5E5"> going</font><font color="#CCCCCC"> to see what's</font>
+
+82
+00:03:27,269 --> 00:03:30,900
+<font color="#E5E5E5">going on so right now we have bacon tuna</font>
+
+83
+00:03:30,900 --> 00:03:33,870
+ham sausages in beef<font color="#E5E5E5"> so what it did</font>
+
+84
+00:03:33,870 --> 00:03:35,970
+<font color="#E5E5E5">obviously</font><font color="#CCCCCC"> one more time is it looped</font>
+
+85
+00:03:35,970 --> 00:03:38,610
+through foods<font color="#CCCCCC"> and for each item</font><font color="#E5E5E5"> it</font>
+
+86
+00:03:38,610 --> 00:03:42,000
+treated it as<font color="#CCCCCC"> F and with F we could have</font>
+
+87
+00:03:42,000 --> 00:03:43,590
+done<font color="#E5E5E5"> anything we want to it we just</font>
+
+88
+00:03:43,590 --> 00:03:46,410
+<font color="#CCCCCC">printed</font><font color="#E5E5E5"> it out on the screen simple</font>
+
+89
+00:03:46,410 --> 00:03:49,950
+enough loops are<font color="#CCCCCC"> freakin easy so the</font>
+
+90
+00:03:49,950 --> 00:03:51,330
+only other<font color="#CCCCCC"> thing that I want</font><font color="#E5E5E5"> to talk to</font>
+
+91
+00:03:51,330 --> 00:03:54,540
+you<font color="#E5E5E5"> guys about for now is this you know</font>
+
+92
+00:03:54,540 --> 00:03:56,310
+in the last couple tutorials<font color="#CCCCCC"> I said if</font>
+
+93
+00:03:56,310 --> 00:03:58,260
+you have a if statement<font color="#CCCCCC"> then you put if</font>
+
+94
+00:03:58,260 --> 00:04:00,780
+test up here and then some code after
+
+95
+00:04:00,780 --> 00:04:03,780
+and also<font color="#E5E5E5"> with a loop make your loop and</font>
+
+96
+00:04:03,780 --> 00:04:05,550
+then make the code well I want<font color="#E5E5E5"> to show</font>
+
+97
+00:04:05,550 --> 00:04:07,530
+you guys<font color="#CCCCCC"> that you're not only</font><font color="#E5E5E5"> limited</font><font color="#CCCCCC"> to</font>
+
+98
+00:04:07,530 --> 00:04:10,049
+one line of code<font color="#CCCCCC"> that you can</font><font color="#E5E5E5"> execute</font>
+
+99
+00:04:10,049 --> 00:04:13,320
+you can also do<font color="#E5E5E5"> something else</font><font color="#CCCCCC"> else for</font>
+
+100
+00:04:13,320 --> 00:04:15,870
+each item<font color="#CCCCCC"> on a new line of code so say</font>
+
+101
+00:04:15,870 --> 00:04:17,760
+that not<font color="#E5E5E5"> only what did we want</font><font color="#CCCCCC"> to</font><font color="#E5E5E5"> print</font>
+
+102
+00:04:17,760 --> 00:04:20,668
+out<font color="#E5E5E5"> the name right here but we also</font>
+
+103
+00:04:20,668 --> 00:04:22,440
+<font color="#E5E5E5">wanted to print out how many characters</font>
+
+104
+00:04:22,440 --> 00:04:26,190
+or what so bacon<font color="#E5E5E5"> is</font><font color="#CCCCCC"> five</font><font color="#E5E5E5"> tuna is</font><font color="#CCCCCC"> four</font>
+
+105
+00:04:26,190 --> 00:04:27,210
+<font color="#E5E5E5">ham is</font>
+
+106
+00:04:27,210 --> 00:04:29,669
+<font color="#E5E5E5">three so on and so forth</font><font color="#CCCCCC"> so let's do</font>
+
+107
+00:04:29,669 --> 00:04:32,430
+that<font color="#E5E5E5"> as well so right under your first</font>
+
+108
+00:04:32,430 --> 00:04:34,800
+print statement<font color="#CCCCCC"> add another print</font>
+
+109
+00:04:34,800 --> 00:04:36,539
+statement<font color="#E5E5E5"> and make sure that this is</font>
+
+110
+00:04:36,539 --> 00:04:39,930
+indented the same amount if it's right
+
+111
+00:04:39,930 --> 00:04:41,580
+here it's<font color="#E5E5E5"> going to be outside</font><font color="#CCCCCC"> the loop</font>
+
+112
+00:04:41,580 --> 00:04:44,099
+so make sure it's<font color="#E5E5E5"> indented then</font><font color="#CCCCCC"> it'll be</font>
+
+113
+00:04:44,099 --> 00:04:46,650
+part of<font color="#CCCCCC"> the loop</font><font color="#E5E5E5"> now I know I didn't</font>
+
+114
+00:04:46,650 --> 00:04:48,060
+talk to<font color="#CCCCCC"> you guys about this</font><font color="#E5E5E5"> function yet</font>
+
+115
+00:04:48,060 --> 00:04:49,440
+but whenever you want to print<font color="#E5E5E5"> out the</font>
+
+116
+00:04:49,440 --> 00:04:51,780
+length of something<font color="#E5E5E5"> the function name</font>
+
+117
+00:04:51,780 --> 00:04:54,569
+for that is le n they could have<font color="#CCCCCC"> just</font>
+
+118
+00:04:54,569 --> 00:04:56,729
+wrote<font color="#CCCCCC"> lengths but</font><font color="#E5E5E5"> you know no one</font><font color="#CCCCCC"> has</font>
+
+119
+00:04:56,729 --> 00:04:58,590
+time to write those extra characters<font color="#E5E5E5"> so</font>
+
+120
+00:04:58,590 --> 00:05:01,410
+pretty much that's how you do it<font color="#CCCCCC"> and in</font>
+
+121
+00:05:01,410 --> 00:05:03,270
+the parameters<font color="#E5E5E5"> you just have to tell it</font>
+
+122
+00:05:03,270 --> 00:05:05,340
+what<font color="#CCCCCC"> you want to get the</font><font color="#E5E5E5"> length of well</font>
+
+123
+00:05:05,340 --> 00:05:07,169
+<font color="#E5E5E5">of course</font><font color="#CCCCCC"> F which is going to be the</font>
+
+124
+00:05:07,169 --> 00:05:11,370
+food so now whenever you<font color="#E5E5E5"> run this it</font>
+
+125
+00:05:11,370 --> 00:05:14,460
+goes through your entire list one item
+
+126
+00:05:14,460 --> 00:05:19,099
+at a time<font color="#CCCCCC"> and then it says for</font><font color="#E5E5E5"> each item</font>
+
+127
+00:05:19,099 --> 00:05:22,889
+print out<font color="#E5E5E5"> the name</font><font color="#CCCCCC"> of that item</font><font color="#E5E5E5"> and then</font>
+
+128
+00:05:22,889 --> 00:05:27,650
+print out<font color="#E5E5E5"> the length of that item</font><font color="#CCCCCC"> so</font>
+
+129
+00:05:27,650 --> 00:05:31,500
+<font color="#CCCCCC">pretty sweet so again that saved us a</font>
+
+130
+00:05:31,500 --> 00:05:33,810
+lot<font color="#CCCCCC"> of code</font><font color="#E5E5E5"> if we didn't have this loop</font>
+
+131
+00:05:33,810 --> 00:05:36,750
+then we<font color="#CCCCCC"> would</font><font color="#E5E5E5"> have to write two lines of</font>
+
+132
+00:05:36,750 --> 00:05:40,680
+code<font color="#CCCCCC"> for every single item</font><font color="#E5E5E5"> so instead of</font>
+
+133
+00:05:40,680 --> 00:05:43,229
+<font color="#E5E5E5">ten lines of</font><font color="#CCCCCC"> code we did it</font><font color="#E5E5E5"> in three</font><font color="#CCCCCC"> and</font>
+
+134
+00:05:43,229 --> 00:05:45,539
+this gets even<font color="#CCCCCC"> more useful</font><font color="#E5E5E5"> let's say</font>
+
+135
+00:05:45,539 --> 00:05:47,340
+you're going<font color="#E5E5E5"> through a list of stock</font>
+
+136
+00:05:47,340 --> 00:05:49,979
+<font color="#CCCCCC">information for last</font><font color="#E5E5E5"> 80 years</font><font color="#CCCCCC"> well you</font>
+
+137
+00:05:49,979 --> 00:05:52,229
+<font color="#CCCCCC">don't</font><font color="#E5E5E5"> want to you know</font><font color="#CCCCCC"> write however</font>
+
+138
+00:05:52,229 --> 00:05:54,240
+many thousand lines of<font color="#E5E5E5"> code</font><font color="#CCCCCC"> you</font><font color="#E5E5E5"> can</font><font color="#CCCCCC"> just</font>
+
+139
+00:05:54,240 --> 00:05:57,690
+do<font color="#CCCCCC"> it really quick and efficiently now</font>
+
+140
+00:05:57,690 --> 00:05:59,190
+the only<font color="#E5E5E5"> other thing</font><font color="#CCCCCC"> I want to mention</font>
+
+141
+00:05:59,190 --> 00:06:01,800
+real quick is this you<font color="#E5E5E5"> know how in the</font>
+
+142
+00:06:01,800 --> 00:06:03,330
+last<font color="#E5E5E5"> couple stories I showed you guys</font>
+
+143
+00:06:03,330 --> 00:06:05,610
+<font color="#CCCCCC">how to slice up</font><font color="#E5E5E5"> a list well you can do</font>
+
+144
+00:06:05,610 --> 00:06:07,650
+the same thing<font color="#E5E5E5"> whenever you're looping</font>
+
+145
+00:06:07,650 --> 00:06:11,520
+<font color="#E5E5E5">so by</font><font color="#CCCCCC"> default when you</font><font color="#E5E5E5"> say for F and</font>
+
+146
+00:06:11,520 --> 00:06:13,919
+<font color="#CCCCCC">Foods it's going to say</font><font color="#E5E5E5"> okay so you want</font>
+
+147
+00:06:13,919 --> 00:06:16,080
+me<font color="#CCCCCC"> to go through</font><font color="#E5E5E5"> the entire</font><font color="#CCCCCC"> list start</font>
+
+148
+00:06:16,080 --> 00:06:16,710
+at<font color="#E5E5E5"> the beginning</font>
+
+149
+00:06:16,710 --> 00:06:19,380
+stop at<font color="#CCCCCC"> the end well you can also loop</font>
+
+150
+00:06:19,380 --> 00:06:21,990
+through<font color="#E5E5E5"> on a slice of</font><font color="#CCCCCC"> that list by</font>
+
+151
+00:06:21,990 --> 00:06:25,860
+putting something like<font color="#CCCCCC"> this : - now what</font>
+
+152
+00:06:25,860 --> 00:06:29,159
+<font color="#E5E5E5">this would mean</font><font color="#CCCCCC"> is okay</font><font color="#E5E5E5"> for foods loop</font>
+
+153
+00:06:29,159 --> 00:06:31,500
+through the items<font color="#E5E5E5"> start at the beginning</font>
+
+154
+00:06:31,500 --> 00:06:35,090
+<font color="#E5E5E5">and stop</font>
+
+155
+00:06:35,090 --> 00:06:36,980
+at<font color="#E5E5E5"> position number</font><font color="#CCCCCC"> two so it's pretty</font>
+
+156
+00:06:36,980 --> 00:06:40,930
+much<font color="#CCCCCC"> just going</font><font color="#E5E5E5"> to do bacon and tuna</font>
+
+157
+00:06:40,930 --> 00:06:44,590
+right there so again most<font color="#E5E5E5"> of</font><font color="#CCCCCC"> the</font><font color="#E5E5E5"> time</font>
+
+158
+00:06:44,590 --> 00:06:46,790
+<font color="#E5E5E5">whenever you're making loops you're just</font>
+
+159
+00:06:46,790 --> 00:06:48,140
+going<font color="#E5E5E5"> to loop through</font><font color="#CCCCCC"> the entire thing</font>
+
+160
+00:06:48,140 --> 00:06:50,810
+<font color="#CCCCCC">but I also wanted to tell you guys that</font>
+
+161
+00:06:50,810 --> 00:06:52,910
+option<font color="#E5E5E5"> just in case you ever need to</font>
+
+162
+00:06:52,910 --> 00:06:55,610
+loop through<font color="#E5E5E5"> a certain portion or slice</font>
+
+163
+00:06:55,610 --> 00:06:59,390
+of the list<font color="#E5E5E5"> so I know that was kind of a</font>
+
+164
+00:06:59,390 --> 00:07:01,610
+lot<font color="#CCCCCC"> to take in</font><font color="#E5E5E5"> but pretty simple once</font>
+
+165
+00:07:01,610 --> 00:07:03,050
+you<font color="#E5E5E5"> break it down into</font><font color="#CCCCCC"> pieces and</font>
+
+166
+00:07:03,050 --> 00:07:05,120
+finally<font color="#CCCCCC"> start to understand it so for</font>
+
+167
+00:07:05,120 --> 00:07:06,590
+now<font color="#E5E5E5"> thank you guys for watching we're</font>
+
+168
+00:07:06,590 --> 00:07:07,820
+going<font color="#CCCCCC"> to subscribe and I'll see</font><font color="#E5E5E5"> you</font><font color="#CCCCCC"> guys</font>
+
+169
+00:07:07,820 --> 00:00:00,000
+in<font color="#E5E5E5"> the next video</font>
+

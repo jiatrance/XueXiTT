@@ -1,0 +1,340 @@
+1
+00:00:00,060 --> 00:00:02,909
+all right<font color="#E5E5E5"> Hoss says listen</font><font color="#CCCCCC"> up</font><font color="#E5E5E5"> in this</font>
+
+2
+00:00:02,909 --> 00:00:06,410
+<font color="#E5E5E5">video we got to learn about the</font><font color="#CCCCCC"> word</font>
+
+3
+00:00:06,410 --> 00:00:09,150
+<font color="#CCCCCC">continued now I actually told</font><font color="#E5E5E5"> you guys</font>
+
+4
+00:00:09,150 --> 00:00:10,679
+that I<font color="#CCCCCC"> was going to</font><font color="#E5E5E5"> teach us in</font><font color="#CCCCCC"> the last</font>
+
+5
+00:00:10,679 --> 00:00:13,009
+video<font color="#CCCCCC"> but then I got rambling on about</font>
+
+6
+00:00:13,009 --> 00:00:15,240
+comments and probably something<font color="#CCCCCC"> else</font>
+
+7
+00:00:15,240 --> 00:00:17,460
+<font color="#E5E5E5">stupid</font><font color="#CCCCCC"> so we'll go ahead and learn</font><font color="#E5E5E5"> about</font>
+
+8
+00:00:17,460 --> 00:00:21,150
+<font color="#E5E5E5">continue in this</font><font color="#CCCCCC"> tutorial</font><font color="#E5E5E5"> so what I want</font>
+
+9
+00:00:21,150 --> 00:00:23,430
+<font color="#E5E5E5">to do is I want to make</font><font color="#CCCCCC"> a list</font><font color="#E5E5E5"> a real</font>
+
+10
+00:00:23,430 --> 00:00:26,490
+quick<font color="#E5E5E5"> and I'm going</font><font color="#CCCCCC"> to name it numbers</font>
+
+11
+00:00:26,490 --> 00:00:29,010
+taken<font color="#E5E5E5"> and of course I always like</font><font color="#CCCCCC"> to</font>
+
+12
+00:00:29,010 --> 00:00:30,599
+pretend like<font color="#E5E5E5"> I'm the coach</font><font color="#CCCCCC"> of a hockey</font>
+
+13
+00:00:30,599 --> 00:00:33,600
+team<font color="#E5E5E5"> that's like my little</font><font color="#CCCCCC"> arm</font><font color="#E5E5E5"> dream in</font>
+
+14
+00:00:33,600 --> 00:00:34,980
+<font color="#CCCCCC">life I'm the coach of</font><font color="#E5E5E5"> the hockey team</font>
+
+15
+00:00:34,980 --> 00:00:38,610
+coaching<font color="#CCCCCC"> Team</font><font color="#E5E5E5"> USA and we beat Russia at</font>
+
+16
+00:00:38,610 --> 00:00:42,210
+the<font color="#CCCCCC"> I</font><font color="#E5E5E5"> don't</font><font color="#CCCCCC"> know like</font><font color="#E5E5E5"> 20,000 something</font>
+
+17
+00:00:42,210 --> 00:00:44,489
+Olympics<font color="#CCCCCC"> so anyways that's</font><font color="#E5E5E5"> my dream</font>
+
+18
+00:00:44,489 --> 00:00:47,719
+<font color="#E5E5E5">let's get back to</font><font color="#CCCCCC"> real-life tutorials so</font>
+
+19
+00:00:47,719 --> 00:00:52,199
+all of these numbers resemble people on
+
+20
+00:00:52,199 --> 00:00:57,870
+my team<font color="#E5E5E5"> their jersey number so of course</font>
+
+21
+00:00:57,870 --> 00:01:00,570
+what I want to do is I want to make<font color="#CCCCCC"> a</font>
+
+22
+00:01:00,570 --> 00:01:03,059
+<font color="#CCCCCC">program to loop</font><font color="#E5E5E5"> through and it pretty</font>
+
+23
+00:01:03,059 --> 00:01:05,580
+much<font color="#E5E5E5"> says what jerseys you are allowed</font>
+
+24
+00:01:05,580 --> 00:01:07,920
+<font color="#E5E5E5">to have still so we'll make like a list</font>
+
+25
+00:01:07,920 --> 00:01:09,990
+from<font color="#E5E5E5"> 1 to 50 and it will include all of</font>
+
+26
+00:01:09,990 --> 00:01:13,439
+<font color="#E5E5E5">the numbers except these ones easy</font>
+
+27
+00:01:13,439 --> 00:01:17,520
+<font color="#E5E5E5">enough</font><font color="#CCCCCC"> so what I can</font><font color="#E5E5E5"> do is</font><font color="#CCCCCC"> a let</font><font color="#E5E5E5"> me give</font>
+
+28
+00:01:17,520 --> 00:01:19,070
+you<font color="#CCCCCC"> guys just a little</font><font color="#E5E5E5"> print statement</font>
+
+29
+00:01:19,070 --> 00:01:25,220
+<font color="#CCCCCC">here are the numbers that</font><font color="#E5E5E5"> are still</font>
+
+30
+00:01:25,220 --> 00:01:28,590
+<font color="#E5E5E5">available so</font><font color="#CCCCCC"> all the players</font><font color="#E5E5E5"> who haven't</font>
+
+31
+00:01:28,590 --> 00:01:30,659
+picked jersey yet can see this<font color="#CCCCCC"> program</font>
+
+32
+00:01:30,659 --> 00:01:34,110
+<font color="#CCCCCC">and pick a number from</font><font color="#E5E5E5"> this list so</font><font color="#CCCCCC"> of</font>
+
+33
+00:01:34,110 --> 00:01:36,479
+course the first<font color="#CCCCCC"> thing we do is put 4 n</font>
+
+34
+00:01:36,479 --> 00:01:40,500
+in<font color="#CCCCCC"> range and</font><font color="#E5E5E5"> I'll just put the numbers 1</font>
+
+35
+00:01:40,500 --> 00:01:43,049
+<font color="#CCCCCC">250 actually let</font><font color="#E5E5E5"> me change</font><font color="#CCCCCC"> that</font><font color="#E5E5E5"> to 20</font>
+
+36
+00:01:43,049 --> 00:01:45,210
+<font color="#CCCCCC">it'll be easier to</font><font color="#E5E5E5"> see I'll change this</font>
+
+37
+00:01:45,210 --> 00:01:48,899
+<font color="#E5E5E5">to like 13 so of course this is</font><font color="#CCCCCC"> going to</font>
+
+38
+00:01:48,899 --> 00:01:51,360
+loop<font color="#E5E5E5"> through the numbers 1 to 19 and</font>
+
+39
+00:01:51,360 --> 00:01:53,729
+I'll just make a simple<font color="#E5E5E5"> if statement</font><font color="#CCCCCC"> so</font>
+
+40
+00:01:53,729 --> 00:01:58,890
+if<font color="#CCCCCC"> n</font><font color="#E5E5E5"> in numbers taken and let me write</font>
+
+41
+00:01:58,890 --> 00:02:00,840
+<font color="#E5E5E5">this entire programs and then I'll</font>
+
+42
+00:02:00,840 --> 00:02:05,880
+<font color="#E5E5E5">explain to you</font><font color="#CCCCCC"> guys</font><font color="#E5E5E5"> what it does all</font>
+
+43
+00:02:05,880 --> 00:02:07,150
+<font color="#CCCCCC">right</font>
+
+44
+00:02:07,150 --> 00:02:10,030
+so as you can see what's<font color="#CCCCCC"> going to happen</font>
+
+45
+00:02:10,030 --> 00:02:12,100
+is it's going<font color="#E5E5E5"> to loop</font><font color="#CCCCCC"> through the</font>
+
+46
+00:02:12,100 --> 00:02:16,480
+numbers 1 to 20<font color="#CCCCCC"> and it's going to print</font>
+
+47
+00:02:16,480 --> 00:02:18,370
+all of<font color="#CCCCCC"> the numbers except for the ones</font>
+
+48
+00:02:18,370 --> 00:02:21,340
+in<font color="#E5E5E5"> this list right</font><font color="#CCCCCC"> here so 1 it's going</font>
+
+49
+00:02:21,340 --> 00:02:23,200
+<font color="#CCCCCC">to check of twos</font><font color="#E5E5E5"> in there and if it does</font>
+
+50
+00:02:23,200 --> 00:02:25,870
+it's going<font color="#CCCCCC"> to skip it so that's how</font><font color="#E5E5E5"> you</font>
+
+51
+00:02:25,870 --> 00:02:29,260
+can kind<font color="#CCCCCC"> of</font><font color="#E5E5E5"> think of continued so unlike</font>
+
+52
+00:02:29,260 --> 00:02:32,500
+break whenever you know that whenever
+
+53
+00:02:32,500 --> 00:02:34,210
+you have<font color="#E5E5E5"> break it breaks out of the loop</font>
+
+54
+00:02:34,210 --> 00:02:37,960
+completely<font color="#E5E5E5"> and stops the</font><font color="#CCCCCC"> entire loop</font>
+
+55
+00:02:37,960 --> 00:02:41,320
+<font color="#E5E5E5">what continue is going to do it says</font><font color="#CCCCCC"> ok</font>
+
+56
+00:02:41,320 --> 00:02:43,900
+<font color="#E5E5E5">whenever you get to this word continue</font>
+
+57
+00:02:43,900 --> 00:02:47,020
+<font color="#E5E5E5">whatever is</font><font color="#CCCCCC"> after this</font><font color="#E5E5E5"> in the loop just</font>
+
+58
+00:02:47,020 --> 00:02:50,170
+skip it<font color="#E5E5E5"> and go</font><font color="#CCCCCC"> to the</font><font color="#E5E5E5"> next iteration of</font>
+
+59
+00:02:50,170 --> 00:02:53,140
+the loop<font color="#CCCCCC"> so if something was after</font><font color="#E5E5E5"> it it</font>
+
+60
+00:02:53,140 --> 00:02:54,490
+wouldn't break out of<font color="#E5E5E5"> the loop</font>
+
+61
+00:02:54,490 --> 00:02:56,530
+completely and stop the loop<font color="#E5E5E5"> it would</font>
+
+62
+00:02:56,530 --> 00:02:57,670
+keep<font color="#E5E5E5"> going</font>
+
+63
+00:02:57,670 --> 00:02:59,440
+<font color="#CCCCCC">it would</font><font color="#E5E5E5"> just skip what's ever after it</font>
+
+64
+00:02:59,440 --> 00:03:03,100
+so just just kind<font color="#CCCCCC"> of explain a couple</font><font color="#E5E5E5"> of</font>
+
+65
+00:03:03,100 --> 00:03:07,000
+<font color="#E5E5E5">these loops so the first time N equals</font><font color="#CCCCCC"> 1</font>
+
+66
+00:03:07,000 --> 00:03:10,750
+<font color="#E5E5E5">so says is 1 in the numbers</font><font color="#CCCCCC"> taken nope</font>
+
+67
+00:03:10,750 --> 00:03:13,660
+<font color="#CCCCCC">so I'm</font><font color="#E5E5E5"> going to print out one next time</font>
+
+68
+00:03:13,660 --> 00:03:17,230
+<font color="#CCCCCC">n equals 2 is 2</font><font color="#E5E5E5"> and the numbers taken</font>
+
+69
+00:03:17,230 --> 00:03:21,310
+well yes it<font color="#CCCCCC"> is</font><font color="#E5E5E5"> so continue what does</font>
+
+70
+00:03:21,310 --> 00:03:24,220
+that mean it means anything<font color="#E5E5E5"> after this</font>
+
+71
+00:03:24,220 --> 00:03:26,920
+say<font color="#E5E5E5"> maybe we had a bunch of lines it</font>
+
+72
+00:03:26,920 --> 00:03:29,980
+said skip all<font color="#CCCCCC"> of these then just go back</font>
+
+73
+00:03:29,980 --> 00:03:33,940
+<font color="#CCCCCC">to the start of</font><font color="#E5E5E5"> the loop where N equals</font>
+
+74
+00:03:33,940 --> 00:03:37,239
+the<font color="#E5E5E5"> next number in this case 3 oops</font><font color="#CCCCCC"> to</font>
+
+75
+00:03:37,239 --> 00:03:40,959
+<font color="#CCCCCC">leave the extra</font><font color="#E5E5E5"> line there</font><font color="#CCCCCC"> so again real</font>
+
+76
+00:03:40,959 --> 00:03:44,020
+simple<font color="#E5E5E5"> will continue means is keep</font><font color="#CCCCCC"> going</font>
+
+77
+00:03:44,020 --> 00:03:45,910
+with<font color="#CCCCCC"> the loop but skip anything after it</font>
+
+78
+00:03:45,910 --> 00:03:47,800
+<font color="#E5E5E5">and break means break out</font><font color="#CCCCCC"> of the</font><font color="#E5E5E5"> loop</font>
+
+79
+00:03:47,800 --> 00:03:50,920
+completely stop it and continue with<font color="#CCCCCC"> the</font>
+
+80
+00:03:50,920 --> 00:03:52,720
+<font color="#E5E5E5">rest of your code</font><font color="#CCCCCC"> so hopefully you guys</font>
+
+81
+00:03:52,720 --> 00:03:54,190
+understand and I was<font color="#CCCCCC"> actually</font><font color="#E5E5E5"> going to</font>
+
+82
+00:03:54,190 --> 00:03:55,720
+<font color="#E5E5E5">teach you about functions in this story</font>
+
+83
+00:03:55,720 --> 00:03:58,450
+<font color="#E5E5E5">but I</font><font color="#CCCCCC"> think we're out</font><font color="#E5E5E5"> of time</font><font color="#CCCCCC"> so well</font>
+
+84
+00:03:58,450 --> 00:03:59,500
+thank you guys<font color="#E5E5E5"> for watching and don't</font>
+
+85
+00:03:59,500 --> 00:00:00,000
+forget to<font color="#E5E5E5"> subscribe and see</font><font color="#CCCCCC"> you later</font>
+

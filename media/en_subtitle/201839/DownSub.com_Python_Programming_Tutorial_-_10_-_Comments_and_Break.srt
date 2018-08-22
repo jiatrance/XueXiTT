@@ -1,0 +1,896 @@
+1
+00:00:00,089 --> 00:00:02,040
+<font color="#CCCCCC">alright guys</font><font color="#E5E5E5"> welcome back in this video</font>
+
+2
+00:00:02,040 --> 00:00:04,200
+<font color="#E5E5E5">I'm going to talk to you about two key</font>
+
+3
+00:00:04,200 --> 00:00:04,710
+<font color="#E5E5E5">words</font>
+
+4
+00:00:04,710 --> 00:00:08,730
+the first one is break and the second
+
+5
+00:00:08,730 --> 00:00:12,090
+one is<font color="#E5E5E5"> continue and these are actually</font>
+
+6
+00:00:12,090 --> 00:00:13,469
+some<font color="#E5E5E5"> cool</font><font color="#CCCCCC"> keywords that</font><font color="#E5E5E5"> we can put</font>
+
+7
+00:00:13,469 --> 00:00:16,560
+inside<font color="#CCCCCC"> a loop to make</font><font color="#E5E5E5"> the loop do some</font>
+
+8
+00:00:16,560 --> 00:00:19,740
+cool things<font color="#CCCCCC"> so for this example</font><font color="#E5E5E5"> we're</font>
+
+9
+00:00:19,740 --> 00:00:21,570
+<font color="#CCCCCC">going</font><font color="#E5E5E5"> to be building a very basic game</font>
+
+10
+00:00:21,570 --> 00:00:25,800
+magic<font color="#E5E5E5"> number and set the number equal</font><font color="#CCCCCC"> to</font>
+
+11
+00:00:25,800 --> 00:00:27,930
+anything from<font color="#CCCCCC"> 0 to</font><font color="#E5E5E5"> 100 I'm going</font><font color="#CCCCCC"> to</font><font color="#E5E5E5"> set</font>
+
+12
+00:00:27,930 --> 00:00:30,840
+mine equal to 26 so we'll say that<font color="#CCCCCC"> the</font>
+
+13
+00:00:30,840 --> 00:00:33,180
+<font color="#E5E5E5">computer gave us this magic number</font><font color="#CCCCCC"> we</font>
+
+14
+00:00:33,180 --> 00:00:35,040
+didn't know what<font color="#E5E5E5"> it was let's just</font>
+
+15
+00:00:35,040 --> 00:00:36,660
+pretend<font color="#E5E5E5"> that we can't</font><font color="#CCCCCC"> obviously see that</font>
+
+16
+00:00:36,660 --> 00:00:38,879
+<font color="#CCCCCC">it's 26 all right now but we'll say it</font>
+
+17
+00:00:38,879 --> 00:00:41,100
+gave us<font color="#E5E5E5"> a number and we have to build a</font>
+
+18
+00:00:41,100 --> 00:00:43,739
+loop to run through the<font color="#E5E5E5"> numbers once 100</font>
+
+19
+00:00:43,739 --> 00:00:46,590
+and see if our number<font color="#E5E5E5"> equals the magic</font>
+
+20
+00:00:46,590 --> 00:00:48,239
+number<font color="#CCCCCC"> pretty</font><font color="#E5E5E5"> much find the magic number</font>
+
+21
+00:00:48,239 --> 00:00:51,930
+<font color="#E5E5E5">so we decide to first build a loop so</font>
+
+22
+00:00:51,930 --> 00:00:54,149
+we're going to make<font color="#CCCCCC"> a loop tree each</font>
+
+23
+00:00:54,149 --> 00:00:58,920
+number<font color="#CCCCCC"> is n</font><font color="#E5E5E5"> and since we're looping</font>
+
+24
+00:00:58,920 --> 00:01:01,559
+through 100 numbers<font color="#E5E5E5"> we</font><font color="#CCCCCC"> want to stop at</font>
+
+25
+00:01:01,559 --> 00:01:05,670
+101<font color="#E5E5E5"> this is going to give</font><font color="#CCCCCC"> us 0 to 100 so</font>
+
+26
+00:01:05,670 --> 00:01:07,200
+pretty much we're going<font color="#E5E5E5"> to loop</font><font color="#CCCCCC"> through</font>
+
+27
+00:01:07,200 --> 00:01:10,470
+this<font color="#E5E5E5"> and n is going to be something from</font>
+
+28
+00:01:10,470 --> 00:01:13,920
+0 to 100 well now we want to test<font color="#E5E5E5"> if n</font>
+
+29
+00:01:13,920 --> 00:01:17,970
+is the<font color="#CCCCCC"> magic number so we make an if</font>
+
+30
+00:01:17,970 --> 00:01:22,250
+statement inside<font color="#E5E5E5"> the loop so if n is</font>
+
+31
+00:01:22,250 --> 00:01:26,729
+magic number<font color="#CCCCCC"> then</font><font color="#E5E5E5"> that means that we</font>
+
+32
+00:01:26,729 --> 00:01:29,189
+<font color="#CCCCCC">found the</font><font color="#E5E5E5"> magic number so what do we</font>
+
+33
+00:01:29,189 --> 00:01:30,990
+<font color="#CCCCCC">want to do whenever</font><font color="#E5E5E5"> we actually find the</font>
+
+34
+00:01:30,990 --> 00:01:33,110
+magic number well we can<font color="#CCCCCC"> just print</font><font color="#E5E5E5"> out</font>
+
+35
+00:01:33,110 --> 00:01:36,720
+print<font color="#E5E5E5"> and I want to show you guys</font>
+
+36
+00:01:36,720 --> 00:01:38,909
+something real quick<font color="#E5E5E5"> so this doesn't</font>
+
+37
+00:01:38,909 --> 00:01:43,320
+confuse you and don't mind<font color="#E5E5E5"> what I'm</font>
+
+38
+00:01:43,320 --> 00:01:44,880
+doing with<font color="#E5E5E5"> these little quotes right now</font>
+
+39
+00:01:44,880 --> 00:01:50,229
+basically<font color="#CCCCCC"> I'll</font><font color="#E5E5E5"> tell you guys</font><font color="#CCCCCC"> all</font><font color="#E5E5E5"> right</font>
+
+40
+00:01:50,229 --> 00:01:54,430
+so let<font color="#E5E5E5"> me show you</font>
+
+41
+00:01:54,430 --> 00:01:56,289
+<font color="#E5E5E5">Oh correct I keep like thinking</font><font color="#CCCCCC"> of more</font>
+
+42
+00:01:56,289 --> 00:01:58,810
+except to tell you so<font color="#E5E5E5"> right now</font>
+
+43
+00:01:58,810 --> 00:02:01,000
+your computer<font color="#CCCCCC"> is going to read every</font>
+
+44
+00:02:01,000 --> 00:02:03,880
+<font color="#E5E5E5">single line every single line of code</font>
+
+45
+00:02:03,880 --> 00:02:05,530
+<font color="#CCCCCC">and it's going</font><font color="#E5E5E5"> to execute it</font>
+
+46
+00:02:05,530 --> 00:02:06,850
+<font color="#E5E5E5">right here it's going to set a variable</font>
+
+47
+00:02:06,850 --> 00:02:08,949
+<font color="#E5E5E5">equal</font><font color="#CCCCCC"> to some number so on and so forth</font>
+
+48
+00:02:08,949 --> 00:02:11,709
+<font color="#E5E5E5">however sometimes you're going to want</font>
+
+49
+00:02:11,709 --> 00:02:13,900
+to add little notes in your<font color="#E5E5E5"> code and</font>
+
+50
+00:02:13,900 --> 00:02:17,019
+<font color="#E5E5E5">these are just notes for developers and</font>
+
+51
+00:02:17,019 --> 00:02:19,840
+people<font color="#E5E5E5"> to read just like um you know</font>
+
+52
+00:02:19,840 --> 00:02:21,340
+little notes that<font color="#CCCCCC"> you want the computer</font>
+
+53
+00:02:21,340 --> 00:02:23,799
+<font color="#CCCCCC">to ignore and not</font><font color="#E5E5E5"> execute but you need</font>
+
+54
+00:02:23,799 --> 00:02:26,440
+to have just<font color="#CCCCCC"> so other developers and</font>
+
+55
+00:02:26,440 --> 00:02:28,360
+<font color="#E5E5E5">your</font><font color="#CCCCCC"> co-workers can understand your code</font>
+
+56
+00:02:28,360 --> 00:02:30,849
+<font color="#E5E5E5">this is called a comment now whenever</font>
+
+57
+00:02:30,849 --> 00:02:32,819
+<font color="#E5E5E5">you make a comment on</font><font color="#CCCCCC"> a single line</font><font color="#E5E5E5"> um</font>
+
+58
+00:02:32,819 --> 00:02:38,290
+you can<font color="#CCCCCC"> just write amp</font><font color="#E5E5E5"> or hashtag the</font>
+
+59
+00:02:38,290 --> 00:02:40,660
+thing above<font color="#E5E5E5"> the three and write any</font>
+
+60
+00:02:40,660 --> 00:02:43,440
+<font color="#E5E5E5">comment you</font><font color="#CCCCCC"> want like</font><font color="#E5E5E5"> okay this program</font>
+
+61
+00:02:43,440 --> 00:02:47,470
+finds a magic number<font color="#E5E5E5"> so now we can</font>
+
+62
+00:02:47,470 --> 00:02:49,510
+execute this<font color="#E5E5E5"> program and you'll never</font>
+
+63
+00:02:49,510 --> 00:02:52,150
+read up whenever<font color="#E5E5E5"> we do whenever it gets</font>
+
+64
+00:02:52,150 --> 00:02:53,500
+to this comment<font color="#E5E5E5"> it's pretty much going</font>
+
+65
+00:02:53,500 --> 00:02:55,989
+to<font color="#E5E5E5"> skip over it so again it's a way of</font>
+
+66
+00:02:55,989 --> 00:02:59,680
+<font color="#E5E5E5">adding a line of code for people that</font>
+
+67
+00:02:59,680 --> 00:03:03,150
+your computer skips over now this
+
+68
+00:03:03,150 --> 00:03:05,829
+hashtag<font color="#E5E5E5"> right here or number sign is</font>
+
+69
+00:03:05,829 --> 00:03:08,920
+only<font color="#E5E5E5"> for one line now I want to show you</font>
+
+70
+00:03:08,920 --> 00:03:12,700
+guys<font color="#CCCCCC"> another example so what I want</font><font color="#E5E5E5"> to</font>
+
+71
+00:03:12,700 --> 00:03:14,470
+do is I want<font color="#CCCCCC"> to ignore all of</font><font color="#E5E5E5"> these</font>
+
+72
+00:03:14,470 --> 00:03:16,660
+lines<font color="#E5E5E5"> so</font><font color="#CCCCCC"> what I can do is I can add a</font>
+
+73
+00:03:16,660 --> 00:03:18,959
+<font color="#E5E5E5">hashtag at the beginning of every one</font>
+
+74
+00:03:18,959 --> 00:03:21,639
+but<font color="#E5E5E5"> whenever we have a bunch of lines of</font>
+
+75
+00:03:21,639 --> 00:03:24,220
+code it can<font color="#CCCCCC"> get kind of</font><font color="#E5E5E5"> confusing so if</font>
+
+76
+00:03:24,220 --> 00:03:27,880
+you want to<font color="#E5E5E5"> add a multi-line comment put</font>
+
+77
+00:03:27,880 --> 00:03:30,790
+three little single quotes where it
+
+78
+00:03:30,790 --> 00:03:34,000
+starts<font color="#CCCCCC"> and three</font><font color="#E5E5E5"> little single quotes</font>
+
+79
+00:03:34,000 --> 00:03:38,560
+where it ends<font color="#E5E5E5"> so again this is</font><font color="#CCCCCC"> just</font>
+
+80
+00:03:38,560 --> 00:03:41,799
+because I wrote a<font color="#E5E5E5"> piece of code and um I</font>
+
+81
+00:03:41,799 --> 00:03:43,450
+go oh yeah I got<font color="#E5E5E5"> to teach</font><font color="#CCCCCC"> you something</font>
+
+82
+00:03:43,450 --> 00:03:43,750
+else
+
+83
+00:03:43,750 --> 00:03:46,180
+so I don't want to run this yet<font color="#E5E5E5"> so now</font>
+
+84
+00:03:46,180 --> 00:03:48,760
+whenever I run this what our<font color="#E5E5E5"> computer</font>
+
+85
+00:03:48,760 --> 00:03:50,829
+does is<font color="#CCCCCC"> it basically</font><font color="#E5E5E5"> just runs this line</font>
+
+86
+00:03:50,829 --> 00:03:53,049
+and ignores<font color="#E5E5E5"> everything else so again</font>
+
+87
+00:03:53,049 --> 00:03:55,389
+that's<font color="#E5E5E5"> your little mini tutorial on</font>
+
+88
+00:03:55,389 --> 00:03:57,790
+comments<font color="#E5E5E5"> now here's the thing I wanted</font>
+
+89
+00:03:57,790 --> 00:04:00,250
+<font color="#E5E5E5">to teach you you know how I told you</font>
+
+90
+00:04:00,250 --> 00:04:01,360
+guys that<font color="#E5E5E5"> you</font><font color="#CCCCCC"> can pretty much add</font>
+
+91
+00:04:01,360 --> 00:04:04,980
+together numbers like<font color="#E5E5E5"> 5</font><font color="#CCCCCC"> plus</font><font color="#E5E5E5"> 4</font>
+
+92
+00:04:04,980 --> 00:04:07,569
+print<font color="#E5E5E5"> out the answer and you can also</font>
+
+93
+00:04:07,569 --> 00:04:12,930
+add together strings like Bucky<font color="#CCCCCC"> +</font>
+
+94
+00:04:13,530 --> 00:04:16,298
+Roberts<font color="#E5E5E5"> and whenever you add together</font>
+
+95
+00:04:16,298 --> 00:04:17,079
+strings
+
+96
+00:04:17,079 --> 00:04:19,180
+it's called concatenating a string it
+
+97
+00:04:19,180 --> 00:04:22,240
+pretty much um takes two strings and
+
+98
+00:04:22,240 --> 00:04:23,080
+puts them together
+
+99
+00:04:23,080 --> 00:04:26,650
+well<font color="#CCCCCC"> what if you</font><font color="#E5E5E5"> wanted to do something</font>
+
+100
+00:04:26,650 --> 00:04:27,610
+like<font color="#E5E5E5"> this</font>
+
+101
+00:04:27,610 --> 00:04:32,680
+Bucky<font color="#CCCCCC"> plus</font><font color="#E5E5E5"> for some reason you wanted</font><font color="#CCCCCC"> to</font>
+
+102
+00:04:32,680 --> 00:04:35,440
+write Bucky<font color="#CCCCCC"> 9</font><font color="#E5E5E5"> instead of Bucky Roberts</font>
+
+103
+00:04:35,440 --> 00:04:38,139
+<font color="#E5E5E5">well whenever we try to run this check</font>
+
+104
+00:04:38,139 --> 00:04:39,220
+<font color="#E5E5E5">out what's</font><font color="#CCCCCC"> going to happen we're going</font>
+
+105
+00:04:39,220 --> 00:04:40,870
+to<font color="#E5E5E5"> get an error and</font><font color="#CCCCCC"> that's because it</font>
+
+106
+00:04:40,870 --> 00:04:42,759
+says<font color="#CCCCCC"> ok</font><font color="#E5E5E5"> whenever</font><font color="#CCCCCC"> I add strings together</font>
+
+107
+00:04:42,759 --> 00:04:44,349
+<font color="#E5E5E5">just stick them together in a one big</font>
+
+108
+00:04:44,349 --> 00:04:46,180
+string<font color="#CCCCCC"> whenever</font><font color="#E5E5E5"> I add numbers together</font>
+
+109
+00:04:46,180 --> 00:04:48,639
+just use math but you're trying<font color="#E5E5E5"> to add a</font>
+
+110
+00:04:48,639 --> 00:04:52,360
+string with a number so what the heck
+
+111
+00:04:52,360 --> 00:04:53,919
+and<font color="#E5E5E5"> I was supposed</font><font color="#CCCCCC"> to do</font><font color="#E5E5E5"> you're kind of</font>
+
+112
+00:04:53,919 --> 00:04:55,870
+confusing me<font color="#E5E5E5"> that's why it gives us the</font>
+
+113
+00:04:55,870 --> 00:04:58,690
+error<font color="#E5E5E5"> so now I want to show you guys</font>
+
+114
+00:04:58,690 --> 00:05:01,930
+<font color="#E5E5E5">something else whenever</font><font color="#CCCCCC"> we want to</font><font color="#E5E5E5"> print</font>
+
+115
+00:05:01,930 --> 00:05:04,720
+<font color="#CCCCCC">out a number</font><font color="#E5E5E5"> along</font><font color="#CCCCCC"> with a string</font><font color="#E5E5E5"> what we</font>
+
+116
+00:05:04,720 --> 00:05:07,870
+need to do is<font color="#E5E5E5"> this we need to separate</font>
+
+117
+00:05:07,870 --> 00:05:10,210
+<font color="#E5E5E5">them with a comma</font><font color="#CCCCCC"> instead of a plus</font><font color="#E5E5E5"> sign</font>
+
+118
+00:05:10,210 --> 00:05:14,110
+<font color="#E5E5E5">so</font><font color="#CCCCCC"> plus is for</font><font color="#E5E5E5"> only adding two things of</font>
+
+119
+00:05:14,110 --> 00:05:16,150
+<font color="#CCCCCC">the same data type</font><font color="#E5E5E5"> together</font><font color="#CCCCCC"> if we ever</font>
+
+120
+00:05:16,150 --> 00:05:19,630
+wanted to write<font color="#CCCCCC"> nine Bucky or something</font>
+
+121
+00:05:19,630 --> 00:05:22,210
+like<font color="#E5E5E5"> that</font><font color="#CCCCCC"> just write print nine just</font>
+
+122
+00:05:22,210 --> 00:05:24,310
+like a<font color="#E5E5E5"> number and then print Bucky just</font>
+
+123
+00:05:24,310 --> 00:05:28,090
+as a string now whenever you<font color="#E5E5E5"> run this it</font>
+
+124
+00:05:28,090 --> 00:05:30,669
+prints<font color="#E5E5E5"> nine Bucky so that's how we print</font>
+
+125
+00:05:30,669 --> 00:05:34,560
+out numbers<font color="#E5E5E5"> on the same line as strings</font>
+
+126
+00:05:34,560 --> 00:05:37,690
+<font color="#E5E5E5">simple enough</font><font color="#CCCCCC"> so why am I telling you</font>
+
+127
+00:05:37,690 --> 00:05:37,930
+that
+
+128
+00:05:37,930 --> 00:05:39,490
+well because I was<font color="#E5E5E5"> about</font><font color="#CCCCCC"> to print out a</font>
+
+129
+00:05:39,490 --> 00:05:41,199
+<font color="#E5E5E5">number on the same line is a string</font>
+
+130
+00:05:41,199 --> 00:05:46,900
+obviously so what<font color="#CCCCCC"> I want</font><font color="#E5E5E5"> to do is again</font>
+
+131
+00:05:46,900 --> 00:05:50,199
+<font color="#CCCCCC">we have to remember we have</font><font color="#E5E5E5"> a magic</font>
+
+132
+00:05:50,199 --> 00:05:51,880
+<font color="#CCCCCC">number and looping through all</font><font color="#E5E5E5"> the</font>
+
+133
+00:05:51,880 --> 00:05:54,880
+<font color="#E5E5E5">numbers</font><font color="#CCCCCC"> 0 to 100 until we finally hit</font>
+
+134
+00:05:54,880 --> 00:05:57,130
+<font color="#E5E5E5">the magic number</font><font color="#CCCCCC"> so once we finally</font>
+
+135
+00:05:57,130 --> 00:06:00,150
+found it<font color="#E5E5E5"> print n which is a number</font>
+
+136
+00:06:00,150 --> 00:06:02,680
+<font color="#E5E5E5">remember</font><font color="#CCCCCC"> it's a variable</font><font color="#E5E5E5"> but it's still</font>
+
+137
+00:06:02,680 --> 00:06:04,449
+a number<font color="#E5E5E5"> and then we'll print out</font>
+
+138
+00:06:04,449 --> 00:06:09,270
+<font color="#E5E5E5">something like is the magic number</font>
+
+139
+00:06:10,050 --> 00:06:14,650
+simple enough<font color="#E5E5E5"> now what we can do is we</font>
+
+140
+00:06:14,650 --> 00:06:16,350
+can<font color="#CCCCCC"> just loop through</font><font color="#E5E5E5"> this right now and</font>
+
+141
+00:06:16,350 --> 00:06:19,360
+in the<font color="#E5E5E5"> blink of eye what it did is it</font>
+
+142
+00:06:19,360 --> 00:06:22,270
+<font color="#CCCCCC">loop through 0 1</font><font color="#E5E5E5"> 3</font><font color="#CCCCCC"> 3 4</font><font color="#E5E5E5"> 5 6 7 until it</font>
+
+143
+00:06:22,270 --> 00:06:25,570
+got<font color="#CCCCCC"> to 26</font><font color="#E5E5E5"> and once it got to 26</font>
+
+144
+00:06:25,570 --> 00:06:29,800
+if 26 is the<font color="#E5E5E5"> magic</font><font color="#CCCCCC"> number then print out</font>
+
+145
+00:06:29,800 --> 00:06:31,810
+26<font color="#E5E5E5"> is</font><font color="#CCCCCC"> the magic number</font>
+
+146
+00:06:31,810 --> 00:06:34,420
+so now what I want to<font color="#E5E5E5"> do is I want to</font>
+
+147
+00:06:34,420 --> 00:06:36,040
+tell you guys<font color="#E5E5E5"> about the break statement</font>
+
+148
+00:06:36,040 --> 00:06:37,660
+and I'm actually going to finish<font color="#E5E5E5"> writing</font>
+
+149
+00:06:37,660 --> 00:06:41,950
+<font color="#CCCCCC">my code and then I'll talk you</font><font color="#E5E5E5"> guys</font><font color="#CCCCCC"> to</font>
+
+150
+00:06:41,950 --> 00:06:47,380
+real one last time<font color="#CCCCCC"> all right so as you</font>
+
+151
+00:06:47,380 --> 00:06:49,810
+<font color="#CCCCCC">can</font><font color="#E5E5E5"> see real</font><font color="#CCCCCC"> quick what I did is I added</font>
+
+152
+00:06:49,810 --> 00:06:52,840
+a few<font color="#CCCCCC"> more lines</font><font color="#E5E5E5"> to the code and the</font>
+
+153
+00:06:52,840 --> 00:06:55,240
+first one is to display<font color="#E5E5E5"> the</font><font color="#CCCCCC"> brick</font>
+
+154
+00:06:55,240 --> 00:06:57,700
+<font color="#E5E5E5">statement now what the break statement</font>
+
+155
+00:06:57,700 --> 00:07:00,880
+<font color="#E5E5E5">or</font><font color="#CCCCCC"> keyword does is it pretty</font><font color="#E5E5E5"> much breaks</font>
+
+156
+00:07:00,880 --> 00:07:04,240
+out or stops<font color="#E5E5E5"> your loop now why did I</font>
+
+157
+00:07:04,240 --> 00:07:06,550
+<font color="#CCCCCC">have</font><font color="#E5E5E5"> this right</font><font color="#CCCCCC"> here</font><font color="#E5E5E5"> well whenever we</font>
+
+158
+00:07:06,550 --> 00:07:09,070
+<font color="#E5E5E5">find the magic number which is 26</font>
+
+159
+00:07:09,070 --> 00:07:11,890
+<font color="#CCCCCC">there's</font><font color="#E5E5E5"> no need to continue looping</font>
+
+160
+00:07:11,890 --> 00:07:13,750
+through all<font color="#E5E5E5"> the other numbers we know</font>
+
+161
+00:07:13,750 --> 00:07:17,410
+it's not 27 28 29<font color="#E5E5E5"> any of those so why</font>
+
+162
+00:07:17,410 --> 00:07:19,990
+waste our computer's memory<font color="#E5E5E5"> looping</font>
+
+163
+00:07:19,990 --> 00:07:22,060
+through numbers that it doesn't matter
+
+164
+00:07:22,060 --> 00:07:24,430
+<font color="#CCCCCC">so it says</font><font color="#E5E5E5"> okay whenever you find the</font>
+
+165
+00:07:24,430 --> 00:07:26,320
+magic number print this out right<font color="#E5E5E5"> here</font>
+
+166
+00:07:26,320 --> 00:07:29,950
+<font color="#CCCCCC">and then break which pretty much means</font>
+
+167
+00:07:29,950 --> 00:07:32,590
+stop the loop you can<font color="#E5E5E5"> remember it</font>
+
+168
+00:07:32,590 --> 00:07:34,320
+<font color="#E5E5E5">because it means break out of the loop</font>
+
+169
+00:07:34,320 --> 00:07:37,720
+<font color="#E5E5E5">now this line of code right</font><font color="#CCCCCC"> here is just</font>
+
+170
+00:07:37,720 --> 00:07:40,560
+a display<font color="#E5E5E5"> that</font><font color="#CCCCCC"> it</font><font color="#E5E5E5"> actually breaks out so</font>
+
+171
+00:07:40,560 --> 00:07:43,390
+every other number<font color="#E5E5E5"> aside</font><font color="#CCCCCC"> from the magic</font>
+
+172
+00:07:43,390 --> 00:07:46,030
+number such<font color="#CCCCCC"> as 0 1 2 3</font><font color="#E5E5E5"> it's going to</font>
+
+173
+00:07:46,030 --> 00:07:49,750
+print<font color="#CCCCCC"> that out</font><font color="#E5E5E5"> anyways and then once it</font>
+
+174
+00:07:49,750 --> 00:07:51,640
+finds it it<font color="#E5E5E5"> breaks out and stops</font>
+
+175
+00:07:51,640 --> 00:07:53,440
+printing so you guys are going to<font color="#E5E5E5"> see</font>
+
+176
+00:07:53,440 --> 00:07:57,040
+what's<font color="#E5E5E5"> going on so again</font><font color="#CCCCCC"> it starts off</font>
+
+177
+00:07:57,040 --> 00:08:00,910
+<font color="#CCCCCC">just printing every single</font><font color="#E5E5E5"> number right</font>
+
+178
+00:08:00,910 --> 00:08:02,650
+here<font color="#E5E5E5"> because it test fits the magic</font>
+
+179
+00:08:02,650 --> 00:08:04,630
+number<font color="#E5E5E5"> well it wasn't so I'll just print</font>
+
+180
+00:08:04,630 --> 00:08:07,150
+<font color="#CCCCCC">the number anyways</font><font color="#E5E5E5"> and it does that all</font>
+
+181
+00:08:07,150 --> 00:08:10,630
+<font color="#E5E5E5">the way until it gets to 26 now at 26</font>
+
+182
+00:08:10,630 --> 00:08:13,300
+<font color="#E5E5E5">and does equal</font><font color="#CCCCCC"> the magic number</font><font color="#E5E5E5"> so print</font>
+
+183
+00:08:13,300 --> 00:08:16,450
+<font color="#E5E5E5">n is the magic number</font><font color="#CCCCCC"> and then break</font><font color="#E5E5E5"> so</font>
+
+184
+00:08:16,450 --> 00:08:18,880
+that's why it doesn't<font color="#CCCCCC"> print out</font><font color="#E5E5E5"> 27 28 29</font>
+
+185
+00:08:18,880 --> 00:08:21,940
+30<font color="#CCCCCC"> because what we did is we broke out</font>
+
+186
+00:08:21,940 --> 00:08:23,150
+<font color="#CCCCCC">of the loop</font><font color="#E5E5E5"> which</font>
+
+187
+00:08:23,150 --> 00:08:25,340
+much means says<font color="#E5E5E5"> okay you can stop the</font>
+
+188
+00:08:25,340 --> 00:08:27,920
+loop now<font color="#E5E5E5"> no need to waste your memory or</font>
+
+189
+00:08:27,920 --> 00:08:30,530
+your<font color="#CCCCCC"> resources</font><font color="#E5E5E5"> on anything else</font><font color="#CCCCCC"> we</font>
+
+190
+00:08:30,530 --> 00:08:33,860
+<font color="#E5E5E5">already found the answer so again I know</font>
+
+191
+00:08:33,860 --> 00:08:36,830
+<font color="#E5E5E5">this was a tutorial was a little longer</font>
+
+192
+00:08:36,830 --> 00:08:39,409
+than expected<font color="#CCCCCC"> but now we know about</font>
+
+193
+00:08:39,409 --> 00:08:42,350
+comments<font color="#E5E5E5"> now we know how to use the</font>
+
+194
+00:08:42,350 --> 00:08:44,210
+break<font color="#CCCCCC"> statement</font><font color="#E5E5E5"> and we even learned how</font>
+
+195
+00:08:44,210 --> 00:08:50,060
+<font color="#CCCCCC">to add a decision</font><font color="#E5E5E5"> inside</font><font color="#CCCCCC"> of a loop</font><font color="#E5E5E5"> how</font>
+
+196
+00:08:50,060 --> 00:08:51,440
+cool is that
+
+197
+00:08:51,440 --> 00:08:53,420
+<font color="#E5E5E5">so in the blink of</font><font color="#CCCCCC"> an eye your computer</font>
+
+198
+00:08:53,420 --> 00:08:56,240
+can make like 8,000 decisions a lot
+
+199
+00:08:56,240 --> 00:08:58,070
+<font color="#E5E5E5">faster than you know having</font><font color="#CCCCCC"> to do it by</font>
+
+200
+00:08:58,070 --> 00:09:00,920
+<font color="#CCCCCC">hand so I hope you enjoy I hope</font><font color="#E5E5E5"> you</font>
+
+201
+00:09:00,920 --> 00:09:02,570
+learned at<font color="#CCCCCC"> least a little</font><font color="#E5E5E5"> something</font>
+
+202
+00:09:02,570 --> 00:09:04,190
+<font color="#E5E5E5">thank you for watching don't forget</font>
+
+203
+00:09:04,190 --> 00:09:07,310
+subscribe<font color="#E5E5E5"> and also actually I'm not</font>
+
+204
+00:09:07,310 --> 00:09:09,410
+<font color="#E5E5E5">going to let you go yet your homework</font>
+
+205
+00:09:09,410 --> 00:09:11,750
+<font color="#E5E5E5">assignment</font><font color="#CCCCCC"> or your challenge I'll call</font>
+
+206
+00:09:11,750 --> 00:09:15,350
+it that is this make a program to loop
+
+207
+00:09:15,350 --> 00:09:18,650
+<font color="#E5E5E5">through the numbers 1 to 100 and print</font>
+
+208
+00:09:18,650 --> 00:09:20,920
+out any<font color="#E5E5E5"> number that</font><font color="#CCCCCC"> is a multiple of 4</font>
+
+209
+00:09:20,920 --> 00:09:25,730
+<font color="#E5E5E5">so for a 12 16 so on and so forth</font><font color="#CCCCCC"> but do</font>
+
+210
+00:09:25,730 --> 00:09:28,700
+it programmatically<font color="#CCCCCC"> now I'll give</font><font color="#E5E5E5"> you</font>
+
+211
+00:09:28,700 --> 00:09:30,710
+guys<font color="#E5E5E5"> a nice little key word if you</font><font color="#CCCCCC"> take</font>
+
+212
+00:09:30,710 --> 00:09:34,490
+a number and divide it by<font color="#CCCCCC"> 4 and what you</font>
+
+213
+00:09:34,490 --> 00:09:37,490
+have left is 0 again remember<font color="#E5E5E5"> the</font>
+
+214
+00:09:37,490 --> 00:09:39,740
+modulus sign is the remainder<font color="#CCCCCC"> so</font>
+
+215
+00:09:39,740 --> 00:09:41,960
+<font color="#CCCCCC">whenever you run this little statement</font>
+
+216
+00:09:41,960 --> 00:09:45,080
+right<font color="#E5E5E5"> here the numbers that you divide</font>
+
+217
+00:09:45,080 --> 00:09:48,670
+by<font color="#E5E5E5"> 4 and have a remainder of 0 are the</font>
+
+218
+00:09:48,670 --> 00:09:53,090
+<font color="#CCCCCC">numbers that</font><font color="#E5E5E5"> are divisible by 4 simple</font>
+
+219
+00:09:53,090 --> 00:09:56,180
+enough<font color="#CCCCCC"> so if anyone can do that and I</font>
+
+220
+00:09:56,180 --> 00:09:59,090
+will<font color="#CCCCCC"> be incredibly impressed but</font><font color="#E5E5E5"> for now</font>
+
+221
+00:09:59,090 --> 00:10:01,160
+that's<font color="#E5E5E5"> your homework assignment and once</font>
+
+222
+00:10:01,160 --> 00:10:02,930
+it's complete post<font color="#CCCCCC"> down my forum and</font>
+
+223
+00:10:02,930 --> 00:10:04,670
+then you're ready<font color="#CCCCCC"> to move on</font><font color="#E5E5E5"> to the</font><font color="#CCCCCC"> next</font>
+
+224
+00:10:04,670 --> 00:00:00,000
+video<font color="#CCCCCC"> so I'll see</font><font color="#E5E5E5"> you there</font>
+

@@ -1,0 +1,280 @@
+1
+00:00:00,060 --> 00:00:06,990
+all righty house is welcome back should
+open all of my videos with that intro
+
+2
+00:00:06,990 --> 00:00:10,530
+I really hate actually when I'm watching
+a YouTube video and they have the same
+intro like I don't know they made a
+
+3
+00:00:13,200 --> 00:00:17,640
+weird umm animation of their channel
+name at the beginning of every video but
+
+4
+00:00:17,640 --> 00:00:20,660
+maybe if you had something personal like
+me
+
+5
+00:00:20,660 --> 00:00:25,949
+manually singing each intro like today
+we're going to learn about pasting
+
+6
+00:00:25,949 --> 00:00:29,760
+images then I well then I probably
+losing my subscribers so probably
+
+7
+00:00:29,760 --> 00:00:33,420
+shouldn't do that but in this video what
+I'm going to be showing you guys is how
+
+8
+00:00:33,420 --> 00:00:37,910
+to take two images and combine with
+together basically the equivalent of
+copying one image such as this and
+
+9
+00:00:41,510 --> 00:00:46,680
+pasting it on top of another image so
+that's what we're going to do so I'm
+
+10
+00:00:46,680 --> 00:00:49,710
+going to take this little girl's head
+and paste it right in the middle of this
+
+11
+00:00:49,710 --> 00:00:54,750
+there is no point to it whatsoever but
+it's awesome just for demonstrating so
+
+12
+00:00:54,750 --> 00:00:59,190
+the first thing we need is to make two
+different objects two different pillow
+
+13
+00:00:59,190 --> 00:01:06,060
+objects one of this image in one of this
+image so I'm going to name the first one
+
+14
+00:01:06,060 --> 00:01:11,100
+sister why not
+of course that's image open and the
+parameter is the file name so sister dot
+
+15
+00:01:13,920 --> 00:01:22,430
+it's jpg and for the second one that's
+actually a ping this one right here and
+
+16
+00:01:22,430 --> 00:01:30,000
+I'm Way too lazy to type all that so it
+was actually probably could've type to
+
+17
+00:01:30,000 --> 00:01:37,049
+the faster girl dot ping so now we have
+two pillow objects one this and one is
+
+18
+00:01:37,049 --> 00:01:44,549
+that bada-bing bada-boom pretty easy so
+far so the first thing we need is we
+
+19
+00:01:44,549 --> 00:01:50,040
+actually say okay we're going to be
+pasting something on top of this image
+
+20
+00:01:50,040 --> 00:01:54,509
+right here so we need to give it the
+area that we want to paste now we also
+
+21
+00:01:54,509 --> 00:01:58,469
+know that this is the image that we're
+pretty much going to copy and paste in
+
+22
+00:01:58,469 --> 00:02:03,090
+but what we have to do right now is a
+little math so whenever I click on this
+
+23
+00:02:03,090 --> 00:02:10,979
+implied charm we can see that the size
+of this is 200 by 200 now I am stressing
+
+24
+00:02:10,979 --> 00:02:15,670
+this because whenever we paste it on
+we need to give it the exact coordinates
+and that area needs to be 200 by 200 if
+
+25
+00:02:20,820 --> 00:02:25,750
+the coordinates you give it are off it
+all then you're going to come across the
+
+26
+00:02:25,750 --> 00:02:29,830
+area
+I'm at an error three reason I said area
+
+27
+00:02:29,830 --> 00:02:34,870
+is because that's what I'm going to type
+so since I want to paste in the middle
+
+28
+00:02:34,870 --> 00:02:42,220
+and this original image is 400 by 400
+the coordinates the post a 200 by 200
+
+29
+00:02:42,220 --> 00:02:50,920
+image is 3 right there
+so again 100 by 100 is a top left
+
+30
+00:02:50,920 --> 00:02:56,260
+somewhere around here and 300 by 300 is
+right down here somewhere
+
+31
+00:02:56,260 --> 00:03:02,710
+and of course since this is 200 by 200
+then this area is going to fit perfectly
+
+32
+00:03:02,710 --> 00:03:08,470
+so now that we determine the area what
+we need to do now is we need to take
+
+33
+00:03:08,470 --> 00:03:13,480
+that original image which is the sister
+object and we need to call a function
+
+34
+00:03:13,480 --> 00:03:17,590
+called paste now paste is going to take
+two parameters the first thing that's
+
+35
+00:03:17,590 --> 00:03:22,060
+going to say is okay what are you
+pasting on top of this sister richer
+
+36
+00:03:22,060 --> 00:03:28,480
+well we're actually going to be pasting
+this object which is this image so we're
+
+37
+00:03:28,480 --> 00:03:33,310
+going to be pasting that on top of it
+and the only other thing is it asks okay
+
+38
+00:03:33,310 --> 00:03:38,740
+now give me the coordinates of where you
+want to paste it okay sir well we
+
+39
+00:03:38,740 --> 00:03:41,920
+actually just made them right there and
+well there you go
+all right so now what we did is we
+
+40
+00:03:44,740 --> 00:03:52,030
+basically took this sister image and we
+pasted something on top of it so now if
+
+41
+00:03:52,030 --> 00:04:01,510
+we just call sister show check this out
+run main look at that now of course if
+
+42
+00:04:01,510 --> 00:04:05,950
+you look in this file display whatever
+it's called the file name you can see
+
+43
+00:04:05,950 --> 00:04:10,330
+that this is indeed one image these
+aren't two separate files and if you're
+
+44
+00:04:10,330 --> 00:04:14,380
+familiar with Photoshop these are the
+layers this is actually one layer so we
+took that image and we pasted it in
+
+45
+00:04:16,420 --> 00:04:22,240
+exactly so I'll show you guys what I'm
+talking about if we said that our paste
+
+46
+00:04:22,240 --> 00:04:27,689
+area was like 334 for the second one
+whenever we try to run
+
+47
+00:04:27,689 --> 00:04:31,960
+then we're going to get a bunch of
+problems right here because it says
+pretty much the area that you're pasting
+
+48
+00:04:33,939 --> 00:04:40,180
+into is not equal to the size of the
+object so that's why I kept stressing
+
+49
+00:04:40,180 --> 00:04:44,919
+the math you have to calculate it before
+I also show you guys later on um how you
+
+50
+00:04:44,919 --> 00:04:48,460
+like right now we'd probably have to
+take a calculator if we had any weird
+
+51
+00:04:48,460 --> 00:04:53,530
+size images but I'll show you guys how
+to get the sizes dynamically and figure
+
+52
+00:04:53,530 --> 00:04:56,500
+it out like that but you guys probably
+could already figure it out from the
+
+53
+00:04:56,500 --> 00:05:00,879
+toriel so far so I'm just going to stop
+rambling that is how you take to him
+
+54
+00:05:00,879 --> 00:05:04,060
+just paste them together thank you guys
+for watching and we can subscribe and
+
+55
+00:05:04,060 --> 00:05:07,020
+I'll see you guys next time

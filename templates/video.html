@@ -1,0 +1,124 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+{% block custom_css %}
+    <link href="https://vjs.zencdn.net/7.0.3/video-js.css" rel="stylesheet">
+{% endblock %}
+{% block title %}视频列表{% endblock %}
+{% block breadcrumb %}
+   <li class="breadcrumb-item"><a href="{% url 'index' %}">Home</a></li>
+    <li class="breadcrumb-item"><a href="{% url 'course:course_list' %}">课程列表</a></li>
+    <li class="breadcrumb-item"><a href="{% url 'course:course_detail' course.id %}">课程详情</a></li>
+    <li class="breadcrumb-item">视频列表</li>
+{% endblock %}
+{% block content %}
+        <section class="content">
+        <div class="container-fluid">
+
+            <div class="row">
+              <div class="col--md-10">
+                <!-- Custom Tabs -->
+                <div class="card">
+                  <div class="card-header d-flex p-0">
+                    <h3 class="card-title p-3">Tabs</h3>
+                  </div><!-- /.card-header -->
+                  <div class="card-body">
+                    <div class="row">
+                         <div class="col-md-12">
+                               <div id='mediaspace2' class="mailbox-attachment-icon has-img">This text will be replaced</div>
+                          </div>
+                        <div class="col-md-12">
+                        <div class="card">
+                              <div class="card-header no-border">
+                                <h3 class="card-title">课程列表</h3>
+                                <div class="card-tools">
+                                  <a href="#" class="btn btn-sm btn-tool">
+                                    <i class="fa fa-download"></i>
+                                  </a>
+                                </div>
+                              </div>
+                              <div class="card-body">
+                                  {% for video in course.get_course_video %}
+                                <div class="d-flex justify-content-between align-items-center border-bottom mb-3">
+                                  <p class="text-info text-lg">
+                                    <a href="{% url 'course:video_play' video.id %}">{{ video.name }}</a>
+                                  </p>
+                                  <p class="d-flex flex-column text-right">
+                                    <span class="font-weight-bold">
+                                      <i class="ion ion-android-arrow-up text-success"></i> 12%
+                                    </span>
+                                    <span class="text-muted">CONVERSION RATE</span>
+                                  </p>
+                                </div>
+                                  {% endfor %}
+                               </div>
+                        </div>
+
+                    <!-- /.tab-content -->
+                  </div><!-- /.card-body -->
+                <!-- ./card -->
+              </div>
+              </div>
+              </div>
+              </div>
+                <br>
+              <!-- /.col -->
+             <div class="col-md-2">
+                <div class="container-fluid">
+            <!-- COLOR PALETTE -->
+            <!-- Recommended -->
+            <div class="card card-default color-palette-box">
+              <div class="card-header">
+                <h3 class="card-title">
+                  <i class="fa fa-star"></i>
+                  some other
+                </h3>
+              </div>
+              <div class="card-body">
+                <div class="row">
+                    <div class="col-md-12 ">
+            <!-- Widget: user widget style 2 -->
+            <div class="card card-widget widget-user-2">
+              <!-- Add the bg color to the header using any of the bg-* classes -->
+              <div class="widget-user-header bg-info">
+                some other
+            </div>
+                 </div>
+                </div>
+              </div>
+            </div>
+          </div>
+                </div>
+            </div>
+        <!-- /.row -->
+        <!-- END CUSTOM TABS -->
+                </div>
+        </div>
+        </section>
+{% endblock %}
+
+{% block custom_script %}
+    <script src="{% static 'jwplayer/jwplayer.js' %}"></script>
+    <script>jwplayer.key="XbJktrxq5rM9wk2n+fE7Jkg07sbrlT6rMqKU+v9LyOU=";</script>
+<script type='text/javascript'>
+  jwplayer('mediaspace2').setup({
+    playlist: [{
+        flashplayer: '{% static 'jwplayer/jwplayer.flash.swf' %}',
+        file: 'rtmp://103.55.25.26:1935/oflaDemo/{{ video.course.course_org.name }}/{{ video.course.name }}/mp4:{{ video.url }}',
+         tracks: [{
+                file: "{{ MEDIA_URL }}{{ video.en_subtitle }}",
+                label: "English",
+                kind: "captions",
+                "default": true
+            },{
+                file: "{{ MEDIA_URL }}{{ video.cn_subtitle }}",
+                kind: "captions",
+                label: "中文"
+          }]
+    }],
+    controlbar: 'bottom',
+        width:'100%',
+        aspectratio:"16:9",
+        autostart:true,
+  });
+</script>
+{% endblock %}

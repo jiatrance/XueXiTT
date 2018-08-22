@@ -1,0 +1,908 @@
+1
+00:00:00,000 --> 00:00:03,659
+<font color="#CCCCCC">are</font><font color="#E5E5E5"> ready mofo so up to this point we</font>
+
+2
+00:00:03,659 --> 00:00:06,509
+start<font color="#E5E5E5"> creating the basic structure of a</font>
+
+3
+00:00:06,509 --> 00:00:08,910
+crawler<font color="#E5E5E5"> and we can kind of figure out or</font>
+
+4
+00:00:08,910 --> 00:00:10,710
+kind<font color="#E5E5E5"> of starting to see how it's going</font>
+
+5
+00:00:10,710 --> 00:00:12,570
+to work<font color="#E5E5E5"> basically it's going to go</font>
+
+6
+00:00:12,570 --> 00:00:14,580
+through some<font color="#E5E5E5"> website get out of this</font>
+
+7
+00:00:14,580 --> 00:00:17,130
+<font color="#CCCCCC">homepage then look into that thing for a</font>
+
+8
+00:00:17,130 --> 00:00:19,289
+while and it's going<font color="#E5E5E5"> to go ahead and</font>
+
+9
+00:00:19,289 --> 00:00:21,779
+<font color="#E5E5E5">gather a bunch of links now every</font><font color="#CCCCCC"> time</font>
+
+10
+00:00:21,779 --> 00:00:23,550
+it<font color="#CCCCCC"> finds a link it's going</font><font color="#E5E5E5"> to go ahead</font>
+
+11
+00:00:23,550 --> 00:00:25,500
+and add it to<font color="#E5E5E5"> the waiting list</font><font color="#CCCCCC"> right</font>
+
+12
+00:00:25,500 --> 00:00:28,380
+<font color="#CCCCCC">here</font><font color="#E5E5E5"> and then once it goes to</font><font color="#CCCCCC"> that page</font>
+
+13
+00:00:28,380 --> 00:00:29,939
+<font color="#CCCCCC">and curls it</font><font color="#E5E5E5"> it's going</font><font color="#CCCCCC"> to</font><font color="#E5E5E5"> add it</font><font color="#CCCCCC"> to</font>
+
+14
+00:00:29,939 --> 00:00:32,850
+this crowd file right there<font color="#CCCCCC"> simple</font>
+
+15
+00:00:32,850 --> 00:00:36,360
+enough<font color="#E5E5E5"> but</font><font color="#CCCCCC"> we already</font><font color="#E5E5E5"> have a</font><font color="#CCCCCC"> problem and</font>
+
+16
+00:00:36,360 --> 00:00:40,320
+<font color="#CCCCCC">that is</font><font color="#E5E5E5"> that this method</font><font color="#CCCCCC"> that I just</font>
+
+17
+00:00:40,320 --> 00:00:42,540
+explained it's going to be slow<font color="#E5E5E5"> the</font>
+
+18
+00:00:42,540 --> 00:00:44,340
+reason<font color="#E5E5E5"> for that is</font><font color="#CCCCCC"> because</font><font color="#E5E5E5"> whenever you</font>
+
+19
+00:00:44,340 --> 00:00:47,879
+write to a file<font color="#E5E5E5"> in a Python program</font>
+
+20
+00:00:47,879 --> 00:00:50,879
+<font color="#E5E5E5">writing to file</font><font color="#CCCCCC"> operations are slow and</font>
+
+21
+00:00:50,879 --> 00:00:54,750
+<font color="#CCCCCC">I</font><font color="#E5E5E5"> I say slow relatively because nothing</font>
+
+22
+00:00:54,750 --> 00:00:57,690
+is really slow from<font color="#CCCCCC"> our computer it's</font>
+
+23
+00:00:57,690 --> 00:00:59,100
+<font color="#CCCCCC">going to take like</font><font color="#E5E5E5"> a couple</font><font color="#CCCCCC"> of thousands</font>
+
+24
+00:00:59,100 --> 00:01:00,899
+of<font color="#E5E5E5"> a second we're</font><font color="#CCCCCC"> not really that</font><font color="#E5E5E5"> slow</font>
+
+25
+00:01:00,899 --> 00:01:02,910
+but<font color="#CCCCCC"> whenever</font><font color="#E5E5E5"> you're crawling tens and</font>
+
+26
+00:01:02,910 --> 00:01:05,010
+thousands of<font color="#E5E5E5"> pages it's going to be</font>
+
+27
+00:01:05,010 --> 00:01:07,350
+noticeably slower than if we<font color="#E5E5E5"> were to</font>
+
+28
+00:01:07,350 --> 00:01:09,630
+<font color="#CCCCCC">just use variables</font><font color="#E5E5E5"> so why don't we just</font>
+
+29
+00:01:09,630 --> 00:01:11,640
+use variables<font color="#E5E5E5"> well the bad thing about</font>
+
+30
+00:01:11,640 --> 00:01:14,520
+<font color="#CCCCCC">using variables is if our</font><font color="#E5E5E5"> program ever</font>
+
+31
+00:01:14,520 --> 00:01:17,009
+stops or if we encounter bug<font color="#CCCCCC"> our</font>
+
+32
+00:01:17,009 --> 00:01:19,530
+computer shuts off all of<font color="#CCCCCC"> that data is</font>
+
+33
+00:01:19,530 --> 00:01:21,840
+<font color="#CCCCCC">going to be lost so let's think about</font>
+
+34
+00:01:21,840 --> 00:01:25,110
+this<font color="#E5E5E5"> we can either use files and then</font>
+
+35
+00:01:25,110 --> 00:01:27,720
+it's a little<font color="#CCCCCC"> bit slower but our data is</font>
+
+36
+00:01:27,720 --> 00:01:29,759
+<font color="#CCCCCC">always saved and you know we don't have</font>
+
+37
+00:01:29,759 --> 00:01:31,710
+<font color="#E5E5E5">any problems if our computer shuts down</font>
+
+38
+00:01:31,710 --> 00:01:34,470
+<font color="#E5E5E5">or we can use variables which is going</font>
+
+39
+00:01:34,470 --> 00:01:36,470
+<font color="#E5E5E5">to get the job</font><font color="#CCCCCC"> done a lot quicker and</font>
+
+40
+00:01:36,470 --> 00:01:38,880
+you know but we don't<font color="#CCCCCC"> have the security</font>
+
+41
+00:01:38,880 --> 00:01:42,810
+<font color="#E5E5E5">of data loss but you</font><font color="#CCCCCC"> know what eff</font><font color="#E5E5E5"> that</font>
+
+42
+00:01:42,810 --> 00:01:44,610
+let's go<font color="#E5E5E5"> ahead and get the best of both</font>
+
+43
+00:01:44,610 --> 00:01:46,920
+<font color="#CCCCCC">worlds so this is how we're going to set</font>
+
+44
+00:01:46,920 --> 00:01:48,840
+<font color="#CCCCCC">up</font><font color="#E5E5E5"> our web crawler what we're going to</font>
+
+45
+00:01:48,840 --> 00:01:52,770
+do is whenever<font color="#E5E5E5"> we</font><font color="#CCCCCC"> are working with this</font>
+
+46
+00:01:52,770 --> 00:01:55,049
+data<font color="#CCCCCC"> we're going to store</font><font color="#E5E5E5"> it in a set</font>
+
+47
+00:01:55,049 --> 00:01:57,630
+now a set is kind of<font color="#E5E5E5"> like a list but</font>
+
+48
+00:01:57,630 --> 00:01:58,950
+with a list
+
+49
+00:01:58,950 --> 00:02:01,590
+you can have items<font color="#E5E5E5"> like bacon bacon tuna</font>
+
+50
+00:02:01,590 --> 00:02:04,740
+apples bacon<font color="#E5E5E5"> essentially duplicate</font><font color="#CCCCCC"> items</font>
+
+51
+00:02:04,740 --> 00:02:07,229
+so you<font color="#E5E5E5"> can have bacon three times now</font>
+
+52
+00:02:07,229 --> 00:02:09,720
+what we want to do is we're just<font color="#CCCCCC"> working</font>
+
+53
+00:02:09,720 --> 00:02:11,640
+with a bunch<font color="#E5E5E5"> of URLs so we want to store</font>
+
+54
+00:02:11,640 --> 00:02:12,510
+them in a
+
+55
+00:02:12,510 --> 00:02:16,470
+set<font color="#E5E5E5"> now a set can only have unique</font>
+
+56
+00:02:16,470 --> 00:02:19,170
+elements so let's say<font color="#CCCCCC"> that we have a set</font>
+
+57
+00:02:19,170 --> 00:02:22,049
+and<font color="#E5E5E5"> it has bacon in tune in it if you</font><font color="#CCCCCC"> go</font>
+
+58
+00:02:22,049 --> 00:02:24,870
+ahead<font color="#E5E5E5"> and</font><font color="#CCCCCC"> try to add bacon again it's</font>
+
+59
+00:02:24,870 --> 00:02:26,310
+not<font color="#CCCCCC"> going to add</font><font color="#E5E5E5"> it it's</font><font color="#CCCCCC"> just going</font><font color="#E5E5E5"> to</font>
+
+60
+00:02:26,310 --> 00:02:29,579
+keep it<font color="#CCCCCC"> bacon and tuna</font><font color="#E5E5E5"> so the reason we</font>
+
+61
+00:02:29,579 --> 00:02:32,190
+want unique elements is because let's
+
+62
+00:02:32,190 --> 00:02:34,200
+<font color="#E5E5E5">say</font><font color="#CCCCCC"> that we were adding items to the</font>
+
+63
+00:02:34,200 --> 00:02:36,840
+<font color="#E5E5E5">waiting list well we came across</font><font color="#CCCCCC"> Beauty</font>
+
+64
+00:02:36,840 --> 00:02:39,299
+and then<font color="#CCCCCC"> we're on another page and came</font>
+
+65
+00:02:39,299 --> 00:02:41,280
+across Beauty again<font color="#E5E5E5"> we don't need to add</font>
+
+66
+00:02:41,280 --> 00:02:43,769
+Beauty this URL to the waiting list
+
+67
+00:02:43,769 --> 00:02:46,409
+<font color="#E5E5E5">twice it's already in there same thing</font>
+
+68
+00:02:46,409 --> 00:02:48,720
+with<font color="#CCCCCC"> the crowd</font><font color="#E5E5E5"> once you crawl a page you</font>
+
+69
+00:02:48,720 --> 00:02:50,970
+don't<font color="#CCCCCC"> need to add it to the crowd file</font>
+
+70
+00:02:50,970 --> 00:02:53,129
+<font color="#E5E5E5">every single time</font><font color="#CCCCCC"> you crawled it</font><font color="#E5E5E5"> once</font>
+
+71
+00:02:53,129 --> 00:02:55,889
+it's<font color="#E5E5E5"> in there it's good now another cool</font>
+
+72
+00:02:55,889 --> 00:02:58,200
+<font color="#E5E5E5">thing is</font><font color="#CCCCCC"> that once we have</font><font color="#E5E5E5"> two unique</font>
+
+73
+00:02:58,200 --> 00:03:00,810
+<font color="#E5E5E5">sets we ensure</font><font color="#CCCCCC"> that</font><font color="#E5E5E5"> we don't have any</font>
+
+74
+00:03:00,810 --> 00:03:03,440
+crossover<font color="#E5E5E5"> so in other words</font><font color="#CCCCCC"> Beauty is</font>
+
+75
+00:03:03,440 --> 00:03:05,700
+never<font color="#E5E5E5"> going to be in</font><font color="#CCCCCC"> the</font><font color="#E5E5E5"> waiting list</font>
+
+76
+00:03:05,700 --> 00:03:08,639
+and<font color="#E5E5E5"> the crowd list it's going</font><font color="#CCCCCC"> to be in</font>
+
+77
+00:03:08,639 --> 00:03:10,409
+the waiting<font color="#E5E5E5"> list and then once it's</font>
+
+78
+00:03:10,409 --> 00:03:11,430
+<font color="#CCCCCC">crowded it's going to be moved</font><font color="#E5E5E5"> through</font>
+
+79
+00:03:11,430 --> 00:03:13,230
+crawl this so anyways like<font color="#E5E5E5"> I'm saying</font>
+
+80
+00:03:13,230 --> 00:03:14,959
+<font color="#E5E5E5">sets solve everything</font>
+
+81
+00:03:14,959 --> 00:03:17,849
+<font color="#E5E5E5">so while we're working with the data</font>
+
+82
+00:03:17,849 --> 00:03:21,180
+<font color="#E5E5E5">we're going to go</font><font color="#CCCCCC"> ahead and use sets</font>
+
+83
+00:03:21,180 --> 00:03:23,220
+because<font color="#E5E5E5"> it's a lot quicker and then</font>
+
+84
+00:03:23,220 --> 00:03:25,709
+<font color="#E5E5E5">periodically we're going to go</font><font color="#CCCCCC"> ahead and</font>
+
+85
+00:03:25,709 --> 00:03:30,000
+take that<font color="#E5E5E5"> data</font><font color="#CCCCCC"> and save it to</font><font color="#E5E5E5"> files so</font>
+
+86
+00:03:30,000 --> 00:03:31,889
+pretty cool so what I'm going<font color="#CCCCCC"> to do is</font>
+
+87
+00:03:31,889 --> 00:03:33,930
+create<font color="#CCCCCC"> two more functions the first one</font>
+
+88
+00:03:33,930 --> 00:03:36,959
+is how to<font color="#E5E5E5"> convert the links and file to</font>
+
+89
+00:03:36,959 --> 00:03:39,389
+a set<font color="#E5E5E5"> and the second one is how to</font>
+
+90
+00:03:39,389 --> 00:03:41,940
+convert<font color="#CCCCCC"> the items in a set and</font><font color="#E5E5E5"> save them</font>
+
+91
+00:03:41,940 --> 00:03:44,879
+to<font color="#CCCCCC"> a file</font><font color="#E5E5E5"> really simple stuff so the</font>
+
+92
+00:03:44,879 --> 00:03:46,799
+first one I'll<font color="#E5E5E5"> make is um I'll just</font><font color="#CCCCCC"> do</font>
+
+93
+00:03:46,799 --> 00:03:52,040
+file<font color="#E5E5E5"> to set so I'll say read a file and</font>
+
+94
+00:03:52,040 --> 00:03:58,169
+convert<font color="#E5E5E5"> each line to set items so again</font>
+
+95
+00:03:58,169 --> 00:03:59,699
+later<font color="#CCCCCC"> on we're going to</font><font color="#E5E5E5"> have our project</font>
+
+96
+00:03:59,699 --> 00:04:02,040
+<font color="#CCCCCC">file and we'll say</font><font color="#E5E5E5"> we have the waiting</font>
+
+97
+00:04:02,040 --> 00:04:04,019
+<font color="#E5E5E5">list</font><font color="#CCCCCC"> now the waiting list</font><font color="#E5E5E5"> is going to</font>
+
+98
+00:04:04,019 --> 00:04:07,109
+have I<font color="#E5E5E5"> don't know 30 different URLs in</font>
+
+99
+00:04:07,109 --> 00:04:08,909
+it<font color="#E5E5E5"> waiting to be crawled</font><font color="#CCCCCC"> so this</font>
+
+100
+00:04:08,909 --> 00:04:10,919
+<font color="#E5E5E5">function is going</font><font color="#CCCCCC"> to do is it's</font><font color="#E5E5E5"> going to</font>
+
+101
+00:04:10,919 --> 00:04:12,930
+read that file and convert<font color="#E5E5E5"> it to a set</font>
+
+102
+00:04:12,930 --> 00:04:15,269
+in that<font color="#E5E5E5"> way we can use in our Python</font>
+
+103
+00:04:15,269 --> 00:04:22,079
+program a lot quicker so<font color="#E5E5E5"> the file to set</font>
+
+104
+00:04:22,079 --> 00:04:25,110
+and of course all<font color="#CCCCCC"> we need is a</font><font color="#E5E5E5"> file name</font>
+
+105
+00:04:25,110 --> 00:04:29,509
+<font color="#E5E5E5">let me go</font><font color="#CCCCCC"> ahead and add that underscore</font>
+
+106
+00:04:31,069 --> 00:04:40,289
+<font color="#CCCCCC">alright so whether I write</font><font color="#E5E5E5"> resu LTS the</font>
+
+107
+00:04:40,289 --> 00:04:42,360
+heck was it<font color="#E5E5E5"> giving me a red line stupid</font>
+
+108
+00:04:42,360 --> 00:04:43,889
+<font color="#CCCCCC">little play charm probably type to wrong</font>
+
+109
+00:04:43,889 --> 00:04:45,659
+heart<font color="#E5E5E5"> so the first thing we're going to</font>
+
+110
+00:04:45,659 --> 00:04:46,830
+do is we're just going<font color="#CCCCCC"> to create an</font>
+
+111
+00:04:46,830 --> 00:04:48,720
+<font color="#E5E5E5">empty set and then we're going</font><font color="#CCCCCC"> to loop</font>
+
+112
+00:04:48,720 --> 00:04:51,330
+<font color="#CCCCCC">through that file line-by-line so with</font>
+
+113
+00:04:51,330 --> 00:04:57,719
+open<font color="#CCCCCC"> filename</font><font color="#E5E5E5"> RT that means read text</font>
+
+114
+00:04:57,719 --> 00:05:02,129
+file as<font color="#E5E5E5"> f so again we just refer</font><font color="#CCCCCC"> to the</font>
+
+115
+00:05:02,129 --> 00:05:04,949
+file<font color="#E5E5E5"> that we're reading</font><font color="#CCCCCC"> as</font><font color="#E5E5E5"> f what we</font>
+
+116
+00:05:04,949 --> 00:05:06,900
+want to do with<font color="#E5E5E5"> that file is loop</font>
+
+117
+00:05:06,900 --> 00:05:09,960
+through each<font color="#E5E5E5"> line in that so this</font>
+
+118
+00:05:09,960 --> 00:05:12,990
+actually<font color="#E5E5E5"> looks pretty easy for line and</font>
+
+119
+00:05:12,990 --> 00:05:16,440
+<font color="#CCCCCC">f and this is just going to iterate</font>
+
+120
+00:05:16,440 --> 00:05:19,440
+through<font color="#E5E5E5"> a file one line</font><font color="#CCCCCC"> at a time what</font>
+
+121
+00:05:19,440 --> 00:05:21,629
+we want<font color="#E5E5E5"> to do is for our set which is</font>
+
+122
+00:05:21,629 --> 00:05:24,569
+empty<font color="#E5E5E5"> right now it's named results we</font>
+
+123
+00:05:24,569 --> 00:05:26,909
+just want<font color="#E5E5E5"> to take each line and add it</font>
+
+124
+00:05:26,909 --> 00:05:31,259
+to<font color="#E5E5E5"> the set so not Len all right</font>
+
+125
+00:05:31,259 --> 00:05:33,060
+so that's going to<font color="#E5E5E5"> give</font><font color="#CCCCCC"> us our line</font>
+
+126
+00:05:33,060 --> 00:05:35,669
+right there<font color="#E5E5E5"> now there is I mean this</font>
+
+127
+00:05:35,669 --> 00:05:37,409
+looks<font color="#E5E5E5"> pretty good right</font><font color="#CCCCCC"> now and this</font><font color="#E5E5E5"> is</font>
+
+128
+00:05:37,409 --> 00:05:39,449
+<font color="#CCCCCC">going</font><font color="#E5E5E5"> to</font><font color="#CCCCCC"> work</font><font color="#E5E5E5"> but there is one little</font>
+
+129
+00:05:39,449 --> 00:05:39,870
+issue
+
+130
+00:05:39,870 --> 00:05:42,710
+<font color="#CCCCCC">you remember how whenever we wrote each</font>
+
+131
+00:05:42,710 --> 00:05:45,210
+item<font color="#E5E5E5"> or whenever we're sticking each</font>
+
+132
+00:05:45,210 --> 00:05:47,940
+link in the file we added this newline
+
+133
+00:05:47,940 --> 00:05:50,099
+character and that<font color="#E5E5E5"> was just so whenever</font>
+
+134
+00:05:50,099 --> 00:05:51,990
+you're looking<font color="#E5E5E5"> at the files all</font><font color="#CCCCCC"> of the</font>
+
+135
+00:05:51,990 --> 00:05:54,360
+URLs<font color="#E5E5E5"> are bunched up together on the same</font>
+
+136
+00:05:54,360 --> 00:05:56,400
+line it<font color="#CCCCCC"> just made it easier to read for</font>
+
+137
+00:05:56,400 --> 00:05:57,120
+<font color="#E5E5E5">humans</font>
+
+138
+00:05:57,120 --> 00:06:01,199
+well now the thing is we<font color="#CCCCCC"> got the URL but</font>
+
+139
+00:06:01,199 --> 00:06:02,909
+we also have that<font color="#E5E5E5"> newline character on</font>
+
+140
+00:06:02,909 --> 00:06:05,699
+there so whenever<font color="#E5E5E5"> we read it into</font><font color="#CCCCCC"> a set</font>
+
+141
+00:06:05,699 --> 00:06:07,830
+<font color="#E5E5E5">we don't want that newline character we</font>
+
+142
+00:06:07,830 --> 00:06:10,020
+just want the<font color="#CCCCCC"> URL so what we can</font><font color="#E5E5E5"> do is</font>
+
+143
+00:06:10,020 --> 00:06:13,020
+this we need to go ahead<font color="#E5E5E5"> and replace in</font>
+
+144
+00:06:13,020 --> 00:06:15,240
+a replace is a<font color="#CCCCCC"> built-in</font><font color="#E5E5E5"> function it</font>
+
+145
+00:06:15,240 --> 00:06:17,580
+takes<font color="#E5E5E5"> two parameters first</font><font color="#CCCCCC"> one is what</font>
+
+146
+00:06:17,580 --> 00:06:18,930
+character<font color="#CCCCCC"> are you</font><font color="#E5E5E5"> trying to replace</font>
+
+147
+00:06:18,930 --> 00:06:21,509
+we're trying to pre replace that newline
+
+148
+00:06:21,509 --> 00:06:23,759
+character<font color="#E5E5E5"> and the second one is what do</font>
+
+149
+00:06:23,759 --> 00:06:25,860
+you<font color="#E5E5E5"> want to replace it</font><font color="#CCCCCC"> with so we're</font>
+
+150
+00:06:25,860 --> 00:06:27,210
+just going<font color="#CCCCCC"> to go ahead and replace</font><font color="#E5E5E5"> it</font>
+
+151
+00:06:27,210 --> 00:06:28,800
+with<font color="#E5E5E5"> nothing</font><font color="#CCCCCC"> and this</font><font color="#E5E5E5"> is essentially</font>
+
+152
+00:06:28,800 --> 00:06:31,620
+<font color="#E5E5E5">just saying hey you</font><font color="#CCCCCC"> know that</font><font color="#E5E5E5"> URL</font><font color="#CCCCCC"> plus</font>
+
+153
+00:06:31,620 --> 00:06:33,360
+<font color="#CCCCCC">newline that we're reading</font><font color="#E5E5E5"> in just go</font>
+
+154
+00:06:33,360 --> 00:06:34,770
+ahead<font color="#E5E5E5"> and delete</font><font color="#CCCCCC"> that</font><font color="#E5E5E5"> newline</font>
+
+155
+00:06:34,770 --> 00:06:37,080
+of it<font color="#CCCCCC"> that's all we're doing</font><font color="#E5E5E5"> talking</font>
+
+156
+00:06:37,080 --> 00:06:39,750
+into talking to<font color="#E5E5E5"> this Python program like</font>
+
+157
+00:06:39,750 --> 00:06:41,970
+it's one of our friends hey man<font color="#CCCCCC"> you know</font>
+
+158
+00:06:41,970 --> 00:06:43,470
+<font color="#E5E5E5">that new line that</font><font color="#CCCCCC"> you got over there</font>
+
+159
+00:06:43,470 --> 00:06:45,180
+<font color="#CCCCCC">just get rid of it what am I talking</font>
+
+160
+00:06:45,180 --> 00:06:45,690
+about
+
+161
+00:06:45,690 --> 00:06:49,139
+all right now<font color="#E5E5E5"> looking good and all we</font>
+
+162
+00:06:49,139 --> 00:06:52,169
+have<font color="#CCCCCC"> to do here</font><font color="#E5E5E5"> is return the results so</font>
+
+163
+00:06:52,169 --> 00:06:54,240
+again we're<font color="#E5E5E5"> going to give it</font><font color="#CCCCCC"> a file say</font>
+
+164
+00:06:54,240 --> 00:06:56,879
+loop through<font color="#E5E5E5"> each line read the</font><font color="#CCCCCC"> URL and</font>
+
+165
+00:06:56,879 --> 00:07:01,490
+return them as<font color="#E5E5E5"> a set looking sweet now</font>
+
+166
+00:07:01,490 --> 00:07:03,840
+this last one I'm just<font color="#CCCCCC"> going to convert</font>
+
+167
+00:07:03,840 --> 00:07:09,360
+a set to a file<font color="#E5E5E5"> so I'll say</font><font color="#CCCCCC"> it through a</font>
+
+168
+00:07:09,360 --> 00:07:14,930
+set each item in the<font color="#CCCCCC"> set will be a</font><font color="#E5E5E5"> new</font>
+
+169
+00:07:14,930 --> 00:07:24,169
+line in<font color="#E5E5E5"> the file and DEF set to file and</font>
+
+170
+00:07:24,169 --> 00:07:27,210
+since we're working<font color="#E5E5E5"> with a web crawler</font>
+
+171
+00:07:27,210 --> 00:07:29,969
+<font color="#E5E5E5">instead of set and I can't even use</font><font color="#CCCCCC"> the</font>
+
+172
+00:07:29,969 --> 00:07:32,550
+word set anyways because<font color="#E5E5E5"> it's built</font><font color="#CCCCCC"> in</font>
+
+173
+00:07:32,550 --> 00:07:33,419
+<font color="#E5E5E5">keyword in Python</font>
+
+174
+00:07:33,419 --> 00:07:34,919
+I'm just going to name<font color="#E5E5E5"> it links because</font>
+
+175
+00:07:34,919 --> 00:07:36,690
+that's all our sets going<font color="#E5E5E5"> to be just a</font>
+
+176
+00:07:36,690 --> 00:07:39,599
+<font color="#E5E5E5">bunch of links</font><font color="#CCCCCC"> and so these are the</font>
+
+177
+00:07:39,599 --> 00:07:43,880
+<font color="#CCCCCC">links that we want</font><font color="#E5E5E5"> to save to this file</font>
+
+178
+00:07:43,880 --> 00:07:47,789
+so the first thing I wanted<font color="#E5E5E5"> to do is I'm</font>
+
+179
+00:07:47,789 --> 00:07:50,130
+<font color="#E5E5E5">going</font><font color="#CCCCCC"> to go ahead</font><font color="#E5E5E5"> and call delete file</font>
+
+180
+00:07:50,130 --> 00:07:54,500
+contents<font color="#E5E5E5"> now remember what</font><font color="#CCCCCC"> we can do is</font>
+
+181
+00:07:54,500 --> 00:07:57,419
+we can go ahead<font color="#E5E5E5"> and delete whatever</font><font color="#CCCCCC"> file</font>
+
+182
+00:07:57,419 --> 00:08:00,900
+because this is the old data all of the
+
+183
+00:08:00,900 --> 00:08:03,150
+<font color="#E5E5E5">data that is</font><font color="#CCCCCC"> up-to-date is going to be</font>
+
+184
+00:08:03,150 --> 00:08:06,240
+stored<font color="#E5E5E5"> in this set right here so we can</font>
+
+185
+00:08:06,240 --> 00:08:08,279
+go ahead<font color="#CCCCCC"> and get rid of</font><font color="#E5E5E5"> that and we</font>
+
+186
+00:08:08,279 --> 00:08:10,319
+don't<font color="#E5E5E5"> want to append it on there because</font>
+
+187
+00:08:10,319 --> 00:08:12,300
+<font color="#CCCCCC">this</font><font color="#E5E5E5"> is the good</font><font color="#CCCCCC"> stuff right there all</font>
+
+188
+00:08:12,300 --> 00:08:15,000
+the juicy links and now what I can do is
+
+189
+00:08:15,000 --> 00:08:17,400
+just<font color="#CCCCCC"> start looping through</font><font color="#E5E5E5"> this set so</font>
+
+190
+00:08:17,400 --> 00:08:21,960
+say<font color="#CCCCCC"> for link and links so loop through</font>
+
+191
+00:08:21,960 --> 00:08:25,380
+links and<font color="#CCCCCC"> treat each</font><font color="#E5E5E5"> item is linked and</font>
+
+192
+00:08:25,380 --> 00:08:31,729
+actually let me<font color="#CCCCCC"> do this</font><font color="#E5E5E5"> sort it link</font>
+
+193
+00:08:32,120 --> 00:08:34,799
+<font color="#E5E5E5">all right so you don't really have</font><font color="#CCCCCC"> to do</font>
+
+194
+00:08:34,799 --> 00:08:36,899
+this but what this<font color="#E5E5E5"> is going to do is</font>
+
+195
+00:08:36,899 --> 00:08:41,190
+instead of just crawling and getting a
+
+196
+00:08:41,190 --> 00:08:43,110
+bunch<font color="#E5E5E5"> of</font><font color="#CCCCCC"> URLs and just spewing them in</font>
+
+197
+00:08:43,110 --> 00:08:45,209
+text file or writing them to a text file
+
+198
+00:08:45,209 --> 00:08:47,279
+in random order<font color="#CCCCCC"> we can</font><font color="#E5E5E5"> go ahead and sort</font>
+
+199
+00:08:47,279 --> 00:08:49,890
+<font color="#E5E5E5">them before</font><font color="#CCCCCC"> and then if we ever need to</font>
+
+200
+00:08:49,890 --> 00:08:51,779
+<font color="#CCCCCC">look at our data</font><font color="#E5E5E5"> file</font><font color="#CCCCCC"> all</font><font color="#E5E5E5"> the links are</font>
+
+201
+00:08:51,779 --> 00:08:53,430
+<font color="#CCCCCC">in alphabetical order</font><font color="#E5E5E5"> which</font><font color="#CCCCCC"> is pretty</font>
+
+202
+00:08:53,430 --> 00:08:56,670
+<font color="#E5E5E5">cool so go ahead</font><font color="#CCCCCC"> and</font><font color="#E5E5E5"> sort through</font><font color="#CCCCCC"> all</font>
+
+203
+00:08:56,670 --> 00:08:58,829
+the links<font color="#CCCCCC"> that we gathered and for each</font>
+
+204
+00:08:58,829 --> 00:09:01,440
+one<font color="#E5E5E5"> all we want to do is we want to add</font>
+
+205
+00:09:01,440 --> 00:09:05,310
+them to<font color="#CCCCCC"> the</font><font color="#E5E5E5"> end of whatever file that we</font>
+
+206
+00:09:05,310 --> 00:09:07,890
+want<font color="#CCCCCC"> either</font><font color="#E5E5E5"> queue or curl so add them to</font>
+
+207
+00:09:07,890 --> 00:09:10,019
+the end of the file and<font color="#E5E5E5"> again this</font>
+
+208
+00:09:10,019 --> 00:09:11,940
+function<font color="#CCCCCC"> that we made earlier takes two</font>
+
+209
+00:09:11,940 --> 00:09:14,850
+parameters what file and what do you
+
+210
+00:09:14,850 --> 00:09:16,230
+<font color="#E5E5E5">want to add on to the</font><font color="#CCCCCC"> end</font><font color="#E5E5E5"> of it</font>
+
+211
+00:09:16,230 --> 00:09:19,170
+well<font color="#E5E5E5"> whatever file we told you and the</font>
+
+212
+00:09:19,170 --> 00:09:21,180
+link<font color="#E5E5E5"> that you are currently iterating</font>
+
+213
+00:09:21,180 --> 00:09:23,880
+through<font color="#E5E5E5"> so now</font><font color="#CCCCCC"> let me clean this</font><font color="#E5E5E5"> up and</font>
+
+214
+00:09:23,880 --> 00:09:27,230
+<font color="#E5E5E5">check</font><font color="#CCCCCC"> it out we now have two functions</font>
+
+215
+00:09:27,230 --> 00:09:30,779
+<font color="#E5E5E5">where we can</font><font color="#CCCCCC"> actually read in a file</font><font color="#E5E5E5"> so</font>
+
+216
+00:09:30,779 --> 00:09:33,779
+if we were you know<font color="#E5E5E5"> going to lunch and</font>
+
+217
+00:09:33,779 --> 00:09:35,399
+<font color="#E5E5E5">we just came back in</font><font color="#CCCCCC"> and we</font><font color="#E5E5E5"> want to run</font>
+
+218
+00:09:35,399 --> 00:09:38,070
+this program<font color="#CCCCCC"> again we can look at that</font>
+
+219
+00:09:38,070 --> 00:09:40,529
+file and read it into<font color="#CCCCCC"> a set and also</font>
+
+220
+00:09:40,529 --> 00:09:42,990
+once you're running<font color="#E5E5E5"> this for a while</font><font color="#CCCCCC"> and</font>
+
+221
+00:09:42,990 --> 00:09:44,640
+our mom says hey you want<font color="#CCCCCC"> to</font><font color="#E5E5E5"> go out for</font>
+
+222
+00:09:44,640 --> 00:09:46,800
+ice<font color="#E5E5E5"> cream mom of course I do I love ice</font>
+
+223
+00:09:46,800 --> 00:09:50,880
+<font color="#CCCCCC">cream</font><font color="#E5E5E5"> but first let me see let me save</font>
+
+224
+00:09:50,880 --> 00:09:53,459
+my data<font color="#E5E5E5"> being go ahead and take</font><font color="#CCCCCC"> that set</font>
+
+225
+00:09:53,459 --> 00:09:56,279
+and save it to<font color="#CCCCCC"> a file</font><font color="#E5E5E5"> so</font><font color="#CCCCCC"> boom roasted</font>
+
+226
+00:09:56,279 --> 00:09:57,870
+<font color="#E5E5E5">I'm going to go eat some ice cream</font><font color="#CCCCCC"> now I</font>
+
+227
+00:09:57,870 --> 00:00:00,000
+<font color="#E5E5E5">will see you guys later</font>
+

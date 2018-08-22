@@ -1,0 +1,288 @@
+1
+00:00:00,030 --> 00:00:03,270
+all righty guys welcome back and in this
+video I'm going to show you guys a
+
+2
+00:00:03,270 --> 00:00:09,330
+really cool way to get the largest or
+smallest elements from a list or set and
+
+3
+00:00:09,330 --> 00:00:14,009
+if you guys are like oh my god this is
+like beginner stuff I'd know I'm just
+
+4
+00:00:14,009 --> 00:00:17,880
+going to have a list I'm going to sort
+it and then I'll get like the last three
+
+5
+00:00:17,880 --> 00:00:23,070
+elements or the first three depending on
+how I sorted it but the question is what
+
+6
+00:00:23,070 --> 00:00:27,800
+happens if you have like a custom object
+like what happens if you has have a
+
+7
+00:00:27,800 --> 00:00:34,260
+employee class and they have ID numbers
+in names and I don't know like their
+
+8
+00:00:34,260 --> 00:00:39,239
+profession and their salary and you need
+to sort them all by salary or ID number
+
+9
+00:00:39,239 --> 00:00:47,399
+how the heck do you do that well welcome
+to heap q so heap Q is essentially just
+
+10
+00:00:47,399 --> 00:00:51,989
+a special type of EQ algorithm and it
+just allows you to sort stuff really
+easily I'm going to show you guys a cool
+
+11
+00:00:53,940 --> 00:00:58,590
+tricks but before let's just go ahead
+and use it to sort something really easy
+
+12
+00:00:58,590 --> 00:01:02,520
+so I'm going to pretend that I have a
+list of grades let me just pick the Mike
+
+13
+00:01:02,520 --> 00:01:11,850
+of will say that we yet can upgrades
+more than 100 so I'll do like 130 266 99
+and 5 whatever alright so I have a bunch
+
+14
+00:01:14,790 --> 00:01:19,710
+of random numbers in there and say that
+I want to get like the three highest
+grade so maybe I'm a teacher and I'm
+
+15
+00:01:21,900 --> 00:01:24,600
+going to take the three highest grades
+from every student and average them
+together whatever so what we can do is
+
+16
+00:01:27,180 --> 00:01:35,400
+this we can use heap queue and we can
+just say n largest so this allows you to
+
+17
+00:01:35,400 --> 00:01:40,079
+get a certain number of largest items so
+if you only want the biggest one you can
+just type 1 if you want the 3 biggest
+
+18
+00:01:42,270 --> 00:01:46,290
+ones then just like 3 right there and
+the other parameter that it takes is
+
+19
+00:01:46,290 --> 00:01:52,860
+just what is data said that you're
+trying to find so grades so what we're
+saying is looking grades and give me the
+
+20
+00:01:54,899 --> 00:02:06,439
+3 largest values run and boom so it work
+orders it nicely for you so 654 532 and
+
+21
+00:02:06,439 --> 00:02:12,900
+132 alright pretty cool but you know we
+could probably have the
+
+22
+00:02:12,900 --> 00:02:17,220
+that earlier I mean we already know how
+like the sort list and we can just get
+
+23
+00:02:17,220 --> 00:02:21,299
+like the first three elements ourselves
+so nothing special so the question
+
+24
+00:02:21,299 --> 00:02:25,920
+becomes why is this useful well let's
+say that we had a data set like this
+hold on hold on copying it alright so I
+
+25
+00:02:30,030 --> 00:02:34,140
+just copied that I had it so you know I
+didn't think you guys should watch me
+type all this so this is pretty much a
+
+26
+00:02:36,870 --> 00:02:42,900
+list of dictionaries now even though
+this is just a list of dictionaries you
+
+27
+00:02:42,900 --> 00:02:47,609
+can actually use this method on your own
+custom class so if you had a class of
+
+28
+00:02:47,609 --> 00:02:52,680
+like NHL players or your friends or
+anything so it's going to work the same
+
+29
+00:02:52,680 --> 00:02:57,359
+I just wanted to give you guys a quick
+little data set for this tutorial so
+
+30
+00:02:57,359 --> 00:03:01,950
+what we're going to do in this case is
+let's say that we wanted to give what am
+I going to try to find I don't know
+
+31
+00:03:04,019 --> 00:03:08,730
+maybe I was buying stocks and I wanted
+to find the two cheapest
+stocks so of course right now we can see
+
+32
+00:03:11,159 --> 00:03:15,569
+that those are F and this is actually
+forward and this tuna is actually a
+
+33
+00:03:15,569 --> 00:03:20,459
+company I made it up so Apple Google
+forward Microsoft and tuna but let's say
+
+34
+00:03:20,459 --> 00:03:23,519
+that we had like a thousand and we
+wanted to find the cheapest ones so what
+
+35
+00:03:23,519 --> 00:03:29,760
+we could do is this print keep queue
+just like before and anytime you want
+
+36
+00:03:29,760 --> 00:03:34,440
+the smallest let's say we want the two
+smallest you use n smallest and of
+
+37
+00:03:34,440 --> 00:03:39,659
+course the first one is how many values
+that we want just two and the second one
+
+38
+00:03:39,659 --> 00:03:44,310
+is of course what is the data set that
+you're trying to have me sift through
+
+39
+00:03:44,310 --> 00:03:50,849
+well just these stocks right here but
+now check this out so these elements
+
+40
+00:03:50,849 --> 00:03:54,239
+right here they don't just have one
+value like a list they have a ticker
+
+41
+00:03:54,239 --> 00:03:59,970
+they have a price maybe they have an ID
+number maybe I have like a datum for
+
+42
+00:03:59,970 --> 00:04:04,549
+some reason whatever so this is only
+going to work with a simple data set
+
+43
+00:04:04,549 --> 00:04:10,680
+however if you want to sort by price
+then you can actually add the attribute
+
+44
+00:04:10,680 --> 00:04:15,419
+is the last thing so we already know how
+lambdas work great I think I made it
+
+45
+00:04:15,419 --> 00:04:19,349
+sore about those so what we're going to
+do is we're going to say lambda make a
+
+46
+00:04:19,349 --> 00:04:24,870
+really quick compact function and for
+each stock just give me the stock
+
+47
+00:04:24,870 --> 00:04:30,540
+price now again you can put ticker in
+here you can put price you can put any
+
+48
+00:04:30,540 --> 00:04:34,949
+attribute for your object or whatever
+say you're trying to sift through and
+
+49
+00:04:34,949 --> 00:04:42,240
+check this out boom or roast it so it
+returns this is actually from before
+
+50
+00:04:42,240 --> 00:04:51,270
+right here but this returns Ford in tuna
+so how freaking awesome is that if you
+
+51
+00:04:51,270 --> 00:04:55,290
+guys ever try to sort your own custom
+classes or objects it was probably a
+
+52
+00:04:55,290 --> 00:05:00,630
+pain in the butt but boom roasted there
+you go so again whenever you're using a
+
+53
+00:05:00,630 --> 00:05:06,000
+simple set you can use just two
+parameters whenever you're using your
+
+54
+00:05:06,000 --> 00:05:12,120
+own custom objects or a more complex set
+like this whether it's JSON or your own
+
+55
+00:05:12,120 --> 00:05:16,200
+custom one or your classes or whatever
+do this boom rose that thing guys for
+
+56
+00:05:16,200 --> 00:05:19,160
+watching I'll see you next

@@ -1,0 +1,214 @@
+﻿{% extends 'base.html' %}
+{% load staticfiles %}
+{% block breadtitle %}学习天堂|在线教程{% endblock %}
+{% block breadcrumb %}
+   <li class="breadcrumb-item"><a href="{% url 'index' %}">Home</a></li>
+{% endblock %}
+{% block content %}
+    <!-- Main content -->
+    <section class="content">
+      <div class="container-fluid">
+        <div class="row">
+          <!-- /.col -->
+          <div class="col-md-9">
+            <div class="card">
+              <div class="card-body">
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                  <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                  </ol>
+                {% if banner_first %}
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                         <a href="{% url 'course:course_detail' banner_first.id %}" >
+                        <span class="mailbox-attachment-icon has-img">
+                      <img class="d-block w-100" src="{{ MEDIA_URL }}{{ banner_first.banner }}" alt="First slide" height="300">
+                        </span>
+                         </a>
+                    </div>
+                      {% for course in list_banner %}
+                    <div class="carousel-item">
+                    <a href="{% url 'course:course_detail' course.id %}" >
+                        <span class="mailbox-attachment-icon has-img">
+                      <img class="d-block w-100 " src="{{ MEDIA_URL }}{{ course.banner }}" alt="Second slide" height="300">
+                        </span>
+                    </a>
+                    </div>
+                      {% endfor %}
+                  </div>
+                {% endif %}
+                  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                  </a>
+                </div>
+              </div>
+              <!-- /.card-body -->
+            </div>
+            <!-- /.card -->
+          </div>
+        <div class="col-md-3">
+            <div class="card card-warning">
+              <div class="card-header">
+                <h3 class="card-title">点击广告赞助本站</h3>
+                <div class="card-tools">
+                  <button type="button" class="btn btn-tool" data-widget="collapse"><i class="fa fa-minus"></i>
+                  </button>
+                </div>
+                <!-- /.card-tools -->
+              </div>
+              <!-- /.card-header -->
+              <div class="card-body">
+                  <a data-type="2" biz-keyword="电脑" data-tmpl="220x290" data-tmplid="9" data-rd="2" data-style="2" data-border="1" href="#"></a>
+              </div>
+              <!-- /.card-body -->
+            </div>
+            <!-- /.card -->
+          </div>
+            <div class="col-md-12">
+                  <a target="_black" href="https://s.click.taobao.com/t?e=m%3D2%26s%3Ddevq%2BiAN8TIcQipKwQzePCperVdZeJviEViQ0P1Vf2kguMN8XjClAu5N8Xi7d1lH4CZyur93miVv1qWNbEBpmPrdFCQUhtDOlSB8iQJCuN1Hv4jsEH1NGU%2Fu2BptvxUXrnF3ShV1XeF8isIqg9litAZn%2By0keumoxJ%2BuUEnJYcOEEQepqblm8luaay6PHEO8NIH3xTvu0eIcJ965jhCBMByz1mcJG%2F2qRZujRnIpwuLGJe8N%2FwNpGw%3D%3D">
+                      <span class="mailbox-attachment-icon has-img"><img src="{% static 'dist/img/ECS/1200-120.jpg' %}"></span>
+                  </a>
+            </div>
+        <!-- /.row -->
+        <!-- END ACCORDION & CAROUSEL-->
+      </div>
+        </div>
+      <div class="container-fluid">
+        <!-- COLOR PALETTE -->
+        <!-- Recommended -->
+
+       <div class="card card-default color-palette-box">
+          <div class="card-header">
+            <h3 class="card-title">
+              <i class="fa fa-play-circle"></i>
+              最新课程
+            </h3>
+            <div class="card-tools">
+                  <a href="{% url 'course:course_list' %}" class="text-muted">查看更多&nbsp;&nbsp;</a>
+                  <button type="button" class="btn btn-tool" data-widget="collapse"><i class="fa fa-minus"></i>
+                  </button>
+             </div>
+          </div>
+          <div class="card-body">
+            <div class="row">
+                {% for course in courses %}
+               <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
+                <a href="{% url 'course:course_detail' course.id %}" ><span class="mailbox-attachment-icon has-img"><img src="{{ MEDIA_URL }}{{ course.thumbnail }}" alt="Attachment"></span></a>
+                  <div class="mailbox-attachment-info">
+                    <a href="{% url 'course:course_detail' course.id %}" class="mailbox-attachment-name">{{ course.name }}</a>
+                        <span class="mailbox-attachment-size">
+                          <a href="#" class="mailbox-attachment-name"><h6>{{ course.teacher.name }}</h6></a>
+                        </span>
+                  </div>
+              </div>
+                {% endfor %}
+            </div>
+          </div>
+        </div>
+
+        <div class="card card-default color-palette-box">
+          <div class="card-header">
+            <h3 class="card-title">
+              <i class="fa fa-star"></i>
+              公开课
+            </h3>
+              <div class="card-tools">
+                  <a href="{% url 'course:public_list' %}" class="text-muted">查看更多&nbsp;&nbsp;</a>
+                  <button type="button" class="btn btn-tool" data-widget="collapse"><i class="fa fa-minus"></i>
+                  </button>
+                </div>
+          </div>
+          <div class="card-body">
+            <div class="row">
+                {% for course in open_courses %}
+                <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
+                <a href="{% url 'course:course_public' course.id %}" ><span class="mailbox-attachment-icon has-img"><img src="{{ MEDIA_URL }}{{ course.thumbnail }}" alt="Attachment"></span></a>
+                  <div class="mailbox-attachment-info">
+                    <a href="{% url 'course:course_public' course.id %}" class="mailbox-attachment-name">{{ course.name }}</a>
+                        <span class="mailbox-attachment-size">
+                          <a href="#" class="mailbox-attachment-name"><h6>{{ course.teacher.name }}</h6></a>
+                        </span>
+                  </div>
+              </div>
+                {% endfor %}
+            </div>
+          </div>
+        </div>
+
+        <div class="card card-default color-palette-box">
+          <div class="card-header">
+            <h3 class="card-title">
+              <i class="fa fa-play-circle"></i>
+              推荐课程
+            </h3>
+            <div class="card-tools">
+                  <a href="{% url 'course:course_list' %}" class="text-muted">查看更多&nbsp;&nbsp;</a>
+                  <button type="button" class="btn btn-tool" data-widget="collapse"><i class="fa fa-minus"></i>
+                  </button>
+             </div>
+          </div>
+          <div class="card-body">
+            <div class="row">
+                {% for course in recommend %}
+               <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
+                <a href="{% url 'course:course_detail' course.id %}" ><span class="mailbox-attachment-icon has-img"><img src="{{ MEDIA_URL }}{{ course.thumbnail }}" alt="Attachment"></span></a>
+                  <div class="mailbox-attachment-info">
+                    <a href="{% url 'course:course_detail' course.id %}" class="mailbox-attachment-name">{{ course.name }}</a>
+                        <span class="mailbox-attachment-size">
+                          <a href="#" class="mailbox-attachment-name"><h6>{{ course.teacher.name }}</h6></a>
+                        </span>
+                  </div>
+              </div>
+                {% endfor %}
+            </div>
+          </div>
+        </div>
+
+        <div class="card card-default color-palette-box">
+          <div class="card-header">
+            <h3 class="card-title">
+              <i class="fa fa-play-circle"></i>
+              电影推荐
+            </h3>
+            <div class="card-tools">
+                  <a href="{% url 'course:movie_list' %}" class="text-muted">查看更多&nbsp;&nbsp;</a>
+                  <button type="button" class="btn btn-tool" data-widget="collapse"><i class="fa fa-minus"></i>
+                  </button>
+             </div>
+          </div>
+          <div class="card-body">
+            <div class="row">
+                {% for mov in movie %}
+               <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
+                <a href="{% url 'course:movie_play' mov.id %}" ><span class="mailbox-attachment-icon has-img"><img src="{{ MEDIA_URL }}{{ mov.thumbnail }}" alt="Attachment"></span></a>
+                  <div class="mailbox-attachment-info">
+                    <a href="{% url 'course:movie_play' mov.id %}" class="mailbox-attachment-name">{{ mov.name }}</a>
+                        <span class="mailbox-attachment-size">
+                          <h6>添加时间： {{ mov.add_time }}</h6>
+                        </span>
+                  </div>
+              </div>
+                {% endfor %}
+                <div class="col-md-12">
+                  <a target="_black" href="https://s.click.taobao.com/t?e=m%3D2%26s%3DDas1fcl%2BTLkcQipKwQzePCperVdZeJviEViQ0P1Vf2kguMN8XjClAkjR1mEp1GIYL8PtxxJsl4lv1qWNbEBpmPrdFCQUhtDOlSB8iQJCuN2iR9KyufLv5FH%2FhwblmzC5rnF3ShV1XeF8isIqg9litAZn%2By0keumoxJ%2BuUEnJYcOEEQepqblm8luaay6PHEO80Hd8emvjIz26owIDioOK5ootqEvh1MawIYULNg46oBA%3D">
+                      <span class="mailbox-attachment-icon has-img"><img src="{% static 'dist/img/aliyun/1200-120.jpg' %}"></span>
+                  </a>
+                </div>
+              <div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      </div>
+    </section>
+{% endblock %}
+</div>

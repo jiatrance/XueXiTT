@@ -1,0 +1,245 @@
+1
+00:00:00,060 --> 00:00:06,629
+alright guys so it is 12:35 a.m. and I
+actually just got back from Walmart
+
+2
+00:00:06,629 --> 00:00:10,679
+because I needed groceries and pretty
+much the only place that's open around
+
+3
+00:00:10,679 --> 00:00:15,809
+here like midnight is Walmart so I was
+shopping and I was like halfway done
+with my shopping actually not even
+
+4
+00:00:17,730 --> 00:00:22,830
+halfway done and I saw this guy I was
+bited like the cheese's I was getting
+
+5
+00:00:22,830 --> 00:00:27,119
+string cheese and this guy was like
+staring at me and I was like huh okay
+
+6
+00:00:27,119 --> 00:00:30,480
+maybe like knows me from somewhere since
+I don't know like high school or
+
+7
+00:00:30,480 --> 00:00:36,329
+something and so finally after like
+staring I prefer minute he like comes up
+
+8
+00:00:36,329 --> 00:00:41,129
+to me and he's like are you the new
+Boston I was like uh yeah and it's
+
+9
+00:00:41,129 --> 00:00:45,090
+always weird when like people come up to
+me because I guess uh like quite a few
+
+10
+00:00:45,090 --> 00:00:49,530
+people watch my tutorials but it never
+shows my face so I don't even know how
+
+11
+00:00:49,530 --> 00:00:53,520
+people know what I look like but anyways
+it was kind of weird because I never I
+
+12
+00:00:53,520 --> 00:00:58,980
+don't know I just never know what to say
+and also at the time the only thing I
+had in my car was ground beef and toilet
+
+13
+00:01:01,500 --> 00:01:05,729
+paper so he probably thinks I'm pretty
+weird now but anyways on with the
+
+14
+00:01:05,729 --> 00:01:12,780
+tutorial where we're going to be talking
+about sets so what a set is it's I think
+
+15
+00:01:12,780 --> 00:01:18,180
+pretty much like a collection of items
+but it can't have any duplicates like a
+
+16
+00:01:18,180 --> 00:01:26,100
+list can so I'll show you guys with
+grocery since well it's on my mind I
+spell that right
+
+17
+00:01:27,360 --> 00:01:32,189
+hopefully alright so in order to make a
+set it's going to look kind of like a
+
+18
+00:01:32,189 --> 00:01:37,110
+list except you use these curly braces
+right here and let me put a couple
+
+19
+00:01:37,110 --> 00:01:45,659
+things in here so cereal for some reason
+my pie charm seems like it's all well
+
+20
+00:01:45,659 --> 00:01:53,430
+seems like it's lagging a little bit
+alright so cereal milk I got some star
+
+21
+00:01:53,430 --> 00:01:57,420
+crunches - I'm addicted to those things
+however when it's really hot out outside
+
+22
+00:01:57,420 --> 00:02:02,130
+if you ever eat a star crunch they taste
+disgusting which is really weird
+
+23
+00:02:02,130 --> 00:02:06,990
+alright so so we got some beer or we
+have to get beer or whatever this
+
+24
+00:02:06,990 --> 00:02:10,979
+grocery list is for um duct tape what
+else
+
+25
+00:02:10,979 --> 00:02:20,099
+on my list lotion and what I'm going to
+do is I'm going to add beer again now
+remember that I told you that what we
+
+26
+00:02:21,900 --> 00:02:26,400
+did right here is we've made something
+called a set that's what this is however
+
+27
+00:02:26,400 --> 00:02:32,190
+it can't have any duplicates now if you
+notice we have beer right here and also
+
+28
+00:02:32,190 --> 00:02:37,980
+beer right here
+twice so what happens is whenever we
+
+29
+00:02:37,980 --> 00:02:45,079
+print this out print groceries check it
+out it prints everything on our list
+
+30
+00:02:45,079 --> 00:02:53,370
+however it only prints beer once pretty
+cool so again this is actually helpful
+
+31
+00:02:53,370 --> 00:02:58,470
+whenever you make something like a
+grocery list or any set where it's
+
+32
+00:02:58,470 --> 00:03:03,420
+pretty much useless to have the same
+item twice so I'll show you guys
+
+33
+00:03:03,420 --> 00:03:06,870
+simply actually we're making a program
+where we're printing out a grocery list
+
+34
+00:03:06,870 --> 00:03:10,950
+for like I don't know maybe we're making
+an app where we can sort grocery lists
+online and we can look at it on our
+
+35
+00:03:12,180 --> 00:03:18,859
+smart phone it's actually a pretty good
+idea anyways we'll say if milk and
+
+36
+00:03:18,859 --> 00:03:25,590
+there's some actually some cool things
+that you can do with sets in I can spell
+
+37
+00:03:25,590 --> 00:03:32,579
+in groceries so this condition right
+here it's going to return true if indeed
+
+38
+00:03:32,579 --> 00:03:40,099
+milk is in groceries which it is right
+now so we'll say print um something like
+you already have oh no cost so we'll
+
+39
+00:03:48,419 --> 00:03:53,160
+check pretty much if we're if we already
+have the item in there if we do no need
+to add it again so else
+
+40
+00:03:56,660 --> 00:04:05,430
+um prints of like oh yeah you need milk
+like a little reminder I don't know
+
+41
+00:04:05,430 --> 00:04:10,440
+first thing they popped into my head so
+of course we run this and it says you
+
+42
+00:04:10,440 --> 00:04:15,720
+already have milk oz so again that that
+is pretty much what set is and that's
+
+43
+00:04:15,720 --> 00:04:21,539
+one small thing that you can do with a
+set you can check if an item is indeed
+
+44
+00:04:21,539 --> 00:04:24,580
+in
+it just like you would a list however in
+
+45
+00:04:24,580 --> 00:04:29,470
+later tutorials when every are built in
+like a little more advanced programs
+
+46
+00:04:29,470 --> 00:04:32,560
+I'll show you guys some other things
+that you can do with sets in how they
+
+47
+00:04:32,560 --> 00:04:36,610
+are incredibly useful but for now um
+thank you guys for watching and I'll see
+
+48
+00:04:36,610 --> 00:04:38,940
+you later

@@ -1,0 +1,294 @@
+1
+00:00:00,060 --> 00:00:04,470
+alright guys welcome back and in this
+video I'm going to talk to you about a
+
+2
+00:00:04,470 --> 00:00:09,750
+dictionary in Python now whenever you
+have a dictionary in real life you have
+
+3
+00:00:09,750 --> 00:00:14,969
+a bunch of words and they're associated
+with a bunch of definitions now in
+Python we have names for these instead
+
+4
+00:00:17,130 --> 00:00:21,359
+of words and definitions we call them
+keys and values and the cool thing about
+
+5
+00:00:21,359 --> 00:00:25,619
+Python is you're not only limited to you
+know like a definition like you would
+
+6
+00:00:25,619 --> 00:00:29,369
+think in a dictionary you can also use
+numbers and stuff like that so let me
+
+7
+00:00:29,369 --> 00:00:35,070
+show you an example right now so the
+first thing you have to do is of course
+
+8
+00:00:35,070 --> 00:00:40,620
+just name it whatever you want and then
+set it equal to and then use those curly
+
+9
+00:00:40,620 --> 00:00:46,020
+braces now inside your curly braces
+you're going to have sets of a key and a
+
+10
+00:00:46,020 --> 00:00:49,590
+value and you can have as many as you
+want you can have one you can have 100
+
+11
+00:00:49,590 --> 00:00:56,850
+it doesn't matter so for the key I'll
+just write Tony and for the value
+
+12
+00:00:56,850 --> 00:01:04,470
+actually let me use single quotes so
+write the key and think of this like the
+
+13
+00:01:04,470 --> 00:01:09,540
+word in the dictionary and then add a
+colon and then after that colon is the
+
+14
+00:01:09,540 --> 00:01:16,170
+value and I'll write cool smells so say
+that this dictionary is um storing like
+
+15
+00:01:16,170 --> 00:01:22,650
+everyone in my class so again the key
+which is Tony and the value of this is
+
+16
+00:01:22,650 --> 00:01:28,650
+cool but smells so whenever you want to
+add a new item what you have to do is
+
+17
+00:01:28,650 --> 00:01:34,350
+just separate them with commas and then
+I'm too lazy to do the format again so
+I'm just going to do that alright so
+
+18
+00:01:35,729 --> 00:01:42,140
+this key can be for Emma and her value
+can be I don't know I'll say she sits
+
+19
+00:01:42,140 --> 00:01:48,780
+behind me let's add one more so comma
+umm one more person could be like Lucy
+
+20
+00:01:48,780 --> 00:01:55,170
+and her value will be I don't like
+Lizzie because she asks too many
+
+21
+00:01:55,170 --> 00:02:02,340
+questions alright so now we have a
+dictionary called classmates and it's
+
+22
+00:02:02,340 --> 00:02:11,220
+made up of three key value pairs Toni
+Emma and Lucy so I guess I can go ahead
+
+23
+00:02:11,220 --> 00:02:14,320
+and just print this out real quick so if
+you just print
+
+24
+00:02:14,320 --> 00:02:19,190
+the name of your dictionary without
+specifying any one of these individually
+
+25
+00:02:19,190 --> 00:02:23,690
+then there's just going to go ahead and
+print the whole thing as expected now
+
+26
+00:02:23,690 --> 00:02:28,390
+obviously you can do cooler things in
+this you can print something like um
+
+27
+00:02:28,390 --> 00:02:36,950
+classmates and then in square brackets
+put the key Emma so this is pretty much
+
+28
+00:02:36,950 --> 00:02:44,090
+saying print the value of Emma and of
+course Emma's value is sits behind me so
+
+29
+00:02:44,090 --> 00:02:49,870
+again you can do this with each
+individual item in your dictionary or
+
+30
+00:02:49,870 --> 00:02:53,330
+I'll show you guys something really cool
+this is probably the coolest thing that
+
+31
+00:02:53,330 --> 00:02:58,310
+you can do with it what you can do is
+instead of having to go through your
+
+32
+00:02:58,310 --> 00:03:04,280
+dictionary one at a time like Emma Tony
+okay who's the next Lucy o mg that's
+
+33
+00:03:04,280 --> 00:03:08,750
+taken forever there's a real quick way
+that you can loop through it so what you
+
+34
+00:03:08,750 --> 00:03:14,360
+do is you use a for loop and then you
+know how we just gave our for loop a
+
+35
+00:03:14,360 --> 00:03:17,360
+variable name and that was the name of
+whatever item
+
+36
+00:03:17,360 --> 00:03:22,550
+it was looping through at the time well
+since a dictionary is composed of keys
+
+37
+00:03:22,550 --> 00:03:28,670
+in values we actually need to give it
+two variables so we'll say K and V and
+this is what people typically use and
+
+38
+00:03:30,350 --> 00:03:36,800
+this is pretty much saying whenever we
+loop through it treat K is the key so
+
+39
+00:03:36,800 --> 00:03:40,880
+the first time is going to be Tony then
+Emma the Lucy and V is going to be the
+value so this is going to be cool but
+
+40
+00:03:43,310 --> 00:03:47,870
+smell sits behind me and ask too many
+questions and then after this we just
+
+41
+00:03:47,870 --> 00:03:57,620
+need to say in classmates items simple
+enough so again this is the dictionary
+
+42
+00:03:57,620 --> 00:04:03,560
+that's looping through and it's going to
+loop through all of the items so now I
+
+43
+00:04:03,560 --> 00:04:09,410
+can just put something like print arm
+kay I don't know let me think of
+
+44
+00:04:09,410 --> 00:04:14,870
+something stupid okay
+I don't even know how I can have this
+
+45
+00:04:14,870 --> 00:04:19,790
+make sense okay I just do something
+really easy k plus V which is pretty
+
+46
+00:04:19,790 --> 00:04:24,750
+much going to print out this and this
+simple enough
+
+47
+00:04:24,750 --> 00:04:32,500
+so actually let me get rid of these so
+it doesn't confuse you so as you can see
+
+48
+00:04:32,500 --> 00:04:37,570
+since we didn't have spaces let me add
+spaces real quick so our bunch together
+
+49
+00:04:37,570 --> 00:04:43,389
+what it does is you build a dictionary
+right here your dictionary o is composed
+
+50
+00:04:43,389 --> 00:04:48,340
+of keys in values we have three of them
+in this case and what this loop did is
+it loop through this dictionary and for
+
+51
+00:04:51,699 --> 00:04:56,169
+each item in your dictionary it printed
+the key and the value
+so of course the key is just the name
+
+52
+00:04:58,210 --> 00:05:02,860
+and the value is a little note we wrote
+about them so that is what this little
+
+53
+00:05:02,860 --> 00:05:08,199
+program does and that is how you can
+build a dictionary in Python and in the
+
+54
+00:05:08,199 --> 00:05:10,750
+next couple tutorials they're actually
+going to be a lot more interesting than
+
+55
+00:05:10,750 --> 00:05:14,500
+this because I'm going to start showing
+you guys how to work with modules and
+
+56
+00:05:14,500 --> 00:05:18,820
+also how to build a very simple web
+crawler it's probably going to be the
+
+57
+00:05:18,820 --> 00:05:22,750
+coolest program roommate we made up to
+date so think guys for watching and I'll
+
+58
+00:05:22,750 --> 00:05:25,229
+see you next time

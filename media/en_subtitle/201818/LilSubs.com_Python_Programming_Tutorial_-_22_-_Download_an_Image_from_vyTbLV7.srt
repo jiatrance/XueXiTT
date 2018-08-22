@@ -1,0 +1,405 @@
+1
+00:00:00,060 --> 00:00:04,170
+alright guys this is going to be a cool
+tutorial because I'm going to show you
+
+2
+00:00:04,170 --> 00:00:08,490
+guys how to build a very simple program
+where you can download an image from the
+
+3
+00:00:08,490 --> 00:00:14,070
+internet so the first thing I want to do
+is import that random again and that's
+
+4
+00:00:14,070 --> 00:00:17,760
+because whenever we download an image
+we're going to be giving it a random
+
+5
+00:00:17,760 --> 00:00:23,430
+filename and saving it as that because
+we don't want to UM let so let's say we
+
+6
+00:00:23,430 --> 00:00:26,849
+were downloading like all the homepage
+images we don't want a bunch of files
+
+7
+00:00:26,849 --> 00:00:31,920
+named homepage jpg in our directory so
+I'm going to give each one a random name
+
+8
+00:00:31,920 --> 00:00:35,190
+and um whenever we build our web crawler
+that's what we're going to do as well
+and we're also going to be importing URL
+
+9
+00:00:38,940 --> 00:00:46,680
+Lib dot request now this is a package
+that allows us to get um data from
+
+10
+00:00:46,680 --> 00:00:50,489
+websites pretty much that's a really
+simple explanation and also I want to
+
+11
+00:00:50,489 --> 00:00:55,699
+mention this if I'm ever using a module
+that you're like oh hold on a second um
+
+12
+00:00:55,699 --> 00:01:00,359
+you didn't tell me how to get that or
+where I'm supposed to get that from or
+
+13
+00:01:00,359 --> 00:01:04,589
+what it does I'll explain that right now
+whenever I have a module in here they
+
+14
+00:01:04,589 --> 00:01:11,340
+here that you're not familiar with go to
+file settings and then if you go to your
+
+15
+00:01:11,340 --> 00:01:16,770
+project interpreter these words are hard
+to say project interpreter on the Left
+what you can do is this is the section
+
+16
+00:01:19,290 --> 00:01:23,909
+that allows you to download modules from
+the internet so these are the ones that
+
+17
+00:01:23,909 --> 00:01:27,600
+I downloaded right now so say that we
+wanted to add another one or install
+another one click this little plus
+
+18
+00:01:29,220 --> 00:01:34,770
+button and you can search for all of
+them right now now usually you know
+
+19
+00:01:34,770 --> 00:01:37,409
+exactly what one you're going to
+download so if you start typing the name
+
+20
+00:01:37,409 --> 00:01:44,299
+of download like here's one I'm familiar
+with um beautiful scraper right here
+
+21
+00:01:44,299 --> 00:01:49,409
+just select its name and hit install
+package and then just sit back and relax
+
+22
+00:01:49,409 --> 00:01:54,689
+that's what's awesome about pycharm this
+entire thing is built in the entire
+module was just installed
+
+23
+00:01:56,369 --> 00:02:01,259
+you know whenever you want to use it we
+can just import it right like this and
+
+24
+00:02:01,259 --> 00:02:05,310
+of course if you accidentally download a
+one by accident or we're playing around
+
+25
+00:02:05,310 --> 00:02:10,830
+with it and figure it out you didn't
+need it file settings the interpreter
+
+26
+00:02:10,830 --> 00:02:13,980
+and then just select it and hit this
+minus sign
+and that'll say that will uninstall it
+
+27
+00:02:16,379 --> 00:02:21,810
+basically so pretty cool but now back to
+the tutorial so again I'm just going to
+
+28
+00:02:21,810 --> 00:02:27,030
+build a real simple function to go to
+some on website download the image so
+
+29
+00:02:27,030 --> 00:02:36,810
+def download web image and the only
+parameter that's going to take is just
+
+30
+00:02:36,810 --> 00:02:42,959
+the URL of the image of course so the
+first thing I want to do is I want to
+
+31
+00:02:42,959 --> 00:02:46,620
+generate that random number just like we
+did in the last tutorial so this is
+
+32
+00:02:46,620 --> 00:02:50,310
+going to be the name so I'm going to
+story is the variable name and of course
+
+33
+00:02:50,310 --> 00:03:00,360
+you remember random dot R and range and
+I'll just say one to a thousand so all
+
+34
+00:03:00,360 --> 00:03:06,989
+the images that we download are going to
+be like 256 jpg arm like sixteen jpg so
+
+35
+00:03:06,989 --> 00:03:11,250
+on and so forth and this is um not the
+best way but for this example it'll be
+
+36
+00:03:11,250 --> 00:03:15,299
+simple enough to follow along so now
+what I want to do is whenever I download
+
+37
+00:03:15,299 --> 00:03:18,690
+it of course it's just going to be
+stored as a number right here and
+
+38
+00:03:18,690 --> 00:03:23,069
+obviously what I want to do is add that
+JPEG extension on the end so my computer
+
+39
+00:03:23,069 --> 00:03:28,950
+knows that it is indeed a jpg image so
+full name will be the full file name and
+
+40
+00:03:28,950 --> 00:03:35,910
+of course we take that name which is a
+random number one 1000 and what we're
+
+41
+00:03:35,910 --> 00:03:42,389
+going to do is we're going to add on the
+dot jpg extension now remember before I
+
+42
+00:03:42,389 --> 00:03:47,340
+said that Python doesn't really like
+when you take a number and add it to a
+
+43
+00:03:47,340 --> 00:03:51,569
+string so we need to convert this name
+variable to a string and in order to do
+that just put STR and this is a really
+
+44
+00:03:56,700 --> 00:04:02,010
+simple function that takes a number and
+converts it into a string so now we're
+
+45
+00:04:02,010 --> 00:04:05,489
+working with the same data type now the
+full name would be something like five
+
+46
+00:04:05,489 --> 00:04:10,980
+hundred jpg so the only other thing we
+need to do one more line of code in this
+function is download the image and of
+
+47
+00:04:14,459 --> 00:04:19,859
+course that's where we imported this so
+in order to use anything from this
+
+48
+00:04:19,858 --> 00:04:26,130
+module type the name of the module which
+is URL Lib dot request and the function
+
+49
+00:04:26,130 --> 00:04:31,740
+is called URL
+retrieve now if you see it's going to
+
+50
+00:04:31,740 --> 00:04:37,140
+take a couple of parameters here the
+first one is the URL of the website that
+
+51
+00:04:37,140 --> 00:04:40,470
+you're going to be downloading it from
+pretty much um it's like going to be
+
+52
+00:04:40,470 --> 00:04:46,530
+HTTP on Bucky's room org slash Bucky's
+face JPEG something like that so we're
+going to be passing it in the function
+
+53
+00:04:48,830 --> 00:04:55,260
+so that's what the URL is and the second
+parameter it takes is whenever we save
+
+54
+00:04:55,260 --> 00:04:59,490
+this or download it and save it to your
+computer what do you want to name the
+
+55
+00:04:59,490 --> 00:05:06,420
+file well that's why we created this
+right here so download this image and
+
+56
+00:05:06,420 --> 00:05:10,650
+save it as this on our computer so
+that's all this function is doing right
+here so now what we have to do is just
+
+57
+00:05:15,630 --> 00:05:21,870
+right download web image and we need to
+pass it in a URL of some JPEG on the
+
+58
+00:05:21,870 --> 00:05:28,380
+internet so actually if you just go to
+any site then I'm not going to show you
+
+59
+00:05:28,380 --> 00:05:32,280
+how to do that but it's all the same but
+don't go to like a random site and say
+
+60
+00:05:32,280 --> 00:05:35,010
+hey Bucky told me to do this because
+it's probably against their Terms of
+
+61
+00:05:35,010 --> 00:05:38,520
+Service but if you just want to practice
+then you can just go - Bucky's room find
+
+62
+00:05:38,520 --> 00:05:43,260
+one of my images I'm on my profile right
+now click view all photos and let's find
+
+63
+00:05:43,260 --> 00:05:48,750
+a don't want it down this is pretty dumb
+all right so of course in order to get
+
+64
+00:05:48,750 --> 00:05:55,940
+the URL this you can just right click it
+and hit copy image URL and of course
+
+65
+00:05:55,940 --> 00:06:01,740
+this pretty much is the URL of the image
+on the internet so now back in our
+
+66
+00:06:01,740 --> 00:06:07,229
+program what we can do is remember to
+pass it in as a string what we're saying
+
+67
+00:06:07,229 --> 00:06:12,990
+is basically download this image so it's
+going to download it give it a random
+
+68
+00:06:12,990 --> 00:06:17,280
+filename and then save it to our
+computer now it's going to download in
+the same directory as our programs
+
+69
+00:06:18,750 --> 00:06:23,250
+around and so check this out this is my
+main project YouTube and this was the
+
+70
+00:06:23,250 --> 00:06:27,540
+module from last tutorial and this is
+where the program is going to run so
+
+71
+00:06:27,540 --> 00:06:31,140
+right now we only have two files main
+and tuna but after we get done running
+this we're also going to have an extra
+
+72
+00:06:33,030 --> 00:06:39,479
+jpg in here so keep your eyes on this
+while I run it so check it out you see
+
+73
+00:06:39,479 --> 00:06:43,620
+how it just said 286 and
+five just popped up well double-click
+
+74
+00:06:43,620 --> 00:06:49,400
+that and boom
+pretty sweet we just downloaded an image
+
+75
+00:06:49,400 --> 00:06:55,830
+purely through Python programming so
+just imagine the power of this we can
+
+76
+00:06:55,830 --> 00:07:00,840
+download a crapload of images in the
+snap of a finger if we only knew how to
+
+77
+00:07:00,840 --> 00:07:04,920
+write a simple web crawler well ladies
+and gentlemen that's what we had to look
+
+78
+00:07:04,920 --> 00:07:08,010
+forward to in the next tutorial but for
+now thank you guys for watching don't
+
+79
+00:07:08,010 --> 00:07:11,720
+forget to subscribe and I'll see you
+guys next time

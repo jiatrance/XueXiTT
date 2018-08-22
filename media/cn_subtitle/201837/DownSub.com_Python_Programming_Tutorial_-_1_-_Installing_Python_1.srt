@@ -1,0 +1,516 @@
+1
+00:00:00,060 --> 00:00:03,270
+那么好的家伙祝贺<font color="#CCCCCC">你 </font>
+
+2
+00:00:03,270 --> 00:00:05,850
+ <font color="#E5E5E5">终于找到了他们最好的 </font><font color="#CCCCCC">地方 </font>
+
+3
+00:00:05,850 --> 00:00:08,069
+整个<font color="#CCCCCC">怪胎的教程</font>
+
+4
+00:00:08,069 --> 00:00:10,889
+宇宙<font color="#E5E5E5">所以在我们开始之前 </font>
+
+5
+00:00:10,889 --> 00:00:13,019
+ <font color="#E5E5E5">学习Python制作游戏 </font>
+
+6
+00:00:13,019 --> 00:00:15,150
+什么<font color="#E5E5E5">样凉爽 </font><font color="#CCCCCC">什么</font><font color="#E5E5E5">我想 </font>
+
+7
+00:00:15,150 --> 00:00:17,520
+ <font color="#E5E5E5">提到这是我猜你是 </font>
+
+8
+00:00:17,520 --> 00:00:19,080
+ <font color="#E5E5E5">在YouTube上观看这些视频 </font>
+
+9
+00:00:19,080 --> 00:00:21,180
+ <font color="#E5E5E5">或者 </font><font color="#CCCCCC">我的网站 </font><font color="#E5E5E5">，如果你试着看 </font>
+
+10
+00:00:21,180 --> 00:00:23,160
+ <font color="#CCCCCC">然后他们在那个 </font><font color="#E5E5E5">小视频播放器上 </font>
+
+11
+00:00:23,160 --> 00:00:25,230
+ <font color="#CCCCCC">这会 </font><font color="#E5E5E5">是很难看出这是 </font><font color="#CCCCCC">怎么回事 </font>
+
+12
+00:00:25,230 --> 00:00:27,570
+ <font color="#E5E5E5">每当你看这些视频时就这样 </font>
+
+13
+00:00:27,570 --> 00:00:30,359
+ <font color="#CCCCCC">请确保 </font><font color="#E5E5E5">您 </font><font color="#CCCCCC">更改</font><font color="#E5E5E5">视频 大小 </font>
+
+14
+00:00:30,359 --> 00:00:34,260
+全屏<font color="#E5E5E5">和1080高清我的 </font>
+
+15
+00:00:34,260 --> 00:00:37,230
+整个桌面<font color="#E5E5E5">是1080，我会 </font>
+
+16
+00:00:37,230 --> 00:00:39,809
+记录<font color="#CCCCCC">整个事情 </font><font color="#E5E5E5">再 </font><font color="#CCCCCC">这样 </font><font color="#E5E5E5">做 </font>
+
+17
+00:00:39,809 --> 00:00:42,059
+一定<font color="#E5E5E5">要把它改成1080而且还要满 </font>
+
+18
+00:00:42,059 --> 00:00:43,680
+ <font color="#E5E5E5">屏幕和这些视频 </font><font color="#CCCCCC">将是 </font>
+
+19
+00:00:43,680 --> 00:00:47,520
+清楚<font color="#CCCCCC">如此，你已经完成了哦 </font>
+
+20
+00:00:47,520 --> 00:00:48,420
+这<font color="#E5E5E5">很简单 </font>
+
+21
+00:00:48,420 --> 00:00:51,840
+ Python是什么<font color="#E5E5E5">，现在 </font><font color="#CCCCCC">你 </font><font color="#E5E5E5">可能已经 </font>
+
+22
+00:00:51,840 --> 00:00:53,520
+知道<font color="#CCCCCC">它 </font><font color="#E5E5E5">是 </font><font color="#CCCCCC">什么 </font><font color="#E5E5E5">，你只是想 </font>
+
+23
+00:00:53,520 --> 00:00:55,320
+ <font color="#E5E5E5">学习，但对某些人来说 </font><font color="#CCCCCC">是 </font><font color="#E5E5E5">谁 </font>
+
+24
+00:00:55,320 --> 00:00:57,030
+ <font color="#CCCCCC">只是看 </font><font color="#E5E5E5">这个视频，因为他们 </font>
+
+25
+00:00:57,030 --> 00:00:58,410
+之前听说过，但事实<font color="#CCCCCC">并非如此 </font>
+
+26
+00:00:58,410 --> 00:01:00,510
+ <font color="#E5E5E5">真的很 </font><font color="#CCCCCC">确定它是 </font><font color="#E5E5E5">什么的 </font>
+
+27
+00:01:00,510 --> 00:01:02,309
+编程语言<font color="#CCCCCC">， </font><font color="#E5E5E5">你可以使用 </font>
+
+28
+00:01:02,309 --> 00:01:05,040
+对于<font color="#CCCCCC">你可以实际使用的大量东西 </font>
+
+29
+00:01:05,040 --> 00:01:08,010
+它不仅适用<font color="#CCCCCC">于类似Web开发 ，也适用于 </font>
+
+30
+00:01:08,010 --> 00:01:09,689
+ <font color="#E5E5E5">你可以用它来制作电脑 </font>
+
+31
+00:01:09,689 --> 00:01:13,049
+游戏<font color="#E5E5E5">只是你知道的基本软件 </font>
+
+32
+00:01:13,049 --> 00:01:14,780
+ <font color="#E5E5E5">像这样的垃圾桌面</font><font color="#CCCCCC">就在这里 </font>
+
+33
+00:01:14,780 --> 00:01:17,549
+ <font color="#E5E5E5">你也可以用它来制作 网页 </font><font color="#CCCCCC">一样 </font>
+
+34
+00:01:17,549 --> 00:01:19,890
+爬行者<font color="#E5E5E5">所以说你有一个网站和 </font>
+
+35
+00:01:19,890 --> 00:01:22,470
+ <font color="#E5E5E5">你想去收集 </font><font color="#CCCCCC">链接或去一个 </font>
+
+36
+00:01:22,470 --> 00:01:24,360
+网站<font color="#CCCCCC">和 </font><font color="#E5E5E5">下载所有 </font><font color="#CCCCCC">图像 </font>
+
+37
+00:01:24,360 --> 00:01:26,460
+真的很<font color="#E5E5E5">容易，你可以 </font><font color="#CCCCCC">为 </font><font color="#E5E5E5">做到 </font><font color="#CCCCCC">这 </font><font color="#E5E5E5">一点 </font>
+
+38
+00:01:26,460 --> 00:01:29,250
+ <font color="#CCCCCC">所以再次有一堆 </font><font color="#E5E5E5">很棒 </font>
+
+39
+00:01:29,250 --> 00:01:32,369
+ <font color="#CCCCCC">关于 </font><font color="#E5E5E5">Python的东西，这就是原因 </font>
+
+40
+00:01:32,369 --> 00:01:34,590
+这是<font color="#E5E5E5">我最喜欢的一个 </font><font color="#CCCCCC">其实我会 </font>
+
+41
+00:01:34,590 --> 00:01:36,509
+说这是我<font color="#E5E5E5">最喜欢的节目 </font>
+
+42
+00:01:36,509 --> 00:01:39,750
+ <font color="#E5E5E5">所有时间的语言都可以 </font>
+
+43
+00:01:39,750 --> 00:01:42,150
+ <font color="#CCCCCC">关于你知道我在说话时撒谎 </font>
+
+44
+00:01:42,150 --> 00:01:44,100
+关于<font color="#E5E5E5">什么让我们继续 </font><font color="#CCCCCC">前进并开始 </font>
+
+45
+00:01:44,100 --> 00:01:47,189
+ <font color="#E5E5E5">编码所以你的Python网站 </font>
+
+46
+00:01:47,189 --> 00:01:51,240
+需要去WWI thon org <font color="#E5E5E5">然后去 </font>
+
+47
+00:01:51,240 --> 00:01:53,579
+ <font color="#E5E5E5">这</font><font color="#CCCCCC">是 主页 </font><font color="#E5E5E5">，一旦 </font>
+
+48
+00:01:53,579 --> 00:01:55,530
+你<font color="#CCCCCC">在那里去 </font><font color="#E5E5E5">下载 </font>
+
+49
+00:01:55,530 --> 00:01:58,560
+部分<font color="#E5E5E5">所以点击 </font><font color="#CCCCCC">它，你会 </font>
+
+50
+00:01:58,560 --> 00:02:00,659
+ <font color="#E5E5E5">我们要做 </font><font color="#CCCCCC">的第一 </font><font color="#E5E5E5">件事就是 </font><font color="#CCCCCC">好的 </font>
+
+51
+00:02:00,659 --> 00:02:02,880
+ <font color="#E5E5E5">决定是否下载Python 2.7 </font>
+
+52
+00:02:02,880 --> 00:02:05,670
+第<font color="#CCCCCC">8点或最近的 </font><font color="#E5E5E5">一点三点 </font>
+
+53
+00:02:05,670 --> 00:02:08,520
+ <font color="#E5E5E5">四点一现在这有点老了 </font>
+
+54
+00:02:08,520 --> 00:02:10,199
+ <font color="#E5E5E5">它已经过时了，所以我愿意 </font>
+
+55
+00:02:10,199 --> 00:02:12,349
+强烈建议下载Python <font color="#CCCCCC">3.4 </font>
+
+56
+00:02:12,349 --> 00:02:13,980
+ <font color="#E5E5E5">第一点 </font>
+
+57
+00:02:13,980 --> 00:02:16,410
+ <font color="#E5E5E5">无论什么时候，为什么现在都没有 </font>
+
+58
+00:02:16,410 --> 00:02:18,629
+下载软件<font color="#CCCCCC">， </font><font color="#E5E5E5">你会得到这个 </font>
+
+59
+00:02:18,629 --> 00:02:20,400
+ <font color="#CCCCCC">在这里或在任何地方的小事情 </font>
+
+60
+00:02:20,400 --> 00:02:24,450
+下载依赖<font color="#E5E5E5">于什么来下载</font>
+
+61
+00:02:24,450 --> 00:02:26,220
+您使用的浏览器<font color="#E5E5E5">可能是它 </font>
+
+62
+00:02:26,220 --> 00:02:28,500
+不同<font color="#E5E5E5">的访问您的下载，但 </font>
+
+63
+00:02:28,500 --> 00:02:32,280
+如果你去<font color="#E5E5E5">Bucky或你的 </font><font color="#CCCCCC">名字 </font><font color="#E5E5E5">不是 </font>
+
+64
+00:02:32,280 --> 00:02:34,290
+ <font color="#CCCCCC">会是Bucky，但下载你就是 </font>
+
+65
+00:02:34,290 --> 00:02:36,780
+会看到你现在有一个文件下载
+
+66
+00:02:36,780 --> 00:02:41,280
+所以只要<font color="#E5E5E5">双击这个 </font><font color="#CCCCCC">，如果 </font><font color="#E5E5E5">我问 </font>
+
+67
+00:02:41,280 --> 00:02:43,769
+你<font color="#CCCCCC">的许可说继续让我 </font>
+
+68
+00:02:43,769 --> 00:02:47,730
+关闭<font color="#E5E5E5">这些东西，它说 </font><font color="#CCCCCC">好的 </font>
+
+69
+00:02:47,730 --> 00:02:49,590
+ <font color="#E5E5E5">这实际上是最简单的之一 </font>
+
+70
+00:02:49,590 --> 00:02:51,630
+ <font color="#E5E5E5">一些安装程序，你只需点击下一步 </font>
+
+71
+00:02:51,630 --> 00:02:52,860
+如果你<font color="#CCCCCC">曾经侮辱那么多次</font>
+
+72
+00:02:52,860 --> 00:02:54,569
+ <font color="#E5E5E5">生活中你知道的任何事情 </font>
+
+73
+00:02:54,569 --> 00:02:56,670
+会感觉<font color="#CCCCCC">像家一样，但安装所有人 </font>
+
+74
+00:02:56,670 --> 00:03:02,489
+用户肯定<font color="#E5E5E5">为什么不下一个，它说和 </font>
+
+75
+00:03:02,489 --> 00:03:03,870
+ <font color="#E5E5E5">这 </font><font color="#CCCCCC">只是 </font><font color="#E5E5E5">因为我 </font><font color="#CCCCCC">已经 </font>
+
+76
+00:03:03,870 --> 00:03:06,420
+ <font color="#CCCCCC">以前下载过，因为我没有 </font>
+
+77
+00:03:06,420 --> 00:03:08,489
+知道我<font color="#CCCCCC">只是喜欢使用Python </font><font color="#E5E5E5">但是 </font>
+
+78
+00:03:08,489 --> 00:03:09,120
+ <font color="#E5E5E5">本教程 </font>
+
+79
+00:03:09,120 --> 00:03:11,730
+ <font color="#E5E5E5">嗯我卸载它只是为了让我能展示 </font>
+
+80
+00:03:11,730 --> 00:03:12,959
+ <font color="#E5E5E5">你们 </font><font color="#CCCCCC">已经下载了 </font><font color="#E5E5E5">它， </font><font color="#CCCCCC">就 </font>
+
+81
+00:03:12,959 --> 00:03:15,720
+可能<font color="#E5E5E5">不会得到这个，但它说 </font>
+
+82
+00:03:15,720 --> 00:03:17,220
+ <font color="#CCCCCC">你想要 </font><font color="#E5E5E5">它存在文件很好 </font>
+
+83
+00:03:17,220 --> 00:03:19,160
+是的，我<font color="#E5E5E5">为什么不这样做</font>
+
+84
+00:03:19,160 --> 00:03:22,769
+接下来<font color="#E5E5E5">然后安装它 </font>
+
+85
+00:03:22,769 --> 00:03:25,670
+其实<font color="#E5E5E5">很快 </font>
+
+86
+00:03:35,090 --> 00:03:38,190
+ <font color="#E5E5E5">好吧，我的意思是嘿点击 </font>
+
+87
+00:03:38,190 --> 00:03:40,170
+像<font color="#E5E5E5">两个按钮 </font><font color="#CCCCCC">， </font><font color="#E5E5E5">现在我们有Python </font>
+
+88
+00:03:40,170 --> 00:03:44,519
+ <font color="#E5E5E5">好吧所以完成。它完成 </font><font color="#CCCCCC">好吗 </font>
+
+89
+00:03:44,519 --> 00:03:47,250
+ <font color="#CCCCCC">所以我猜你 </font><font color="#E5E5E5">现在 </font><font color="#CCCCCC">有灯， </font><font color="#E5E5E5">但是 </font>
+
+90
+00:03:47,250 --> 00:03:48,930
+这里到底是<font color="#E5E5E5">怎么做的，你 </font><font color="#CCCCCC">甚至 </font>
+
+91
+00:03:48,930 --> 00:03:51,090
+ <font color="#E5E5E5">如果你去你的， </font><font color="#CCCCCC">开始使用它 </font>
+
+92
+00:03:51,090 --> 00:03:54,330
+开始菜单<font color="#E5E5E5">，转到所有程序和 </font>
+
+93
+00:03:54,330 --> 00:03:56,849
+向下滚动<font color="#CCCCCC">你会看到你 </font>
+
+94
+00:03:56,849 --> 00:04:00,120
+现在有<font color="#CCCCCC">一个名为 </font><font color="#E5E5E5">Python 3.4 </font><font color="#CCCCCC">的文件夹 </font>
+
+95
+00:04:00,120 --> 00:04:03,390
+点击它<font color="#CCCCCC">，它有一堆 </font><font color="#E5E5E5">垃圾 </font>
+
+96
+00:04:03,390 --> 00:04:05,519
+ <font color="#E5E5E5">它现在，但我们现在想要的 </font>
+
+97
+00:04:05,519 --> 00:04:09,269
+ <font color="#E5E5E5">这 </font><font color="#CCCCCC">是ID le这 </font><font color="#E5E5E5">是一个不错的选择 </font>
+
+98
+00:04:09,269 --> 00:04:10,980
+ <font color="#E5E5E5">让我们测试的 </font><font color="#CCCCCC">小程序 </font>
+
+99
+00:04:10,980 --> 00:04:14,099
+ <font color="#E5E5E5">现在我们不能 </font><font color="#CCCCCC">单击 </font><font color="#E5E5E5">Python中的东西</font>
+
+100
+00:04:14,099 --> 00:04:17,430
+这个现在<font color="#CCCCCC">，它可以打开确定 </font>
+
+101
+00:04:17,430 --> 00:04:19,680
+非常酷， <font color="#E5E5E5">但我想 </font><font color="#CCCCCC">告诉你什么 </font>
+
+102
+00:04:19,680 --> 00:04:21,238
+伙计们<font color="#E5E5E5">必须做的就是我们其实 </font>
+
+103
+00:04:21,238 --> 00:04:24,030
+ <font color="#E5E5E5">要 </font><font color="#CCCCCC">使用 </font><font color="#E5E5E5">这个很多 </font><font color="#CCCCCC">，所以</font><font color="#E5E5E5">回去 </font>
+
+104
+00:04:24,030 --> 00:04:28,260
+ <font color="#CCCCCC">如果你 </font><font color="#E5E5E5">右键 </font><font color="#CCCCCC">单击它就可以了 </font>
+
+105
+00:04:28,260 --> 00:04:32,220
+ <font color="#E5E5E5">按发送到桌面 </font><font color="#CCCCCC">然后它放 </font>
+
+106
+00:04:32,220 --> 00:04:34,620
+ <font color="#E5E5E5">你或者给你一个不错的小方便 </font>
+
+107
+00:04:34,620 --> 00:04:38,130
+桌面上的图标， <font color="#CCCCCC">所以希望如此 </font>
+
+108
+00:04:38,130 --> 00:04:39,270
+ <font color="#E5E5E5">将是 </font><font color="#CCCCCC">你最常用的之一 </font>
+
+109
+00:04:39,270 --> 00:04:41,520
+ <font color="#CCCCCC">我们现在可以为</font><font color="#E5E5E5">未来制定计划</font>
+
+110
+00:04:41,520 --> 00:04:44,039
+ <font color="#CCCCCC">只需双击它，然后检查 </font><font color="#E5E5E5">它 </font>
+
+111
+00:04:44,039 --> 00:04:44,400
+出
+
+112
+00:04:44,400 --> 00:04:48,180
+所以这又被称为<font color="#CCCCCC">python IDL </font>
+
+113
+00:04:48,180 --> 00:04:50,490
+ <font color="#CCCCCC">II或Python </font><font color="#E5E5E5">秀然后让你 </font>
+
+114
+00:04:50,490 --> 00:04:52,260
+测试<font color="#E5E5E5">出真正简单的命令 </font>
+
+115
+00:04:52,260 --> 00:04:53,970
+非常适合<font color="#E5E5E5">从中学习Python </font>
+
+116
+00:04:53,970 --> 00:04:56,610
+从<font color="#E5E5E5">现在开始我不会是你 </font>
+
+117
+00:04:56,610 --> 00:04:58,320
+ <font color="#E5E5E5">实际上开始教你 </font><font color="#CCCCCC">什么 </font>
+
+118
+00:04:58,320 --> 00:04:59,669
+这个<font color="#E5E5E5">命令，但我们知道 </font><font color="#CCCCCC">这一点 </font>
+
+119
+00:04:59,669 --> 00:05:01,530
+ <font color="#E5E5E5">一切都在 </font><font color="#CCCCCC">起作用 </font>
+
+120
+00:05:01,530 --> 00:05:03,930
+只需键入<font color="#CCCCCC">一个简单的等式，如 </font><font color="#E5E5E5">3 </font>
+
+121
+00:05:03,930 --> 00:05:08,729
+ <font color="#E5E5E5">加上我不知道 </font><font color="#CCCCCC">4为什么不打 </font><font color="#E5E5E5">输入它 </font>
+
+122
+00:05:08,729 --> 00:05:11,370
+给了我们<font color="#CCCCCC">七个好，所以我们很好 </font>
+
+123
+00:05:11,370 --> 00:05:13,440
+去<font color="#E5E5E5">我们的一切 </font><font color="#CCCCCC">，我们 </font><font color="#E5E5E5">安装 </font>
+
+124
+00:05:13,440 --> 00:05:15,660
+添加一个快捷方式到<font color="#CCCCCC">桌面， </font><font color="#E5E5E5">现在 </font>
+
+125
+00:05:15,660 --> 00:05:17,580
+我们都准备好<font color="#CCCCCC">开始充实我们的大脑 </font>
+
+126
+00:05:17,580 --> 00:05:19,650
+ <font color="#E5E5E5">用Python，谢谢大家观看 </font>
+
+127
+00:05:19,650 --> 00:05:21,630
+ <font color="#E5E5E5">不要忘了 </font><font color="#CCCCCC">，在未来 </font><font color="#E5E5E5">认购 </font>
+
+128
+00:05:21,630 --> 00:05:23,130
+教程中我们会开始<font color="#E5E5E5">学习 </font>
+
+129
+00:05:23,130 --> 00:00:00,000
+码
+

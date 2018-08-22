@@ -1,0 +1,334 @@
+1
+00:00:00,060 --> 00:00:05,879
+okay guys in this video I'm gonna talk
+to you about modules so sometimes you're
+
+2
+00:00:05,879 --> 00:00:08,849
+gonna have functions that you're gonna
+want to use over and over and over again
+
+3
+00:00:08,849 --> 00:00:14,219
+maybe not only in the same program but
+maybe in different programs so instead
+of having to rewrite the function every
+
+4
+00:00:16,740 --> 00:00:20,760
+single time what you can do is you can
+throw all the functions that you're
+
+5
+00:00:20,760 --> 00:00:25,260
+gonna use over and over again in a
+separate file and then just include that
+
+6
+00:00:25,260 --> 00:00:30,510
+file in whatever program you're working
+on so not only does it help you from
+
+7
+00:00:30,510 --> 00:00:33,930
+writing a bunch of code but it also
+helps organize your programming a little
+
+8
+00:00:33,930 --> 00:00:38,190
+bit better and I'm gonna show you guys
+how to make those right now so again
+
+9
+00:00:38,190 --> 00:00:43,230
+like I said right now we're gonna make a
+macho that's just a function included in
+
+10
+00:00:43,230 --> 00:00:49,469
+another file so we're gonna need another
+file so right click on your project and
+
+11
+00:00:49,469 --> 00:00:56,070
+a write new Python file so I'll just
+name this home I don't know like tuna
+
+12
+00:00:56,070 --> 00:01:03,809
+so tuna dot P Y dot py is the extension
+for a Python file and then hit OK so now
+
+13
+00:01:03,809 --> 00:01:08,250
+our project has two files in the same
+directory this main which is our main
+
+14
+00:01:08,250 --> 00:01:12,119
+program the one we've been working on
+and this tuna is the one we just made
+
+15
+00:01:12,119 --> 00:01:15,530
+and we can just delete that that doesn't
+really matter
+
+16
+00:01:15,530 --> 00:01:21,119
+so in this tuna file I'm just gonna make
+a really simple function right now so
+
+17
+00:01:21,119 --> 00:01:24,210
+death now I'll just call it you can call
+it anything you want I'm just name it
+
+18
+00:01:24,210 --> 00:01:29,280
+fish because I don't know much of his
+name to us so why the heck not all right
+
+19
+00:01:29,280 --> 00:01:35,840
+so this function is just kind of like
+prints on my land screen easy colons
+
+20
+00:01:35,840 --> 00:01:41,880
+alright I'll just say I am a tuna fish
+there we go
+alright so say that we wanted to use
+
+21
+00:01:44,340 --> 00:01:48,180
+this function over and over and over
+again so we just wrote it once we threw
+
+22
+00:01:48,180 --> 00:01:52,530
+in a module and we're good to go
+so now whenever we actually want to use
+
+23
+00:01:52,530 --> 00:01:59,670
+it go back to your main program and what
+you can do is in order to use any of the
+
+24
+00:01:59,670 --> 00:02:05,219
+stuff in your module you first need to
+say ok we want to include another file
+so how do we do that well we actually
+
+25
+00:02:08,190 --> 00:02:13,190
+type the word import and that means go
+get a file from somewhere else in
+
+26
+00:02:13,190 --> 00:02:17,360
+use it in this program so then it says
+okay well what's the name of your file
+
+27
+00:02:17,360 --> 00:02:22,700
+well it's just called tuna and you don't
+write py because whenever you import a
+module it knows that of course it's
+
+28
+00:02:25,340 --> 00:02:30,470
+another Python Python file so again no
+need to include that py don't do it it
+
+29
+00:02:30,470 --> 00:02:38,210
+knows so right now in this program we're
+working on we included basically this
+
+30
+00:02:38,210 --> 00:02:42,260
+basically what's going on behind the
+scenes is it goes to this file copies it
+and paste it right in here even though
+
+31
+00:02:44,000 --> 00:02:48,050
+you know you don't see it that's kind of
+a good example so if you just run this
+
+32
+00:02:48,050 --> 00:02:54,650
+right now check it out nothing happens
+why is that well we included this but we
+
+33
+00:02:54,650 --> 00:03:00,430
+didn't say to actually use this function
+right in here so in order to use
+
+34
+00:03:00,430 --> 00:03:06,440
+functions that are inside modules we
+just can't write fish like this even
+
+35
+00:03:06,440 --> 00:03:10,520
+though this function is named fish right
+here check it out if we run it it says
+
+36
+00:03:10,520 --> 00:03:16,880
+okay fish is not defined so why can't we
+do that well the reason for that is say
+we were including a bunch of modules
+
+37
+00:03:19,400 --> 00:03:23,600
+maybe root um there's some modules that
+we wrote maybe some that our friends
+
+38
+00:03:23,600 --> 00:03:27,980
+wrote maybe some that some random people
+on the internet row well maybe each of
+
+39
+00:03:27,980 --> 00:03:32,570
+those modules each have a function name
+fish so whenever we just call it like
+
+40
+00:03:32,570 --> 00:03:37,910
+this it's not going to know which
+function or what function from the
+
+41
+00:03:37,910 --> 00:03:42,440
+module to use so before we call the
+function we need to specify the name of
+
+42
+00:03:42,440 --> 00:03:49,040
+the module that were using it from so
+tuna da fish what this means is go to
+
+43
+00:03:49,040 --> 00:03:55,519
+tuna the tuna module and from there call
+the function named fish so now whenever
+
+44
+00:03:55,519 --> 00:04:02,269
+you run it check it out it goes to tuna
+finds fish and calls this or runs it
+
+45
+00:04:02,269 --> 00:04:07,940
+whatever you want to call it so that is
+how we can build our own module and use
+
+46
+00:04:07,940 --> 00:04:12,320
+the crap inside it but there are also
+ways to use other people's modules and
+
+47
+00:04:12,320 --> 00:04:15,230
+I'll show you how to do that right now
+so one module that you're going to be
+
+48
+00:04:15,230 --> 00:04:18,830
+using a lot is called a random and this
+is just a simple one to generate a
+
+49
+00:04:18,829 --> 00:04:25,250
+random number another random stuff so if
+you write import random actually it just
+
+50
+00:04:25,250 --> 00:04:30,080
+pops up right there
+and answer what you did is it basically
+
+51
+00:04:30,080 --> 00:04:34,670
+includes a bunch of functions that they
+aren't built into the core Python
+
+52
+00:04:34,670 --> 00:04:38,660
+language but we can just import them
+really easily and we can also download
+
+53
+00:04:38,660 --> 00:04:42,860
+other modules from the internet and use
+those as well but this is the one or
+
+54
+00:04:42,860 --> 00:04:47,660
+excuse me this is one that's included
+with PyCharm so whenever we import it we
+
+55
+00:04:47,660 --> 00:04:52,730
+can use those functions and I'll show
+you guys a real simple one real quick so
+
+56
+00:04:52,730 --> 00:04:56,990
+we'll just make a random number from
+like 100,000 of course the modules name
+
+57
+00:04:56,990 --> 00:05:03,320
+is random and a function that is inside
+it is called R and range and this just
+
+58
+00:05:03,320 --> 00:05:09,860
+takes a range of numbers like 1 like I
+said to a thousand so now what we did is
+
+59
+00:05:09,860 --> 00:05:13,550
+we generated or n number one two
+thousand stored it in the variable X and
+
+60
+00:05:13,550 --> 00:05:22,250
+if I just print that out and hopefully
+this time it was 236 and who the heck is
+
+61
+00:05:22,250 --> 00:05:28,250
+texting me right now all right anyways I
+gotta go deal with that and actually in
+
+62
+00:05:28,250 --> 00:05:31,760
+the next video what I'm gonna do is I'm
+gonna show you guys a real cool way in
+
+63
+00:05:31,760 --> 00:05:35,630
+easy way where you can go grab modules
+from the internet and download them and
+
+64
+00:05:35,630 --> 00:05:39,650
+the cool thing about it is we don't have
+to open up our browser or anything all
+
+65
+00:05:39,650 --> 00:05:43,220
+the tools are built right into PyCharm
+so that's what you have to look forward
+
+66
+00:05:43,220 --> 00:05:46,000
+to I'll see you then

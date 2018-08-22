@@ -1,0 +1,680 @@
+1
+00:00:00,030 --> 00:00:02,070
+<font color="#CCCCCC">alright guys welcome back and</font><font color="#E5E5E5"> in this</font>
+
+2
+00:00:02,070 --> 00:00:04,440
+video<font color="#E5E5E5"> I want to talk to you about lists</font>
+
+3
+00:00:04,440 --> 00:00:06,509
+<font color="#E5E5E5">one of the most important and also one</font>
+
+4
+00:00:06,509 --> 00:00:07,649
+of the<font color="#E5E5E5"> things in Python that you're</font>
+
+5
+00:00:07,649 --> 00:00:10,679
+going<font color="#E5E5E5"> to be using</font><font color="#CCCCCC"> a lot so a list</font><font color="#E5E5E5"> is</font>
+
+6
+00:00:10,679 --> 00:00:13,080
+<font color="#E5E5E5">pretty much exactly</font><font color="#CCCCCC"> um what you think it</font>
+
+7
+00:00:13,080 --> 00:00:14,670
+is<font color="#CCCCCC"> just like a list of</font><font color="#E5E5E5"> numbers</font><font color="#CCCCCC"> you can</font>
+
+8
+00:00:14,670 --> 00:00:16,920
+actually<font color="#E5E5E5"> have a list of anything but in</font>
+
+9
+00:00:16,920 --> 00:00:18,300
+this<font color="#E5E5E5"> video I'm going to be showing you</font>
+
+10
+00:00:18,300 --> 00:00:19,859
+guys<font color="#E5E5E5"> just a list of numbers because</font>
+
+11
+00:00:19,859 --> 00:00:21,630
+that's the easiest type<font color="#CCCCCC"> of list</font><font color="#E5E5E5"> of work</font>
+
+12
+00:00:21,630 --> 00:00:24,420
+with so I'm going to<font color="#E5E5E5"> name my list</font>
+
+13
+00:00:24,420 --> 00:00:27,150
+<font color="#E5E5E5">players so say that I'm a coach and I</font>
+
+14
+00:00:27,150 --> 00:00:28,949
+want to keep track<font color="#CCCCCC"> of all my players</font><font color="#E5E5E5"> on</font>
+
+15
+00:00:28,949 --> 00:00:32,640
+a certain<font color="#E5E5E5"> team so set a variable</font><font color="#CCCCCC"> equal</font>
+
+16
+00:00:32,640 --> 00:00:35,250
+to<font color="#E5E5E5"> something and instead of</font><font color="#CCCCCC"> just having</font>
+
+17
+00:00:35,250 --> 00:00:37,920
+<font color="#E5E5E5">a list the numbers like this you</font>
+
+18
+00:00:37,920 --> 00:00:39,840
+actually<font color="#E5E5E5"> need to pull all of your</font><font color="#CCCCCC"> items</font>
+
+19
+00:00:39,840 --> 00:00:42,600
+in between square<font color="#CCCCCC"> brackets that's how</font>
+
+20
+00:00:42,600 --> 00:00:44,789
+Python knows that<font color="#E5E5E5"> okay I'm working with</font>
+
+21
+00:00:44,789 --> 00:00:47,730
+a list<font color="#E5E5E5"> so I have one player</font><font color="#CCCCCC"> name</font><font color="#E5E5E5"> 29</font>
+
+22
+00:00:47,730 --> 00:00:52,440
+another name 58 another they<font color="#E5E5E5"> say name 66</font>
+
+23
+00:00:52,440 --> 00:00:56,309
+<font color="#E5E5E5">another with the number 66 100 wears</font>
+
+24
+00:00:56,309 --> 00:00:59,039
+<font color="#CCCCCC">that jersey 71 and my last player is</font>
+
+25
+00:00:59,039 --> 00:01:02,640
+number 87<font color="#CCCCCC"> and these are actually</font><font color="#E5E5E5"> numbers</font>
+
+26
+00:01:02,640 --> 00:01:05,549
+from<font color="#E5E5E5"> my favorite sports team so if</font>
+
+27
+00:01:05,549 --> 00:01:08,580
+anyone can tell what my favorite sports
+
+28
+00:01:08,580 --> 00:01:10,979
+team<font color="#E5E5E5"> is just by the number jersey they</font>
+
+29
+00:01:10,979 --> 00:01:13,590
+wear then<font color="#CCCCCC"> I will actually</font><font color="#E5E5E5"> be</font><font color="#CCCCCC"> impressed</font>
+
+30
+00:01:13,590 --> 00:01:16,409
+so anyways<font color="#E5E5E5"> for those who don't care</font>
+
+31
+00:01:16,409 --> 00:01:19,200
+about<font color="#CCCCCC"> that right now we</font><font color="#E5E5E5"> have a list of</font>
+
+32
+00:01:19,200 --> 00:01:22,920
+<font color="#CCCCCC">numbers</font><font color="#E5E5E5"> of course remember</font><font color="#CCCCCC"> in computer</font>
+
+33
+00:01:22,920 --> 00:01:24,960
+programming<font color="#CCCCCC"> and</font><font color="#E5E5E5"> Python</font><font color="#CCCCCC"> it always starts</font>
+
+34
+00:01:24,960 --> 00:01:28,680
+counting at<font color="#CCCCCC"> 0 so this</font><font color="#E5E5E5"> is</font><font color="#CCCCCC"> position 0 1 2</font>
+
+35
+00:01:28,680 --> 00:01:32,729
+etc etc<font color="#E5E5E5"> now</font><font color="#CCCCCC"> just like a string what we</font>
+
+36
+00:01:32,729 --> 00:01:34,700
+can do is type the<font color="#E5E5E5"> name of</font><font color="#CCCCCC"> the list</font><font color="#E5E5E5"> and</font>
+
+37
+00:01:34,700 --> 00:01:37,920
+then the position<font color="#CCCCCC"> number and it can get</font>
+
+38
+00:01:37,920 --> 00:01:42,720
+that item<font color="#CCCCCC"> so</font><font color="#E5E5E5"> again 0 1 2 so</font><font color="#CCCCCC"> players at</font>
+
+39
+00:01:42,720 --> 00:01:47,490
+position 2<font color="#E5E5E5"> that be 66</font><font color="#CCCCCC"> alright simple</font>
+
+40
+00:01:47,490 --> 00:01:49,229
+enough<font color="#CCCCCC"> so</font><font color="#E5E5E5"> let's figure out how to do</font>
+
+41
+00:01:49,229 --> 00:01:52,020
+<font color="#E5E5E5">something else so</font><font color="#CCCCCC"> that is how we access</font>
+
+42
+00:01:52,020 --> 00:01:56,450
+<font color="#E5E5E5">an item in that position but we can also</font>
+
+43
+00:01:56,450 --> 00:01:59,729
+<font color="#E5E5E5">change it to a new value so we'll say</font><font color="#CCCCCC"> ok</font>
+
+44
+00:01:59,729 --> 00:02:02,820
+actually we traded<font color="#E5E5E5"> number 66 to another</font>
+
+45
+00:02:02,820 --> 00:02:06,509
+team<font color="#E5E5E5"> and instead we got 68 so what this</font>
+
+46
+00:02:06,509 --> 00:02:12,330
+does<font color="#E5E5E5"> is</font><font color="#CCCCCC"> say ok set players to 268 just</font>
+
+47
+00:02:12,330 --> 00:02:13,650
+like we do variables
+
+48
+00:02:13,650 --> 00:02:15,720
+so now whenever we<font color="#E5E5E5"> talk about players as</font>
+
+49
+00:02:15,720 --> 00:02:20,459
+<font color="#E5E5E5">you can see 66 which was the old value</font>
+
+50
+00:02:20,459 --> 00:02:22,890
+is now changed<font color="#CCCCCC"> to 68 so again this is</font>
+
+51
+00:02:22,890 --> 00:02:24,750
+<font color="#CCCCCC">how you just rigged it information and</font>
+
+52
+00:02:24,750 --> 00:02:27,569
+this<font color="#E5E5E5"> is how you set</font><font color="#CCCCCC"> equal to</font><font color="#E5E5E5"> new values</font>
+
+53
+00:02:27,569 --> 00:02:31,290
+<font color="#E5E5E5">or new numbers now another thing</font><font color="#CCCCCC"> that we</font>
+
+54
+00:02:31,290 --> 00:02:33,690
+can<font color="#CCCCCC"> do is add more items to</font><font color="#E5E5E5"> the end of</font>
+
+55
+00:02:33,690 --> 00:02:35,610
+this list<font color="#E5E5E5"> and we can do it in one</font><font color="#CCCCCC"> of two</font>
+
+56
+00:02:35,610 --> 00:02:38,849
+<font color="#CCCCCC">ways the first way is just</font><font color="#E5E5E5"> to save</font>
+
+57
+00:02:38,849 --> 00:02:42,319
+players which<font color="#E5E5E5"> is equal to</font><font color="#CCCCCC"> this list</font><font color="#E5E5E5"> and</font>
+
+58
+00:02:42,319 --> 00:02:45,480
+<font color="#CCCCCC">we can add it with another</font><font color="#E5E5E5"> list let's</font>
+
+59
+00:02:45,480 --> 00:02:50,790
+say<font color="#E5E5E5"> I don't know</font><font color="#CCCCCC"> 90 91 in like 98 now</font>
+
+60
+00:02:50,790 --> 00:02:52,799
+whenever<font color="#E5E5E5"> we hit enter</font><font color="#CCCCCC"> it gives us our</font>
+
+61
+00:02:52,799 --> 00:02:55,319
+<font color="#E5E5E5">new list which is the old one of this</font>
+
+62
+00:02:55,319 --> 00:03:00,329
+one<font color="#CCCCCC"> plus what we</font><font color="#E5E5E5"> just wrote however this</font>
+
+63
+00:03:00,329 --> 00:03:03,420
+doesn't permanently<font color="#CCCCCC"> change the players</font>
+
+64
+00:03:03,420 --> 00:03:06,269
+list<font color="#E5E5E5"> the original players list is still</font>
+
+65
+00:03:06,269 --> 00:03:08,220
+<font color="#E5E5E5">the same it just temporarily</font>
+
+66
+00:03:08,220 --> 00:03:10,470
+<font color="#CCCCCC">um gives you a new list</font><font color="#E5E5E5"> so what you</font>
+
+67
+00:03:10,470 --> 00:03:12,569
+<font color="#E5E5E5">could actually do is you</font><font color="#CCCCCC"> can actually</font>
+
+68
+00:03:12,569 --> 00:03:15,510
+set this entire statement<font color="#E5E5E5"> equal to a new</font>
+
+69
+00:03:15,510 --> 00:03:18,780
+<font color="#CCCCCC">arm</font><font color="#E5E5E5"> variable like players like new</font>
+
+70
+00:03:18,780 --> 00:03:20,160
+players or something and use that
+
+71
+00:03:20,160 --> 00:03:22,590
+<font color="#E5E5E5">variable but just remember</font><font color="#CCCCCC"> that this</font>
+
+72
+00:03:22,590 --> 00:03:24,540
+statement<font color="#E5E5E5"> itself doesn't change this</font>
+
+73
+00:03:24,540 --> 00:03:26,760
+original list<font color="#E5E5E5"> now there are actually</font>
+
+74
+00:03:26,760 --> 00:03:29,220
+<font color="#CCCCCC">going to be some times</font><font color="#E5E5E5"> where we do want</font>
+
+75
+00:03:29,220 --> 00:03:31,530
+<font color="#E5E5E5">to change the</font><font color="#CCCCCC"> lists permanently and add</font>
+
+76
+00:03:31,530 --> 00:03:33,780
+<font color="#E5E5E5">items on there that is going to affect</font>
+
+77
+00:03:33,780 --> 00:03:36,239
+<font color="#CCCCCC">um the list itself so in order to add</font>
+
+78
+00:03:36,239 --> 00:03:41,340
+<font color="#E5E5E5">items permanently</font><font color="#CCCCCC"> freaking caps lock we</font>
+
+79
+00:03:41,340 --> 00:03:44,849
+can do players dot<font color="#E5E5E5"> and call the function</font>
+
+80
+00:03:44,849 --> 00:03:47,280
+append<font color="#CCCCCC"> now I know I didn't talk to you</font>
+
+81
+00:03:47,280 --> 00:03:49,709
+<font color="#CCCCCC">guys much about functions or the dot</font>
+
+82
+00:03:49,709 --> 00:03:51,090
+operator<font color="#E5E5E5"> but I just want to show you</font>
+
+83
+00:03:51,090 --> 00:03:54,090
+<font color="#E5E5E5">guys this real simple trick so what this</font>
+
+84
+00:03:54,090 --> 00:03:56,669
+<font color="#E5E5E5">does is it</font><font color="#CCCCCC"> basically says</font><font color="#E5E5E5"> this write the</font>
+
+85
+00:03:56,669 --> 00:03:58,799
+name of<font color="#CCCCCC"> your</font><font color="#E5E5E5"> list</font><font color="#CCCCCC"> then right</font><font color="#E5E5E5"> after</font><font color="#CCCCCC"> it</font>
+
+86
+00:03:58,799 --> 00:04:01,019
+without any<font color="#E5E5E5"> spaces</font><font color="#CCCCCC"> right the dot</font><font color="#E5E5E5"> and</font>
+
+87
+00:04:01,019 --> 00:04:04,379
+<font color="#E5E5E5">this means do something to this list now</font>
+
+88
+00:04:04,379 --> 00:04:07,680
+append pretty much means add something
+
+89
+00:04:07,680 --> 00:04:10,410
+<font color="#E5E5E5">on so in between here we write the</font>
+
+90
+00:04:10,410 --> 00:04:12,000
+<font color="#CCCCCC">number that we want to add on</font><font color="#E5E5E5"> like I</font>
+
+91
+00:04:12,000 --> 00:04:17,220
+don't know 120 so now in this line<font color="#E5E5E5"> we</font>
+
+92
+00:04:17,220 --> 00:04:19,918
+added<font color="#E5E5E5"> another item or number on to this</font>
+
+93
+00:04:19,918 --> 00:04:21,659
+list<font color="#E5E5E5"> and if we print</font><font color="#CCCCCC"> that bad boy out</font>
+
+94
+00:04:21,659 --> 00:04:25,979
+<font color="#E5E5E5">check it out this was our list before</font>
+
+95
+00:04:25,979 --> 00:04:27,690
+and now here is our<font color="#E5E5E5"> new</font>
+
+96
+00:04:27,690 --> 00:04:30,660
+list<font color="#E5E5E5"> so again append permanently changes</font>
+
+97
+00:04:30,660 --> 00:04:33,390
+your list<font color="#E5E5E5"> the plus sign temporarily</font>
+
+98
+00:04:33,390 --> 00:04:36,960
+<font color="#CCCCCC">changes</font><font color="#E5E5E5"> it</font><font color="#CCCCCC"> alright not bad not bad lists</font>
+
+99
+00:04:36,960 --> 00:04:39,540
+are pretty<font color="#CCCCCC"> friggin cool so far</font><font color="#E5E5E5"> now</font>
+
+100
+00:04:39,540 --> 00:04:41,340
+another thing<font color="#E5E5E5"> I want</font><font color="#CCCCCC"> to</font><font color="#E5E5E5"> talk to you guys</font>
+
+101
+00:04:41,340 --> 00:04:43,500
+about is how<font color="#E5E5E5"> to slice items from the</font>
+
+102
+00:04:43,500 --> 00:04:45,420
+list just like<font color="#E5E5E5"> we did with</font><font color="#CCCCCC"> our strings</font>
+
+103
+00:04:45,420 --> 00:04:50,610
+<font color="#E5E5E5">so if we ever want to do players</font><font color="#CCCCCC"> - what</font>
+
+104
+00:04:50,610 --> 00:04:52,430
+this<font color="#E5E5E5"> does is it starts at the beginning</font>
+
+105
+00:04:52,430 --> 00:04:55,290
+which is right here<font color="#CCCCCC"> and it goes to</font>
+
+106
+00:04:55,290 --> 00:04:59,370
+position<font color="#E5E5E5"> 2 so 0</font><font color="#CCCCCC"> 1 2 and of course</font>
+
+107
+00:04:59,370 --> 00:05:00,990
+<font color="#E5E5E5">remember</font><font color="#CCCCCC"> that it doesn't actually</font>
+
+108
+00:05:00,990 --> 00:05:03,690
+include this item it just says<font color="#CCCCCC"> ok that's</font>
+
+109
+00:05:03,690 --> 00:05:06,210
+<font color="#E5E5E5">the stopping point so as you can see</font>
+
+110
+00:05:06,210 --> 00:05:07,980
+<font color="#E5E5E5">just like slicing characters you can</font>
+
+111
+00:05:07,980 --> 00:05:11,550
+also do it<font color="#E5E5E5"> with arm lists</font><font color="#CCCCCC"> I can't even</font>
+
+112
+00:05:11,550 --> 00:05:12,390
+<font color="#E5E5E5">talk right now</font>
+
+113
+00:05:12,390 --> 00:05:15,840
+I think my brains<font color="#E5E5E5"> about to explode</font><font color="#CCCCCC"> ok</font>
+
+114
+00:05:15,840 --> 00:05:18,600
+so aside from<font color="#CCCCCC"> that we saw that you can</font>
+
+115
+00:05:18,600 --> 00:05:21,330
+<font color="#CCCCCC">just use this to display</font><font color="#E5E5E5"> now you can</font>
+
+116
+00:05:21,330 --> 00:05:25,860
+also<font color="#CCCCCC"> use this to set it equal to</font><font color="#E5E5E5"> new</font>
+
+117
+00:05:25,860 --> 00:05:26,760
+<font color="#E5E5E5">values at once</font>
+
+118
+00:05:26,760 --> 00:05:29,310
+so before<font color="#CCCCCC"> you see up here how we took</font>
+
+119
+00:05:29,310 --> 00:05:32,520
+one item<font color="#E5E5E5"> from the list</font><font color="#CCCCCC"> and set it equal</font>
+
+120
+00:05:32,520 --> 00:05:36,990
+to a<font color="#CCCCCC"> new value well since this piece of</font>
+
+121
+00:05:36,990 --> 00:05:41,340
+code<font color="#CCCCCC"> right here</font><font color="#E5E5E5"> returns two items we can</font>
+
+122
+00:05:41,340 --> 00:05:43,710
+set this equal<font color="#CCCCCC"> to</font><font color="#E5E5E5"> two new items such as</font>
+
+123
+00:05:43,710 --> 00:05:45,450
+I<font color="#E5E5E5"> don't</font><font color="#CCCCCC"> know let's make something easy</font>
+
+124
+00:05:45,450 --> 00:05:48,440
+to<font color="#E5E5E5"> see so let's this say is it says</font><font color="#CCCCCC"> okay</font>
+
+125
+00:05:48,440 --> 00:05:52,140
+take the items at position 1 0<font color="#CCCCCC"> & 1</font><font color="#E5E5E5"> and</font>
+
+126
+00:05:52,140 --> 00:05:56,750
+set them equal to<font color="#E5E5E5"> 0 and 0 respectively</font>
+
+127
+00:05:56,750 --> 00:05:59,400
+<font color="#E5E5E5">so that is how you replace multiple</font>
+
+128
+00:05:59,400 --> 00:06:02,210
+items or multiple values<font color="#E5E5E5"> at once</font><font color="#CCCCCC"> all</font>
+
+129
+00:06:02,210 --> 00:06:04,830
+<font color="#E5E5E5">right not</font><font color="#CCCCCC"> bad now another thing that you</font>
+
+130
+00:06:04,830 --> 00:06:06,570
+<font color="#CCCCCC">can</font><font color="#E5E5E5"> do is this and this is</font><font color="#CCCCCC"> actually</font>
+
+131
+00:06:06,570 --> 00:06:09,930
+<font color="#CCCCCC">really handy say that instead of 0 0</font>
+
+132
+00:06:09,930 --> 00:06:12,870
+<font color="#E5E5E5">which are actual numbers</font><font color="#CCCCCC"> then we just</font>
+
+133
+00:06:12,870 --> 00:06:15,570
+wanted to<font color="#E5E5E5"> remove those items</font><font color="#CCCCCC"> so what we</font>
+
+134
+00:06:15,570 --> 00:06:18,390
+can<font color="#E5E5E5"> do is this if we take the first two</font>
+
+135
+00:06:18,390 --> 00:06:20,669
+<font color="#E5E5E5">items from the list and set them equal</font>
+
+136
+00:06:20,669 --> 00:06:23,100
+to<font color="#E5E5E5"> empty square brackets</font><font color="#CCCCCC"> with</font><font color="#E5E5E5"> no values</font>
+
+137
+00:06:23,100 --> 00:06:25,260
+in them it's<font color="#E5E5E5"> going to say</font><font color="#CCCCCC"> ok pretty much</font>
+
+138
+00:06:25,260 --> 00:06:27,600
+<font color="#E5E5E5">take these</font><font color="#CCCCCC"> values</font><font color="#E5E5E5"> in and remove them or</font>
+
+139
+00:06:27,600 --> 00:06:31,080
+set them to<font color="#E5E5E5"> empty not even zero so now</font>
+
+140
+00:06:31,080 --> 00:06:34,110
+whenever<font color="#CCCCCC"> we</font><font color="#E5E5E5"> type players check it out</font>
+
+141
+00:06:34,110 --> 00:06:37,740
+<font color="#E5E5E5">these values which were</font><font color="#CCCCCC"> 0</font><font color="#E5E5E5"> are now</font>
+
+142
+00:06:37,740 --> 00:06:40,169
+permanently gone so that's how you
+
+143
+00:06:40,169 --> 00:06:41,279
+delete
+
+144
+00:06:41,279 --> 00:06:44,669
+from your list<font color="#CCCCCC"> now</font><font color="#E5E5E5"> what if you just</font>
+
+145
+00:06:44,669 --> 00:06:46,919
+<font color="#E5E5E5">wanted</font><font color="#CCCCCC"> to delete</font><font color="#E5E5E5"> your</font><font color="#CCCCCC"> entire list</font><font color="#E5E5E5"> well</font>
+
+146
+00:06:46,919 --> 00:06:49,229
+it may<font color="#E5E5E5"> sound confusing but it's actually</font>
+
+147
+00:06:49,229 --> 00:06:54,509
+<font color="#E5E5E5">pretty easy take players and set it</font>
+
+148
+00:06:54,509 --> 00:06:57,899
+equal<font color="#E5E5E5"> to empty now remember by default</font>
+
+149
+00:06:57,899 --> 00:06:59,879
+this<font color="#CCCCCC"> colon</font><font color="#E5E5E5"> right here says where do you</font>
+
+150
+00:06:59,879 --> 00:07:01,859
+want to stop<font color="#CCCCCC"> and where do you</font><font color="#E5E5E5"> want to</font>
+
+151
+00:07:01,859 --> 00:07:05,069
+start or certain<font color="#CCCCCC"> stop well</font><font color="#E5E5E5"> if we</font><font color="#CCCCCC"> just</font>
+
+152
+00:07:05,069 --> 00:07:06,569
+have a colon<font color="#E5E5E5"> - enough at the left and</font>
+
+153
+00:07:06,569 --> 00:07:07,829
+<font color="#CCCCCC">nothing to the right it's going to grab</font>
+
+154
+00:07:07,829 --> 00:07:09,779
+the<font color="#CCCCCC"> entire list</font><font color="#E5E5E5"> and of course we know</font>
+
+155
+00:07:09,779 --> 00:07:13,319
+setting<font color="#CCCCCC"> equal to square brackets says</font>
+
+156
+00:07:13,319 --> 00:07:15,299
+take this entire list<font color="#CCCCCC"> and empty</font>
+
+157
+00:07:15,299 --> 00:07:18,299
+<font color="#E5E5E5">everything so now whenever</font><font color="#CCCCCC"> you're</font><font color="#E5E5E5"> right</font>
+
+158
+00:07:18,299 --> 00:07:22,019
+players we just get an empty list<font color="#E5E5E5"> so</font>
+
+159
+00:07:22,019 --> 00:07:23,789
+that's how you clear an entire list by
+
+160
+00:07:23,789 --> 00:07:27,149
+removing all the items and again<font color="#CCCCCC"> I know</font>
+
+161
+00:07:27,149 --> 00:07:29,549
+<font color="#E5E5E5">this is a lot</font><font color="#CCCCCC"> to</font><font color="#E5E5E5"> cover we list</font><font color="#CCCCCC"> but we</font>
+
+162
+00:07:29,549 --> 00:07:31,110
+are going to be<font color="#E5E5E5"> using lists a lot it's</font>
+
+163
+00:07:31,110 --> 00:07:32,819
+kind of intuitive but<font color="#CCCCCC"> it's kind of</font>
+
+164
+00:07:32,819 --> 00:07:35,009
+confusing<font color="#CCCCCC"> at first so you might have</font><font color="#E5E5E5"> to</font>
+
+165
+00:07:35,009 --> 00:07:36,929
+<font color="#CCCCCC">watch this</font><font color="#E5E5E5"> tutorial one more time if you</font>
+
+166
+00:07:36,929 --> 00:07:38,549
+have any questions at all then just ask
+
+167
+00:07:38,549 --> 00:07:39,869
+<font color="#E5E5E5">me I'm gonna forum I'll be happy to</font>
+
+168
+00:07:39,869 --> 00:07:40,679
+answer it<font color="#CCCCCC"> for you</font>
+
+169
+00:07:40,679 --> 00:07:42,569
+but<font color="#E5E5E5"> for</font><font color="#CCCCCC"> now thank guys for watching and</font>
+
+170
+00:07:42,569 --> 00:00:00,000
+I'll see you guys in the next video
+

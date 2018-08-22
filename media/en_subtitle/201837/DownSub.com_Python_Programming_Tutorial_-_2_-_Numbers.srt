@@ -1,0 +1,492 @@
+1
+00:00:00,060 --> 00:00:01,829
+<font color="#CCCCCC">alright guys</font><font color="#E5E5E5"> welcome to your second</font>
+
+2
+00:00:01,829 --> 00:00:04,019
+Python tutorial and in this<font color="#CCCCCC"> video we're</font>
+
+3
+00:00:04,019 --> 00:00:05,759
+gonna be<font color="#CCCCCC"> learning more about those basic</font>
+
+4
+00:00:05,759 --> 00:00:08,130
+math operators<font color="#E5E5E5"> and also I want to teach</font>
+
+5
+00:00:08,130 --> 00:00:09,120
+<font color="#E5E5E5">you guys about something called</font>
+
+6
+00:00:09,120 --> 00:00:12,210
+variables<font color="#CCCCCC"> if we have time</font><font color="#E5E5E5"> so in the last</font>
+
+7
+00:00:12,210 --> 00:00:13,889
+tutorial<font color="#E5E5E5"> we saw that you can add two</font>
+
+8
+00:00:13,889 --> 00:00:16,710
+numbers together<font color="#CCCCCC"> three</font><font color="#E5E5E5"> plus</font><font color="#CCCCCC"> four</font><font color="#E5E5E5"> simple</font>
+
+9
+00:00:16,710 --> 00:00:19,350
+<font color="#CCCCCC">enough</font><font color="#E5E5E5"> now you can also use</font><font color="#CCCCCC"> minus to</font>
+
+10
+00:00:19,350 --> 00:00:21,449
+subtract<font color="#E5E5E5"> that's you know kind of</font>
+
+11
+00:00:21,449 --> 00:00:23,789
+intuitive<font color="#E5E5E5"> however if you never program</font>
+
+12
+00:00:23,789 --> 00:00:25,199
+before<font color="#CCCCCC"> I'll talk to you guys about</font>
+
+13
+00:00:25,199 --> 00:00:27,660
+multiplication<font color="#CCCCCC"> and division</font><font color="#E5E5E5"> whenever you</font>
+
+14
+00:00:27,660 --> 00:00:30,090
+want to<font color="#CCCCCC"> multiply</font><font color="#E5E5E5"> two numbers you</font><font color="#CCCCCC"> use the</font>
+
+15
+00:00:30,090 --> 00:00:32,219
+<font color="#CCCCCC">asterisks which is above the a on your</font>
+
+16
+00:00:32,219 --> 00:00:35,480
+keyboard<font color="#CCCCCC"> then you</font><font color="#E5E5E5"> can just do</font><font color="#CCCCCC"> 3 times</font><font color="#E5E5E5"> 20</font>
+
+17
+00:00:35,480 --> 00:00:38,340
+easy<font color="#E5E5E5"> enough now whenever you want to</font>
+
+18
+00:00:38,340 --> 00:00:41,940
+divide<font color="#CCCCCC"> use the</font><font color="#E5E5E5"> forward slash so 12 over</font>
+
+19
+00:00:41,940 --> 00:00:46,500
+<font color="#E5E5E5">4 12 divided by 4 equals 3 now just like</font>
+
+20
+00:00:46,500 --> 00:00:48,570
+in<font color="#CCCCCC"> real life computer</font><font color="#E5E5E5"> programming in</font>
+
+21
+00:00:48,570 --> 00:00:51,960
+Python<font color="#CCCCCC"> also has orders of operation</font><font color="#E5E5E5"> so</font>
+
+22
+00:00:51,960 --> 00:00:55,860
+say<font color="#E5E5E5"> that you had 8 plus 2 multiplied by</font>
+
+23
+00:00:55,860 --> 00:00:59,250
+<font color="#E5E5E5">10 well you may be thinking</font><font color="#CCCCCC"> ok 8 plus 2</font>
+
+24
+00:00:59,250 --> 00:01:02,510
+equals 10 10 multiplied by 10 equals<font color="#E5E5E5"> 100</font>
+
+25
+00:01:02,510 --> 00:01:06,119
+<font color="#CCCCCC">okay I got 28 and that's because just</font>
+
+26
+00:01:06,119 --> 00:01:07,890
+like in<font color="#E5E5E5"> real life</font><font color="#CCCCCC"> it follows the orders</font>
+
+27
+00:01:07,890 --> 00:01:09,990
+<font color="#CCCCCC">of operation</font><font color="#E5E5E5"> and multiplies and divides</font>
+
+28
+00:01:09,990 --> 00:01:13,200
+first so 2 multiplied by 10 which would
+
+29
+00:01:13,200 --> 00:01:16,439
+be 20<font color="#E5E5E5"> and then it adds 8 now if you ever</font>
+
+30
+00:01:16,439 --> 00:01:18,810
+wanted to<font color="#E5E5E5"> run this like you thought</font><font color="#CCCCCC"> it</font>
+
+31
+00:01:18,810 --> 00:01:20,970
+would<font color="#E5E5E5"> you can put them in parentheses</font><font color="#CCCCCC"> so</font>
+
+32
+00:01:20,970 --> 00:01:24,180
+8 plus 2<font color="#E5E5E5"> and again anything in</font>
+
+33
+00:01:24,180 --> 00:01:26,130
+<font color="#E5E5E5">parentheses happens first takes</font>
+
+34
+00:01:26,130 --> 00:01:28,320
+precedence over<font color="#E5E5E5"> everything else so this</font>
+
+35
+00:01:28,320 --> 00:01:31,530
+would be 8 plus 2 which is<font color="#E5E5E5"> 10 and then</font>
+
+36
+00:01:31,530 --> 00:01:34,890
+multiply that<font color="#E5E5E5"> answer by 10 so again</font>
+
+37
+00:01:34,890 --> 00:01:36,060
+<font color="#E5E5E5">whenever you want to do that use</font>
+
+38
+00:01:36,060 --> 00:01:39,659
+parentheses<font color="#E5E5E5"> now this is pretty</font><font color="#CCCCCC"> simple</font>
+
+39
+00:01:39,659 --> 00:01:42,210
+stuff<font color="#E5E5E5"> so far however the one thing that</font>
+
+40
+00:01:42,210 --> 00:01:45,119
+may confuse<font color="#CCCCCC"> you</font><font color="#E5E5E5"> is whenever you're using</font>
+
+41
+00:01:45,119 --> 00:01:48,149
+division<font color="#E5E5E5"> and this is not only Python but</font>
+
+42
+00:01:48,149 --> 00:01:49,470
+all computer programming<font color="#E5E5E5"> languages</font>
+
+43
+00:01:49,470 --> 00:01:51,930
+<font color="#E5E5E5">computers handle a division and the kind</font>
+
+44
+00:01:51,930 --> 00:01:53,250
+<font color="#E5E5E5">of weird way and</font><font color="#CCCCCC"> you may get some</font>
+
+45
+00:01:53,250 --> 00:01:56,189
+unexpected<font color="#CCCCCC"> results now Python is pretty</font>
+
+46
+00:01:56,189 --> 00:01:58,560
+<font color="#E5E5E5">good at just simple division so 18 over</font>
+
+47
+00:01:58,560 --> 00:02:02,600
+<font color="#CCCCCC">4</font><font color="#E5E5E5"> 4 and</font><font color="#CCCCCC"> a half</font><font color="#E5E5E5"> now there are a couple</font>
+
+48
+00:02:02,600 --> 00:02:05,610
+cool techniques that we can<font color="#E5E5E5"> use and this</font>
+
+49
+00:02:05,610 --> 00:02:07,220
+<font color="#CCCCCC">is actually helpful</font><font color="#E5E5E5"> in a lot of cases</font>
+
+50
+00:02:07,220 --> 00:02:10,318
+there<font color="#CCCCCC"> are some times</font><font color="#E5E5E5"> that we want to</font>
+
+51
+00:02:10,318 --> 00:02:12,750
+<font color="#E5E5E5">round down or in other words drop this</font>
+
+52
+00:02:12,750 --> 00:02:13,750
+decimal place
+
+53
+00:02:13,750 --> 00:02:16,270
+we're gonna say<font color="#E5E5E5"> okay</font><font color="#CCCCCC"> eighteen divided by</font>
+
+54
+00:02:16,270 --> 00:02:17,410
+<font color="#CCCCCC">four</font>
+
+55
+00:02:17,410 --> 00:02:20,280
+whenever we'll use two forward slashes
+
+56
+00:02:20,280 --> 00:02:22,900
+<font color="#E5E5E5">what this does is it takes the result</font>
+
+57
+00:02:22,900 --> 00:02:25,000
+and rounds it down to the<font color="#E5E5E5"> nearest whole</font>
+
+58
+00:02:25,000 --> 00:02:27,130
+<font color="#E5E5E5">number in other words it pretty much</font>
+
+59
+00:02:27,130 --> 00:02:30,010
+takes<font color="#E5E5E5"> the decimal place and drops it</font>
+
+60
+00:02:30,010 --> 00:02:31,240
+forgets about<font color="#CCCCCC"> it</font>
+
+61
+00:02:31,240 --> 00:02:34,570
+now if we only<font color="#E5E5E5"> want to access the</font>
+
+62
+00:02:34,570 --> 00:02:38,920
+remainder such as<font color="#E5E5E5"> 18 I'll show you guys</font>
+
+63
+00:02:38,920 --> 00:02:40,450
+what I'm doing and<font color="#E5E5E5"> then</font><font color="#CCCCCC"> I'll</font><font color="#E5E5E5"> talk</font><font color="#CCCCCC"> you</font>
+
+64
+00:02:40,450 --> 00:02:42,940
+<font color="#CCCCCC">guys</font><font color="#E5E5E5"> through so what this does is</font>
+
+65
+00:02:42,940 --> 00:02:44,820
+whenever you use the<font color="#E5E5E5"> percent sign</font>
+
+66
+00:02:44,820 --> 00:02:49,420
+<font color="#E5E5E5">whenever you divide 18 by</font><font color="#CCCCCC"> 4</font><font color="#E5E5E5"> it's</font><font color="#CCCCCC"> 4 with</font>
+
+67
+00:02:49,420 --> 00:02:53,080
+<font color="#CCCCCC">2 left over</font><font color="#E5E5E5"> so 16 plus 2 is 18</font><font color="#CCCCCC"> so what</font>
+
+68
+00:02:53,080 --> 00:02:55,450
+this<font color="#E5E5E5"> does is the modulus it's called the</font>
+
+69
+00:02:55,450 --> 00:02:57,870
+percent sign<font color="#E5E5E5"> it gives you the remainder</font>
+
+70
+00:02:57,870 --> 00:03:02,050
+<font color="#E5E5E5">simple enough</font><font color="#CCCCCC"> so okay</font><font color="#E5E5E5"> cool division</font>
+
+71
+00:03:02,050 --> 00:03:04,750
+symbols basic math operations<font color="#E5E5E5"> what else</font>
+
+72
+00:03:04,750 --> 00:03:05,290
+you got
+
+73
+00:03:05,290 --> 00:03:07,240
+well another<font color="#E5E5E5"> cool thing that you can do</font>
+
+74
+00:03:07,240 --> 00:03:10,000
+with<font color="#E5E5E5"> Python is really easily calculate</font>
+
+75
+00:03:10,000 --> 00:03:13,480
+the<font color="#E5E5E5"> powers or um the exponents</font><font color="#CCCCCC"> so say</font>
+
+76
+00:03:13,480 --> 00:03:15,850
+<font color="#E5E5E5">that you wanted to do</font><font color="#CCCCCC"> 5 to</font><font color="#E5E5E5"> the power</font><font color="#CCCCCC"> of</font>
+
+77
+00:03:15,850 --> 00:03:22,420
+3<font color="#E5E5E5"> well you can do 5 x 5 x 5 and get 125</font>
+
+78
+00:03:22,420 --> 00:03:27,760
+or you can do this<font color="#CCCCCC"> 5 double</font><font color="#E5E5E5"> asterisks</font><font color="#CCCCCC"> 3</font>
+
+79
+00:03:27,760 --> 00:03:29,739
+<font color="#E5E5E5">this is pretty much</font><font color="#CCCCCC"> the same thing and</font>
+
+80
+00:03:29,739 --> 00:03:32,620
+if<font color="#E5E5E5"> you hit</font><font color="#CCCCCC"> enter it's pretty much</font><font color="#E5E5E5"> saying</font>
+
+81
+00:03:32,620 --> 00:03:36,040
+5 to the power of<font color="#E5E5E5"> 3 so again double</font>
+
+82
+00:03:36,040 --> 00:03:39,280
+asterisk means calculate the powers<font color="#CCCCCC"> all</font>
+
+83
+00:03:39,280 --> 00:03:41,620
+<font color="#CCCCCC">right so that's pretty much</font><font color="#E5E5E5"> the core</font>
+
+84
+00:03:41,620 --> 00:03:44,440
+basics of how to<font color="#E5E5E5"> use simple math</font>
+
+85
+00:03:44,440 --> 00:03:47,739
+operators in Python<font color="#CCCCCC"> so now I'll teach</font>
+
+86
+00:03:47,739 --> 00:03:50,920
+<font color="#E5E5E5">you guys about variables now a variable</font>
+
+87
+00:03:50,920 --> 00:03:53,620
+is just like<font color="#E5E5E5"> a placeholder for something</font>
+
+88
+00:03:53,620 --> 00:03:55,989
+else just<font color="#E5E5E5"> like in math class</font><font color="#CCCCCC"> so you can</font>
+
+89
+00:03:55,989 --> 00:03:58,239
+take<font color="#E5E5E5"> X and you can</font><font color="#CCCCCC"> name your variables</font>
+
+90
+00:03:58,239 --> 00:04:00,190
+pretty much anything you want<font color="#CCCCCC"> make</font><font color="#E5E5E5"> sure</font>
+
+91
+00:04:00,190 --> 00:04:02,920
+you start them with<font color="#E5E5E5"> letters and they can</font>
+
+92
+00:04:02,920 --> 00:04:04,900
+also<font color="#E5E5E5"> include numbers on it don't include</font>
+
+93
+00:04:04,900 --> 00:04:07,780
+anything<font color="#E5E5E5"> like a stupid symbol pretty</font>
+
+94
+00:04:07,780 --> 00:04:09,610
+much start it with a letter<font color="#E5E5E5"> and</font><font color="#CCCCCC"> you can</font>
+
+95
+00:04:09,610 --> 00:04:11,440
+also have<font color="#CCCCCC"> numbers in as well those are</font>
+
+96
+00:04:11,440 --> 00:04:15,040
+like a very<font color="#CCCCCC"> basic rule so let's go ahead</font>
+
+97
+00:04:15,040 --> 00:04:17,500
+<font color="#CCCCCC">and</font><font color="#E5E5E5"> make a variable</font><font color="#CCCCCC"> name tuna in in</font>
+
+98
+00:04:17,500 --> 00:04:19,089
+<font color="#E5E5E5">order to set it equal to a certain</font><font color="#CCCCCC"> value</font>
+
+99
+00:04:19,089 --> 00:04:21,488
+just use the equal sign and then<font color="#CCCCCC"> the</font>
+
+100
+00:04:21,488 --> 00:04:25,990
+<font color="#E5E5E5">value so hit enter</font><font color="#CCCCCC"> and right now we</font><font color="#E5E5E5"> have</font>
+
+101
+00:04:25,990 --> 00:04:27,340
+a<font color="#CCCCCC"> variable called tuna</font>
+
+102
+00:04:27,340 --> 00:04:30,250
+and it's equal to<font color="#E5E5E5"> the value of</font><font color="#CCCCCC"> five</font><font color="#E5E5E5"> so</font>
+
+103
+00:04:30,250 --> 00:04:32,020
+<font color="#E5E5E5">now we can</font><font color="#CCCCCC"> use</font><font color="#E5E5E5"> it in place</font><font color="#CCCCCC"> of any</font>
+
+104
+00:04:32,020 --> 00:04:35,530
+<font color="#E5E5E5">equation so for example remember we can</font>
+
+105
+00:04:35,530 --> 00:04:37,450
+add two numbers together<font color="#CCCCCC"> well now we can</font>
+
+106
+00:04:37,450 --> 00:04:40,630
+add a<font color="#CCCCCC"> number plus</font><font color="#E5E5E5"> a variable and this is</font>
+
+107
+00:04:40,630 --> 00:04:44,980
+essentially<font color="#CCCCCC"> saying 20 plus</font><font color="#E5E5E5"> 5 hit enter</font>
+
+108
+00:04:44,980 --> 00:04:47,500
+pretty cool<font color="#E5E5E5"> now you can actually use</font><font color="#CCCCCC"> all</font>
+
+109
+00:04:47,500 --> 00:04:49,780
+<font color="#E5E5E5">variables in your</font><font color="#CCCCCC"> equations so if you</font>
+
+110
+00:04:49,780 --> 00:04:54,190
+have tuna equal to<font color="#CCCCCC"> five</font><font color="#E5E5E5"> and bacon equal</font>
+
+111
+00:04:54,190 --> 00:04:58,050
+to 18 then what you<font color="#E5E5E5"> can do is put bacon</font>
+
+112
+00:04:58,050 --> 00:05:01,120
+<font color="#E5E5E5">/ tuna which is pretty much saying</font><font color="#CCCCCC"> okay</font>
+
+113
+00:05:01,120 --> 00:05:04,900
+<font color="#E5E5E5">18 over five and that is three point six</font>
+
+114
+00:05:04,900 --> 00:05:06,970
+so if you guys ever<font color="#CCCCCC"> wanted</font><font color="#E5E5E5"> to know what</font>
+
+115
+00:05:06,970 --> 00:05:10,570
+bacon / tuna is is<font color="#E5E5E5"> three point six</font>
+
+116
+00:05:10,570 --> 00:05:13,360
+<font color="#E5E5E5">pretty interesting but now we know the</font>
+
+117
+00:05:13,360 --> 00:05:16,210
+basic<font color="#CCCCCC"> math operators</font><font color="#E5E5E5"> also some cool</font><font color="#CCCCCC"> um</font>
+
+118
+00:05:16,210 --> 00:05:19,150
+you know extra things like exponents<font color="#E5E5E5"> and</font>
+
+119
+00:05:19,150 --> 00:05:22,000
+stuff and<font color="#CCCCCC"> also how to divide</font><font color="#E5E5E5"> bacon</font><font color="#CCCCCC"> over</font>
+
+120
+00:05:22,000 --> 00:05:24,430
+tuna<font color="#E5E5E5"> so in the next video we're</font><font color="#CCCCCC"> going to</font>
+
+121
+00:05:24,430 --> 00:05:26,169
+<font color="#CCCCCC">be</font><font color="#E5E5E5"> learning some</font><font color="#CCCCCC"> more</font><font color="#E5E5E5"> complex stuff so</font>
+
+122
+00:05:26,169 --> 00:05:27,520
+thank you guys<font color="#CCCCCC"> for watching and I'll see</font>
+
+123
+00:05:27,520 --> 00:00:00,000
+you then
+

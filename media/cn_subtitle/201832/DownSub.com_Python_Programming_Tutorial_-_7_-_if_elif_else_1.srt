@@ -1,0 +1,804 @@
+1
+00:00:00,060 --> 00:00:02,879
+ <font color="#CCCCCC">正常的小伙子 </font><font color="#E5E5E5">，所以大约两个星期前， </font><font color="#CCCCCC">我 </font>
+
+2
+00:00:02,879 --> 00:00:04,859
+有<font color="#CCCCCC">这么大的 </font><font color="#E5E5E5">纸板 </font><font color="#CCCCCC">箱 </font><font color="#E5E5E5">扔掉 </font>
+
+3
+00:00:04,859 --> 00:00:07,649
+所以我有这个垃圾<font color="#CCCCCC">服务 </font>
+
+4
+00:00:07,649 --> 00:00:09,570
+ <font color="#CCCCCC">我每周都会在我的垃圾桶里捡拾垃圾 </font>
+
+5
+00:00:09,570 --> 00:00:11,490
+ <font color="#CCCCCC">把它放在 </font><font color="#E5E5E5">我的垃圾桶旁边 </font>
+
+6
+00:00:11,490 --> 00:00:13,469
+他们只是拿走了<font color="#E5E5E5">我的垃圾，但他们离开了 </font>
+
+7
+00:00:13,469 --> 00:00:16,049
+ <font color="#E5E5E5">盒子 </font><font color="#CCCCCC">所以 </font><font color="#E5E5E5">如果我，我也好 </font>
+
+8
+00:00:16,049 --> 00:00:17,820
+把<font color="#E5E5E5">它 </font><font color="#CCCCCC">放在垃圾桶里面 </font>
+
+9
+00:00:17,820 --> 00:00:20,670
+然后他们会在上周这样做
+
+10
+00:00:20,670 --> 00:00:22,350
+ <font color="#E5E5E5">这就是我所做的，我把它撕掉了 </font>
+
+11
+00:00:22,350 --> 00:00:24,480
+它在<font color="#E5E5E5">垃圾桶里 </font><font color="#CCCCCC">然后当它们 </font>
+
+12
+00:00:24,480 --> 00:00:26,070
+来了，他们带了<font color="#CCCCCC">一个 </font>
+
+13
+00:00:26,070 --> 00:00:28,710
+垃圾，留下纸板， <font color="#E5E5E5">很抱歉 </font>
+
+14
+00:00:28,710 --> 00:00:31,109
+ <font color="#E5E5E5">听起来 </font><font color="#CCCCCC">不错，它 </font><font color="#E5E5E5">必须像我一样 </font>
+
+15
+00:00:31,109 --> 00:00:33,030
+不能<font color="#CCCCCC">被允许扔掉 </font>
+
+16
+00:00:33,030 --> 00:00:34,739
+纸板或<font color="#CCCCCC">其他东西所以我做的是 </font>
+
+17
+00:00:34,739 --> 00:00:37,110
+我本周<font color="#E5E5E5">把它撕掉了，然后塞进去了 </font>
+
+18
+00:00:37,110 --> 00:00:39,629
+它<font color="#E5E5E5">在一个袋子里，然后我把袋子 </font>
+
+19
+00:00:39,629 --> 00:00:42,030
+ <font color="#E5E5E5">在我的垃圾桶内，今天早上 </font>
+
+20
+00:00:42,030 --> 00:00:43,860
+ <font color="#CCCCCC">那个家伙敲我的门然后 </font><font color="#E5E5E5">走了 </font>
+
+21
+00:00:43,860 --> 00:00:45,930
+ <font color="#E5E5E5">先生 </font><font color="#CCCCCC">，你可以 </font><font color="#E5E5E5">不要试图扔掉 </font>
+
+22
+00:00:45,930 --> 00:00:48,690
+请你的纸板那么亲切
+
+23
+00:00:48,690 --> 00:00:51,210
+ <font color="#CCCCCC">然而， </font><font color="#E5E5E5">如果我， </font><font color="#CCCCCC">我想是令人尴尬的</font>
+
+24
+00:00:51,210 --> 00:00:53,520
+ <font color="#CCCCCC">现在 </font><font color="#E5E5E5">就放弃， </font><font color="#CCCCCC">那就 </font><font color="#E5E5E5">好了 </font>
+
+25
+00:00:53,520 --> 00:00:56,100
+承认<font color="#CCCCCC">失败， </font><font color="#E5E5E5">所以如果有人有任何 </font>
+
+26
+00:00:56,100 --> 00:00:59,370
+ <font color="#E5E5E5">我能做的真有趣的手臂技术 </font>
+
+27
+00:00:59,370 --> 00:01:01,680
+用来秘密扔掉我的纸板
+
+28
+00:01:01,680 --> 00:01:03,899
+ <font color="#CCCCCC">让我知道，因为我 </font><font color="#E5E5E5">会赢 </font>
+
+29
+00:01:03,899 --> 00:01:07,710
+ <font color="#E5E5E5">这场 </font><font color="#CCCCCC">战斗先生。那个垃圾人那个 </font>
+
+30
+00:01:07,710 --> 00:01:09,270
+ <font color="#CCCCCC">不像 </font><font color="#E5E5E5">是 </font><font color="#CCCCCC">类比或 </font><font color="#E5E5E5">类似的东西 </font>
+
+31
+00:01:09,270 --> 00:01:11,100
+这只是<font color="#E5E5E5">一个 </font><font color="#CCCCCC">无关紧要的 </font><font color="#E5E5E5">故事 </font>
+
+32
+00:01:11,100 --> 00:01:12,960
+用Python <font color="#E5E5E5">，让我们继续前进吧 </font>
+
+33
+00:01:12,960 --> 00:01:16,020
+ <font color="#E5E5E5">开始学习Python </font><font color="#CCCCCC">就好了 </font>
+
+34
+00:01:16,020 --> 00:01:17,400
+教程<font color="#E5E5E5">我想和你们谈谈 </font>
+
+35
+00:01:17,400 --> 00:01:19,830
+关于if语句<font color="#E5E5E5">现在if </font>
+
+36
+00:01:19,830 --> 00:01:23,189
+声明是一个很酷的关键字，如果它是
+
+37
+00:01:23,189 --> 00:01:25,770
+一种<font color="#CCCCCC">让你的 </font><font color="#E5E5E5">计算机程序成功的方法 </font>
+
+38
+00:01:25,770 --> 00:01:30,240
+一个非常简单的<font color="#CCCCCC">决定现在 </font><font color="#E5E5E5">很漂亮 </font>
+
+39
+00:01:30,240 --> 00:01:32,640
+ <font color="#CCCCCC">如果我只是说，有趣的非常独特 </font>
+
+40
+00:01:32,640 --> 00:01:34,310
+这让我们<font color="#E5E5E5">继续 </font><font color="#CCCCCC">前进 </font><font color="#E5E5E5">，开始 </font>
+
+41
+00:01:34,310 --> 00:01:39,270
+ <font color="#CCCCCC">现在 </font><font color="#E5E5E5">很酷的事情 </font><font color="#CCCCCC">是因为我们有这个 </font>
+
+42
+00:01:39,270 --> 00:01:42,390
+ IDE我们可以让程序<font color="#E5E5E5">更长 </font>
+
+43
+00:01:42,390 --> 00:01:44,220
+只需<font color="#E5E5E5">一行，每当我们 </font><font color="#CCCCCC">按Enter键 </font>
+
+44
+00:01:44,220 --> 00:01:45,659
+当然它<font color="#E5E5E5">不仅仅是执行 </font>
+
+45
+00:01:45,659 --> 00:01:48,060
+自动所以说我们<font color="#E5E5E5">想 </font>
+
+46
+00:01:48,060 --> 00:01:50,700
+构建<font color="#E5E5E5">一个占用 </font><font color="#CCCCCC">用户 </font><font color="#E5E5E5">年龄的程序 </font>
+
+47
+00:01:50,700 --> 00:01:53,549
+ <font color="#CCCCCC">我们会说 </font><font color="#E5E5E5">我们喜欢卖东西 </font>
+
+48
+00:01:53,549 --> 00:01:55,350
+啤酒在线或东西<font color="#CCCCCC">，即使 </font>
+
+49
+00:01:55,350 --> 00:01:56,130
+那是非法的
+
+50
+00:01:56,130 --> 00:01:58,950
+我们会这样做<font color="#CCCCCC">，所以如果用户年龄 </font>
+
+51
+00:01:58,950 --> 00:02:03,450
+是21岁以上<font color="#E5E5E5">我们会说你能 </font>
+
+52
+00:02:03,450 --> 00:02:05,729
+ <font color="#E5E5E5">如果没有买啤酒那么我们会说 </font><font color="#CCCCCC">好的 </font>
+
+53
+00:02:05,729 --> 00:02:07,140
+你<font color="#E5E5E5">不能因为他们而买啤酒 </font>
+
+54
+00:02:07,140 --> 00:02:11,008
+必须是21所以我们做的是我们需要<font color="#E5E5E5">一个 </font>
+
+55
+00:02:11,008 --> 00:02:12,069
+通向
+
+56
+00:02:12,069 --> 00:02:14,950
+这并执行<font color="#E5E5E5">基于一些代码</font>
+
+57
+00:02:14,950 --> 00:02:17,140
+另一个变量<font color="#E5E5E5">听起来很混乱但是 </font>
+
+58
+00:02:17,140 --> 00:02:19,659
+检查<font color="#E5E5E5">出来，你</font><font color="#CCCCCC">要</font><font color="#E5E5E5">等等诸如此类 </font>
+
+59
+00:02:19,659 --> 00:02:21,159
+ <font color="#E5E5E5">让你的 </font><font color="#CCCCCC">电脑做出决定 </font>
+
+60
+00:02:21,159 --> 00:02:23,640
+首先<font color="#E5E5E5">要做的是添加关键字if </font>
+
+61
+00:02:23,640 --> 00:02:26,980
+现在<font color="#E5E5E5">我们需要直接给出 </font>
+
+62
+00:02:26,980 --> 00:02:29,439
+ <font color="#E5E5E5">它是值得测试的，所以我们现在正在测试 </font>
+
+63
+00:02:29,439 --> 00:02:32,290
+ <font color="#E5E5E5">只是去测试这个年龄是否少 </font>
+
+64
+00:02:32,290 --> 00:02:37,349
+如果年龄小于21岁，则为21岁以上
+
+65
+00:02:37,349 --> 00:02:39,579
+ <font color="#E5E5E5">然后我们想要做一些我们会做的事情 </font>
+
+66
+00:02:39,579 --> 00:02:41,469
+像打印出来没有啤酒<font color="#CCCCCC">你，因为 </font><font color="#E5E5E5">我 </font>
+
+67
+00:02:41,469 --> 00:02:45,129
+他们太年轻， <font color="#E5E5E5">所以就 </font><font color="#CCCCCC">在你的身后 </font>
+
+68
+00:02:45,129 --> 00:02:48,970
+ <font color="#E5E5E5">测试添加 </font><font color="#CCCCCC">冒号 </font><font color="#E5E5E5">现在命中输入和你 </font>
+
+69
+00:02:48,970 --> 00:02:50,379
+ <font color="#CCCCCC">可以 </font><font color="#E5E5E5">看到你的光标没有去 </font>
+
+70
+00:02:50,379 --> 00:02:51,639
+下一行是自动的
+
+71
+00:02:51,639 --> 00:02:55,900
+在一个标签中缩进现在<font color="#E5E5E5">任何东西 </font>
+
+72
+00:02:55,900 --> 00:02:59,470
+ <font color="#E5E5E5">在计算机知道的一个选项卡中缩进</font>
+
+73
+00:02:59,470 --> 00:03:02,470
+ <font color="#CCCCCC">好吧， </font><font color="#E5E5E5">如果这个测试 </font><font color="#CCCCCC">只 </font><font color="#E5E5E5">执行此代码 </font>
+
+74
+00:03:02,470 --> 00:03:05,799
+是的， <font color="#E5E5E5">所以这个代码我们输入正确 </font>
+
+75
+00:03:05,799 --> 00:03:08,439
+这里<font color="#E5E5E5">只会 如果用户</font><font color="#CCCCCC">运行 </font>
+
+76
+00:03:08,439 --> 00:03:12,549
+年龄小于21岁， <font color="#E5E5E5">所以我们想要什么 </font>
+
+77
+00:03:12,549 --> 00:03:13,930
+ <font color="#E5E5E5">如果用户年龄小于 ，则发生</font>
+
+78
+00:03:13,930 --> 00:03:20,290
+ 21 <font color="#CCCCCC">我们只 </font><font color="#E5E5E5">为你们 </font><font color="#CCCCCC">打印 </font><font color="#E5E5E5">没有啤酒 </font>
+
+79
+00:03:20,290 --> 00:03:22,150
+ <font color="#E5E5E5">这是 </font><font color="#CCCCCC">一个 </font><font color="#E5E5E5">有效的打印声明 </font>
+
+80
+00:03:22,150 --> 00:03:24,819
+ <font color="#E5E5E5">它确实 </font><font color="#CCCCCC">打印 </font><font color="#E5E5E5">出文本 </font>
+
+81
+00:03:24,819 --> 00:03:25,329
+屏幕
+
+82
+00:03:25,329 --> 00:03:28,169
+ <font color="#E5E5E5">但是每当 </font><font color="#CCCCCC">我们 </font><font color="#E5E5E5">运行它 时都要检查 它 </font>
+
+83
+00:03:28,169 --> 00:03:30,579
+ <font color="#CCCCCC">在我们的控制台中 </font><font color="#E5E5E5">没有显示任何内容 </font>
+
+84
+00:03:30,579 --> 00:03:32,470
+底部<font color="#E5E5E5">，这是因为 </font><font color="#CCCCCC">甚至 </font>
+
+85
+00:03:32,470 --> 00:03:34,629
+虽然我们写这行代码<font color="#CCCCCC">就 </font>
+
+86
+00:03:34,629 --> 00:03:37,840
+没有执行<font color="#E5E5E5">因为年龄结束了 </font>
+
+87
+00:03:37,840 --> 00:03:39,489
+ 21 <font color="#E5E5E5">所以我们不需要给他们这个 </font>
+
+88
+00:03:39,489 --> 00:03:41,590
+ <font color="#CCCCCC">如果我们有一些，现在很少警告 </font>
+
+89
+00:03:41,590 --> 00:03:44,079
+ <font color="#E5E5E5">13岁的小孩试着用 </font>
+
+90
+00:03:44,079 --> 00:03:47,319
+ <font color="#E5E5E5">如果13是，它会说好吗 </font>
+
+91
+00:03:47,319 --> 00:03:50,440
+不到21 <font color="#E5E5E5">，这确实是真的13 </font>
+
+92
+00:03:50,440 --> 00:03:53,139
+小于21那么这就是当我们<font color="#E5E5E5">要 </font>
+
+93
+00:03:53,139 --> 00:03:55,479
+ <font color="#E5E5E5">打印此没有啤酒为 </font><font color="#CCCCCC">你 </font><font color="#E5E5E5">所以每当 </font>
+
+94
+00:03:55,479 --> 00:03:58,510
+你运行<font color="#E5E5E5">它说好了检查这个和 </font>
+
+95
+00:03:58,510 --> 00:04:01,359
+ <font color="#E5E5E5">好吧，这是真的 </font><font color="#CCCCCC">所以运行这一行 </font>
+
+96
+00:04:01,359 --> 00:04:04,079
+ <font color="#E5E5E5">每当测试成立时再次编码</font>
+
+97
+00:04:04,079 --> 00:04:07,689
+只要它<font color="#E5E5E5">继续运行就会运行它</font>
+
+98
+00:04:07,689 --> 00:04:11,049
+ <font color="#E5E5E5">所以它现在执行在这里的东西 </font>
+
+99
+00:04:11,049 --> 00:04:14,290
+如果我们想<font color="#E5E5E5">拥有电脑怎么办？ </font>
+
+100
+00:04:14,290 --> 00:04:16,959
+ <font color="#E5E5E5">因为 </font><font color="#CCCCCC">两件事 </font><font color="#E5E5E5">之一 </font>
+
+101
+00:04:16,959 --> 00:04:19,389
+当然，每当<font color="#E5E5E5">用户不到时 </font>
+
+102
+00:04:19,389 --> 00:04:20,019
+ 21 
+
+103
+00:04:20,019 --> 00:04:21,579
+我们<font color="#CCCCCC">给我 认股</font><font color="#E5E5E5">权证 的消息，但 </font>
+
+104
+00:04:21,579 --> 00:04:23,320
+ <font color="#E5E5E5">那些年纪较大的人怎么样？ </font>
+
+105
+00:04:23,320 --> 00:04:24,550
+ <font color="#CCCCCC">比 </font><font color="#E5E5E5">21岁 </font>
+
+106
+00:04:24,550 --> 00:04:26,139
+我们如何让<font color="#E5E5E5">你知道如何使用 </font>
+
+107
+00:04:26,139 --> 00:04:28,599
+网站或<font color="#CCCCCC">类似 </font><font color="#E5E5E5">的东西以及我们可以 </font>
+
+108
+00:04:28,599 --> 00:04:32,800
+添加<font color="#CCCCCC">另一个名为 </font><font color="#E5E5E5">elf和的 </font><font color="#CCCCCC">条件 </font>
+
+109
+00:04:32,800 --> 00:04:35,199
+这会检查<font color="#E5E5E5">别的东西，他们会 </font>
+
+110
+00:04:35,199 --> 00:04:37,150
+ <font color="#E5E5E5">如果我使用新的，可能</font><font color="#CCCCCC">会更容易 </font><font color="#E5E5E5">看到 </font>
+
+111
+00:04:37,150 --> 00:04:40,389
+例如<font color="#E5E5E5">，让我们创建一个新 </font><font color="#CCCCCC">变量 </font>
+
+112
+00:04:40,389 --> 00:04:43,840
+叫<font color="#E5E5E5">名字嘿嘿简单的帽子日志 </font>
+
+113
+00:04:43,840 --> 00:04:48,300
+名字，我们将这等同<font color="#CCCCCC">于露西 </font>
+
+114
+00:04:48,300 --> 00:04:52,629
+所以，让我们来<font color="#CCCCCC">看看我们是否会说我们会 </font>
+
+115
+00:04:52,629 --> 00:04:55,629
+检查他们的名字是Bucky <font color="#CCCCCC">还是 </font><font color="#E5E5E5">Lucy怎么样 </font>
+
+116
+00:04:55,629 --> 00:04:58,509
+我们做那么<font color="#E5E5E5">好 </font><font color="#CCCCCC">，我们已经知道如何 </font>
+
+117
+00:04:58,509 --> 00:05:01,180
+ <font color="#E5E5E5">现在检查名字我会告诉 </font><font color="#CCCCCC">你们 </font>
+
+118
+00:05:01,180 --> 00:05:03,610
+关于另一种类型的<font color="#E5E5E5">测试 </font>
+
+119
+00:05:03,610 --> 00:05:05,770
+我们<font color="#E5E5E5">可以做的数字少于 </font><font color="#CCCCCC">大于 </font>
+
+120
+00:05:05,770 --> 00:05:08,620
+ <font color="#E5E5E5">但是因为这是我们想要的字符串 </font>
+
+121
+00:05:08,620 --> 00:05:10,719
+看看它是否<font color="#E5E5E5">与 </font><font color="#CCCCCC">其他东西相等</font>
+
+122
+00:05:10,719 --> 00:05:14,590
+ <font color="#E5E5E5">所以 </font><font color="#CCCCCC">这 </font><font color="#E5E5E5">是</font><font color="#CCCCCC">关键的字 </font><font color="#E5E5E5">是那么这 </font>
+
+123
+00:05:14,590 --> 00:05:16,419
+几乎<font color="#E5E5E5">要 </font><font color="#CCCCCC">检查这个 </font><font color="#E5E5E5">名字 </font>
+
+124
+00:05:16,419 --> 00:05:19,300
+ <font color="#E5E5E5">并看看它是否等于其他东西 </font>
+
+125
+00:05:19,300 --> 00:05:23,409
+ <font color="#E5E5E5">当然还有Eddie或者：再少一点 </font>
+
+126
+00:05:23,409 --> 00:05:27,250
+ <font color="#CCCCCC">超过四个 </font><font color="#E5E5E5">数字和 </font>
+
+127
+00:05:27,250 --> 00:05:29,650
+您可以<font color="#CCCCCC">使用此 </font><font color="#E5E5E5">关键字的字符串</font>
+
+128
+00:05:29,650 --> 00:05:31,360
+实际上可以<font color="#E5E5E5">使用的是比较两个 </font>
+
+129
+00:05:31,360 --> 00:05:33,969
+数字<font color="#CCCCCC">以及我们要做的 </font><font color="#E5E5E5">事情 </font>
+
+130
+00:05:33,969 --> 00:05:40,690
+做的是说<font color="#E5E5E5">好 </font><font color="#CCCCCC">，如果名称是巴基 </font><font color="#E5E5E5">然后 </font>
+
+131
+00:05:40,690 --> 00:05:46,319
+ <font color="#E5E5E5">Bucky打印</font><font color="#CCCCCC">手臂 </font>
+
+132
+00:05:46,319 --> 00:05:50,050
+现在为了<font color="#E5E5E5">测试另一个选项是什么 </font>
+
+133
+00:05:50,050 --> 00:05:51,219
+你可以使用的是<font color="#E5E5E5">关键字 </font>
+
+134
+00:05:51,219 --> 00:05:54,520
+ <font color="#CCCCCC">al if if'，这几乎意味着别的 </font>
+
+135
+00:05:54,520 --> 00:05:57,419
+ <font color="#E5E5E5">如果还是它 </font><font color="#CCCCCC">具有 </font><font color="#E5E5E5">只是另一种方式 </font>
+
+136
+00:05:57,419 --> 00:06:01,090
+ <font color="#E5E5E5">另一个if语句在一个块中 </font>
+
+137
+00:06:01,090 --> 00:06:09,669
+ <font color="#E5E5E5">如果名称是露西 </font><font color="#CCCCCC">打印， </font><font color="#E5E5E5">则代码如此</font>
+
+138
+00:06:09,669 --> 00:06:10,919
+我们要<font color="#E5E5E5">为露西打印什么？ </font>
+
+139
+00:06:10,919 --> 00:06:18,910
+什么东西变得像松散的狗一样
+
+140
+00:06:18,910 --> 00:06:21,490
+ <font color="#E5E5E5">好吧，好吧，我 </font><font color="#CCCCCC">认为那是 </font><font color="#E5E5E5">贫民窟 </font>
+
+141
+00:06:21,490 --> 00:06:24,160
+足够这么多，它检查<font color="#E5E5E5">名称 </font>
+
+142
+00:06:24,160 --> 00:06:26,980
+ <font color="#E5E5E5">如果 </font><font color="#CCCCCC">它是巴基打印此</font><font color="#E5E5E5">语句 </font>
+
+143
+00:06:26,980 --> 00:06:29,860
+ <font color="#CCCCCC">他们 </font><font color="#E5E5E5">若是露西打印这句话 </font>
+
+144
+00:06:29,860 --> 00:06:32,140
+对他来说，我们<font color="#E5E5E5">实际上可以有多少人 </font>
+
+145
+00:06:32,140 --> 00:06:36,970
+ <font color="#E5E5E5">这些 </font><font color="#CCCCCC">EL IFS </font><font color="#E5E5E5">的 ，如果我们想的那么我们会说 </font>
+
+146
+00:06:36,970 --> 00:06:41,070
+ <font color="#CCCCCC">好吧，如果是Sammy </font><font color="#E5E5E5">就像那样 </font>
+
+147
+00:06:41,070 --> 00:06:45,490
+ <font color="#E5E5E5">Slammy几乎就要去了 </font>
+
+148
+00:06:45,490 --> 00:06:48,190
+一个<font color="#CCCCCC">接一个，只 </font><font color="#E5E5E5">执行某个 </font>
+
+149
+00:06:48,190 --> 00:06:50,860
+条件的代码块
+
+150
+00:06:50,860 --> 00:06:51,310
+ <font color="#E5E5E5">真正 </font>
+
+151
+00:06:51,310 --> 00:06:54,250
+所以命中运行，当然名称是
+
+152
+00:06:54,250 --> 00:06:57,820
+露西如此说出了<font color="#CCCCCC">松散的想法 </font>
+
+153
+00:06:57,820 --> 00:06:59,710
+几乎<font color="#E5E5E5">它从上到下 </font>
+
+154
+00:06:59,710 --> 00:07:00,730
+ <font color="#E5E5E5">说 </font><font color="#CCCCCC">没关系 </font>
+
+155
+00:07:00,730 --> 00:07:03,550
+这是真正的<font color="#E5E5E5">不， </font><font color="#CCCCCC">所以下到这里是 </font>
+
+156
+00:07:03,550 --> 00:07:07,510
+这<font color="#E5E5E5">是真的是这样做，当然 </font>
+
+157
+00:07:07,510 --> 00:07:10,030
+ <font color="#CCCCCC">因为这不是真的，所以它跳过了 </font><font color="#E5E5E5">这个 </font>
+
+158
+00:07:10,030 --> 00:07:14,350
+一个也很<font color="#E5E5E5">简单， </font><font color="#CCCCCC">所以现在我们 </font>
+
+159
+00:07:14,350 --> 00:07:16,390
+有一种方式我们<font color="#E5E5E5">不仅可以做一个 </font>
+
+160
+00:07:16,390 --> 00:07:19,090
+ <font color="#CCCCCC">像 </font><font color="#E5E5E5">啤酒 </font><font color="#CCCCCC">那样的决定</font><font color="#E5E5E5">很好 </font>
+
+161
+00:07:19,090 --> 00:07:21,820
+我们也可以做出决定
+
+162
+00:07:21,820 --> 00:07:25,510
+ <font color="#CCCCCC">多个 </font><font color="#E5E5E5">选项之间现在有 </font>
+
+163
+00:07:25,510 --> 00:07:27,310
+ <font color="#E5E5E5">还有一件事我想和你谈谈 </font>
+
+164
+00:07:27,310 --> 00:07:31,600
+ <font color="#E5E5E5">伙计们， </font><font color="#CCCCCC">如果我们这就好了 </font>
+
+165
+00:07:31,600 --> 00:07:35,020
+ <font color="#E5E5E5">浏览了所有 </font><font color="#CCCCCC">选项而没有 </font>
+
+166
+00:07:35,020 --> 00:07:36,700
+他们<font color="#E5E5E5">是真的，但我们仍然想 </font>
+
+167
+00:07:36,700 --> 00:07:39,910
+ <font color="#E5E5E5">我们很好地执行一些代码 </font>
+
+168
+00:07:39,910 --> 00:07:42,700
+ <font color="#CCCCCC">毕竟可以做</font><font color="#E5E5E5">这样的事情</font>
+
+169
+00:07:42,700 --> 00:07:45,640
+你的<font color="#CCCCCC">el ifs你可以拥有最后一个 </font>
+
+170
+00:07:45,640 --> 00:07:49,270
+条件称为<font color="#E5E5E5">否则其他意味着什么 </font>
+
+171
+00:07:49,270 --> 00:07:51,640
+如果你经历了<font color="#CCCCCC">其他每一个选项 </font>
+
+172
+00:07:51,640 --> 00:07:55,000
+ <font color="#CCCCCC">并且没有一个 </font><font color="#E5E5E5">是真的那么这样做 </font>
+
+173
+00:07:55,000 --> 00:07:58,000
+一个，所以我们可以<font color="#E5E5E5">运行类似的东西 </font>
+
+174
+00:07:58,000 --> 00:08:00,640
+ <font color="#CCCCCC">打印 </font><font color="#E5E5E5">会说这实际上是 </font><font color="#CCCCCC">一个 </font>
+
+175
+00:08:00,640 --> 00:08:04,420
+网站，如果用户登录，那么我们<font color="#E5E5E5">可以 </font>
+
+176
+00:08:04,420 --> 00:08:08,020
+给他们<font color="#E5E5E5">一个自定义的 </font><font color="#CCCCCC">信息，当然 </font>
+
+177
+00:08:08,020 --> 00:08:10,900
+如果<font color="#CCCCCC">这些名字都不是真的那么 </font>
+
+178
+00:08:10,900 --> 00:08:12,730
+这<font color="#E5E5E5">只是意味着他们没有注册 </font>
+
+179
+00:08:12,730 --> 00:08:20,050
+ <font color="#CCCCCC">该网站又 </font><font color="#E5E5E5">那么手臂，他们</font><font color="#CCCCCC">报名</font><font color="#E5E5E5">参加 </font>
+
+180
+00:08:20,050 --> 00:08:23,710
+当然， <font color="#E5E5E5">无论你何时 ，露西都会这样 </font>
+
+181
+00:08:23,710 --> 00:08:25,420
+跑吧它<font color="#E5E5E5">会给她那个 </font>
+
+182
+00:08:25,420 --> 00:08:28,300
+ <font color="#CCCCCC">如果我们定制欢迎消息</font>
+
+183
+00:08:28,300 --> 00:08:32,839
+ <font color="#E5E5E5">有一个 </font><font color="#CCCCCC">像Tommy </font><font color="#E5E5E5">Dee </font><font color="#CCCCCC">这样 </font><font color="#E5E5E5">的新人 </font>
+
+184
+00:08:32,839 --> 00:08:34,039
+它的<font color="#CCCCCC">目的 </font><font color="#E5E5E5">是说你是谁</font>
+
+185
+00:08:34,039 --> 00:08:36,679
+此用户<font color="#CCCCCC">不检查 </font><font color="#E5E5E5">您是否更容易 </font>
+
+186
+00:08:36,679 --> 00:08:37,159
+不
+
+187
+00:08:37,159 --> 00:08:39,349
+检查<font color="#E5E5E5">这个用户的视图，因为所有 </font>
+
+188
+00:08:39,349 --> 00:08:41,479
+ <font color="#E5E5E5">这些 </font><font color="#CCCCCC">选项都是假的，只要 </font>
+
+189
+00:08:41,479 --> 00:08:44,149
+你在这，它会说<font color="#E5E5E5">请 </font>
+
+190
+00:08:44,149 --> 00:08:47,180
+ <font color="#CCCCCC">注册 </font><font color="#E5E5E5">该网站 </font><font color="#CCCCCC">正常的，所以我知道 </font>
+
+191
+00:08:47,180 --> 00:08:49,579
+ <font color="#CCCCCC">这是一个很多采取 </font><font color="#E5E5E5">但这是 </font>
+
+192
+00:08:49,579 --> 00:08:51,649
+ <font color="#E5E5E5">几乎你怎么能拥有 </font><font color="#CCCCCC">你的 </font>
+
+193
+00:08:51,649 --> 00:08:54,709
+计算机<font color="#E5E5E5">做出一个决定多个 </font>
+
+194
+00:08:54,709 --> 00:08:57,829
+做出决定<font color="#E5E5E5">或做出多项决定 </font>
+
+195
+00:08:57,829 --> 00:09:01,430
+默认答案所以我要走了
+
+196
+00:09:01,430 --> 00:09:02,749
+挠我的<font color="#E5E5E5">头，想想我是怎么回事 </font>
+
+197
+00:09:02,749 --> 00:09:05,569
+可以<font color="#E5E5E5">欺骗我的垃圾 </font><font color="#CCCCCC">人，如果 </font>
+
+198
+00:09:05,569 --> 00:09:07,069
+你有<font color="#CCCCCC">任何问题或者 </font><font color="#E5E5E5">你想要的 </font>
+
+199
+00:09:07,069 --> 00:09:08,300
+ <font color="#CCCCCC">这个源代码我将会 </font><font color="#E5E5E5">是 </font>
+
+200
+00:09:08,300 --> 00:09:10,339
+ <font color="#CCCCCC">发布在我的 </font><font color="#E5E5E5">论坛上，所以我会见到你 </font>
+
+201
+00:09:10,339 --> 00:00:00,000
+ <font color="#E5E5E5">后来 </font>
+

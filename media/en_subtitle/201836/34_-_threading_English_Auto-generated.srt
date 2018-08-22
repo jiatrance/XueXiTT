@@ -1,0 +1,543 @@
+1
+00:00:00,060 --> 00:00:04,200
+alright guys welcome back in this
+tutorial I want to talk to you about
+
+2
+00:00:04,200 --> 00:00:09,570
+something called threading so first of
+all let's go ahead and understand what a
+
+3
+00:00:09,570 --> 00:00:15,630
+thread is and why they're useful so up
+to now we've been building some very
+
+4
+00:00:15,630 --> 00:00:20,279
+simple programs and you learn that
+pretty much building a program is kind
+
+5
+00:00:20,279 --> 00:00:24,269
+of like giving your computer ACEF
+instructions we need to give it a nice
+
+6
+00:00:24,269 --> 00:00:30,599
+logical order to follow follow step 1
+then 2 then 3 that's pretty much what
+
+7
+00:00:30,599 --> 00:00:36,530
+writing code is all about giving your
+computer some instructions to follow now
+
+8
+00:00:36,530 --> 00:00:42,870
+sometimes it's useful to break up a
+single program and have it do multiple
+things at a time now I want warn you
+
+9
+00:00:45,539 --> 00:00:49,920
+guys most of the time this isn't a good
+idea because like whenever you're making
+
+10
+00:00:49,920 --> 00:00:54,030
+a calculation you just can't like add
+the numbers or divide them or do
+
+11
+00:00:54,030 --> 00:00:57,840
+whatever you want in any order outs your
+going to get a bad result you need to
+
+12
+00:00:57,840 --> 00:01:01,920
+follow a specific order so most of the
+time you don't want to use threads in
+
+13
+00:01:01,920 --> 00:01:06,900
+your program is going to run fine so
+when would building a program that does
+
+14
+00:01:06,900 --> 00:01:11,610
+multiple things at once be beneficial
+well one of the most common examples
+
+15
+00:01:11,610 --> 00:01:17,460
+whenever I teach threads is whenever
+you're making a messenger program what
+
+16
+00:01:17,460 --> 00:01:20,369
+you're going to do is you're basically
+going to build two different programs
+
+17
+00:01:20,369 --> 00:01:25,350
+that run at a time one of them is going
+to be responsible for sending messages
+
+18
+00:01:25,350 --> 00:01:31,170
+and one of them is going to be
+responsible for listening for messages
+
+19
+00:01:31,170 --> 00:01:35,759
+so whenever you're talking with someone
+like instant messenger it doesn't matter
+
+20
+00:01:35,759 --> 00:01:41,220
+when they send the message or excuse me
+when you send your message or when you
+
+21
+00:01:41,220 --> 00:01:45,689
+receive a message um you know you don't
+have to like wait for them to send a
+
+22
+00:01:45,689 --> 00:01:50,610
+message before you can start typing so
+what you would want to do is you would
+
+23
+00:01:50,610 --> 00:01:54,840
+want to build two different objects and
+one is responsible for sending out and
+
+24
+00:01:54,840 --> 00:01:59,659
+one is responsible for receiving or
+listening and it builds a really cool
+
+25
+00:01:59,659 --> 00:02:03,990
+like a chat or Skype or instant
+messenger application so let me go ahead
+and show you guys how to do that right
+
+26
+00:02:05,130 --> 00:02:12,690
+now so the first thing we need to do is
+import threading and what this does is
+
+27
+00:02:12,690 --> 00:02:16,550
+it
+a class that what we're going to do is
+
+28
+00:02:16,550 --> 00:02:23,520
+we're going to make anything like a
+Bucky's messenger and what we're going
+
+29
+00:02:23,520 --> 00:02:28,650
+to do is we're actually going to inherit
+from this class so remember anything you
+
+30
+00:02:28,650 --> 00:02:35,790
+put in here is the parent class that you
+inherit from so now any object that we
+
+31
+00:02:35,790 --> 00:02:39,060
+create
+that's Bucky's messenger we get a bunch
+
+32
+00:02:39,060 --> 00:02:45,890
+of cool built in thread functions so the
+one function that we need to have is def
+run now you see it automatically popped
+
+33
+00:02:49,200 --> 00:02:52,980
+up because this isn't just a you know a
+name that I'm picking it off the top of
+
+34
+00:02:52,980 --> 00:02:59,370
+my head this is a very specific name
+that we need to have just kind of
+
+35
+00:02:59,370 --> 00:03:03,780
+special to threads so means something
+special to threads basically whenever we
+
+36
+00:03:03,780 --> 00:03:09,030
+create a thread it's going to call this
+run function so it won't off so now
+
+37
+00:03:09,030 --> 00:03:13,800
+let's go ahead and just write some code
+in it so just for a simple demonstration
+
+38
+00:03:13,800 --> 00:03:18,810
+I mean typically what you'd want to do
+is make a complex program responsible
+
+39
+00:03:18,810 --> 00:03:23,640
+for like sending messages every I don't
+know like you can do it like once a
+second maybe but for now I'm just going
+
+40
+00:03:25,920 --> 00:03:30,900
+to loop something ten times to show you
+guys it's a really good demonstration of
+
+41
+00:03:30,900 --> 00:03:36,630
+how exactly this thread is going to work
+so for actually I don't even know if I
+
+42
+00:03:36,630 --> 00:03:43,410
+taught you guys this so you know before
+whenever I was making a for loop and I
+
+43
+00:03:43,410 --> 00:03:48,180
+put like 4x and arrange 10 or fortuna'
+in range 10
+
+44
+00:03:48,180 --> 00:03:54,120
+well that tuna or X variable is equal to
+the numbers 1 2 3 4 all the way up the
+
+45
+00:03:54,120 --> 00:03:59,519
+well it's either 9 or 10 whatever many
+times you want to loop so you can use
+
+46
+00:03:59,519 --> 00:04:04,620
+that variable and print it out or use it
+in the calculation or something but
+
+47
+00:04:04,620 --> 00:04:09,060
+sometimes we just want to loop 10 times
+and we really don't care what number
+
+48
+00:04:09,060 --> 00:04:13,709
+we're on or that variable at all so what
+you can do when you don't really want to
+
+49
+00:04:13,709 --> 00:04:17,760
+use that variable or that value you can
+just put an underscore right there and
+
+50
+00:04:17,760 --> 00:04:22,049
+that's the kind of convention it pretty
+much is saying okay I want to loop 10
+
+51
+00:04:22,048 --> 00:04:25,169
+times don't really care about the
+variable so I'm just going to use
+
+52
+00:04:25,169 --> 00:04:28,450
+underscore in place
+so that's what that means you know just
+
+53
+00:04:28,450 --> 00:04:34,600
+kind of Python convention so what do I
+wanted to do ten times well the cool
+
+54
+00:04:34,600 --> 00:04:40,360
+thing whenever we inherited a bunch of
+stuff from this thread class or
+
+55
+00:04:40,360 --> 00:04:49,300
+threating is actually let me type it out
+because it's kind of current thread part
+
+56
+00:04:49,300 --> 00:04:56,380
+we should move my cursor out of the way
+get name now what we can do is one of
+
+57
+00:04:56,380 --> 00:05:01,420
+the built-in things is we can give every
+thread a name so it's one of the default
+
+58
+00:05:01,420 --> 00:05:05,950
+properties with a thread so all I want
+to do is I'm going to make two different
+
+59
+00:05:05,950 --> 00:05:10,300
+threads with two different names and I'm
+just going to print out their name
+
+60
+00:05:10,300 --> 00:05:14,380
+however it X really cool it's not just
+like printing something out on the
+
+61
+00:05:14,380 --> 00:05:21,570
+screen ten times so I'll show you guys
+how cool it is right now so for our
+
+62
+00:05:21,570 --> 00:05:26,940
+messenger this is all we have
+that's all we need what we did is we now
+
+63
+00:05:26,940 --> 00:05:32,140
+have this class right here but it can be
+threaded and what this means is you can
+
+64
+00:05:32,140 --> 00:05:37,330
+have multiple objects from this class
+running at the same exact time you don't
+
+65
+00:05:37,330 --> 00:05:42,130
+need to wait for one to get done to
+start the next one so let's go ahead and
+
+66
+00:05:42,130 --> 00:05:46,840
+actually create one so I named one X and
+this is just going to be equal to
+
+67
+00:05:46,840 --> 00:05:54,220
+Bucky's messenger and remember one of
+the built-in properties or the default
+
+68
+00:05:54,220 --> 00:05:58,720
+properties for a thread is we can give
+it a name so I'm going to set this name
+
+69
+00:05:58,720 --> 00:06:05,590
+equal to and this is just an example
+send out messages so we'll say that this
+is what this thread would be responsible
+
+70
+00:06:07,390 --> 00:06:12,910
+for so now let me go ahead and make
+another run real quick and in real life
+
+71
+00:06:12,910 --> 00:06:16,750
+what this would be is instead of just
+giving it a name you would actually you
+
+72
+00:06:16,750 --> 00:06:26,430
+know add functionality to like receive
+messages so now we have two threads
+
+73
+00:06:26,430 --> 00:06:32,590
+right there and check this out right now
+you're looking at this and said okay
+there's only one function in here called
+
+74
+00:06:34,539 --> 00:06:37,860
+run so you're probably going to do
+something like X
+
+75
+00:06:37,860 --> 00:06:43,560
+run but that's not the case whenever you
+create a thread what you want to do is
+
+76
+00:06:43,560 --> 00:06:52,009
+you want to call the start function on
+that thread so X star and Y start and
+
+77
+00:06:52,009 --> 00:06:55,409
+even though that this is kind of I don't
+know it doesn't really make sense at
+
+78
+00:06:55,409 --> 00:07:00,090
+first whenever you call this start
+function what it does is it goes to that
+
+79
+00:07:00,090 --> 00:07:06,539
+class and it looks for a function called
+run so it's it's kind of weird but
+
+80
+00:07:06,539 --> 00:07:10,919
+that's how it works
+so start kicks off a thread now how is
+
+81
+00:07:10,919 --> 00:07:19,050
+this different than any normal function
+well check this out actually you can
+
+82
+00:07:19,050 --> 00:07:23,370
+kind of see here but let me run it one
+more time just a there we go that's a
+
+83
+00:07:23,370 --> 00:07:29,669
+better example so before whenever we
+created objects what happened is our
+
+84
+00:07:29,669 --> 00:07:35,610
+programs run from top to bottom so it
+ran this line it finished and then it
+
+85
+00:07:35,610 --> 00:07:40,259
+went on this line it finished went on
+the list line and what this line does is
+
+86
+00:07:40,259 --> 00:07:45,180
+is is it creates a thread with the name
+send out messages and it loops through
+
+87
+00:07:45,180 --> 00:07:51,629
+it ten times so before what happened is
+this would print send out messages ten
+
+88
+00:07:51,629 --> 00:07:56,759
+times and it once it was finished it
+would move on to the next line but check
+
+89
+00:07:56,759 --> 00:08:02,520
+this out send send send receive send
+receive send receive why are they all
+jumbled together well that's a cool
+
+90
+00:08:04,440 --> 00:08:09,180
+thing about threads with threads you
+don't need to wait for this to finish
+
+91
+00:08:09,180 --> 00:08:14,460
+before moving on to the next line with
+threads what your program is going to do
+
+92
+00:08:14,460 --> 00:08:20,099
+is this is going to say ok this is a
+thread and I'm going to start it off in
+
+93
+00:08:20,099 --> 00:08:25,229
+other words I'm going to call run and as
+soon as I'm done before this is even
+
+94
+00:08:25,229 --> 00:08:30,599
+done I'm just going to go on to the next
+line and do whatever it tells me to sew
+
+95
+00:08:30,599 --> 00:08:36,000
+again eventually what we have for a
+brief period of time is both of these
+
+96
+00:08:36,000 --> 00:08:42,719
+things running at the exact same time so
+now our computer program is well a lot
+
+97
+00:08:42,719 --> 00:08:47,459
+more powerful and a lot more faster or a
+lot faster however the heck you say it
+so that is how in one
+
+98
+00:08:51,200 --> 00:08:55,910
+instance you would utilize threads to
+make a messenger program and again just
+warning you guys you don't want to use
+
+99
+00:08:58,279 --> 00:09:01,880
+threads with everything even though it
+speeds up your program this would be
+
+100
+00:09:01,880 --> 00:09:07,220
+really awful in the calculation so say
+you're like averaging a bunch of numbers
+
+101
+00:09:07,220 --> 00:09:12,230
+well you need to add all those numbers
+together before you do your division so
+
+102
+00:09:12,230 --> 00:09:15,560
+if you're like okay add and try to
+divide at the same time you're going to
+get one you know
+
+103
+00:09:17,120 --> 00:09:21,920
+messed up answer so you wouldn't want to
+do it in that case scenario but for
+
+104
+00:09:21,920 --> 00:09:26,630
+programs that really don't depend on
+something else to happen and can run
+
+105
+00:09:26,630 --> 00:09:32,089
+concurrently or at the same time threads
+are an awesome feature to have so for
+
+106
+00:09:32,089 --> 00:09:35,899
+now thank you guys for watching don't
+forget to subscribe and well I'll see
+
+107
+00:09:35,899 --> 00:09:38,019
+you later

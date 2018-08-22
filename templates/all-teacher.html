@@ -1,0 +1,124 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+{% block custom_css %}
+    <link rel="stylesheet" href="{% static 'dist/css/mystyle.css' %}">
+{% endblock %}
+{% block title %}教师列表{% endblock %}
+{% block breadcrumb %}
+   <li class="breadcrumb-item"><a href="{% url 'index' %}">Home</a></li>
+    <li class="breadcrumb-item">教师列表</li>
+{% endblock %}
+{% block content %}
+        <section class="content">
+        <div class="container-fluid">
+
+        <div class="row">
+          <div class="col-md-9">
+            <!-- Custom Tabs -->
+            <div class="card">
+              <div class="card-header d-flex p-0">
+                <h3 class="card-title p-3">教师列表</h3>
+                    <ul class="tab_header ml-auto p-2">
+                    <li {% if sort == '' %} class="active"{% endif %}><a href="?sort=">全部</a> </li>
+					<li {% if sort == 'hot' %}class="active"{% endif %}><a href="?sort=hot">人气 &#8595;</a></li>                   </ul>
+              </div><!-- /.card-header -->
+              <div class="card-body">
+                    <div class="row">
+                        {% for teacher in all_teachers.object_list %}
+                         <div class="col-lg-4 col-md-6 ">
+                    <!-- Widget: user widget style 2 -->
+                            <div class="card card-widget widget-user-2">
+                      <!-- Add the bg color to the header using any of the bg-* classes -->
+                              <div class="widget-user-header bg-info">
+                                  <a href="{% url 'organization:teacher_detail' teacher.id%}">
+                                 <span class="mailbox-attachment-icon has-img">
+                                  <img class="img-circle elevation-2" style="-webkit-border-radius: 100px" src="{{ MEDIA_URL }}{{ teacher.image }}" alt="User Avatar" width="400" height="400">
+                                 </span>
+                                </a>
+                                <!-- /.widget-user-image -->
+                                <a href="{% url 'organization:teacher_detail' teacher.id%}"> <h3 class=" text-center">{{ teacher.name }}</h3></a>
+                              </div>
+                              <div class="card-footer p-0">
+                                <ul class="nav flex-column">
+                                  <li class="nav-item">
+                                    <a href="#" class="nav-link text-muted">
+                                      教程数 <span class="float-right badge bg-primary">{{ teacher.get_course_nums }}</span>
+                                    </a>
+                                  </li>
+                                  <li class="nav-item">
+                                    <div class="nav-link text-muted">
+                                      收藏 <span class="float-right badge bg-success">{{ teacher.click_nums }}</span>
+                                   </div>
+                                  </li>
+                                  <li class="nav-item">
+                                     <div class="nav-link text-muted">
+                                      订阅者 <span class="float-right badge bg-danger">{{ teacher.fav_nums }}</span>
+                                    </div>
+                                  </li>
+                                </ul>
+                              </div>
+                    </div>
+                         </div>
+                        {% endfor %}
+             </div>
+                <!-- /.tab-content -->
+              </div><!-- /.card-body -->
+            <!-- ./card -->
+          </div>
+          </div>
+          <!-- /.col -->
+            <div class="col-md-3">
+      <div class="container-fluid">
+        <!-- COLOR PALETTE -->
+        <!-- Recommended -->
+        <div class="card card-default color-palette-box">
+          <div class="card-header">
+            <h3 class="card-title">
+              <i class="fa fa-star"></i>
+              Recommended
+            </h3>
+          </div>
+          <div class="card-body">
+            <div class="row">
+                <div class="col-md-12 ">
+                    <div class="card card-widget widget-user-2">
+                      <!-- Add the bg color to the header using any of the bg-* classes -->
+                              <div class="widget-user-header bg-info">
+                                <div class="widget-user-image">
+                                  <img class="img-circle elevation-2" src="{{ MEDIA_URL }}{{ teacher.image }}" alt="User Avatar">
+                                </div>
+                                <!-- /.widget-user-image -->
+                                <h3 class="widget-user-username">{{ teacher.name }}</h3>
+                              </div>
+                              <div class="card-footer p-0">
+                                <ul class="nav flex-column">
+                                  <li class="nav-item">
+                                    <a href="#" class="nav-link text-muted">
+                                      教程数 <span class="float-right badge bg-primary">{{ teacher.get_course_nums }}</span>
+                                    </a>
+                                  </li>
+                                  <li class="nav-item">
+                                    <div class="nav-link text-muted">
+                                      收藏 <span class="float-right badge bg-success">{{ teacher.click_nums }}</span>
+                                   </div>
+                                  </li>
+                                  <li class="nav-item">
+                                     <div class="nav-link text-muted">
+                                      订阅者 <span class="float-right badge bg-danger">{{ teacher.fav_nums }}</span>
+                                    </div>
+                                  </li>
+                                </ul>
+                              </div>
+                    </div>
+             </div>
+            </div>
+          </div>
+        </div>
+      </div>
+            </div>
+        </div>
+        <!-- /.row -->
+        <!-- END CUSTOM TABS -->
+        </div>
+        </section>
+{% endblock %}

@@ -1,0 +1,700 @@
+1
+00:00:00,030 --> 00:00:02,190
+<font color="#E5E5E5">are already houses welcome back and in</font>
+
+2
+00:00:02,190 --> 00:00:03,870
+this video<font color="#CCCCCC"> series I am going to show you</font>
+
+3
+00:00:03,870 --> 00:00:06,750
+how<font color="#E5E5E5"> to make a Python web crawler now I</font>
+
+4
+00:00:06,750 --> 00:00:08,880
+actually made this<font color="#E5E5E5"> because a few weeks</font>
+
+5
+00:00:08,880 --> 00:00:11,820
+<font color="#CCCCCC">ago</font><font color="#E5E5E5"> I was trying</font><font color="#CCCCCC"> to make a sitemap</font><font color="#E5E5E5"> for</font>
+
+6
+00:00:11,820 --> 00:00:13,019
+my website<font color="#CCCCCC"> and if</font><font color="#E5E5E5"> you guys don't</font><font color="#CCCCCC"> know</font>
+
+7
+00:00:13,019 --> 00:00:15,630
+<font color="#CCCCCC">what</font><font color="#E5E5E5"> a sitemap is it's basically all the</font>
+
+8
+00:00:15,630 --> 00:00:17,820
+links or all the pages<font color="#E5E5E5"> on your website</font>
+
+9
+00:00:17,820 --> 00:00:20,550
+<font color="#CCCCCC">so you need to make a program to crawl</font>
+
+10
+00:00:20,550 --> 00:00:22,289
+<font color="#CCCCCC">your entire site and gather up all the</font>
+
+11
+00:00:22,289 --> 00:00:24,689
+links<font color="#E5E5E5"> and I'll search your</font><font color="#CCCCCC"> non-line for</font>
+
+12
+00:00:24,689 --> 00:00:26,550
+a free one<font color="#CCCCCC"> and there aren't a lot of</font>
+
+13
+00:00:26,550 --> 00:00:29,130
+good<font color="#E5E5E5"> free ones they all like</font><font color="#CCCCCC"> are limited</font>
+
+14
+00:00:29,130 --> 00:00:31,710
+to like 50 pages<font color="#E5E5E5"> or something</font><font color="#CCCCCC"> and then</font><font color="#E5E5E5"> I</font>
+
+15
+00:00:31,710 --> 00:00:33,180
+was<font color="#E5E5E5"> like are I'm just</font><font color="#CCCCCC"> going to buy one</font>
+
+16
+00:00:33,180 --> 00:00:35,130
+and all<font color="#CCCCCC"> the</font><font color="#E5E5E5"> ones</font><font color="#CCCCCC"> that</font><font color="#E5E5E5"> you can buy our</font>
+
+17
+00:00:35,130 --> 00:00:36,899
+like a hundred bucks<font color="#CCCCCC"> a year and I'm like</font>
+
+18
+00:00:36,899 --> 00:00:38,700
+I'm<font color="#CCCCCC"> not</font><font color="#E5E5E5"> going to pay a hundred bucks a</font>
+
+19
+00:00:38,700 --> 00:00:41,190
+year<font color="#CCCCCC"> for a little bot that's</font><font color="#E5E5E5"> going to</font>
+
+20
+00:00:41,190 --> 00:00:43,770
+take like<font color="#CCCCCC"> ten minutes to run so that</font><font color="#E5E5E5"> was</font>
+
+21
+00:00:43,770 --> 00:00:46,649
+my first<font color="#CCCCCC"> motivation but</font><font color="#E5E5E5"> I was lazy and</font><font color="#CCCCCC"> I</font>
+
+22
+00:00:46,649 --> 00:00:49,140
+didn't do it<font color="#E5E5E5"> oh my god then I got a like</font>
+
+23
+00:00:49,140 --> 00:00:51,600
+program this crawler<font color="#E5E5E5"> and then a few days</font>
+
+24
+00:00:51,600 --> 00:00:53,699
+<font color="#E5E5E5">ago</font><font color="#CCCCCC"> I was looking through my website</font><font color="#E5E5E5"> and</font>
+
+25
+00:00:53,699 --> 00:00:55,649
+I was like you know what what<font color="#E5E5E5"> would be</font>
+
+26
+00:00:55,649 --> 00:00:58,079
+really<font color="#E5E5E5"> cool is if you could have like</font>
+
+27
+00:00:58,079 --> 00:01:01,260
+<font color="#E5E5E5">open source search engine for your own</font>
+
+28
+00:01:01,260 --> 00:01:03,690
+<font color="#E5E5E5">website and I know that you can go ahead</font>
+
+29
+00:01:03,690 --> 00:01:05,369
+and<font color="#CCCCCC"> add like Google custom search</font>
+
+30
+00:01:05,369 --> 00:01:07,290
+whenever you have a site and<font color="#E5E5E5"> you want to</font>
+
+31
+00:01:07,290 --> 00:01:10,080
+add some search to it but Google<font color="#E5E5E5"> custom</font>
+
+32
+00:01:10,080 --> 00:01:11,760
+<font color="#E5E5E5">search</font><font color="#CCCCCC"> it doesn't really feel</font>
+
+33
+00:01:11,760 --> 00:01:14,369
+comfortable<font color="#E5E5E5"> like it's it kind of feels</font>
+
+34
+00:01:14,369 --> 00:01:15,780
+like separate from your entire<font color="#CCCCCC"> website</font>
+
+35
+00:01:15,780 --> 00:01:18,450
+<font color="#E5E5E5">so I'm like man that crawler I was going</font>
+
+36
+00:01:18,450 --> 00:01:19,979
+to make a few weeks ago that<font color="#E5E5E5"> would been</font>
+
+37
+00:01:19,979 --> 00:01:22,530
+a really nice so again all this program
+
+38
+00:01:22,530 --> 00:01:24,119
+is going<font color="#E5E5E5"> to do in this video series is</font>
+
+39
+00:01:24,119 --> 00:01:26,159
+<font color="#E5E5E5">basically going to go through all the</font>
+
+40
+00:01:26,159 --> 00:01:28,200
+pages on your website<font color="#CCCCCC"> and gather up</font><font color="#E5E5E5"> all</font>
+
+41
+00:01:28,200 --> 00:01:30,450
+the links<font color="#E5E5E5"> so you can either use</font><font color="#CCCCCC"> that for</font>
+
+42
+00:01:30,450 --> 00:01:32,159
+a<font color="#E5E5E5"> site map or if you're</font><font color="#CCCCCC"> making like a</font>
+
+43
+00:01:32,159 --> 00:01:34,350
+custom search engine then you can go
+
+44
+00:01:34,350 --> 00:01:36,450
+ahead<font color="#E5E5E5"> and run</font><font color="#CCCCCC"> some analytics</font><font color="#E5E5E5"> on each</font>
+
+45
+00:01:36,450 --> 00:01:39,450
+<font color="#E5E5E5">page later on but this</font><font color="#CCCCCC"> is</font><font color="#E5E5E5"> the core of a</font>
+
+46
+00:01:39,450 --> 00:01:41,939
+lot<font color="#CCCCCC"> of programs</font><font color="#E5E5E5"> so</font><font color="#CCCCCC"> that is my motivation</font>
+
+47
+00:01:41,939 --> 00:01:43,740
+<font color="#E5E5E5">so let's go</font><font color="#CCCCCC"> ahead and</font><font color="#E5E5E5"> get started</font><font color="#CCCCCC"> and</font>
+
+48
+00:01:43,740 --> 00:01:45,720
+actually<font color="#E5E5E5"> before I do that was a lie</font>
+
+49
+00:01:45,720 --> 00:01:47,130
+we're<font color="#E5E5E5"> not going</font><font color="#CCCCCC"> to get started yet</font><font color="#E5E5E5"> I</font>
+
+50
+00:01:47,130 --> 00:01:50,149
+know<font color="#E5E5E5"> that there are a couple</font><font color="#CCCCCC"> armed</font>
+
+51
+00:01:50,149 --> 00:01:53,460
+<font color="#CCCCCC">modules already</font><font color="#E5E5E5"> in Python this is the</font>
+
+52
+00:01:53,460 --> 00:01:55,170
+first one<font color="#CCCCCC"> I looked at but</font><font color="#E5E5E5"> this doesn't</font>
+
+53
+00:01:55,170 --> 00:01:57,149
+even<font color="#E5E5E5"> have Python 3 support yet</font><font color="#CCCCCC"> I think</font>
+
+54
+00:01:57,149 --> 00:01:59,610
+<font color="#CCCCCC">it's in</font><font color="#E5E5E5"> beta and also this was a little</font>
+
+55
+00:01:59,610 --> 00:02:01,619
+<font color="#E5E5E5">different from</font><font color="#CCCCCC"> what I</font><font color="#E5E5E5"> was trying to do</font>
+
+56
+00:02:01,619 --> 00:02:05,070
+and I know<font color="#E5E5E5"> that beautifulsoup does exist</font>
+
+57
+00:02:05,070 --> 00:02:07,500
+<font color="#E5E5E5">but this is more of a parser so in other</font>
+
+58
+00:02:07,500 --> 00:02:09,899
+words once<font color="#E5E5E5"> you have HTML for example it</font>
+
+59
+00:02:09,899 --> 00:02:11,730
+can like rip out the<font color="#E5E5E5"> title and tell you</font>
+
+60
+00:02:11,730 --> 00:02:13,349
+what the title<font color="#CCCCCC"> of the page</font><font color="#E5E5E5"> is</font>
+
+61
+00:02:13,349 --> 00:02:15,780
+and you know maybe the content<font color="#E5E5E5"> and all</font>
+
+62
+00:02:15,780 --> 00:02:18,900
+the<font color="#E5E5E5"> paragraphs and whatnot but again we</font>
+
+63
+00:02:18,900 --> 00:02:20,459
+need<font color="#E5E5E5"> to start with the basics we just</font>
+
+64
+00:02:20,459 --> 00:02:22,739
+need to go ahead<font color="#E5E5E5"> and gather the links</font>
+
+65
+00:02:22,739 --> 00:02:24,569
+for your site before<font color="#E5E5E5"> you can start</font>
+
+66
+00:02:24,569 --> 00:02:27,319
+<font color="#CCCCCC">running analytics</font><font color="#E5E5E5"> on all the pages so</font>
+
+67
+00:02:27,319 --> 00:02:30,180
+what I'm going to do is I'm<font color="#E5E5E5"> going to set</font>
+
+68
+00:02:30,180 --> 00:02:31,829
+this up<font color="#CCCCCC"> like we're going to use this a</font>
+
+69
+00:02:31,829 --> 00:02:33,269
+bunch<font color="#E5E5E5"> of times on a bunch</font><font color="#CCCCCC"> of</font><font color="#E5E5E5"> different</font>
+
+70
+00:02:33,269 --> 00:02:35,609
+websites<font color="#CCCCCC"> so let's say that</font><font color="#E5E5E5"> I wanted to</font>
+
+71
+00:02:35,609 --> 00:02:37,409
+<font color="#CCCCCC">run</font><font color="#E5E5E5"> this on my</font><font color="#CCCCCC"> website and</font><font color="#E5E5E5"> my</font><font color="#CCCCCC"> friend's</font>
+
+72
+00:02:37,409 --> 00:02:40,319
+website and my<font color="#CCCCCC"> uncle's I would need to</font>
+
+73
+00:02:40,319 --> 00:02:43,040
+separate each of those into their own
+
+74
+00:02:43,040 --> 00:02:45,689
+different projects or own own different
+
+75
+00:02:45,689 --> 00:02:47,340
+folders<font color="#E5E5E5"> so that's what we're going to do</font>
+
+76
+00:02:47,340 --> 00:02:50,219
+what I'm<font color="#CCCCCC"> going to do is I'm going to</font>
+
+77
+00:02:50,219 --> 00:02:53,310
+first add a way where you<font color="#CCCCCC"> can type in</font>
+
+78
+00:02:53,310 --> 00:02:57,989
+something like the<font color="#CCCCCC"> New Boston</font><font color="#E5E5E5"> how can I</font>
+
+79
+00:02:57,989 --> 00:03:00,239
+not type today<font color="#CCCCCC"> alright</font><font color="#E5E5E5"> so this is the</font>
+
+80
+00:03:00,239 --> 00:03:02,669
+<font color="#CCCCCC">name of the project</font><font color="#E5E5E5"> and then we</font><font color="#CCCCCC"> can go</font>
+
+81
+00:03:02,669 --> 00:03:06,060
+ahead<font color="#E5E5E5"> and give the home page like this</font>
+
+82
+00:03:06,060 --> 00:03:07,680
+again this<font color="#CCCCCC"> isn't</font><font color="#E5E5E5"> Python code I'm just</font>
+
+83
+00:03:07,680 --> 00:03:09,239
+demonstrating<font color="#CCCCCC"> how we're going</font><font color="#E5E5E5"> to make it</font>
+
+84
+00:03:09,239 --> 00:03:11,340
+so we'll say<font color="#CCCCCC"> alright the project name is</font>
+
+85
+00:03:11,340 --> 00:03:12,930
+the<font color="#E5E5E5"> New Boston and this is your home</font>
+
+86
+00:03:12,930 --> 00:03:15,239
+page<font color="#CCCCCC"> so then it's</font><font color="#E5E5E5"> going to go ahead and</font>
+
+87
+00:03:15,239 --> 00:03:17,129
+<font color="#E5E5E5">create a folder</font><font color="#CCCCCC"> and store all the links</font>
+
+88
+00:03:17,129 --> 00:03:18,780
+in<font color="#CCCCCC"> that folder and then they</font><font color="#E5E5E5"> don't get</font>
+
+89
+00:03:18,780 --> 00:03:20,069
+all jumbled together<font color="#CCCCCC"> if you don't</font>
+
+90
+00:03:20,069 --> 00:03:21,509
+<font color="#CCCCCC">understand what I'm talking about</font><font color="#E5E5E5"> we'll</font>
+
+91
+00:03:21,509 --> 00:03:23,699
+check this out<font color="#E5E5E5"> so the first</font><font color="#CCCCCC"> thing we're</font>
+
+92
+00:03:23,699 --> 00:03:25,949
+going<font color="#E5E5E5"> to do is we're</font><font color="#CCCCCC"> going to import</font><font color="#E5E5E5"> OS</font>
+
+93
+00:03:25,949 --> 00:03:28,829
+<font color="#E5E5E5">and this is just actually want to kind</font>
+
+94
+00:03:28,829 --> 00:03:30,329
+of keep<font color="#E5E5E5"> that</font><font color="#CCCCCC"> I kind of</font><font color="#E5E5E5"> like that</font><font color="#CCCCCC"> little</font>
+
+95
+00:03:30,329 --> 00:03:34,259
+<font color="#E5E5E5">thing</font><font color="#CCCCCC"> I don't know why</font><font color="#E5E5E5"> all right so this</font>
+
+96
+00:03:34,259 --> 00:03:36,019
+<font color="#E5E5E5">is</font><font color="#CCCCCC"> just going to allow us to create</font>
+
+97
+00:03:36,019 --> 00:03:39,000
+directories<font color="#E5E5E5"> so let me say that on</font><font color="#CCCCCC"> each</font>
+
+98
+00:03:39,000 --> 00:03:46,739
+<font color="#CCCCCC">website</font><font color="#E5E5E5"> you crawl is a separate project</font>
+
+99
+00:03:46,739 --> 00:03:52,019
+<font color="#CCCCCC">and again the project</font><font color="#E5E5E5"> files for this</font>
+
+100
+00:03:52,019 --> 00:03:53,970
+it's<font color="#E5E5E5"> not gonna be anything special</font><font color="#CCCCCC"> a new</font>
+
+101
+00:03:53,970 --> 00:03:56,250
+folder equals a new project<font color="#CCCCCC"> simple as</font>
+
+102
+00:03:56,250 --> 00:03:58,229
+<font color="#CCCCCC">that</font><font color="#E5E5E5"> so we'll just call this function</font>
+
+103
+00:03:58,229 --> 00:04:04,250
+<font color="#E5E5E5">def great project directory and then</font>
+
+104
+00:04:04,250 --> 00:04:06,870
+we'll name it directory don't use the
+
+105
+00:04:06,870 --> 00:04:09,870
+keyword dir because dir is already a
+
+106
+00:04:09,870 --> 00:04:12,629
+<font color="#E5E5E5">built-in Python keyword so don't</font><font color="#CCCCCC"> undo</font>
+
+107
+00:04:12,629 --> 00:04:13,919
+that<font color="#E5E5E5"> actually let me get rid of that</font>
+
+108
+00:04:13,919 --> 00:04:17,699
+after all<font color="#CCCCCC"> all</font><font color="#E5E5E5"> right so the cool thing</font>
+
+109
+00:04:17,699 --> 00:04:19,738
+<font color="#CCCCCC">about</font><font color="#E5E5E5"> this program the way I made it is</font>
+
+110
+00:04:19,738 --> 00:04:23,550
+I'm going<font color="#E5E5E5"> to say go ahead</font><font color="#CCCCCC"> and</font><font color="#E5E5E5"> start off</font>
+
+111
+00:04:23,550 --> 00:04:26,520
+<font color="#CCCCCC">by whenever we create a project for the</font>
+
+112
+00:04:26,520 --> 00:04:28,710
+first<font color="#E5E5E5"> time create that new</font><font color="#CCCCCC"> folder for us</font>
+
+113
+00:04:28,710 --> 00:04:31,169
+and start crawling the website
+
+114
+00:04:31,169 --> 00:04:33,840
+now let's say that your computer shuts
+
+115
+00:04:33,840 --> 00:04:35,969
+<font color="#CCCCCC">down maybe</font><font color="#E5E5E5"> I know your electrical failed</font>
+
+116
+00:04:35,969 --> 00:04:37,889
+or something or<font color="#CCCCCC"> you just need</font><font color="#E5E5E5"> to put</font>
+
+117
+00:04:37,889 --> 00:04:39,599
+<font color="#E5E5E5">your computer to sleep or go home from</font>
+
+118
+00:04:39,599 --> 00:04:41,430
+work or<font color="#E5E5E5"> something you don't want to go</font>
+
+119
+00:04:41,430 --> 00:04:43,919
+ahead<font color="#E5E5E5"> and get rid of all</font><font color="#CCCCCC"> that data</font><font color="#E5E5E5"> let's</font>
+
+120
+00:04:43,919 --> 00:04:46,020
+<font color="#E5E5E5">say it was like</font><font color="#CCCCCC"> 50 percent done</font><font color="#E5E5E5"> crawling</font>
+
+121
+00:04:46,020 --> 00:04:47,909
+<font color="#E5E5E5">that you actually</font><font color="#CCCCCC"> want to save that so</font>
+
+122
+00:04:47,909 --> 00:04:51,449
+what I'm going to do is whenever you<font color="#E5E5E5"> run</font>
+
+123
+00:04:51,449 --> 00:04:53,909
+this again<font color="#E5E5E5"> if that directory already</font>
+
+124
+00:04:53,909 --> 00:04:55,830
+exists if that project<font color="#CCCCCC"> already exists</font>
+
+125
+00:04:55,830 --> 00:04:57,150
+<font color="#CCCCCC">we're</font><font color="#E5E5E5"> not going to go</font><font color="#CCCCCC"> ahead and create</font>
+
+126
+00:04:57,150 --> 00:04:58,919
+it<font color="#CCCCCC"> again</font><font color="#E5E5E5"> we're just</font><font color="#CCCCCC"> going to say ok</font><font color="#E5E5E5"> only</font>
+
+127
+00:04:58,919 --> 00:05:00,960
+<font color="#CCCCCC">create this</font><font color="#E5E5E5"> if it doesn't exist</font>
+
+128
+00:05:00,960 --> 00:05:07,199
+<font color="#CCCCCC">so we'll say if</font><font color="#E5E5E5"> not OS dot path exists</font>
+
+129
+00:05:07,199 --> 00:05:10,740
+<font color="#E5E5E5">and we'll see this is the path right</font>
+
+130
+00:05:10,740 --> 00:05:13,139
+<font color="#CCCCCC">here</font><font color="#E5E5E5"> so again</font><font color="#CCCCCC"> the folder name is</font>
+
+131
+00:05:13,139 --> 00:05:17,339
+essentially just<font color="#CCCCCC"> the path</font><font color="#E5E5E5"> only then do</font>
+
+132
+00:05:17,339 --> 00:05:18,719
+we<font color="#E5E5E5"> want to create</font><font color="#CCCCCC"> a</font><font color="#E5E5E5"> folder so I'm just</font>
+
+133
+00:05:18,719 --> 00:05:19,979
+going<font color="#CCCCCC"> to write a little prompt</font><font color="#E5E5E5"> so</font>
+
+134
+00:05:19,979 --> 00:05:21,479
+whenever they run this the user knows
+
+135
+00:05:21,479 --> 00:05:25,430
+what's going on<font color="#E5E5E5"> I'll say creating</font>
+
+136
+00:05:25,430 --> 00:05:30,630
+directory and then I'll<font color="#E5E5E5"> print</font><font color="#CCCCCC"> out the</font>
+
+137
+00:05:30,630 --> 00:05:33,270
+name<font color="#E5E5E5"> so my project name is going to be</font>
+
+138
+00:05:33,270 --> 00:05:34,860
+the<font color="#CCCCCC"> new Boston so whenever I run</font><font color="#E5E5E5"> this</font>
+
+139
+00:05:34,860 --> 00:05:36,240
+<font color="#E5E5E5">for the first</font><font color="#CCCCCC"> time it's going to say</font>
+
+140
+00:05:36,240 --> 00:05:38,159
+creating directory actually<font color="#E5E5E5"> let me say</font>
+
+141
+00:05:38,159 --> 00:05:41,010
+creating project<font color="#E5E5E5"> that'll be a little</font><font color="#CCCCCC"> bit</font>
+
+142
+00:05:41,010 --> 00:05:43,710
+<font color="#E5E5E5">cooler a and then how do we actually</font>
+
+143
+00:05:43,710 --> 00:05:45,690
+make<font color="#CCCCCC"> it well it's the easiest thing ever</font>
+
+144
+00:05:45,690 --> 00:05:51,900
+<font color="#E5E5E5">OS make directories and you just pass in</font>
+
+145
+00:05:51,900 --> 00:05:55,500
+the directory name<font color="#E5E5E5"> right there so let me</font>
+
+146
+00:05:55,500 --> 00:05:56,940
+go<font color="#E5E5E5"> ahead and run this right now show you</font>
+
+147
+00:05:56,940 --> 00:06:04,240
+<font color="#E5E5E5">guys what's going on all right</font>
+
+148
+00:06:04,240 --> 00:06:07,760
+so check<font color="#E5E5E5"> this out you see how this</font><font color="#CCCCCC"> load</font>
+
+149
+00:06:07,760 --> 00:06:09,770
+directory doesn't have any folders or
+
+150
+00:06:09,770 --> 00:06:11,780
+anything<font color="#E5E5E5"> and it</font><font color="#CCCCCC"> just has main</font><font color="#E5E5E5"> py the</font>
+
+151
+00:06:11,780 --> 00:06:13,850
+file I'm working on<font color="#E5E5E5"> right</font><font color="#CCCCCC"> now so</font>
+
+152
+00:06:13,850 --> 00:06:16,910
+whenever<font color="#E5E5E5"> I run this bit of code</font><font color="#CCCCCC"> what</font>
+
+153
+00:06:16,910 --> 00:06:18,860
+it's going<font color="#E5E5E5"> to do this is going</font><font color="#CCCCCC"> to say</font>
+
+154
+00:06:18,860 --> 00:06:21,830
+<font color="#CCCCCC">okay creating project the</font><font color="#E5E5E5"> new Boston</font><font color="#CCCCCC"> and</font>
+
+155
+00:06:21,830 --> 00:06:24,020
+look at<font color="#E5E5E5"> that we now got a folder called</font>
+
+156
+00:06:24,020 --> 00:06:26,000
+the new Boston<font color="#CCCCCC"> now let me go</font><font color="#E5E5E5"> ahead and</font>
+
+157
+00:06:26,000 --> 00:06:28,130
+<font color="#E5E5E5">run this again</font><font color="#CCCCCC"> so say</font><font color="#E5E5E5"> that we had some</font>
+
+158
+00:06:28,130 --> 00:06:29,570
+<font color="#E5E5E5">data in here we're going to go ahead and</font>
+
+159
+00:06:29,570 --> 00:06:31,820
+run<font color="#CCCCCC"> it again</font><font color="#E5E5E5"> you see how it didn't say</font>
+
+160
+00:06:31,820 --> 00:06:34,520
+creating project<font color="#E5E5E5"> in</font><font color="#CCCCCC"> New Boston is</font>
+
+161
+00:06:34,520 --> 00:06:36,830
+because it already created it<font color="#CCCCCC"> so that</font>
+
+162
+00:06:36,830 --> 00:06:38,540
+way it doesn't<font color="#E5E5E5"> overwrite all of our</font>
+
+163
+00:06:38,540 --> 00:06:40,730
+juicy files<font color="#E5E5E5"> and also one thing I'm going</font>
+
+164
+00:06:40,730 --> 00:06:42,080
+to<font color="#E5E5E5"> do is I'm just going</font><font color="#CCCCCC"> to change</font><font color="#E5E5E5"> this</font>
+
+165
+00:06:42,080 --> 00:06:49,010
+<font color="#E5E5E5">to general because this general file</font><font color="#CCCCCC"> I'm</font>
+
+166
+00:06:49,010 --> 00:06:50,420
+just going to have a lot of<font color="#E5E5E5"> shared</font>
+
+167
+00:06:50,420 --> 00:06:53,030
+functions in<font color="#CCCCCC"> here and that main dot py</font>
+
+168
+00:06:53,030 --> 00:06:54,680
+<font color="#E5E5E5">file that's kind</font><font color="#CCCCCC"> of</font><font color="#E5E5E5"> going to be the</font>
+
+169
+00:06:54,680 --> 00:06:57,380
+starting point<font color="#E5E5E5"> for our entire program so</font>
+
+170
+00:06:57,380 --> 00:06:58,760
+I<font color="#E5E5E5"> don't just</font><font color="#CCCCCC"> don't</font><font color="#E5E5E5"> want to pop these</font>
+
+171
+00:06:58,760 --> 00:07:01,970
+right<font color="#CCCCCC"> in there so again that's how</font><font color="#E5E5E5"> our</font>
+
+172
+00:07:01,970 --> 00:07:03,380
+projects<font color="#CCCCCC"> gonna</font><font color="#E5E5E5"> be set up that's what</font>
+
+173
+00:07:03,380 --> 00:07:05,290
+we're doing<font color="#E5E5E5"> in this</font><font color="#CCCCCC"> video series and</font>
+
+174
+00:07:05,290 --> 00:07:08,300
+yeah<font color="#E5E5E5"> that's all</font><font color="#CCCCCC"> I got to say I guess</font>
+
+175
+00:07:08,300 --> 00:00:00,000
+I'll smell you<font color="#E5E5E5"> guys later</font>
+

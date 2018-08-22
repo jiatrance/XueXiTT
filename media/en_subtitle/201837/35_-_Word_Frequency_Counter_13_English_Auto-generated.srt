@@ -1,0 +1,576 @@
+1
+00:00:00,060 --> 00:00:05,279
+my check my check one two all right guys
+in this video what I want to do is I
+
+2
+00:00:05,279 --> 00:00:09,150
+want to show you guys how to make a word
+counter and what this is basically going
+
+3
+00:00:09,150 --> 00:00:13,559
+to do is it's going to go through a web
+page and you can actually use it even if
+you have like a text file or I don't
+
+4
+00:00:16,079 --> 00:00:19,680
+know any document but I'm just going to
+show you guys how to crawl a web page
+
+5
+00:00:19,680 --> 00:00:24,779
+get all the words on there and what it's
+going to do is it's going to show you
+
+6
+00:00:24,779 --> 00:00:30,060
+guys how frequently each word is used
+now search engines actually do this a
+
+7
+00:00:30,060 --> 00:00:34,410
+lot in arm maybe you have an ad network
+that you're building and you want to
+
+8
+00:00:34,410 --> 00:00:39,809
+display ads that are relevant to the
+content on the web pages so not only is
+
+9
+00:00:39,809 --> 00:00:44,969
+this really interesting but it's useful
+in a lot of situations as well so what
+
+10
+00:00:44,969 --> 00:00:49,980
+we're going to be doing is we're going
+to import requests and of course we need
+this for whenever we connect to URL and
+
+11
+00:00:52,980 --> 00:00:56,370
+get information from it pretty much to
+download information from a web page
+
+12
+00:00:56,370 --> 00:01:01,020
+we're going to request that information
+not just the mandate you know got to be
+
+13
+00:01:01,020 --> 00:01:07,110
+nice about it and the next thing we're
+going to do is import beautifulsoup
+
+14
+00:01:07,110 --> 00:01:12,000
+remember whenever you want to scrape or
+um pick out certain pieces of the web
+
+15
+00:01:12,000 --> 00:01:16,470
+page and I'll show you guys what I'm
+talking about right here so the reason
+
+16
+00:01:16,470 --> 00:01:20,820
+that we just don't want to crawl every
+single word on this web page is because
+
+17
+00:01:20,820 --> 00:01:26,490
+some of the words like likes comments
+likes comments they appear all the time
+
+18
+00:01:26,490 --> 00:01:30,329
+but they aren't really relevant on this
+web page the only relevant words that
+
+19
+00:01:30,329 --> 00:01:34,890
+I'm looking for is pretty much these
+links right here so we can ignore all
+
+20
+00:01:34,890 --> 00:01:39,540
+the words like posted September all the
+crap we don't need and beautiful soups
+
+21
+00:01:39,540 --> 00:01:45,240
+going to allow us to do that and the
+last thing we need is import operator
+and that's arm whenever we make the
+
+22
+00:01:48,869 --> 00:01:53,210
+final word count we're going to have a
+dictionary we're going to have the words
+
+23
+00:01:53,210 --> 00:01:59,040
+like I don't know programmer status and
+those are going to be the keys and the
+
+24
+00:01:59,040 --> 00:02:02,729
+values are going to be how many times
+they occurred so it's going to say
+something like arm like programming 18
+
+25
+00:02:06,659 --> 00:02:12,750
+times by two times something like that
+so now let's go ahead and get started so
+
+26
+00:02:12,750 --> 00:02:16,380
+the first thing we need to do
+is obviously make a function and I'm
+
+27
+00:02:16,380 --> 00:02:20,070
+going to be breaking up this program
+into three functions the first function
+
+28
+00:02:20,070 --> 00:02:25,770
+is just going to create a list of every
+single word on here so that's what I'm
+
+29
+00:02:25,770 --> 00:02:28,910
+doing first and I'll explain you guys
+the other functions when we get to them
+
+30
+00:02:28,910 --> 00:02:37,920
+but oh my oh my I put in PI but since
+this is our starting point what I want
+
+31
+00:02:37,920 --> 00:02:43,200
+to do is just name it start why the heck
+not and pass it in a URL so actually
+
+32
+00:02:43,200 --> 00:02:46,200
+what I can do
+actually I'll call that later don't want
+
+33
+00:02:46,200 --> 00:02:51,810
+to really worry about it now all right
+so the first thing we need to do is we
+
+34
+00:02:51,810 --> 00:02:57,690
+need to create a blank list so word list
+and then just set this equal to blank
+
+35
+00:02:57,690 --> 00:03:03,360
+list and eventually what we're going to
+be doing is arm getting all the source
+
+36
+00:03:03,360 --> 00:03:07,830
+code from the website and picking out
+word by word and throwing it in that
+
+37
+00:03:07,830 --> 00:03:16,320
+list so to connect the web page of
+course requests get and get pretty much
+means all right what do you want to get
+
+38
+00:03:18,750 --> 00:03:23,070
+information from well whatever URL we
+pass in which is essentially going to be
+
+39
+00:03:23,070 --> 00:03:29,489
+this URL and again like I said you can
+pretty much do this for any web page but
+
+40
+00:03:29,489 --> 00:03:32,489
+I just don't want to like go to
+Craigslist or something or else I'm
+
+41
+00:03:32,489 --> 00:03:36,750
+going to get the email bag of Bucky you
+can't do that to our web page and then
+
+42
+00:03:36,750 --> 00:03:40,830
+I'm going to sue me so I'll just do it
+to my own for now if you guys want to
+
+43
+00:03:40,830 --> 00:03:44,970
+crawl my web page that's fine I give you
+permission just don't like abuse it or
+
+44
+00:03:44,970 --> 00:03:49,620
+anything all right so what this is going
+to do is it's going to connect to that
+
+45
+00:03:49,620 --> 00:03:55,200
+URL or that web page and this means
+pretty much just use it as plain text
+don't like I'll pull it as any weird
+
+46
+00:03:57,959 --> 00:04:04,380
+encrypted binary data or anything like
+that so now that we have pretty much all
+
+47
+00:04:04,380 --> 00:04:11,160
+the source code from the web page what
+we're looking at is pretty much this all
+
+48
+00:04:11,160 --> 00:04:15,890
+of that crap now of course whenever we
+use beautifulsoup
+
+49
+00:04:15,890 --> 00:04:21,620
+we need to convert that to a soup object
+so take that source code that you just
+
+50
+00:04:21,620 --> 00:04:26,510
+grabbed and throw in here and now your
+soup
+
+51
+00:04:26,510 --> 00:04:30,930
+object is something that you can
+actually work with so what I want to do
+
+52
+00:04:30,930 --> 00:04:37,860
+is I would want to do this and come on
+capslock so right now we're looking at
+
+53
+00:04:37,860 --> 00:04:41,250
+all this crap and of course we don't
+just want to crawl all this or else
+
+54
+00:04:41,250 --> 00:04:47,760
+we're going to get weird keywords like
+div class you know IMG we don't care
+
+55
+00:04:47,760 --> 00:04:54,720
+about that what we care about is only
+the text and these links right here so
+
+56
+00:04:54,720 --> 00:05:00,090
+let's go ahead and inspect this and see
+what property is unique to these links
+and if I scroll up you guys are going to
+
+57
+00:05:03,300 --> 00:05:09,150
+see so of course whenever I highlight
+this this is the link that we're looking
+for so it says okay this href changes so
+
+58
+00:05:13,169 --> 00:05:18,780
+we can't really use that the class
+however if we edit this all of these
+
+59
+00:05:18,780 --> 00:05:25,200
+links or all the important content has a
+class of index single listing titles so
+
+60
+00:05:25,200 --> 00:05:30,810
+let's go ahead and grab that I just cut
+it or you can copy it whatever and what
+
+61
+00:05:30,810 --> 00:05:37,950
+I want to do is write this for post text
+this is just a variable that because
+
+62
+00:05:37,950 --> 00:05:47,930
+it's a text from each post and soup find
+all now find all remember you says okay
+
+63
+00:05:47,930 --> 00:05:51,630
+we're going to go through all that
+source code what are you looking for
+
+64
+00:05:51,630 --> 00:05:58,350
+well first of all it was a link so it
+was a and the next thing it needs is it
+
+65
+00:05:58,350 --> 00:06:03,890
+pretty much says okay now I'm going to
+look at all the links now what property
+do you want me to look for well only
+
+66
+00:06:06,479 --> 00:06:14,490
+grab the links with the class of index
+single listing titles so now essentially
+
+67
+00:06:14,490 --> 00:06:22,290
+what we have is all of these links right
+here however we have one problem what we
+
+68
+00:06:22,290 --> 00:06:30,419
+have is actually the entire like all of
+it so we have href we have this part we
+have this part and we have the content
+
+69
+00:06:33,090 --> 00:06:37,710
+that we need now if we only want to pull
+out this good content you know kind of
+
+70
+00:06:37,710 --> 00:06:42,750
+like stealing the cream
+from the milk we need to do this so the
+
+71
+00:06:42,750 --> 00:06:51,090
+content which is basically what we're
+looking for is equal to post text string
+
+72
+00:06:51,090 --> 00:06:57,030
+so that's going to do is it's going to
+go through your entire source code pull
+
+73
+00:06:57,030 --> 00:07:02,400
+out all of the important links and treat
+them as post text now post text string
+
+74
+00:07:02,400 --> 00:07:08,070
+pretty much means only get the text
+that's inside here don't even worry
+
+75
+00:07:08,070 --> 00:07:13,440
+about this HTML crap so this is pretty
+much how you remove HTML from some of
+
+76
+00:07:13,440 --> 00:07:18,930
+them probably could have just said that
+but who cares so now we have all the
+
+77
+00:07:18,930 --> 00:07:22,830
+good stuff
+however we have one more problem and I
+
+78
+00:07:22,830 --> 00:07:27,270
+know this is kind of a lot of
+information but it's important so right
+
+79
+00:07:27,270 --> 00:07:31,200
+now we have a bunch of sentences and we
+don't want the entire sentences for each
+
+80
+00:07:31,200 --> 00:07:38,820
+one we just want the words so we we
+don't want arm all of this in a variable
+
+81
+00:07:38,820 --> 00:07:44,790
+we want to break it up into Ben and then
+stuck here all day and those are
+
+82
+00:07:44,790 --> 00:07:49,440
+individual words because that's that's
+what this program does so in order to do
+
+83
+00:07:49,440 --> 00:07:53,730
+that we need one more variable and I'll
+just name it words it's set to equal to
+
+84
+00:07:53,730 --> 00:08:06,990
+content dot lower split actually this
+one is lower to now the reason so well
+
+85
+00:08:06,990 --> 00:08:11,760
+I'll explain what this does so content
+is basically the entire sentence so what
+
+86
+00:08:11,760 --> 00:08:17,190
+we want to do first is the lower case
+everything in that sentence and that's
+
+87
+00:08:17,190 --> 00:08:21,570
+just because some people start a
+sentence with like I and some people
+
+88
+00:08:21,570 --> 00:08:26,520
+aren't using proper grammar or I don't
+know what's something in here like maybe
+
+89
+00:08:26,520 --> 00:08:30,180
+they're talking about this guy Richard
+Feynman I've no idea who that is
+
+90
+00:08:30,180 --> 00:08:35,340
+but not everyone capitalizes things in
+the exact same way so we want to do just
+
+91
+00:08:35,340 --> 00:08:38,850
+to make sure everything is consistent
+and we don't get any duplicate results
+
+92
+00:08:38,850 --> 00:08:44,610
+it's just lower case everything and
+split basically splits up your string
+
+93
+00:08:44,610 --> 00:08:51,450
+based on spaces so it basically takes a
+sentence and splits it up into words so
+
+94
+00:08:51,450 --> 00:08:56,190
+that's why I have each
+word now in this variable so now we can
+
+95
+00:08:56,190 --> 00:09:05,040
+look through it for each word in words
+what do I want to do well now that we
+have the individual words we can just
+
+96
+00:09:06,630 --> 00:09:12,750
+add it to our main word list so word
+list and of course whenever you want to
+
+97
+00:09:12,750 --> 00:09:19,170
+add something use append and of course
+what are we appending or what are we
+
+98
+00:09:19,170 --> 00:09:24,270
+adding to the list we're adding each
+word so now actually I'll print this out
+
+99
+00:09:24,270 --> 00:09:40,100
+real quick print each word all right
+so now if I run this check it out and
+
+100
+00:09:40,100 --> 00:09:47,850
+nothing happens because I actually need
+to call this at some point in time so
+
+101
+00:09:47,850 --> 00:09:55,140
+that's the function that I want to call
+and I want to call for this URL all
+
+102
+00:09:55,140 --> 00:10:01,790
+right so now give me some space and run
+this check it out what we did is we
+
+103
+00:10:01,790 --> 00:10:10,800
+connect it to that website and we got
+the source code we broke it up in the
+
+104
+00:10:10,800 --> 00:10:14,910
+sentences or the good stuff and then we
+broke those sentences up into words and
+
+105
+00:10:14,910 --> 00:10:21,450
+we now have a list of all of the words
+on the website however if we look
+
+106
+00:10:21,450 --> 00:10:26,490
+closely at this we have a couple
+problems first of all we have symbols
+
+107
+00:10:26,490 --> 00:10:31,200
+that we don't need like this okay has
+three dots after it this thing this
+
+108
+00:10:31,200 --> 00:10:34,860
+isn't even word that's just a smiley
+face but I mean I followed our
+
+109
+00:10:34,860 --> 00:10:38,550
+instructions that's what we told it to
+do and there's some other stuff here
+that's weird like debatable has a some
+
+110
+00:10:42,090 --> 00:10:46,740
+symbols after it so we need to clean
+that up so what we're going to be doing
+
+111
+00:10:46,740 --> 00:10:51,660
+is we're going to be cleaning up all
+this stuff in the next tutorial and I'm
+
+112
+00:10:51,660 --> 00:10:56,550
+going to show you guys how to make a
+proper nicely perfectly working word
+
+113
+00:10:56,550 --> 00:11:01,160
+counter so that's what we have to look
+forward to I'll see you then

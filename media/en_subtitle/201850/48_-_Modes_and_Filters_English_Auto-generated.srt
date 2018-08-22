@@ -1,0 +1,401 @@
+1
+00:00:00,060 --> 00:00:04,079
+alright guys welcome back and in this
+video I'm going to show you guys how to
+
+2
+00:00:04,080 --> 00:00:12,150
+convert image modes from a photo so
+right now all of these photos baby Bucky
+
+3
+00:00:12,150 --> 00:00:18,660
+all of these are RGB and actually 99% of
+the pictures you see on your computer on
+
+4
+00:00:18,660 --> 00:00:23,760
+your smart phone on your tablet those
+are all RGB because that's what
+
+5
+00:00:23,760 --> 00:00:28,320
+computers and electronics they work with
+easiest they display it really easy and
+
+6
+00:00:28,320 --> 00:00:32,940
+crystal-clear however there are going to
+be times when you want to convert your
+
+7
+00:00:32,940 --> 00:00:39,239
+image to something else for example your
+printer chances are that it doesn't use
+
+8
+00:00:39,239 --> 00:00:45,059
+RGB whenever you print out on like a
+picture it usually prints in 4-color
+
+9
+00:00:45,059 --> 00:00:50,579
+CMYK cyan magenta yellow and K is black
+I don't know why they just don't use B
+
+10
+00:00:50,579 --> 00:00:54,899
+but they're going to be times where you
+want to take an RGB image and convert it
+
+11
+00:00:54,899 --> 00:00:59,760
+to something else so again um if you
+ever print something out then it's a
+
+12
+00:00:59,760 --> 00:01:04,830
+smart idea to convert it to CMYK first
+but just for this example I'll show you
+
+13
+00:01:04,830 --> 00:01:08,939
+guys how to convert it to black and
+white now there are a couple different
+
+14
+00:01:08,939 --> 00:01:14,100
+ways that you can make a black-and-white
+image you can just take your RGB image
+
+15
+00:01:14,100 --> 00:01:19,320
+and remove all the basic saturation from
+it and end up with a black and white
+
+16
+00:01:19,320 --> 00:01:24,240
+image but that isn't how true black and
+white image that's just a an RGB that
+
+17
+00:01:24,240 --> 00:01:29,220
+looks like a black and white one so if
+you actually want a true black and white
+
+18
+00:01:29,220 --> 00:01:35,909
+um photo then what you can do is you can
+take your original photo actually this
+
+19
+00:01:35,909 --> 00:01:43,890
+is called baby and you call something
+called convert now convert basically
+
+20
+00:01:43,890 --> 00:01:51,000
+says okay what format do you want to
+change this to so by default this is RGB
+
+21
+00:01:51,000 --> 00:01:56,219
+so if we call this nothing what happened
+because it's already RGB we can also do
+
+22
+00:01:56,219 --> 00:02:04,079
+CMYK for printing but just for this
+example on type L now L stands for
+
+23
+00:02:04,079 --> 00:02:07,979
+luminance it basically means black and
+white they should have named it
+
+24
+00:02:07,979 --> 00:02:13,500
+something a little bit more clear but
+apparently they decided that L was
+
+25
+00:02:13,500 --> 00:02:19,590
+best symbol for black and white so now
+if we take this new object which is
+
+26
+00:02:19,590 --> 00:02:24,570
+pretty much this image of a baby now
+converted to a black and white file type
+
+27
+00:02:24,570 --> 00:02:32,610
+check this out whenever you show this
+run main black and white now if you guys
+
+28
+00:02:32,610 --> 00:02:37,440
+are like alright so how do I know that
+this isn't just the RGB image still and
+I don't know they just like remove some
+
+29
+00:02:39,120 --> 00:02:45,570
+color from it so right now keep the file
+open and if you go to channels you see
+
+30
+00:02:45,570 --> 00:02:49,890
+that we don't have those RGB red green
+blue channels anymore we just have this
+
+31
+00:02:49,890 --> 00:02:58,230
+one channel just for black and white so
+that way we can verify that indeed it
+
+32
+00:02:58,230 --> 00:03:03,600
+does work and well I'm not lying all
+right hold on just my microphone a
+
+33
+00:03:03,600 --> 00:03:09,660
+little bit so that was kind of boring so
+now since you guys had to suffer through
+
+34
+00:03:09,660 --> 00:03:17,250
+that I'll show you guys something really
+cool now pillow or pill hota
+
+35
+00:03:17,250 --> 00:03:24,269
+oh these gusting all right so right now
+we've been using bunch of functions from
+
+36
+00:03:24,269 --> 00:03:28,799
+the image class but it also has another
+um class that it's actually a lot cooler
+
+37
+00:03:28,799 --> 00:03:34,080
+in my opinion and that's image filter
+now this class comes with a bunch of
+
+38
+00:03:34,080 --> 00:03:39,480
+cool built-in on filters that you might
+use like blur if you ever want to blur
+your image if you ever want to uh do
+
+39
+00:03:41,549 --> 00:03:46,739
+something like find the edges of it
+that's a nice little cool effect oh my
+
+40
+00:03:46,739 --> 00:03:51,780
+that uh that was embarrassing but uh
+probably not even going to edit that out
+
+41
+00:03:51,780 --> 00:03:58,320
+all right so first let me show you guys
+how to blur your image so do we want to
+
+42
+00:03:58,320 --> 00:04:07,610
+use this actually let me use Bucky
+actually alright let's use sister
+
+43
+00:04:07,610 --> 00:04:13,560
+because look at this look how adorable I
+look in this one I am one hot piece of
+
+44
+00:04:13,560 --> 00:04:18,590
+meat
+alright so sister
+
+45
+00:04:18,589 --> 00:04:23,520
+sister and just make any object I'm
+going to name my blurry because I'm
+
+46
+00:04:23,520 --> 00:04:29,220
+pretty much just going to blur the image
+so if we take sister that original image
+
+47
+00:04:29,220 --> 00:04:36,030
+and we add a function called filter to
+it what this does is that allows us to
+pretty much pass in one of these
+
+48
+00:04:40,830 --> 00:04:46,950
+parameters and the parameter I want to
+pass in is blur so pretty much from the
+
+49
+00:04:46,950 --> 00:04:53,430
+image filter class we're going to call a
+function called filter and it's going to
+
+50
+00:04:53,430 --> 00:04:59,880
+blur this image so let me just show you
+guys real quick so blur dot show is
+
+51
+00:04:59,880 --> 00:05:05,310
+pretty much the same image as before but
+now it is blurred pretty cool pretty
+
+52
+00:05:05,310 --> 00:05:12,030
+cool so as you can see um you're like
+okay when the heck would I want to blur
+image because this is just stupid it
+
+53
+00:05:13,800 --> 00:05:21,450
+like um is the same image but less
+quality actually if you ever um I'll
+
+54
+00:05:21,450 --> 00:05:25,710
+show you guys an example and this is
+actually a really useful tip if you ever
+
+55
+00:05:25,710 --> 00:05:30,450
+have an image like a flower or something
+and you know on those high-end cameras
+
+56
+00:05:30,450 --> 00:05:33,419
+when you get that depth of field it
+looks like the background is kind of
+
+57
+00:05:33,419 --> 00:05:38,460
+blurry if you ever want to add a photo
+filter like that then what you can do is
+
+58
+00:05:38,460 --> 00:05:45,300
+you can actually um pretty much overlay
+this blurry image on top of the regular
+
+59
+00:05:45,300 --> 00:05:50,340
+crystal-clear image and blur it as it
+fades out and it'll look like kind of
+give you the fake effect of depth of
+
+60
+00:05:51,810 --> 00:05:55,440
+field if you don't know what that the
+field is then just ignore everything I
+
+61
+00:05:55,440 --> 00:05:59,030
+just said because I'm not important I'll
+show you guys the effect later on
+
+62
+00:05:59,030 --> 00:06:09,750
+alright so another one that you guys
+might find pretty cool is detail and she
+
+63
+00:06:09,750 --> 00:06:13,979
+let me write both of these first and
+what this does is it pretty much just
+
+64
+00:06:13,979 --> 00:06:18,479
+gets the detail of her image it's kind
+of hard to explain but uh you'll see it
+
+65
+00:06:18,479 --> 00:06:27,060
+later on sure
+let's uh name this one edges and the
+
+66
+00:06:27,060 --> 00:06:34,910
+property is find edges
+there you go so now we already sub blur
+
+67
+00:06:34,910 --> 00:06:43,340
+so now let's go ahead and print detail
+see what that one does and also edges
+should let me clear this out alright so
+
+68
+00:06:48,030 --> 00:06:51,860
+run all those make sure I didn't do
+anything wrong
+
+69
+00:06:52,040 --> 00:06:56,880
+all right so this is blur
+we already saw this this is detail you
+
+70
+00:06:56,880 --> 00:07:01,860
+know without comparing them side by side
+they kind of look weird but if you look
+
+71
+00:07:01,860 --> 00:07:04,950
+at the other one
+then um it's pretty much like the
+
+72
+00:07:04,950 --> 00:07:08,550
+opposite of blur it gets the detail and
+you guys can see if you compare them
+
+73
+00:07:08,550 --> 00:07:14,640
+side by side and this one obviously what
+it does is it finds the edges it's best
+
+74
+00:07:14,640 --> 00:07:19,440
+guess and it highlights them so again
+you probably just want to want to use
+
+75
+00:07:19,440 --> 00:07:23,850
+this stand alone but combined with some
+other filters and effects they cannot
+
+76
+00:07:23,850 --> 00:07:30,570
+produce some pretty cool image effects
+so that ladies and gentlemen is image
+filter for some really basic built in
+
+77
+00:07:33,510 --> 00:07:37,560
+filters and again the power of this
+actually comes when you combine it with
+
+78
+00:07:37,560 --> 00:07:41,430
+other stuff we're going to be taking a
+look at that later on but for now thank
+
+79
+00:07:41,430 --> 00:07:45,770
+you guys for watching w subscribe and
+I'll see you guys later

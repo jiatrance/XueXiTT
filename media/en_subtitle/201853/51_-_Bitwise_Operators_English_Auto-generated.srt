@@ -1,0 +1,242 @@
+1
+00:00:00,000 --> 00:00:03,750
+all right hostas welcome back and in
+this tutorial I'm going to show you guys
+
+2
+00:00:03,750 --> 00:00:09,330
+how to use bitwise operators in Python
+now just the heads-up it's probably
+
+3
+00:00:09,330 --> 00:00:13,620
+really useful if you guys already know
+binary so if you guys don't then go
+ahead and watch my networking tutorials
+
+4
+00:00:15,360 --> 00:00:19,949
+one of the videos in there I explained
+how to interpret binary basically if you
+
+5
+00:00:19,949 --> 00:00:26,130
+have a value like 1 1 0 1 1 1 0 1 then
+how to turn this value into an actual
+number if you can do that then you're
+
+6
+00:00:27,869 --> 00:00:31,920
+ready to watch this video and if not
+then I'll talk you guys through real
+
+7
+00:00:31,920 --> 00:00:37,739
+quick but you know just the heads up so
+let's say that we have two different
+values so we'll say we have a value a
+
+8
+00:00:40,079 --> 00:00:45,450
+and this is just equal to the regular
+number 50 no binary or anything like
+
+9
+00:00:45,450 --> 00:00:51,600
+that and we have another number B and
+this is equal to 25 well if you guys
+
+10
+00:00:51,600 --> 00:00:58,890
+remember the binary of 50 let's see if I
+can get it it's a what is it 1 1 0 0 1 0
+
+11
+00:00:58,890 --> 00:01:08,159
+I think that's it art so the binary of
+the value 50 is 1 1 0 0 1 0 now of
+
+12
+00:01:08,159 --> 00:01:14,040
+course this place is for the ones this
+is for the 2 4 8 16 and 32
+
+13
+00:01:14,040 --> 00:01:20,939
+all right that's interesting but what do
+we care well if we try to end it with
+the value of 25 which is let's see 0 1 1
+
+14
+00:01:24,930 --> 00:01:32,250
+0 0 1 alright check it out so adding
+these together in normal human language
+
+15
+00:01:32,250 --> 00:01:37,860
+would just give you 75 right well
+whenever you do a binary and you don't
+
+16
+00:01:37,860 --> 00:01:44,250
+add them together in that kind of way so
+whenever you have a binary and what
+
+17
+00:01:44,250 --> 00:01:51,869
+you're going to do is use the ampersand
+operator so a and B so let me give
+
+18
+00:01:51,869 --> 00:01:54,770
+myself some more space
+
+19
+00:01:56,200 --> 00:02:03,620
+all right so what the binary and does
+remember is it goes through and it puts
+
+20
+00:02:03,620 --> 00:02:11,060
+a zero unless the top in the bottom are
+both ones so if one of these is a zero
+
+21
+00:02:11,060 --> 00:02:17,120
+or both of them is zero then it gets a
+zero so zero for this one since this one
+
+22
+00:02:17,120 --> 00:02:22,010
+is a zero and one for this one basically
+the only time you're going to get one is
+
+23
+00:02:22,010 --> 00:02:26,450
+when both of them are ones so this one's
+a zero this one's definitely a zero this
+
+24
+00:02:26,450 --> 00:02:31,520
+one 0 and this one zero so that's what
+it does it goes through and it adds them
+
+25
+00:02:31,520 --> 00:02:37,880
+together in other words it finds a
+result and it only has a 1 when both of
+those are ones so now what we can do is
+
+26
+00:02:41,330 --> 00:02:48,470
+we can print C and whenever we do that
+it will give you 16 so we can verify
+
+27
+00:02:48,470 --> 00:02:58,490
+that by making sure so 1 2 4 8 16 and no
+32 so that is indeed correct that's
+
+28
+00:02:58,490 --> 00:03:07,550
+what's going on now let me copy this
+right there and all right so the next
+
+29
+00:03:07,550 --> 00:03:14,110
+thing I want to teach you guys is right
+shift and by the way there's also or and
+
+30
+00:03:14,110 --> 00:03:18,800
+you know a bunch of other stuff but I
+figured if you guys know how to do and
+
+31
+00:03:18,800 --> 00:03:24,950
+then you guys don't have to do or now
+one kind of tricky thing is binary right
+shift and I'll give you guys an
+
+32
+00:03:26,900 --> 00:03:31,640
+explanation of what the heck this is so
+say that you have variable and it's just
+equal to human readable 240 that's just
+
+33
+00:03:35,120 --> 00:03:45,230
+the value and 240 in binary is 1 1 1 1 0
+0 0 0 so what we want to do is we
+actually want to take 240 and right
+
+34
+00:03:48,860 --> 00:03:55,310
+shift it that means take all these bits
+is shift them to the right now whenever
+
+35
+00:03:55,310 --> 00:04:00,830
+you do that the bits on your left are
+just going to turn to 0 so what we're
+
+36
+00:04:00,830 --> 00:04:05,600
+basically doing is this we're going to
+make a new variable called Y and this is
+going to be equal to X
+
+37
+00:04:07,470 --> 00:04:13,140
+with every bit shifted two spots to the
+right now if you ever want to do left
+
+38
+00:04:13,140 --> 00:04:19,230
+then just use less than less than but
+let's take this and shift every bit two
+
+39
+00:04:19,230 --> 00:04:25,980
+spots to the right so instead of 1 1 1 1
+0 0 0 0 we get 0 0 remember the first
+
+40
+00:04:25,980 --> 00:04:32,610
+one ROV zeros 1 1 1 1 0 0 so now you can
+see that we're pretty much is taking
+
+41
+00:04:32,610 --> 00:04:38,550
+these bits and shifting them to the
+right 2 spots so now what we can do is
+
+42
+00:04:38,550 --> 00:04:45,540
+you can actually print Y and check it
+out so the original value was 240
+
+43
+00:04:45,540 --> 00:04:53,340
+however the value of 0 0 1 1 1 1 0 0
+that is indeed 60 and if you want to run
+that through some online calculator then
+
+44
+00:04:55,260 --> 00:05:00,030
+you can validate that but trust me guys
+it is I wouldn't lie to you actually I
+
+45
+00:05:00,030 --> 00:05:05,850
+would but but not about this alright so
+there you go that is how you do binary
+
+46
+00:05:05,850 --> 00:05:12,060
+and in binary shift uh yeah that's all I
+got to say alright see you guys next
+
+47
+00:05:12,060 --> 00:05:14,210
+time

@@ -1,0 +1,272 @@
+1
+00:00:00,060 --> 00:00:02,520
+ <font color="#CCCCCC">好的家伙在这个视频 </font><font color="#E5E5E5">我想 </font>
+
+2
+00:00:02,520 --> 00:00:04,560
+跟你谈谈变量范围因为
+
+3
+00:00:04,560 --> 00:00:06,540
+ <font color="#E5E5E5">每当很多人开始 </font>
+
+4
+00:00:06,540 --> 00:00:09,240
+ <font color="#CCCCCC">特别是 </font><font color="#E5E5E5">Python函数 </font>
+
+5
+00:00:09,240 --> 00:00:12,230
+他们<font color="#E5E5E5">理解起来 </font><font color="#CCCCCC">有点 </font><font color="#E5E5E5">麻烦 </font>
+
+6
+00:00:12,230 --> 00:00:14,610
+ <font color="#CCCCCC">你可以 </font><font color="#E5E5E5">使用 哪些变量 </font>
+
+7
+00:00:14,610 --> 00:00:17,070
+ <font color="#CCCCCC">在那里 </font><font color="#E5E5E5">，所以我要告诉你的人 </font>
+
+8
+00:00:17,070 --> 00:00:19,439
+ <font color="#E5E5E5">它是非常基本的变量范围规则</font>
+
+9
+00:00:19,439 --> 00:00:20,820
+真的很容易<font color="#CCCCCC">拯救你 </font>
+
+10
+00:00:20,820 --> 00:00:23,010
+伙计们很<font color="#CCCCCC">麻烦所以让我们做一个 </font>
+
+11
+00:00:23,010 --> 00:00:25,590
+简单的<font color="#CCCCCC">变量叫做a并设置它 </font>
+
+12
+00:00:25,590 --> 00:00:27,359
+等于<font color="#E5E5E5">我不知道你的号码 </font>
+
+13
+00:00:27,359 --> 00:00:28,740
+希望<font color="#E5E5E5">它设置为你想要的任何东西 </font>
+
+14
+00:00:28,740 --> 00:00:32,009
+ <font color="#E5E5E5">现在我想要的数字字符串 </font>
+
+15
+00:00:32,009 --> 00:00:35,010
+告诉<font color="#CCCCCC">你们两个 </font><font color="#E5E5E5">你漂亮的 </font><font color="#CCCCCC">功能 </font>
+
+16
+00:00:35,010 --> 00:00:36,540
+ <font color="#E5E5E5">你必须做出任何两个功能 </font>
+
+17
+00:00:36,540 --> 00:00:40,590
+ <font color="#CCCCCC">我 </font><font color="#E5E5E5">只想给 </font><font color="#CCCCCC">一个玉米 </font><font color="#E5E5E5">命名 </font><font color="#CCCCCC">，他们就是 </font>
+
+18
+00:00:40,590 --> 00:00:42,120
+他们<font color="#E5E5E5">会做同样的事情 </font>
+
+19
+00:00:42,120 --> 00:00:45,829
+ <font color="#E5E5E5">打印出来打印一个数字 </font>
+
+20
+00:00:45,829 --> 00:00:50,750
+并制作另一个叫做软糖的功能
+
+21
+00:00:50,750 --> 00:00:53,520
+功能名称<font color="#E5E5E5">或功能 </font>
+
+22
+00:00:53,520 --> 00:00:56,579
+名字<font color="#CCCCCC">并不 </font><font color="#E5E5E5">重要，这是 </font>
+
+23
+00:00:56,579 --> 00:01:00,570
+ <font color="#E5E5E5">现在在他们下面打印一个 </font>
+
+24
+00:01:00,570 --> 00:01:04,938
+让我们把<font color="#CCCCCC">它们都称为玉米和玉米 </font>
+
+25
+00:01:04,938 --> 00:01:10,409
+ fudge <font color="#CCCCCC">好吧这么简单的 </font><font color="#E5E5E5">程序 </font>
+
+26
+00:01:10,409 --> 00:01:13,470
+现在<font color="#CCCCCC">，每当你运行它我们都可以 </font>
+
+27
+00:01:13,470 --> 00:01:16,259
+ <font color="#E5E5E5">看到他们 </font><font color="#CCCCCC">都打印出他们的号码 </font>
+
+28
+00:01:16,259 --> 00:01:19,920
+既正常工作<font color="#CCCCCC">做</font><font color="#E5E5E5">的</font><font color="#CCCCCC">第一条规则 </font>
+
+29
+00:01:19,920 --> 00:01:22,710
+ <font color="#CCCCCC">你的职能是什么变量</font>
+
+30
+00:01:22,710 --> 00:01:25,409
+允许使用的<font color="#E5E5E5">是这个变量 </font>
+
+31
+00:01:25,409 --> 00:01:27,840
+ <font color="#CCCCCC">在函数 </font><font color="#E5E5E5">外部创建 </font>
+
+32
+00:01:27,840 --> 00:01:31,470
+在<font color="#CCCCCC">它上面你的功能可以访问它 </font>
+
+33
+00:01:31,470 --> 00:01:35,189
+变量<font color="#CCCCCC">因此可以访问a和this </font>
+
+34
+00:01:35,189 --> 00:01:39,299
+也可以<font color="#CCCCCC">访问一个为什么我甚至 </font>
+
+35
+00:01:39,299 --> 00:01:41,520
+ <font color="#CCCCCC">制作本教程就是因为这个原因 </font>
+
+36
+00:01:41,520 --> 00:01:45,149
+问题<font color="#E5E5E5">说这个变量是创建的 </font>
+
+37
+00:01:45,149 --> 00:01:49,850
+里面的<font color="#CCCCCC">玉米让我收紧了一点 </font>
+
+38
+00:01:49,850 --> 00:01:52,439
+ <font color="#E5E5E5">所以现在我们已经看到 </font><font color="#CCCCCC">我们有一个 </font>
+
+39
+00:01:52,439 --> 00:01:54,149
+错误就<font color="#CCCCCC">在这里设置未解决 </font>
+
+40
+00:01:54,149 --> 00:01:56,490
+参考，实际上如果我们试图<font color="#E5E5E5">运行 </font>
+
+41
+00:01:56,490 --> 00:01:59,189
+ <font color="#E5E5E5">我们得到这个小错误信息 </font>
+
+42
+00:01:59,189 --> 00:02:02,399
+ <font color="#E5E5E5">这里</font><font color="#CCCCCC">因此</font><font color="#E5E5E5">其他 行我</font><font color="#CCCCCC">想 </font>
+
+43
+00:02:02,399 --> 00:02:04,860
+比如说每当创建一个变量时
+
+44
+00:02:04,860 --> 00:02:08,128
+ <font color="#CCCCCC">在函数内 </font><font color="#E5E5E5">只有那个函数 </font>
+
+45
+00:02:08,128 --> 00:02:11,038
+ <font color="#CCCCCC">创建 </font><font color="#E5E5E5">它 </font><font color="#CCCCCC">可以再次访问它 </font>
+
+46
+00:02:11,038 --> 00:02:13,710
+因为这<font color="#E5E5E5">里面创建了一个变量</font>
+
+47
+00:02:13,710 --> 00:02:17,370
+ <font color="#CCCCCC">ORN </font><font color="#E5E5E5">只有玉米可以使用它，如果是的话 </font>
+
+48
+00:02:17,370 --> 00:02:20,550
+ <font color="#E5E5E5">他们中的任何一个人都可以使用它 </font>
+
+49
+00:02:20,550 --> 00:02:23,460
+ <font color="#CCCCCC">因为它是 </font><font color="#E5E5E5">在玉米里面 </font><font color="#CCCCCC">创造的 </font>
+
+50
+00:02:23,460 --> 00:02:25,920
+变量现在属于<font color="#E5E5E5">玉米和玉米 </font>
+
+51
+00:02:25,920 --> 00:02:27,450
+很自私， <font color="#E5E5E5">因为它不会让 </font>
+
+52
+00:02:27,450 --> 00:02:30,720
+任何其他<font color="#E5E5E5">功能 再次 </font><font color="#CCCCCC">使用它 </font>
+
+53
+00:02:30,720 --> 00:02:32,340
+ <font color="#CCCCCC">这就是我们在这里得到这个错误的原因 </font>
+
+54
+00:02:32,340 --> 00:02:35,990
+每当<font color="#E5E5E5">你运行它我们看到 </font><font color="#CCCCCC">它打印 </font>
+
+55
+00:02:35,990 --> 00:02:38,760
+这个数字出来了<font color="#CCCCCC">玉米印 </font><font color="#E5E5E5">， </font><font color="#CCCCCC">我会 </font>
+
+56
+00:02:38,760 --> 00:02:42,810
+ <font color="#E5E5E5">找到，但软糖 </font><font color="#CCCCCC">不是那样 </font><font color="#E5E5E5">的 </font>
+
+57
+00:02:42,810 --> 00:02:45,300
+真的很<font color="#E5E5E5">简单的 </font><font color="#CCCCCC">图们解释 </font>
+
+58
+00:02:45,300 --> 00:02:48,660
+可变范围<font color="#E5E5E5">，很有希望 </font><font color="#CCCCCC">你 </font>
+
+59
+00:02:48,660 --> 00:02:51,330
+伙计们了解<font color="#CCCCCC">我所知道的 </font><font color="#E5E5E5">基本规则 </font>
+
+60
+00:02:51,330 --> 00:02:54,120
+这个<font color="#E5E5E5">呃，让我 </font><font color="#CCCCCC">觉得 </font><font color="#E5E5E5">有 </font>
+
+61
+00:02:54,120 --> 00:02:55,230
+ <font color="#CCCCCC">别的什么 </font><font color="#E5E5E5">我 </font><font color="#CCCCCC">可以教你 </font><font color="#E5E5E5">真实 </font>
+
+62
+00:02:55,230 --> 00:02:58,080
+快速<font color="#E5E5E5">没事 </font><font color="#CCCCCC">哦， </font><font color="#E5E5E5">我想教你 </font>
+
+63
+00:02:58,080 --> 00:02:59,880
+ <font color="#CCCCCC">关于像关键字参数家伙 </font><font color="#E5E5E5">， </font>
+
+64
+00:02:59,880 --> 00:03:02,700
+ <font color="#E5E5E5">这个东西叫做um unknown </font>
+
+65
+00:03:02,700 --> 00:03:03,840
+争论，但<font color="#CCCCCC">它会 </font><font color="#E5E5E5">采取一个 </font>
+
+66
+00:03:03,840 --> 00:03:05,160
+很少<font color="#E5E5E5">， </font><font color="#CCCCCC">所以我会保存它 </font>
+
+67
+00:03:05,160 --> 00:03:06,870
+ <font color="#CCCCCC">下一个视频，但无论如何感谢 </font>
+
+68
+00:03:06,870 --> 00:00:00,000
+ <font color="#CCCCCC">看着 </font><font color="#E5E5E5">下次见 </font>
+

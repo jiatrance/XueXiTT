@@ -1,0 +1,367 @@
+1
+00:00:00,060 --> 00:00:04,200
+okay so everyone on Bucky's room was
+telling me that my font was too small so
+
+2
+00:00:04,200 --> 00:00:09,809
+this is my new font hopefully it isn't
+too big it's kind of big when I'm just
+you know kind of like looking at on the
+
+3
+00:00:11,219 --> 00:00:15,839
+screen but hopefully um I think a lot of
+you guys had smaller resolution monitors
+
+4
+00:00:15,839 --> 00:00:19,830
+so even when you stretch it out to 1080
+the video was still kind of small so
+hopefully um that's a good size if it's
+
+5
+00:00:22,140 --> 00:00:25,740
+not then just leave a comment and I'll
+read them and adjust it appropriately
+but anyways in this video I'm going to
+
+6
+00:00:28,230 --> 00:00:33,210
+show you how to read and write files so
+what I'm going to do is I'm going to be
+
+7
+00:00:33,210 --> 00:00:37,590
+creating a file first and then I'll show
+you guys how to read from it so to
+
+8
+00:00:37,590 --> 00:00:42,329
+create a file the first thing we need is
+a file object again just name it any
+
+9
+00:00:42,329 --> 00:00:49,559
+variable I'm going to name it fw4 file
+right in other words file create so what
+
+10
+00:00:49,559 --> 00:00:55,199
+you do is you set this equal to this
+function open and what this is going to
+
+11
+00:00:55,199 --> 00:01:00,420
+do is it's going to open a file or
+pretty much prepare a file to be created
+
+12
+00:01:00,420 --> 00:01:05,129
+or written so the first parameter it
+takes is the name of the file what do
+
+13
+00:01:05,129 --> 00:01:08,659
+you want to name this file that you're
+creating well I'll just name it sample
+
+14
+00:01:08,659 --> 00:01:15,509
+text will create a very simple text file
+now the next parameter after this it's
+
+15
+00:01:15,509 --> 00:01:18,540
+going to take a couple different
+characters if you watch my seed
+
+16
+00:01:18,540 --> 00:01:23,159
+tutorials then you guys are already
+familiar with all these but for this
+
+17
+00:01:23,159 --> 00:01:28,439
+tutorial I'm going to show you guys W in
+are the first one is w which means open
+a file and write to it so since this
+
+18
+00:01:31,619 --> 00:01:35,220
+file isn't created yet it's going to
+open it and create it and what right
+
+19
+00:01:35,220 --> 00:01:41,490
+means is it prepares us to write text to
+it so of course it's a text file let's
+
+20
+00:01:41,490 --> 00:01:45,960
+add some text to it now any time you
+actually work with a file the first
+
+21
+00:01:45,960 --> 00:01:51,329
+thing you do is use your file object
+mine's named FW and then you write what
+
+22
+00:01:51,329 --> 00:01:55,770
+do you want to do with that file well
+there are a couple different functions
+
+23
+00:01:55,770 --> 00:02:01,619
+as you can see but what we're going to
+do is just write to it basically um it's
+
+24
+00:02:01,619 --> 00:02:06,450
+like the equivalent of typing on it
+simple enough and of course what do you
+
+25
+00:02:06,450 --> 00:02:13,319
+want to write so writing some stuff in
+text file and also what you can do just
+like whenever you print out string you
+
+26
+00:02:15,300 --> 00:02:19,590
+can use a special character backslash N
+and that will move to a new line on your
+
+27
+00:02:19,590 --> 00:02:24,090
+file pretty sweet so now since we're on
+a new line we'll go ahead and write
+
+28
+00:02:24,090 --> 00:02:30,180
+something else FW which is our file
+sample.txt and write something else on
+
+29
+00:02:30,180 --> 00:02:42,480
+this line and we'll just write like I
+like can you type Bucky bacon and
+actually we could just put this all on
+
+30
+00:02:44,209 --> 00:02:49,380
+one line but I just wanted to
+demonstrate that I don't know this is
+
+31
+00:02:49,380 --> 00:02:55,140
+just a cool way to do it all right
+so whenever we're done working with a
+
+32
+00:02:55,140 --> 00:03:02,430
+file what we need to do is we need to
+close our file object so FW close now
+
+33
+00:03:02,430 --> 00:03:06,540
+this doesn't take any parameters what it
+does is it basically just frees up on
+the extra memory so you aren't wasting
+
+34
+00:03:08,280 --> 00:03:13,110
+it so this object just isn't sitting
+around in your computer so now as you
+
+35
+00:03:13,110 --> 00:03:17,700
+can see oh yeah by the way I deleted
+that image from the last store oh just
+because I don't know it was making some
+
+36
+00:03:19,260 --> 00:03:25,350
+clutter so right now whenever we create
+this file by running this program you're
+
+37
+00:03:25,350 --> 00:03:30,060
+going to see a new file appear right
+here so keep your eye on this whenever I
+
+38
+00:03:30,060 --> 00:03:36,359
+run this see that how it just popped up
+now let's double click it to check it
+
+39
+00:03:36,359 --> 00:03:43,440
+out so what it did is it wrote this line
+first and then this line and then a bump
+
+40
+00:03:43,440 --> 00:03:50,549
+down to a new line pretty sweet so that
+is how you create files and Python so
+
+41
+00:03:50,549 --> 00:03:54,030
+now that we know how to write files or
+create them let me show you how to read
+
+42
+00:03:54,030 --> 00:04:02,069
+them so in order to read a file you of
+course need another file object and I'm
+
+43
+00:04:02,069 --> 00:04:05,910
+just going to name this one fr4 file
+read you can actually name anything you
+
+44
+00:04:05,910 --> 00:04:11,310
+want but FR is just easy for me to
+remember now again this is just object
+
+45
+00:04:11,310 --> 00:04:15,810
+that pretty much represents a file so we
+need to open some file and this is going
+
+46
+00:04:15,810 --> 00:04:20,549
+to look familiar
+we'll open sample dot txt so this pretty
+
+47
+00:04:20,548 --> 00:04:23,580
+much says okay
+we're working with this file
+
+48
+00:04:23,580 --> 00:04:27,270
+then we need to tell Python what we want
+to do with it well we want to read it
+
+49
+00:04:27,270 --> 00:04:31,500
+we're not creating anything we just want
+to read data from it so the character
+
+50
+00:04:31,500 --> 00:04:40,680
+for that is our so now whenever we read
+all of this data we need somewhere to
+
+51
+00:04:40,680 --> 00:04:44,879
+store it because we can't just work with
+it directly in Python so we need a
+
+52
+00:04:44,879 --> 00:04:49,259
+variable to store that entire string so
+I'm going to store in a variable called
+
+53
+00:04:49,259 --> 00:04:54,330
+text and just think of this like a
+normal string variable so what you do is
+make a variable and set it equal to Fr
+
+54
+00:04:56,539 --> 00:05:04,229
+dot read and what this is going to do is
+essentially go to your file read all of
+
+55
+00:05:04,229 --> 00:05:09,509
+the crap in it and store it in this
+variable called text so now we can just
+
+56
+00:05:09,509 --> 00:05:14,250
+do anything the text that we would with
+string variables such as print text or
+
+57
+00:05:14,250 --> 00:05:17,789
+anything else
+so whenever we do this it's going to
+
+58
+00:05:17,789 --> 00:05:21,389
+print out the contents of this file on
+the screen and of course when we're done
+
+59
+00:05:21,389 --> 00:05:29,909
+remember to close it close and that just
+closes the file object so now if we read
+
+60
+00:05:29,909 --> 00:05:36,800
+this check it out in this first little
+chunk of code we actually created it and
+
+61
+00:05:36,800 --> 00:05:42,979
+then this next one we read the
+information that was in it the text all
+
+62
+00:05:42,979 --> 00:05:47,879
+this stuff and then we just took it
+stored it in a variable and printed it
+
+63
+00:05:47,879 --> 00:05:52,199
+out on the screen and of course just to
+be nice to our computer we closed it
+
+64
+00:05:52,199 --> 00:05:57,569
+gave its back memory so simple enough
+that is how you read and write files and
+
+65
+00:05:57,569 --> 00:06:02,430
+in the next video what I'm going to show
+you guys how to do is actually read a
+
+66
+00:06:02,430 --> 00:06:07,050
+text file from somewhere on the Internet
+and this is actually cool whenever
+
+67
+00:06:07,050 --> 00:06:10,500
+you're like making a bot or web crawler
+and you want to crawl a bunch of
+
+68
+00:06:10,500 --> 00:06:14,370
+webpages get the links in storm in a
+text file I'll show you guys have to do
+
+69
+00:06:14,370 --> 00:06:18,539
+that it's like a really simple version
+of we're going to be making like a
+
+70
+00:06:18,539 --> 00:06:22,589
+really simple version of Google
+eventually and I mean really simple not
+
+71
+00:06:22,589 --> 00:06:25,979
+anywhere that complex but anyways I'll
+stop rambling now I'll see you guys
+
+72
+00:06:25,979 --> 00:06:28,039
+later

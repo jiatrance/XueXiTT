@@ -1,0 +1,700 @@
+1
+00:00:00,030 --> 00:00:02,190
+ <font color="#E5E5E5">已经欢迎回到家里了 </font>
+
+2
+00:00:02,190 --> 00:00:03,870
+这个视频<font color="#CCCCCC">系列我要告诉你 </font>
+
+3
+00:00:03,870 --> 00:00:06,750
+ <font color="#E5E5E5">现在我如何制作Python网络抓取工具 </font>
+
+4
+00:00:06,750 --> 00:00:08,880
+实际上这<font color="#E5E5E5">是因为几个星期 </font>
+
+5
+00:00:08,880 --> 00:00:11,820
+ <font color="#CCCCCC">以前， </font><font color="#E5E5E5">我</font><font color="#CCCCCC">试图 让一个网站地图 </font><font color="#E5E5E5">的 </font>
+
+6
+00:00:11,820 --> 00:00:13,019
+我的网站<font color="#CCCCCC">，如果 </font><font color="#E5E5E5">你们不 </font><font color="#CCCCCC">知道 </font>
+
+7
+00:00:13,019 --> 00:00:15,630
+ <font color="#CCCCCC">什么 </font><font color="#E5E5E5">是站点地图，它基本上都是 </font>
+
+8
+00:00:15,630 --> 00:00:17,820
+链接或<font color="#E5E5E5">您网站上的所有页面</font>
+
+9
+00:00:17,820 --> 00:00:20,550
+ <font color="#CCCCCC">所以你需要制作一个程序来抓取 </font>
+
+10
+00:00:20,550 --> 00:00:22,289
+ <font color="#CCCCCC">你的整个网站，收集所有的 </font>
+
+11
+00:00:22,289 --> 00:00:24,689
+链接<font color="#E5E5E5">，我会搜索你的 </font><font color="#CCCCCC">非线路 </font>
+
+12
+00:00:24,689 --> 00:00:26,550
+一个免费的<font color="#CCCCCC">，并没有很多 </font>
+
+13
+00:00:26,550 --> 00:00:29,130
+ <font color="#E5E5E5">他们都喜欢的好自由的人 </font><font color="#CCCCCC">是有限的 </font>
+
+14
+00:00:29,130 --> 00:00:31,710
+喜欢50页<font color="#E5E5E5">或者什么 </font><font color="#CCCCCC">，然后 </font><font color="#E5E5E5">我 </font>
+
+15
+00:00:31,710 --> 00:00:33,180
+ <font color="#E5E5E5">就像是我 </font><font color="#CCCCCC">要买一个 </font>
+
+16
+00:00:33,180 --> 00:00:35,130
+和所有<font color="#CCCCCC">的 </font><font color="#E5E5E5">那些 </font><font color="#CCCCCC">， </font><font color="#E5E5E5">你可以买到我们的 </font>
+
+17
+00:00:35,130 --> 00:00:36,899
+像<font color="#CCCCCC">一年一百美元，我喜欢 </font>
+
+18
+00:00:36,899 --> 00:00:38,700
+我<font color="#CCCCCC">不 </font><font color="#E5E5E5">打算花一百块钱 </font>
+
+19
+00:00:38,700 --> 00:00:41,190
+一年<font color="#CCCCCC">的小机器人 </font><font color="#E5E5E5">即将 </font><font color="#CCCCCC">到来 </font>
+
+20
+00:00:41,190 --> 00:00:43,770
+采取像<font color="#CCCCCC">十分钟，这样 </font><font color="#E5E5E5">是 </font><font color="#CCCCCC">运行 </font>
+
+21
+00:00:43,770 --> 00:00:46,649
+我的第一个<font color="#CCCCCC">动机，但 </font><font color="#E5E5E5">我很懒， </font><font color="#CCCCCC">我 </font>
+
+22
+00:00:46,649 --> 00:00:49,140
+没有这样做<font color="#E5E5E5">哦我的上帝然后我有一个喜欢 </font>
+
+23
+00:00:49,140 --> 00:00:51,600
+编程这个爬虫<font color="#E5E5E5">，然后几天 </font>
+
+24
+00:00:51,600 --> 00:00:53,699
+ <font color="#E5E5E5">以前， </font><font color="#CCCCCC">我一直在寻找通过我的网站 </font><font color="#E5E5E5">， </font>
+
+25
+00:00:53,699 --> 00:00:55,649
+我很喜欢你知道<font color="#E5E5E5">这意味着什么</font>
+
+26
+00:00:55,649 --> 00:00:58,079
+真的<font color="#E5E5E5">很酷，如果你可以喜欢 </font>
+
+27
+00:00:58,079 --> 00:01:01,260
+ <font color="#E5E5E5">您自己的开源搜索引擎 </font>
+
+28
+00:01:01,260 --> 00:01:03,690
+ <font color="#E5E5E5">网站，我知道你可以继续 </font>
+
+29
+00:01:03,690 --> 00:01:05,369
+并<font color="#CCCCCC">添加像谷歌自定义搜索 </font>
+
+30
+00:01:05,369 --> 00:01:07,290
+每当你有一个网站， <font color="#E5E5E5">你想 </font>
+
+31
+00:01:07,290 --> 00:01:10,080
+添加一些搜索但谷歌<font color="#E5E5E5">自定义 </font>
+
+32
+00:01:10,080 --> 00:01:11,760
+ <font color="#E5E5E5">搜索 </font><font color="#CCCCCC">它并不是真的感觉 </font>
+
+33
+00:01:11,760 --> 00:01:14,369
+ <font color="#E5E5E5">这样的感觉很舒服</font>
+
+34
+00:01:14,369 --> 00:01:15,780
+喜欢与整个<font color="#CCCCCC">网站分开</font>
+
+35
+00:01:15,780 --> 00:01:18,450
+ <font color="#E5E5E5">所以我就像那个爬行者的男人 </font>
+
+36
+00:01:18,450 --> 00:01:19,979
+几个星期前，这<font color="#E5E5E5">将是 </font>
+
+37
+00:01:19,979 --> 00:01:22,530
+一个非常好的所有这个程序
+
+38
+00:01:22,530 --> 00:01:24,119
+将<font color="#E5E5E5">在这个视频系列中做的是 </font>
+
+39
+00:01:24,119 --> 00:01:26,159
+ <font color="#E5E5E5">基本上要经历所有的 </font>
+
+40
+00:01:26,159 --> 00:01:28,200
+您网站上的页面<font color="#CCCCCC">并收集 </font><font color="#E5E5E5">所有内容 </font>
+
+41
+00:01:28,200 --> 00:01:30,450
+链接， <font color="#E5E5E5">所以你可以使用 </font><font color="#CCCCCC">它 </font>
+
+42
+00:01:30,450 --> 00:01:32,159
+一个<font color="#E5E5E5">站点地图，或者如果你正在 </font><font color="#CCCCCC">制作一个 </font>
+
+43
+00:01:32,159 --> 00:01:34,350
+自定义搜索引擎然后你可以去
+
+44
+00:01:34,350 --> 00:01:36,450
+提前<font color="#E5E5E5">并对 每个 进行 </font><font color="#CCCCCC">一些分析 </font>
+
+45
+00:01:36,450 --> 00:01:39,450
+ <font color="#E5E5E5">页面稍后，但这 </font><font color="#CCCCCC">是 </font><font color="#E5E5E5">一个核心 </font>
+
+46
+00:01:39,450 --> 00:01:41,939
+ <font color="#CCCCCC">很多程序 </font><font color="#E5E5E5">， </font><font color="#CCCCCC">这样 就是我的动力 </font>
+
+47
+00:01:41,939 --> 00:01:43,740
+ <font color="#E5E5E5">所以让我们继续 </font><font color="#CCCCCC">前进， </font><font color="#E5E5E5">开始 </font><font color="#CCCCCC">和 </font>
+
+48
+00:01:43,740 --> 00:01:45,720
+实际上， <font color="#E5E5E5">在我这样做之前，这是一个谎言 </font>
+
+49
+00:01:45,720 --> 00:01:47,130
+我们<font color="#E5E5E5">不会</font><font color="#CCCCCC">得到尚未开始 </font><font color="#E5E5E5">我 </font>
+
+50
+00:01:47,130 --> 00:01:50,149
+知道<font color="#E5E5E5">有一对夫妇 </font><font color="#CCCCCC">武装起来 </font>
+
+51
+00:01:50,149 --> 00:01:53,460
+ <font color="#CCCCCC">已经 </font><font color="#E5E5E5">在Python中的 </font><font color="#CCCCCC">模块 </font><font color="#E5E5E5">就是这样的 </font>
+
+52
+00:01:53,460 --> 00:01:55,170
+ <font color="#CCCCCC">我看过第一个，但 </font><font color="#E5E5E5">事实并非如此 </font>
+
+53
+00:01:55,170 --> 00:01:57,149
+ <font color="#CCCCCC">我认为甚至</font><font color="#E5E5E5">还支持Python 3 </font>
+
+54
+00:01:57,149 --> 00:01:59,610
+ <font color="#CCCCCC">它处于 </font><font color="#E5E5E5">测试阶段，这也是一点点 </font>
+
+55
+00:01:59,610 --> 00:02:01,619
+ <font color="#E5E5E5">与 </font><font color="#CCCCCC">我 </font><font color="#E5E5E5">试图做的不同 </font>
+
+56
+00:02:01,619 --> 00:02:05,070
+而且我知道<font color="#E5E5E5">beautifulsoup确实存在 </font>
+
+57
+00:02:05,070 --> 00:02:07,500
+ <font color="#E5E5E5">但这更像是一个解析器，所以在其他方面 </font>
+
+58
+00:02:07,500 --> 00:02:09,899
+一旦<font color="#E5E5E5">你有HTML，例如它 </font>
+
+59
+00:02:09,899 --> 00:02:11,730
+可以撕掉<font color="#E5E5E5">标题并告诉你 </font>
+
+60
+00:02:11,730 --> 00:02:13,349
+ <font color="#CCCCCC">哪些页面的标题</font><font color="#E5E5E5">是 </font>
+
+61
+00:02:13,349 --> 00:02:15,780
+你可能知道内容<font color="#E5E5E5">和所有内容</font>
+
+62
+00:02:15,780 --> 00:02:18,900
+ <font color="#E5E5E5">段落和诸如此类的东西，但又是我们 </font>
+
+63
+00:02:18,900 --> 00:02:20,459
+我们需要<font color="#E5E5E5">从基础开始 </font>
+
+64
+00:02:20,459 --> 00:02:22,739
+需要继续<font color="#E5E5E5">收集链接 </font>
+
+65
+00:02:22,739 --> 00:02:24,569
+在<font color="#E5E5E5">您开始之前为您的网站</font>
+
+66
+00:02:24,569 --> 00:02:27,319
+ <font color="#E5E5E5">在所有页面上 </font><font color="#CCCCCC">运行分析 </font>
+
+67
+00:02:27,319 --> 00:02:30,180
+我要做的是我准备好<font color="#E5E5E5">了 </font>
+
+68
+00:02:30,180 --> 00:02:31,829
+这<font color="#CCCCCC">就像我们要用这个一样 </font>
+
+69
+00:02:31,829 --> 00:02:33,269
+ <font color="#E5E5E5">次上</font><font color="#CCCCCC">一堆一堆</font><font color="#E5E5E5">不同 </font>
+
+70
+00:02:33,269 --> 00:02:35,609
+网站<font color="#CCCCCC">让我们说 </font><font color="#E5E5E5">我想 </font>
+
+71
+00:02:35,609 --> 00:02:37,409
+ <font color="#E5E5E5">在我的 </font><font color="#CCCCCC">网站和 </font><font color="#E5E5E5">我的 </font><font color="#CCCCCC">朋友的 网站 </font><font color="#E5E5E5">上 </font><font color="#CCCCCC">运行 </font>
+
+72
+00:02:37,409 --> 00:02:40,319
+网站和我<font color="#CCCCCC">叔叔的我需要 </font>
+
+73
+00:02:40,319 --> 00:02:43,040
+将每个人分成他们自己的
+
+74
+00:02:43,040 --> 00:02:45,689
+不同的项目或拥有自己的不同
+
+75
+00:02:45,689 --> 00:02:47,340
+文件夹<font color="#E5E5E5">，这就是我们要做的 </font>
+
+76
+00:02:47,340 --> 00:02:50,219
+我<font color="#CCCCCC">要做的就是我要去 </font>
+
+77
+00:02:50,219 --> 00:02:53,310
+首先添加一种<font color="#CCCCCC">可以输入的方式 </font>
+
+78
+00:02:53,310 --> 00:02:57,989
+像<font color="#CCCCCC">新波士顿这样的东西</font><font color="#E5E5E5">我怎么样 </font>
+
+79
+00:02:57,989 --> 00:03:00,239
+今天没<font color="#CCCCCC">打好， </font><font color="#E5E5E5">所以这就是 </font>
+
+80
+00:03:00,239 --> 00:03:02,669
+ <font color="#CCCCCC">项目的名称 </font><font color="#E5E5E5">然后我们 </font><font color="#CCCCCC">可以去 </font>
+
+81
+00:03:02,669 --> 00:03:06,060
+提前<font color="#E5E5E5">并给出这样的主页 </font>
+
+82
+00:03:06,060 --> 00:03:07,680
+再次，这<font color="#CCCCCC">不是 </font><font color="#E5E5E5">Python代码我只是 </font>
+
+83
+00:03:07,680 --> 00:03:09,239
+展示<font color="#CCCCCC">我们将 </font><font color="#E5E5E5">如何实现它 </font>
+
+84
+00:03:09,239 --> 00:03:11,340
+所以我们会说<font color="#CCCCCC">项目名称是好的 </font>
+
+85
+00:03:11,340 --> 00:03:12,930
+ <font color="#E5E5E5">新波士顿，这是你的家 </font>
+
+86
+00:03:12,930 --> 00:03:15,239
+页面<font color="#CCCCCC">所以它 </font><font color="#E5E5E5">会继续前进 </font>
+
+87
+00:03:15,239 --> 00:03:17,129
+ <font color="#E5E5E5">创建一个文件夹 </font><font color="#CCCCCC">并存储所有链接 </font>
+
+88
+00:03:17,129 --> 00:03:18,780
+在<font color="#CCCCCC">那个文件夹中，然后他们 </font><font color="#E5E5E5">没有得到 </font>
+
+89
+00:03:18,780 --> 00:03:20,069
+ <font color="#CCCCCC">如果你不这样，所有人都混在一起</font>
+
+90
+00:03:20,069 --> 00:03:21,509
+ <font color="#CCCCCC">明白我说的是 </font><font color="#E5E5E5">，我们将 </font>
+
+91
+00:03:21,509 --> 00:03:23,699
+检查出来<font color="#E5E5E5">，这 </font><font color="#CCCCCC">是我们 </font><font color="#E5E5E5">的第一 </font><font color="#CCCCCC">件事 </font>
+
+92
+00:03:23,699 --> 00:03:25,949
+ <font color="#E5E5E5">要做的是我们 </font><font color="#CCCCCC">要导入 </font><font color="#E5E5E5">操作系统 </font>
+
+93
+00:03:25,949 --> 00:03:28,829
+ <font color="#E5E5E5">而这实际上是想要善良 </font>
+
+94
+00:03:28,829 --> 00:03:30,329
+的保持<font color="#E5E5E5">， </font><font color="#CCCCCC">我</font><font color="#E5E5E5">喜欢 这样 </font><font color="#CCCCCC">的小 </font>
+
+95
+00:03:30,329 --> 00:03:34,259
+ <font color="#E5E5E5">事情 </font><font color="#CCCCCC">我不知道为什么 </font><font color="#E5E5E5">这么好 </font>
+
+96
+00:03:34,259 --> 00:03:36,019
+ <font color="#E5E5E5">只是</font><font color="#CCCCCC">要允许我们创建 </font>
+
+97
+00:03:36,019 --> 00:03:39,000
+目录， <font color="#E5E5E5">所以让我说 </font><font color="#CCCCCC">每个 </font>
+
+98
+00:03:39,000 --> 00:03:46,739
+ <font color="#E5E5E5">您抓取的 </font><font color="#CCCCCC">网站 </font><font color="#E5E5E5">是一个单独的项目 </font>
+
+99
+00:03:46,739 --> 00:03:52,019
+ <font color="#CCCCCC">再次 </font><font color="#E5E5E5">为此 </font><font color="#CCCCCC">项目 </font><font color="#E5E5E5">文件 </font>
+
+100
+00:03:52,019 --> 00:03:53,970
+它<font color="#E5E5E5">不会是一个特别 </font><font color="#CCCCCC">的新事物 </font>
+
+101
+00:03:53,970 --> 00:03:56,250
+文件夹等于一个<font color="#CCCCCC">简单的新项目</font>
+
+102
+00:03:56,250 --> 00:03:58,229
+ <font color="#CCCCCC">那 </font><font color="#E5E5E5">所以我们就调用这个函数 </font>
+
+103
+00:03:58,229 --> 00:04:04,250
+ <font color="#E5E5E5">def伟大的项目目录，然后 </font>
+
+104
+00:04:04,250 --> 00:04:06,870
+我们将它命名为目录不要使用
+
+105
+00:04:06,870 --> 00:04:09,870
+关键字dir因为dir已经是了
+
+106
+00:04:09,870 --> 00:04:12,629
+ <font color="#E5E5E5">内置Python关键字，所以不要 </font><font color="#CCCCCC">撤消 </font>
+
+107
+00:04:12,629 --> 00:04:13,919
+这<font color="#E5E5E5">实际上让我摆脱了这一点 </font>
+
+108
+00:04:13,919 --> 00:04:17,699
+ <font color="#CCCCCC">毕竟 </font><font color="#E5E5E5">没事，所以很酷的事情 </font>
+
+109
+00:04:17,699 --> 00:04:19,738
+ <font color="#CCCCCC">关于 </font><font color="#E5E5E5">这个程序，我的方式是 </font>
+
+110
+00:04:19,738 --> 00:04:23,550
+我<font color="#E5E5E5">会</font><font color="#CCCCCC">说</font><font color="#E5E5E5">那就去 开始 </font>
+
+111
+00:04:23,550 --> 00:04:26,520
+ <font color="#CCCCCC">每当我们为该项目创建项目时 </font>
+
+112
+00:04:26,520 --> 00:04:28,710
+第<font color="#E5E5E5">一次 </font><font color="#CCCCCC">为我们 </font><font color="#E5E5E5">创建新 </font><font color="#CCCCCC">文件夹 </font>
+
+113
+00:04:28,710 --> 00:04:31,169
+并开始抓取网站
+
+114
+00:04:31,169 --> 00:04:33,840
+现在让我们说你的电脑关机了
+
+115
+00:04:33,840 --> 00:04:35,969
+ <font color="#CCCCCC">也许 </font><font color="#E5E5E5">我知道你的电器失败了 </font>
+
+116
+00:04:35,969 --> 00:04:37,889
+或者<font color="#CCCCCC">你需要 </font><font color="#E5E5E5">放的东西 </font>
+
+117
+00:04:37,889 --> 00:04:39,599
+ <font color="#E5E5E5">你的电脑睡觉或回家 </font>
+
+118
+00:04:39,599 --> 00:04:41,430
+工作或<font color="#E5E5E5">你不想去的东西 </font>
+
+119
+00:04:41,430 --> 00:04:43,919
+提前<font color="#E5E5E5">并摆脱所有 </font><font color="#CCCCCC">数据 </font><font color="#E5E5E5">让我们 </font>
+
+120
+00:04:43,919 --> 00:04:46,020
+ <font color="#E5E5E5">说它有 </font><font color="#CCCCCC">50％完成 </font><font color="#E5E5E5">爬行 </font>
+
+121
+00:04:46,020 --> 00:04:47,909
+ <font color="#E5E5E5">你实际上 </font><font color="#CCCCCC">想要保存它 </font>
+
+122
+00:04:47,909 --> 00:04:51,449
+我要做的就是你<font color="#E5E5E5">跑步的时候 </font>
+
+123
+00:04:51,449 --> 00:04:53,909
+ <font color="#E5E5E5">如果那个目录已经这样了 </font>
+
+124
+00:04:53,909 --> 00:04:55,830
+如果该项目<font color="#CCCCCC">已存在则存在 </font>
+
+125
+00:04:55,830 --> 00:04:57,150
+ <font color="#CCCCCC">我们 </font><font color="#E5E5E5">不会继续 </font><font color="#CCCCCC">创造 </font>
+
+126
+00:04:57,150 --> 00:04:58,919
+ <font color="#CCCCCC">再次 </font><font color="#E5E5E5">，我们只是 </font><font color="#CCCCCC">要 </font><font color="#E5E5E5">只 </font><font color="#CCCCCC">说OK </font>
+
+127
+00:04:58,919 --> 00:05:00,960
+ <font color="#E5E5E5">如果它不存在则 </font><font color="#CCCCCC">创建 </font><font color="#E5E5E5">它 </font>
+
+128
+00:05:00,960 --> 00:05:07,199
+ <font color="#CCCCCC">所以我们会说如果 </font><font color="#E5E5E5">不存在OS点路径 </font>
+
+129
+00:05:07,199 --> 00:05:10,740
+ <font color="#E5E5E5">我们会看到这是正确的道路 </font>
+
+130
+00:05:10,740 --> 00:05:13,139
+ <font color="#CCCCCC">这里 </font><font color="#E5E5E5">又 </font><font color="#CCCCCC">是文件夹名称 </font>
+
+131
+00:05:13,139 --> 00:05:17,339
+基本上只是<font color="#CCCCCC">路径 </font><font color="#E5E5E5">才这样做 </font>
+
+132
+00:05:17,339 --> 00:05:18,719
+我们<font color="#E5E5E5">想创建 </font><font color="#CCCCCC">一个 </font><font color="#E5E5E5">文件夹，所以我只是 </font>
+
+133
+00:05:18,719 --> 00:05:19,979
+打算<font color="#CCCCCC">写一个小提示 </font><font color="#E5E5E5">，以便 </font>
+
+134
+00:05:19,979 --> 00:05:21,479
+每当他们运行这个用户都知道
+
+135
+00:05:21,479 --> 00:05:25,430
+发生了什么<font color="#E5E5E5">我会说创造 </font>
+
+136
+00:05:25,430 --> 00:05:30,630
+目录，然后我会<font color="#E5E5E5">打印 </font><font color="#CCCCCC">出来的 </font>
+
+137
+00:05:30,630 --> 00:05:33,270
+名字， <font color="#E5E5E5">所以我的项目名称将是 </font>
+
+138
+00:05:33,270 --> 00:05:34,860
+ <font color="#CCCCCC">每当我跑 </font><font color="#E5E5E5">这个 </font><font color="#CCCCCC">时 ， 新的波士顿 </font>
+
+139
+00:05:34,860 --> 00:05:36,240
+ <font color="#E5E5E5">这是第 </font><font color="#CCCCCC">一次说 </font>
+
+140
+00:05:36,240 --> 00:05:38,159
+创建目录实际上<font color="#E5E5E5">让我说 </font>
+
+141
+00:05:38,159 --> 00:05:41,010
+创建项目<font color="#E5E5E5">，会一</font><font color="#CCCCCC">点点 </font>
+
+142
+00:05:41,010 --> 00:05:43,710
+ <font color="#E5E5E5">冷却器a然后我们如何实际 </font>
+
+143
+00:05:43,710 --> 00:05:45,690
+ <font color="#CCCCCC">做得好，这是最简单的事情 </font>
+
+144
+00:05:45,690 --> 00:05:51,900
+ <font color="#E5E5E5">操作系统制作目录，你只需要传入 </font>
+
+145
+00:05:51,900 --> 00:05:55,500
+目录名称<font color="#E5E5E5">就在那里让我 </font>
+
+146
+00:05:55,500 --> 00:05:56,940
+继续<font color="#E5E5E5">现在运行这个给你看 </font>
+
+147
+00:05:56,940 --> 00:06:04,240
+ <font color="#E5E5E5">伙计们发生了什么事 </font>
+
+148
+00:06:04,240 --> 00:06:07,760
+所以看看<font color="#E5E5E5">这个，你看看这是怎么 </font><font color="#CCCCCC">加载的 </font>
+
+149
+00:06:07,760 --> 00:06:09,770
+目录没有任何文件夹或
+
+150
+00:06:09,770 --> 00:06:11,780
+什么<font color="#E5E5E5">，它 </font><font color="#CCCCCC">只是主要的 </font><font color="#E5E5E5">py </font>
+
+151
+00:06:11,780 --> 00:06:13,850
+文件我的工作<font color="#E5E5E5">， </font><font color="#CCCCCC">现在这样 </font>
+
+152
+00:06:13,850 --> 00:06:16,910
+每当<font color="#E5E5E5">我运行这段代码 </font><font color="#CCCCCC">是什么 </font>
+
+153
+00:06:16,910 --> 00:06:18,860
+它<font color="#E5E5E5">要做到这一点会 </font><font color="#CCCCCC">说 </font>
+
+154
+00:06:18,860 --> 00:06:21,830
+ <font color="#CCCCCC">好吧创建项目 </font><font color="#E5E5E5">新波士顿 </font><font color="#CCCCCC">和 </font>
+
+155
+00:06:21,830 --> 00:06:24,020
+看看<font color="#E5E5E5">我们现在有一个名为的文件夹 </font>
+
+156
+00:06:24,020 --> 00:06:26,000
+新波士顿<font color="#CCCCCC">现在让我继续 </font><font color="#E5E5E5">前进 </font>
+
+157
+00:06:26,000 --> 00:06:28,130
+ <font color="#E5E5E5">再次运行 </font><font color="#CCCCCC">这样说 </font><font color="#E5E5E5">我们有一些 </font>
+
+158
+00:06:28,130 --> 00:06:29,570
+ <font color="#E5E5E5">这里的数据我们将继续进行 </font>
+
+159
+00:06:29,570 --> 00:06:31,820
+ <font color="#CCCCCC">再次运行</font><font color="#E5E5E5">你看它怎么没说 </font>
+
+160
+00:06:31,820 --> 00:06:34,520
+ <font color="#E5E5E5">在 </font><font color="#CCCCCC">新波士顿创建项目是 </font>
+
+161
+00:06:34,520 --> 00:06:36,830
+因为它已经创造了它<font color="#CCCCCC">，使 </font>
+
+162
+00:06:36,830 --> 00:06:38,540
+它不会<font color="#E5E5E5">覆盖我们所有的方式 </font>
+
+163
+00:06:38,540 --> 00:06:40,730
+多汁的文件<font color="#E5E5E5">，也是我要去的一件事 </font>
+
+164
+00:06:40,730 --> 00:06:42,080
+ <font color="#E5E5E5">我要做的就是 </font><font color="#CCCCCC">改变 </font><font color="#E5E5E5">它 </font>
+
+165
+00:06:42,080 --> 00:06:49,010
+ <font color="#E5E5E5">一般因为这个一般文件 </font><font color="#CCCCCC">我 </font>
+
+166
+00:06:49,010 --> 00:06:50,420
+只是要<font color="#E5E5E5">分享很多东西</font>
+
+167
+00:06:50,420 --> 00:06:53,030
+函数在<font color="#CCCCCC">这里和主点py </font>
+
+168
+00:06:53,030 --> 00:06:54,680
+ <font color="#E5E5E5">文件是</font><font color="#CCCCCC">种 </font><font color="#E5E5E5">将成为 </font>
+
+169
+00:06:54,680 --> 00:06:57,380
+ <font color="#E5E5E5">我们整个计划的起点如此 </font>
+
+170
+00:06:57,380 --> 00:06:58,760
+我<font color="#E5E5E5">不只是 </font><font color="#CCCCCC">不 </font><font color="#E5E5E5">希望这些流行 </font>
+
+171
+00:06:58,760 --> 00:07:01,970
+就<font color="#CCCCCC">在那里，这又是 </font><font color="#E5E5E5">我们的 </font>
+
+172
+00:07:01,970 --> 00:07:03,380
+项目<font color="#CCCCCC">将 </font><font color="#E5E5E5">被设置，这是什么 </font>
+
+173
+00:07:03,380 --> 00:07:05,290
+我们正在做<font color="#E5E5E5">这个 </font><font color="#CCCCCC">视频系列和 </font>
+
+174
+00:07:05,290 --> 00:07:08,300
+是的<font color="#E5E5E5">，这就是 </font><font color="#CCCCCC">我想说 </font><font color="#E5E5E5">的全部 </font>
+
+175
+00:07:08,300 --> 00:00:00,000
+我以后会闻到<font color="#E5E5E5">你们的味道</font>
+

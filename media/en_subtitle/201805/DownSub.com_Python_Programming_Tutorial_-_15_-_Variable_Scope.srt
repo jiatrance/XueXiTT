@@ -1,0 +1,272 @@
+1
+00:00:00,060 --> 00:00:02,520
+<font color="#CCCCCC">alright guys in this video</font><font color="#E5E5E5"> I want to</font>
+
+2
+00:00:02,520 --> 00:00:04,560
+talk to you about variable scope because
+
+3
+00:00:04,560 --> 00:00:06,540
+<font color="#E5E5E5">whenever a lot of people are starting</font>
+
+4
+00:00:06,540 --> 00:00:09,240
+<font color="#CCCCCC">out with</font><font color="#E5E5E5"> Python functions specifically</font>
+
+5
+00:00:09,240 --> 00:00:12,230
+they<font color="#CCCCCC"> have a little</font><font color="#E5E5E5"> trouble understanding</font>
+
+6
+00:00:12,230 --> 00:00:14,610
+<font color="#E5E5E5">what variables</font><font color="#CCCCCC"> you're allowed</font><font color="#E5E5E5"> to use</font>
+
+7
+00:00:14,610 --> 00:00:17,070
+<font color="#CCCCCC">where</font><font color="#E5E5E5"> so I'm going to show you guys the</font>
+
+8
+00:00:17,070 --> 00:00:19,439
+very basic rules of variable scope<font color="#E5E5E5"> it's</font>
+
+9
+00:00:19,439 --> 00:00:20,820
+going to be really easy<font color="#CCCCCC"> and save you</font>
+
+10
+00:00:20,820 --> 00:00:23,010
+guys a lot<font color="#CCCCCC"> of trouble so let's make a</font>
+
+11
+00:00:23,010 --> 00:00:25,590
+simple<font color="#CCCCCC"> variable called a and set it</font>
+
+12
+00:00:25,590 --> 00:00:27,359
+equal to<font color="#E5E5E5"> I don't know any number you</font>
+
+13
+00:00:27,359 --> 00:00:28,740
+want<font color="#E5E5E5"> it set equal to anything you want</font>
+
+14
+00:00:28,740 --> 00:00:32,009
+<font color="#E5E5E5">number string who cares so now I want to</font>
+
+15
+00:00:32,009 --> 00:00:35,010
+show you<font color="#CCCCCC"> guys two functions</font><font color="#E5E5E5"> you pretty</font>
+
+16
+00:00:35,010 --> 00:00:36,540
+<font color="#E5E5E5">much have to make any two functions you</font>
+
+17
+00:00:36,540 --> 00:00:40,590
+want<font color="#CCCCCC"> I'll</font><font color="#E5E5E5"> just name</font><font color="#CCCCCC"> one corn and they're</font>
+
+18
+00:00:40,590 --> 00:00:42,120
+going<font color="#E5E5E5"> to do the same exact thing they're</font>
+
+19
+00:00:42,120 --> 00:00:45,829
+going<font color="#E5E5E5"> to print a so print out a number</font>
+
+20
+00:00:45,829 --> 00:00:50,750
+and make another function called fudge
+
+21
+00:00:50,750 --> 00:00:53,520
+again the functions name<font color="#E5E5E5"> or the function</font>
+
+22
+00:00:53,520 --> 00:00:56,579
+names<font color="#CCCCCC"> don't</font><font color="#E5E5E5"> really matter and this is</font>
+
+23
+00:00:56,579 --> 00:01:00,570
+<font color="#E5E5E5">going to print a as well now below them</font>
+
+24
+00:01:00,570 --> 00:01:04,938
+let's call both<font color="#CCCCCC"> of them so corn and</font>
+
+25
+00:01:04,938 --> 00:01:10,409
+fudge<font color="#CCCCCC"> alright so pretty simple</font><font color="#E5E5E5"> program</font>
+
+26
+00:01:10,409 --> 00:01:13,470
+right now<font color="#CCCCCC"> and whenever you run it we can</font>
+
+27
+00:01:13,470 --> 00:01:16,259
+<font color="#E5E5E5">see they</font><font color="#CCCCCC"> both print out the number they</font>
+
+28
+00:01:16,259 --> 00:01:19,920
+both work properly<font color="#CCCCCC"> so the first rule</font><font color="#E5E5E5"> of</font>
+
+29
+00:01:19,920 --> 00:01:22,710
+what variables<font color="#CCCCCC"> your functions are</font>
+
+30
+00:01:22,710 --> 00:01:25,409
+allowed to use<font color="#E5E5E5"> is this if the variable</font>
+
+31
+00:01:25,409 --> 00:01:27,840
+is<font color="#E5E5E5"> created outside</font><font color="#CCCCCC"> the function and</font>
+
+32
+00:01:27,840 --> 00:01:31,470
+above<font color="#CCCCCC"> it your function can access that</font>
+
+33
+00:01:31,470 --> 00:01:35,189
+variable<font color="#CCCCCC"> so this can access a and this</font>
+
+34
+00:01:35,189 --> 00:01:39,299
+can also<font color="#CCCCCC"> access a now why I'm even</font>
+
+35
+00:01:39,299 --> 00:01:41,520
+<font color="#CCCCCC">making this tutorial is because of this</font>
+
+36
+00:01:41,520 --> 00:01:45,149
+issue<font color="#E5E5E5"> say that this variable was created</font>
+
+37
+00:01:45,149 --> 00:01:49,850
+inside<font color="#CCCCCC"> corn let me tighten it up a bit</font>
+
+38
+00:01:49,850 --> 00:01:52,439
+<font color="#E5E5E5">so now we already see that</font><font color="#CCCCCC"> we have an</font>
+
+39
+00:01:52,439 --> 00:01:54,149
+error right<font color="#CCCCCC"> here to set unresolved</font>
+
+40
+00:01:54,149 --> 00:01:56,490
+reference and actually if we try<font color="#E5E5E5"> to run</font>
+
+41
+00:01:56,490 --> 00:01:59,189
+<font color="#E5E5E5">this we get this little error message</font>
+
+42
+00:01:59,189 --> 00:02:02,399
+<font color="#E5E5E5">right</font><font color="#CCCCCC"> here so the</font><font color="#E5E5E5"> other row I want</font><font color="#CCCCCC"> to</font>
+
+43
+00:02:02,399 --> 00:02:04,860
+say is whenever a variable is created
+
+44
+00:02:04,860 --> 00:02:08,128
+<font color="#CCCCCC">inside a function</font><font color="#E5E5E5"> only that function</font>
+
+45
+00:02:08,128 --> 00:02:11,038
+<font color="#CCCCCC">that created</font><font color="#E5E5E5"> it</font><font color="#CCCCCC"> can access it so again</font>
+
+46
+00:02:11,038 --> 00:02:13,710
+since this a variable<font color="#E5E5E5"> was created inside</font>
+
+47
+00:02:13,710 --> 00:02:17,370
+<font color="#CCCCCC">ORN</font><font color="#E5E5E5"> only corn can use it so if it was</font>
+
+48
+00:02:17,370 --> 00:02:20,550
+<font color="#E5E5E5">outside any one of them could use it but</font>
+
+49
+00:02:20,550 --> 00:02:23,460
+<font color="#CCCCCC">since it was created</font><font color="#E5E5E5"> inside corn this</font>
+
+50
+00:02:23,460 --> 00:02:25,920
+variable now belongs<font color="#E5E5E5"> to corn and corn is</font>
+
+51
+00:02:25,920 --> 00:02:27,450
+pretty selfish<font color="#E5E5E5"> because it doesn't let</font>
+
+52
+00:02:27,450 --> 00:02:30,720
+any other<font color="#E5E5E5"> functions</font><font color="#CCCCCC"> use it</font><font color="#E5E5E5"> so again that</font>
+
+53
+00:02:30,720 --> 00:02:32,340
+<font color="#CCCCCC">is why we get this error right here and</font>
+
+54
+00:02:32,340 --> 00:02:35,990
+whenever<font color="#E5E5E5"> you run it we see</font><font color="#CCCCCC"> it prints</font>
+
+55
+00:02:35,990 --> 00:02:38,760
+this number out<font color="#CCCCCC"> so corn prints</font><font color="#E5E5E5"> that</font><font color="#CCCCCC"> I'll</font>
+
+56
+00:02:38,760 --> 00:02:42,810
+<font color="#E5E5E5">find but fudge</font><font color="#CCCCCC"> does not so</font><font color="#E5E5E5"> that is the</font>
+
+57
+00:02:42,810 --> 00:02:45,300
+really<font color="#E5E5E5"> simple</font><font color="#CCCCCC"> Tumen explanation of</font>
+
+58
+00:02:45,300 --> 00:02:48,660
+variable scope<font color="#E5E5E5"> and well hopefully</font><font color="#CCCCCC"> you</font>
+
+59
+00:02:48,660 --> 00:02:51,330
+guys understand<font color="#E5E5E5"> very basic rules</font><font color="#CCCCCC"> I know</font>
+
+60
+00:02:51,330 --> 00:02:54,120
+that this<font color="#E5E5E5"> uh let me</font><font color="#CCCCCC"> think</font><font color="#E5E5E5"> there's</font>
+
+61
+00:02:54,120 --> 00:02:55,230
+<font color="#CCCCCC">something else</font><font color="#E5E5E5"> I</font><font color="#CCCCCC"> could teach you</font><font color="#E5E5E5"> real</font>
+
+62
+00:02:55,230 --> 00:02:58,080
+quick<font color="#E5E5E5"> all right</font><font color="#CCCCCC"> oh</font><font color="#E5E5E5"> I want to teach you</font>
+
+63
+00:02:58,080 --> 00:02:59,880
+<font color="#CCCCCC">guys about like keyword arguments</font><font color="#E5E5E5"> and</font>
+
+64
+00:02:59,880 --> 00:03:02,700
+<font color="#E5E5E5">this thing called like um unknown amount</font>
+
+65
+00:03:02,700 --> 00:03:03,840
+of arguments but<font color="#CCCCCC"> it's gonna</font><font color="#E5E5E5"> take a</font>
+
+66
+00:03:03,840 --> 00:03:05,160
+little<font color="#E5E5E5"> while</font><font color="#CCCCCC"> so I'll just save it for</font>
+
+67
+00:03:05,160 --> 00:03:06,870
+the<font color="#CCCCCC"> next video but anyways thanks for</font>
+
+68
+00:03:06,870 --> 00:00:00,000
+<font color="#CCCCCC">watching</font><font color="#E5E5E5"> see you next time</font>
+

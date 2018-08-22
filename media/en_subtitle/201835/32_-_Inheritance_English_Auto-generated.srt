@@ -1,0 +1,367 @@
+1
+00:00:00,050 --> 00:00:04,799
+alright guys in this video of course you
+can see by the title I want to start
+
+2
+00:00:04,799 --> 00:00:08,340
+talking to you guys about inheritance a
+very important concept in computer
+
+3
+00:00:08,340 --> 00:00:12,960
+programming especially with
+object-oriented programming so you're
+
+4
+00:00:12,960 --> 00:00:16,920
+going to be coming across that a lot so
+before I even get started talking about
+
+5
+00:00:16,920 --> 00:00:20,880
+computer programming let's just talk
+about inheritance in real life what does
+it mean well I mean you can inherit like
+
+6
+00:00:23,820 --> 00:00:30,510
+um like specific genes from your parents
+so I inherited on my dad's eyes I
+
+7
+00:00:30,510 --> 00:00:35,790
+inherited my mom's nose and what that
+pretty much means is she passed those
+
+8
+00:00:35,790 --> 00:00:40,260
+traits on to me whenever they you know
+made me as a baby
+
+9
+00:00:40,260 --> 00:00:45,239
+and also there's another type of
+inheritance like when um I don't know
+
+10
+00:00:45,239 --> 00:00:50,160
+like if your grandpa dies and you
+inherited his land it pretty much means
+
+11
+00:00:50,160 --> 00:00:55,620
+that he gave his land to you
+so inheritance basically means getting
+
+12
+00:00:55,620 --> 00:01:00,809
+something from someone else that's the
+most simple definition so what the heck
+
+13
+00:01:00,809 --> 00:01:05,700
+could have mean in computer programming
+let's go ahead and make two classes
+
+14
+00:01:05,700 --> 00:01:11,100
+we're going to make one class that's a
+parent and we're going to make another
+class that's a child and I'll show you
+
+15
+00:01:12,900 --> 00:01:19,860
+guys how the child can inherit or get
+stuff from the parent so of course they
+
+16
+00:01:19,860 --> 00:01:23,310
+don't have any land they don't have I
+color so let's go ahead and make some
+
+17
+00:01:23,310 --> 00:01:30,259
+functions that they can inherit so what
+would on the parent do say print last
+
+18
+00:01:30,259 --> 00:01:37,530
+name so of course this just looks like a
+normal class right now in my parents
+
+19
+00:01:37,530 --> 00:01:44,610
+last name is the same of mine of course
+so Roberts so right now this parent
+
+20
+00:01:44,610 --> 00:01:48,180
+doesn't have any cool land doesn't have
+a million dollars leave me all it has
+
+21
+00:01:48,180 --> 00:01:53,040
+this is lonely old function so I'm going
+to make another class right here and I'm
+
+22
+00:01:53,040 --> 00:01:58,590
+going to name it child and just like
+before we can start building functions
+
+23
+00:01:58,590 --> 00:02:02,790
+but check this out
+if you're wondering why do you have
+
+24
+00:02:02,790 --> 00:02:07,740
+these empty parentheses right here well
+in side these parentheses what you can
+pretty much type is the name of a class
+
+25
+00:02:10,580 --> 00:02:16,230
+that you want to inherit from
+so whenever I typed parent inside here
+what I'm telling Python is okay look for
+
+26
+00:02:19,230 --> 00:02:26,130
+a parent class get everything inside
+that class then right now it's pretty
+
+27
+00:02:26,130 --> 00:02:31,410
+boring just one function and pretty much
+pass it on to your child so right now
+
+28
+00:02:31,410 --> 00:02:36,540
+even though it looks like this child
+class is empty it actually has in other
+
+29
+00:02:36,540 --> 00:02:41,340
+words it actually just inherited this
+print last name function so let's go
+
+30
+00:02:41,340 --> 00:02:43,920
+ahead and make one normal function in
+the child class
+I'll go umm print first name and this
+
+31
+00:02:51,420 --> 00:02:55,770
+will just be um it'll just be a normal
+function that belongs to the child and
+
+32
+00:02:55,770 --> 00:03:03,300
+it will just print out my first name
+which is buggy so check this out right
+
+33
+00:03:03,300 --> 00:03:08,970
+now it looks like there's one function
+and parent and one function and child
+
+34
+00:03:08,970 --> 00:03:13,800
+but that's not actually how Python sees
+it well Python sees is this one function
+
+35
+00:03:13,800 --> 00:03:19,440
+parent and since this child inherited
+everything from the parent it actually
+
+36
+00:03:19,440 --> 00:03:24,480
+has print last name and print first-name
+don't believe me I wouldn't either
+
+37
+00:03:24,480 --> 00:03:30,600
+because I lie about stuff a lot but in
+this case I am telling the true so I'll
+
+38
+00:03:30,600 --> 00:03:34,350
+make a function or excuse me an object
+called Buckey and it's going to be long
+
+39
+00:03:34,350 --> 00:03:42,480
+to that child class now check this out
+if I put Buckey come on you're stupid
+
+40
+00:03:42,480 --> 00:03:49,470
+freaking carpal tunnel glove I can do
+print first name and we already know
+
+41
+00:03:49,470 --> 00:03:54,090
+that because the function is right in
+that class but did you know I can also
+
+42
+00:03:54,090 --> 00:03:59,790
+do print last name and check this out
+I'm going to run it and it's going to
+
+43
+00:03:59,790 --> 00:04:04,950
+print Bucky which is just a normal
+function and also Roberts which is a
+
+44
+00:04:04,950 --> 00:04:10,739
+function that it inherited from the
+parent so that's the basics the very
+
+45
+00:04:10,739 --> 00:04:17,459
+basics of inheritance pretty much saying
+okay what class do you want to get stuff
+
+46
+00:04:17,459 --> 00:04:22,710
+from so pretty much doesn't literally do
+this but goes that class copies
+
+47
+00:04:22,710 --> 00:04:29,140
+everything and paste it right in child
+simple enough guys understand it good
+
+48
+00:04:29,140 --> 00:04:33,880
+because now I'm going to talk to you
+guys about something that's a little bit
+
+49
+00:04:33,880 --> 00:04:38,410
+more advanced a little bit more
+confusing so right now we have print
+
+50
+00:04:38,410 --> 00:04:45,580
+lastname basically as a child function
+that it inherited now what we can also
+do is we can also have the option of
+
+51
+00:04:48,240 --> 00:04:55,120
+overriding overriding wow that's a for
+some reason hard for me to say the child
+
+52
+00:04:55,120 --> 00:05:02,310
+can override that function so what we
+can do is this def print last name and
+
+53
+00:05:02,310 --> 00:05:11,410
+also I'll just like I don't know make
+this print something called schnitzel
+
+54
+00:05:11,410 --> 00:05:16,510
+burg so I got to tell you guys a story
+real quick because I don't have a
+therapist and I've been meaning telling
+
+55
+00:05:18,430 --> 00:05:20,920
+this for a long time to get it off my
+chest
+
+56
+00:05:20,920 --> 00:05:26,740
+but basically whenever my parents had me
+they put Roberts on the birth
+
+57
+00:05:26,740 --> 00:05:31,120
+certificate and that was my last name
+for a while growing up Roberts
+
+58
+00:05:31,120 --> 00:05:37,570
+Bucky Roberts in high school however arm
+I found out that my mom was actually a
+
+59
+00:05:37,570 --> 00:05:42,790
+monkey and I was embarrassed about it so
+I ran away from home I joined the circus
+
+60
+00:05:42,790 --> 00:05:48,700
+and I changed my last name to schnitzel
+burg so even though I inherited the name
+Roberts later on in life I decided to
+
+61
+00:05:51,640 --> 00:05:57,940
+over ride it to schnitzel burg so this
+is also an option in Python so check
+
+62
+00:05:57,940 --> 00:06:02,110
+this out
+even though I inherited this function to
+
+63
+00:06:02,110 --> 00:06:06,820
+begin with I have the option of
+overriding it and basically in order to
+
+64
+00:06:06,820 --> 00:06:13,030
+do that you create a same function with
+the same exact name and what this says
+
+65
+00:06:13,030 --> 00:06:17,890
+is okay we're practically going to
+replace this with whatever you decided
+
+66
+00:06:17,890 --> 00:06:23,260
+to do here so that is a little story
+about my life and that is also how you
+
+67
+00:06:23,260 --> 00:06:31,690
+can inherit something but you have the
+choice overriding it or if you don't you
+
+68
+00:06:31,690 --> 00:06:37,270
+can just use the normal function as well
+so now you guys understand in the next
+
+69
+00:06:37,270 --> 00:06:39,760
+tutorial I'm going to talk to you guys
+about multi
+
+70
+00:06:39,760 --> 00:06:44,020
+full inheritance so we get even more
+complex but it's actually going to be a
+
+71
+00:06:44,020 --> 00:06:47,560
+pretty cool maybe I'll think of another
+fake story to tell you guys but for now
+
+72
+00:06:47,560 --> 00:06:52,680
+then guys for watching don't forget to
+subscribe and I will see you guys later

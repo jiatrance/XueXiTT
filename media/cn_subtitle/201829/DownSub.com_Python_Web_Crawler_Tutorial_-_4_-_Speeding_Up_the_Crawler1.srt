@@ -1,0 +1,908 @@
+1
+00:00:00,000 --> 00:00:03,659
+ <font color="#CCCCCC">已经 </font><font color="#E5E5E5">准备好mofo所以到目前为止我们 </font>
+
+2
+00:00:03,659 --> 00:00:06,509
+开始<font color="#E5E5E5">创建一个基本结构 </font>
+
+3
+00:00:06,509 --> 00:00:08,910
+爬虫<font color="#E5E5E5">，我们可以弄清楚或 </font>
+
+4
+00:00:08,910 --> 00:00:10,710
+有点<font color="#E5E5E5">开始看它是怎么回事 </font>
+
+5
+00:00:10,710 --> 00:00:12,570
+工作<font color="#E5E5E5">基本上它会去 </font>
+
+6
+00:00:12,570 --> 00:00:14,580
+通过一些<font color="#E5E5E5">网站摆脱这个 </font>
+
+7
+00:00:14,580 --> 00:00:17,130
+ <font color="#CCCCCC">主页然后调查那个东西 </font>
+
+8
+00:00:17,130 --> 00:00:19,289
+而且它将<font color="#E5E5E5">继续前进 </font>
+
+9
+00:00:19,289 --> 00:00:21,779
+ <font color="#E5E5E5">现在聚集了一堆链接</font><font color="#CCCCCC">每次 </font>
+
+10
+00:00:21,779 --> 00:00:23,550
+它<font color="#CCCCCC">找到了一个链接，它将 </font><font color="#E5E5E5">继续前进 </font>
+
+11
+00:00:23,550 --> 00:00:25,500
+并将其添加到<font color="#E5E5E5">等待名单 </font><font color="#CCCCCC">右侧 </font>
+
+12
+00:00:25,500 --> 00:00:28,380
+ <font color="#E5E5E5">一旦进入 </font><font color="#CCCCCC">该页面 </font><font color="#E5E5E5">，就 </font><font color="#CCCCCC">在这里 </font>
+
+13
+00:00:28,380 --> 00:00:29,939
+ <font color="#CCCCCC">和卷发它 </font><font color="#E5E5E5">它</font><font color="#CCCCCC">要 </font><font color="#E5E5E5">它添加 </font><font color="#CCCCCC">到 </font>
+
+14
+00:00:29,939 --> 00:00:32,850
+这个人群档案就在那里<font color="#CCCCCC">简单 </font>
+
+15
+00:00:32,850 --> 00:00:36,360
+足够<font color="#E5E5E5">但 </font><font color="#CCCCCC">我们已经 </font><font color="#E5E5E5">有 </font><font color="#CCCCCC">问题了 </font>
+
+16
+00:00:36,360 --> 00:00:40,320
+ <font color="#CCCCCC">那就是 我 </font><font color="#E5E5E5">这个方法 </font>
+
+17
+00:00:40,320 --> 00:00:42,540
+解释这将是缓慢<font color="#E5E5E5">的 </font>
+
+18
+00:00:42,540 --> 00:00:44,340
+原因<font color="#E5E5E5">是 </font><font color="#CCCCCC">因为 </font><font color="#E5E5E5">每当你 </font>
+
+19
+00:00:44,340 --> 00:00:47,879
+写入<font color="#E5E5E5">Python程序中的文件</font>
+
+20
+00:00:47,879 --> 00:00:50,879
+ <font color="#E5E5E5">写入文件 </font><font color="#CCCCCC">操作很慢 </font>
+
+21
+00:00:50,879 --> 00:00:54,750
+ <font color="#CCCCCC">我 </font><font color="#E5E5E5">说相对较慢，因为没有 </font>
+
+22
+00:00:54,750 --> 00:00:57,690
+从<font color="#CCCCCC">我们的电脑开始真的很慢</font>
+
+23
+00:00:57,690 --> 00:00:59,100
+ <font color="#CCCCCC">要采取像 </font><font color="#E5E5E5">一对夫妇 </font><font color="#CCCCCC">十万 </font>
+
+24
+00:00:59,100 --> 00:01:00,899
+ <font color="#E5E5E5">一秒钟，我们 </font><font color="#CCCCCC">并不是那么 </font><font color="#E5E5E5">慢 </font>
+
+25
+00:01:00,899 --> 00:01:02,910
+但<font color="#CCCCCC">每当 </font><font color="#E5E5E5">你爬行十几岁的时候 </font>
+
+26
+00:01:02,910 --> 00:01:05,010
+ <font color="#E5E5E5">它会成千上万的页面 </font>
+
+27
+00:01:05,010 --> 00:01:07,350
+明显比我们<font color="#E5E5E5">要慢</font>
+
+28
+00:01:07,350 --> 00:01:09,630
+ <font color="#CCCCCC">只是使用变量 </font><font color="#E5E5E5">，为什么我们不这样做 </font>
+
+29
+00:01:09,630 --> 00:01:11,640
+ <font color="#E5E5E5">好好利用变量</font>
+
+30
+00:01:11,640 --> 00:01:14,520
+ <font color="#CCCCCC">使用变量是我们的 </font><font color="#E5E5E5">程序 </font>
+
+31
+00:01:14,520 --> 00:01:17,009
+停止或如果我们遇到<font color="#CCCCCC">我们的错误</font>
+
+32
+00:01:17,009 --> 00:01:19,530
+电脑关闭了所有<font color="#CCCCCC">这些数据 </font>
+
+33
+00:01:19,530 --> 00:01:21,840
+ <font color="#CCCCCC">将要失去所以让我们考虑一下 </font>
+
+34
+00:01:21,840 --> 00:01:25,110
+这个<font color="#E5E5E5">我们可以使用文件然后 </font>
+
+35
+00:01:25,110 --> 00:01:27,720
+它<font color="#CCCCCC">有点慢，但我们的数据是 </font>
+
+36
+00:01:27,720 --> 00:01:29,759
+ <font color="#CCCCCC">永远保存，你知道我们没有 </font>
+
+37
+00:01:29,759 --> 00:01:31,710
+ <font color="#E5E5E5">如果我们的电脑关机，任何问题 </font>
+
+38
+00:01:31,710 --> 00:01:34,470
+ <font color="#E5E5E5">或者我们可以使用正在进行的变量 </font>
+
+39
+00:01:34,470 --> 00:01:36,470
+ <font color="#CCCCCC">更快地完成 </font><font color="#E5E5E5">工作 </font>
+
+40
+00:01:36,470 --> 00:01:38,880
+你知道，但我们没有<font color="#CCCCCC">安全保障 </font>
+
+41
+00:01:38,880 --> 00:01:42,810
+ <font color="#E5E5E5">数据损失，但你 </font><font color="#CCCCCC">知道什么 </font><font color="#E5E5E5">是 </font><font color="#CCCCCC">EFF </font>
+
+42
+00:01:42,810 --> 00:01:44,610
+让我们继续<font color="#E5E5E5">前进，充分利用两者 </font>
+
+43
+00:01:44,610 --> 00:01:46,920
+ <font color="#CCCCCC">世界所以这就是我们要设定的方式 </font>
+
+44
+00:01:46,920 --> 00:01:48,840
+ <font color="#CCCCCC">我们</font><font color="#E5E5E5">的网络爬虫我们要去 </font>
+
+45
+00:01:48,840 --> 00:01:52,770
+做的就是<font color="#E5E5E5">我们 </font><font color="#CCCCCC">正在处理这个问题 </font>
+
+46
+00:01:52,770 --> 00:01:55,049
+数据<font color="#CCCCCC">我们将把 </font><font color="#E5E5E5">它 </font><font color="#CCCCCC">存储 </font><font color="#E5E5E5">在一个集合中 </font>
+
+47
+00:01:55,049 --> 00:01:57,630
+现在一个集合有点<font color="#E5E5E5">像列表但是 </font>
+
+48
+00:01:57,630 --> 00:01:58,950
+列表
+
+49
+00:01:58,950 --> 00:02:01,590
+你可以吃<font color="#E5E5E5">培根培根金枪鱼等物品</font>
+
+50
+00:02:01,590 --> 00:02:04,740
+苹果培根<font color="#E5E5E5">基本上是重复的 </font><font color="#CCCCCC">项目 </font>
+
+51
+00:02:04,740 --> 00:02:07,229
+所以你<font color="#E5E5E5">现在可以吃三次培根 </font>
+
+52
+00:02:07,229 --> 00:02:09,720
+我们想要做的就是我们正在<font color="#CCCCCC">努力 </font>
+
+53
+00:02:09,720 --> 00:02:11,640
+有一堆<font color="#E5E5E5">网址，所以我们要存储 </font>
+
+54
+00:02:11,640 --> 00:02:12,510
+他们在一个
+
+55
+00:02:12,510 --> 00:02:16,470
+ <font color="#E5E5E5">现在设置一个集只能有唯一 </font>
+
+56
+00:02:16,470 --> 00:02:19,170
+因此，让我们说<font color="#CCCCCC">我们有一套 </font>
+
+57
+00:02:19,170 --> 00:02:22,049
+ <font color="#E5E5E5">如果你 </font><font color="#CCCCCC">去 ， </font><font color="#E5E5E5">它就会有培根 </font>
+
+58
+00:02:22,049 --> 00:02:24,870
+未来， <font color="#E5E5E5">并 </font><font color="#CCCCCC">试图再次添加培根 </font>
+
+59
+00:02:24,870 --> 00:02:26,310
+ <font color="#CCCCCC">不会添加 </font><font color="#E5E5E5">它，它</font><font color="#CCCCCC">只是 </font><font color="#E5E5E5">要 </font>
+
+60
+00:02:26,310 --> 00:02:29,579
+保持<font color="#CCCCCC">培根和金枪鱼 </font><font color="#E5E5E5">这样的原因我们 </font>
+
+61
+00:02:29,579 --> 00:02:32,190
+想要独特的元素是因为让我们
+
+62
+00:02:32,190 --> 00:02:34,200
+ <font color="#E5E5E5">说 </font><font color="#CCCCCC">我们正在添加项目 </font>
+
+63
+00:02:34,200 --> 00:02:36,840
+ <font color="#E5E5E5">等候名单我们遇到了 </font><font color="#CCCCCC">美女 </font>
+
+64
+00:02:36,840 --> 00:02:39,299
+然后<font color="#CCCCCC">我们在另一页上来了 </font>
+
+65
+00:02:39,299 --> 00:02:41,280
+ <font color="#E5E5E5">我们再也不需要添加 </font>
+
+66
+00:02:41,280 --> 00:02:43,769
+将此URL汇总到等待名单
+
+67
+00:02:43,769 --> 00:02:46,409
+ <font color="#E5E5E5">两次它已经在同一件事 </font>
+
+68
+00:02:46,409 --> 00:02:48,720
+ <font color="#E5E5E5">一旦你抓了一页你 </font><font color="#CCCCCC">的人群 </font>
+
+69
+00:02:48,720 --> 00:02:50,970
+ <font color="#CCCCCC">不需要将它添加到人群文件中 </font>
+
+70
+00:02:50,970 --> 00:02:53,129
+ <font color="#E5E5E5">每次 </font><font color="#CCCCCC">你抓 </font><font color="#E5E5E5">一次 </font><font color="#CCCCCC">它 </font>
+
+71
+00:02:53,129 --> 00:02:55,889
+它<font color="#E5E5E5">在那里现在很好，另一个很酷 </font>
+
+72
+00:02:55,889 --> 00:02:58,200
+ <font color="#E5E5E5">事情是 </font><font color="#CCCCCC">，一旦我们有 </font><font color="#E5E5E5">两个独特的 </font>
+
+73
+00:02:58,200 --> 00:03:00,810
+ <font color="#E5E5E5">套我们必须</font><font color="#CCCCCC">确保 </font><font color="#E5E5E5">我们没有任何 </font>
+
+74
+00:03:00,810 --> 00:03:03,440
+交叉<font color="#E5E5E5">所以换句话说， </font><font color="#CCCCCC">美是 </font>
+
+75
+00:03:03,440 --> 00:03:05,700
+永远<font color="#E5E5E5">不会是</font><font color="#CCCCCC">在 </font><font color="#E5E5E5">等待名单 </font>
+
+76
+00:03:05,700 --> 00:03:08,639
+ <font color="#E5E5E5">它将会 </font><font color="#CCCCCC">出现在 </font><font color="#E5E5E5">众人名单 </font><font color="#CCCCCC">中 </font>
+
+77
+00:03:08,639 --> 00:03:10,409
+等待<font color="#E5E5E5">名单，然后一旦它 </font>
+
+78
+00:03:10,409 --> 00:03:11,430
+ <font color="#CCCCCC">挤它会 </font><font color="#E5E5E5">通过 </font><font color="#CCCCCC">移动 </font>
+
+79
+00:03:11,430 --> 00:03:13,230
+就像<font color="#E5E5E5">我说的那样，抓住这个</font>
+
+80
+00:03:13,230 --> 00:03:14,959
+ <font color="#E5E5E5">套解决一切 </font>
+
+81
+00:03:14,959 --> 00:03:17,849
+ <font color="#E5E5E5">所以我们正在处理数据 </font>
+
+82
+00:03:17,849 --> 00:03:21,180
+ <font color="#E5E5E5">我们要继续 </font><font color="#CCCCCC">使用套装 </font>
+
+83
+00:03:21,180 --> 00:03:23,220
+因为<font color="#E5E5E5">它的速度要快得多 </font>
+
+84
+00:03:23,220 --> 00:03:25,709
+ <font color="#E5E5E5">我们会定期继续 </font><font color="#CCCCCC">前进 </font>
+
+85
+00:03:25,709 --> 00:03:30,000
+获取该<font color="#E5E5E5">数据 </font><font color="#CCCCCC">并将其保存到 </font><font color="#E5E5E5">文件中 </font>
+
+86
+00:03:30,000 --> 00:03:31,889
+非常酷，所以我<font color="#CCCCCC">要做的是 </font>
+
+87
+00:03:31,889 --> 00:03:33,930
+ <font color="#CCCCCC">第一个创建另外两个函数 </font>
+
+88
+00:03:33,930 --> 00:03:36,959
+是如何<font color="#E5E5E5">将链接和文件转换为 </font>
+
+89
+00:03:36,959 --> 00:03:39,389
+一套<font color="#E5E5E5">，第二套是如何 </font>
+
+90
+00:03:39,389 --> 00:03:41,940
+转换<font color="#CCCCCC">集合中的项目并 </font><font color="#E5E5E5">保存它们 </font>
+
+91
+00:03:41,940 --> 00:03:44,879
+ <font color="#CCCCCC">一个文件 </font><font color="#E5E5E5">真的很简单的东西所以 </font>
+
+92
+00:03:44,879 --> 00:03:46,799
+我<font color="#E5E5E5">要做的第一个就是我会 </font><font color="#CCCCCC">做的 </font>
+
+93
+00:03:46,799 --> 00:03:52,040
+文件<font color="#E5E5E5">设置所以我会说读取文件和 </font>
+
+94
+00:03:52,040 --> 00:03:58,169
+转换<font color="#E5E5E5">每一行再次设置项目 </font>
+
+95
+00:03:58,169 --> 00:03:59,699
+稍后<font color="#CCCCCC">我们将 </font><font color="#E5E5E5">有我们的项目 </font>
+
+96
+00:03:59,699 --> 00:04:02,040
+ <font color="#CCCCCC">文件，我们会说 </font><font color="#E5E5E5">我们有等待 </font>
+
+97
+00:04:02,040 --> 00:04:04,019
+ <font color="#E5E5E5">列表 </font><font color="#CCCCCC">现在轮候名单 </font><font color="#E5E5E5">将会 </font>
+
+98
+00:04:04,019 --> 00:04:07,109
+我<font color="#E5E5E5">不知道30个不同的URL </font>
+
+99
+00:04:07,109 --> 00:04:08,909
+它<font color="#E5E5E5">等着被抓了 </font><font color="#CCCCCC">所以这个 </font>
+
+100
+00:04:08,909 --> 00:04:10,919
+ <font color="#E5E5E5">函数将 </font><font color="#CCCCCC">做的是它 </font><font color="#E5E5E5">会 </font>
+
+101
+00:04:10,919 --> 00:04:12,930
+读取该文件并将<font color="#E5E5E5">其转换为集合 </font>
+
+102
+00:04:12,930 --> 00:04:15,269
+以这种<font color="#E5E5E5">方式，我们可以在我们的Python中使用 </font>
+
+103
+00:04:15,269 --> 00:04:22,079
+程序更快，所以<font color="#E5E5E5">要设置的文件 </font>
+
+104
+00:04:22,079 --> 00:04:25,110
+当然<font color="#CCCCCC">我们所需要的只是一个 </font><font color="#E5E5E5">文件名 </font>
+
+105
+00:04:25,110 --> 00:04:29,509
+ <font color="#E5E5E5">让我继续 </font><font color="#CCCCCC">，并添加下划线 </font>
+
+106
+00:04:31,069 --> 00:04:40,289
+ <font color="#CCCCCC">好吧所以我是否写了 </font><font color="#E5E5E5">resu LTS了 </font>
+
+107
+00:04:40,289 --> 00:04:42,360
+哎呀它<font color="#E5E5E5">给了我一条愚蠢的红线 </font>
+
+108
+00:04:42,360 --> 00:04:43,889
+ <font color="#CCCCCC">小玩耍的魅力可能是错误的 </font>
+
+109
+00:04:43,889 --> 00:04:45,659
+心脏<font color="#E5E5E5">所以我们要做的第一件事 </font>
+
+110
+00:04:45,659 --> 00:04:46,830
+我们就是要<font color="#CCCCCC">创造一个 </font>
+
+111
+00:04:46,830 --> 00:04:48,720
+ <font color="#E5E5E5">空集然后我们将 </font><font color="#CCCCCC">循环 </font>
+
+112
+00:04:48,720 --> 00:04:51,330
+ <font color="#CCCCCC">通过该文件逐行，所以 </font>
+
+113
+00:04:51,330 --> 00:04:57,719
+ open <font color="#CCCCCC">filename </font><font color="#E5E5E5">RT表示读取文本 </font>
+
+114
+00:04:57,719 --> 00:05:02,129
+文件为<font color="#E5E5E5">f所以我们再次只是</font><font color="#CCCCCC">参考 </font>
+
+115
+00:05:02,129 --> 00:05:04,949
+ <font color="#E5E5E5">我们正在阅读 </font><font color="#CCCCCC">为 </font><font color="#E5E5E5">f文件我们 </font>
+
+116
+00:05:04,949 --> 00:05:06,900
+想要用<font color="#E5E5E5">那个文件做循环 </font>
+
+117
+00:05:06,900 --> 00:05:09,960
+通过<font color="#E5E5E5">这一行中的每一行 </font>
+
+118
+00:05:09,960 --> 00:05:12,990
+实际上<font color="#E5E5E5">看起来很容易就行了 </font>
+
+119
+00:05:12,990 --> 00:05:16,440
+ <font color="#CCCCCC">f，这只是迭代 </font>
+
+120
+00:05:16,440 --> 00:05:19,440
+通过<font color="#E5E5E5">一个文件一次一行 </font><font color="#CCCCCC">什么 </font>
+
+121
+00:05:19,440 --> 00:05:21,629
+我们想做的<font color="#E5E5E5">是为我们的设置 </font>
+
+122
+00:05:21,629 --> 00:05:24,569
+ <font color="#E5E5E5">现在它是空的它命名结果我们 </font>
+
+123
+00:05:24,569 --> 00:05:26,909
+只想<font color="#E5E5E5">拿走每一行并添加它 </font>
+
+124
+00:05:26,909 --> 00:05:31,259
+ <font color="#E5E5E5">所以不是Len就好了 </font>
+
+125
+00:05:31,259 --> 00:05:33,060
+所以这<font color="#E5E5E5">将给 </font><font color="#CCCCCC">我们的路线 </font>
+
+126
+00:05:33,060 --> 00:05:35,669
+就在<font color="#E5E5E5">那里，我的意思是这个 </font>
+
+127
+00:05:35,669 --> 00:05:37,409
+ <font color="#CCCCCC">现在看起来</font><font color="#E5E5E5">很不错 </font><font color="#CCCCCC">，这 </font><font color="#E5E5E5">是 </font>
+
+128
+00:05:37,409 --> 00:05:39,449
+ <font color="#CCCCCC">去 上班 </font><font color="#E5E5E5">，但有一个小 </font>
+
+129
+00:05:39,449 --> 00:05:39,870
+问题
+
+130
+00:05:39,870 --> 00:05:42,710
+ <font color="#CCCCCC">你记得每当我们写每篇文章的时候 </font>
+
+131
+00:05:42,710 --> 00:05:45,210
+项目<font color="#E5E5E5">或每当我们坚持每个 </font>
+
+132
+00:05:45,210 --> 00:05:47,940
+链接在我们添加此换行符的文件中
+
+133
+00:05:47,940 --> 00:05:50,099
+这个角色<font color="#E5E5E5">就是这样 </font>
+
+134
+00:05:50,099 --> 00:05:51,990
+你<font color="#E5E5E5">看这些文件</font><font color="#CCCCCC">全部 </font>
+
+135
+00:05:51,990 --> 00:05:54,360
+网址<font color="#E5E5E5">在同一个网站上聚集在一起 </font>
+
+136
+00:05:54,360 --> 00:05:56,400
+它<font color="#CCCCCC">只是让它更容易阅读 </font>
+
+137
+00:05:56,400 --> 00:05:57,120
+ <font color="#E5E5E5">人类 </font>
+
+138
+00:05:57,120 --> 00:06:01,199
+好了，现在我们<font color="#CCCCCC">得到了URL但是 </font>
+
+139
+00:06:01,199 --> 00:06:02,909
+我们也有这个<font color="#E5E5E5">换行符 </font>
+
+140
+00:06:02,909 --> 00:06:05,699
+每当<font color="#E5E5E5">我们把它读成 </font><font color="#CCCCCC">一套时， </font><font color="#E5E5E5">就这样 </font>
+
+141
+00:06:05,699 --> 00:06:07,830
+ <font color="#E5E5E5">我们不想要那个换行符 </font>
+
+142
+00:06:07,830 --> 00:06:10,020
+只是想要<font color="#CCCCCC">URL所以我们 </font><font color="#E5E5E5">能做的就是 </font>
+
+143
+00:06:10,020 --> 00:06:13,020
+我们需要继续<font color="#E5E5E5">并取而代之 </font>
+
+144
+00:06:13,020 --> 00:06:15,240
+一个替换是一个<font color="#CCCCCC">内置 </font><font color="#E5E5E5">函数 </font>
+
+145
+00:06:15,240 --> 00:06:17,580
+先拿<font color="#E5E5E5">两个参数， </font><font color="#CCCCCC">一个是什么 </font>
+
+146
+00:06:17,580 --> 00:06:18,930
+ <font color="#CCCCCC">你 </font><font color="#E5E5E5">试图替换角色</font>
+
+147
+00:06:18,930 --> 00:06:21,509
+我们正试图预先替换换行符
+
+148
+00:06:21,509 --> 00:06:23,759
+性格<font color="#E5E5E5">和第二个是做什么的 </font>
+
+149
+00:06:23,759 --> 00:06:25,860
+你<font color="#E5E5E5">想替换它 </font><font color="#CCCCCC">，所以我们 </font>
+
+150
+00:06:25,860 --> 00:06:27,210
+只是继续<font color="#CCCCCC">前进并更换 </font><font color="#E5E5E5">它 </font>
+
+151
+00:06:27,210 --> 00:06:28,800
+ <font color="#E5E5E5">什么也没有 </font><font color="#CCCCCC">，这 </font><font color="#E5E5E5">本质上是 </font>
+
+152
+00:06:28,800 --> 00:06:31,620
+ <font color="#E5E5E5">只是说嘿，你 </font><font color="#CCCCCC">知道 </font><font color="#E5E5E5">URL </font><font color="#CCCCCC">加 </font>
+
+153
+00:06:31,620 --> 00:06:33,360
+ <font color="#CCCCCC">换行，我们 </font><font color="#E5E5E5">在刚去 </font><font color="#CCCCCC">正在阅读 </font>
+
+154
+00:06:33,360 --> 00:06:34,770
+提前<font color="#E5E5E5">并删除 </font><font color="#CCCCCC">该 </font><font color="#E5E5E5">换行符 </font>
+
+155
+00:06:34,770 --> 00:06:37,080
+这<font color="#CCCCCC">就是我们正在 </font><font color="#E5E5E5">谈论 </font><font color="#CCCCCC">的一切 </font>
+
+156
+00:06:37,080 --> 00:06:39,750
+和<font color="#E5E5E5">像这样的Python程序交谈</font>
+
+157
+00:06:39,750 --> 00:06:41,970
+这是我们的朋友之一嘿， <font color="#CCCCCC">你知道的人 </font>
+
+158
+00:06:41,970 --> 00:06:43,470
+ <font color="#CCCCCC">你那边的 </font><font color="#E5E5E5">新线路 </font>
+
+159
+00:06:43,470 --> 00:06:45,180
+ <font color="#CCCCCC">只是摆脱它我在说什么 </font>
+
+160
+00:06:45,180 --> 00:06:45,690
+关于
+
+161
+00:06:45,690 --> 00:06:49,139
+好吧，现在<font color="#E5E5E5">看起来很好，我们所有人 </font>
+
+162
+00:06:49,139 --> 00:06:52,169
+ <font color="#CCCCCC">这里要做的 </font><font color="#E5E5E5">就是返回结果 </font>
+
+163
+00:06:52,169 --> 00:06:54,240
+我们再<font color="#E5E5E5">打算给它 </font><font color="#CCCCCC">一个文件说 </font>
+
+164
+00:06:54,240 --> 00:06:56,879
+循环遍历<font color="#E5E5E5">每一行读取 </font><font color="#CCCCCC">URL和 </font>
+
+165
+00:06:56,879 --> 00:07:01,490
+把它们当作<font color="#E5E5E5">一套看上去很甜蜜的回归</font>
+
+166
+00:07:01,490 --> 00:07:03,840
+这最后一个我<font color="#CCCCCC">要转换 </font>
+
+167
+00:07:03,840 --> 00:07:09,360
+设置为文件<font color="#E5E5E5">所以我会 </font><font color="#CCCCCC">通过一个文件</font><font color="#E5E5E5">说 </font><font color="#CCCCCC">出来 </font>
+
+168
+00:07:09,360 --> 00:07:14,930
+设置集中的每个项目<font color="#CCCCCC">都是 </font><font color="#E5E5E5">新的 </font>
+
+169
+00:07:14,930 --> 00:07:24,169
+ <font color="#E5E5E5">文件中的行和DEF设置为文件和 </font>
+
+170
+00:07:24,169 --> 00:07:27,210
+因为我们正在<font color="#E5E5E5">使用网络爬虫 </font>
+
+171
+00:07:27,210 --> 00:07:29,969
+ <font color="#E5E5E5">集代替，而我甚至不能</font><font color="#CCCCCC">使用 </font>
+
+172
+00:07:29,969 --> 00:07:32,550
+无论如何都设置了字，因为<font color="#E5E5E5">它是内置 </font><font color="#CCCCCC">的 </font>
+
+173
+00:07:32,550 --> 00:07:33,419
+ <font color="#E5E5E5">Python中的关键字 </font>
+
+174
+00:07:33,419 --> 00:07:34,919
+我只想将<font color="#E5E5E5">它命名为链接，因为 </font>
+
+175
+00:07:34,919 --> 00:07:36,690
+这就是我们所有的设置<font color="#E5E5E5">只是一个 </font>
+
+176
+00:07:36,690 --> 00:07:39,599
+ <font color="#E5E5E5">一堆链接 </font><font color="#CCCCCC">，所以这些都是 </font>
+
+177
+00:07:39,599 --> 00:07:43,880
+ <font color="#CCCCCC">我们要 </font><font color="#E5E5E5">保存到此文件的链接 </font>
+
+178
+00:07:43,880 --> 00:07:47,789
+所以我想做的第一件事<font color="#E5E5E5">就是我 </font>
+
+179
+00:07:47,789 --> 00:07:50,130
+ <font color="#E5E5E5">要 </font><font color="#CCCCCC">继续 </font><font color="#E5E5E5">并调用删除文件 </font>
+
+180
+00:07:50,130 --> 00:07:54,500
+内容<font color="#E5E5E5">现在记住 </font><font color="#CCCCCC">我们能做的是 </font>
+
+181
+00:07:54,500 --> 00:07:57,419
+我们可以继续<font color="#E5E5E5">删除任何 </font><font color="#CCCCCC">文件 </font>
+
+182
+00:07:57,419 --> 00:08:00,900
+因为这是旧数据的全部
+
+183
+00:08:00,900 --> 00:08:03,150
+ <font color="#E5E5E5">最新的数据 </font><font color="#CCCCCC">将是 </font>
+
+184
+00:08:03,150 --> 00:08:06,240
+存储<font color="#E5E5E5">在这个集合中，所以我们可以 </font>
+
+185
+00:08:06,240 --> 00:08:08,279
+继续前进<font color="#CCCCCC">，摆脱 </font><font color="#E5E5E5">那个和我们 </font>
+
+186
+00:08:08,279 --> 00:08:10,319
+ <font color="#E5E5E5">不想把它附加在那里，因为 </font>
+
+187
+00:08:10,319 --> 00:08:12,300
+ <font color="#CCCCCC">这 </font><font color="#E5E5E5">就是好 </font><font color="#CCCCCC">东西 </font>
+
+188
+00:08:12,300 --> 00:08:15,000
+多汁的链接，现在我能做的是
+
+189
+00:08:15,000 --> 00:08:17,400
+刚<font color="#CCCCCC">开始循环遍历 </font><font color="#E5E5E5">这个集合 </font>
+
+190
+00:08:17,400 --> 00:08:21,960
+说<font color="#CCCCCC">链接和链接所以循环 </font>
+
+191
+00:08:21,960 --> 00:08:25,380
+链接和<font color="#CCCCCC">处理每个 </font><font color="#E5E5E5">项目是链接和 </font>
+
+192
+00:08:25,380 --> 00:08:31,729
+实际上让我<font color="#CCCCCC">这样做 </font><font color="#E5E5E5">它链接 </font>
+
+193
+00:08:32,120 --> 00:08:34,799
+ <font color="#E5E5E5">好的，所以你真的不必 </font><font color="#CCCCCC">这样做 </font>
+
+194
+00:08:34,799 --> 00:08:36,899
+这个但是这<font color="#E5E5E5">要做的是 </font>
+
+195
+00:08:36,899 --> 00:08:41,190
+而不只是爬行和获得
+
+196
+00:08:41,190 --> 00:08:43,110
+ <font color="#CCCCCC">网址一堆，只是喷涌他们 </font>
+
+197
+00:08:43,110 --> 00:08:45,209
+文本文件或将它们写入文本文件
+
+198
+00:08:45,209 --> 00:08:47,279
+ <font color="#CCCCCC">我们可以按随机顺序</font><font color="#E5E5E5">排序 </font>
+
+199
+00:08:47,279 --> 00:08:49,890
+ <font color="#CCCCCC">如果我们需要， </font><font color="#E5E5E5">他们之前 </font><font color="#CCCCCC">和之后 </font>
+
+200
+00:08:49,890 --> 00:08:51,779
+ <font color="#CCCCCC">查看我们的数据 </font><font color="#E5E5E5">文件的 </font><font color="#CCCCCC">所有 </font><font color="#E5E5E5">链接 </font>
+
+201
+00:08:51,779 --> 00:08:53,430
+ <font color="#CCCCCC">按字母顺序排列 </font><font color="#E5E5E5">，这 </font><font color="#CCCCCC">是相当 </font>
+
+202
+00:08:53,430 --> 00:08:56,670
+ <font color="#E5E5E5">很酷，所以继续前进 </font><font color="#CCCCCC">并 </font><font color="#E5E5E5">整理 </font><font color="#CCCCCC">所有 </font>
+
+203
+00:08:56,670 --> 00:08:58,829
+ <font color="#CCCCCC">我们收集的链接和每个链接</font>
+
+204
+00:08:58,829 --> 00:09:01,440
+ <font color="#E5E5E5">我们想要做的就是我们想要添加 </font>
+
+205
+00:09:01,440 --> 00:09:05,310
+它们到<font color="#E5E5E5">我们的任何文件 </font><font color="#CCCCCC">的 </font><font color="#E5E5E5">末尾 </font>
+
+206
+00:09:05,310 --> 00:09:07,890
+希望<font color="#CCCCCC">无论是 </font><font color="#E5E5E5">队列或卷曲，以便将它们添加到 </font>
+
+207
+00:09:07,890 --> 00:09:10,019
+文件的结尾<font color="#E5E5E5">再次 </font>
+
+208
+00:09:10,019 --> 00:09:11,940
+ <font color="#CCCCCC">我们之前制作的功能需要两个 </font>
+
+209
+00:09:11,940 --> 00:09:14,850
+参数什么文件，你是什么
+
+210
+00:09:14,850 --> 00:09:16,230
+ <font color="#E5E5E5">想要添加到 它 的 </font><font color="#CCCCCC">结尾 </font>
+
+211
+00:09:16,230 --> 00:09:19,170
+以及<font color="#E5E5E5">我们告诉你的任何文件 </font>
+
+212
+00:09:19,170 --> 00:09:21,180
+ <font color="#E5E5E5">您当前正在迭代的链接</font>
+
+213
+00:09:21,180 --> 00:09:23,880
+通过<font color="#E5E5E5">所以现在 </font><font color="#CCCCCC">让我打扫 </font><font color="#E5E5E5">起来 </font>
+
+214
+00:09:23,880 --> 00:09:27,230
+ <font color="#E5E5E5">看看 </font><font color="#CCCCCC">我们现在有两个功能 </font>
+
+215
+00:09:27,230 --> 00:09:30,779
+ <font color="#E5E5E5">在这里我们可以 </font><font color="#CCCCCC">实际读取的文件 </font><font color="#E5E5E5">，因此 </font>
+
+216
+00:09:30,779 --> 00:09:33,779
+如果我们是你知道<font color="#E5E5E5">去吃午饭的话 </font>
+
+217
+00:09:33,779 --> 00:09:35,399
+ <font color="#E5E5E5">我们刚刚回来 </font><font color="#CCCCCC">，我们 </font><font color="#E5E5E5">想跑 </font>
+
+218
+00:09:35,399 --> 00:09:38,070
+ <font color="#CCCCCC">我们再看看这个程序</font>
+
+219
+00:09:38,070 --> 00:09:40,529
+文件并将其读入<font color="#CCCCCC">集合中 </font>
+
+220
+00:09:40,529 --> 00:09:42,990
+一旦你运行<font color="#E5E5E5">了一段时间 </font><font color="#CCCCCC">并且 </font>
+
+221
+00:09:42,990 --> 00:09:44,640
+我们的妈妈说，嘿，你<font color="#CCCCCC">想 </font><font color="#E5E5E5">出去 </font>
+
+222
+00:09:44,640 --> 00:09:46,800
+ <font color="#E5E5E5">冰淇淋妈妈我当然喜欢冰 </font>
+
+223
+00:09:46,800 --> 00:09:50,880
+ <font color="#CCCCCC">奶油， </font><font color="#E5E5E5">但首先让我看看让我保存 </font>
+
+224
+00:09:50,880 --> 00:09:53,459
+我的数据<font color="#E5E5E5">正在进行并采取 </font><font color="#CCCCCC">该设置 </font>
+
+225
+00:09:53,459 --> 00:09:56,279
+并将其保存到<font color="#CCCCCC">文件中， </font><font color="#E5E5E5">以便 </font><font color="#CCCCCC">繁荣发酵 </font>
+
+226
+00:09:56,279 --> 00:09:57,870
+ <font color="#E5E5E5">我现在要去吃一些冰淇淋 </font><font color="#CCCCCC">了 </font>
+
+227
+00:09:57,870 --> 00:00:00,000
+ <font color="#E5E5E5">以后会见到你们 </font>
+

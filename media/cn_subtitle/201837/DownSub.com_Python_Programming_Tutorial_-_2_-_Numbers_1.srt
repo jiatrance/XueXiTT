@@ -1,0 +1,492 @@
+1
+00:00:00,060 --> 00:00:01,829
+ <font color="#CCCCCC">好的伙伴 </font><font color="#E5E5E5">欢迎你的第二个 </font>
+
+2
+00:00:01,829 --> 00:00:04,019
+ Python教程和<font color="#CCCCCC">我们在这个视频中 </font>
+
+3
+00:00:04,019 --> 00:00:05,759
+会<font color="#CCCCCC">更多地了解这些基本知识 </font>
+
+4
+00:00:05,759 --> 00:00:08,130
+数学运算符<font color="#E5E5E5">，我也想教 </font>
+
+5
+00:00:08,130 --> 00:00:09,120
+ <font color="#E5E5E5">你们这些叫做的东西 </font>
+
+6
+00:00:09,120 --> 00:00:12,210
+变量， <font color="#CCCCCC">如果我们 </font><font color="#E5E5E5">在最后 </font><font color="#CCCCCC">有时间 </font><font color="#E5E5E5">的话 </font>
+
+7
+00:00:12,210 --> 00:00:13,889
+教程<font color="#E5E5E5">我们看到你可以添加两个 </font>
+
+8
+00:00:13,889 --> 00:00:16,710
+数字<font color="#E5E5E5">加 </font><font color="#CCCCCC">三 </font><font color="#E5E5E5">加 </font><font color="#CCCCCC">四 </font><font color="#E5E5E5">简单 </font>
+
+9
+00:00:16,710 --> 00:00:19,350
+ <font color="#CCCCCC">够 </font><font color="#E5E5E5">了，你也可以用 </font><font color="#CCCCCC">减号 </font>
+
+10
+00:00:19,350 --> 00:00:21,449
+减去<font color="#E5E5E5">你知道的那种 </font>
+
+11
+00:00:21,449 --> 00:00:23,789
+直观<font color="#E5E5E5">但是如果你从不编程 </font>
+
+12
+00:00:23,789 --> 00:00:25,199
+在<font color="#CCCCCC">我和你们谈谈之前 </font>
+
+13
+00:00:25,199 --> 00:00:27,660
+ <font color="#E5E5E5">无论何时你都要乘法</font><font color="#CCCCCC">和除法 </font>
+
+14
+00:00:27,660 --> 00:00:30,090
+想要<font color="#CCCCCC">乘以 </font><font color="#E5E5E5">你 </font><font color="#CCCCCC">使用的 </font><font color="#E5E5E5">两个数字 </font>
+
+15
+00:00:30,090 --> 00:00:32,219
+ <font color="#CCCCCC">在您的上方a上方的星号 </font>
+
+16
+00:00:32,219 --> 00:00:35,480
+键盘<font color="#CCCCCC">然后你 </font><font color="#E5E5E5">可以做 </font><font color="#CCCCCC">3次 </font><font color="#E5E5E5">20 </font>
+
+17
+00:00:35,480 --> 00:00:38,340
+ <font color="#E5E5E5">现在每当你想要的时候都很容易</font>
+
+18
+00:00:38,340 --> 00:00:41,940
+划分<font color="#CCCCCC">使用 </font><font color="#E5E5E5">正斜线，所以12结束 </font>
+
+19
+00:00:41,940 --> 00:00:46,500
+ <font color="#E5E5E5">4 12除以4等于3现在就像 </font>
+
+20
+00:00:46,500 --> 00:00:48,570
+在<font color="#CCCCCC">现实生活中的计算机 </font><font color="#E5E5E5">编程 </font>
+
+21
+00:00:48,570 --> 00:00:51,960
+ Python <font color="#CCCCCC">也有 </font><font color="#E5E5E5">这样 </font><font color="#CCCCCC">的操作命令 </font>
+
+22
+00:00:51,960 --> 00:00:55,860
+说<font color="#E5E5E5">你有8加2乘以 </font>
+
+23
+00:00:55,860 --> 00:00:59,250
+ <font color="#E5E5E5">10你可能会认为 </font><font color="#CCCCCC">8加2 </font>
+
+24
+00:00:59,250 --> 00:01:02,510
+等于10 10乘以10等于<font color="#E5E5E5">100 </font>
+
+25
+00:01:02,510 --> 00:01:06,119
+ <font color="#CCCCCC">好吧，我得到28，那是因为只是 </font>
+
+26
+00:01:06,119 --> 00:01:07,890
+就像在<font color="#E5E5E5">现实生活中一样， </font><font color="#CCCCCC">它遵循命令 </font>
+
+27
+00:01:07,890 --> 00:01:09,990
+ <font color="#CCCCCC">操作 </font><font color="#E5E5E5">和乘法和除法 </font>
+
+28
+00:01:09,990 --> 00:01:13,200
+首先，所以2乘以10即可
+
+29
+00:01:13,200 --> 00:01:16,439
+ <font color="#E5E5E5">如果你曾经 20岁，那么它现在增加8 </font>
+
+30
+00:01:16,439 --> 00:01:18,810
+想要<font color="#E5E5E5">像你想象的那样运行 </font><font color="#CCCCCC">它 </font>
+
+31
+00:01:18,810 --> 00:01:20,970
+就<font color="#E5E5E5">可以把它们放在括号 </font><font color="#CCCCCC">以 </font>
+
+32
+00:01:20,970 --> 00:01:24,180
+ 8加2再加上<font color="#E5E5E5">任何东西 </font>
+
+33
+00:01:24,180 --> 00:01:26,130
+ <font color="#E5E5E5">括号首先发生 </font>
+
+34
+00:01:26,130 --> 00:01:28,320
+优先于<font color="#E5E5E5">其他一切所以这个 </font>
+
+35
+00:01:28,320 --> 00:01:31,530
+将是8加2， <font color="#E5E5E5">然后是10 </font>
+
+36
+00:01:31,530 --> 00:01:34,890
+ <font color="#E5E5E5">再将这个答案乘以10 </font>
+
+37
+00:01:34,890 --> 00:01:36,060
+ <font color="#E5E5E5">无论什么时候你想这样做 </font>
+
+38
+00:01:36,060 --> 00:01:39,659
+括号<font color="#E5E5E5">现在这很 </font><font color="#CCCCCC">简单 </font>
+
+39
+00:01:39,659 --> 00:01:42,210
+ <font color="#E5E5E5">到目前为止的东西，但有一件事 </font>
+
+40
+00:01:42,210 --> 00:01:45,119
+ <font color="#E5E5E5">每当你使用时，可能会混淆</font><font color="#CCCCCC">你 </font>
+
+41
+00:01:45,119 --> 00:01:48,149
+除此之外<font color="#E5E5E5">，这不仅仅是Python </font>
+
+42
+00:01:48,149 --> 00:01:49,470
+所有计算机编程<font color="#E5E5E5">语言 </font>
+
+43
+00:01:49,470 --> 00:01:51,930
+ <font color="#E5E5E5">电脑处理分工和那种 </font>
+
+44
+00:01:51,930 --> 00:01:53,250
+ <font color="#E5E5E5">奇怪的方式， </font><font color="#CCCCCC">你可能会得到一些 </font>
+
+45
+00:01:53,250 --> 00:01:56,189
+意外的<font color="#CCCCCC">结果现在Python很漂亮 </font>
+
+46
+00:01:56,189 --> 00:01:58,560
+ <font color="#E5E5E5">擅长简单划分，所以18岁以上 </font>
+
+47
+00:01:58,560 --> 00:02:02,600
+ <font color="#CCCCCC">4 </font><font color="#E5E5E5">4 </font><font color="#CCCCCC">半 </font><font color="#E5E5E5">现在有一对 </font>
+
+48
+00:02:02,600 --> 00:02:05,610
+我们可以<font color="#E5E5E5">使用的酷技术</font>
+
+49
+00:02:05,610 --> 00:02:07,220
+ <font color="#E5E5E5">在很多情况下 </font><font color="#CCCCCC">实际上是有帮助 </font><font color="#E5E5E5">的 </font>
+
+50
+00:02:07,220 --> 00:02:10,318
+ <font color="#CCCCCC">有时候 </font><font color="#E5E5E5">我们想要 </font>
+
+51
+00:02:10,318 --> 00:02:12,750
+ <font color="#E5E5E5">向下舍入或换句话说放弃这个 </font>
+
+52
+00:02:12,750 --> 00:02:13,750
+小数位
+
+53
+00:02:13,750 --> 00:02:16,270
+我们会说<font color="#E5E5E5">好的 </font><font color="#CCCCCC">十八分 </font>
+
+54
+00:02:16,270 --> 00:02:17,410
+ <font color="#CCCCCC">四 </font>
+
+55
+00:02:17,410 --> 00:02:20,280
+每当我们使用两个正斜杠时
+
+56
+00:02:20,280 --> 00:02:22,900
+ <font color="#E5E5E5">这样做是否需要结果 </font>
+
+57
+00:02:22,900 --> 00:02:25,000
+并将其四舍五入到<font color="#E5E5E5">最近的整体 </font>
+
+58
+00:02:25,000 --> 00:02:27,130
+ <font color="#E5E5E5">换句话说就是数字 </font>
+
+59
+00:02:27,130 --> 00:02:30,010
+取<font color="#E5E5E5">小数位并删除它 </font>
+
+60
+00:02:30,010 --> 00:02:31,240
+ <font color="#CCCCCC">它忘记</font>
+
+61
+00:02:31,240 --> 00:02:34,570
+现在，如果我们<font color="#E5E5E5">只想访问 </font>
+
+62
+00:02:34,570 --> 00:02:38,920
+剩下的比如<font color="#E5E5E5">18我会告诉你们 </font>
+
+63
+00:02:38,920 --> 00:02:40,450
+我正在做什么， <font color="#E5E5E5">然后 </font><font color="#CCCCCC">我会 </font><font color="#E5E5E5">跟 </font><font color="#CCCCCC">你 </font><font color="#E5E5E5">说话 </font>
+
+64
+00:02:40,450 --> 00:02:42,940
+ <font color="#CCCCCC">伙计们 </font><font color="#E5E5E5">这样做是做什么的 </font>
+
+65
+00:02:42,940 --> 00:02:44,820
+每当你使用<font color="#E5E5E5">百分号时 </font>
+
+66
+00:02:44,820 --> 00:02:49,420
+ <font color="#E5E5E5">每当你将18除以 </font><font color="#CCCCCC">4时， </font><font color="#E5E5E5">它就是 </font><font color="#CCCCCC">4 </font>
+
+67
+00:02:49,420 --> 00:02:53,080
+ <font color="#CCCCCC">2剩下的 </font><font color="#E5E5E5">所以16加2是18 </font><font color="#CCCCCC">所以什么 </font>
+
+68
+00:02:53,080 --> 00:02:55,450
+这<font color="#E5E5E5">就是所谓的模数 </font>
+
+69
+00:02:55,450 --> 00:02:57,870
+百分号<font color="#E5E5E5">它给你余数 </font>
+
+70
+00:02:57,870 --> 00:03:02,050
+ <font color="#E5E5E5">很简单 </font><font color="#CCCCCC">所以好爽的 </font><font color="#E5E5E5">师 </font>
+
+71
+00:03:02,050 --> 00:03:04,750
+符号基本数学运算<font color="#E5E5E5">还有什么 </font>
+
+72
+00:03:04,750 --> 00:03:05,290
+你得到了
+
+73
+00:03:05,290 --> 00:03:07,240
+ <font color="#E5E5E5">你可以做的另一件很酷的事情 </font>
+
+74
+00:03:07,240 --> 00:03:10,000
+使用<font color="#E5E5E5">Python非常容易计算 </font>
+
+75
+00:03:10,000 --> 00:03:13,480
+ <font color="#E5E5E5">权力或者是指数 </font><font color="#CCCCCC">所说的 </font>
+
+76
+00:03:13,480 --> 00:03:15,850
+ <font color="#E5E5E5">你想要做 </font><font color="#CCCCCC">5 的</font><font color="#E5E5E5">动力 </font>
+
+77
+00:03:15,850 --> 00:03:22,420
+ 3 <font color="#E5E5E5">你可以做5 x 5 x 5并得到125 </font>
+
+78
+00:03:22,420 --> 00:03:27,760
+或者你可以做<font color="#CCCCCC">5个双星 </font><font color="#E5E5E5">号 </font><font color="#CCCCCC">3 </font>
+
+79
+00:03:27,760 --> 00:03:29,739
+ <font color="#E5E5E5">这几乎 </font><font color="#CCCCCC">是一回事 </font>
+
+80
+00:03:29,739 --> 00:03:32,620
+如果<font color="#E5E5E5">你点击 </font><font color="#CCCCCC">进入它几乎 </font><font color="#E5E5E5">说 </font>
+
+81
+00:03:32,620 --> 00:03:36,040
+ 5到<font color="#E5E5E5">3的力量再次加倍 </font>
+
+82
+00:03:36,040 --> 00:03:39,280
+星号表示计算<font color="#CCCCCC">所有权力</font>
+
+83
+00:03:39,280 --> 00:03:41,620
+ <font color="#CCCCCC">对，所以这几乎 </font><font color="#E5E5E5">是核心 </font>
+
+84
+00:03:41,620 --> 00:03:44,440
+如何<font color="#E5E5E5">使用简单数学的基础知识</font>
+
+85
+00:03:44,440 --> 00:03:47,739
+ Python中的操作符， <font color="#CCCCCC">所以现在我会教 </font>
+
+86
+00:03:47,739 --> 00:03:50,920
+ <font color="#E5E5E5">各位变量现在变量了 </font>
+
+87
+00:03:50,920 --> 00:03:53,620
+就像<font color="#E5E5E5">占位符一样</font>
+
+88
+00:03:53,620 --> 00:03:55,989
+其他<font color="#E5E5E5">就像数学课一样， </font><font color="#CCCCCC">你可以 </font>
+
+89
+00:03:55,989 --> 00:03:58,239
+拿<font color="#E5E5E5">X，你可以 </font><font color="#CCCCCC">命名你的变量 </font>
+
+90
+00:03:58,239 --> 00:04:00,190
+你想<font color="#E5E5E5">确保几乎任何东西</font>
+
+91
+00:04:00,190 --> 00:04:02,920
+你用<font color="#E5E5E5">字母开始他们可以 </font>
+
+92
+00:04:02,920 --> 00:04:04,900
+还<font color="#E5E5E5">包括其中的数字不包括在内 </font>
+
+93
+00:04:04,900 --> 00:04:07,780
+任何<font color="#E5E5E5">像愚蠢的象征漂亮 </font>
+
+94
+00:04:07,780 --> 00:04:09,610
+多以字母开头它<font color="#E5E5E5">， </font><font color="#CCCCCC">你可以 </font>
+
+95
+00:04:09,610 --> 00:04:11,440
+同样也有<font color="#CCCCCC">数字 </font>
+
+96
+00:04:11,440 --> 00:04:15,040
+就像一个非常<font color="#CCCCCC">基本的规则所以让我们继续吧 </font>
+
+97
+00:04:15,040 --> 00:04:17,500
+ <font color="#CCCCCC">并在其中 </font><font color="#E5E5E5">创建一个变量 </font><font color="#CCCCCC">名称tuna </font>
+
+98
+00:04:17,500 --> 00:04:19,089
+ <font color="#E5E5E5">为了将其设置为等于某个 </font><font color="#CCCCCC">值 </font>
+
+99
+00:04:19,089 --> 00:04:21,488
+只需使用等号然后<font color="#CCCCCC">使用 </font>
+
+100
+00:04:21,488 --> 00:04:25,990
+ <font color="#E5E5E5">价值如此命中输入 </font><font color="#CCCCCC">，现在我们 </font><font color="#E5E5E5">有 </font>
+
+101
+00:04:25,990 --> 00:04:27,340
+一个<font color="#CCCCCC">叫做金枪鱼的变量 </font>
+
+102
+00:04:27,340 --> 00:04:30,250
+并且它<font color="#E5E5E5">等于</font><font color="#CCCCCC">五个</font><font color="#E5E5E5">值 ， </font>
+
+103
+00:04:30,250 --> 00:04:32,020
+ <font color="#E5E5E5">现在我们可以 </font><font color="#CCCCCC">用 </font><font color="#E5E5E5">它代替 </font><font color="#CCCCCC">任何一个 </font>
+
+104
+00:04:32,020 --> 00:04:35,530
+ <font color="#E5E5E5">因此，例如我们可以记住 </font>
+
+105
+00:04:35,530 --> 00:04:37,450
+ <font color="#CCCCCC">现在我们可以将两个数字加在一起</font>
+
+106
+00:04:37,450 --> 00:04:40,630
+添加一个<font color="#CCCCCC">数字加 </font><font color="#E5E5E5">一个变量，这是 </font>
+
+107
+00:04:40,630 --> 00:04:44,980
+基本上<font color="#CCCCCC">说20加 </font><font color="#E5E5E5">5击中输入 </font>
+
+108
+00:04:44,980 --> 00:04:47,500
+非常酷， <font color="#E5E5E5">现在你可以实际使用 </font><font color="#CCCCCC">所有 </font>
+
+109
+00:04:47,500 --> 00:04:49,780
+ <font color="#CCCCCC">等式中的 </font><font color="#E5E5E5">变量， </font><font color="#CCCCCC">如果你 </font>
+
+110
+00:04:49,780 --> 00:04:54,190
+金枪鱼等于<font color="#CCCCCC">五 </font><font color="#E5E5E5">，培根等于 </font>
+
+111
+00:04:54,190 --> 00:04:58,050
+到18岁，你<font color="#E5E5E5">可以做的就是放培根 </font>
+
+112
+00:04:58,050 --> 00:05:01,120
+ <font color="#E5E5E5">/ tuna几乎说 </font><font color="#CCCCCC">得好 </font>
+
+113
+00:05:01,120 --> 00:05:04,900
+ <font color="#E5E5E5">18比五，这是三点六 </font>
+
+114
+00:05:04,900 --> 00:05:06,970
+所以，如果你们<font color="#CCCCCC">想 </font><font color="#E5E5E5">知道什么 </font>
+
+115
+00:05:06,970 --> 00:05:10,570
+培根/金枪鱼是<font color="#E5E5E5">三点六 </font>
+
+116
+00:05:10,570 --> 00:05:13,360
+ <font color="#E5E5E5">非常有趣，但现在我们知道了 </font>
+
+117
+00:05:13,360 --> 00:05:16,210
+基本的<font color="#CCCCCC">数学运营商 </font><font color="#E5E5E5">还有些凉 </font><font color="#CCCCCC">庵 </font>
+
+118
+00:05:16,210 --> 00:05:19,150
+你知道额外的事情，如指数<font color="#E5E5E5">和 </font>
+
+119
+00:05:19,150 --> 00:05:22,000
+东西<font color="#CCCCCC">以及如何 在 划分 </font><font color="#E5E5E5">腊肉 </font>
+
+120
+00:05:22,000 --> 00:05:24,430
+金枪鱼<font color="#E5E5E5">所以在下一个视频我们 </font><font color="#CCCCCC">要去 </font>
+
+121
+00:05:24,430 --> 00:05:26,169
+ <font color="#CCCCCC">要 </font><font color="#E5E5E5">学习一些 </font><font color="#CCCCCC">更 </font><font color="#E5E5E5">复杂的东西 </font>
+
+122
+00:05:26,169 --> 00:05:27,520
+谢谢你们<font color="#CCCCCC">观看，我会看到 </font>
+
+123
+00:05:27,520 --> 00:00:00,000
+然后是你
+

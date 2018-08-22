@@ -1,0 +1,464 @@
+1
+00:00:00,030 --> 00:00:04,830
+all righty guys welcome back to another
+video and these next I want to say like
+
+2
+00:00:04,830 --> 00:00:09,300
+five to ten videos they're going to be
+the coolest place on tutorials so far
+
+3
+00:00:09,300 --> 00:00:12,269
+because I'm going to show you guys how
+to use this awesome
+
+4
+00:00:12,269 --> 00:00:17,039
+library it's actually really easy to use
+but you can do awesome things to images
+
+5
+00:00:17,039 --> 00:00:21,390
+like rotate them stretch them resize
+them you can actually make some really
+
+6
+00:00:21,390 --> 00:00:26,099
+awesome photo filters like you would in
+Photoshop or Instagram so I'm gonna be
+
+7
+00:00:26,099 --> 00:00:30,119
+showing you guys all of that so uh well
+let's go ahead and get started
+
+8
+00:00:30,119 --> 00:00:35,969
+oh now freakin whooping-cough already
+actually winter just started we just got
+
+9
+00:00:35,969 --> 00:00:40,500
+the first snowfall and for some reason
+whenever the snow starts falling the
+
+10
+00:00:40,500 --> 00:00:44,550
+inside of my house gets really dry like
+my skin starts drying out but that's
+
+11
+00:00:44,550 --> 00:00:49,020
+disgusting so let's get back on track
+here now obviously I'm going to be
+
+12
+00:00:49,020 --> 00:00:53,100
+teaching you guys how to edit images do
+some cool things with them so we
+
+13
+00:00:53,100 --> 00:00:59,520
+probably need some images now I already
+took a couple from my computer we should
+
+14
+00:00:59,520 --> 00:01:04,979
+show them to you guys here's me is baby
+I'm also going to be using this one this
+
+15
+00:01:04,979 --> 00:01:07,290
+is my old profile picture for Bucky's
+room
+
+16
+00:01:07,290 --> 00:01:12,810
+this girl ping I just made this in
+Photoshop real quick um I don't know why
+
+17
+00:01:12,810 --> 00:01:16,080
+I chose this I thought it was kind of
+funny she looks like I don't even know
+
+18
+00:01:16,080 --> 00:01:20,610
+she looks like but I needed something
+with some colors and the last photo I'm
+
+19
+00:01:20,610 --> 00:01:27,360
+going to be using is a picture of my
+sister and I so of course just go ahead
+
+20
+00:01:27,360 --> 00:01:31,979
+and grab any picture or image from your
+computer and drag in the same directory
+
+21
+00:01:31,979 --> 00:01:36,630
+is your Python file and you're going to
+be good but if for some reason you want
+
+22
+00:01:36,630 --> 00:01:39,680
+to use my pictures then I'll post them
+on the forum but you know you probably
+
+23
+00:01:39,680 --> 00:01:44,189
+don't want to look at me throughout the
+whole series so again go get any
+pictures drop them in and you'll be good
+
+24
+00:01:46,170 --> 00:01:50,909
+to go so now that we have some pictures
+to work with the only other thing that
+
+25
+00:01:50,909 --> 00:01:56,610
+we need to do kind of to prepare is
+download that library now if you go to
+
+26
+00:01:56,610 --> 00:02:01,229
+file settings of course you can see all
+your libraries the package is called
+
+27
+00:02:01,229 --> 00:02:06,750
+pillow so whenever you of course
+download it click this type in pillow
+
+28
+00:02:06,750 --> 00:02:11,950
+and you'll be good to go so again that's
+pillow but check this out
+
+29
+00:02:11,950 --> 00:02:16,000
+whenever we actually import the library
+what we're going to do is we're going to
+
+30
+00:02:16,000 --> 00:02:23,860
+type from PIL import the class image all
+right so we're going to be using this
+
+31
+00:02:23,860 --> 00:02:28,569
+image class first but wait a minute
+buggy you just will need to download the
+pillow library but right here I'm
+
+32
+00:02:32,230 --> 00:02:37,890
+importing from pill so what the heck is
+up with that why is it called pill well
+
+33
+00:02:37,890 --> 00:02:41,980
+if this is probably pretty boring but I
+just want to explain to you guys what's
+
+34
+00:02:41,980 --> 00:02:47,170
+going on so you aren't confused right
+now we're using Python 3.4 this isn't
+
+35
+00:02:47,170 --> 00:02:52,720
+actually code I'll just type it out real
+quick so we're using Python 3.4 and the
+
+36
+00:02:52,720 --> 00:02:57,819
+library to edit images is called pillow
+now in the old version of Python that
+
+37
+00:02:57,819 --> 00:03:02,620
+isn't compatible with what I'm teaching
+you guys the old version was called pill
+
+38
+00:03:02,620 --> 00:03:06,549
+so what they did for the new version is
+they pretty much copied it made it
+
+39
+00:03:06,549 --> 00:03:10,390
+compatible with three point four and
+named the pillow so why didn't they just
+put pillow right there well for all the
+
+40
+00:03:12,970 --> 00:03:17,890
+pretty much programmers who wanted who
+are already familiar with the syntax of
+
+41
+00:03:17,890 --> 00:03:22,510
+this library they wanted to you know
+make it kind of convention familiar for
+
+42
+00:03:22,510 --> 00:03:28,540
+them so that's why they just imported it
+from pill and you know so I don't know
+
+43
+00:03:28,540 --> 00:03:33,280
+it's a pretty stupid story but um that's
+why it's called pill instead of pillow
+
+44
+00:03:33,280 --> 00:03:37,600
+to make it kind of compatible and
+comfortable for all the people who are
+
+45
+00:03:37,600 --> 00:03:43,420
+familiar with using it so cool story bro
+I know but uh whatever so now that we
+
+46
+00:03:43,420 --> 00:03:47,440
+got everything taken care of let's go
+ahead and get started making a basic
+
+47
+00:03:47,440 --> 00:03:53,170
+image so the first thing we need to do
+is create some kind of object from this
+
+48
+00:03:53,170 --> 00:03:58,359
+image class a pillow object so I'm just
+going to name my object IMG it's the
+
+49
+00:03:58,359 --> 00:04:03,940
+most boring thing I possibly could have
+thunk of this sinc funk think think it
+
+50
+00:04:03,940 --> 00:04:10,180
+of yep that's it think it up alright so
+in order to create an object image dot
+
+51
+00:04:10,180 --> 00:04:17,019
+open and in this open function what you
+do is you just type the name of what do
+
+52
+00:04:17,019 --> 00:04:22,050
+I want to use all right so I'll take
+this image from my computer Bucky jpg
+
+53
+00:04:22,050 --> 00:04:25,600
+and what we're saying is pretty much
+openness
+
+54
+00:04:25,600 --> 00:04:33,340
+and convert it to a pillow object so now
+this IMG variable is actually a pillow
+object so now we can do a bunch of cool
+
+55
+00:04:35,740 --> 00:04:39,340
+things with it before I start showing
+you guys the really advanced functions
+of how to manipulate it I'll just show
+
+56
+00:04:41,320 --> 00:04:44,680
+you guys a couple
+boring stuff first but it's actually
+
+57
+00:04:44,680 --> 00:04:48,580
+slept we're going to be using a lot so
+the first thing is just to print out
+
+58
+00:04:48,580 --> 00:04:53,800
+some properties of this object or the
+image so we can print out the image size
+
+59
+00:04:53,800 --> 00:05:00,610
+and the dot symbol and then size
+property or attribute so actually you
+
+60
+00:05:00,610 --> 00:05:06,130
+run this right now and you see your
+returns a tuple of 400 by 400 that of
+
+61
+00:05:06,130 --> 00:05:12,760
+course means that this image is 400 by
+wide by 400 wide by 400 tall and we can
+
+62
+00:05:12,760 --> 00:05:15,900
+also print out something like I don't
+know it's another thing format is
+
+63
+00:05:15,900 --> 00:05:22,120
+another property and what this does is
+it says okay so right now we can see
+
+64
+00:05:22,120 --> 00:05:25,840
+that it's a JPEG and later on I'm going
+to be showing you guys how to convert
+for example if we you wanted to convert
+
+65
+00:05:28,660 --> 00:05:32,860
+this JPEG to a ping or a gif I'm going
+to be showing you guys how to do that as
+
+66
+00:05:32,860 --> 00:05:38,860
+well but right now this is how you print
+out simple properties of it and one cool
+
+67
+00:05:38,860 --> 00:05:42,310
+thing that I also want to show you guys
+is this anytime you want to actually
+
+68
+00:05:42,310 --> 00:05:46,930
+display this image then what you can do
+is you can type the name of the object
+
+69
+00:05:46,930 --> 00:05:52,930
+and show now I want to explain one thing
+down here
+
+70
+00:05:52,930 --> 00:05:57,340
+you can't display images this is just a
+console it's pretty much like a fancy
+command line built just for PyCharm it
+
+71
+00:05:59,950 --> 00:06:05,680
+isn't made to display images itself so
+whenever you want to display an image on
+
+72
+00:06:05,680 --> 00:06:10,480
+your computer what happens whenever you
+call this function is it goes to the
+
+73
+00:06:10,480 --> 00:06:16,030
+default program that you whenever you
+you know you're just um put on show you
+guys
+
+74
+00:06:16,420 --> 00:06:21,010
+whenever you're just looking at files
+like this and you double click
+
+75
+00:06:21,010 --> 00:06:26,620
+whenever you double click an image file
+however it opens is the default image
+
+76
+00:06:26,620 --> 00:06:31,690
+processing program for your computer now
+since I have Photoshop installed on my
+
+77
+00:06:31,690 --> 00:06:37,750
+computer whenever I run this the image
+is going to open in Photoshop but if you
+
+78
+00:06:37,750 --> 00:06:41,199
+don't have Photoshop then I might just
+open window explore or anything like
+
+79
+00:06:41,199 --> 00:06:46,509
+that but that's what's going on you also
+probably notice that whenever this open
+
+80
+00:06:46,509 --> 00:06:53,019
+in Photoshop look at the name in Python
+it was named Bucky jpg but in Photoshop
+
+81
+00:06:53,019 --> 00:07:01,809
+it is named tum 5 a 6 a 3 b JV BMP and
+what this is is basically in order to
+
+82
+00:07:01,809 --> 00:07:05,679
+open in Photoshop it needs to open a
+file
+so what pillow does whenever you call
+
+83
+00:07:11,049 --> 00:07:16,659
+this show function it pretty much
+creates a temporary image file and it
+
+84
+00:07:16,659 --> 00:07:20,589
+saves it real quick and then it opens it
+with whatever program that you told it
+
+85
+00:07:20,589 --> 00:07:26,349
+to open so that is the basics and pretty
+much all the boring stuff of you know
+
+86
+00:07:26,349 --> 00:07:31,449
+the boring history of pillow some boring
+attributes and you know some boring
+
+87
+00:07:31,449 --> 00:07:37,359
+rules about open how to open it in
+temporary file names so now that we got
+all that crap out of the way we can
+
+88
+00:07:39,639 --> 00:07:42,879
+finally begin learning the cool stuff
+and I'm going to talk to you guys about
+
+89
+00:07:42,879 --> 00:07:46,809
+that stuff in the next video because I'm
+pretty hungry and I'm probably going to
+
+90
+00:07:46,809 --> 00:07:51,129
+go eat like seven hot pockets right now
+so moving on I don't thank you guys for
+
+91
+00:07:51,129 --> 00:07:55,889
+watching don't forget subscribe and I'll
+see you guys next tutorial

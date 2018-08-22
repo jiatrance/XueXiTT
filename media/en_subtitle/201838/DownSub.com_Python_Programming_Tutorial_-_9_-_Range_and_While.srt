@@ -1,0 +1,560 @@
+1
+00:00:00,079 --> 00:00:02,909
+<font color="#CCCCCC">alright guys in this</font><font color="#E5E5E5"> video we're going</font>
+
+2
+00:00:02,909 --> 00:00:05,580
+<font color="#E5E5E5">to be learning about a range not like a</font>
+
+3
+00:00:05,580 --> 00:00:09,690
+range like<font color="#CCCCCC"> home home on the</font><font color="#E5E5E5"> range</font>
+
+4
+00:00:09,690 --> 00:00:11,790
+not that one<font color="#CCCCCC"> I'm talking about</font><font color="#E5E5E5"> a range</font>
+
+5
+00:00:11,790 --> 00:00:15,570
+of<font color="#E5E5E5"> numbers so this is also</font><font color="#CCCCCC"> a cool way</font>
+
+6
+00:00:15,570 --> 00:00:18,630
+that<font color="#E5E5E5"> we can create</font><font color="#CCCCCC"> a loop without a list</font>
+
+7
+00:00:18,630 --> 00:00:20,070
+<font color="#E5E5E5">and if you're scratching your head</font><font color="#CCCCCC"> and</font>
+
+8
+00:00:20,070 --> 00:00:21,359
+you're like<font color="#CCCCCC"> okay well what</font><font color="#E5E5E5"> the heck are</font>
+
+9
+00:00:21,359 --> 00:00:22,890
+<font color="#E5E5E5">we going to loop through</font><font color="#CCCCCC"> event</font><font color="#E5E5E5"> well</font>
+
+10
+00:00:22,890 --> 00:00:24,449
+that's when we're going<font color="#E5E5E5"> to teach you</font>
+
+11
+00:00:24,449 --> 00:00:26,939
+guys<font color="#E5E5E5"> so make a for loop and then name</font>
+
+12
+00:00:26,939 --> 00:00:28,470
+<font color="#CCCCCC">the variable anything you want</font><font color="#E5E5E5"> I'll just</font>
+
+13
+00:00:28,470 --> 00:00:32,070
+<font color="#CCCCCC">name my necks</font><font color="#E5E5E5"> and usually we said</font>
+
+14
+00:00:32,070 --> 00:00:33,840
+<font color="#E5E5E5">something like</font><font color="#CCCCCC"> enlist and</font><font color="#E5E5E5"> then you wrote</font>
+
+15
+00:00:33,840 --> 00:00:36,090
+the<font color="#E5E5E5"> list name but what if we just</font><font color="#CCCCCC"> said</font>
+
+16
+00:00:36,090 --> 00:00:36,690
+<font color="#E5E5E5">okay</font>
+
+17
+00:00:36,690 --> 00:00:38,520
+we don't have anything to<font color="#CCCCCC"> loop</font><font color="#E5E5E5"> through</font>
+
+18
+00:00:38,520 --> 00:00:41,340
+but I want to have this loop occur<font color="#CCCCCC"> ten</font>
+
+19
+00:00:41,340 --> 00:00:43,500
+times<font color="#CCCCCC"> I want something</font><font color="#E5E5E5"> to occur</font><font color="#CCCCCC"> ten</font>
+
+20
+00:00:43,500 --> 00:00:47,430
+<font color="#E5E5E5">times well what we can do is we can</font>
+
+21
+00:00:47,430 --> 00:00:52,469
+write<font color="#E5E5E5"> range and inside here ten what</font>
+
+22
+00:00:52,469 --> 00:00:55,770
+this is pretty<font color="#E5E5E5"> much saying is</font><font color="#CCCCCC"> okay</font><font color="#E5E5E5"> the</font>
+
+23
+00:00:55,770 --> 00:00:58,199
+loop<font color="#E5E5E5"> through this this is pretty much</font>
+
+24
+00:00:58,199 --> 00:01:00,539
+<font color="#E5E5E5">the same thing as making a list really</font>
+
+25
+00:01:00,539 --> 00:01:04,309
+quick<font color="#E5E5E5"> so probably easier if</font><font color="#CCCCCC"> we</font><font color="#E5E5E5"> just see</font>
+
+26
+00:01:04,309 --> 00:01:09,060
+<font color="#E5E5E5">so right now X is equivalent to the</font>
+
+27
+00:01:09,060 --> 00:01:10,770
+numbers<font color="#CCCCCC"> 0</font><font color="#E5E5E5"> through</font><font color="#CCCCCC"> 9</font>
+
+28
+00:01:10,770 --> 00:01:13,170
+since remember<font color="#E5E5E5"> computers start counting</font>
+
+29
+00:01:13,170 --> 00:01:15,900
+at<font color="#CCCCCC"> ten now</font><font color="#E5E5E5"> you can actually do anything</font>
+
+30
+00:01:15,900 --> 00:01:21,780
+<font color="#E5E5E5">ten times it doesn't even need to</font>
+
+31
+00:01:21,780 --> 00:01:24,920
+involve<font color="#E5E5E5"> X so if you just did this I</font>
+
+32
+00:01:24,920 --> 00:01:28,590
+printed out Bucky<font color="#E5E5E5"> is awesome ten times</font>
+
+33
+00:01:28,590 --> 00:01:31,409
+<font color="#E5E5E5">there's actually a really good program</font>
+
+34
+00:01:31,409 --> 00:01:33,119
+<font color="#CCCCCC">for people</font><font color="#E5E5E5"> with</font><font color="#CCCCCC"> a you</font><font color="#E5E5E5"> know</font><font color="#CCCCCC"> self</font>
+
+35
+00:01:33,119 --> 00:01:34,890
+<font color="#CCCCCC">confidence</font><font color="#E5E5E5"> issues Bucky's awesome look</font>
+
+36
+00:01:34,890 --> 00:01:37,530
+<font color="#E5E5E5">ease look you know what I am awesome</font><font color="#CCCCCC"> all</font>
+
+37
+00:01:37,530 --> 00:01:38,820
+right<font color="#CCCCCC"> so enough of</font><font color="#E5E5E5"> that</font>
+
+38
+00:01:38,820 --> 00:01:42,540
+and let me actually go back<font color="#CCCCCC"> to X because</font>
+
+39
+00:01:42,540 --> 00:01:43,649
+I want to<font color="#E5E5E5"> show you</font><font color="#CCCCCC"> guys some</font><font color="#E5E5E5"> other</font>
+
+40
+00:01:43,649 --> 00:01:46,619
+things<font color="#E5E5E5"> and another thing whenever you</font>
+
+41
+00:01:46,619 --> 00:01:48,659
+want to clear out<font color="#CCCCCC"> your</font><font color="#E5E5E5"> console because I</font>
+
+42
+00:01:48,659 --> 00:01:50,460
+<font color="#E5E5E5">don't know maybe it's just annoying just</font>
+
+43
+00:01:50,460 --> 00:01:52,189
+<font color="#E5E5E5">hit this</font><font color="#CCCCCC"> little trash bucket button</font>
+
+44
+00:01:52,189 --> 00:01:55,259
+<font color="#CCCCCC">there mazuma</font><font color="#E5E5E5"> stupid trash man who won't</font>
+
+45
+00:01:55,259 --> 00:01:57,630
+take<font color="#E5E5E5"> my</font><font color="#CCCCCC"> freaking cardboard</font><font color="#E5E5E5"> but anyways</font>
+
+46
+00:01:57,630 --> 00:02:01,469
+just<font color="#CCCCCC"> minimize that all right</font><font color="#E5E5E5"> so back up</font>
+
+47
+00:02:01,469 --> 00:02:04,740
+to here<font color="#CCCCCC"> so of</font><font color="#E5E5E5"> course whenever we print</font>
+
+48
+00:02:04,740 --> 00:02:07,590
+this out X is equivalent<font color="#CCCCCC"> to the numbers</font>
+
+49
+00:02:07,590 --> 00:02:10,919
+<font color="#CCCCCC">zero through nine</font><font color="#E5E5E5"> now we can also do</font>
+
+50
+00:02:10,919 --> 00:02:11,790
+something<font color="#E5E5E5"> out</font>
+
+51
+00:02:11,790 --> 00:02:14,010
+and that's this instead<font color="#E5E5E5"> of just</font><font color="#CCCCCC"> writing</font>
+
+52
+00:02:14,010 --> 00:02:16,140
+<font color="#CCCCCC">ten right</font><font color="#E5E5E5"> there we can</font><font color="#CCCCCC"> actually give a</font>
+
+53
+00:02:16,140 --> 00:02:20,310
+range of<font color="#E5E5E5"> numbers so by</font><font color="#CCCCCC"> default it starts</font>
+
+54
+00:02:20,310 --> 00:02:23,189
+at zero<font color="#CCCCCC"> now let's say that</font><font color="#E5E5E5"> we wanted to</font>
+
+55
+00:02:23,189 --> 00:02:26,819
+<font color="#E5E5E5">start XM</font><font color="#CCCCCC"> five and we wanted</font><font color="#E5E5E5"> it to</font><font color="#CCCCCC"> go to</font>
+
+56
+00:02:26,819 --> 00:02:29,459
+I<font color="#CCCCCC"> don't know I have a maximum of like</font>
+
+57
+00:02:29,459 --> 00:02:32,790
+<font color="#CCCCCC">twelve or</font><font color="#E5E5E5"> something</font><font color="#CCCCCC"> who knows oh really</font>
+
+58
+00:02:32,790 --> 00:02:35,159
+<font color="#CCCCCC">now I got the hiccups</font><font color="#E5E5E5"> okay</font><font color="#CCCCCC"> it's going</font><font color="#E5E5E5"> to</font>
+
+59
+00:02:35,159 --> 00:02:35,760
+tick me<font color="#CCCCCC"> off</font>
+
+60
+00:02:35,760 --> 00:02:38,390
+<font color="#E5E5E5">all right so press run</font><font color="#CCCCCC"> and check</font><font color="#E5E5E5"> it out</font>
+
+61
+00:02:38,390 --> 00:02:41,700
+<font color="#E5E5E5">so now</font><font color="#CCCCCC"> it starts at five and it loops</font>
+
+62
+00:02:41,700 --> 00:02:45,720
+all the<font color="#CCCCCC"> way</font><font color="#E5E5E5"> until it gets to 12 so when</font>
+
+63
+00:02:45,720 --> 00:02:48,840
+we<font color="#E5E5E5"> don't have two numbers then it starts</font>
+
+64
+00:02:48,840 --> 00:02:51,629
+at zero implicitly<font color="#E5E5E5"> when we have two</font>
+
+65
+00:02:51,629 --> 00:02:53,730
+numbers<font color="#CCCCCC"> we have a beginning and the end</font>
+
+66
+00:02:53,730 --> 00:02:58,709
+now the last thing<font color="#E5E5E5"> is what happens when</font>
+
+67
+00:02:58,709 --> 00:03:01,920
+<font color="#CCCCCC">we do this</font><font color="#E5E5E5"> with three numbers</font><font color="#CCCCCC"> you might</font>
+
+68
+00:03:01,920 --> 00:03:03,629
+<font color="#E5E5E5">be thinking beginning middle end well</font>
+
+69
+00:03:03,629 --> 00:03:06,989
+not exactly<font color="#CCCCCC"> the first one is what</font><font color="#E5E5E5"> number</font>
+
+70
+00:03:06,989 --> 00:03:09,120
+do you<font color="#CCCCCC"> want to start at</font><font color="#E5E5E5"> the second one</font>
+
+71
+00:03:09,120 --> 00:03:10,980
+is where<font color="#E5E5E5"> you want to end</font><font color="#CCCCCC"> that and the</font>
+
+72
+00:03:10,980 --> 00:03:13,319
+third one is your increment<font color="#E5E5E5"> so this</font>
+
+73
+00:03:13,319 --> 00:03:16,079
+means count from 10 to 40 but<font color="#E5E5E5"> do it in</font>
+
+74
+00:03:16,079 --> 00:03:19,079
+steps<font color="#E5E5E5"> of 5</font><font color="#CCCCCC"> so 10 15 20 tomato tomahto</font>
+
+75
+00:03:19,079 --> 00:03:25,139
+<font color="#E5E5E5">so on and so forth so pretty freakin</font>
+
+76
+00:03:25,139 --> 00:03:25,709
+sweet
+
+77
+00:03:25,709 --> 00:03:28,410
+so again if you ever want to specify by
+
+78
+00:03:28,410 --> 00:03:32,250
+how<font color="#E5E5E5"> much how much why can I not talk</font>
+
+79
+00:03:32,250 --> 00:03:34,620
+<font color="#E5E5E5">today how much you want to count by this</font>
+
+80
+00:03:34,620 --> 00:03:35,989
+is how you do that
+
+81
+00:03:35,989 --> 00:03:38,639
+now I guess I<font color="#E5E5E5"> have time</font><font color="#CCCCCC"> in this video</font><font color="#E5E5E5"> to</font>
+
+82
+00:03:38,639 --> 00:03:41,340
+<font color="#CCCCCC">show you</font><font color="#E5E5E5"> guys about um the only other</font>
+
+83
+00:03:41,340 --> 00:03:43,019
+loop I want to talk to you about right
+
+84
+00:03:43,019 --> 00:03:46,139
+now<font color="#E5E5E5"> and this is called a while loop now</font>
+
+85
+00:03:46,139 --> 00:03:48,480
+the while loop is a special loop that
+
+86
+00:03:48,480 --> 00:03:51,840
+loops<font color="#E5E5E5"> as long as a condition is true so</font>
+
+87
+00:03:51,840 --> 00:03:54,120
+you<font color="#CCCCCC"> don't explicitly</font><font color="#E5E5E5"> give it either a</font>
+
+88
+00:03:54,120 --> 00:03:55,650
+list you don't<font color="#E5E5E5"> give</font><font color="#CCCCCC"> it a range of</font>
+
+89
+00:03:55,650 --> 00:03:57,840
+<font color="#E5E5E5">numbers you just said</font><font color="#CCCCCC"> ok</font><font color="#E5E5E5"> just keep</font>
+
+90
+00:03:57,840 --> 00:04:00,919
+looping until<font color="#E5E5E5"> this one test equals false</font>
+
+91
+00:04:00,919 --> 00:04:04,230
+<font color="#E5E5E5">so let me show you quick quick example</font>
+
+92
+00:04:04,230 --> 00:04:06,359
+make a variable called<font color="#E5E5E5"> buttcrack</font>
+
+93
+00:04:06,359 --> 00:04:07,769
+if you don't name<font color="#CCCCCC"> it but correct your</font>
+
+94
+00:04:07,769 --> 00:04:09,389
+program is not<font color="#CCCCCC"> going to work I'm just</font>
+
+95
+00:04:09,389 --> 00:04:12,479
+<font color="#CCCCCC">getting flow now what we do is we use</font>
+
+96
+00:04:12,479 --> 00:04:15,750
+the keyword<font color="#CCCCCC"> while</font><font color="#E5E5E5"> and after</font><font color="#CCCCCC"> this</font><font color="#E5E5E5"> we give</font>
+
+97
+00:04:15,750 --> 00:04:16,680
+<font color="#CCCCCC">a</font><font color="#E5E5E5"> simple test</font>
+
+98
+00:04:16,680 --> 00:04:21,238
+so if buttcrack<font color="#E5E5E5"> is less than 10</font>
+
+99
+00:04:21,238 --> 00:04:23,099
+and just do<font color="#CCCCCC"> something we'll just print</font>
+
+100
+00:04:23,099 --> 00:04:27,330
+<font color="#E5E5E5">out</font><font color="#CCCCCC"> buck</font><font color="#E5E5E5"> crack now of course</font>
+
+101
+00:04:27,330 --> 00:04:31,500
+oops did I<font color="#CCCCCC"> accidently say butt crack</font>
+
+102
+00:04:31,500 --> 00:04:32,449
+then<font color="#E5E5E5"> I write my name</font>
+
+103
+00:04:32,449 --> 00:04:37,830
+Bucky crack<font color="#E5E5E5"> alright so anyways what's</font>
+
+104
+00:04:37,830 --> 00:04:39,470
+going to<font color="#E5E5E5"> happen in this case is</font><font color="#CCCCCC"> this</font>
+
+105
+00:04:39,470 --> 00:04:42,690
+well<font color="#E5E5E5"> five is always going to be less</font>
+
+106
+00:04:42,690 --> 00:04:44,669
+<font color="#CCCCCC">than</font><font color="#E5E5E5"> ten you know unless in the middle</font>
+
+107
+00:04:44,669 --> 00:04:47,190
+of our program<font color="#E5E5E5"> math and physics suddenly</font>
+
+108
+00:04:47,190 --> 00:04:49,139
+<font color="#E5E5E5">decided change so if we just run this</font>
+
+109
+00:04:49,139 --> 00:04:51,479
+right now<font color="#CCCCCC"> as you</font><font color="#E5E5E5"> can see it keeps</font>
+
+110
+00:04:51,479 --> 00:04:52,979
+<font color="#CCCCCC">printing out five five five five five</font>
+
+111
+00:04:52,979 --> 00:04:57,270
+<font color="#E5E5E5">forever so what we need to do and clear</font>
+
+112
+00:04:57,270 --> 00:04:59,669
+this out<font color="#E5E5E5"> so what we need</font><font color="#CCCCCC"> to do is we</font>
+
+113
+00:04:59,669 --> 00:05:01,530
+need<font color="#E5E5E5"> a way to change the value of</font>
+
+114
+00:05:01,530 --> 00:05:03,900
+<font color="#E5E5E5">buttcrack to increase on every</font><font color="#CCCCCC"> single</font>
+
+115
+00:05:03,900 --> 00:05:06,449
+<font color="#CCCCCC">iteration of</font><font color="#E5E5E5"> the loop</font><font color="#CCCCCC"> so if you're right</font>
+
+116
+00:05:06,449 --> 00:05:10,740
+<font color="#CCCCCC">buck crack plus equals one what this</font>
+
+117
+00:05:10,740 --> 00:05:13,050
+<font color="#E5E5E5">line of code right</font><font color="#CCCCCC"> here does is it adds</font>
+
+118
+00:05:13,050 --> 00:05:15,990
+<font color="#E5E5E5">one</font><font color="#CCCCCC"> two but</font><font color="#E5E5E5"> crack every</font><font color="#CCCCCC"> time so the</font>
+
+119
+00:05:15,990 --> 00:05:18,000
+first<font color="#E5E5E5"> time this loop occurs it's going</font>
+
+120
+00:05:18,000 --> 00:05:21,090
+to print out five<font color="#E5E5E5"> and then</font><font color="#CCCCCC"> add one two</font>
+
+121
+00:05:21,090 --> 00:05:23,310
+<font color="#E5E5E5">butt crack so the next time the loop</font>
+
+122
+00:05:23,310 --> 00:05:25,740
+occurs<font color="#E5E5E5"> after</font><font color="#CCCCCC"> that butt crack is</font><font color="#E5E5E5"> now</font>
+
+123
+00:05:25,740 --> 00:05:29,280
+equal<font color="#CCCCCC"> to six</font><font color="#E5E5E5"> and it does this as you can</font>
+
+124
+00:05:29,280 --> 00:05:34,229
+<font color="#CCCCCC">see all the way until</font><font color="#E5E5E5"> this variable</font><font color="#CCCCCC"> butt</font>
+
+125
+00:05:34,229 --> 00:05:38,159
+crack equals 10 is 10<font color="#E5E5E5"> less</font><font color="#CCCCCC"> than 10</font><font color="#E5E5E5"> well</font>
+
+126
+00:05:38,159 --> 00:05:40,349
+no it's not<font color="#E5E5E5"> so since this</font><font color="#CCCCCC"> is false</font>
+
+127
+00:05:40,349 --> 00:05:42,539
+<font color="#CCCCCC">that's when your program knows to stop</font>
+
+128
+00:05:42,539 --> 00:05:45,389
+the loop<font color="#E5E5E5"> so again that's a while loop</font>
+
+129
+00:05:45,389 --> 00:05:49,199
+and<font color="#E5E5E5"> for the test you need a way to</font>
+
+130
+00:05:49,199 --> 00:05:53,280
+change<font color="#E5E5E5"> the variable in here</font><font color="#CCCCCC"> so um if it</font>
+
+131
+00:05:53,280 --> 00:05:55,349
+just<font color="#E5E5E5"> if you never change it and it</font><font color="#CCCCCC"> keeps</font>
+
+132
+00:05:55,349 --> 00:05:56,639
+<font color="#E5E5E5">running</font><font color="#CCCCCC"> over and over and over again</font>
+
+133
+00:05:56,639 --> 00:05:59,009
+<font color="#E5E5E5">this is called an infinite loop and it's</font>
+
+134
+00:05:59,009 --> 00:06:00,659
+not very good<font color="#E5E5E5"> from your for your</font>
+
+135
+00:06:00,659 --> 00:06:02,759
+<font color="#E5E5E5">computer because it could</font><font color="#CCCCCC"> actually crash</font>
+
+136
+00:06:02,759 --> 00:06:05,460
+your computer<font color="#CCCCCC"> so don't do that</font><font color="#E5E5E5"> so again</font>
+
+137
+00:06:05,460 --> 00:06:07,919
+<font color="#CCCCCC">we learn about range</font><font color="#E5E5E5"> we learn</font><font color="#CCCCCC"> about</font>
+
+138
+00:06:07,919 --> 00:06:09,750
+while loop and I accidentally<font color="#E5E5E5"> wrote</font>
+
+139
+00:06:09,750 --> 00:06:12,270
+Bucky and<font color="#CCCCCC"> set</font><font color="#E5E5E5"> a butt crack so hope you</font>
+
+140
+00:06:12,270 --> 00:00:00,000
+enjoy see you next time
+

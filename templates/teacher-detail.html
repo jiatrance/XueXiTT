@@ -1,0 +1,141 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+{% block custom_css %}
+    <link rel="stylesheet" href="{% static 'dist/css/mystyle.css' %}">
+    {% endblock %}
+{% block title %}用户详情{% endblock %}
+{% block breadcrumb %}
+   <li class="breadcrumb-item"><a href="{% url 'index' %}">Home</a></li>
+    <li class="breadcrumb-item">用户详情</li>
+{% endblock %}
+{% block content %}
+
+    <!-- Main content -->
+    <section class="content">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-3">
+
+            <!-- Profile Image -->
+            <div class="card card-info card-outline">
+              <div class="card-body box-profile">
+                <div class="text-center">
+                  <img class="profile-user-img img-fluid img-circle"
+                       src="{{ MEDIA_URL }}{{ request.user.image }}"
+                       alt="User profile picture">
+                </div>
+                <h3 class="profile-username text-center">{{ request.user.image }}</h3>
+                <ul class="list-group list-group-unbordered mb-3">
+                  <li class="list-group-item">
+                    <b>订阅者</b> <a class="float-right">1,322</a>
+                  </li>
+                  <li class="list-group-item">
+                    <b>教程数</b> <a class="float-right">543</a>
+                  </li>
+                  <li class="list-group-item">
+                    <b>人气</b> <a class="float-right">13,287</a>
+                  </li>
+                </ul>
+
+                <a href="#" class="btn btn-default btn-block"><b>订阅</b></a>
+              </div>
+              <!-- /.card-body -->
+            </div>
+            <!-- /.card -->
+
+            <!-- About Me Box -->
+            <div class="card card-info">
+              <div class="card-header">
+                <h3 class="card-title"> 个人详情</h3>
+              </div>
+              <!-- /.card-header -->
+              <div class="card-body">
+
+                <strong><i class="fa fa-map-marker mr-1"></i> 所在地区</strong>
+
+                <p class="text-muted">火星</p>
+
+                <hr>
+
+                <strong><i class="fa fa-pencil mr-1"></i> 掌握技能</strong>
+                  <p>
+                  <span class="badge badge-danger">UI Design</span>
+                  <span class="badge badge-success">Coding</span>
+                  <span class="badge badge-info">Javascript</span>
+                  <span class="badge badge-warning">PHP</span>
+                  <span class="badge badge-primary">Node.js</span>
+                    </p>
+                <hr>
+
+                <strong><i class="fa fa-file-text-o mr-1"></i> 个人说明</strong>
+
+                <p class="text-muted">多得是你不知道的事</p>
+              </div>
+              <!-- /.card-body -->
+            </div>
+            <!-- /.card -->
+          </div>
+          <!-- /.col -->
+          <div class="col-md-9">
+            <div class="card">
+              <div class="card-header p-2">
+                <ul class="nav tab_header">
+                  <li class="nav-item"><a class="nav-link active text-muted" href="#activity" data-toggle="tab">主页</a></li>
+                  <li class="nav-item"><a class="nav-link text-muted" href="#pcourse" data-toggle="tab">公开课</a></li>
+                  <li class="nav-item"><a class="nav-link text-muted" href="#courses" data-toggle="tab">教程列表</a></li>
+                  <li class="nav-item"><a class="nav-link text-muted" href="#settings" data-toggle="tab">个人资料</a></li>
+                </ul>
+              </div><!-- /.card-header -->
+              <div class="card-body">
+                <div class="tab-content">
+                  <div class="active tab-pane" id="activity">
+                  </div>
+                  <!-- /.tab-pane -->
+                  <div class="tab-pane" id="pcourse">
+                   <div class="card card-info color-palette-box">
+                      <div class="card-header">
+                        <h3 class="card-title">
+                          <i class="fa fa-play-circle"></i>
+                          公开课
+                        </h3>
+                      </div>
+                      <div class="card-body">
+                        <div class="row">
+                            {% for course in open_course %}
+                           <div class="col-md-4">
+                            <a href="{% url 'course:course_info' course.id %}" ><span class="mailbox-attachment-icon has-img"><img src="{{ MEDIA_URL }}{{ course.image }}" alt="Attachment"></span></a>
+                              <div class="mailbox-attachment-info">
+                                <a href="{% url 'course:course_info' course.id %}" class="mailbox-attachment-name"><div class="text-sm">{{ course.name }}</div></a>
+                                    <span class="mailbox-attachment-size">
+                                        <a href="{% url 'organization:teacher_detail' course.teacher.id %}" class="mailbox-attachment-name"><div class="text-sm">{{ course.teacher.name }}</div></a>
+                                    </span>
+                              </div>
+                          </div>
+                            {% endfor %}
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- /.tab-pane -->
+
+                 <div class="tab-pane" id="courses">
+                  </div>
+
+                  <div class="tab-pane" id="settings">
+                  </div>
+                  <!-- /.tab-pane -->
+                </div>
+                <!-- /.tab-content -->
+              </div><!-- /.card-body -->
+            </div>
+            <!-- /.nav-tabs-custom -->
+          </div>
+          <!-- /.col -->
+        </div>
+        <!-- /.row -->
+      </div><!-- /.container-fluid -->
+    </section>
+    <!-- /.content -->
+  </div>
+  <!-- /.content-wrapper -->
+{% endblock %}

@@ -1,0 +1,614 @@
+1
+00:00:00,089 --> 00:00:03,480
+alright guys in this video I want to
+talk to you about the difference between
+
+2
+00:00:03,480 --> 00:00:08,580
+a syntax error and an exception because
+whenever you're just trying to fix some
+
+3
+00:00:08,580 --> 00:00:13,139
+bugs in your program they kind of look
+like the same thing but there is a big
+
+4
+00:00:13,139 --> 00:00:16,560
+difference between them and also how we
+can handle them or fix them in our
+
+5
+00:00:16,560 --> 00:00:22,109
+program so let me make a very simple
+program right now what we're going to do
+
+6
+00:00:22,109 --> 00:00:28,140
+is we're going to let the user input um
+like a number so we'll just say what's
+
+7
+00:00:28,140 --> 00:00:35,190
+your fave number so what this is going
+to do is it's going to display a little
+
+8
+00:00:35,190 --> 00:00:39,809
+prompt in the console whenever you run
+it and then the user types something in
+
+9
+00:00:39,809 --> 00:00:45,000
+and we store it in the variable tuna now
+what I want to do is I actually want to
+
+10
+00:00:45,000 --> 00:00:51,180
+take that and convert it to an int
+because if they enter five we want to
+
+11
+00:00:51,180 --> 00:00:55,289
+make sure that Python doesn't treat that
+five is a string and actually converts
+
+12
+00:00:55,289 --> 00:01:00,570
+it to an int or an integer number now
+here's the problem that we may have
+
+13
+00:01:00,570 --> 00:01:04,260
+check this out
+let me just complete this real quick by
+
+14
+00:01:04,260 --> 00:01:09,869
+printing out tuna see whenever you run
+this right now if the user enters
+
+15
+00:01:09,869 --> 00:01:14,250
+something like what's my favorite number
+20 and hit enter it prints it out fine
+
+16
+00:01:14,250 --> 00:01:20,189
+but what if this happens well if the
+user decides to enter um
+
+17
+00:01:20,189 --> 00:01:25,860
+dur and hit enter well then we have a
+little problem right here because you
+
+18
+00:01:25,860 --> 00:01:32,579
+can't convert dur to an integer so even
+though we didn't have any typos and this
+
+19
+00:01:32,579 --> 00:01:38,430
+code looks fine right now an error still
+occurred because the user was an idiot
+
+20
+00:01:38,430 --> 00:01:43,610
+so that's the difference between a
+syntax error annex and an exception
+whenever I say a syntax error that means
+
+21
+00:01:46,259 --> 00:01:50,189
+a problem with your code so instead of
+writing input if you accidentally write
+imp in OOP of course that's a typo
+
+22
+00:01:54,780 --> 00:02:00,180
+that's a syntax error so whenever you
+run this that's why it says invalid
+
+23
+00:02:00,180 --> 00:02:05,549
+syntax whenever you see this it means
+hey dude you made a typo and again the
+
+24
+00:02:05,549 --> 00:02:07,969
+other one
+
+25
+00:02:08,880 --> 00:02:15,640
+is called an exception and if we look
+down here we can see that we don't
+
+26
+00:02:15,640 --> 00:02:20,560
+actually see the word exception anywhere
+some IDs may but this one doesn't we
+
+27
+00:02:20,560 --> 00:02:26,230
+actually see this it says value error
+now a value error is a special type of
+
+28
+00:02:26,230 --> 00:02:29,709
+an exception
+this means that okay when we try to
+
+29
+00:02:29,709 --> 00:02:34,750
+convert this to another value we had a
+problem and there are different type of
+
+30
+00:02:34,750 --> 00:02:39,250
+exceptions and I'm going to show you
+guys how to handle them right now so of
+
+31
+00:02:39,250 --> 00:02:42,760
+course whenever you're making our
+regular piece of software you want to
+
+32
+00:02:42,760 --> 00:02:45,970
+allow for these problems to occur
+without breaking your entire program
+
+33
+00:02:45,970 --> 00:02:50,500
+because if the user is using this piece
+of software and they accidentally hit
+
+34
+00:02:50,500 --> 00:02:54,940
+the wrong key you don't want your
+program to crash like mine just did so
+
+35
+00:02:54,940 --> 00:02:59,769
+I'm going to show you guys a really cool
+way to deal with these exceptions on how
+
+36
+00:02:59,769 --> 00:03:05,670
+you're supposed to so what I want to do
+is I want to make my entire example in
+arm while loop and whenever I write
+
+37
+00:03:09,010 --> 00:03:13,870
+while true this means that the loop is
+going to keep going on and on and on
+
+38
+00:03:13,870 --> 00:03:17,829
+forever until it breaks
+so not once not ten times just as many
+
+39
+00:03:17,829 --> 00:03:23,230
+times as we want it to and when we're
+finished we'll just break it so I'll
+show you guys the syntax of how to
+
+40
+00:03:24,730 --> 00:03:28,620
+handle an exception now or pretty much
+just think of it whenever the user
+
+41
+00:03:28,620 --> 00:03:33,190
+messes something up that's a really
+simple way to explain it so what I'm
+
+42
+00:03:33,190 --> 00:03:38,470
+going to do is I'm going to write the
+keyword try and then I'm going to add a
+
+43
+00:03:38,470 --> 00:03:42,670
+colon and after that I'm going to type
+my code now this is the code that I
+
+44
+00:03:42,670 --> 00:03:47,769
+think that the user could possibly mess
+something up so instead of tuna actually
+
+45
+00:03:47,769 --> 00:03:54,299
+name is something good this time so int
+input
+
+46
+00:03:54,670 --> 00:04:05,930
+what's your fave number us so again this
+is the line of code right here that I
+
+47
+00:04:05,930 --> 00:04:10,129
+think ok maybe we're going to get an
+error right here so I'm going to put
+this in a try is pretty much telling
+
+48
+00:04:12,019 --> 00:04:16,070
+your computer try to do this but if
+something goes wrong then we'll tell you
+
+49
+00:04:16,070 --> 00:04:21,530
+what to do later so then I'll do
+something like take whatever they take
+
+50
+00:04:21,529 --> 00:04:29,180
+whatever number they entered and take 18
+divided by just because I don't know we
+
+51
+00:04:29,180 --> 00:04:34,639
+just need something to do and then I'll
+break so this is what we hopefully want
+
+52
+00:04:34,639 --> 00:04:40,430
+to happen they're going to enter some
+number like 6 ok perfect no problems
+
+53
+00:04:40,430 --> 00:04:45,650
+it's going to say 18 divided by 6 which
+is 3 and it breaks so our program ends
+however we know from the previous
+
+54
+00:04:48,500 --> 00:04:52,910
+example that they can mess something up
+they can enter something like derp or
+
+55
+00:04:52,910 --> 00:04:58,400
+they can enter I don't know maybe just
+some stupid symbols like this so we have
+to prepare for that without breaking our
+
+56
+00:05:01,639 --> 00:05:07,220
+program so remember whenever they
+entered a word it can't convert it to an
+
+57
+00:05:07,220 --> 00:05:14,450
+int and it was called a value error so
+what we're going to say is if you come
+across a value error right there then do
+
+58
+00:05:21,289 --> 00:05:28,490
+this block of code right here and I hit
+caps lock so print arm will say like
+
+59
+00:05:28,490 --> 00:05:39,349
+don't say make sure and enter a number
+so basically what we have right here is
+
+60
+00:05:39,349 --> 00:05:46,820
+a very simple program to handle a very
+basic exception so saying first run this
+
+61
+00:05:46,820 --> 00:05:51,410
+bit of code over and over and over again
+until the user finally gets it right now
+
+62
+00:05:51,410 --> 00:05:55,630
+what we're going to do is we're going to
+allow them to enter a number and
+hopefully no problems work will occur
+
+63
+00:05:59,180 --> 00:06:04,430
+and we can break out of the loop however
+if we get a value error then what we can
+
+64
+00:06:04,430 --> 00:06:07,460
+do is just give them a nice little
+prompt on the screen and be
+
+65
+00:06:07,460 --> 00:06:13,180
+kay dude you got to try again so I'll
+show you guys how to do that right now
+
+66
+00:06:13,330 --> 00:06:19,580
+so of course the first thing that always
+happens is whatever is in the try so it
+
+67
+00:06:19,580 --> 00:06:24,110
+tries to do this code right here without
+any problems whatsoever now if this
+
+68
+00:06:24,110 --> 00:06:31,430
+actually works fine and they just enter
+3 then it's going to print and skip this
+
+69
+00:06:31,430 --> 00:06:37,310
+so this block of code only executes if
+you indeed get an error so let me run
+
+70
+00:06:37,310 --> 00:06:41,900
+this and it says what's your favorite
+number house well if you had her like
+
+71
+00:06:41,900 --> 00:06:51,050
+Bucky well then I said ok I tried to do
+this I got an error and then what I did
+
+72
+00:06:51,050 --> 00:06:56,360
+is basically executed this code because
+it was value error so then it loops
+
+73
+00:06:56,360 --> 00:07:02,930
+again well what if your inner tuna nope
+do it again arm fart nope okay what
+
+74
+00:07:02,930 --> 00:07:08,740
+about 6 ok finally that works so finally
+we can do this and break out of the loop
+
+75
+00:07:08,740 --> 00:07:14,690
+now of course a value error isn't the
+only type of an exception a value there
+
+76
+00:07:14,690 --> 00:07:19,180
+is basically when the enter when the
+user enters something that can't be
+
+77
+00:07:19,180 --> 00:07:26,300
+converted to an integer well what if the
+user enters something like this all
+
+78
+00:07:26,300 --> 00:07:29,900
+right what's your favorite number well
+what about zero ok that's a valid
+integer so let me hit enter what the
+
+79
+00:07:33,080 --> 00:07:37,909
+heck now we can another type and that's
+because of this whenever you take any
+
+80
+00:07:37,909 --> 00:07:43,159
+number and divide it by zero you get
+another type of exception code as zero
+
+81
+00:07:43,159 --> 00:07:47,180
+division error so let me copy this and
+I'll show you guys how to handle other
+
+82
+00:07:47,180 --> 00:07:55,520
+errors as well so this exception happens
+whenever they enter string now a zero
+
+83
+00:07:55,520 --> 00:08:07,219
+division error basically says arm what
+can we say we'll say don't pick 0 so I'm
+
+84
+00:08:07,219 --> 00:08:12,020
+going to try this if they enter the
+string print this if they entered 0
+
+85
+00:08:12,020 --> 00:08:16,669
+print this and hopefully our program
+will work fine so what's your favorite
+
+86
+00:08:16,669 --> 00:08:21,350
+number house 0
+don't pick 0 what about I don't know
+
+87
+00:08:21,350 --> 00:08:27,890
+fifty-four okay there we go now there's
+one other thing that I want to tell you
+guys and that is what if you just want
+
+88
+00:08:30,710 --> 00:08:36,440
+to handle errors armed in general so
+you're going to say an exception might
+
+89
+00:08:36,440 --> 00:08:39,710
+occur right here but I don't know if
+it's going to be value error I don't
+
+90
+00:08:39,710 --> 00:08:43,669
+know it's going to be a zero division
+error I just want a broad way to handle
+
+91
+00:08:43,669 --> 00:08:52,090
+every exception well in that instance
+you can just use the keyword except now
+
+92
+00:08:52,090 --> 00:08:56,930
+99% of the time I'm going to recommend
+not to do this and this is why whenever
+you use accept it can hide a lot of your
+
+93
+00:09:00,620 --> 00:09:05,840
+problems so even though the user may
+enter something that's not valid you're
+
+94
+00:09:05,840 --> 00:09:10,520
+going to go ahead and execute code
+anyways without really knowing on the
+
+95
+00:09:10,520 --> 00:09:16,760
+source of your problem so it's generally
+not a good idea to do this however you
+
+96
+00:09:16,760 --> 00:09:23,180
+can pretty much this is what's going to
+happen I'll explain it this way it's
+
+97
+00:09:23,180 --> 00:09:27,320
+going to try to execute this code and if
+a problem occurs is first going to check
+
+98
+00:09:27,320 --> 00:09:31,280
+this one okay well it wasn't a Valliere
+then it's going to check this one well
+it wasn't a zero division error and then
+
+99
+00:09:33,200 --> 00:09:36,260
+it's going to say okay well I'm just
+breaking out of your program so that's
+
+100
+00:09:36,260 --> 00:09:40,730
+why it's not a good idea so that's what
+I accept does and that's why I don't
+
+101
+00:09:40,730 --> 00:09:45,770
+like it now the one other thing that I
+want to tell you guys with exceptions
+
+102
+00:09:45,770 --> 00:09:52,010
+before I let you guys go is a keyword
+called finally so what finally is going
+
+103
+00:09:52,010 --> 00:09:57,290
+to do is of course we have a couple
+options we're going to execute this or
+
+104
+00:09:57,290 --> 00:10:06,110
+this or this or this now only one of
+these can execute per loop depending on
+
+105
+00:10:06,110 --> 00:10:11,300
+if the user didn't do anything wrong or
+if they did now what finally does is it
+basically says no matter if the code
+
+106
+00:10:13,820 --> 00:10:18,860
+worked or if you got an exception then
+execute this line of code no matter what
+
+107
+00:10:18,860 --> 00:10:24,160
+so this is optional it's an optional
+line of code you can have that says
+
+108
+00:10:24,160 --> 00:10:32,000
+execute this no matter what simple
+enough and what can we put we'll just
+
+109
+00:10:32,000 --> 00:10:38,189
+put loop complete
+so run it so if they entered a stupid
+
+110
+00:10:38,189 --> 00:10:43,050
+number or a stupid string and got an
+exception or they entered a real number
+
+111
+00:10:43,050 --> 00:10:50,639
+and it went fine no matter what the
+finally occurs every single time all
+
+112
+00:10:50,639 --> 00:10:55,529
+right so that's pretty much it with
+exceptions so whenever you think um the
+
+113
+00:10:55,529 --> 00:11:01,079
+user can break your code or cause it
+caused an issue with your software then
+
+114
+00:11:01,079 --> 00:11:05,550
+put it in a try block now whenever you
+want to handle a specific type of
+
+115
+00:11:05,550 --> 00:11:11,999
+exception put except in that type now
+whenever you want to handle a general
+
+116
+00:11:11,999 --> 00:11:15,209
+exception and you don't really know how
+the user is going to mess it up and you
+can use accept and whenever you want a
+
+117
+00:11:17,819 --> 00:11:25,439
+certain bit of code to execute no matter
+if the user had a user program correctly
+
+118
+00:11:25,439 --> 00:11:30,600
+or caused an issue then you can use
+finally so yes exceptions are kind of
+
+119
+00:11:30,600 --> 00:11:34,680
+boring but they're necessary especially
+whenever we're making gooeys because
+well show you guys then so for now
+
+120
+00:11:37,050 --> 00:11:41,959
+thanks for watching don't forget to
+subscribe and we'll see you next video

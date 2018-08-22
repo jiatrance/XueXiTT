@@ -1,0 +1,434 @@
+1
+00:00:00,060 --> 00:00:05,220
+Mic Check Mic Check 1 2 1 2 I just ate a
+hot pocket now I'm gonna show you guys
+
+2
+00:00:05,220 --> 00:00:10,559
+how to unpack very bowls you know that
+doesn't really rhyme but as I was saying
+in this video what I want to do is I
+
+3
+00:00:13,170 --> 00:00:17,490
+want to show you guys how to take a list
+and unpack it in two separate variables
+all in one line a nice little shortcut
+
+4
+00:00:19,830 --> 00:00:24,029
+that's definitely going to come in handy
+a lot so first let's go ahead and make a
+
+5
+00:00:24,029 --> 00:00:29,160
+simple list so say that we have I don't
+know a store or maybe we're just buying
+
+6
+00:00:29,160 --> 00:00:32,910
+a bunch of stuff online and we want to
+keep track of the information of these
+
+7
+00:00:32,910 --> 00:00:38,250
+items so the first element we want to
+keep track of is when we bought it or
+
+8
+00:00:38,250 --> 00:00:41,129
+when we sold it doesn't really matter
+just make any list with like three
+
+9
+00:00:41,129 --> 00:00:46,379
+elements in it just an example now for
+the second one I'll put the name of the
+
+10
+00:00:46,379 --> 00:00:51,840
+item say we bought some bread gloves and
+the third one is how much did we spend
+
+11
+00:00:51,840 --> 00:00:58,469
+on 851 now again this is that it doesn't
+really matter just make anything with
+
+12
+00:00:58,469 --> 00:01:01,649
+three elements in it and also if you
+guys don't know what bread gloves are
+
+13
+00:01:01,649 --> 00:01:08,760
+Google them and look in Google Images
+probably the best invention ever so we
+
+14
+00:01:08,760 --> 00:01:13,760
+already know that anytime you want to
+access any of these elements in the list
+
+15
+00:01:13,760 --> 00:01:19,530
+what we can do is just type the name of
+the list and the position so since it
+
+16
+00:01:19,530 --> 00:01:24,600
+starts with zero this will print out
+they if we just run this so this prints
+
+17
+00:01:24,600 --> 00:01:30,119
+out the day we can also put in one item
+too now if we ever want to actually use
+
+18
+00:01:30,119 --> 00:01:35,009
+these later on sometimes putting item
+zero that can be kind of confusing
+
+19
+00:01:35,009 --> 00:01:40,680
+because you know it's really the date
+the day always comes first it's like
+
+20
+00:01:40,680 --> 00:01:43,920
+we're making a program where the day
+always comes first so we would store
+
+21
+00:01:43,920 --> 00:01:48,750
+that in the day and then we store the
+other one in a named item one yada-yada
+
+22
+00:01:48,750 --> 00:01:54,180
+and then third one okay this is already
+taken up a crap line of code and you
+
+23
+00:01:54,180 --> 00:01:58,140
+know I don't want to clutter up my
+program so would it be cool if there is
+
+24
+00:01:58,140 --> 00:02:03,500
+a way that we could set each list
+element to a variable all in one line
+
+25
+00:02:03,500 --> 00:02:09,509
+well you guys are in luck because there
+is indeed a way to do that so say that
+we have this list right here and we want
+
+26
+00:02:12,300 --> 00:02:16,290
+to set each of these elements
+equal to a new variable name well all we
+have to do is this put all of your
+
+27
+00:02:20,640 --> 00:02:26,250
+variable names and separate them with a
+comma so date item price now what this
+
+28
+00:02:26,250 --> 00:02:30,870
+is going to do is it's called unpacking
+a list in two variables so it's going to
+
+29
+00:02:30,870 --> 00:02:36,000
+set the first one equal to date the
+second one equal to item actually let's
+
+30
+00:02:36,000 --> 00:02:41,310
+change that the name and the third one
+equal to price so now later on we can
+
+31
+00:02:41,310 --> 00:02:47,310
+just do something like print name check
+this out it prints out the name of it it
+
+32
+00:02:47,310 --> 00:02:52,800
+saves you like oh well it depends on how
+big your list is about a crap line of
+
+33
+00:02:52,800 --> 00:02:58,880
+code now the only other thing I want to
+point out is this whenever you unpack a
+list in two separate variables you have
+
+34
+00:03:01,890 --> 00:03:07,650
+one rule that you have to follow make
+sure that the number of variables equals
+
+35
+00:03:07,650 --> 00:03:12,750
+the number of items in your list so if
+you have a bunch of lists and they have
+
+36
+00:03:12,750 --> 00:03:16,470
+different amounts or their different
+lengths you can't really do this because
+
+37
+00:03:16,470 --> 00:03:20,370
+it would be consistent and I don't know
+maybe you forgot to jot down the name of
+
+38
+00:03:20,370 --> 00:03:26,550
+one thing it's going to throw an error
+at yeah so there actually is a way that
+
+39
+00:03:26,550 --> 00:03:29,820
+you can get around this and I was going
+to show you in the next video but I
+might as well show you right now so
+
+40
+00:03:32,250 --> 00:03:36,990
+whenever you have a list in there all
+the exact same size then you can use
+
+41
+00:03:36,990 --> 00:03:40,320
+that method and it's going to work
+perfectly it's going to make your code
+real nice and clean but what if you have
+
+42
+00:03:43,110 --> 00:03:47,790
+lists that you want to unpack in
+variables that are different sizes well
+we can't use that method but we can use
+
+43
+00:03:49,800 --> 00:03:54,240
+a new one using this new symbol called
+the star and that's above the a on your
+
+44
+00:03:54,240 --> 00:03:58,890
+keyboard so when would we want to use
+this well actually saw a cool example in
+this book called uh I think it was
+
+45
+00:04:00,300 --> 00:04:08,850
+called Python cookbook so if you guys
+ever want to check out a cool book with
+like I know it has a like bunch of cool
+
+46
+00:04:10,590 --> 00:04:17,160
+little scripts check that out I think I
+bought it on Amazon so anyways whoever
+
+47
+00:04:17,160 --> 00:04:21,840
+wrote that book thank you for this next
+bit of code so what you can do is
+something like this say that you're a
+
+48
+00:04:23,940 --> 00:04:26,980
+teacher and you gave your students a
+bunch of
+
+49
+00:04:26,980 --> 00:04:32,290
+quizzes now what you just had to do is
+you want to drop the first and the last
+
+50
+00:04:32,290 --> 00:04:37,570
+quiz great grade and average the rest of
+the scores together so maybe one class
+
+51
+00:04:37,570 --> 00:04:42,760
+you teach has ten quizzes maybe the
+other class you teach has five quizzes
+
+52
+00:04:42,760 --> 00:04:45,730
+so you have this program you want to
+make but the lists are going to be
+
+53
+00:04:45,730 --> 00:04:49,750
+different links well what you can do is
+start making a function and we'll just
+
+54
+00:04:49,750 --> 00:04:56,590
+name this function drop arm first and
+last because we're going to drop the
+
+55
+00:04:56,590 --> 00:05:02,080
+first and last grades and we're going to
+average pretty much all the middle ones
+
+56
+00:05:02,080 --> 00:05:08,260
+together to give their student the final
+grade so what we're going to do is we're
+
+57
+00:05:08,260 --> 00:05:13,420
+going to pass in grades in grades is
+going to be the list but instead of just
+
+58
+00:05:13,420 --> 00:05:17,650
+unpacking it into a set number of
+variables what we can do is this the
+first item in the list is going to be
+
+59
+00:05:19,510 --> 00:05:24,400
+stored in the variable first the middle
+elements in the lists are going to be
+
+60
+00:05:24,400 --> 00:05:30,520
+star middle and the last one is going to
+be stored and last now what this
+
+61
+00:05:30,520 --> 00:05:34,600
+expression right here says is take the
+first item store it in first
+
+62
+00:05:34,600 --> 00:05:40,570
+take all of the items in the middle now
+it doesn't matter if the list is 10
+elements long then it's going to store
+
+63
+00:05:41,980 --> 00:05:46,360
+the eight ones in the middle if the list
+is only three items long then it's going
+
+64
+00:05:46,360 --> 00:05:50,080
+to only store one grade in the middle
+this little star expression right here
+is variable I probably shouldn't use the
+
+65
+00:05:52,570 --> 00:05:55,900
+word variable but um I don't know you
+guys know what I'm talking about
+
+66
+00:05:55,900 --> 00:06:01,360
+so that's exactly what it's going to do
+so the middle is the entire list
+
+67
+00:06:01,360 --> 00:06:04,930
+excluding the first and the last
+so now all we have to do is calculate
+
+68
+00:06:04,930 --> 00:06:08,500
+the average and you already know how to
+calculate average we just do real quick
+
+69
+00:06:08,500 --> 00:06:19,270
+it's the sum of all of the items in the
+middle over the length and this is
+
+70
+00:06:19,270 --> 00:06:23,380
+pretty much going to count how many
+items are in that list so now we can
+
+71
+00:06:23,380 --> 00:06:29,020
+just do something like print average and
+check it out we'll call this function
+
+72
+00:06:29,020 --> 00:06:33,970
+twice so you can see what I'm talking
+about so of course we need to pass it in
+
+73
+00:06:33,970 --> 00:06:38,410
+some kind of list now for the first one
+I'll just give this student some test
+
+74
+00:06:38,410 --> 00:06:45,620
+grade 65 didn't too
+- good on the first one 76 98 like 54
+
+75
+00:06:45,620 --> 00:06:49,670
+tanked on that one and the last one you
+got a twenty one you must have known
+
+76
+00:06:49,670 --> 00:06:54,710
+that they were going to drop it so of
+course what this is going to do whenever
+we throw it in it's going to store 65
+
+77
+00:06:57,560 --> 00:07:02,810
+and first 21 and last and we're pretty
+much just going to toss those out
+
+78
+00:07:02,810 --> 00:07:09,290
+because it's going to store all these in
+middle and the average of 76 98 and 54
+
+79
+00:07:09,290 --> 00:07:14,660
+is 76 mm interesting
+now of course like I said it doesn't
+
+80
+00:07:14,660 --> 00:07:27,980
+matter how many items we have 50 for
+$65.99 88-78 if you run this it's going
+
+81
+00:07:27,980 --> 00:07:34,070
+to do the same thing so that ladies and
+gentlemen is not only how we unpack a
+
+82
+00:07:34,070 --> 00:07:39,140
+list into variables but also how we can
+use the star expression to give our
+
+83
+00:07:39,140 --> 00:07:43,790
+program a little more flexibility so
+thank you guys for watching um well
+
+84
+00:07:43,790 --> 00:07:49,150
+that's all I got to say nothing more my
+bed I'll see you next time

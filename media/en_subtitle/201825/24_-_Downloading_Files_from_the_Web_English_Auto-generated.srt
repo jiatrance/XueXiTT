@@ -1,0 +1,601 @@
+1
+00:00:00,060 --> 00:00:03,870
+what's up guys in this video I'm going
+to show you how to download a regular
+
+2
+00:00:03,870 --> 00:00:08,849
+file from the web and it's a little bit
+different than just an image file to be
+
+3
+00:00:08,849 --> 00:00:13,650
+honest it's a little bit more complex
+but definitely useful so before we get
+
+4
+00:00:13,650 --> 00:00:17,100
+started I want to show you guys one
+other thing you know how whenever we
+
+5
+00:00:17,100 --> 00:00:20,630
+were importing modules before I just put
+import and then the name of the module
+well I'll show you guys on something
+
+6
+00:00:23,369 --> 00:00:29,660
+else that you might see if you ever see
+from in something like this
+
+7
+00:00:29,660 --> 00:00:37,590
+oh-ho take it easy that caps-lock import
+this is a different way that you can
+
+8
+00:00:37,590 --> 00:00:41,910
+import and I'll explain in detail what
+exactly that means whenever I talk about
+classes and more about modules later on
+
+9
+00:00:44,100 --> 00:00:48,300
+but I just want to get you guys familiar
+with the syntax right now so you guys
+aren't confused if you ever see this
+
+10
+00:00:49,620 --> 00:00:54,719
+it's just some different way that you
+can import modules so what I'm going to
+
+11
+00:00:54,719 --> 00:00:59,340
+do is I'm going to show you guys how to
+download a CSV file and you can actually
+
+12
+00:00:59,340 --> 00:01:03,329
+use this same technique whenever you're
+downloading text file but there aren't
+
+13
+00:01:03,329 --> 00:01:08,939
+that many text files just flowing around
+the internet so a CSV file is of course
+just a comma separated value file just
+
+14
+00:01:11,880 --> 00:01:15,450
+like a text file but things are
+separated with commas so if you go to
+
+15
+00:01:15,450 --> 00:01:20,340
+finance yahoo.com
+type in the ticker of any company if you
+
+16
+00:01:20,340 --> 00:01:25,820
+don't know one goog will give you a
+stock information about Google and
+whenever you go to a company's um little
+
+17
+00:01:28,470 --> 00:01:32,810
+financial page on the left hand side
+they have hold on a second
+
+18
+00:01:32,810 --> 00:01:39,390
+got a itch in my hair all right on the
+left hand side they have historical
+
+19
+00:01:39,390 --> 00:01:45,180
+prices so if you click that it's going
+to give you just a bunch of their prices
+
+20
+00:01:45,180 --> 00:01:51,630
+in history and again you can find any
+CSV file this is just a one that I
+remember is free so at the bottom of the
+
+21
+00:01:55,740 --> 00:01:59,070
+page you're going to see this link that
+says download the spreadsheet and don't
+
+22
+00:01:59,070 --> 00:02:02,640
+click it or else it's going to download
+the CSV file right to your computer I'm
+
+23
+00:02:02,640 --> 00:02:07,530
+right click it and hit copy link address
+and if I paste it in there you can see
+
+24
+00:02:07,530 --> 00:02:14,950
+that this is indeed a link to a CSV file
+so make sure that you have that copies
+
+25
+00:02:14,950 --> 00:02:18,370
+in your clipboard and that's the file
+that we're going to download again if
+
+26
+00:02:18,370 --> 00:02:23,409
+you know of any other CSV file um feel
+free to use that but I know that yahoo
+
+27
+00:02:23,409 --> 00:02:29,379
+has a bunch for free so you can use that
+so of course instead of having to work
+
+28
+00:02:29,379 --> 00:02:32,560
+with that long honky-tonkin thing every
+time
+
+29
+00:02:32,560 --> 00:02:39,540
+what I want to do is I'm going to save
+all that in a variable called goog URL
+
+30
+00:02:39,540 --> 00:02:44,829
+so right now we can just use this
+variable a lot cleaner if you ask me so
+
+31
+00:02:44,829 --> 00:02:49,299
+now that we have a URL of a file that we
+don't want to download we need to make a
+
+32
+00:02:49,299 --> 00:02:54,160
+function to of course download
+crap from that URL so I'm just going to
+
+33
+00:02:54,160 --> 00:03:04,470
+name my function download stock data and
+the parameter we pass it in is your CSV
+
+34
+00:03:04,470 --> 00:03:08,620
+URL so the URL of some CSV file on the
+Internet
+
+35
+00:03:08,620 --> 00:03:13,930
+alright simple enough so far so now what
+we need to do is we need to tell our
+
+36
+00:03:13,930 --> 00:03:19,840
+Python program to connect to the
+internet first so what we're going to be
+
+37
+00:03:19,840 --> 00:03:23,169
+doing is calling a function but it's
+easier if you store it in a variable
+
+38
+00:03:23,169 --> 00:03:27,459
+called response so this is pretty much
+think of it as your connection to a
+
+39
+00:03:27,459 --> 00:03:35,400
+webpage so we already know how to do
+this request dot URL see if it's there
+
+40
+00:03:35,400 --> 00:03:43,209
+well I guess I might as well tell you
+bit there it is URL open and what this
+
+41
+00:03:43,209 --> 00:03:47,709
+function does is the only parameter that
+it takes or that we're going to be
+
+42
+00:03:47,709 --> 00:03:53,139
+passing in is the URL of a CSV file on
+the internet again it's the URL of any
+
+43
+00:03:53,139 --> 00:03:58,690
+web page but it goes that URL and then
+it's going to store the connection to
+
+44
+00:03:58,690 --> 00:04:03,669
+that web page in this variable right
+here response so now that we have that
+
+45
+00:04:03,669 --> 00:04:07,599
+response we can do something cool with
+it and I'll show you guys this make
+another variable call it CSV or whatever
+
+46
+00:04:09,579 --> 00:04:16,000
+you want and take that response and call
+a function on it called read now this is
+
+47
+00:04:16,000 --> 00:04:20,979
+going to do is it's going to read the
+data from whatever URL you're pointing
+
+48
+00:04:20,978 --> 00:04:25,750
+to so right now we're reading in all the
+data which is that huge which
+
+49
+00:04:25,750 --> 00:04:30,340
+pretty much the entire text that's in
+that file and now we have that text
+
+50
+00:04:30,340 --> 00:04:38,590
+stored in a variable called CSV so what
+I want to do now is since we have all
+
+51
+00:04:38,590 --> 00:04:42,220
+that data stored in a variable called
+CSV I don't know if that's string data
+
+52
+00:04:42,220 --> 00:04:46,780
+or maybe it's numerical data
+maybe it's date data I want to guarantee
+that that data that we just read in is a
+
+53
+00:04:50,260 --> 00:04:55,150
+string so then we won't have any
+problems later on so what I can do in
+
+54
+00:04:55,150 --> 00:05:03,190
+that case is put CSV underscore STR and
+remember that function STR right there
+
+55
+00:05:03,190 --> 00:05:09,250
+well this takes anything inside here
+converts it to a string I think we did
+
+56
+00:05:09,250 --> 00:05:13,690
+it with numbers whenever we're trying to
+print out numbers and strings together
+
+57
+00:05:13,690 --> 00:05:20,020
+so anyways whatever data you read from
+this file it's going to convert it to a
+
+58
+00:05:20,020 --> 00:05:26,200
+string and then it's going to store that
+in the variable CSV underscore string so
+
+59
+00:05:26,200 --> 00:05:31,540
+now we can use this wherever you would
+use a string to print it out whatever we
+
+60
+00:05:31,540 --> 00:05:36,340
+want to do with it however I'm going to
+show you guys how to take it and save it
+to an appropriate file on your computer
+
+61
+00:05:38,370 --> 00:05:44,110
+so right now we took all that data and
+it's in one long string like this but
+
+62
+00:05:44,110 --> 00:05:50,320
+one big line however if we ever read
+that in a file of course it's going to
+
+63
+00:05:50,320 --> 00:05:54,850
+be kind of confusing so what we want to
+do is we want to take it and break it up
+
+64
+00:05:54,850 --> 00:05:59,080
+in lines since if we look to this we
+don't want all of these numbers and
+dates on the same line we want each of
+
+65
+00:06:00,460 --> 00:06:07,990
+these on a new line whenever we make the
+file so to do that the first thing you
+
+66
+00:06:07,990 --> 00:06:14,830
+need is variable called lines and set it
+equal to this CSV actually you can just
+
+67
+00:06:14,830 --> 00:06:24,400
+copy this set it equal to your string
+and call a function called split and in
+
+68
+00:06:24,400 --> 00:06:30,760
+between quotes put this symbol right
+here now what split does is it basically
+
+69
+00:06:30,760 --> 00:06:36,789
+takes a string a huge long string and it
+breaks it up now how does it know where
+
+70
+00:06:36,789 --> 00:06:39,550
+to break it up just break it up every 10
+characters
+
+71
+00:06:39,550 --> 00:06:46,780
+what on sound like someone is on my
+freaking door which is weird because it
+is almost 1 a.m. so my doors locked but
+
+72
+00:06:51,099 --> 00:06:56,979
+anyways it takes a long string and it
+breaks it up whenever it comes across
+
+73
+00:06:56,979 --> 00:07:01,360
+this new character so instead of having
+everything on the same line we're going
+
+74
+00:07:01,360 --> 00:07:04,930
+to go line by line in it's a lot easier
+to work with it whenever we're making
+
+75
+00:07:04,930 --> 00:07:10,629
+our file so of course what we need to do
+now is just a stuff we learn before we
+
+76
+00:07:10,629 --> 00:07:14,349
+need to save it somewhere on our
+computer well we're not going to be like
+hey we downloaded crap just spin a big
+
+77
+00:07:16,720 --> 00:07:21,220
+roulette wheel on my hard drive and save
+it somewhere randomly now so let's go
+
+78
+00:07:21,220 --> 00:07:26,710
+ahead and tell our computer where um we
+actually want to save it so I'll save
+this to a file named um gube csv now
+
+79
+00:07:34,479 --> 00:07:38,710
+again remember I think I talked to you
+guys about this in like the first or
+
+80
+00:07:38,710 --> 00:07:42,370
+knows must've been like the third
+tutorial whenever you're working with
+
+81
+00:07:42,370 --> 00:07:47,590
+file paths it's always good to have our
+before it that means raw and that means
+that you can type a file like this like
+
+82
+00:07:52,509 --> 00:07:59,169
+something like this see um like oh bulky
+whatever and you don't have to escape
+every character so even though I'm just
+
+83
+00:08:03,190 --> 00:08:06,400
+using the file name with a simple
+extension I always like to put
+
+84
+00:08:06,400 --> 00:08:11,440
+everything inside our Raj string just
+makes good practice I guess so now we
+
+85
+00:08:11,440 --> 00:08:15,610
+said where we want to save it now we can
+use our file objects to read and write
+
+86
+00:08:15,610 --> 00:08:22,180
+from it so the first thing we need to do
+is we need to open up this file so we
+
+87
+00:08:22,180 --> 00:08:26,800
+can actually write to it so the first
+thing it needs it says okay what file do
+
+88
+00:08:26,800 --> 00:08:30,190
+you want to open
+well that one and what do you want to do
+
+89
+00:08:30,190 --> 00:08:34,270
+to it well since we're taking that data
+and writing to it or creating it of
+
+90
+00:08:34,270 --> 00:08:40,089
+course W that's what we learn the last
+oreal so now that we have a file open
+
+91
+00:08:40,089 --> 00:08:44,500
+and we can write to it what we want to
+do is we pretty much want to loop
+
+92
+00:08:44,500 --> 00:08:51,990
+through what we just downloaded and
+print it on the file so
+
+93
+00:08:51,990 --> 00:08:58,130
+the first thing we need is a for loop
+and what you do is put four line and
+
+94
+00:08:58,130 --> 00:09:04,260
+lines and basically what this is going
+to do is it's going to loop through the
+
+95
+00:09:04,260 --> 00:09:09,660
+string and for each individual line I'll
+show you guys what we're going to do
+
+96
+00:09:09,660 --> 00:09:13,880
+that right now what we're going to do is
+take the file that we just open and
+
+97
+00:09:13,880 --> 00:09:20,459
+we're going to write to it so remember
+each line which is each chunk it broke
+
+98
+00:09:20,459 --> 00:09:25,470
+up yesterday's line that's what we told
+it to do right there
+
+99
+00:09:25,470 --> 00:09:30,149
+so we're going to print the line to the
+file and then after each one we just
+
+100
+00:09:30,149 --> 00:09:34,500
+print a new line and that will kick it
+down to a new line make it real nice and
+
+101
+00:09:34,500 --> 00:09:43,200
+beautiful looking so again we said this
+is what we want to download connect save
+
+102
+00:09:43,200 --> 00:09:48,870
+it as a string make a file on our
+computer right to the file the only
+
+103
+00:09:48,870 --> 00:09:53,760
+other thing that we have to do is close
+this our file object just so we don't
+
+104
+00:09:53,760 --> 00:09:58,110
+waste any memory on our computer and
+then we need to call this function right
+
+105
+00:09:58,110 --> 00:10:05,700
+here so to call it download stock data
+in the URL they're passing in is of
+
+106
+00:10:05,700 --> 00:10:12,240
+course goog URL so again take note that
+on the left hand side I deleted all the
+
+107
+00:10:12,240 --> 00:10:16,890
+other files that we didn't need from the
+last tutorials so right now I only have
+
+108
+00:10:16,890 --> 00:10:25,950
+main and tuna now whenever I run this I
+now got this new file goog CSV and if I
+
+109
+00:10:25,950 --> 00:10:32,550
+double click this to open it
+oh-ho-ho-ho-ho look at that in formation
+so now we can take this information and
+
+110
+00:10:35,130 --> 00:10:40,050
+you know pretty much make the perfect
+algorithm to make us a perfect stock
+
+111
+00:10:40,050 --> 00:10:45,209
+market trader so again if you just you
+know try to copy all of this and use
+
+112
+00:10:45,209 --> 00:10:50,160
+your little crappy calculator to try to
+figure out you know the best time to
+
+113
+00:10:50,160 --> 00:10:55,230
+sell stocks it's going to be confusing
+but now in a few lines of code we can
+
+114
+00:10:55,230 --> 00:11:01,350
+download the historical data for any
+company in history and we can analyze it
+
+115
+00:11:01,350 --> 00:11:05,560
+and make the perfect program to
+over the world so we're going to be
+taken over the world in a couple
+
+116
+00:11:07,120 --> 00:11:11,140
+tutorials not right away so that's what
+you have to look forward to but for now
+
+117
+00:11:11,140 --> 00:11:17,070
+then guys for watching don't forget
+subscribe and well smell you guys later

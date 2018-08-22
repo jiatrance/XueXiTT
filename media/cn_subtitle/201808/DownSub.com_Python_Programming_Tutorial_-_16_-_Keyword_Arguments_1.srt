@@ -1,0 +1,368 @@
+1
+00:00:00,060 --> 00:00:02,310
+ <font color="#CCCCCC">好的家伙在这个视频 </font><font color="#E5E5E5">我要去 </font>
+
+2
+00:00:02,310 --> 00:00:04,170
+在<font color="#CCCCCC">谈论关键字参数 </font>
+
+3
+00:00:04,170 --> 00:00:06,660
+这也解释了<font color="#E5E5E5">所有时尚的东西 </font><font color="#CCCCCC">， </font>
+
+4
+00:00:06,660 --> 00:00:08,760
+ <font color="#CCCCCC">我们 </font><font color="#E5E5E5">可以在最后一个视频中使用它们 </font>
+
+5
+00:00:08,760 --> 00:00:10,290
+ <font color="#E5E5E5">没事 </font><font color="#CCCCCC">啊，我甚至不知道 </font><font color="#E5E5E5">，如果它 </font>
+
+6
+00:00:10,290 --> 00:00:12,210
+ <font color="#CCCCCC">在 </font><font color="#E5E5E5">过去的 </font><font color="#CCCCCC">一个最后 </font><font color="#E5E5E5">的 </font><font color="#CCCCCC">视频 </font>
+
+7
+00:00:12,210 --> 00:00:14,009
+视频<font color="#CCCCCC">我 </font><font color="#E5E5E5">已经向 </font><font color="#CCCCCC">你们 </font><font color="#E5E5E5">展示了 </font><font color="#CCCCCC">这些 </font>
+
+8
+00:00:14,009 --> 00:00:16,139
+你<font color="#CCCCCC">可以有默认参数 </font>
+
+9
+00:00:16,139 --> 00:00:17,550
+ <font color="#CCCCCC">例如，您可以使用数字代替 </font>
+
+10
+00:00:17,550 --> 00:00:19,859
+ <font color="#CCCCCC">等于一个值，或者我认为我们这样做了 </font>
+
+11
+00:00:19,859 --> 00:00:22,580
+性别，我们设置<font color="#E5E5E5">它等于未知所以我们 </font>
+
+12
+00:00:22,580 --> 00:00:24,960
+ <font color="#CCCCCC">没有这样的事情 </font><font color="#E5E5E5">让 </font><font color="#CCCCCC">我做一个 </font>
+
+13
+00:00:24,960 --> 00:00:30,869
+非常简单的功能<font color="#CCCCCC">我只会命名一个 </font>
+
+14
+00:00:30,869 --> 00:00:32,850
+愚蠢的判决，它将打印出来
+
+15
+00:00:32,850 --> 00:00:35,489
+ <font color="#E5E5E5">真是愚蠢的判决，我们会给予 </font>
+
+16
+00:00:35,489 --> 00:00:37,620
+这<font color="#E5E5E5">是几个默认值，我们 </font>
+
+17
+00:00:37,620 --> 00:00:38,969
+ <font color="#CCCCCC">已经知道 </font><font color="#E5E5E5">那些是什么 </font><font color="#CCCCCC">，所以 </font><font color="#E5E5E5">我会 </font>
+
+18
+00:00:38,969 --> 00:00:41,129
+再解释一下， <font color="#E5E5E5">这样我们就有了 </font>
+
+19
+00:00:41,129 --> 00:00:43,739
+ <font color="#E5E5E5">名为 </font><font color="#CCCCCC">name的变量</font><font color="#E5E5E5">有另一个 </font>
+
+20
+00:00:43,739 --> 00:00:47,910
+所谓的动作，所有<font color="#CCCCCC">这些 </font><font color="#E5E5E5">都 </font><font color="#CCCCCC">只是 </font>
+
+21
+00:00:47,910 --> 00:00:50,219
+ <font color="#CCCCCC">将 </font><font color="#E5E5E5">成为一个简单的字符串变量 </font>
+
+22
+00:00:50,219 --> 00:00:55,530
+和项目所以唯一的<font color="#E5E5E5">目的 </font>
+
+23
+00:00:55,530 --> 00:00:57,000
+功能是<font color="#E5E5E5">打印出一个哑巴 </font>
+
+24
+00:00:57,000 --> 00:00:58,770
+句子<font color="#E5E5E5">，默认我们只会说 </font>
+
+25
+00:00:58,770 --> 00:01:02,789
+ <font color="#E5E5E5">Bucky </font><font color="#CCCCCC">金枪鱼使用三种不同的方式 </font>
+
+26
+00:01:02,789 --> 00:01:05,580
+变量<font color="#E5E5E5">所以为了做这个打印 </font>
+
+27
+00:01:05,580 --> 00:01:13,200
+ <font color="#E5E5E5">如果我 </font><font color="#CCCCCC">只是 现在 </font><font color="#E5E5E5">就命名行动项目</font>
+
+28
+00:01:13,200 --> 00:01:19,439
+ <font color="#E5E5E5">这当然很好得到我的痰 </font>
+
+29
+00:01:19,439 --> 00:01:22,590
+喉咙<font color="#E5E5E5">所以记得当我们没有进去的时候 </font>
+
+30
+00:01:22,590 --> 00:01:26,909
+ <font color="#E5E5E5">它只使用默认的 </font><font color="#CCCCCC">I参数 </font>
+
+31
+00:01:26,909 --> 00:01:33,030
+ <font color="#CCCCCC">说屁的默认参数 </font><font color="#E5E5E5">就是这样 </font>
+
+32
+00:01:33,030 --> 00:01:36,000
+ <font color="#E5E5E5">然而 </font><font color="#CCCCCC">现在正在发生什么</font>
+
+33
+00:01:36,000 --> 00:01:37,500
+ <font color="#CCCCCC">这</font><font color="#E5E5E5">是 </font><font color="#CCCCCC">HORO </font>
+
+34
+00:01:37,500 --> 00:01:40,140
+ <font color="#E5E5E5">我想告诉你其他的事情，所以我们 </font>
+
+35
+00:01:40,140 --> 00:01:42,259
+ <font color="#E5E5E5">有不同的夫妻 </font><font color="#CCCCCC">选择 </font>
+
+36
+00:01:42,259 --> 00:01:44,670
+ <font color="#E5E5E5">我们传入的确切参数和 </font>
+
+37
+00:01:44,670 --> 00:01:47,700
+ <font color="#E5E5E5">我们如何在 </font><font color="#CCCCCC">默认情况下 </font><font color="#E5E5E5">传递它们 </font>
+
+38
+00:01:47,700 --> 00:01:50,640
+ <font color="#E5E5E5">每当我们传递参数时，它就是 </font>
+
+39
+00:01:50,640 --> 00:01:52,290
+要<font color="#E5E5E5">按照我们的顺序接受它们</font>
+
+40
+00:01:52,290 --> 00:01:57,750
+把它们传递给<font color="#CCCCCC">萨莉，这是莎莉的事 </font>
+
+41
+00:01:57,750 --> 00:01:59,130
+做<font color="#CCCCCC">莎莉 </font>
+
+42
+00:01:59,130 --> 00:02:02,100
+放屁<font color="#CCCCCC">和项目只会说 </font>
+
+43
+00:02:02,100 --> 00:02:07,890
+莎莉轻轻放屁，让萨莉轻轻放屁
+
+44
+00:02:07,890 --> 00:02:11,160
+所以这个<font color="#E5E5E5">功能再次起作用 </font>
+
+45
+00:02:11,160 --> 00:02:13,410
+ <font color="#E5E5E5">我们刚刚创建它需要三个 </font>
+
+46
+00:02:13,410 --> 00:02:16,320
+ <font color="#E5E5E5">现在我们传递的字符串变量</font>
+
+47
+00:02:16,320 --> 00:02:19,400
+ <font color="#E5E5E5">现在在三个字符串变量中 </font>
+
+48
+00:02:19,400 --> 00:02:22,830
+它<font color="#E5E5E5">做的是它说好了，因为你 </font>
+
+49
+00:02:22,830 --> 00:02:24,540
+这是第一次进入这一次
+
+50
+00:02:24,540 --> 00:02:26,250
+这三分之一<font color="#E5E5E5">我要继续前进 </font>
+
+51
+00:02:26,250 --> 00:02:29,100
+假设<font color="#E5E5E5">第一个 </font><font color="#CCCCCC">应该是 </font>
+
+52
+00:02:29,100 --> 00:02:30,960
+ <font color="#CCCCCC">等于 </font><font color="#E5E5E5">命名</font><font color="#CCCCCC">第二个动作 </font>
+
+53
+00:02:30,960 --> 00:02:33,990
+在<font color="#CCCCCC">第三个项目中没关系是有道理的 </font>
+
+54
+00:02:33,990 --> 00:02:37,820
+ <font color="#E5E5E5">这就是 </font><font color="#CCCCCC">我们 </font><font color="#E5E5E5">如何 </font><font color="#CCCCCC">展示它 </font>
+
+55
+00:02:37,820 --> 00:02:40,590
+无论何时<font color="#E5E5E5">或那就是它如何 </font><font color="#CCCCCC">使用 </font><font color="#E5E5E5">我 </font>
+
+56
+00:02:40,590 --> 00:02:42,750
+应该说他们是
+
+57
+00:02:42,750 --> 00:02:45,000
+可能会<font color="#CCCCCC">来某些时间 </font>
+
+58
+00:02:45,000 --> 00:02:47,640
+我们只想<font color="#E5E5E5">传递第二个 </font>
+
+59
+00:02:47,640 --> 00:02:49,860
+或者我们想<font color="#E5E5E5">传递第三个 </font>
+
+60
+00:02:49,860 --> 00:02:53,370
+一个在<font color="#CCCCCC">第一个， </font><font color="#E5E5E5">所以我们想要的时候 </font>
+
+61
+00:02:53,370 --> 00:02:56,100
+传递<font color="#E5E5E5">有限数量的论点 </font>
+
+62
+00:02:56,100 --> 00:02:58,440
+或者我们想要<font color="#E5E5E5">传递它们 </font>
+
+63
+00:02:58,440 --> 00:03:01,770
+ <font color="#E5E5E5">不同的顺序这就是我们如何做到这一点 </font>
+
+64
+00:03:01,770 --> 00:03:05,700
+需要<font color="#CCCCCC">利用这个关键词 </font>
+
+65
+00:03:05,700 --> 00:03:08,730
+争论<font color="#E5E5E5">就在这里所以说我们 </font>
+
+66
+00:03:08,730 --> 00:03:10,200
+想要<font color="#E5E5E5">将项目设置为等于 </font>
+
+67
+00:03:10,200 --> 00:03:11,820
+ <font color="#CCCCCC">如果我们只是 </font><font color="#E5E5E5">一些 </font><font color="#CCCCCC">不同的 </font><font color="#E5E5E5">东西 </font>
+
+68
+00:03:11,820 --> 00:03:14,010
+ <font color="#E5E5E5">写一个字符串有它会怎么想 </font>
+
+69
+00:03:14,010 --> 00:03:16,260
+它意味着<font color="#CCCCCC">第 </font><font color="#E5E5E5">一个，所以我们 </font>
+
+70
+00:03:16,260 --> 00:03:18,360
+ <font color="#E5E5E5">能做的是我们可以实际输入项目和 </font>
+
+71
+00:03:18,360 --> 00:03:23,580
+将其设置为真棒所以现在<font color="#CCCCCC">每当 </font>
+
+72
+00:03:23,580 --> 00:03:26,360
+ <font color="#E5E5E5">你打印出来的就是Bucky </font><font color="#CCCCCC">八 </font>
+
+73
+00:03:26,360 --> 00:03:29,190
+ <font color="#E5E5E5">这真是太棒了 </font>
+
+74
+00:03:29,190 --> 00:03:31,190
+感觉所以让我们继续<font color="#E5E5E5">改变它 </font>
+
+75
+00:03:31,190 --> 00:03:33,900
+ <font color="#E5E5E5">所以在最后一个例子中我们会说好的 </font>
+
+76
+00:03:33,900 --> 00:03:37,410
+树项目很棒而不是金枪鱼和
+
+77
+00:03:37,410 --> 00:03:42,270
+也是为了行动，它会<font color="#E5E5E5">做得更多 </font>
+
+78
+00:03:42,270 --> 00:03:45,180
+感觉<font color="#CCCCCC">如果我们 </font><font color="#E5E5E5">写的不仅仅是这样 </font>
+
+79
+00:03:45,180 --> 00:03:47,910
+ <font color="#E5E5E5">我们只选择一个传球吗？ </font>
+
+80
+00:03:47,910 --> 00:03:51,030
+ <font color="#CCCCCC">这些参数 </font><font color="#E5E5E5">数量有限</font>
+
+81
+00:03:51,030 --> 00:03:52,680
+第二个<font color="#E5E5E5">和第三个，但我们也可以 </font>
+
+82
+00:03:52,680 --> 00:03:55,709
+ <font color="#CCCCCC">pesum </font><font color="#E5E5E5">它在 </font><font color="#CCCCCC">我们 </font><font color="#E5E5E5">非常 </font><font color="#CCCCCC">想要 </font><font color="#E5E5E5">的任何顺序 </font>
+
+83
+00:03:55,709 --> 00:03:58,739
+特别是<font color="#E5E5E5">当我们写了一点时 </font>
+
+84
+00:03:58,739 --> 00:04:00,870
+代码，我们将此给予某人
+
+85
+00:04:00,870 --> 00:04:03,390
+否则<font color="#E5E5E5">允许他们使用我们的功能 </font>
+
+86
+00:04:03,390 --> 00:04:08,459
+所以运行<font color="#E5E5E5">这个，它说Bucky很棒 </font>
+
+87
+00:04:08,459 --> 00:04:11,580
+所以这又<font color="#CCCCCC">是一个关键字参数 </font>
+
+88
+00:04:11,580 --> 00:04:12,959
+是一种非常酷的<font color="#CCCCCC">工作方式</font>
+
+89
+00:04:12,959 --> 00:04:14,880
+争论有限<font color="#E5E5E5">的 </font>
+
+90
+00:04:14,880 --> 00:04:16,589
+参数或者pessimal 
+
+91
+00:04:16,589 --> 00:04:18,779
+任何你想要的订单， <font color="#CCCCCC">那么伙伴们 </font>
+
+92
+00:04:18,779 --> 00:00:00,000
+看着<font color="#E5E5E5">，我稍后再见 </font>
+

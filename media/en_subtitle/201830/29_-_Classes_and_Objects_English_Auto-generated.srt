@@ -1,0 +1,525 @@
+1
+00:00:00,060 --> 00:00:04,560
+alright guys welcome back to another
+tutorial and in this video finally going
+
+2
+00:00:04,560 --> 00:00:09,000
+to start talking to you about classes
+and objects and some cool things that
+
+3
+00:00:09,000 --> 00:00:13,889
+you can do with them so first of all
+what the heck is a class well the most
+
+4
+00:00:13,889 --> 00:00:18,630
+simple definition is basically a class
+is an easy way where you can group
+
+5
+00:00:18,630 --> 00:00:24,210
+similar variables and functions together
+so say you're making a computer game
+
+6
+00:00:24,210 --> 00:00:29,400
+usually all of the functions dealing
+with enemies and all the variables
+through you would want in an enemy class
+
+7
+00:00:31,140 --> 00:00:35,850
+maybe you have a different one for
+moving your character around well all of
+
+8
+00:00:35,850 --> 00:00:39,989
+those functions for moving your main
+character would be in a character class
+so on and so forth so again the most
+
+9
+00:00:43,950 --> 00:00:48,780
+simple definition is it's a really cool
+way we can group similar variables and
+
+10
+00:00:48,780 --> 00:00:54,719
+functions together might be in record
+okay just check in so with that being
+
+11
+00:00:54,719 --> 00:00:58,800
+said let's go ahead and look at an
+example right now so in order to make a
+class type the keyword class and then at
+
+12
+00:01:01,770 --> 00:01:07,080
+his face now class pretty much says hey
+Python I'm about to make a class now
+
+13
+00:01:07,080 --> 00:01:11,340
+after this what you want to do is you
+want to name your class something and
+
+14
+00:01:11,340 --> 00:01:16,439
+it's common practice to name it with a
+capital letter and this is just so
+programmers can differentiate between a
+
+15
+00:01:18,720 --> 00:01:23,790
+class and like a normal variable or a
+function or anything like that so this
+
+16
+00:01:23,790 --> 00:01:30,170
+is how we make a class called enemy now
+add a colon now whatever is indented
+
+17
+00:01:30,170 --> 00:01:36,540
+after this is going to be part of your
+enemy class so every variable inside
+
+18
+00:01:36,540 --> 00:01:41,909
+here and every function is going to
+belong to this enemy class so let's go
+
+19
+00:01:41,909 --> 00:01:47,009
+ahead and make a simple variable first
+so we'll say that each enemy has a life
+
+20
+00:01:47,009 --> 00:01:53,250
+of 3 so now this life variable is
+actually part of this enemy class just
+
+21
+00:01:53,250 --> 00:01:58,409
+remember that so now what we can do is
+we can make a couple functions for this
+
+22
+00:01:58,409 --> 00:02:04,290
+class so what's one thing that we can do
+we'll say we'll make a function called
+
+23
+00:02:04,290 --> 00:02:09,690
+attack and this is just some what
+happens whenever we attack an enemy now
+
+24
+00:02:09,690 --> 00:02:13,800
+check this out whenever I'm just writing
+these parentheses right here
+
+25
+00:02:13,800 --> 00:02:20,670
+what PyCharm did is automatically filled
+in this keyword of self now this is
+going to be a little confusing until I
+
+26
+00:02:22,590 --> 00:02:27,480
+finish this program and explain what
+objects are but pretty much think of
+
+27
+00:02:27,480 --> 00:02:34,440
+whenever you see self it means use
+something from this own class so if you
+
+28
+00:02:34,440 --> 00:02:38,790
+say you're going to see later like self
+attack it means use the attack function
+
+29
+00:02:38,790 --> 00:02:43,140
+in this class self life means use the
+life variable in this class again kind
+
+30
+00:02:43,140 --> 00:02:45,950
+of confusing at first but you guys are
+going to see later on what it does
+
+31
+00:02:45,950 --> 00:02:50,250
+alright so let's make this function
+actually do something whenever we attack
+
+32
+00:02:50,250 --> 00:02:56,030
+the anime we'll just do something like
+print attack or actually let's print
+
+33
+00:02:56,030 --> 00:02:59,040
+ouch
+we'll say that at the end we says ouch
+
+34
+00:02:59,040 --> 00:03:06,240
+and also what we want to do is we want
+to subtract one from the enemy's life
+
+35
+00:03:06,240 --> 00:03:11,750
+now we can't just do this check it out
+if we just try to subtract one from life
+
+36
+00:03:11,750 --> 00:03:16,550
+we get a little error what we actually
+need to do is what I was talking about
+
+37
+00:03:16,550 --> 00:03:24,090
+put self life so that's how you access
+the variables inside your class so
+
+38
+00:03:24,090 --> 00:03:29,430
+pretty much self is saying okay inside
+this class take away one from the life
+
+39
+00:03:29,430 --> 00:03:34,470
+variable simple enough maybe it was easy
+I don't understand who knew all right so
+
+40
+00:03:34,470 --> 00:03:38,370
+let's make one more function so this
+class isn't that boring I'll make
+
+41
+00:03:38,370 --> 00:03:43,800
+another function to check the enemy's
+life and of course it automatically
+
+42
+00:03:43,800 --> 00:03:49,050
+fills in that self variable and we'll
+say I don't know maybe a little if
+
+43
+00:03:49,050 --> 00:03:58,320
+statement so if self not slough so if
+self life is less than or equal to zero
+and this is actually another thing I
+
+44
+00:04:00,930 --> 00:04:04,980
+want to point out whenever you're making
+computer games don't just check if the
+enemy's life is equal to zero to see if
+
+45
+00:04:07,680 --> 00:04:11,820
+they're dead because like if they had
+three life and you had like a super
+
+46
+00:04:11,820 --> 00:04:16,109
+powerful weapon to like slash them in
+and took away five life well then their
+
+47
+00:04:16,108 --> 00:04:19,708
+life would be negative two so always
+make sure to check if it's less than or
+
+48
+00:04:19,709 --> 00:04:26,460
+equal to zero just a little I don't know
+tip for game development so if they're
+
+49
+00:04:26,460 --> 00:04:29,520
+less than or equal to
+we'll just print something like I am
+
+50
+00:04:29,520 --> 00:04:35,639
+dead Bob the enemy obviously couldn't
+say anything if it was dead but this is
+
+51
+00:04:35,639 --> 00:04:39,439
+our game we could do what do you want
+alright so if they're dead they're dead
+
+52
+00:04:39,439 --> 00:04:45,240
+else we'll just print out like how much
+life they had lab so print something
+
+53
+00:04:45,240 --> 00:04:52,469
+like of course we need to convert it to
+a string so print out the amount of life
+
+54
+00:04:52,469 --> 00:05:01,319
+that they have left and we'll just do
+something like this life left like -
+
+55
+00:05:01,319 --> 00:05:07,289
+life left one life left
+tomato tomahto alright so right now we
+have a very simple class of enemy so the
+
+56
+00:05:10,680 --> 00:05:16,650
+enemy has three life and we can attack
+him whenever we call this function it
+takes one life away and also anytime we
+
+57
+00:05:19,830 --> 00:05:25,110
+can have it check to see how much life
+the enemy has if it's dead it prints out
+
+58
+00:05:25,110 --> 00:05:29,939
+I'm dead or if it's not that it tells
+you how much life you guys love simple
+
+59
+00:05:29,939 --> 00:05:38,400
+enough now if we just try to do
+something like this attack okay well
+that's not working now the reason that
+
+60
+00:05:40,949 --> 00:05:47,819
+this doesn't work is because in order to
+use anything inside your class you need
+
+61
+00:05:47,819 --> 00:05:53,099
+to access it a special way and that is
+by creating something called an object
+
+62
+00:05:53,099 --> 00:05:58,139
+now an object just think of it like this
+it's pretty much a way that you can
+
+63
+00:05:58,139 --> 00:06:02,039
+access the stuff inside your class and I
+know I just say that twice but it's
+
+64
+00:06:02,039 --> 00:06:05,310
+actually really important to understand
+and they're really easy to make as well
+
+65
+00:06:05,310 --> 00:06:10,469
+so the first thing you do is you pretty
+much act like you're making a normal
+
+66
+00:06:10,469 --> 00:06:16,740
+variable so I'm going to make a object
+called enemy one so what you said it
+
+67
+00:06:16,740 --> 00:06:23,219
+equal to is the class that you want to
+use stuff from so I want to use the
+
+68
+00:06:23,219 --> 00:06:29,310
+stuff inside the enemy class so anytime
+I want to use that I need this object
+
+69
+00:06:29,310 --> 00:06:37,229
+code enemy 1 and it's object from this
+class right here so now we can just do
+
+70
+00:06:37,229 --> 00:06:41,120
+something called enemy one
+
+71
+00:06:42,800 --> 00:06:50,550
+attack and what this pretty much means
+is this it says okay enemy one is an
+
+72
+00:06:50,550 --> 00:06:56,819
+object from what class while enemy so go
+to the class enemy and once you're in
+
+73
+00:06:56,819 --> 00:07:04,080
+there use attack so now if we try to run
+this it would say ouch because it just
+took one away from the enemy and
+
+74
+00:07:05,449 --> 00:07:13,889
+actually if we check life to make sure
+that worked whenever we run this said
+
+75
+00:07:13,889 --> 00:07:18,830
+okay it starts with three of course so
+we're going to attack this enemy once
+
+76
+00:07:18,830 --> 00:07:25,740
+say ouch
+then it says two life left now I want to
+
+77
+00:07:25,740 --> 00:07:30,690
+show you guys one other really cool
+thing and this is probably the main
+
+78
+00:07:30,690 --> 00:07:37,889
+reason that people use classes all the
+time see each object is actually a copy
+
+79
+00:07:37,889 --> 00:07:43,259
+of its class so each object is actually
+independent of one another
+
+80
+00:07:43,259 --> 00:07:48,569
+so check this out don't understand what
+I mean you will in just a second say
+
+81
+00:07:48,569 --> 00:07:55,080
+that we have enemy one instead we have
+another enemy called enemy to actually
+let me code this entire thing and then
+
+82
+00:07:56,610 --> 00:08:03,199
+I'll talk you guys through do this
+
+83
+00:08:05,120 --> 00:08:10,440
+alright so what's going to happen is
+we're going to make two objects or two
+
+84
+00:08:10,440 --> 00:08:15,599
+copies from this class one of them is
+going to be stored in the object enemy
+
+85
+00:08:15,599 --> 00:08:20,819
+one and another one is going to be
+stored in the object enemy two now each
+
+86
+00:08:20,819 --> 00:08:25,800
+of these are pretty much thinking though
+think of them like their own enemies so
+
+87
+00:08:25,800 --> 00:08:32,699
+each of those has three life each so
+whenever you attack enemy one it doesn't
+
+88
+00:08:32,698 --> 00:08:37,348
+affect enemy two so let me run this and
+I'll show you guys what I'm talking
+
+89
+00:08:37,349 --> 00:08:44,519
+about so we created two objects we
+attacked and me one twice and then check
+
+90
+00:08:44,519 --> 00:08:49,199
+this life and it had one life left
+however enemy two is still had three
+
+91
+00:08:49,199 --> 00:08:53,060
+life left so this is how people make
+computer games
+
+92
+00:08:53,060 --> 00:08:58,610
+with one class which is pretty much a
+template of how do you want to code the
+
+93
+00:08:58,610 --> 00:09:02,570
+enemy how do you want it to act and
+behave and you can create as many of
+
+94
+00:09:02,570 --> 00:09:08,810
+them as you want just by making an
+object for each one so how awesome is
+that
+
+95
+00:09:09,260 --> 00:09:14,930
+so that is the basics of a class pretty
+much not only a group of similar
+
+96
+00:09:14,930 --> 00:09:20,270
+functions and objects but pretty much a
+template of how you want an object to
+
+97
+00:09:20,270 --> 00:09:25,460
+behave and act and of course you can
+make as many copies of it as you want
+
+98
+00:09:25,460 --> 00:09:31,700
+and each of the objects are independent
+of one another so if you guys don't
+
+99
+00:09:31,700 --> 00:09:37,130
+completely understand this or it seems
+kind of like unfamiliar whenever we
+
+100
+00:09:37,130 --> 00:09:41,089
+start making other programs is going to
+become second nature and also really
+
+101
+00:09:41,089 --> 00:09:46,580
+easy to understand but that is the
+basics of classes and objects in Python
+
+102
+00:09:46,580 --> 00:09:50,779
+and also if you have any questions then
+ask me on my forum but for now thank you
+
+103
+00:09:50,779 --> 00:09:55,600
+guys for watching don't forget subscribe
+and I'll see you next tutorial

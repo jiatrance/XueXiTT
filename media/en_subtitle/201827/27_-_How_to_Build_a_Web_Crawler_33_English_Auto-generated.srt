@@ -1,0 +1,601 @@
+1
+00:00:00,060 --> 00:00:05,670
+alright guys so now we know how to make
+a very simple web crawler at least a web
+
+2
+00:00:05,670 --> 00:00:10,410
+crawler for my cell right here Bucky's
+room Oryx last trade I'm guessing that
+
+3
+00:00:10,410 --> 00:00:14,610
+you're probably not going to only want
+to crawl my web page I mean it is pretty
+
+4
+00:00:14,610 --> 00:00:18,390
+cool but you're probably going to want
+to let your web crawler do things like
+
+5
+00:00:18,390 --> 00:00:22,230
+crawl other web pages start crawling the
+entire internet and gathering
+
+6
+00:00:22,230 --> 00:00:29,820
+information so instead of just going
+through page by page by page I'm going
+
+7
+00:00:29,820 --> 00:00:33,690
+to show you guys how to make a dynamic
+web crawler that can pretty much gather
+
+8
+00:00:33,690 --> 00:00:38,309
+links from a web page and crawl those as
+well so spread out start crawling the
+
+9
+00:00:38,309 --> 00:00:44,850
+entire web so what I'm going to do is
+actually build a new function and what
+
+10
+00:00:44,850 --> 00:00:49,079
+this web crawler is going to do this
+example is it's pretty much not only
+
+11
+00:00:49,079 --> 00:00:55,500
+going to go through page by page but for
+every item it's in actually go to that
+
+12
+00:00:55,500 --> 00:00:59,399
+link where the item is and you can
+actually do a couple different things
+
+13
+00:00:59,399 --> 00:01:04,110
+you can either just gather information
+so say that you're making I don't know
+
+14
+00:01:04,110 --> 00:01:09,510
+maybe a GUI to trade your items well
+what we do want to do is gather maybe
+
+15
+00:01:09,510 --> 00:01:14,340
+the item title maybe some information
+about the owner so you can either just
+
+16
+00:01:14,340 --> 00:01:20,040
+gather information from the web page or
+what most web crawlers do is they go to
+
+17
+00:01:20,040 --> 00:01:25,439
+that web page gather all of the links
+from that web page and store them so
+they can either crawl them later or um
+
+18
+00:01:27,950 --> 00:01:32,700
+start spreading out with Karla men's
+instantly whatever you want to do so I'm
+
+19
+00:01:32,700 --> 00:01:35,729
+going to show you guys both of those
+techniques and by the end you're going
+
+20
+00:01:35,729 --> 00:01:39,630
+to learn how to make some pretty sweet
+web crawlers so anyways let's go back in
+
+21
+00:01:39,630 --> 00:01:45,329
+here and I'll get myself a little bit
+more space so again like I said what
+
+22
+00:01:45,329 --> 00:01:50,250
+this is going to do is go to each item
+one by one and do something cool with it
+
+23
+00:01:50,250 --> 00:01:59,579
+so I'm going to name this function get
+single item data in the parameter that
+we pass it in is the URL of the item now
+
+24
+00:02:05,310 --> 00:02:10,560
+the cool thing about this is we actually
+pulled the URL from item and it's stored
+
+25
+00:02:10,560 --> 00:02:14,970
+in this href variable
+so we're going to be passing it in as
+
+26
+00:02:14,970 --> 00:02:21,610
+item URL so how awesome is that like
+half the work is already done because we
+
+27
+00:02:21,610 --> 00:02:27,190
+already um got the URL of each item in
+the last Oriole pretty freakin sweet so
+now with this again the first thing that
+
+28
+00:02:30,160 --> 00:02:35,530
+we always want to do is request the data
+from the website convert it in plain
+
+29
+00:02:35,530 --> 00:02:39,340
+text or in other words just get the
+source code and then make it into a
+
+30
+00:02:39,340 --> 00:02:44,080
+beautiful soup object well check this
+out as well oh my god this is like the
+
+31
+00:02:44,080 --> 00:02:51,459
+easiest soro ever because everything is
+basically done for us so again in this
+
+32
+00:02:51,459 --> 00:03:00,250
+function as well tired of looking at
+fantasies say uh I don't know here we go
+
+33
+00:03:00,250 --> 00:03:04,090
+alright
+so again whenever we're on this page
+
+34
+00:03:04,090 --> 00:03:08,380
+what we need to do is we need to make a
+new beautiful soup object because the
+
+35
+00:03:08,380 --> 00:03:13,150
+old one was for the search page so in
+this one we requested that URL which is
+
+36
+00:03:13,150 --> 00:03:20,080
+now named item URL we got the source
+code from it and then we convert it to a
+
+37
+00:03:20,080 --> 00:03:24,610
+beautiful soup object so now we can
+crawl it and like pull out links from it
+
+38
+00:03:24,610 --> 00:03:28,900
+titles whatever we will want so the
+first thing I want to do is I want to
+
+39
+00:03:28,900 --> 00:03:33,070
+show you guys just say you want to
+gather information from this page so for
+
+40
+00:03:33,070 --> 00:03:37,269
+each item will say that you wanted to
+get like I don't know will get the item
+
+41
+00:03:37,269 --> 00:03:40,840
+name and will just get the item name for
+now I'll show you guys a real keep it
+
+42
+00:03:40,840 --> 00:03:51,489
+really basic so for item name in soup
+find all actually I can just copy this
+
+43
+00:03:51,489 --> 00:03:53,940
+right here
+
+44
+00:03:54,820 --> 00:04:00,560
+what I want to do is get the item name
+from each individual each individual
+
+45
+00:04:00,560 --> 00:04:05,270
+page now my guess is since it's a new
+page it's not probably going to have the
+
+46
+00:04:05,270 --> 00:04:10,150
+same class because you know it has a
+different design so let's go ahead and
+
+47
+00:04:10,150 --> 00:04:16,580
+find out what information we can use for
+this all right so the three things you
+
+48
+00:04:16,579 --> 00:04:22,940
+need is what HTML element it is it's a
+div what attribute are you looking for
+
+49
+00:04:22,940 --> 00:04:28,490
+at the class and what's the value of it
+well I'm just copy this so I don't
+
+50
+00:04:28,490 --> 00:04:33,470
+forget I name so div class I name those
+are the three things you need whenever
+
+51
+00:04:33,470 --> 00:04:38,590
+you use it so again it's not a link
+before but the title is now in a div and
+the class of it is I name which stands
+
+52
+00:04:43,160 --> 00:04:49,490
+for item name easy to remember so now on
+each page let's just go ahead and print
+
+53
+00:04:49,490 --> 00:04:56,510
+out the item name so I'd name about
+string remember it takes whatever this
+
+54
+00:04:56,510 --> 00:05:01,550
+HTML element is and pulls a string from
+it or just the text from inside so now
+
+55
+00:05:01,550 --> 00:05:07,460
+what I can do is actually just run this
+in let's see we actually need to call
+this right here so copy this and
+
+56
+00:05:11,590 --> 00:05:19,000
+remember right here is basically going
+through the search page so for each item
+
+57
+00:05:19,000 --> 00:05:22,550
+actually comment these out because we
+don't want a bunch of stuff cluttering
+
+58
+00:05:22,550 --> 00:05:34,640
+up our results so basically for each
+item this href was the URL so go to each
+
+59
+00:05:34,640 --> 00:05:40,880
+items individual page and right now
+we're just printing out the title of it
+
+60
+00:05:40,880 --> 00:05:44,660
+and actually just so I can test this to
+make sure it's working instead of
+
+61
+00:05:44,660 --> 00:05:49,850
+crawling just one page let's curl three
+so now whenever I run this hopefully
+
+62
+00:05:49,850 --> 00:05:57,440
+it'll work so again what this is doing
+right now is it's not just going to this
+
+63
+00:05:57,440 --> 00:06:02,270
+main search page in printing out the
+titles it's actually going to each of
+
+64
+00:06:02,270 --> 00:06:08,560
+these pages one by one and printing out
+the titles of each
+
+65
+00:06:10,870 --> 00:06:17,540
+so check that out and it looks like it
+is indeed working for more than one page
+
+66
+00:06:17,540 --> 00:06:23,090
+so again since I know that's working no
+need to keep going looks good and also I
+probably should mention this whenever
+
+67
+00:06:24,500 --> 00:06:28,220
+you want to stop your program like maybe
+you accidentally said crawl 100 pages
+
+68
+00:06:28,220 --> 00:06:33,230
+you just hit this little icon right here
+stop and also whenever you want to clear
+
+69
+00:06:33,230 --> 00:06:40,850
+your console you just hit this trashcan
+clear oh all right so now our web page
+
+70
+00:06:40,850 --> 00:06:46,490
+orcses me our web crawler cannot only
+crawl explicitly the pages we told it to
+
+71
+00:06:46,490 --> 00:06:52,130
+it can find links then dynamically and
+crawl those as well now another cool
+
+72
+00:06:52,130 --> 00:06:57,370
+thing that you can do is say ok start
+here find some pages crawl those pages
+
+73
+00:06:57,370 --> 00:07:03,140
+well what if you wanted to go to a
+certain page and find all the links on
+
+74
+00:07:03,140 --> 00:07:07,370
+this page and crawl those as well well
+this is actually one of the most common
+
+75
+00:07:07,370 --> 00:07:12,380
+things in web crawlers so might as well
+show you guys I'd do right now so what
+
+76
+00:07:12,380 --> 00:07:18,890
+we can do is put for link and I guess we
+might as well type this out trying to be
+
+77
+00:07:18,890 --> 00:07:25,750
+lazy in link in soup fine all now in
+this case this is actually going to be
+
+78
+00:07:25,750 --> 00:07:30,410
+the easiest thing ever we don't need to
+give it any explicit data we're just
+
+79
+00:07:30,410 --> 00:07:36,020
+going to say find all a find all the
+links on this page so it's going to find
+this one this one this one this one this
+
+80
+00:07:37,940 --> 00:07:44,810
+one this one any link that's on the page
+it's going to gather so um you know it's
+
+81
+00:07:44,810 --> 00:07:49,850
+actually it's kind of weird that the
+more work your program does the easier
+
+82
+00:07:49,850 --> 00:07:55,670
+it is the code mmm funny how things are
+so anyways now that we have the link
+
+83
+00:07:55,670 --> 00:08:03,530
+what we can do is just build a complete
+version of it because if we just look at
+it like any of these links right here we
+
+84
+00:08:07,550 --> 00:08:12,590
+have the same problem before it just
+links to the arm extension of it and not
+the base of it because you know let's
+
+85
+00:08:14,690 --> 00:08:19,910
+just help people develop websites so of
+course if we just try to go to this in
+
+86
+00:08:19,910 --> 00:08:22,909
+our browser
+it would try to do it on the localhost
+and not the webpage so build the full
+
+87
+00:08:27,379 --> 00:08:34,360
+version of it and just to make sure it's
+working we'll print that out
+
+88
+00:08:34,360 --> 00:08:42,349
+so print href and actually let me
+comment this out right here so again
+
+89
+00:08:42,349 --> 00:08:47,600
+what our program is going to do right
+now is actually don't want to mess up my
+
+90
+00:08:47,600 --> 00:08:51,380
+loops so what our program is going to do
+right now is say ok this is your
+
+91
+00:08:51,380 --> 00:08:57,560
+starting point go page by page go to
+each items page in on that page gather
+
+92
+00:08:57,560 --> 00:09:02,079
+all the links hopefully that's what it
+does if I didn't mess anything up so
+
+93
+00:09:02,079 --> 00:09:07,760
+that is what it's doing right here and I
+know this is kind of a it's kind of a
+
+94
+00:09:07,760 --> 00:09:13,070
+weird example because on each page the
+links are very similar like I don't know
+
+95
+00:09:13,070 --> 00:09:18,230
+like send a message on view profile so
+they're going to look the same but what
+
+96
+00:09:18,230 --> 00:09:24,589
+you can do is if you don't want to crawl
+the same link over and over again if you
+
+97
+00:09:24,589 --> 00:09:28,040
+guys remember a couple tutorials ago I
+tell you guys about something called
+sets now in the example I showed you
+
+98
+00:09:31,430 --> 00:09:34,940
+guys just a very simple grocery list and
+you're like ok when the heck am I ever
+
+99
+00:09:34,940 --> 00:09:37,910
+going to make a grocery list piece of
+software this is the dumbest thing ever
+well this is one of the instances where
+
+100
+00:09:40,339 --> 00:09:46,310
+you can use a set because it's basically
+a list of items but it has all unique
+values every item it can't repeat like
+
+101
+00:09:49,250 --> 00:09:53,930
+you can end a regular list so that way
+you can throw all of your URLs in a set
+
+102
+00:09:53,930 --> 00:10:00,079
+and it will only crow each URL once
+instead of you know crawling on index
+
+103
+00:10:00,079 --> 00:10:06,500
+each time so that's one cool thing or
+one cool way that you can use sets to
+
+104
+00:10:06,500 --> 00:10:12,529
+make a very powerful web crawler so
+anyways that is the very basics of not
+
+105
+00:10:12,529 --> 00:10:17,959
+only how you can pull information from a
+single page but also gather the links
+
+106
+00:10:17,959 --> 00:10:22,250
+from those pages then of course you'd
+say ok now go to this page gather all
+
+107
+00:10:22,250 --> 00:10:25,850
+the links before you know it you have a
+million links and you have a next Google
+
+108
+00:10:25,850 --> 00:10:30,920
+so that is the basics of making a very
+simple web crawler if you guys have any
+questions at all please ask me I'm going
+
+109
+00:10:33,050 --> 00:10:39,470
+to forum also what I
+is on my forum I posted all the source
+
+110
+00:10:39,470 --> 00:10:46,400
+code so if you go to the forum and in
+the Python section it is right here 25
+
+111
+00:10:46,400 --> 00:10:52,040
+how to make a web crawler so maybe you
+have some trouble or you're messing
+
+112
+00:10:52,040 --> 00:10:55,490
+something up then I just copy that and
+you'll be good to go and also another
+
+113
+00:10:55,490 --> 00:11:01,280
+thing I want to point out is try to
+gather this information right here with
+
+114
+00:11:01,280 --> 00:11:08,600
+a web crawler if you can make a web
+crawler to go to this website and get
+
+115
+00:11:08,600 --> 00:11:12,980
+the source code of how to make a itself
+that will be the coolest thing ever so
+
+116
+00:11:12,980 --> 00:11:14,900
+try to do that that will be your next
+challenge
+
+117
+00:11:14,900 --> 00:11:18,440
+but for now then guys for watching don't
+forget subscribe and well
+
+118
+00:11:18,440 --> 00:11:21,040
+see you next time

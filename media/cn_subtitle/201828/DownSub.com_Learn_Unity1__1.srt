@@ -1,0 +1,2412 @@
+1
+00:00:05,210 --> 00:00:07,470
+嘿伙计们欢迎<font color="#E5E5E5">来到我们的第一个 </font>
+
+2
+00:00:07,470 --> 00:00:09,780
+当然我们<font color="#CCCCCC">在这里 </font><font color="#E5E5E5">有n3k频道 </font>
+
+3
+00:00:09,780 --> 00:00:11,940
+这将是一个关于团结的课程
+
+4
+00:00:11,940 --> 00:00:13,500
+ <font color="#E5E5E5">所以你需要知道的一切 </font>
+
+5
+00:00:13,500 --> 00:00:15,180
+发动机<font color="#E5E5E5">将被覆盖我们也是 </font>
+
+6
+00:00:15,180 --> 00:00:17,400
+打算<font color="#E5E5E5">对编码进行介绍 </font>
+
+7
+00:00:17,400 --> 00:00:18,810
+如果你不知道如何只是<font color="#E5E5E5">尚未代码</font>
+
+8
+00:00:18,810 --> 00:00:21,960
+ <font color="#E5E5E5">这是一个非常好的 </font><font color="#CCCCCC">起点 </font>
+
+9
+00:00:21,960 --> 00:00:23,550
+一<font color="#E5E5E5">开始我们要 </font><font color="#CCCCCC">创造 </font>
+
+10
+00:00:23,550 --> 00:00:25,650
+一个项目<font color="#E5E5E5">探索你的所有窗户 </font>
+
+11
+00:00:25,650 --> 00:00:28,140
+ <font color="#E5E5E5">团结一致然后继续编码 </font>
+
+12
+00:00:28,140 --> 00:00:30,090
+一点点我们也会有一个
+
+13
+00:00:30,090 --> 00:00:32,159
+好好看看<font color="#E5E5E5">Unity引擎命名空间 </font>
+
+14
+00:00:32,159 --> 00:00:33,570
+这<font color="#CCCCCC">意味着我们将 </font><font color="#E5E5E5">成为 </font>
+
+15
+00:00:33,570 --> 00:00:35,280
+ <font color="#E5E5E5">看着团结给我们的功能 </font>
+
+16
+00:00:35,280 --> 00:00:37,110
+我们<font color="#E5E5E5">将 </font><font color="#CCCCCC">能够做到 </font>
+
+17
+00:00:37,110 --> 00:00:39,150
+我们的生活<font color="#E5E5E5">和那些人一样容易 </font>
+
+18
+00:00:39,150 --> 00:00:41,370
+ <font color="#E5E5E5">如果你还是新编码，我还是 </font>
+
+19
+00:00:41,370 --> 00:00:42,690
+建议你坚持下去<font color="#CCCCCC">，因为 </font>
+
+20
+00:00:42,690 --> 00:00:43,890
+ <font color="#E5E5E5">而你将要 </font><font color="#CCCCCC">学习 </font>
+
+21
+00:00:43,890 --> 00:00:46,320
+ <font color="#E5E5E5">Unity引擎也是我的方式 </font>
+
+22
+00:00:46,320 --> 00:00:48,570
+ <font color="#CCCCCC">通过看 </font><font color="#E5E5E5">别人来学习</font>
+
+23
+00:00:48,570 --> 00:00:51,420
+这样做<font color="#E5E5E5">就是把它复制在我身边而且只是 </font>
+
+24
+00:00:51,420 --> 00:00:53,460
+最终<font color="#E5E5E5">只是拿起模式 </font>
+
+25
+00:00:53,460 --> 00:00:55,019
+这<font color="#E5E5E5">就是我学习和我的方式 </font>
+
+26
+00:00:55,019 --> 00:00:57,000
+建议<font color="#E5E5E5">如果你是新的</font><font color="#CCCCCC">至少 </font>
+
+27
+00:00:57,000 --> 00:00:58,979
+尝试一下，因为<font color="#CCCCCC">这可能会有所帮助 </font>
+
+28
+00:00:58,979 --> 00:01:01,799
+ <font color="#E5E5E5">谁知道最重要的 </font>
+
+29
+00:01:01,799 --> 00:01:03,360
+学习<font color="#E5E5E5">统一引擎也是 </font>
+
+30
+00:01:03,360 --> 00:01:05,069
+ <font color="#E5E5E5">学习 </font><font color="#CCCCCC">命名空间中的 </font><font color="#E5E5E5">一些功能 </font>
+
+31
+00:01:05,069 --> 00:01:06,840
+我们将要<font color="#CCCCCC">建立 </font><font color="#E5E5E5">一个游戏，如果 </font>
+
+32
+00:01:06,840 --> 00:01:08,700
+你从来没有真正<font color="#CCCCCC">建立过 </font><font color="#E5E5E5">这样 </font><font color="#CCCCCC">的游戏 </font>
+
+33
+00:01:08,700 --> 00:01:10,320
+也<font color="#E5E5E5">将是一个非常好的 </font><font color="#CCCCCC">经历 </font>
+
+34
+00:01:10,320 --> 00:01:11,759
+为了你<font color="#E5E5E5">我们 </font><font color="#CCCCCC">将成为 </font><font color="#E5E5E5">的游戏 </font>
+
+35
+00:01:11,759 --> 00:01:14,340
+ <font color="#CCCCCC">建筑是一个简单的蛇游戏 </font><font color="#E5E5E5">的 </font>
+
+36
+00:01:14,340 --> 00:01:16,049
+我<font color="#E5E5E5">选择蛇游戏的原因是因为 </font>
+
+37
+00:01:16,049 --> 00:01:17,850
+我能够<font color="#E5E5E5">涵盖很多 </font><font color="#CCCCCC">编码 </font>
+
+38
+00:01:17,850 --> 00:01:20,009
+那个符号游戏中的技术<font color="#E5E5E5">让我们如此 </font>
+
+39
+00:01:20,009 --> 00:01:20,640
+要去<font color="#E5E5E5">谈论 </font>
+
+40
+00:01:20,640 --> 00:01:22,439
+ <font color="#E5E5E5">我们要去的多维数组 </font>
+
+41
+00:01:22,439 --> 00:01:23,939
+ <font color="#CCCCCC">谈到</font><font color="#E5E5E5">从</font><font color="#CCCCCC">获得的投入 </font>
+
+42
+00:01:23,939 --> 00:01:26,189
+键盘<font color="#CCCCCC">谈论 </font><font color="#E5E5E5">移动对象 </font>
+
+43
+00:01:26,189 --> 00:01:28,799
+所有非常简单的主题，但这是
+
+44
+00:01:28,799 --> 00:01:30,509
+相当多<font color="#E5E5E5">的东西 </font><font color="#CCCCCC">是在 </font>
+
+45
+00:01:30,509 --> 00:01:32,880
+ <font color="#E5E5E5">许多游戏的基础， </font><font color="#CCCCCC">所以我们将 </font><font color="#E5E5E5">成为 </font>
+
+46
+00:01:32,880 --> 00:01:34,649
+ <font color="#E5E5E5">涵盖这些主题，没有 </font>
+
+47
+00:01:34,649 --> 00:01:36,270
+ <font color="#E5E5E5">让我们真的只是跳 </font>
+
+48
+00:01:36,270 --> 00:01:38,310
+ <font color="#E5E5E5">进入它 </font><font color="#CCCCCC">所以当你 </font><font color="#E5E5E5">将要成为 </font>
+
+49
+00:01:38,310 --> 00:01:40,590
+ <font color="#E5E5E5">第一次开放团结 </font>
+
+50
+00:01:40,590 --> 00:01:42,329
+这是<font color="#CCCCCC">一种 </font><font color="#E5E5E5">你将成为 </font><font color="#CCCCCC">的窗口 </font>
+
+51
+00:01:42,329 --> 00:01:44,820
+ <font color="#E5E5E5">有这么基本上它要求你 </font>
+
+52
+00:01:44,820 --> 00:01:46,469
+创建<font color="#E5E5E5">一个 </font><font color="#CCCCCC">我们 </font><font color="#E5E5E5">的项目 </font>
+
+53
+00:01:46,469 --> 00:01:48,149
+ <font color="#E5E5E5">现在就要这样做了 </font>
+
+54
+00:01:48,149 --> 00:01:51,509
+项目名称<font color="#CCCCCC">破坏了障碍教程或 </font>
+
+55
+00:01:51,509 --> 00:01:53,729
+统一课程<font color="#CCCCCC">你 </font><font color="#E5E5E5">可以说这个漂亮 </font>
+
+56
+00:01:53,729 --> 00:01:55,530
+你<font color="#CCCCCC">想要的任何东西， 现在你也是 </font>
+
+57
+00:01:55,530 --> 00:01:57,749
+ <font color="#E5E5E5">这里 </font><font color="#CCCCCC">有一个位置 </font>
+
+58
+00:01:57,749 --> 00:02:00,329
+是<font color="#E5E5E5">您的文件夹的资产 </font>
+
+59
+00:02:00,329 --> 00:02:02,700
+项目文件夹<font color="#E5E5E5">将被放置 </font>
+
+60
+00:02:02,700 --> 00:02:04,679
+ <font color="#E5E5E5">我 在这里 有 </font><font color="#CCCCCC">自己的 </font><font color="#E5E5E5">位置我很好 </font>
+
+61
+00:02:04,679 --> 00:02:06,539
+ <font color="#CCCCCC">我也会这样做 </font>
+
+62
+00:02:06,539 --> 00:02:10,258
+这个在3d上默认情况下将你的你放在<font color="#E5E5E5">2d </font>
+
+63
+00:02:10,258 --> 00:02:12,210
+ <font color="#E5E5E5">唯一真正的区别 </font><font color="#CCCCCC">在于 </font>
+
+64
+00:02:12,210 --> 00:02:15,060
+你启动<font color="#E5E5E5">引擎很多 </font><font color="#CCCCCC">设置 </font>
+
+65
+00:02:15,060 --> 00:02:16,590
+ <font color="#CCCCCC">将要 </font><font color="#E5E5E5">为你工作 </font>
+
+66
+00:02:16,590 --> 00:02:18,569
+ 2d <font color="#E5E5E5">现在这些都是真实的 </font>
+
+67
+00:02:18,569 --> 00:02:20,219
+一旦我们进去，就容易扭转
+
+68
+00:02:20,219 --> 00:02:22,859
+我用它<font color="#E5E5E5">实际上是在3d工作 </font>
+
+69
+00:02:22,859 --> 00:02:24,540
+因为团结实际上只是<font color="#CCCCCC">它是一个 </font>
+
+70
+00:02:24,540 --> 00:02:26,129
+ 3d引擎，这就是为什么它被称为统一
+
+71
+00:02:26,129 --> 00:02:29,129
+ 3d <font color="#E5E5E5">我只是更习惯在3d中使用它 </font>
+
+72
+00:02:29,129 --> 00:02:31,230
+ <font color="#CCCCCC">即使我们要做 </font><font color="#E5E5E5">一个 </font>
+
+73
+00:02:31,230 --> 00:02:33,930
+ <font color="#E5E5E5">这里的二维游戏即将离开 </font>
+
+74
+00:02:33,930 --> 00:02:36,780
+在<font color="#E5E5E5">3d上创建我的 </font><font color="#CCCCCC">项目 </font><font color="#E5E5E5">，我们是 </font>
+
+75
+00:02:36,780 --> 00:02:38,340
+打算<font color="#E5E5E5">看看界面 </font>
+
+76
+00:02:38,340 --> 00:02:41,819
+ <font color="#E5E5E5">你现在要去的不是 </font>
+
+77
+00:02:41,819 --> 00:02:44,040
+究竟<font color="#CCCCCC">你应该如何看待 </font>
+
+78
+00:02:44,040 --> 00:02:46,200
+那一刻，我<font color="#E5E5E5">会 非常 介绍 </font><font color="#CCCCCC">你 </font>
+
+79
+00:02:46,200 --> 00:02:48,510
+ <font color="#CCCCCC">我们首先要看的 </font><font color="#E5E5E5">是 </font>
+
+80
+00:02:48,510 --> 00:02:50,730
+ <font color="#CCCCCC">很</font><font color="#E5E5E5">右上方 这里</font><font color="#CCCCCC">有 一 </font><font color="#E5E5E5">点点 </font>
+
+81
+00:02:50,730 --> 00:02:52,889
+ <font color="#E5E5E5">这里的布局按钮很少布局 </font>
+
+82
+00:02:52,889 --> 00:02:55,530
+ <font color="#E5E5E5">下拉菜单现在这是真的 </font>
+
+83
+00:02:55,530 --> 00:02:57,150
+取决于<font color="#E5E5E5">你 </font><font color="#CCCCCC">最喜欢 </font><font color="#E5E5E5">哪一个 </font>
+
+84
+00:02:57,150 --> 00:02:59,280
+ <font color="#E5E5E5">最后，如果你 </font><font color="#CCCCCC">想 </font><font color="#E5E5E5">遵循这个 </font>
+
+85
+00:02:59,280 --> 00:03:02,639
+教程<font color="#E5E5E5">充分发挥潜力 </font><font color="#CCCCCC">和你 </font>
+
+86
+00:03:02,639 --> 00:03:04,590
+知道我放的窗户
+
+87
+00:03:04,590 --> 00:03:06,659
+ <font color="#CCCCCC">我的窗户 </font><font color="#E5E5E5">确保你把你的 </font>
+
+88
+00:03:06,659 --> 00:03:09,150
+很高， <font color="#E5E5E5">这将 </font><font color="#CCCCCC">是 </font><font color="#E5E5E5">最终的结果 </font>
+
+89
+00:03:09,150 --> 00:03:10,560
+ <font color="#CCCCCC">看起来然后我们 </font><font color="#E5E5E5">会成为 </font>
+
+90
+00:03:10,560 --> 00:03:12,510
+ <font color="#CCCCCC">走动 </font><font color="#E5E5E5">一些窗口 ，所以我们可以 </font>
+
+91
+00:03:12,510 --> 00:03:14,519
+ <font color="#E5E5E5">拥有与我现在完全相同的布局 </font>
+
+92
+00:03:14,519 --> 00:03:15,840
+如果你<font color="#CCCCCC">之前 已经 </font><font color="#E5E5E5">和 </font><font color="#CCCCCC">团结一致 </font>
+
+93
+00:03:15,840 --> 00:03:17,519
+ <font color="#E5E5E5">你几乎已经有了你的布局 </font>
+
+94
+00:03:17,519 --> 00:03:19,500
+所以只是建议你坚持<font color="#CCCCCC">， </font><font color="#E5E5E5">只是 </font>
+
+95
+00:03:19,500 --> 00:03:20,699
+坚持<font color="#E5E5E5">你 </font><font color="#CCCCCC">真正的 </font><font color="#E5E5E5">东西 </font>
+
+96
+00:03:20,699 --> 00:03:24,269
+ <font color="#E5E5E5">舒服使用，所以我的 </font><font color="#CCCCCC">东西 </font>
+
+97
+00:03:24,269 --> 00:03:25,470
+ <font color="#E5E5E5">像这样，我将要玩 </font>
+
+98
+00:03:25,470 --> 00:03:27,449
+窗户<font color="#E5E5E5">有点我的检查员 </font>
+
+99
+00:03:27,449 --> 00:03:28,229
+ <font color="#CCCCCC">正确阅读视频 </font>
+
+100
+00:03:28,229 --> 00:03:30,030
+ <font color="#E5E5E5">只是为了 </font><font color="#CCCCCC">确保 </font><font color="#E5E5E5">这一切 </font>
+
+101
+00:03:30,030 --> 00:03:34,290
+ <font color="#E5E5E5">现在这里的方式是 </font><font color="#CCCCCC">R键 </font><font color="#E5E5E5">和 </font>
+
+102
+00:03:34,290 --> 00:03:36,209
+项目窗口<font color="#CCCCCC">同样的事情， </font><font color="#E5E5E5">只是要 </font>
+
+103
+00:03:36,209 --> 00:03:39,120
+推动他们在<font color="#CCCCCC">右手</font><font color="#E5E5E5">侧 </font>
+
+104
+00:03:39,120 --> 00:03:40,769
+ <font color="#CCCCCC">我接下来</font><font color="#E5E5E5">要做的就是接受我的 </font>
+
+105
+00:03:40,769 --> 00:03:42,120
+ <font color="#CCCCCC">项目文件夹在 </font><font color="#E5E5E5">这里 </font><font color="#CCCCCC">我会 </font>
+
+106
+00:03:42,120 --> 00:03:44,220
+ <font color="#CCCCCC">右键单击它，我把它放在一个 </font>
+
+107
+00:03:44,220 --> 00:03:46,199
+ <font color="#E5E5E5">一栏布局就是你团结的方式 </font>
+
+108
+00:03:46,199 --> 00:03:47,849
+ <font color="#CCCCCC">实际上使用 </font><font color="#E5E5E5">之前的显示器 </font>
+
+109
+00:03:47,849 --> 00:03:50,370
+ <font color="#E5E5E5">然后他们出了两个专栏 </font>
+
+110
+00:03:50,370 --> 00:03:52,470
+布局，我<font color="#CCCCCC">真的不 </font><font color="#E5E5E5">喜欢它 </font>
+
+111
+00:03:52,470 --> 00:03:54,419
+ <font color="#CCCCCC">在这里 </font><font color="#E5E5E5">给你 </font><font color="#CCCCCC">一个很好的小搜索 </font>
+
+112
+00:03:54,419 --> 00:03:56,040
+你可以在哪里搜索模型
+
+113
+00:03:56,040 --> 00:03:58,739
+预制或脚本<font color="#E5E5E5">我们会看到更多 </font>
+
+114
+00:03:58,739 --> 00:04:00,389
+这<font color="#E5E5E5">一点 </font><font color="#CCCCCC">以后，但现在 </font>
+
+115
+00:04:00,389 --> 00:04:02,159
+我一定<font color="#CCCCCC">要 </font><font color="#E5E5E5">离开 </font><font color="#CCCCCC">它一个 </font>
+
+116
+00:04:02,159 --> 00:04:05,069
+ <font color="#E5E5E5">现在，当我真正做 </font><font color="#CCCCCC">我的 </font><font color="#E5E5E5">时， </font><font color="#CCCCCC">列布局 </font>
+
+117
+00:04:05,069 --> 00:04:07,199
+ <font color="#E5E5E5">我只是在上面再使用一个窗口 </font>
+
+118
+00:04:07,199 --> 00:04:08,430
+所以我<font color="#E5E5E5">只想 </font><font color="#CCCCCC">选择它 </font>
+
+119
+00:04:08,430 --> 00:04:10,199
+ <font color="#E5E5E5">我们很快就要去了 </font>
+
+120
+00:04:10,199 --> 00:04:13,069
+ <font color="#E5E5E5">在这里找到我们的控制台窗口 </font>
+
+121
+00:04:13,069 --> 00:04:15,840
+ <font color="#E5E5E5">就在这里 </font><font color="#CCCCCC">，我 </font><font color="#E5E5E5">会抓住 </font>
+
+122
+00:04:15,840 --> 00:04:18,630
+ <font color="#CCCCCC">这是你在这里看到的小标签 </font>
+
+123
+00:04:18,630 --> 00:04:20,789
+ <font color="#CCCCCC">你会 </font><font color="#E5E5E5">像点击 </font><font color="#CCCCCC">这样抓住 </font><font color="#E5E5E5">这个 </font>
+
+124
+00:04:20,789 --> 00:04:22,979
+ <font color="#E5E5E5">然后你就把它停靠了 </font>
+
+125
+00:04:22,979 --> 00:04:24,719
+几乎<font color="#E5E5E5">你想要的任何地方，所以 </font><font color="#CCCCCC">这是 </font>
+
+126
+00:04:24,719 --> 00:04:27,000
+ <font color="#E5E5E5">就像在正常停靠窗口 </font><font color="#CCCCCC">我 </font>
+
+127
+00:04:27,000 --> 00:04:29,370
+喜欢把我的船停在最<font color="#E5E5E5">底层 </font>
+
+128
+00:04:29,370 --> 00:04:31,650
+这<font color="#E5E5E5">就是 </font><font color="#CCCCCC">我喜欢这种 </font><font color="#E5E5E5">布局 的原因 </font>
+
+129
+00:04:31,650 --> 00:04:32,100
+许多
+
+130
+00:04:32,100 --> 00:04:34,590
+因为我有很多<font color="#CCCCCC">的 </font><font color="#E5E5E5">空间来 </font><font color="#CCCCCC">工作， </font>
+
+131
+00:04:34,590 --> 00:04:37,260
+这里<font color="#E5E5E5">让我们实际谈论这个问题 </font>
+
+132
+00:04:37,260 --> 00:04:39,300
+这里第一个窗口<font color="#CCCCCC">现场</font><font color="#E5E5E5">窗口 </font>
+
+133
+00:04:39,300 --> 00:04:41,040
+你可以说这个被分成<font color="#E5E5E5">两部分 </font>
+
+134
+00:04:41,040 --> 00:04:43,020
+有<font color="#CCCCCC">一个游戏窗口，还有 </font>
+
+135
+00:04:43,020 --> 00:04:45,570
+场景<font color="#E5E5E5">现在的场景窗口就在你的时候 </font>
+
+136
+00:04:45,570 --> 00:04:47,100
+ <font color="#E5E5E5">当你做的时候做</font><font color="#CCCCCC">你的编辑 </font>
+
+137
+00:04:47,100 --> 00:04:48,720
+配售对象在那个<font color="#CCCCCC">时候的情景</font>
+
+138
+00:04:48,720 --> 00:04:50,820
+你<font color="#E5E5E5">只是旋转周围的东西 </font>
+
+139
+00:04:50,820 --> 00:04:51,870
+ <font color="#E5E5E5">我们要 在 被</font><font color="#CCCCCC">谈论 的 </font>
+
+140
+00:04:51,870 --> 00:04:54,690
+ <font color="#CCCCCC">一秒钟 </font><font color="#E5E5E5">的游戏窗口就是这样 </font>
+
+141
+00:04:54,690 --> 00:04:56,160
+当<font color="#CCCCCC">你在这一点上玩的时候 </font>
+
+142
+00:04:56,160 --> 00:04:58,320
+ <font color="#E5E5E5">注意到我无法真正四处走动 </font>
+
+143
+00:04:58,320 --> 00:05:00,660
+ <font color="#E5E5E5">就像我 </font><font color="#CCCCCC">在场景中一样 </font>
+
+144
+00:05:00,660 --> 00:05:03,600
+窗口<font color="#E5E5E5">，因为当我在我的时候 </font>
+
+145
+00:05:03,600 --> 00:05:06,600
+游戏视图<font color="#CCCCCC">我正在使用游戏相机和 </font>
+
+146
+00:05:06,600 --> 00:05:09,000
+我在<font color="#E5E5E5">游戏中实际看到的内容取决于 </font>
+
+147
+00:05:09,000 --> 00:05:10,980
+在<font color="#E5E5E5">我告诉我的相机看到 </font><font color="#CCCCCC">的 </font>
+
+148
+00:05:10,980 --> 00:05:13,230
+ <font color="#E5E5E5">现在 </font><font color="#CCCCCC">我只想 </font><font color="#E5E5E5">放弃一个 </font>
+
+149
+00:05:13,230 --> 00:05:19,620
+对象真的<font color="#E5E5E5">很快 </font><font color="#CCCCCC">就像你一样立方体 </font>
+
+150
+00:05:19,620 --> 00:05:21,420
+可以<font color="#E5E5E5">告诉 </font><font color="#CCCCCC">我的相机指向 </font>
+
+151
+00:05:21,420 --> 00:05:23,640
+ <font color="#CCCCCC">如果我们在 </font><font color="#E5E5E5">游戏窗口 </font><font color="#CCCCCC">看到 </font><font color="#E5E5E5">那个立方体 </font>
+
+152
+00:05:23,640 --> 00:05:27,510
+ <font color="#E5E5E5">这就是我们所看到的那就是真的 </font>
+
+153
+00:05:27,510 --> 00:05:29,160
+ <font color="#CCCCCC">你无法 </font><font color="#E5E5E5">移动的 巨大 </font><font color="#CCCCCC">差异 </font>
+
+154
+00:05:29,160 --> 00:05:30,690
+在游戏窗口，除非<font color="#E5E5E5">你 </font><font color="#CCCCCC">有一些 </font>
+
+155
+00:05:30,690 --> 00:05:32,700
+游戏逻辑正在进行中我们<font color="#E5E5E5">要去 </font>
+
+156
+00:05:32,700 --> 00:05:35,610
+再有一<font color="#CCCCCC">点点 后来 </font><font color="#E5E5E5">权 </font>
+
+157
+00:05:35,610 --> 00:05:37,560
+ <font color="#E5E5E5">所以让我们来</font><font color="#CCCCCC">谈谈 </font><font color="#E5E5E5">实际导航 </font>
+
+158
+00:05:37,560 --> 00:05:40,350
+ <font color="#E5E5E5">现在通过这个3D环境 </font>
+
+159
+00:05:40,350 --> 00:05:42,120
+你熟悉<font color="#E5E5E5">厄运控制了 </font>
+
+160
+00:05:42,120 --> 00:05:44,670
+ <font color="#E5E5E5">你可以真正使用的真正老游戏</font>
+
+161
+00:05:44,670 --> 00:05:47,160
+ <font color="#E5E5E5">那些控制让我真正解释 </font>
+
+162
+00:05:47,160 --> 00:05:49,320
+ <font color="#E5E5E5">很快 </font><font color="#CCCCCC">我就把鼠标 </font><font color="#E5E5E5">放在这里，我 </font>
+
+163
+00:05:49,320 --> 00:05:51,810
+当我握住我的<font color="#E5E5E5">右边时，按住我的右键 </font>
+
+164
+00:05:51,810 --> 00:05:54,600
+点击我<font color="#CCCCCC">只能旋转 </font><font color="#E5E5E5">所以 </font>
+
+165
+00:05:54,600 --> 00:05:57,720
+ <font color="#CCCCCC">现在 </font><font color="#E5E5E5">用我的眼睛环顾四周 </font>
+
+166
+00:05:57,720 --> 00:06:00,480
+ <font color="#E5E5E5">完全，我会继续使用WASD键 </font>
+
+167
+00:06:00,480 --> 00:06:02,970
+我将能够<font color="#E5E5E5">像一个人一样 </font><font color="#CCCCCC">移动 </font>
+
+168
+00:06:02,970 --> 00:06:06,210
+飞行FPS我想我<font color="#CCCCCC">不确定是否那样 </font>
+
+169
+00:06:06,210 --> 00:06:10,110
+ <font color="#E5E5E5">确实存在， </font><font color="#CCCCCC">但 </font><font color="#E5E5E5">我们 </font><font color="#CCCCCC">能够 </font><font color="#E5E5E5">移动和a </font>
+
+170
+00:06:10,110 --> 00:06:12,270
+像这样飞， <font color="#E5E5E5">你也能够移动 </font>
+
+171
+00:06:12,270 --> 00:06:14,010
+ <font color="#CCCCCC">如果你这样 使用你的 </font><font color="#E5E5E5">中间 </font><font color="#CCCCCC">鼠标 </font>
+
+172
+00:06:14,010 --> 00:06:15,720
+只需点击<font color="#E5E5E5">，所有新的中间 </font>
+
+173
+00:06:15,720 --> 00:06:17,400
+ <font color="#CCCCCC">鼠标，你可以看到我只是 </font><font color="#E5E5E5">拖动 </font>
+
+174
+00:06:17,400 --> 00:06:19,680
+这个<font color="#CCCCCC">局面 </font><font color="#E5E5E5">现在 </font><font color="#CCCCCC">你也有 </font><font color="#E5E5E5">一个放大了 </font>
+
+175
+00:06:19,680 --> 00:06:24,480
+并<font color="#E5E5E5">再次使用鼠标放大， 以便您 </font>
+
+176
+00:06:24,480 --> 00:06:27,030
+可以<font color="#CCCCCC">在这里练习导航 </font>
+
+177
+00:06:27,030 --> 00:06:28,740
+ <font color="#CCCCCC">你将要 </font><font color="#E5E5E5">使用一点点</font>
+
+178
+00:06:28,740 --> 00:06:31,020
+ <font color="#E5E5E5">这个窗口相当多，而且非常 </font>
+
+179
+00:06:31,020 --> 00:06:32,460
+当你在建立<font color="#E5E5E5">关卡时有趣</font>
+
+180
+00:06:32,460 --> 00:06:34,110
+你<font color="#CCCCCC">有一些真正的资产怎么回事 </font><font color="#E5E5E5">，这样 </font>
+
+181
+00:06:34,110 --> 00:06:36,770
+ <font color="#E5E5E5">也许就像一个小三分 </font><font color="#CCCCCC">小山 </font>
+
+182
+00:06:36,770 --> 00:06:39,300
+ <font color="#CCCCCC">你可以放置 </font><font color="#E5E5E5">它们的 </font><font color="#CCCCCC">盒子 </font>
+
+183
+00:06:39,300 --> 00:06:40,710
+ <font color="#CCCCCC">如果你已经习惯了 </font><font color="#E5E5E5">那些 </font><font color="#CCCCCC">超级快 </font>
+
+184
+00:06:40,710 --> 00:06:43,250
+控制<font color="#E5E5E5">权让我们谈谈 </font><font color="#CCCCCC">嗯 </font>
+
+185
+00:06:43,250 --> 00:06:45,420
+ <font color="#E5E5E5">一些更多的控制 </font>
+
+186
+00:06:45,420 --> 00:06:47,790
+ <font color="#E5E5E5">你现在在这个窗口有 </font><font color="#CCCCCC">什么东西 </font>
+
+187
+00:06:47,790 --> 00:06:49,170
+我会<font color="#E5E5E5">要求你做的 </font>
+
+188
+00:06:49,170 --> 00:06:51,750
+ <font color="#E5E5E5">很快就 </font><font color="#CCCCCC">到了 </font><font color="#E5E5E5">最顶端 </font><font color="#CCCCCC">点击这里 </font>
+
+189
+00:06:51,750 --> 00:06:53,490
+在游戏对象上<font color="#E5E5E5">然后创建一个新的 </font>
+
+190
+00:06:53,490 --> 00:06:56,550
+立方体<font color="#E5E5E5">就像我一秒钟前， </font><font color="#CCCCCC">所以 </font>
+
+191
+00:06:56,550 --> 00:06:58,620
+基本上我<font color="#E5E5E5">现在有一个立方体 </font>
+
+192
+00:06:58,620 --> 00:07:00,660
+如果你没有<font color="#E5E5E5">看到我做了什么， </font><font color="#CCCCCC">现在 </font>
+
+193
+00:07:00,660 --> 00:07:03,420
+ <font color="#E5E5E5">我只是把它移到0 0 0 </font><font color="#CCCCCC">和 </font>
+
+194
+00:07:03,420 --> 00:07:05,520
+这是我<font color="#E5E5E5">在我看到的东西</font>
+
+195
+00:07:05,520 --> 00:07:07,020
+检查员，我会<font color="#CCCCCC">回到那 </font>
+
+196
+00:07:07,020 --> 00:07:09,540
+ <font color="#E5E5E5">如果我只是点击，那么在片刻 </font>
+
+197
+00:07:09,540 --> 00:07:12,000
+ <font color="#E5E5E5">现在选择你的对象时 </font>
+
+198
+00:07:12,000 --> 00:07:14,160
+ <font color="#CCCCCC">有很多关键的转移 </font>
+
+199
+00:07:14,160 --> 00:07:17,370
+ <font color="#E5E5E5">从 </font><font color="#CCCCCC">Windows资源管理器这一因此，如果 </font>
+
+200
+00:07:17,370 --> 00:07:21,030
+我们<font color="#E5E5E5">只是尝试通过执行 </font><font color="#CCCCCC">ctrl-c </font><font color="#E5E5E5">复制 </font>
+
+201
+00:07:21,030 --> 00:07:24,330
+和<font color="#CCCCCC">ctrl-v我不知道你是否可以 </font>
+
+202
+00:07:24,330 --> 00:07:26,490
+告诉<font color="#CCCCCC">我们，但我们还有 </font><font color="#E5E5E5">另一个 </font>
+
+203
+00:07:26,490 --> 00:07:28,380
+立方体，如果我<font color="#E5E5E5">只是像这样移动它 </font>
+
+204
+00:07:28,380 --> 00:07:30,390
+ <font color="#E5E5E5">这可以告诉你 </font><font color="#CCCCCC">现在有2个 </font>
+
+205
+00:07:30,390 --> 00:07:33,990
+我们<font color="#E5E5E5">控制Z它回到了 </font>
+
+206
+00:07:33,990 --> 00:07:36,150
+ <font color="#E5E5E5">位置，如果 </font><font color="#CCCCCC">我们 </font><font color="#E5E5E5">再次 </font><font color="#CCCCCC">这样做， 它会删除 </font>
+
+207
+00:07:36,150 --> 00:07:38,930
+让我们实际<font color="#E5E5E5">谈论的是立方体</font>
+
+208
+00:07:38,930 --> 00:07:41,820
+ <font color="#E5E5E5">你可以告诉他们移动它 </font>
+
+209
+00:07:41,820 --> 00:07:44,190
+ <font color="#CCCCCC">现在我有一个允许我的小发明 </font>
+
+210
+00:07:44,190 --> 00:07:47,430
+ <font color="#E5E5E5">在x轴上的z轴上 </font><font color="#CCCCCC">移动它 </font>
+
+211
+00:07:47,430 --> 00:07:51,150
+ <font color="#CCCCCC">现在也很快 </font><font color="#E5E5E5">在y轴上 </font>
+
+212
+00:07:51,150 --> 00:07:53,220
+ <font color="#E5E5E5">注意到y轴实际上是 </font><font color="#CCCCCC">向上的 </font>
+
+213
+00:07:53,220 --> 00:07:55,830
+并且它不是<font color="#E5E5E5">z轴 </font><font color="#CCCCCC">所以统一 </font>
+
+214
+00:07:55,830 --> 00:07:58,170
+它<font color="#E5E5E5">实际上倒了许多 </font>
+
+215
+00:07:58,170 --> 00:08:01,080
+ <font color="#E5E5E5">z轴定义的软件 </font>
+
+216
+00:08:01,080 --> 00:08:03,870
+ <font color="#CCCCCC">现在对象的高度是原因 </font>
+
+217
+00:08:03,870 --> 00:08:05,520
+我<font color="#CCCCCC">有这个小发明 </font><font color="#E5E5E5">是因为我有一个 </font>
+
+218
+00:08:05,520 --> 00:08:08,190
+ <font color="#CCCCCC">对象被选中 </font><font color="#E5E5E5">，我 </font><font color="#CCCCCC">按下了W </font>
+
+219
+00:08:08,190 --> 00:08:10,620
+ <font color="#CCCCCC">如果你只是看看 </font><font color="#E5E5E5">这个 </font>
+
+220
+00:08:10,620 --> 00:08:12,990
+非常<font color="#E5E5E5">左上方你 </font><font color="#CCCCCC">有一些 </font>
+
+221
+00:08:12,990 --> 00:08:15,150
+ <font color="#CCCCCC">您可以选择对象上的选项</font>
+
+222
+00:08:15,150 --> 00:08:16,560
+ <font color="#E5E5E5">告诉你这是你 </font><font color="#CCCCCC">默认 </font><font color="#E5E5E5">拥有的 </font>
+
+223
+00:08:16,560 --> 00:08:18,210
+它只是一个<font color="#E5E5E5">小手，你可以 </font>
+
+224
+00:08:18,210 --> 00:08:21,300
+ <font color="#E5E5E5">当我按下时，只需移动你的场景 </font>
+
+225
+00:08:21,300 --> 00:08:24,360
+ WI进入移动小发明， <font color="#CCCCCC">所以现在我能够 </font>
+
+226
+00:08:24,360 --> 00:08:27,180
+ <font color="#CCCCCC">移动 </font><font color="#E5E5E5">下一个 </font><font color="#CCCCCC">对象 </font>
+
+227
+00:08:27,180 --> 00:08:29,580
+ <font color="#E5E5E5">您也可以通过旋转</font>
+
+228
+00:08:29,580 --> 00:08:33,210
+按有关电子键盘<font color="#CCCCCC">， </font><font color="#E5E5E5">然后 </font>
+
+229
+00:08:33,210 --> 00:08:35,880
+您可以围绕<font color="#E5E5E5">x </font><font color="#CCCCCC">轴y轴旋转 </font>
+
+230
+00:08:35,880 --> 00:08:39,750
+和<font color="#E5E5E5">z轴你可以分辨它是哪个轴 </font>
+
+231
+00:08:39,750 --> 00:08:42,539
+通过颜色，所以红色圆圈会
+
+232
+00:08:42,539 --> 00:08:47,430
+表示X， <font color="#E5E5E5">Z为蓝色， </font><font color="#CCCCCC">Y为绿色 </font>
+
+233
+00:08:47,430 --> 00:08:50,220
+和比例之后<font color="#CCCCCC">还有</font><font color="#E5E5E5">一个 </font>
+
+234
+00:08:50,220 --> 00:08:51,810
+ <font color="#E5E5E5">不要真的使用，因为我不是真的 </font>
+
+235
+00:08:51,810 --> 00:08:55,470
+ <font color="#E5E5E5">如果我们进入， 喜欢 </font><font color="#CCCCCC">在2d使用统一 </font>
+
+236
+00:08:55,470 --> 00:08:56,940
+只需按下该<font color="#CCCCCC">按钮即可进入该模式</font>
+
+237
+00:08:56,940 --> 00:08:59,250
+在这里<font color="#E5E5E5">或键盘上 </font>
+
+238
+00:08:59,250 --> 00:09:02,550
+这<font color="#CCCCCC">两个号码</font><font color="#E5E5E5">，然后，如果我们一起去 </font>
+
+239
+00:09:02,550 --> 00:09:04,350
+ <font color="#E5E5E5">你可以得到的</font><font color="#CCCCCC">最后一个 </font><font color="#E5E5E5">设置 </font>
+
+240
+00:09:04,350 --> 00:09:05,850
+ <font color="#E5E5E5">通过按T我们只是按下了 </font>
+
+241
+00:09:05,850 --> 00:09:09,090
+在这里你可以<font color="#E5E5E5">像 </font><font color="#CCCCCC">这样修改</font><font color="#E5E5E5">立方体 </font>
+
+242
+00:09:09,090 --> 00:09:12,180
+ <font color="#E5E5E5">它看起来很简单，所以它允许你 </font>
+
+243
+00:09:12,180 --> 00:09:14,280
+ <font color="#E5E5E5">如果我们去 ， </font><font color="#CCCCCC">实际 </font><font color="#E5E5E5">修改2d的东西 </font>
+
+244
+00:09:14,280 --> 00:09:16,950
+回到3D场景，我们按下<font color="#E5E5E5">T </font>
+
+245
+00:09:16,950 --> 00:09:19,320
+ <font color="#E5E5E5">我们仍然会有完全相同的选择 </font>
+
+246
+00:09:19,320 --> 00:09:21,210
+但它<font color="#E5E5E5">很酷，它只会允许 </font>
+
+247
+00:09:21,210 --> 00:09:25,350
+ <font color="#E5E5E5">你可以在X和y轴上缩放它 </font>
+
+248
+00:09:25,350 --> 00:09:27,990
+ <font color="#E5E5E5">不是z轴，因为它意味着2d </font>
+
+249
+00:09:27,990 --> 00:09:30,020
+ <font color="#CCCCCC">游戏 </font><font color="#E5E5E5">真的不应该是一个 </font>
+
+250
+00:09:30,020 --> 00:09:34,320
+ <font color="#E5E5E5">2d中的第三轴，所以就是这样 </font>
+
+251
+00:09:34,320 --> 00:09:36,900
+基本导航<font color="#E5E5E5">，还有一件事 </font>
+
+252
+00:09:36,900 --> 00:09:38,880
+ <font color="#CCCCCC">我想 </font><font color="#E5E5E5">告诉你的是我们什么时候 </font>
+
+253
+00:09:38,880 --> 00:09:40,590
+拿我们的立方体让我们说我们复制它
+
+254
+00:09:40,590 --> 00:09:43,680
+ <font color="#E5E5E5">我们只是在那边移动它 </font>
+
+255
+00:09:43,680 --> 00:09:46,230
+ <font color="#E5E5E5">实际上是一种快速捕捉方式 </font>
+
+256
+00:09:46,230 --> 00:09:48,500
+它没有<font color="#E5E5E5">支付每一米和 </font>
+
+257
+00:09:48,500 --> 00:09:51,240
+我这样做的方法<font color="#E5E5E5">是移动它 </font>
+
+258
+00:09:51,240 --> 00:09:53,700
+ <font color="#E5E5E5">持有 </font><font color="#CCCCCC">ctrl所以这是正常的 </font>
+
+259
+00:09:53,700 --> 00:09:56,100
+移动，当我按住<font color="#CCCCCC">ctrl它实际上 </font>
+
+260
+00:09:56,100 --> 00:09:59,280
+ <font color="#E5E5E5">从捕捉</font><font color="#CCCCCC">它是如此的 </font><font color="#E5E5E5">你 </font><font color="#CCCCCC">在哪里 </font><font color="#E5E5E5">1米 </font>
+
+261
+00:09:59,280 --> 00:10:01,140
+ <font color="#E5E5E5">真的可以搞砸了 </font>
+
+262
+00:10:01,140 --> 00:10:03,120
+ <font color="#CCCCCC">小心 </font><font color="#E5E5E5">，如果你只是将 </font><font color="#CCCCCC">你的 </font>
+
+263
+00:10:03,120 --> 00:10:04,710
+ <font color="#E5E5E5">像这样的对象并不是真的 </font>
+
+264
+00:10:04,710 --> 00:10:07,470
+坚持<font color="#E5E5E5">另一个，你就是全部 </font>
+
+265
+00:10:07,470 --> 00:10:09,420
+控制中的一天， <font color="#E5E5E5">你仍将是 </font>
+
+266
+00:10:09,420 --> 00:10:12,510
+ <font color="#CCCCCC">你可以 </font><font color="#E5E5E5">这么 </font><font color="#CCCCCC">说 </font><font color="#E5E5E5">， 有点 </font><font color="#CCCCCC">偏移 </font>
+
+267
+00:10:12,510 --> 00:10:14,670
+每当你<font color="#E5E5E5">真正使用这个确保 </font>
+
+268
+00:10:14,670 --> 00:10:16,290
+ <font color="#E5E5E5">你知道你从哪里开始 </font>
+
+269
+00:10:16,290 --> 00:10:20,250
+对<font color="#E5E5E5">，如果 </font><font color="#CCCCCC">你 </font><font color="#E5E5E5">想要的话 </font>
+
+270
+00:10:20,250 --> 00:10:22,080
+ <font color="#CCCCCC">确保那些物体接触像 </font>
+
+271
+00:10:22,080 --> 00:10:24,120
+这<font color="#E5E5E5">可能他们不是正确的 </font>
+
+272
+00:10:24,120 --> 00:10:26,280
+ <font color="#E5E5E5">长度为 </font><font color="#CCCCCC">你</font><font color="#E5E5E5">为</font><font color="#CCCCCC">他们 实际上只是 </font>
+
+273
+00:10:26,280 --> 00:10:28,680
+ <font color="#E5E5E5">现在正确对齐他们就是 </font><font color="#CCCCCC">你 </font>
+
+274
+00:10:28,680 --> 00:10:30,990
+可以<font color="#E5E5E5">像这样复制这个动作 </font>
+
+275
+00:10:30,990 --> 00:10:33,150
+ <font color="#E5E5E5">你可以告诉他们完美但是 </font>
+
+276
+00:10:33,150 --> 00:10:34,650
+让我们只<font color="#CCCCCC">说 ， 规模 </font><font color="#E5E5E5">将 </font><font color="#CCCCCC">是 </font>
+
+277
+00:10:34,650 --> 00:10:37,620
+像<font color="#CCCCCC">1.3这样的东西，然后你就可以了 </font>
+
+278
+00:10:37,620 --> 00:10:40,800
+实际上<font color="#CCCCCC">尽可能 </font><font color="#E5E5E5">地移动它 </font>
+
+279
+00:10:40,800 --> 00:10:43,110
+告诉他们<font color="#E5E5E5">现在重叠一点</font>
+
+280
+00:10:43,110 --> 00:10:46,200
+是一种捕捉顶点的方法<font color="#E5E5E5">让我 </font>
+
+281
+00:10:46,200 --> 00:10:47,790
+ <font color="#CCCCCC">只是 </font><font color="#E5E5E5">迅速告诉 </font><font color="#CCCCCC">你该怎么做 </font>
+
+282
+00:10:47,790 --> 00:10:50,490
+当你把键盘上的老V用你的
+
+283
+00:10:50,490 --> 00:10:53,790
+移动工具， <font color="#CCCCCC">你实际上都扣</font><font color="#E5E5E5">在 </font>
+
+284
+00:10:53,790 --> 00:10:56,010
+顶点<font color="#E5E5E5">， </font><font color="#CCCCCC">你可以点击说在这 </font><font color="#E5E5E5">一个 </font>
+
+285
+00:10:56,010 --> 00:10:58,320
+ <font color="#CCCCCC">并且希望这个顶点</font><font color="#E5E5E5">是 </font>
+
+286
+00:10:58,320 --> 00:11:02,420
+ <font color="#E5E5E5">现在 </font><font color="#CCCCCC">以 </font><font color="#E5E5E5">这种方式附加</font><font color="#CCCCCC">到 </font><font color="#E5E5E5">这一个 </font>
+
+287
+00:11:02,420 --> 00:11:05,190
+ <font color="#CCCCCC">只是卡在一起 </font><font color="#E5E5E5">所以这是一个漂亮的 </font>
+
+288
+00:11:05,190 --> 00:11:08,790
+ <font color="#E5E5E5">好的 </font><font color="#CCCCCC">方法， </font><font color="#E5E5E5">使无级 </font>
+
+289
+00:11:08,790 --> 00:11:10,380
+实际上有那么<font color="#CCCCCC">小的差距 </font>
+
+290
+00:11:10,380 --> 00:11:11,950
+这可能会让<font color="#E5E5E5">你的游戏陷入困境 </font>
+
+291
+00:11:11,950 --> 00:11:13,720
+最终<font color="#E5E5E5">取决于哪种技术 </font>
+
+292
+00:11:13,720 --> 00:11:16,120
+你用<font color="#CCCCCC">来说 </font><font color="#E5E5E5">移动你的角色或者 </font>
+
+293
+00:11:16,120 --> 00:11:18,910
+ <font color="#E5E5E5">检查 现在 是否有 </font><font color="#CCCCCC">地面 </font><font color="#E5E5E5">通知 </font>
+
+294
+00:11:18,910 --> 00:11:20,740
+ <font color="#E5E5E5">每次 </font><font color="#CCCCCC">我复制一个立方体 </font><font color="#E5E5E5">或 </font>
+
+295
+00:11:20,740 --> 00:11:23,340
+每次<font color="#CCCCCC">我 </font><font color="#E5E5E5">选择一些东西 </font>
+
+296
+00:11:23,340 --> 00:11:26,110
+只是<font color="#CCCCCC">在这里 </font><font color="#E5E5E5">发生 </font><font color="#CCCCCC">了 </font><font color="#E5E5E5">一些动作 </font>
+
+297
+00:11:26,110 --> 00:11:30,820
+ <font color="#E5E5E5">现在 </font><font color="#CCCCCC">IR键 </font><font color="#E5E5E5">R键只是一个文本 </font>
+
+298
+00:11:30,820 --> 00:11:33,760
+表示你的场景<font color="#E5E5E5">一切 </font>
+
+299
+00:11:33,760 --> 00:11:35,260
+你会<font color="#E5E5E5">在这个3D中看到你</font>
+
+300
+00:11:35,260 --> 00:11:37,330
+环境<font color="#E5E5E5">将会 </font><font color="#CCCCCC">有一个 </font>
+
+301
+00:11:37,330 --> 00:11:40,240
+ <font color="#CCCCCC">在这里定义</font><font color="#E5E5E5">ir键 </font>
+
+302
+00:11:40,240 --> 00:11:43,210
+现在，我的高级头骨，所以<font color="#E5E5E5">我们 </font>
+
+303
+00:11:43,210 --> 00:11:44,770
+这不是一个真实<font color="#E5E5E5">的场景名称 </font>
+
+304
+00:11:44,770 --> 00:11:47,950
+没有保存<font color="#E5E5E5">，它仍然 </font><font color="#CCCCCC">显示 </font><font color="#E5E5E5">什么 </font>
+
+305
+00:11:47,950 --> 00:11:49,510
+ <font color="#E5E5E5">里面有它，所以我们 </font><font color="#CCCCCC">只想说 </font>
+
+306
+00:11:49,510 --> 00:11:51,220
+ <font color="#E5E5E5">那 </font><font color="#CCCCCC">我将 </font><font color="#E5E5E5">是一个有点疯狂 </font>
+
+307
+00:11:51,220 --> 00:11:54,130
+ <font color="#CCCCCC">并创造另一个定向光 </font>
+
+308
+00:11:54,130 --> 00:11:56,470
+一个<font color="#CCCCCC">，你 </font><font color="#E5E5E5">可以告诉现在有 </font><font color="#CCCCCC">- 那里 </font>
+
+309
+00:11:56,470 --> 00:11:58,840
+ <font color="#E5E5E5">这个人在这里 </font><font color="#CCCCCC">也是这个人 </font>
+
+310
+00:11:58,840 --> 00:12:02,560
+ <font color="#E5E5E5">我们可以 </font><font color="#CCCCCC">使用 </font><font color="#E5E5E5">R </font><font color="#CCCCCC">选择它们 </font>
+
+311
+00:12:02,560 --> 00:12:05,050
+键，以便只想说，我在<font color="#E5E5E5">寻找的 </font>
+
+312
+00:12:05,050 --> 00:12:06,970
+第二个定向灯我可以简单
+
+313
+00:12:06,970 --> 00:12:09,100
+双击这<font color="#E5E5E5">一个就可以了 </font>
+
+314
+00:12:09,100 --> 00:12:12,130
+实际上<font color="#E5E5E5">放大对象左右 </font>
+
+315
+00:12:12,130 --> 00:12:13,540
+那你正在<font color="#E5E5E5">寻找你的相机 </font>
+
+316
+00:12:13,540 --> 00:12:14,860
+不<font color="#E5E5E5">知道你的相机在哪里 </font>
+
+317
+00:12:14,860 --> 00:12:16,210
+你一直在寻找<font color="#E5E5E5">周围的场景</font>
+
+318
+00:12:16,210 --> 00:12:18,820
+就像<font color="#E5E5E5">一个很好的时刻，你也可以找到它 </font>
+
+319
+00:12:18,820 --> 00:12:21,460
+ <font color="#CCCCCC">使用r键，你可以告诉我 </font>
+
+320
+00:12:21,460 --> 00:12:23,980
+ <font color="#E5E5E5">我现在可以选择我的主摄像头了 </font>
+
+321
+00:12:23,980 --> 00:12:26,140
+双击<font color="#E5E5E5">它并显示它 </font>
+
+322
+00:12:26,140 --> 00:12:29,560
+视图<font color="#E5E5E5">或我可以点击 </font><font color="#CCCCCC">f和它 </font>
+
+323
+00:12:29,560 --> 00:12:31,030
+要做<font color="#E5E5E5">同样的事情， </font><font color="#CCCCCC">所以它 </font>
+
+324
+00:12:31,030 --> 00:12:35,580
+只是<font color="#E5E5E5">可以</font><font color="#CCCCCC">追溯到 我的对象 </font><font color="#E5E5E5">这样的 </font>
+
+325
+00:12:35,580 --> 00:12:37,690
+ <font color="#CCCCCC">这是 </font><font color="#E5E5E5">另一种实际 </font><font color="#CCCCCC">的 </font><font color="#E5E5E5">方式 </font>
+
+326
+00:12:37,690 --> 00:12:39,130
+控制<font color="#E5E5E5">你的对象 </font>
+
+327
+00:12:39,130 --> 00:12:41,650
+场景， <font color="#E5E5E5">如果你从这里删除它们说 </font><font color="#CCCCCC">我 </font>
+
+328
+00:12:41,650 --> 00:12:44,020
+选择那<font color="#E5E5E5">两个立方体 </font><font color="#CCCCCC">我删除它们 </font>
+
+329
+00:12:44,020 --> 00:12:46,150
+ <font color="#E5E5E5">也离开现场，所以只是 </font>
+
+330
+00:12:46,150 --> 00:12:46,870
+ <font color="#E5E5E5">担心这一点 </font>
+
+331
+00:12:46,870 --> 00:12:49,690
+ <font color="#E5E5E5">那两个是连接在一起的 </font>
+
+332
+00:12:49,690 --> 00:12:53,020
+ <font color="#E5E5E5">你有什么必须告诉自己的 </font>
+
+333
+00:12:53,020 --> 00:12:55,330
+还有一<font color="#CCCCCC">件事是连通的 </font>
+
+334
+00:12:55,330 --> 00:12:57,490
+ <font color="#E5E5E5">这些家伙，你可以 </font><font color="#CCCCCC">告诉一个 </font>
+
+335
+00:12:57,490 --> 00:12:59,260
+ <font color="#E5E5E5">我们早点玩了它 </font>
+
+336
+00:12:59,260 --> 00:13:01,870
+是<font color="#E5E5E5">右侧 </font><font color="#CCCCCC">的检查员 </font>
+
+337
+00:13:01,870 --> 00:13:04,150
+现在<font color="#E5E5E5">检查员已经连接 </font><font color="#CCCCCC">了很多 </font>
+
+338
+00:13:04,150 --> 00:13:06,160
+ <font color="#CCCCCC">自己年金的一切你选择的是 </font>
+
+339
+00:13:06,160 --> 00:13:08,290
+很可能<font color="#CCCCCC">会有一个定义 </font>
+
+340
+00:13:08,290 --> 00:13:10,870
+ <font color="#E5E5E5">在检查员，所以如果我们只有一个 </font>
+
+341
+00:13:10,870 --> 00:13:13,000
+看这里<font color="#CCCCCC">我要 </font><font color="#E5E5E5">选择我的相机 </font>
+
+342
+00:13:13,000 --> 00:13:15,340
+ <font color="#CCCCCC">然后我们有一些关于的信息 </font>
+
+343
+00:13:15,340 --> 00:13:18,310
+那个相机<font color="#CCCCCC">所以如果我们看看 </font><font color="#E5E5E5">这个 </font>
+
+344
+00:13:18,310 --> 00:13:19,270
+组件就<font color="#CCCCCC">在这里 </font>
+
+345
+00:13:19,270 --> 00:13:21,250
+它在<font color="#CCCCCC">天空盒上清除它 </font><font color="#E5E5E5">有一个 </font>
+
+346
+00:13:21,250 --> 00:13:23,110
+ <font color="#CCCCCC">我们可以的不同视野</font>
+
+347
+00:13:23,110 --> 00:13:24,910
+修改<font color="#E5E5E5">它 </font>
+
+348
+00:13:24,910 --> 00:13:28,000
+ <font color="#CCCCCC">所有那种 GUI </font><font color="#E5E5E5">层音频监听器 </font>
+
+349
+00:13:28,000 --> 00:13:30,640
+ <font color="#CCCCCC">好的东西，也是 </font><font color="#E5E5E5">一种改造 </font>
+
+350
+00:13:30,640 --> 00:13:33,130
+将包含<font color="#CCCCCC">我们可以修改的位置 </font>
+
+351
+00:13:33,130 --> 00:13:35,110
+ <font color="#E5E5E5">它在这里的最右边， </font><font color="#CCCCCC">它是 </font>
+
+352
+00:13:35,110 --> 00:13:37,150
+将<font color="#E5E5E5">在游戏内部反映出来 </font>
+
+353
+00:13:37,150 --> 00:13:39,520
+ <font color="#E5E5E5">我们也 </font><font color="#CCCCCC">可以玩 </font><font color="#E5E5E5">旋转了 </font>
+
+354
+00:13:39,520 --> 00:13:41,500
+ <font color="#CCCCCC">点点 </font><font color="#E5E5E5">，你可以告诉它也 </font>
+
+355
+00:13:41,500 --> 00:13:43,900
+在游戏中反映出来<font color="#E5E5E5">，他们只是 </font>
+
+356
+00:13:43,900 --> 00:13:46,300
+连接<font color="#CCCCCC">在一起，但现在这些东西 </font>
+
+357
+00:13:46,300 --> 00:13:48,340
+我们在<font color="#E5E5E5">右边看到他们是 </font>
+
+358
+00:13:48,340 --> 00:13:50,800
+只有<font color="#E5E5E5">我们的选择对象，它是 </font><font color="#CCCCCC">在 </font>
+
+359
+00:13:50,800 --> 00:13:52,600
+这种<font color="#E5E5E5">情况下 </font><font color="#CCCCCC">相机，如果我们去 </font>
+
+360
+00:13:52,600 --> 00:13:55,030
+选择<font color="#CCCCCC">他们 </font><font color="#E5E5E5">实际更改 </font><font color="#CCCCCC">的多维数据集 </font>
+
+361
+00:13:55,030 --> 00:13:57,130
+你可以说他们是不同的<font color="#E5E5E5">东西 </font>
+
+362
+00:13:57,130 --> 00:13:58,990
+ <font color="#CCCCCC">相机真的不是这样的 </font>
+
+363
+00:13:58,990 --> 00:14:00,940
+相机<font color="#E5E5E5">没有真正的盒子 </font>
+
+364
+00:14:00,940 --> 00:14:03,250
+ <font color="#E5E5E5">碰撞相机 </font><font color="#CCCCCC">并没有真正拥有 </font>
+
+365
+00:14:03,250 --> 00:14:06,640
+网格渲染器， <font color="#CCCCCC">但多维数据集这样做 </font>
+
+366
+00:14:06,640 --> 00:14:09,450
+你<font color="#E5E5E5">可以告诉检查员改变它 </font>
+
+367
+00:14:09,450 --> 00:14:11,920
+定义是什么<font color="#E5E5E5">往里面 </font><font color="#CCCCCC">的 </font>
+
+368
+00:14:11,920 --> 00:14:14,230
+检查员随着你的变化而改变
+
+369
+00:14:14,230 --> 00:14:16,510
+选择<font color="#CCCCCC">，现在它也 </font><font color="#E5E5E5">将 </font><font color="#CCCCCC">成为 </font>
+
+370
+00:14:16,510 --> 00:14:18,400
+为改变<font color="#CCCCCC">一些其他 </font><font color="#E5E5E5">的东西， </font><font color="#CCCCCC">以及 </font>
+
+371
+00:14:18,400 --> 00:14:21,010
+ <font color="#E5E5E5">在现场 </font><font color="#CCCCCC">不仅 </font><font color="#E5E5E5">东西，如果我只是 </font>
+
+372
+00:14:21,010 --> 00:14:23,020
+ <font color="#CCCCCC">很快 </font><font color="#E5E5E5">给 </font><font color="#CCCCCC">你一个 </font><font color="#E5E5E5">小 </font><font color="#CCCCCC">例子 </font>
+
+373
+00:14:23,020 --> 00:14:26,260
+ <font color="#CCCCCC">我现在进入 </font><font color="#E5E5E5">输入管理器了 </font>
+
+374
+00:14:26,260 --> 00:14:27,880
+输入管理器<font color="#E5E5E5">不是什么东西 </font>
+
+375
+00:14:27,880 --> 00:14:30,220
+场景，但你<font color="#E5E5E5">可以告诉它已经 </font>
+
+376
+00:14:30,220 --> 00:14:32,410
+在<font color="#E5E5E5">检查员中绘制， 所以这不是 </font>
+
+377
+00:14:32,410 --> 00:14:34,090
+ <font color="#E5E5E5">真的与任何事情都有关系 </font>
+
+378
+00:14:34,090 --> 00:14:36,640
+ <font color="#E5E5E5">现在在我的场景或我们的钥匙和它 </font>
+
+379
+00:14:36,640 --> 00:14:40,720
+还在这里，所以<font color="#E5E5E5">只是 </font><font color="#CCCCCC">担心这一点 </font>
+
+380
+00:14:40,720 --> 00:14:42,190
+ <font color="#CCCCCC">当你点击 </font><font color="#E5E5E5">某些东西时 </font>
+
+381
+00:14:42,190 --> 00:14:43,440
+选择一些<font color="#E5E5E5">你并不 </font><font color="#CCCCCC">确定 </font>
+
+382
+00:14:43,440 --> 00:14:46,330
+你<font color="#E5E5E5">应该在哪里</font><font color="#CCCCCC">得到 </font>
+
+383
+00:14:46,330 --> 00:14:47,800
+有关<font color="#CCCCCC">这方面的信息</font>
+
+384
+00:14:47,800 --> 00:14:49,360
+ <font color="#E5E5E5">然后确保</font><font color="#CCCCCC">你</font><font color="#E5E5E5">看看 </font>
+
+385
+00:14:49,360 --> 00:14:50,740
+ <font color="#E5E5E5">检查员，因为你在寻找什么 </font>
+
+386
+00:14:50,740 --> 00:14:53,920
+ <font color="#CCCCCC">因为很 </font><font color="#E5E5E5">可能就是这样，如果 </font>
+
+387
+00:14:53,920 --> 00:14:56,710
+ <font color="#E5E5E5">我们只是 在这里 </font><font color="#CCCCCC">继续 </font><font color="#E5E5E5">控制台 </font>
+
+388
+00:14:56,710 --> 00:14:58,240
+ <font color="#E5E5E5">什么会报道一些 </font>
+
+389
+00:14:58,240 --> 00:15:01,660
+错误，所以如果你的游戏崩溃<font color="#CCCCCC">了 </font>
+
+390
+00:15:01,660 --> 00:15:04,510
+不<font color="#E5E5E5">知道它会告诉你 </font>
+
+391
+00:15:04,510 --> 00:15:06,250
+为什么<font color="#CCCCCC">它会 </font><font color="#E5E5E5">崩溃，它也是 </font>
+
+392
+00:15:06,250 --> 00:15:07,450
+要告诉<font color="#E5E5E5">你为什么 </font>
+
+393
+00:15:07,450 --> 00:15:09,940
+哪一个<font color="#E5E5E5">代码不起作用 </font>
+
+394
+00:15:09,940 --> 00:15:11,740
+也许一些警告，与<font color="#CCCCCC">一去</font>
+
+395
+00:15:11,740 --> 00:15:13,630
+堆栈跟踪，所以你可以<font color="#E5E5E5">回到你的 </font>
+
+396
+00:15:13,630 --> 00:15:16,030
+代码， <font color="#CCCCCC">实际上看起来不错，所以它做到了 </font>
+
+397
+00:15:16,030 --> 00:15:18,250
+功能很好， <font color="#E5E5E5">它做了其他功能 </font>
+
+398
+00:15:18,250 --> 00:15:21,100
+之后然后崩溃就<font color="#E5E5E5">这样了 </font>
+
+399
+00:15:21,100 --> 00:15:22,450
+真的<font color="#E5E5E5">会对 </font><font color="#CCCCCC">调试 </font><font color="#E5E5E5">有用 </font>
+
+400
+00:15:22,450 --> 00:15:25,300
+ <font color="#CCCCCC">它真的 </font><font color="#E5E5E5">会对你有用 </font>
+
+401
+00:15:25,300 --> 00:15:27,370
+ <font color="#CCCCCC">在比赛时与你沟通</font>
+
+402
+00:15:27,370 --> 00:15:29,200
+玩这个是我们将<font color="#CCCCCC">要使用的东西</font>
+
+403
+00:15:29,200 --> 00:15:32,350
+ <font color="#E5E5E5">当我们编码而你只是时，我会做很多事情 </font>
+
+404
+00:15:32,350 --> 00:15:33,640
+ <font color="#E5E5E5">我会玩得很 </font><font color="#CCCCCC">愉快 </font>
+
+405
+00:15:33,640 --> 00:15:36,460
+ <font color="#CCCCCC">猜测，最后是我们的最后一个窗口 </font>
+
+406
+00:15:36,460 --> 00:15:37,670
+将要使用的是
+
+407
+00:15:37,670 --> 00:15:39,950
+项目窗口现在这个<font color="#E5E5E5">我将 </font><font color="#CCCCCC">离开 </font>
+
+408
+00:15:39,950 --> 00:15:41,750
+就<font color="#CCCCCC">在这里， </font><font color="#E5E5E5">现在我们不</font><font color="#CCCCCC">打算 </font>
+
+409
+00:15:41,750 --> 00:15:42,830
+ <font color="#CCCCCC">做任何事情 </font><font color="#E5E5E5">，我们 </font><font color="#CCCCCC">不会 </font><font color="#E5E5E5">是 </font>
+
+410
+00:15:42,830 --> 00:15:44,090
+ <font color="#E5E5E5">刚才谈论这个 </font>
+
+411
+00:15:44,090 --> 00:15:45,770
+ <font color="#E5E5E5">因为我会保留 </font><font color="#CCCCCC">它 </font>
+
+412
+00:15:45,770 --> 00:15:47,600
+下一<font color="#E5E5E5">集 </font><font color="#CCCCCC">这是一个很大的窗口 </font>
+
+413
+00:15:47,600 --> 00:15:48,770
+我们会<font color="#E5E5E5">做很多事情 </font>
+
+414
+00:15:48,770 --> 00:15:51,200
+ <font color="#CCCCCC">与 </font><font color="#E5E5E5">和有</font><font color="#CCCCCC">成为</font><font color="#E5E5E5">逻辑 </font>
+
+415
+00:15:51,200 --> 00:15:53,930
+ <font color="#CCCCCC">在这个 </font><font color="#E5E5E5">窗口 </font><font color="#CCCCCC">后面做， </font><font color="#E5E5E5">所以我们 </font><font color="#CCCCCC">只是 </font>
+
+416
+00:15:53,930 --> 00:15:55,760
+ <font color="#CCCCCC">现在 </font><font color="#E5E5E5">就把它 </font><font color="#CCCCCC">留在这里，让我们来吧 </font>
+
+417
+00:15:55,760 --> 00:15:57,800
+快点<font color="#CCCCCC">将这个教程包装起来 </font>
+
+418
+00:15:57,800 --> 00:16:00,830
+在这里探索文件菜单
+
+419
+00:16:00,830 --> 00:16:03,140
+所以在<font color="#CCCCCC">这里 </font><font color="#E5E5E5">我们 </font><font color="#CCCCCC">有场景 </font>
+
+420
+00:16:03,140 --> 00:16:05,330
+ <font color="#E5E5E5">你可以 </font><font color="#CCCCCC">实际创建 </font><font color="#E5E5E5">一个 </font><font color="#CCCCCC">新的场景保存 </font>
+
+421
+00:16:05,330 --> 00:16:07,640
+一个新的场景，现在<font color="#E5E5E5">真的是 </font>
+
+422
+00:16:07,640 --> 00:16:09,170
+重要的<font color="#E5E5E5">是 </font><font color="#CCCCCC">我们要去 </font><font color="#E5E5E5">的 </font>
+
+423
+00:16:09,170 --> 00:16:11,450
+ <font color="#E5E5E5">编码你真的不需要保存 </font>
+
+424
+00:16:11,450 --> 00:16:14,270
+场景，因为场景<font color="#CCCCCC">不会 </font>
+
+425
+00:16:14,270 --> 00:16:15,800
+包含<font color="#E5E5E5">有关 </font><font color="#CCCCCC">您的代码的 </font><font color="#E5E5E5">信息 </font>
+
+426
+00:16:15,800 --> 00:16:17,090
+ <font color="#CCCCCC">写下 </font><font color="#E5E5E5">他们 </font><font color="#CCCCCC">不会 </font><font color="#E5E5E5">包含 </font>
+
+427
+00:16:17,090 --> 00:16:20,570
+有关<font color="#E5E5E5">您创建 </font><font color="#CCCCCC">的资产的信息</font>
+
+428
+00:16:20,570 --> 00:16:23,510
+那些将<font color="#E5E5E5">成为他们的对象 </font>
+
+429
+00:16:23,510 --> 00:16:24,950
+ <font color="#CCCCCC">我们在 </font><font color="#E5E5E5">Windows资源管理器中 </font><font color="#CCCCCC">拥有它 </font>
+
+430
+00:16:24,950 --> 00:16:26,570
+能够<font color="#E5E5E5">找到那些物体 </font>
+
+431
+00:16:26,570 --> 00:16:28,400
+他们不会<font color="#E5E5E5">成为真正的一部分 </font>
+
+432
+00:16:28,400 --> 00:16:30,680
+现场<font color="#E5E5E5">是你需要的唯一时刻 </font>
+
+433
+00:16:30,680 --> 00:16:32,450
+ <font color="#CCCCCC">移动时更改场景 </font>
+
+434
+00:16:32,450 --> 00:16:34,340
+ <font color="#CCCCCC">周围的东西或当你改变 </font><font color="#E5E5E5">一些东西 </font>
+
+435
+00:16:34,340 --> 00:16:36,650
+ <font color="#E5E5E5">检查员的设置，所以我现在 </font>
+
+436
+00:16:36,650 --> 00:16:39,770
+ <font color="#CCCCCC">我只能创建一个新的立方体 </font>
+
+437
+00:16:39,770 --> 00:16:42,050
+拯救我的现场的路上<font color="#CCCCCC">我</font><font color="#E5E5E5">这样</font><font color="#CCCCCC">做 </font><font color="#E5E5E5">是 </font>
+
+438
+00:16:42,050 --> 00:16:44,630
+点击ctrl，它会<font color="#E5E5E5">提示 </font>
+
+439
+00:16:44,630 --> 00:16:45,920
+ <font color="#E5E5E5">我现在是唯一的原因 </font>
+
+440
+00:16:45,920 --> 00:16:47,720
+促使我<font color="#E5E5E5">是因为我 </font><font color="#CCCCCC">从来没有 </font><font color="#E5E5E5">真正 </font>
+
+441
+00:16:47,720 --> 00:16:49,460
+ <font color="#E5E5E5">刚刚创建了一个场景 </font>
+
+442
+00:16:49,460 --> 00:16:52,070
+ <font color="#E5E5E5">让我创建我的 </font><font color="#CCCCCC">第一个场景 </font>
+
+443
+00:16:52,070 --> 00:16:55,130
+打算<font color="#CCCCCC">叫它游戏，当我保存 </font>
+
+444
+00:16:55,130 --> 00:16:57,950
+现在<font color="#E5E5E5">它将成为压倒一切的游戏 </font>
+
+445
+00:16:57,950 --> 00:17:00,980
+让我们<font color="#E5E5E5">尽可能地创建一个</font><font color="#CCCCCC">新的立方体 </font>
+
+446
+00:17:00,980 --> 00:17:05,270
+ <font color="#CCCCCC">告诉这个场景并 </font><font color="#E5E5E5">没有真正保存它 </font>
+
+447
+00:17:05,270 --> 00:17:07,460
+ <font color="#CCCCCC">因为名字而不是最新的 </font>
+
+448
+00:17:07,460 --> 00:17:10,310
+ <font color="#CCCCCC">在这里 </font><font color="#E5E5E5">它说游戏然后 </font><font color="#CCCCCC">它会 </font>
+
+449
+00:17:10,310 --> 00:17:12,319
+ <font color="#CCCCCC">拖延 </font><font color="#E5E5E5">小 </font><font color="#CCCCCC">风格意味着它 </font>
+
+450
+00:17:12,319 --> 00:17:15,560
+ <font color="#E5E5E5">如果按ctrl s，则没有保存</font>
+
+451
+00:17:15,560 --> 00:17:17,990
+如果我搬东西，明星就会消失
+
+452
+00:17:17,990 --> 00:17:20,390
+ <font color="#CCCCCC">它周围又 </font><font color="#E5E5E5">回到了肮脏的状态 </font>
+
+453
+00:17:20,390 --> 00:17:22,400
+ <font color="#E5E5E5">在这里你有一个状态， 再 </font><font color="#CCCCCC">保存 </font>
+
+454
+00:17:22,400 --> 00:17:24,740
+ <font color="#E5E5E5">右 </font><font color="#CCCCCC">所以 </font><font color="#E5E5E5">这是</font><font color="#CCCCCC">几乎 </font><font color="#E5E5E5">所有你 </font>
+
+455
+00:17:24,740 --> 00:17:27,020
+当你真正保存场景时要做的事情
+
+456
+00:17:27,020 --> 00:17:28,760
+ <font color="#E5E5E5">很简单，我们将会谈论一个 </font>
+
+457
+00:17:28,760 --> 00:17:30,320
+ <font color="#E5E5E5">稍后 </font><font color="#CCCCCC">关于场景的更多信息 </font>
+
+458
+00:17:30,320 --> 00:17:31,850
+ <font color="#CCCCCC">并构建 </font><font color="#E5E5E5">设置，这 </font><font color="#CCCCCC">是 </font>
+
+459
+00:17:31,850 --> 00:17:33,920
+东西我<font color="#E5E5E5">现在 要</font><font color="#CCCCCC">跳过 </font><font color="#E5E5E5">现在 </font>
+
+460
+00:17:33,920 --> 00:17:35,870
+在<font color="#CCCCCC">编辑部分没有</font><font color="#E5E5E5">太多 </font>
+
+461
+00:17:35,870 --> 00:17:38,000
+谈论<font color="#CCCCCC">除了 </font><font color="#E5E5E5">喜好 </font><font color="#CCCCCC">我 </font>
+
+462
+00:17:38,000 --> 00:17:40,010
+邀请<font color="#CCCCCC">您 </font><font color="#E5E5E5">只需打开 </font><font color="#CCCCCC">首选项 </font>
+
+463
+00:17:40,010 --> 00:17:43,340
+并查看<font color="#E5E5E5">外部工具 </font>
+
+464
+00:17:43,340 --> 00:17:45,260
+本课程<font color="#CCCCCC">的 </font><font color="#E5E5E5">本教程我要去 </font>
+
+465
+00:17:45,260 --> 00:17:47,510
+ <font color="#CCCCCC">要</font><font color="#E5E5E5">使用 </font><font color="#CCCCCC">Visual Studio代码，但 </font>
+
+466
+00:17:47,510 --> 00:17:49,610
+你<font color="#E5E5E5">也可以使用 </font><font color="#CCCCCC">模型 </font><font color="#E5E5E5">开发我 </font>
+
+467
+00:17:49,610 --> 00:17:50,670
+真的很<font color="#CCCCCC">推荐 </font>
+
+468
+00:17:50,670 --> 00:17:52,860
+ <font color="#CCCCCC">你使用Visual Studio，因为Moo </font>
+
+469
+00:17:52,860 --> 00:17:54,600
+ <font color="#E5E5E5">发展刚刚开始 </font><font color="#CCCCCC">失败了 </font>
+
+470
+00:17:54,600 --> 00:17:55,860
+一点点<font color="#E5E5E5">，我认为他们会去 </font>
+
+471
+00:17:55,860 --> 00:17:58,440
+ <font color="#CCCCCC">我最终放弃了一些谣言 </font>
+
+472
+00:17:58,440 --> 00:18:01,050
+听说但<font color="#E5E5E5">我们仍然会使用 </font>
+
+473
+00:18:01,050 --> 00:18:02,880
+视觉工作室在我这边， <font color="#E5E5E5">所以如果 </font><font color="#CCCCCC">你只是 </font>
+
+474
+00:18:02,880 --> 00:18:05,240
+想要<font color="#CCCCCC">看到 </font><font color="#E5E5E5">匹配的颜色和 </font>
+
+475
+00:18:05,240 --> 00:18:08,430
+ <font color="#CCCCCC">发展帮助 </font><font color="#E5E5E5">在Visual Studio中的工作 </font><font color="#CCCCCC">只是让 </font>
+
+476
+00:18:08,430 --> 00:18:10,740
+ <font color="#E5E5E5">确保它是在 </font><font color="#CCCCCC">Visual Studio中，你 </font><font color="#E5E5E5">也可以 </font>
+
+477
+00:18:10,740 --> 00:18:12,000
+用<font color="#CCCCCC">你的颜色起到一</font><font color="#E5E5E5">点点 </font>
+
+478
+00:18:12,000 --> 00:18:14,910
+ <font color="#CCCCCC">uui的颜色改变了轴的颜色 </font>
+
+479
+00:18:14,910 --> 00:18:16,350
+改变<font color="#CCCCCC">几乎 </font><font color="#E5E5E5">任何东西的颜色</font>
+
+480
+00:18:16,350 --> 00:18:18,600
+你<font color="#E5E5E5">有你的钥匙结合 </font><font color="#CCCCCC">，你可以 </font>
+
+481
+00:18:18,600 --> 00:18:21,600
+修改，这是相当多<font color="#CCCCCC">的 </font><font color="#E5E5E5">它 </font>
+
+482
+00:18:21,600 --> 00:18:23,040
+ <font color="#E5E5E5">休息我们真的不在乎 </font><font color="#CCCCCC">正确 </font>
+
+483
+00:18:23,040 --> 00:18:26,490
+ <font color="#CCCCCC">现在，第三种选择是我们获得的资产 </font>
+
+484
+00:18:26,490 --> 00:18:29,220
+ <font color="#CCCCCC">创建某种 </font><font color="#E5E5E5">资产就是这样 </font>
+
+485
+00:18:29,220 --> 00:18:30,270
+很多<font color="#E5E5E5">你会看到的东西 </font>
+
+486
+00:18:30,270 --> 00:18:32,040
+ <font color="#E5E5E5">在艺术方面，我们也很可能 </font>
+
+487
+00:18:32,040 --> 00:18:34,160
+将创造<font color="#E5E5E5">资产 </font>
+
+488
+00:18:34,160 --> 00:18:37,020
+ <font color="#E5E5E5">程序员，因为我们的脚本 </font>
+
+489
+00:18:37,020 --> 00:18:38,130
+即将<font color="#E5E5E5">成为 </font>
+
+490
+00:18:38,130 --> 00:18:40,770
+被视为资产，但我们正在<font color="#CCCCCC">谈论 </font>
+
+491
+00:18:40,770 --> 00:18:43,050
+关于我们正在讨论的材料
+
+492
+00:18:43,050 --> 00:18:46,980
+模型<font color="#E5E5E5">纹理字体，但所有那种 </font>
+
+493
+00:18:46,980 --> 00:18:48,510
+好<font color="#CCCCCC">东西实际上 </font><font color="#E5E5E5">被认为是 </font>
+
+494
+00:18:48,510 --> 00:18:51,510
+资产，所以如果你想导入<font color="#E5E5E5">那些if </font>
+
+495
+00:18:51,510 --> 00:18:53,700
+别人<font color="#CCCCCC">为 </font><font color="#E5E5E5">你做到了 </font>
+
+496
+00:18:53,700 --> 00:18:55,710
+实际上<font color="#CCCCCC">通过这导入一个包 </font>
+
+497
+00:18:55,710 --> 00:18:56,820
+ <font color="#E5E5E5">几乎你的整个 </font><font color="#CCCCCC">比赛 </font><font color="#E5E5E5">将 </font>
+
+498
+00:18:56,820 --> 00:18:59,670
+ <font color="#CCCCCC">从我 </font><font color="#E5E5E5">现在 </font><font color="#CCCCCC">开始就是 </font><font color="#E5E5E5">从 </font><font color="#CCCCCC">资产中 </font><font color="#E5E5E5">做出来 </font><font color="#CCCCCC">的 </font>
+
+499
+00:18:59,670 --> 00:19:01,590
+与标准资产安装统一
+
+500
+00:19:01,590 --> 00:19:02,850
+回到这是一件好事<font color="#E5E5E5">， </font><font color="#CCCCCC">只是给了 </font>
+
+501
+00:19:02,850 --> 00:19:04,470
+您在<font color="#CCCCCC">默认情况下，如果你只是</font><font color="#E5E5E5">检查 </font>
+
+502
+00:19:04,470 --> 00:19:06,690
+ <font color="#CCCCCC">你可以实际导入的 </font><font color="#E5E5E5">小按钮 </font>
+
+503
+00:19:06,690 --> 00:19:08,610
+ <font color="#E5E5E5">一些包只是为了测试它 </font>
+
+504
+00:19:08,610 --> 00:19:10,410
+ <font color="#E5E5E5">可以告诉 </font><font color="#CCCCCC">在 </font><font color="#E5E5E5">这里 </font><font color="#CCCCCC">我中有 </font><font color="#E5E5E5">你 </font><font color="#CCCCCC">有 </font><font color="#E5E5E5">我 </font>
+
+505
+00:19:10,410 --> 00:19:13,230
+车辆原型制作环境
+
+506
+00:19:13,230 --> 00:19:14,280
+让我们<font color="#CCCCCC">实际上导入一些 </font>
+
+507
+00:19:14,280 --> 00:19:17,400
+环境<font color="#E5E5E5">只是你看看出来 </font>
+
+508
+00:19:17,400 --> 00:19:19,590
+他们给我们的东西<font color="#CCCCCC">以及 </font><font color="#E5E5E5">它 </font><font color="#CCCCCC">是 如何 </font><font color="#E5E5E5">运作的 </font><font color="#CCCCCC">我 </font>
+
+509
+00:19:19,590 --> 00:19:22,110
+要<font color="#CCCCCC">取消选中这 </font><font color="#E5E5E5">只是带来一些 </font>
+
+510
+00:19:22,110 --> 00:19:23,640
+让我们说<font color="#E5E5E5">我们要带来 </font>
+
+511
+00:19:23,640 --> 00:19:28,350
+ <font color="#E5E5E5">一些水为什么 </font><font color="#CCCCCC">我们不能实际上只是 </font>
+
+512
+00:19:28,350 --> 00:19:29,850
+ <font color="#E5E5E5">带些水，所以我只会去 </font>
+
+513
+00:19:29,850 --> 00:19:32,310
+ <font color="#E5E5E5">检查水进口，他们会去 </font>
+
+514
+00:19:32,310 --> 00:19:34,560
+将它放在我的<font color="#E5E5E5">项目窗口中 </font>
+
+515
+00:19:34,560 --> 00:19:36,300
+我<font color="#E5E5E5">说我们要回来了 </font>
+
+516
+00:19:36,300 --> 00:19:38,370
+ <font color="#E5E5E5">在某个时刻，但你可以告诉 </font>
+
+517
+00:19:38,370 --> 00:19:40,350
+甚至<font color="#E5E5E5">没有在我的游戏中做任何事情 </font>
+
+518
+00:19:40,350 --> 00:19:42,750
+ <font color="#E5E5E5">我只能使用那个资产 </font>
+
+519
+00:19:42,750 --> 00:19:45,750
+ <font color="#CCCCCC">他们已经制作了 </font><font color="#E5E5E5">，我们在这里，我们有一个 </font>
+
+520
+00:19:45,750 --> 00:19:47,760
+湖，我们有某种<font color="#CCCCCC">海洋</font><font color="#E5E5E5">实际上 </font>
+
+521
+00:19:47,760 --> 00:19:50,370
+ <font color="#E5E5E5">这就是为 </font><font color="#CCCCCC">我们 </font><font color="#E5E5E5">所做的一切 </font>
+
+522
+00:19:50,370 --> 00:19:52,640
+统一制作一个包，我们简单
+
+523
+00:19:52,640 --> 00:19:57,990
+ <font color="#E5E5E5">进口它，这是一个很好的小水流 </font>
+
+524
+00:19:57,990 --> 00:20:00,120
+会<font color="#E5E5E5">在这里，现在我</font><font color="#CCCCCC">要 </font><font color="#E5E5E5">删除 </font>
+
+525
+00:20:00,120 --> 00:20:01,470
+这一点，因为<font color="#E5E5E5">我们不</font><font color="#CCCCCC">打算 </font><font color="#E5E5E5">使用 </font>
+
+526
+00:20:01,470 --> 00:20:03,630
+ <font color="#E5E5E5">不幸的 </font><font color="#CCCCCC">是 </font><font color="#E5E5E5">，我们的游戏中有水 </font>
+
+527
+00:20:03,630 --> 00:20:07,049
+非常好，但现在下一个菜单是
+
+528
+00:20:07,049 --> 00:20:08,970
+ <font color="#E5E5E5">游戏对象和我使用的这个 </font>
+
+529
+00:20:08,970 --> 00:20:11,070
+很多， <font color="#CCCCCC">所以 </font><font color="#E5E5E5">这是你创建一些 </font>
+
+530
+00:20:11,070 --> 00:20:12,780
+原型对象， <font color="#E5E5E5">因为我们没有 </font>
+
+531
+00:20:12,780 --> 00:20:14,520
+ <font color="#E5E5E5">真的有我们所有的模型 </font>
+
+532
+00:20:14,520 --> 00:20:15,720
+像程序员，我们<font color="#E5E5E5">不是真的 </font>
+
+533
+00:20:15,720 --> 00:20:18,630
+良好的<font color="#E5E5E5">艺术以及我的意思是我们是</font><font color="#CCCCCC">不是 </font>
+
+534
+00:20:18,630 --> 00:20:20,850
+ <font color="#E5E5E5">最好 </font><font color="#CCCCCC">的艺术，至少 </font><font color="#E5E5E5">你得到 </font>
+
+535
+00:20:20,850 --> 00:20:22,710
+ <font color="#CCCCCC">像那样 </font><font color="#E5E5E5">创造一些不错的基本 </font><font color="#CCCCCC">立方体 </font>
+
+536
+00:20:22,710 --> 00:20:25,590
+你可以<font color="#E5E5E5">创造一些漂亮的 </font><font color="#CCCCCC">飞机 </font>
+
+537
+00:20:25,590 --> 00:20:27,299
+ <font color="#E5E5E5">所有这些好 </font><font color="#CCCCCC">东西都可以 </font>
+
+538
+00:20:27,299 --> 00:20:29,610
+ <font color="#E5E5E5">在这里创建你也可以创建 </font>
+
+539
+00:20:29,610 --> 00:20:33,360
+有些<font color="#E5E5E5">灯光在某些音频存储UI </font><font color="#CCCCCC">时 </font>
+
+540
+00:20:33,360 --> 00:20:34,740
+你真的<font color="#E5E5E5">准备 </font><font color="#CCCCCC">创建一些UI </font>
+
+541
+00:20:34,740 --> 00:20:37,110
+还喜欢相机粒子系统
+
+542
+00:20:37,110 --> 00:20:38,580
+ <font color="#E5E5E5">你可以 </font><font color="#CCCCCC">在这里做 很多 </font><font color="#E5E5E5">事情 </font>
+
+543
+00:20:38,580 --> 00:20:40,890
+ <font color="#E5E5E5">你只是创建一个真正的基础 </font>
+
+544
+00:20:40,890 --> 00:20:44,039
+ <font color="#CCCCCC">对于原型制造 </font><font color="#E5E5E5">有 </font><font color="#CCCCCC">巨大的目标</font>
+
+545
+00:20:44,039 --> 00:20:45,539
+还有<font color="#E5E5E5">其他你不会去的对象 </font>
+
+546
+00:20:45,539 --> 00:20:46,919
+用于<font color="#CCCCCC">原型 </font><font color="#E5E5E5">如 </font>
+
+547
+00:20:46,919 --> 00:20:48,990
+ <font color="#CCCCCC">所有人都可以实际享受</font>
+
+548
+00:20:48,990 --> 00:20:51,419
+ <font color="#CCCCCC">如果你 </font><font color="#E5E5E5">只是最终的粒子系统</font>
+
+549
+00:20:51,419 --> 00:20:52,890
+ <font color="#CCCCCC">稍微调整一下它 </font><font color="#E5E5E5">看起来很漂亮 </font>
+
+550
+00:20:52,890 --> 00:20:55,530
+ <font color="#CCCCCC">很好，现在几乎就是这样 </font>
+
+551
+00:20:55,530 --> 00:20:57,720
+组件<font color="#E5E5E5">我不打算进入 </font>
+
+552
+00:20:57,720 --> 00:20:59,490
+这<font color="#E5E5E5">是因为这是很多东西 </font>
+
+553
+00:20:59,490 --> 00:21:01,559
+我们<font color="#E5E5E5">将 </font><font color="#CCCCCC">与代码做 </font>
+
+554
+00:21:01,559 --> 00:21:03,360
+我们很快就会明白如何<font color="#E5E5E5">把它和 </font>
+
+555
+00:21:03,360 --> 00:21:06,419
+最后窗口<font color="#CCCCCC">只是弹出你的 </font>
+
+556
+00:21:06,419 --> 00:21:08,520
+ <font color="#E5E5E5">窗户回来，如果你只是说你 </font>
+
+557
+00:21:08,520 --> 00:21:11,280
+删除你<font color="#E5E5E5">的关键就在这里它是一个 </font>
+
+558
+00:21:11,280 --> 00:21:12,690
+ <font color="#E5E5E5">现在浮动窗口 </font><font color="#CCCCCC">，你只需点击 </font>
+
+559
+00:21:12,690 --> 00:21:15,809
+ <font color="#CCCCCC">在X上 </font><font color="#E5E5E5">你失去它你 </font><font color="#CCCCCC">可以 </font><font color="#E5E5E5">找到它 </font>
+
+560
+00:21:15,809 --> 00:21:17,850
+窗口，以便您<font color="#E5E5E5">可以 </font><font color="#CCCCCC">正确 </font><font color="#E5E5E5">填写 </font>
+
+561
+00:21:17,850 --> 00:21:21,510
+在这里， <font color="#E5E5E5">我们的关键控制让你弹 </font><font color="#CCCCCC">回来 </font>
+
+562
+00:21:21,510 --> 00:21:25,640
+在<font color="#E5E5E5">这里，你去，你实际上只是 </font>
+
+563
+00:21:25,640 --> 00:21:30,270
+ <font color="#E5E5E5">把它放回 </font><font color="#CCCCCC">原来 </font><font color="#E5E5E5">这样的地方 </font>
+
+564
+00:21:30,270 --> 00:21:31,650
+这<font color="#E5E5E5">是我真正要 </font><font color="#CCCCCC">结束的地方 </font>
+
+565
+00:21:31,650 --> 00:21:33,870
+ <font color="#E5E5E5">今天的情节我们粗略看了一下 </font>
+
+566
+00:21:33,870 --> 00:21:36,270
+引擎<font color="#CCCCCC">实际上只是看起来在哪里 </font>
+
+567
+00:21:36,270 --> 00:21:38,130
+我们可以点击窗口的工作方式
+
+568
+00:21:38,130 --> 00:21:40,710
+有点<font color="#E5E5E5">不应该是这样的 </font>
+
+569
+00:21:40,710 --> 00:21:41,880
+ <font color="#E5E5E5">你马上就能理解的东西 </font>
+
+570
+00:21:41,880 --> 00:21:45,000
+ <font color="#CCCCCC">你 </font><font color="#E5E5E5">将 </font><font color="#CCCCCC">只是 </font><font color="#E5E5E5">被理解 </font>
+
+571
+00:21:45,000 --> 00:21:47,370
+只是<font color="#E5E5E5">通过使用它来练习</font>
+
+572
+00:21:47,370 --> 00:21:49,020
+伙计们，感谢收看我邀请你们
+
+573
+00:21:49,020 --> 00:21:51,210
+ <font color="#E5E5E5">看 </font><font color="#CCCCCC">这是 会 </font><font color="#E5E5E5">下一</font><font color="#CCCCCC">集 </font>
+
+574
+00:21:51,210 --> 00:21:53,340
+关于资产<font color="#E5E5E5">，我们要去 </font>
+
+575
+00:21:53,340 --> 00:21:54,750
+进口<font color="#CCCCCC">一些 </font><font color="#E5E5E5">我要去的 </font><font color="#CCCCCC">很酷的东西 </font>
+
+576
+00:21:54,750 --> 00:21:56,760
+ <font color="#E5E5E5">看看我们将要成为的纹理 </font>
+
+577
+00:21:56,760 --> 00:21:59,460
+ <font color="#E5E5E5">看模型脚本材料很多 </font>
+
+578
+00:21:59,460 --> 00:22:00,929
+那些<font color="#E5E5E5">家伙只是 </font><font color="#CCCCCC">确保你调整 </font>
+
+579
+00:22:00,929 --> 00:22:02,760
+在查看<font color="#CCCCCC">频道订阅 </font>
+
+580
+00:22:02,760 --> 00:22:04,650
+ <font color="#CCCCCC">到频道看看patreon </font>
+
+581
+00:22:04,650 --> 00:22:06,480
+页面，如果<font color="#CCCCCC">你想支持我和 </font>
+
+582
+00:22:06,480 --> 00:22:08,760
+ <font color="#CCCCCC">支持我做 </font><font color="#E5E5E5">更多的课程 </font>
+
+583
+00:22:08,760 --> 00:22:10,530
+因为我实际上有<font color="#E5E5E5">很多 </font>
+
+584
+00:22:10,530 --> 00:22:12,630
+ <font color="#E5E5E5">这 </font><font color="#CCCCCC">就是 </font><font color="#E5E5E5">我所说的唯一 的乐趣 </font>
+
+585
+00:22:12,630 --> 00:22:15,030
+我的<font color="#E5E5E5">第一门课程，但 </font><font color="#CCCCCC">我还在 </font>
+
+586
+00:22:15,030 --> 00:22:16,559
+ <font color="#E5E5E5">非常有趣，所以 </font><font color="#CCCCCC">请查看 </font>
+
+587
+00:22:16,559 --> 00:22:17,340
+ patreon页面
+
+588
+00:22:17,340 --> 00:22:20,010
+如果您想<font color="#E5E5E5">退出，请查看 </font>
+
+589
+00:22:20,010 --> 00:22:21,600
+ patreon页面， <font color="#E5E5E5">如果你想 </font><font color="#CCCCCC">支持 </font><font color="#E5E5E5">我 </font>
+
+590
+00:22:21,600 --> 00:22:24,450
+ <font color="#E5E5E5">除此之外请退出， </font><font color="#CCCCCC">如果你 </font>
+
+591
+00:22:24,450 --> 00:22:26,400
+ <font color="#CCCCCC">只能通过patreon无法支持 </font>
+
+592
+00:22:26,400 --> 00:22:28,140
+在这个视频上留下一些<font color="#E5E5E5">帮助 </font>
+
+593
+00:22:28,140 --> 00:22:30,120
+ <font color="#E5E5E5">很多你 </font><font color="#CCCCCC">也可以发表评论 </font>
+
+594
+00:22:30,120 --> 00:22:31,800
+这<font color="#CCCCCC">也 </font><font color="#E5E5E5">将有很大的帮助 </font>
+
+595
+00:22:31,800 --> 00:22:34,200
+ <font color="#E5E5E5">而我只是</font><font color="#CCCCCC">确保 </font><font color="#E5E5E5">刚读所有 </font>
+
+596
+00:22:34,200 --> 00:22:35,730
+ <font color="#E5E5E5">他们并尝试回复你的 </font>
+
+597
+00:22:35,730 --> 00:22:37,800
+问<font color="#CCCCCC">我们我有很多问题 </font>
+
+598
+00:22:37,800 --> 00:22:40,110
+ <font color="#E5E5E5">进来，但我确实读过每 </font><font color="#CCCCCC">一个 </font>
+
+599
+00:22:40,110 --> 00:22:42,330
+你的评论<font color="#E5E5E5">，我会尽我所能 </font>
+
+600
+00:22:42,330 --> 00:22:43,590
+实际上<font color="#E5E5E5">为这个视频读了所有 </font>
+
+601
+00:22:43,590 --> 00:22:45,510
+特别是因为<font color="#E5E5E5">它是它的开始 </font>
+
+602
+00:22:45,510 --> 00:22:48,210
+ <font color="#CCCCCC">按照</font><font color="#E5E5E5">使感谢 </font><font color="#CCCCCC">收看 </font><font color="#E5E5E5">球员 </font>
+
+603
+00:22:48,210 --> 00:00:00,000
+ <font color="#CCCCCC">我再次</font><font color="#E5E5E5">见到你 </font>
+

@@ -1,0 +1,352 @@
+1
+00:00:00,060 --> 00:00:02,009
+ <font color="#CCCCCC">好吧欢迎回到另一个人 </font>
+
+2
+00:00:02,009 --> 00:00:04,680
+视频<font color="#E5E5E5">，你知道在 </font><font color="#CCCCCC">最后 </font>
+
+3
+00:00:04,680 --> 00:00:07,560
+ <font color="#CCCCCC">Oriels我告诉你们如何制作一个 </font>
+
+4
+00:00:07,560 --> 00:00:10,500
+基本<font color="#E5E5E5">功能，我也告诉你们 </font>
+
+5
+00:00:10,500 --> 00:00:13,290
+ <font color="#CCCCCC">在 </font><font color="#E5E5E5">你的括号 </font><font color="#CCCCCC">里面 </font><font color="#E5E5E5">你可以 </font>
+
+6
+00:00:13,290 --> 00:00:16,079
+有额外的变量， <font color="#E5E5E5">非常漂亮 </font>
+
+7
+00:00:16,079 --> 00:00:17,760
+ <font color="#E5E5E5">你的额外信息 </font>
+
+8
+00:00:17,760 --> 00:00:21,000
+功能<font color="#E5E5E5">需要 </font><font color="#CCCCCC">现在 </font><font color="#E5E5E5">才能 </font><font color="#CCCCCC">工作 </font>
+
+9
+00:00:21,000 --> 00:00:23,369
+ <font color="#CCCCCC">这个额外的</font><font color="#E5E5E5">技术名称 </font>
+
+10
+00:00:23,369 --> 00:00:25,650
+ <font color="#CCCCCC">信息 </font><font color="#E5E5E5">是一个参数，所以如果你 </font>
+
+11
+00:00:25,650 --> 00:00:26,970
+ <font color="#E5E5E5">那里有多个变量 </font>
+
+12
+00:00:26,970 --> 00:00:29,039
+被称为参数<font color="#E5E5E5">，我将展示 </font>
+
+13
+00:00:29,039 --> 00:00:32,009
+ <font color="#E5E5E5">你们如何</font><font color="#CCCCCC">有</font><font color="#E5E5E5">一个默认值 </font>
+
+14
+00:00:32,009 --> 00:00:33,989
+如果你们这些，你在这个视频中的论点
+
+15
+00:00:33,989 --> 00:00:36,540
+ <font color="#E5E5E5">真的 </font><font color="#CCCCCC">很好，为什么 </font><font color="#E5E5E5">我们需要 </font>
+
+16
+00:00:36,540 --> 00:00:37,649
+这<font color="#CCCCCC">没用 </font>
+
+17
+00:00:37,649 --> 00:00:40,980
+好吧，让<font color="#E5E5E5">我举 </font><font color="#CCCCCC">个 </font><font color="#E5E5E5">例子说 </font>
+
+18
+00:00:40,980 --> 00:00:42,960
+ <font color="#CCCCCC">我们正在使用Python进行Web </font>
+
+19
+00:00:42,960 --> 00:00:44,610
+发展， <font color="#E5E5E5">我们正在做一个社会 </font>
+
+20
+00:00:44,610 --> 00:00:47,760
+ <font color="#E5E5E5">网络以及用户注册时 </font>
+
+21
+00:00:47,760 --> 00:00:50,129
+他们可以<font color="#E5E5E5">选择是男性 </font><font color="#CCCCCC">还是 </font><font color="#E5E5E5">男性 </font>
+
+22
+00:00:50,129 --> 00:00:52,530
+女性，然后<font color="#CCCCCC">它将显示 </font><font color="#E5E5E5">在 </font><font color="#CCCCCC">他们的 </font>
+
+23
+00:00:52,530 --> 00:00:55,530
+ <font color="#E5E5E5">然而， </font><font color="#CCCCCC">如果他们什么都不输入 </font>
+
+24
+00:00:55,530 --> 00:00:58,350
+那么<font color="#E5E5E5">我们不只是想进入一个 </font>
+
+25
+00:00:58,350 --> 00:01:00,420
+空值<font color="#E5E5E5">到我们的数据库或其他 </font>
+
+26
+00:01:00,420 --> 00:01:02,340
+坏事可能<font color="#CCCCCC">会发生一些 </font>
+
+27
+00:01:02,340 --> 00:01:04,680
+意想不到的<font color="#E5E5E5">结果 </font><font color="#CCCCCC">所以我们要设置一个 </font>
+
+28
+00:01:04,680 --> 00:01:09,000
+ <font color="#CCCCCC">默认值进一步性别所以让我们 </font>
+
+29
+00:01:09,000 --> 00:01:13,790
+制作一个名为get gender和的函数
+
+30
+00:01:13,790 --> 00:01:17,450
+我们将设置<font color="#E5E5E5">性别， </font><font color="#CCCCCC">而</font><font color="#E5E5E5">不是 只 </font>
+
+31
+00:01:17,450 --> 00:01:20,670
+ <font color="#E5E5E5">我们 </font><font color="#CCCCCC">明确地将它传递给一个值 </font>
+
+32
+00:01:20,670 --> 00:01:21,330
+说<font color="#E5E5E5">好的 </font>
+
+33
+00:01:21,330 --> 00:01:28,799
+默认情况下<font color="#E5E5E5">性别等于未知 </font>
+
+34
+00:01:28,799 --> 00:01:30,990
+这样我们就可以<font color="#E5E5E5">有所收获 </font>
+
+35
+00:01:30,990 --> 00:01:33,299
+我们的数据库而不仅仅是空虚
+
+36
+00:01:33,299 --> 00:01:37,079
+ <font color="#E5E5E5">现在我们可以做的就是说好了 </font>
+
+37
+00:01:37,079 --> 00:01:38,640
+ <font color="#E5E5E5">如果做爱 </font>
+
+38
+00:01:38,640 --> 00:01:43,740
+如果他们进入<font color="#CCCCCC">M然后我们将设置 </font>
+
+39
+00:01:43,740 --> 00:01:49,170
+等于男性， <font color="#E5E5E5">所以这是决赛 </font>
+
+40
+00:01:49,170 --> 00:01:51,329
+变量<font color="#E5E5E5">将是 </font><font color="#CCCCCC">我们抛出的变量</font>
+
+41
+00:01:51,329 --> 00:01:53,610
+ <font color="#CCCCCC">进入 </font><font color="#E5E5E5">我们的数据库然后我们就会 </font>
+
+42
+00:01:53,610 --> 00:01:59,450
+如果性<font color="#E5E5E5">是女性，就把别的</font>
+
+43
+00:01:59,450 --> 00:02:04,720
+然后设置等于<font color="#E5E5E5">女性这个词 </font>
+
+44
+00:02:04,720 --> 00:02:06,670
+当然还有最后一件事<font color="#CCCCCC">， </font><font color="#E5E5E5">我们要 </font>
+
+45
+00:02:06,670 --> 00:02:10,419
+做印刷性很漂亮
+
+46
+00:02:10,419 --> 00:02:12,550
+而是将它打印到我们的数据库中
+
+47
+00:02:12,550 --> 00:02:14,200
+ <font color="#E5E5E5">就在屏幕上但是 </font><font color="#CCCCCC">这个例子 </font>
+
+48
+00:02:14,200 --> 00:02:17,410
+ <font color="#CCCCCC">它会工作 </font><font color="#E5E5E5">正常， </font><font color="#CCCCCC">所以现在我们能做的就是 </font>
+
+49
+00:02:17,410 --> 00:02:19,590
+这个
+
+50
+00:02:21,660 --> 00:02:24,580
+实际上，如果我键入所有这些例子<font color="#CCCCCC">是 </font>
+
+51
+00:02:24,580 --> 00:02:25,810
+可能<font color="#E5E5E5">会 </font><font color="#CCCCCC">很容易 </font><font color="#E5E5E5">看到 </font>
+
+52
+00:02:25,810 --> 00:02:29,410
+什么<font color="#E5E5E5">事情发生 </font><font color="#CCCCCC">好让我调整 </font>
+
+53
+00:02:29,410 --> 00:02:32,380
+我的主席<font color="#CCCCCC">贾斯汀 - 贾斯汀就是这样 </font>
+
+54
+00:02:32,380 --> 00:02:34,780
+他们打电话<font color="#E5E5E5">给我，我不知道我是谁 </font>
+
+55
+00:02:34,780 --> 00:02:36,310
+ <font color="#E5E5E5">试着 </font><font color="#CCCCCC">想一些有趣的 </font><font color="#E5E5E5">说法但是 </font>
+
+56
+00:02:36,310 --> 00:02:39,280
+ <font color="#E5E5E5">像Justin这样的名字，但 </font><font color="#CCCCCC">我 </font>
+
+57
+00:02:39,280 --> 00:02:40,660
+不知道是否有人有什么好处
+
+58
+00:02:40,660 --> 00:02:42,700
+然后让我知道<font color="#E5E5E5">，我会用 </font><font color="#CCCCCC">它 </font>
+
+59
+00:02:42,700 --> 00:02:44,530
+ 10教程永远不会忘记<font color="#CCCCCC">它 </font>
+
+60
+00:02:44,530 --> 00:02:45,760
+忘了<font color="#E5E5E5">我无法忍受 </font>
+
+61
+00:02:45,760 --> 00:02:48,340
+什么<font color="#CCCCCC">都 </font><font color="#E5E5E5">没事，所以让我们跑吧 </font>
+
+62
+00:02:48,340 --> 00:02:51,610
+ <font color="#E5E5E5">看看会发生什么，如果他们 </font>
+
+63
+00:02:51,610 --> 00:02:56,980
+进入<font color="#CCCCCC">em它 </font><font color="#E5E5E5">默认我们 </font><font color="#CCCCCC">说没关系 </font>
+
+64
+00:02:56,980 --> 00:02:59,890
+有性生活<font color="#E5E5E5">等于未知 </font><font color="#CCCCCC">但你 </font>
+
+65
+00:02:59,890 --> 00:03:02,590
+进入他们所以我们将<font color="#E5E5E5">使用它 </font>
+
+66
+00:03:02,590 --> 00:03:06,730
+相反，所以如果他们输入F <font color="#E5E5E5">好吧我们 </font>
+
+67
+00:03:06,730 --> 00:03:10,720
+说<font color="#E5E5E5">好的性别你想要等于F现在 </font>
+
+68
+00:03:10,720 --> 00:03:13,090
+这一个就在这里， <font color="#E5E5E5">我们没有进入 </font>
+
+69
+00:03:13,090 --> 00:03:15,580
+ <font color="#E5E5E5">我们没有输入任何东西 </font>
+
+70
+00:03:15,580 --> 00:03:17,860
+信在所有所以在这种情况下，它<font color="#E5E5E5">会 </font>
+
+71
+00:03:17,860 --> 00:03:20,350
+说好的， <font color="#E5E5E5">因为你没有给我 </font><font color="#CCCCCC">一个 </font>
+
+72
+00:03:20,350 --> 00:03:23,110
+ <font color="#CCCCCC">设定性别的 </font><font color="#E5E5E5">价值 </font><font color="#CCCCCC">等于我要去 </font><font color="#E5E5E5">的 </font>
+
+73
+00:03:23,110 --> 00:03:27,310
+ <font color="#E5E5E5">默认情况下再次将 </font><font color="#CCCCCC">其 </font><font color="#E5E5E5">输入 </font><font color="#CCCCCC">为未知 </font>
+
+74
+00:03:27,310 --> 00:03:30,940
+这<font color="#CCCCCC">是默认 </font><font color="#E5E5E5">值所以 </font><font color="#CCCCCC">现在性是 </font>
+
+75
+00:03:30,940 --> 00:03:32,920
+等于未知<font color="#E5E5E5">所以打印时 </font>
+
+76
+00:03:32,920 --> 00:03:36,040
+ <font color="#CCCCCC">它只是打印出来 </font><font color="#E5E5E5">到你的数据库 </font>
+
+77
+00:03:36,040 --> 00:03:38,920
+未知， <font color="#E5E5E5">所以它比 </font><font color="#CCCCCC">仅仅 </font><font color="#E5E5E5">好多 </font><font color="#CCCCCC">了 </font>
+
+78
+00:03:38,920 --> 00:03:41,739
+打印<font color="#E5E5E5">出来，因为再次喜欢 </font>
+
+79
+00:03:41,739 --> 00:03:44,019
+我说这可能会混淆数据库和
+
+80
+00:03:44,019 --> 00:03:45,519
+ <font color="#CCCCCC">还有其他例子 </font>
+
+81
+00:03:45,519 --> 00:03:48,430
+ <font color="#E5E5E5">有用的，但希望 你们 </font>
+
+82
+00:03:48,430 --> 00:03:50,380
+ <font color="#CCCCCC">理解 </font><font color="#E5E5E5">默认值是什么</font>
+
+83
+00:03:50,380 --> 00:03:52,090
+ <font color="#CCCCCC">基本上如果你忘了 </font><font color="#E5E5E5">设置 </font>
+
+84
+00:03:52,090 --> 00:03:55,120
+ <font color="#E5E5E5">变量显式它有一些东西 </font>
+
+85
+00:03:55,120 --> 00:03:58,390
+ <font color="#CCCCCC">默认</font><font color="#E5E5E5">情况下 店 这么认为家伙 </font>
+
+86
+00:03:58,390 --> 00:03:59,800
+看着<font color="#E5E5E5">别忘了订阅 </font><font color="#CCCCCC">和 </font>
+
+87
+00:03:59,800 --> 00:04:02,680
+ <font color="#E5E5E5">如果有的话，再次告诉我一个贾斯汀的笑话 </font>
+
+88
+00:04:02,680 --> 00:00:00,000
+一个人<font color="#CCCCCC">以后 </font><font color="#E5E5E5">见 </font>
+

@@ -1,0 +1,509 @@
+1
+00:00:00,060 --> 00:00:04,740
+alright guys welcome back to another
+video and this is definitely going to be
+
+2
+00:00:04,740 --> 00:00:08,340
+the coolest tutorial yet because I'm
+going to be showing you guys how to make
+
+3
+00:00:08,340 --> 00:00:12,630
+a web crawler some people may call them
+spiders but they're basically programs
+
+4
+00:00:12,630 --> 00:00:17,670
+that you can give it any URL you want
+and they can go to that web page and
+
+5
+00:00:17,670 --> 00:00:21,390
+they can either it can actually do a
+couple things you can either just gather
+
+6
+00:00:21,390 --> 00:00:26,939
+information from that web page or it
+could find all the links and go on to
+
+7
+00:00:26,939 --> 00:00:32,880
+those web pages pretty much crawl the
+web the most popular web crawler is
+
+8
+00:00:32,880 --> 00:00:37,290
+probably Google's which goes through a
+bunch of pages gathers information for a
+search engine so of course we're not
+
+9
+00:00:39,780 --> 00:00:42,510
+going to be building one that big but
+this one is actually going to be pretty
+
+10
+00:00:42,510 --> 00:00:47,309
+cool and also the reason I had this page
+up is because I'm not sure what websites
+
+11
+00:00:47,309 --> 00:00:51,899
+actually allow you to curl them I'm
+pretty sure like um eBay or Craigslist
+
+12
+00:00:51,899 --> 00:00:56,070
+it's against their Terms of Service like
+I don't know that for sure but I'm like
+
+13
+00:00:56,070 --> 00:01:01,230
+they probably don't want you doing it so
+I figured just to test this out just so
+I wouldn't get in trouble I'm just doing
+
+14
+00:01:02,550 --> 00:01:09,780
+it on one of my own web pages so if you
+go to Bucky's room org slash trade slash
+
+15
+00:01:09,780 --> 00:01:15,060
+index dot PHP this is a section on my
+website where I let users like trade
+
+16
+00:01:15,060 --> 00:01:19,650
+items so this is the home page right
+here and it's actually kind of important
+
+17
+00:01:19,650 --> 00:01:24,210
+to see the structure of it now if you go
+to search this is the page that we're
+going to be curling so of course this
+
+18
+00:01:27,090 --> 00:01:32,490
+lists all the items in all the
+categories and if you notice a couple
+things we want to take note of it has a
+
+19
+00:01:34,439 --> 00:01:39,570
+couple pages that the items are on so
+then only less 30 items per page and
+
+20
+00:01:39,570 --> 00:01:45,210
+we're going to be using this parameter
+right here the page number and we're
+
+21
+00:01:45,210 --> 00:01:48,270
+going to be giving our spider that
+information so it isn't just stuck on
+
+22
+00:01:48,270 --> 00:01:52,770
+one page the whole time so what our web
+crawler is going to do is go page by
+
+23
+00:01:52,770 --> 00:01:58,049
+page and it can either just gather the
+links or maybe you can just gather the
+
+24
+00:01:58,049 --> 00:02:04,439
+titles whatever we want it to do but
+anyways that is how my website is laid
+out so let's go ahead and open pycharm
+
+25
+00:02:07,979 --> 00:02:12,489
+and start coding this bad boy
+now there are couple modules that we
+
+26
+00:02:12,489 --> 00:02:17,319
+need to import first the first is
+requests and that's because remember
+this is whenever you're connecting to
+
+27
+00:02:19,510 --> 00:02:24,580
+the Internet in Python this is well it's
+my favorite way to there's actually a
+
+28
+00:02:24,580 --> 00:02:28,290
+couple different ways but this is to
+request information from a web page and
+another thing that we're going to need
+
+29
+00:02:30,880 --> 00:02:37,780
+is my favorite module of all time so go
+to settings and this is when I was
+
+30
+00:02:37,780 --> 00:02:47,650
+changing the font size for the video all
+right where am I get out of that so go
+
+31
+00:02:47,650 --> 00:02:52,510
+to project interpreter and that's where
+you can see all your modules and the
+package or module that we want to import
+
+32
+00:02:54,310 --> 00:03:00,130
+is called beautiful soup 4 so again if
+you don't have this added which you
+
+33
+00:03:00,130 --> 00:03:03,940
+probably don't just add it like before I
+showed you in the I don't know like
+
+34
+00:03:03,940 --> 00:03:09,690
+couple tutorials ago look for a
+beautiful soup for and what this is is
+
+35
+00:03:09,690 --> 00:03:16,480
+it's your module that lets you pretty
+much go to a website and in sort through
+
+36
+00:03:16,480 --> 00:03:22,329
+data so right now that request is kind
+of limited because it can connect to a
+
+37
+00:03:22,329 --> 00:03:28,350
+webpage but it's kind of dumb so what
+beautiful soup for allows you to do is
+
+38
+00:03:28,350 --> 00:03:33,459
+pretty much look at all the page source
+and you can say things like ok get all
+
+39
+00:03:33,459 --> 00:03:38,709
+the links from this page or get all the
+you know headers or titles or anything
+
+40
+00:03:38,709 --> 00:03:42,670
+like that so you guys are going to be
+seeing how cool it is later on but
+anyways whenever you have it installed
+
+41
+00:03:45,660 --> 00:03:54,940
+what you can say is from bs4 import
+beautiful soup and that's going to
+
+42
+00:03:54,940 --> 00:03:58,420
+import all the tools that we need and
+again if you're ever looking at
+
+43
+00:03:58,420 --> 00:04:03,450
+documentation to use this online it's
+either you can type in beautiful soup
+
+44
+00:04:03,450 --> 00:04:10,090
+bs4 arm beautiful suit for and the web
+page is going to pop up so you know if
+
+45
+00:04:10,090 --> 00:04:14,889
+you ever want more information than just
+giving you guys a heads up so now we
+
+46
+00:04:14,889 --> 00:04:21,810
+imported all the crap we need and the
+first thing I actually want to do is
+
+47
+00:04:21,810 --> 00:04:25,890
+go back to your main search so by
+default
+
+48
+00:04:25,890 --> 00:04:28,920
+we're just on this page right now and
+this is the page that we're going to
+
+49
+00:04:28,920 --> 00:04:33,600
+start from the main search page so make
+sure you're on this right here not on
+
+50
+00:04:33,600 --> 00:04:38,520
+any not like on page three or anything
+like that so the first thing I want to
+do is I wanted to make the core spider
+
+51
+00:04:41,850 --> 00:04:48,000
+just the main spider that can sift
+through and we'll just do something
+
+52
+00:04:48,000 --> 00:04:52,740
+really simple at first before we get to
+advanced so since this is a spider
+
+53
+00:04:52,740 --> 00:04:55,740
+that's going to be limited to the
+trading section on my website I just
+
+54
+00:04:55,740 --> 00:05:02,280
+want to name it trade spider
+so after this what I want to do is I
+actually want to give it a parameter of
+
+55
+00:05:03,810 --> 00:05:10,470
+max pages because whenever we're testing
+things out say we're just testing it for
+
+56
+00:05:10,470 --> 00:05:14,730
+the first time make sure it can gather
+links or something well I don't want it
+
+57
+00:05:14,730 --> 00:05:19,230
+to crawl all these pages what if there's
+a hundred pages well if something isn't
+
+58
+00:05:19,230 --> 00:05:23,190
+working in our program it's going to
+take a while to you know go through and
+
+59
+00:05:23,190 --> 00:05:28,350
+find the bug so whenever I have this
+parameter max pages by default we can
+
+60
+00:05:28,350 --> 00:05:32,460
+just set it equal to one or two at first
+and then once everything's working we'll
+just set equal to like 50 or however
+
+61
+00:05:34,320 --> 00:05:43,350
+many pages we want to curl so by default
+I'm going to set page equal to one so
+
+62
+00:05:43,350 --> 00:05:47,700
+this is going to change every time it
+loop through a page so basically it's
+going to do this crawl this page and
+
+63
+00:05:50,690 --> 00:05:56,580
+then in our spider we're going to set
+that variable equal to page two and that
+
+64
+00:05:56,580 --> 00:06:03,479
+way it knows to go to page two right
+there because of course this is a
+
+65
+00:06:03,479 --> 00:06:07,650
+program it can't actually like click
+buttons on your web page so that's why
+
+66
+00:06:07,650 --> 00:06:13,620
+we need to throw in everything in
+parameters so once we have that what we
+
+67
+00:06:13,620 --> 00:06:18,390
+need to do is we need to make a wild
+loop so we're going to say while the
+
+68
+00:06:18,390 --> 00:06:26,460
+page number is less than max pages so
+again we're going to go through the
+
+69
+00:06:26,460 --> 00:06:32,130
+pages one by one and it's going to stop
+whenever we get to max pages so if we
+
+70
+00:06:32,130 --> 00:06:34,720
+pass in 10 right here it's going to say
+okay
+
+71
+00:06:34,720 --> 00:06:43,030
+I'm pretty much going to crawl 10 pages
+simple enough so the first thing I want
+to do is actually the first thing that
+
+72
+00:06:45,100 --> 00:06:51,040
+we need to do is we need to build the
+basic URL because it's saying okay I am
+
+73
+00:06:51,040 --> 00:06:54,940
+a web crawler but you kind of need to
+give me a web page of the curl
+
+74
+00:06:54,940 --> 00:07:03,580
+well the web page is this if you copy
+that URL again around page 2 but we'll
+
+75
+00:07:03,580 --> 00:07:10,870
+fix that right now again of course the
+easier thing to do is just throw all of
+
+76
+00:07:10,870 --> 00:07:15,370
+this in a variable so I'm going to name
+it URL and this is the URL that it's
+
+77
+00:07:15,370 --> 00:07:23,410
+going to curl so set this equal to this
+right here now if we just left this as
+
+78
+00:07:23,410 --> 00:07:28,720
+is then every single time it would just
+crow page number two and that's
+
+79
+00:07:28,720 --> 00:07:33,370
+obviously not what we want so what we
+want to do is actually delete this last
+
+80
+00:07:33,370 --> 00:07:40,630
+number right here and the page that we
+want it to crow is whatever page this
+
+81
+00:07:40,630 --> 00:07:46,840
+variable is equal to so get this base
+URL and then on the end of it
+
+82
+00:07:46,840 --> 00:07:55,480
+Tech on STR page so again if this
+variable changes every time the URL the
+
+83
+00:07:55,480 --> 00:07:59,980
+first time is going to be page 1 then
+page 2 and page 3 and it's going to go
+
+84
+00:07:59,980 --> 00:08:03,880
+all the way until it gets the however
+many pages we told it to curl so that's
+
+85
+00:08:03,880 --> 00:08:10,210
+how you can have your URL change every
+single time so now we have a URL what do
+
+86
+00:08:10,210 --> 00:08:14,950
+we need to do now well what we need to
+do is actually request the data from
+
+87
+00:08:14,950 --> 00:08:21,460
+that website or connect to that website
+through Python so the results that we
+
+88
+00:08:21,460 --> 00:08:26,320
+get back I'm going to be storing in a
+variable called source code and set this
+
+89
+00:08:26,320 --> 00:08:37,270
+equal to request dot get URL so again
+each time this loops it's going to
+
+90
+00:08:37,270 --> 00:08:42,940
+connect to that web page and store the
+results in a variable car called source
+
+91
+00:08:42,940 --> 00:08:51,550
+code
+so basically what we have now is as you
+Alvie page source it'll be easier
+
+92
+00:08:54,240 --> 00:08:59,710
+basically what we have now is all of
+this crap stored in that variable
+
+93
+00:08:59,710 --> 00:09:04,600
+however whenever you connect to a
+website it's a little bit more complex
+
+94
+00:09:04,600 --> 00:09:08,140
+than just getting the page source it
+also comes with other stuff like headers
+
+95
+00:09:08,140 --> 00:09:11,680
+I don't know I don't even know if you
+guys know what headers are but they're
+
+96
+00:09:11,680 --> 00:09:16,930
+the extra stuff that like your um well
+it's like extra crap that the user
+
+97
+00:09:16,930 --> 00:09:21,970
+doesn't need to know about it's probably
+the easiest example but all we really
+
+98
+00:09:21,970 --> 00:09:28,480
+want is that um source code so what I
+can do now is I can put plain underscore
+
+99
+00:09:28,480 --> 00:09:33,810
+text or you can name your variable
+anything you want and if you put

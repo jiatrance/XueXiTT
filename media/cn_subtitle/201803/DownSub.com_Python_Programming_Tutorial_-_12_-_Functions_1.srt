@@ -1,0 +1,552 @@
+1
+00:00:00,060 --> 00:00:02,159
+ <font color="#CCCCCC">好吧，我 </font><font color="#E5E5E5">希望 </font><font color="#CCCCCC">你已经 </font>
+
+2
+00:00:02,159 --> 00:00:05,250
+ <font color="#CCCCCC">了解功能，因为哦 </font>
+
+3
+00:00:05,250 --> 00:00:06,420
+多数民众赞成<font color="#CCCCCC">一个我们</font><font color="#E5E5E5">要 教</font><font color="#CCCCCC">你 </font>
+
+4
+00:00:06,420 --> 00:00:09,059
+ <font color="#CCCCCC">这个视频 </font><font color="#E5E5E5">所以，如果你不是很糟糕 </font>
+
+5
+00:00:09,059 --> 00:00:12,450
+ <font color="#CCCCCC">对 </font><font color="#E5E5E5">你而言 </font><font color="#CCCCCC">，无论如何 </font><font color="#E5E5E5">是什么 </font>
+
+6
+00:00:12,450 --> 00:00:15,809
+ <font color="#E5E5E5">每当我们做大的时候都能很好地运作</font>
+
+7
+00:00:15,809 --> 00:00:17,820
+ <font color="#E5E5E5">计算机程序不仅仅是喜欢的 </font>
+
+8
+00:00:17,820 --> 00:00:19,650
+ <font color="#E5E5E5">你知道这些小样本 </font>
+
+9
+00:00:19,650 --> 00:00:22,350
+我们一直都<font color="#CCCCCC">很好，打破你的 </font>
+
+10
+00:00:22,350 --> 00:00:25,140
+ <font color="#CCCCCC">现在编程成可管理的块</font>
+
+11
+00:00:25,140 --> 00:00:27,529
+这些块<font color="#E5E5E5">称为函数 </font>
+
+12
+00:00:27,529 --> 00:00:30,240
+ <font color="#CCCCCC">好吧，这有助于组织我们的计划 </font>
+
+13
+00:00:30,240 --> 00:00:32,279
+ <font color="#E5E5E5">现在好一点吧 </font>
+
+14
+00:00:32,279 --> 00:00:34,050
+ <font color="#CCCCCC">一个函数的另一个很酷的事情是 </font>
+
+15
+00:00:34,050 --> 00:00:36,630
+我们能做的就是我们可以<font color="#CCCCCC">写一些 </font>
+
+16
+00:00:36,630 --> 00:00:38,399
+ <font color="#E5E5E5">一点代码并将其放在 </font><font color="#CCCCCC">一个函数中 </font>
+
+17
+00:00:38,399 --> 00:00:41,129
+ <font color="#E5E5E5">然后我们可以一遍又一 </font><font color="#CCCCCC">遍地 </font><font color="#E5E5E5">使用它 </font>
+
+18
+00:00:41,129 --> 00:00:43,530
+ <font color="#E5E5E5">无论什么时候我们想要多少 </font>
+
+19
+00:00:43,530 --> 00:00:46,469
+ <font color="#E5E5E5">你真的很容易想要的 </font><font color="#CCCCCC">时间 </font><font color="#E5E5E5">， </font><font color="#CCCCCC">所以我会 </font>
+
+20
+00:00:46,469 --> 00:00:48,090
+告诉<font color="#E5E5E5">你们 </font><font color="#CCCCCC">如何 </font><font color="#E5E5E5">真正做到 </font>
+
+21
+00:00:48,090 --> 00:00:50,670
+ <font color="#CCCCCC">简单的功能， </font><font color="#E5E5E5">无论何时你 </font>
+
+22
+00:00:50,670 --> 00:00:52,649
+ <font color="#E5E5E5">第一次正确的功能 </font>
+
+23
+00:00:52,649 --> 00:00:55,860
+ d <font color="#E5E5E5">电子</font><font color="#CCCCCC">网 </font><font color="#E5E5E5">这几乎意味着你 </font>
+
+24
+00:00:55,860 --> 00:00:57,750
+定义<font color="#CCCCCC">一个函数或创建一个 </font>
+
+25
+00:00:57,750 --> 00:01:00,780
+ <font color="#E5E5E5">此后你必须给予功能 </font>
+
+26
+00:01:00,780 --> 00:01:02,100
+你的函数<font color="#CCCCCC">就像 </font><font color="#E5E5E5">一个名字</font>
+
+27
+00:01:02,100 --> 00:01:04,860
+ <font color="#E5E5E5">变量名称，您可以 </font><font color="#CCCCCC">命名它 </font>
+
+28
+00:01:04,860 --> 00:01:06,299
+ <font color="#E5E5E5">你 </font><font color="#CCCCCC">想要的任何东西</font><font color="#E5E5E5">我都会说它牛肉 </font>
+
+29
+00:01:06,299 --> 00:01:09,330
+因为<font color="#CCCCCC">为什么 </font><font color="#E5E5E5">赫克不 </font><font color="#CCCCCC">只是展示 </font>
+
+30
+00:01:09,330 --> 00:01:10,619
+你们<font color="#CCCCCC">这不是必须的 </font>
+
+31
+00:01:10,619 --> 00:01:14,240
+ <font color="#E5E5E5">名称添加后现在有什么特别之处</font>
+
+32
+00:01:14,240 --> 00:01:15,960
+ <font color="#CCCCCC">圆括号， </font><font color="#E5E5E5">我</font><font color="#CCCCCC">会</font><font color="#E5E5E5">告诉 你们 </font>
+
+33
+00:01:15,960 --> 00:01:18,570
+ <font color="#CCCCCC">关于 </font><font color="#E5E5E5">你可以用什么供以后 </font>
+
+34
+00:01:18,570 --> 00:01:20,939
+ <font color="#CCCCCC">上 </font><font color="#E5E5E5">但现在我们 </font><font color="#CCCCCC">只是把两个空 </font>
+
+35
+00:01:20,939 --> 00:01:23,640
+ <font color="#E5E5E5">括号和你的最后一件事 </font>
+
+36
+00:01:23,640 --> 00:01:28,080
+ <font color="#E5E5E5">在此之后，定义是一个冒号： </font>
+
+37
+00:01:28,080 --> 00:01:32,100
+ <font color="#CCCCCC">按下 </font><font color="#E5E5E5">回车键的任何一行代码 </font><font color="#CCCCCC">是去 </font>
+
+38
+00:01:32,100 --> 00:01:35,100
+在<font color="#E5E5E5">这里将成为你的一部分 </font>
+
+39
+00:01:35,100 --> 00:01:39,000
+ <font color="#E5E5E5">函数所以任何代码行 </font>
+
+40
+00:01:39,000 --> 00:01:41,310
+在<font color="#E5E5E5">您使用它时，在您的函数内部</font>
+
+41
+00:01:41,310 --> 00:01:44,130
+稍后<font color="#E5E5E5">就是执行的部分 </font>
+
+42
+00:01:44,130 --> 00:01:47,369
+所以<font color="#E5E5E5">我们会把它变得非常 </font><font color="#CCCCCC">简单 </font>
+
+43
+00:01:47,369 --> 00:01:50,220
+功能<font color="#E5E5E5">打印出来的东西，我们会 </font>
+
+44
+00:01:50,220 --> 00:01:53,810
+ <font color="#E5E5E5">只是写他们嗯 </font>
+
+45
+00:01:53,810 --> 00:01:59,009
+功能很酷， <font color="#E5E5E5">所以这是一个 </font>
+
+46
+00:01:59,009 --> 00:02:01,770
+这是相当无用的功能
+
+47
+00:02:01,770 --> 00:02:05,310
+只是一个<font color="#E5E5E5">叫做牛肉和唯一的功能 </font>
+
+48
+00:02:05,310 --> 00:02:07,259
+ <font color="#CCCCCC">它 </font><font color="#E5E5E5">的工作 </font><font color="#CCCCCC">是打印出来的东西 </font><font color="#E5E5E5">上 </font>
+
+49
+00:02:07,259 --> 00:02:11,599
+ <font color="#E5E5E5">屏幕，所以如果你现在运行它 </font>
+
+50
+00:02:11,599 --> 00:02:13,560
+ <font color="#E5E5E5">好吧没事 </font>
+
+51
+00:02:13,560 --> 00:02:16,020
+打印出来它<font color="#CCCCCC">的趣味性和 </font>
+
+52
+00:02:16,020 --> 00:02:18,830
+ <font color="#E5E5E5">即使我们这样做也是因为这个原因</font>
+
+53
+00:02:18,830 --> 00:02:21,840
+ <font color="#CCCCCC">做了一个功能， </font><font color="#E5E5E5">现在我们没有告诉 </font>
+
+54
+00:02:21,840 --> 00:02:24,120
+ <font color="#E5E5E5">Python嘿，我们实际上 </font><font color="#CCCCCC">想要 </font><font color="#E5E5E5">使用 </font><font color="#CCCCCC">它 </font>
+
+55
+00:02:24,120 --> 00:02:26,250
+ <font color="#CCCCCC">功能，所以 ， </font><font color="#E5E5E5">每当你</font><font color="#CCCCCC">想 </font>
+
+56
+00:02:26,250 --> 00:02:28,319
+ <font color="#E5E5E5">实际上使用您创建的功能 </font>
+
+57
+00:02:28,319 --> 00:02:31,019
+ <font color="#E5E5E5">你做的是你输入你的名字 </font>
+
+58
+00:02:31,019 --> 00:02:33,569
+ <font color="#CCCCCC">功能 </font><font color="#E5E5E5">然后那两个小 </font>
+
+59
+00:02:33,569 --> 00:02:37,470
+ <font color="#E5E5E5">现在，当它到达时，括号 </font>
+
+60
+00:02:37,470 --> 00:02:38,819
+这条线说<font color="#E5E5E5">好了 </font>
+
+61
+00:02:38,819 --> 00:02:40,980
+使用一个<font color="#CCCCCC">叫做牛肉的功能</font><font color="#E5E5E5">吧 </font>
+
+62
+00:02:40,980 --> 00:02:43,260
+寻找<font color="#CCCCCC">一种叫牛肉的功能 </font>
+
+63
+00:02:43,260 --> 00:02:45,120
+ <font color="#CCCCCC">是这样，它做 </font><font color="#E5E5E5">任何内在的事情 </font>
+
+64
+00:02:45,120 --> 00:02:50,220
+ <font color="#E5E5E5">它运行 </font><font color="#CCCCCC">它，检查 </font><font color="#E5E5E5">出来，像我一样 </font>
+
+65
+00:02:50,220 --> 00:02:51,630
+ <font color="#CCCCCC">之前说的很酷 </font>
+
+66
+00:02:51,630 --> 00:02:54,269
+这些是<font color="#E5E5E5">你 </font><font color="#CCCCCC">可以一遍又一遍地使用它们 </font>
+
+67
+00:02:54,269 --> 00:02:55,920
+ <font color="#CCCCCC">并且可以根据需要重复多次 </font>
+
+68
+00:02:55,920 --> 00:03:00,540
+ <font color="#E5E5E5">所以这将调用函数 </font><font color="#CCCCCC">和 </font>
+
+69
+00:03:00,540 --> 00:03:02,700
+无论什么时候<font color="#E5E5E5">我说 </font><font color="#CCCCCC">调用函数 </font><font color="#E5E5E5">都是 </font>
+
+70
+00:03:02,700 --> 00:03:05,190
+只是<font color="#E5E5E5">等待 </font><font color="#CCCCCC">使用 </font><font color="#E5E5E5">功能意味着只是一个 </font>
+
+71
+00:03:05,190 --> 00:03:07,769
+技术愚蠢的程序员谈话
+
+72
+00:03:07,769 --> 00:03:10,170
+函数意味着使用<font color="#E5E5E5">函数，所以我 </font>
+
+73
+00:03:10,170 --> 00:03:15,030
+叫<font color="#CCCCCC">牛肉 </font><font color="#E5E5E5">简单 </font><font color="#CCCCCC">三次 </font>
+
+74
+00:03:15,030 --> 00:03:18,420
+ <font color="#E5E5E5">所以 </font><font color="#CCCCCC">现在让我 </font><font color="#E5E5E5">告诉 </font><font color="#CCCCCC">你一个实际有用的 </font>
+
+75
+00:03:18,420 --> 00:03:20,070
+功能我也想<font color="#E5E5E5">谈谈 </font>
+
+76
+00:03:20,070 --> 00:03:23,549
+这些<font color="#E5E5E5">括号在这里是什么</font>
+
+77
+00:03:23,549 --> 00:03:25,560
+我们将<font color="#E5E5E5">在下面创建一个新功能 </font>
+
+78
+00:03:25,560 --> 00:03:29,400
+我自己<font color="#E5E5E5">有点空间 </font><font color="#CCCCCC">写一个新的 </font>
+
+79
+00:03:29,400 --> 00:03:32,190
+当然是<font color="#CCCCCC">我的功能， 我只是 </font>
+
+80
+00:03:32,190 --> 00:03:37,920
+写<font color="#CCCCCC">像 </font><font color="#E5E5E5">比特币 </font><font color="#CCCCCC">，以 </font><font color="#E5E5E5">美元因此这是什么 </font>
+
+81
+00:03:37,920 --> 00:03:39,390
+ <font color="#E5E5E5">函数 </font><font color="#CCCCCC">将做的是它 </font><font color="#E5E5E5">会 </font>
+
+82
+00:03:39,390 --> 00:03:41,819
+拿<font color="#E5E5E5">一个比特币金额并将其转换为 </font>
+
+83
+00:03:41,819 --> 00:03:44,760
+ <font color="#E5E5E5">美元， </font><font color="#CCCCCC">所以如果你 </font><font color="#E5E5E5">好奇的话 </font>
+
+84
+00:03:44,760 --> 00:03:48,090
+喜欢多少<font color="#E5E5E5">比特币手臂多少钱 </font>
+
+85
+00:03:48,090 --> 00:03:50,400
+一个值得这个功能的比特币可以做到
+
+86
+00:03:50,400 --> 00:03:55,350
+在这些括号内你也是这样
+
+87
+00:03:55,350 --> 00:03:57,930
+只要你的功能需要，就在这里
+
+88
+00:03:57,930 --> 00:04:01,530
+额外<font color="#CCCCCC">信息这就是它的发展方向 </font>
+
+89
+00:04:01,530 --> 00:04:04,410
+所以当然<font color="#E5E5E5">是为了计算或 </font>
+
+90
+00:04:04,410 --> 00:04:06,989
+将比特币兑换成<font color="#CCCCCC">它需要的 </font><font color="#E5E5E5">美元 </font>
+
+91
+00:04:06,989 --> 00:04:09,269
+ <font color="#CCCCCC">你想要 </font><font color="#E5E5E5">比特币的价值 </font>
+
+92
+00:04:09,269 --> 00:04:10,739
+转换一个比特币你想要吗？ 
+
+93
+00:04:10,739 --> 00:04:12,930
+转换<font color="#E5E5E5">10井它需要一些额外的 </font>
+
+94
+00:04:12,930 --> 00:04:15,359
+信息<font color="#E5E5E5">所以我们要扔掉它 </font>
+
+95
+00:04:15,359 --> 00:04:17,668
+作为变量<font color="#CCCCCC">而变量是 </font>
+
+96
+00:04:17,668 --> 00:04:21,899
+ <font color="#CCCCCC">将 </font><font color="#E5E5E5">被称为 </font><font color="#CCCCCC">BTC所以我们现在 </font>
+
+97
+00:04:21,899 --> 00:04:25,510
+ <font color="#E5E5E5">需要做的只是制定公式 </font>
+
+98
+00:04:25,510 --> 00:04:28,740
+所以我们将把<font color="#CCCCCC">答案存入金额 </font>
+
+99
+00:04:28,740 --> 00:04:31,660
+ <font color="#E5E5E5">我们会说金额或 </font><font color="#CCCCCC">美国 </font>
+
+100
+00:04:31,660 --> 00:04:33,700
+ <font color="#CCCCCC">然而， 它 </font><font color="#E5E5E5">等于美元金额</font>
+
+101
+00:04:33,700 --> 00:04:39,370
+ <font color="#E5E5E5">许多比特币 再次 </font><font color="#CCCCCC">乘以 </font><font color="#E5E5E5">527 </font>
+
+102
+00:04:39,370 --> 00:04:43,150
+一个<font color="#E5E5E5">比特币将527美元 </font><font color="#CCCCCC">所以 </font>
+
+103
+00:04:43,150 --> 00:04:47,560
+ <font color="#CCCCCC">上等等 </font><font color="#E5E5E5">，所以我想我们 </font><font color="#CCCCCC">只要 </font>
+
+104
+00:04:47,560 --> 00:04:53,410
+打印出来，这样再次打印量
+
+105
+00:04:53,410 --> 00:04:58,000
+为了<font color="#E5E5E5">使用这个 </font><font color="#CCCCCC">功能我们做什么 </font>
+
+106
+00:04:58,000 --> 00:05:00,580
+ <font color="#E5E5E5">实际上让我打电话给 </font><font color="#CCCCCC">p4所以我有 </font>
+
+107
+00:05:00,580 --> 00:05:02,260
+ <font color="#E5E5E5">当我发布我的源 </font><font color="#CCCCCC">代码 </font><font color="#E5E5E5">时的东西</font>
+
+108
+00:05:02,260 --> 00:05:05,590
+论坛所以这条线路<font color="#E5E5E5">要 </font><font color="#CCCCCC">打电话 </font>
+
+109
+00:05:05,590 --> 00:05:10,810
+这个功能<font color="#E5E5E5">现在可以这么说了 </font>
+
+110
+00:05:10,810 --> 00:05:13,600
+ <font color="#E5E5E5">我们</font><font color="#CCCCCC">要 转换像嗯 </font><font color="#E5E5E5">，我们要 </font>
+
+111
+00:05:13,600 --> 00:05:15,340
+看<font color="#E5E5E5">三点八 </font><font color="#CCCCCC">多少钱 </font>
+
+112
+00:05:15,340 --> 00:05:18,670
+ <font color="#E5E5E5">五个比特币让我跑这个和 </font>
+
+113
+00:05:18,670 --> 00:05:22,870
+看看这<font color="#E5E5E5">是结果 </font>
+
+114
+00:05:22,870 --> 00:05:27,970
+这就是这样<font color="#E5E5E5">的结果 </font>
+
+115
+00:05:27,970 --> 00:05:29,830
+基本上<font color="#CCCCCC">我们 </font><font color="#E5E5E5">所做的是我们 </font><font color="#CCCCCC">所谓 </font><font color="#E5E5E5">的 </font>
+
+116
+00:05:29,830 --> 00:05:33,430
+ <font color="#E5E5E5">功能，每当我们写 </font><font color="#CCCCCC">三个 </font>
+
+117
+00:05:33,430 --> 00:05:35,830
+ <font color="#CCCCCC">八点五点在这里 </font><font color="#E5E5E5">它非常 </font><font color="#CCCCCC">多 </font>
+
+118
+00:05:35,830 --> 00:05:38,950
+把这个值设置它<font color="#E5E5E5">等于 </font>
+
+119
+00:05:38,950 --> 00:05:41,800
+可变BTC和<font color="#CCCCCC">任何地方</font>
+
+120
+00:05:41,800 --> 00:05:47,200
+ <font color="#CCCCCC">BTC法BTC的功能是 </font>
+
+121
+00:05:47,200 --> 00:05:50,940
+实际上3.85 <font color="#E5E5E5">所以花了 </font><font color="#CCCCCC">3点8 5 </font>
+
+122
+00:05:50,940 --> 00:05:55,030
+ x 5 27 <font color="#E5E5E5">然后 </font><font color="#CCCCCC">给了我们金额 </font>
+
+123
+00:05:55,030 --> 00:05:57,340
+如果你<font color="#E5E5E5">想说好的 </font><font color="#CCCCCC">话它是什么 </font>
+
+124
+00:05:57,340 --> 00:06:01,390
+ <font color="#CCCCCC">只有 </font><font color="#E5E5E5">一个比特币 </font><font color="#CCCCCC">或它的用途 </font>
+
+125
+00:06:01,390 --> 00:06:05,920
+嗯我不知道<font color="#E5E5E5">13比特币如果 </font>
+
+126
+00:06:05,920 --> 00:06:10,060
+运行<font color="#E5E5E5">此你 </font><font color="#CCCCCC">可以看到一个</font><font color="#E5E5E5">比特</font><font color="#CCCCCC">币 </font>
+
+127
+00:06:10,060 --> 00:06:13,600
+等于500 $ 27 <font color="#CCCCCC">13比特币等于 </font>
+
+128
+00:06:13,600 --> 00:06:16,330
+ <font color="#E5E5E5">差不多 </font><font color="#CCCCCC">7,000美元， </font><font color="#E5E5E5">所以这真的很棒 </font>
+
+129
+00:06:16,330 --> 00:06:19,930
+ <font color="#CCCCCC">在存在 </font><font color="#E5E5E5">中采取一些 </font><font color="#CCCCCC">代码的方式 </font>
+
+130
+00:06:19,930 --> 00:06:24,400
+能够<font color="#CCCCCC">非常容易地重复使用它 </font>
+
+131
+00:06:24,400 --> 00:06:26,860
+ <font color="#CCCCCC">就是我 </font><font color="#E5E5E5">为 </font><font color="#CCCCCC">你们提供的所有功能 </font>
+
+132
+00:06:26,860 --> 00:06:28,420
+现在我们将<font color="#E5E5E5">要使用 </font>
+
+133
+00:06:28,420 --> 00:06:30,490
+他们很多<font color="#CCCCCC">，如果他们似乎令人困惑 </font>
+
+134
+00:06:30,490 --> 00:06:32,860
+ <font color="#CCCCCC">现在然后 </font><font color="#E5E5E5">不要担心 </font>
+
+135
+00:06:32,860 --> 00:06:35,080
+因为<font color="#E5E5E5">在我们再做几件之后你就是了 </font>
+
+136
+00:06:35,080 --> 00:06:37,660
+将成为<font color="#E5E5E5">制作它们的专家</font>
+
+137
+00:06:37,660 --> 00:06:39,400
+所以<font color="#CCCCCC">气匆匆的 </font><font color="#E5E5E5">事情没有 </font>
+
+138
+00:06:39,400 --> 00:00:00,000
+订阅<font color="#E5E5E5">我稍后会见到你 </font>
+

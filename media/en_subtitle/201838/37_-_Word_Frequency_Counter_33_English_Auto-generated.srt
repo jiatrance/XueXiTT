@@ -1,0 +1,402 @@
+1
+00:00:00,060 --> 00:00:04,710
+alright guys welcome back to the last
+tutorial in this little mini series and
+
+2
+00:00:04,710 --> 00:00:10,519
+of course right now what we did is we
+went to a web page we got all the words
+
+3
+00:00:10,519 --> 00:00:15,389
+we have them in the list of nice clean
+words without any stupid symbols so now
+
+4
+00:00:15,389 --> 00:00:20,220
+we just need to create a dictionary a
+dictionary of course consisting of each
+
+5
+00:00:20,220 --> 00:00:27,599
+word and how many times appeared in the
+webpage very simple stuff so I'm going
+
+6
+00:00:27,599 --> 00:00:32,369
+to make a function called great
+dictionary and of course we need to pass
+
+7
+00:00:32,369 --> 00:00:39,780
+it in our nice clean word list right
+there and now since we're actually
+
+8
+00:00:39,780 --> 00:00:42,329
+saying that we're going to create a
+function let's go ahead and create the
+
+9
+00:00:42,329 --> 00:00:51,930
+function so that's our function name
+Pesta than that looking good so the
+
+10
+00:00:51,930 --> 00:00:55,800
+first thing we need is to create a blank
+dictionary that's going to store all of
+
+11
+00:00:55,800 --> 00:01:02,010
+the words so I'm just going to name it
+word count and of course the create
+
+12
+00:01:02,010 --> 00:01:07,380
+blank dictionary just set equal to two
+little curly braces right there so now
+
+13
+00:01:07,380 --> 00:01:11,729
+what we want to do is we're essentially
+just going to loop through our list of
+
+14
+00:01:11,729 --> 00:01:20,640
+words so I'll just put on I'll just name
+it forward in clean word list and not
+
+15
+00:01:20,640 --> 00:01:27,479
+work or war or reset now for each word
+it's actually going to be really easy
+
+16
+00:01:27,479 --> 00:01:33,360
+what we want to do is we want to say
+okay if that word is already in the
+
+17
+00:01:33,360 --> 00:01:38,790
+dictionary then just add one to whatever
+the current count is if it's not in
+
+18
+00:01:38,790 --> 00:01:42,540
+there yet then create an entry for it
+and set it equal to one since it's the
+
+19
+00:01:42,540 --> 00:01:50,009
+first time coming across that word
+so we'll say if word in word count then
+
+20
+00:01:50,009 --> 00:01:53,460
+this means that it already came across
+that word before it's already in your
+
+21
+00:01:53,460 --> 00:01:56,759
+dictionary so all we need to do is take
+the word count
+
+22
+00:01:56,759 --> 00:02:05,040
+so in this dictionary whatever that word
+is add 1 to the value of it so if it
+
+23
+00:02:05,040 --> 00:02:09,959
+came across it nine times before it
+would add one to it of course I know
+
+24
+00:02:09,959 --> 00:02:14,969
+it's self-explanatory so else
+this is going to occur if it's the first
+
+25
+00:02:14,969 --> 00:02:21,389
+time coming across the word so I can
+actually copy this and if it's your
+
+26
+00:02:21,389 --> 00:02:26,400
+first time coming across the word then
+add that word to the dictionary and set
+
+27
+00:02:26,400 --> 00:02:29,909
+the value equal to one or the counter
+equal to one whatever you want to call
+
+28
+00:02:29,909 --> 00:02:37,950
+it so now with this loop we created a
+dictionary that stores each word in that
+
+29
+00:02:37,950 --> 00:02:44,219
+webpage and it also stores the frequency
+or amount of times that that word
+
+30
+00:02:44,219 --> 00:02:50,639
+occurred so that's all we have but right
+now our dictionary is just whatever
+
+31
+00:02:50,639 --> 00:02:55,379
+order it was processed and and it's
+unsorted of course what we want to do is
+we want to sort our dictionary based on
+
+32
+00:02:58,169 --> 00:03:01,949
+the frequency of the words that occurred
+so I don't want to go and scroll through
+
+33
+00:03:01,949 --> 00:03:05,219
+everything and try to look for the
+highest one I want a program to do that
+so how do we sort a dictionary by the
+
+34
+00:03:09,569 --> 00:03:14,370
+value well all we do is this for there's
+actually a bunch of different ways but
+
+35
+00:03:14,370 --> 00:03:19,709
+this is actually a really easy one so
+for key value because we're looping
+
+36
+00:03:19,709 --> 00:03:27,329
+through a dictionary and sorted now
+sorted basically takes the first
+
+37
+00:03:27,329 --> 00:03:30,629
+parameter is saying what do you want to
+sort well we just want to sort this
+dictionary word count and we want to go
+
+38
+00:03:35,069 --> 00:03:42,060
+through each items and this is pretty
+much saying arm I don't know it's just
+
+39
+00:03:42,060 --> 00:03:46,859
+saying you need to give it a bunch of
+items to sort now each dictionary item
+
+40
+00:03:46,859 --> 00:03:52,079
+is made up of a key and a value the key
+is the word like we learned and the
+
+41
+00:03:52,079 --> 00:03:56,040
+value is the frequency so it would be
+like - not 18 Bucky
+4 so what we want to do is if we just
+
+42
+00:03:59,069 --> 00:04:02,729
+sort it by the key it's going to sort an
+alphabetic order if we sort it by the
+
+43
+00:04:02,729 --> 00:04:09,229
+value it's going to sort in numerical
+order so this is kind of confusing um a
+
+44
+00:04:09,229 --> 00:04:14,430
+parameter of sorted because it uses key
+what it's not talking about the
+
+45
+00:04:14,430 --> 00:04:18,959
+dictionary key whenever we pass it in
+the parameter and sorted function is
+
+46
+00:04:18,959 --> 00:04:26,010
+saying the key is basically tell me what
+you want to sort by so we want to sort
+
+47
+00:04:26,010 --> 00:04:31,880
+by operator
+item getter one so what's this mean well
+
+48
+00:04:31,880 --> 00:04:38,420
+like I said what operator does is it's
+basically something that we import it
+
+49
+00:04:38,420 --> 00:04:41,780
+and they just allows you to work with
+the built-in data types in Python so
+it's not really important it's nothing
+
+50
+00:04:43,730 --> 00:04:49,160
+that we have to memorize now what item
+getter is is it basically says okay I'm
+
+51
+00:04:49,160 --> 00:04:53,240
+going to go to your dictionary and I'm
+going to get an item from your
+
+52
+00:04:53,240 --> 00:04:59,660
+dictionary to survive now your
+dictionary each entry only has two
+
+53
+00:04:59,660 --> 00:05:05,390
+specific items it's composed of a key
+and a value so if we wrote 0 it would
+sort by key we want to sort by the value
+
+54
+00:05:07,760 --> 00:05:12,800
+so we're going to pass it in 1
+simple enough so now all we have to do
+
+55
+00:05:12,800 --> 00:05:17,630
+is now that we got a nice sorted
+dictionary we just need to print it out
+
+56
+00:05:17,630 --> 00:05:25,700
+so key and value and this is going to
+print out a nice hopefully sorted
+
+57
+00:05:25,700 --> 00:05:30,530
+dictionary so check that out
+so actually you see how this is sorted
+
+58
+00:05:30,530 --> 00:05:36,890
+by value now so the word a occurred 34
+times the word I don't know about
+
+59
+00:05:36,890 --> 00:05:42,740
+occurred 6 I show you guys what I was
+talking about with this if we sort it by
+
+60
+00:05:42,740 --> 00:05:52,690
+the 0 with item in other words the key
+of course that's when it sorts by
+
+61
+00:05:52,690 --> 00:05:57,590
+alphabetical order and we don't want
+that we want to sort by the value or the
+
+62
+00:05:57,590 --> 00:06:02,980
+amount of times the word occurred so
+that's what we get so in this webpage
+
+63
+00:06:02,980 --> 00:06:08,990
+the most frequently occurring word was a
+and if we scroll down all the unique
+
+64
+00:06:08,990 --> 00:06:16,430
+words or this feature through great
+Hungary clearly inch encourage all that
+
+65
+00:06:16,430 --> 00:06:22,130
+stuff so that ladies and gentlemen is
+how you make a word counter or a
+
+66
+00:06:22,130 --> 00:06:26,330
+frequency counter and Python and again
+you can use this for a bunch of stuff
+
+67
+00:06:26,330 --> 00:06:31,610
+search engines use this to find out what
+content is your website related to if
+
+68
+00:06:31,610 --> 00:06:35,900
+you ever make an ad network then you
+would look at this it says and say okay
+so this website must be related
+
+69
+00:06:37,940 --> 00:06:41,030
+tutorials in bacon which pretty much
+that's all my web
+
+70
+00:06:41,030 --> 00:06:46,460
+it is so it would put ads about
+tutorials and bacon on there and well if
+
+71
+00:06:46,460 --> 00:06:50,930
+you ever were just interested in maybe
+your own blog saying okay what words do
+
+72
+00:06:50,930 --> 00:06:55,100
+I use more than I should
+okay I should probably start stop typing
+
+73
+00:06:55,100 --> 00:06:59,780
+a every other sentence you know you can
+do something like that so hopefully it
+helped you out and also as always if you
+
+74
+00:07:02,540 --> 00:07:07,000
+want any of the source code from this
+tutorial then just go to my forum and
+
+75
+00:07:07,000 --> 00:07:14,510
+I'm going to be posting it all in the
+Python section right here so uh well
+
+76
+00:07:14,510 --> 00:07:18,860
+that's it and also if you have any tips
+for improvements or if you want to offer
+
+77
+00:07:18,860 --> 00:07:22,640
+any suggestions on how this can be
+better maybe taking out some common
+
+78
+00:07:22,640 --> 00:07:26,960
+words then join the discussion we would
+love to have you but for now thank you
+
+79
+00:07:26,960 --> 00:07:31,360
+guys for watching don't forget to
+subscribe I'll see you next time

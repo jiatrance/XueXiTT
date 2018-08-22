@@ -1,0 +1,896 @@
+1
+00:00:00,089 --> 00:00:02,040
+ <font color="#CCCCCC">好的家伙 </font><font color="#E5E5E5">欢迎回到这个视频 </font>
+
+2
+00:00:02,040 --> 00:00:04,200
+ <font color="#E5E5E5">我要和你谈谈两个关键 </font>
+
+3
+00:00:04,200 --> 00:00:04,710
+ <font color="#E5E5E5">话 </font>
+
+4
+00:00:04,710 --> 00:00:08,730
+第一个是休息，第二个是休息
+
+5
+00:00:08,730 --> 00:00:12,090
+一个是<font color="#E5E5E5">继续，这些实际上是 </font>
+
+6
+00:00:12,090 --> 00:00:13,469
+ <font color="#E5E5E5">我们可以提供一些很酷的 </font><font color="#CCCCCC">关键词 </font>
+
+7
+00:00:13,469 --> 00:00:16,560
+在<font color="#CCCCCC">循环内部使 </font><font color="#E5E5E5">循环做一些 </font>
+
+8
+00:00:16,560 --> 00:00:19,740
+很酷的事情， <font color="#CCCCCC">所以 </font><font color="#E5E5E5">我们 </font><font color="#CCCCCC">这个例子 </font>
+
+9
+00:00:19,740 --> 00:00:21,570
+ <font color="#CCCCCC">将 </font><font color="#E5E5E5">要建立一个非常基本的游戏 </font>
+
+10
+00:00:21,570 --> 00:00:25,800
+幻<font color="#E5E5E5">数，并设置数量</font><font color="#CCCCCC">相等 </font>
+
+11
+00:00:25,800 --> 00:00:27,930
+从<font color="#CCCCCC">0到 </font><font color="#E5E5E5">100我将 </font><font color="#CCCCCC">要 </font><font color="#E5E5E5">设置的任何东西</font>
+
+12
+00:00:27,930 --> 00:00:30,840
+矿山等于26所以我们<font color="#CCCCCC">说 ， </font>
+
+13
+00:00:30,840 --> 00:00:33,180
+ <font color="#E5E5E5">电脑给了我们这个神奇的数字 </font><font color="#CCCCCC">，我们 </font>
+
+14
+00:00:33,180 --> 00:00:35,040
+不知道是什么<font color="#E5E5E5">让我们只是 </font>
+
+15
+00:00:35,040 --> 00:00:36,660
+假装<font color="#E5E5E5">我们不能 </font><font color="#CCCCCC">明显地看到这一点 </font>
+
+16
+00:00:36,660 --> 00:00:38,879
+ <font color="#CCCCCC">它现在已经26了，但我们会说出来 </font>
+
+17
+00:00:38,879 --> 00:00:41,100
+给了我们<font color="#E5E5E5">一个号码，我们必须建立一个 </font>
+
+18
+00:00:41,100 --> 00:00:43,739
+循环遍历<font color="#E5E5E5">数字100次 </font>
+
+19
+00:00:43,739 --> 00:00:46,590
+看看我们的数字是否<font color="#E5E5E5">等于神奇 </font>
+
+20
+00:00:46,590 --> 00:00:48,239
+数字<font color="#CCCCCC">几乎 </font><font color="#E5E5E5">找到了神奇的数字 </font>
+
+21
+00:00:48,239 --> 00:00:51,930
+ <font color="#E5E5E5">所以我们决定先建立一个循环 </font>
+
+22
+00:00:51,930 --> 00:00:54,149
+我们将分别制作<font color="#CCCCCC">一个循环树 </font>
+
+23
+00:00:54,149 --> 00:00:58,920
+ number <font color="#CCCCCC">是n </font><font color="#E5E5E5">，因为我们正在循环 </font>
+
+24
+00:00:58,920 --> 00:01:01,559
+通过<font color="#E5E5E5">我们 </font><font color="#CCCCCC">想要停止的 100个数字</font>
+
+25
+00:01:01,559 --> 00:01:05,670
+ 101 <font color="#E5E5E5">这将给 </font><font color="#CCCCCC">我们0到100所以 </font>
+
+26
+00:01:05,670 --> 00:01:07,200
+我们几乎要<font color="#E5E5E5">循环 </font><font color="#CCCCCC">了 </font>
+
+27
+00:01:07,200 --> 00:01:10,470
+这个<font color="#E5E5E5">和n将来自 </font>
+
+28
+00:01:10,470 --> 00:01:13,920
+ 0到100现在我们想测试<font color="#E5E5E5">是否n </font>
+
+29
+00:01:13,920 --> 00:01:17,970
+是一个<font color="#CCCCCC">神奇的数字所以我们做一个if </font>
+
+30
+00:01:17,970 --> 00:01:22,250
+ <font color="#E5E5E5">循环内的语句，如果n是 </font>
+
+31
+00:01:22,250 --> 00:01:26,729
+神奇的数字<font color="#CCCCCC">那么 </font><font color="#E5E5E5">这意味着我们 </font>
+
+32
+00:01:26,729 --> 00:01:29,189
+ <font color="#CCCCCC">发现了 </font><font color="#E5E5E5">神奇的数字所以我们做了什么 </font>
+
+33
+00:01:29,189 --> 00:01:30,990
+ <font color="#CCCCCC">每当 </font><font color="#E5E5E5">我们真正找到的 </font><font color="#CCCCCC">时候 </font><font color="#E5E5E5">都 </font><font color="#CCCCCC">想做 </font>
+
+34
+00:01:30,990 --> 00:01:33,110
+魔术数字我们可以<font color="#CCCCCC">打印 </font><font color="#E5E5E5">出来 </font>
+
+35
+00:01:33,110 --> 00:01:36,720
+打印<font color="#E5E5E5">，我想告诉你们 </font>
+
+36
+00:01:36,720 --> 00:01:38,909
+一些真正的快速， <font color="#E5E5E5">所以这不是 </font>
+
+37
+00:01:38,909 --> 00:01:43,320
+混淆你，不介意<font color="#E5E5E5">我是什么 </font>
+
+38
+00:01:43,320 --> 00:01:44,880
+ <font color="#E5E5E5">现在就用这些小报价做</font>
+
+39
+00:01:44,880 --> 00:01:50,229
+基本上<font color="#CCCCCC">我会 </font><font color="#E5E5E5">告诉你们 没事 </font>
+
+40
+00:01:50,229 --> 00:01:54,430
+所以，让<font color="#E5E5E5">我告诉你 </font>
+
+41
+00:01:54,430 --> 00:01:56,289
+ <font color="#E5E5E5">哦，对，我一直想着 </font><font color="#CCCCCC">更多 </font>
+
+42
+00:01:56,289 --> 00:01:58,810
+除了<font color="#E5E5E5">现在告诉你</font>
+
+43
+00:01:58,810 --> 00:02:01,000
+你的电脑<font color="#CCCCCC">每一次都会读 </font>
+
+44
+00:02:01,000 --> 00:02:03,880
+ <font color="#E5E5E5">每一行代码单行 </font>
+
+45
+00:02:03,880 --> 00:02:05,530
+ <font color="#CCCCCC">它会 </font><font color="#E5E5E5">执行它 </font>
+
+46
+00:02:05,530 --> 00:02:06,850
+ <font color="#E5E5E5">就在这里，它将设置一个变量 </font>
+
+47
+00:02:06,850 --> 00:02:08,949
+ <font color="#E5E5E5">等于 </font><font color="#CCCCCC">某个数字等等 </font>
+
+48
+00:02:08,949 --> 00:02:11,709
+ <font color="#E5E5E5">但有时候你会想要的 </font>
+
+49
+00:02:11,709 --> 00:02:13,900
+在你的<font color="#E5E5E5">代码中添加小注释</font>
+
+50
+00:02:13,900 --> 00:02:17,019
+ <font color="#E5E5E5">这些只是开发人员的注意事项 </font>
+
+51
+00:02:17,019 --> 00:02:19,840
+人们<font color="#E5E5E5">就像你知道的那样读 </font>
+
+52
+00:02:19,840 --> 00:02:21,340
+ <font color="#CCCCCC">你想要电脑的小笔记</font>
+
+53
+00:02:21,340 --> 00:02:23,799
+ <font color="#CCCCCC">忽略而不是 </font><font color="#E5E5E5">执行，但你需要 </font>
+
+54
+00:02:23,799 --> 00:02:26,440
+拥有<font color="#CCCCCC">其他开发人员和 </font>
+
+55
+00:02:26,440 --> 00:02:28,360
+ <font color="#E5E5E5">您 </font><font color="#CCCCCC">的同事可以理解您的代码 </font>
+
+56
+00:02:28,360 --> 00:02:30,849
+ <font color="#E5E5E5">现在每当被称为评论 </font>
+
+57
+00:02:30,849 --> 00:02:32,819
+ <font color="#E5E5E5">你在 </font><font color="#CCCCCC">一行 </font><font color="#E5E5E5">上发表评论 嗯 </font>
+
+58
+00:02:32,819 --> 00:02:38,290
+你可以<font color="#CCCCCC">写放大器 </font><font color="#E5E5E5">或标签了 </font>
+
+59
+00:02:38,290 --> 00:02:40,660
+ <font color="#E5E5E5">三个以上的东西，写任何 </font>
+
+60
+00:02:40,660 --> 00:02:43,440
+ <font color="#E5E5E5">评论你 </font><font color="#CCCCCC">想要好像 </font><font color="#E5E5E5">这个程序 </font>
+
+61
+00:02:43,440 --> 00:02:47,470
+ <font color="#E5E5E5">现在我们可以找到一个神奇的数字</font>
+
+62
+00:02:47,470 --> 00:02:49,510
+执行这个<font color="#E5E5E5">程序，你永远不会 </font>
+
+63
+00:02:49,510 --> 00:02:52,150
+无论什么时候<font color="#E5E5E5">我们做什么就读</font>
+
+64
+00:02:52,150 --> 00:02:53,500
+对于这个评论<font color="#E5E5E5">它几乎要发生 </font>
+
+65
+00:02:53,500 --> 00:02:55,989
+ <font color="#E5E5E5">跳过它再这是一种方式 </font>
+
+66
+00:02:55,989 --> 00:02:59,680
+ <font color="#E5E5E5">为那些人添加一行代码 </font>
+
+67
+00:02:59,680 --> 00:03:03,150
+你的电脑现在跳过这个
+
+68
+00:03:03,150 --> 00:03:05,829
+ <font color="#E5E5E5">这里的＃标签或数字符号是 </font>
+
+69
+00:03:05,829 --> 00:03:08,920
+ <font color="#E5E5E5">现在只想一行，我想告诉你 </font>
+
+70
+00:03:08,920 --> 00:03:12,700
+ <font color="#CCCCCC">另外一个例子，所以我想要 </font><font color="#E5E5E5">的 </font>
+
+71
+00:03:12,700 --> 00:03:14,470
+我想<font color="#CCCCCC">忽略所有 </font><font color="#E5E5E5">这些 </font>
+
+72
+00:03:14,470 --> 00:03:16,660
+ <font color="#E5E5E5">所以 </font><font color="#CCCCCC">我能做的就是我可以添加一个 </font>
+
+73
+00:03:16,660 --> 00:03:18,959
+ <font color="#E5E5E5">每个开头的＃标签 </font>
+
+74
+00:03:18,959 --> 00:03:21,639
+但<font color="#E5E5E5">每当我们有一堆线 </font>
+
+75
+00:03:21,639 --> 00:03:24,220
+代码它可以<font color="#CCCCCC">让人 </font><font color="#E5E5E5">感到困惑，如果 </font>
+
+76
+00:03:24,220 --> 00:03:27,880
+你想<font color="#E5E5E5">添加一个多行评论 </font>
+
+77
+00:03:27,880 --> 00:03:30,790
+它的三个小单引号
+
+78
+00:03:30,790 --> 00:03:34,000
+开始<font color="#CCCCCC">和三个 </font><font color="#E5E5E5">小单引号 </font>
+
+79
+00:03:34,000 --> 00:03:38,560
+它<font color="#E5E5E5">再次结束，这 </font><font color="#CCCCCC">只是 </font>
+
+80
+00:03:38,560 --> 00:03:41,799
+因为我写了<font color="#E5E5E5">一段代码而我 </font>
+
+81
+00:03:41,799 --> 00:03:43,450
+哦，是的，我得<font color="#E5E5E5">教 </font><font color="#CCCCCC">你一些东西 </font>
+
+82
+00:03:43,450 --> 00:03:43,750
+其他
+
+83
+00:03:43,750 --> 00:03:46,180
+所以我不想<font color="#E5E5E5">因此现在还没有这个运行</font>
+
+84
+00:03:46,180 --> 00:03:48,760
+每当我运行这个我们的<font color="#E5E5E5">电脑 </font>
+
+85
+00:03:48,760 --> 00:03:50,829
+ <font color="#CCCCCC">它基本上 </font><font color="#E5E5E5">只是运行这一行 </font>
+
+86
+00:03:50,829 --> 00:03:53,049
+并<font color="#E5E5E5">再次忽略其他一切 </font>
+
+87
+00:03:53,049 --> 00:03:55,389
+这是<font color="#E5E5E5">你的小迷你教程 </font>
+
+88
+00:03:55,389 --> 00:03:57,790
+ <font color="#E5E5E5">现在评论这是我想要的东西 </font>
+
+89
+00:03:57,790 --> 00:04:00,250
+ <font color="#E5E5E5">教你如何告诉你 </font>
+
+90
+00:04:00,250 --> 00:04:01,360
+那些<font color="#E5E5E5">你 </font><font color="#CCCCCC">可以添加的人 </font>
+
+91
+00:04:01,360 --> 00:04:04,980
+像<font color="#E5E5E5">5 </font><font color="#CCCCCC">加 </font><font color="#E5E5E5">4一样的数字</font>
+
+92
+00:04:04,980 --> 00:04:07,569
+打印<font color="#E5E5E5">出答案，你也可以 </font>
+
+93
+00:04:07,569 --> 00:04:12,930
+加上像Bucky <font color="#CCCCCC">+这样的字符串</font>
+
+94
+00:04:13,530 --> 00:04:16,298
+罗伯茨<font color="#E5E5E5">和你加在一起的时候 </font>
+
+95
+00:04:16,298 --> 00:04:17,079
+字符串
+
+96
+00:04:17,079 --> 00:04:19,180
+它被称为连接字符串
+
+97
+00:04:19,180 --> 00:04:22,240
+非常嗯需要两个字符串和
+
+98
+00:04:22,240 --> 00:04:23,080
+把它们放在一起
+
+99
+00:04:23,080 --> 00:04:26,650
+ <font color="#CCCCCC">那么如果你 </font><font color="#E5E5E5">想做点什么呢？ </font>
+
+100
+00:04:26,650 --> 00:04:27,610
+像<font color="#E5E5E5">这样 </font>
+
+101
+00:04:27,610 --> 00:04:32,680
+巴基<font color="#CCCCCC">再加上 </font><font color="#E5E5E5">由于某种原因，你</font><font color="#CCCCCC">想 </font>
+
+102
+00:04:32,680 --> 00:04:35,440
+写Bucky <font color="#CCCCCC">9 </font><font color="#E5E5E5">而不是Bucky Roberts </font>
+
+103
+00:04:35,440 --> 00:04:38,139
+ <font color="#E5E5E5">好吧，每当我们尝试运行此检查 </font>
+
+104
+00:04:38,139 --> 00:04:39,220
+ <font color="#CCCCCC">我们要去 </font><font color="#E5E5E5">的 </font><font color="#CCCCCC">将会发生 </font><font color="#E5E5E5">什么 </font>
+
+105
+00:04:39,220 --> 00:04:40,870
+ <font color="#E5E5E5">得到一个错误， </font><font color="#CCCCCC">那是因为它 </font>
+
+106
+00:04:40,870 --> 00:04:42,759
+ <font color="#E5E5E5">每当 </font><font color="#CCCCCC">我将字符串加在一起 </font><font color="#E5E5E5">时说</font><font color="#CCCCCC">好的 </font>
+
+107
+00:04:42,759 --> 00:04:44,349
+ <font color="#E5E5E5">把它们放在一个大的地方 </font>
+
+108
+00:04:44,349 --> 00:04:46,180
+ <font color="#CCCCCC">每当 </font><font color="#E5E5E5">我将数字加在一起 </font><font color="#CCCCCC">时的字符</font>
+
+109
+00:04:46,180 --> 00:04:48,639
+只是使用数学，但你正在尝试<font color="#E5E5E5">添加一个 </font>
+
+110
+00:04:48,639 --> 00:04:52,360
+一个数字的字符串，所以什么的
+
+111
+00:04:52,360 --> 00:04:53,919
+而且<font color="#E5E5E5">我应该 </font><font color="#CCCCCC">对 </font><font color="#E5E5E5">你有所帮助 </font>
+
+112
+00:04:53,919 --> 00:04:55,870
+困惑我<font color="#E5E5E5">，这就是为什么它给了我们 </font>
+
+113
+00:04:55,870 --> 00:04:58,690
+错误<font color="#E5E5E5">所以现在我想告诉你们 </font>
+
+114
+00:04:58,690 --> 00:05:01,930
+ <font color="#E5E5E5">每当 </font><font color="#CCCCCC">我们想要 </font><font color="#E5E5E5">打印 时别的东西 </font>
+
+115
+00:05:01,930 --> 00:05:04,720
+ <font color="#CCCCCC">一个数字 </font><font color="#E5E5E5">以及 </font><font color="#CCCCCC">一个字符串 </font><font color="#E5E5E5">我们 </font>
+
+116
+00:05:04,720 --> 00:05:07,870
+需要做的就是<font color="#E5E5E5">我们需要分开 </font>
+
+117
+00:05:07,870 --> 00:05:10,210
+ <font color="#E5E5E5">他们用逗号 </font><font color="#CCCCCC">而不是加 </font><font color="#E5E5E5">号 </font>
+
+118
+00:05:10,210 --> 00:05:14,110
+ <font color="#E5E5E5">所以 </font><font color="#CCCCCC">加上 </font><font color="#E5E5E5">只是添加两件事 </font>
+
+119
+00:05:14,110 --> 00:05:16,150
+ <font color="#CCCCCC">相同的数据类型 </font><font color="#E5E5E5">一起 </font><font color="#CCCCCC">，如果我们曾经 </font>
+
+120
+00:05:16,150 --> 00:05:19,630
+想要写<font color="#CCCCCC">九个Bucky或者别的什么 </font>
+
+121
+00:05:19,630 --> 00:05:22,210
+就像<font color="#E5E5E5">那样 </font><font color="#CCCCCC">只打印九 </font>
+
+122
+00:05:22,210 --> 00:05:24,310
+像一个<font color="#E5E5E5">数字，然后打印Bucky </font>
+
+123
+00:05:24,310 --> 00:05:28,090
+现在每当你<font color="#E5E5E5">运行它时作为一个字符串</font>
+
+124
+00:05:28,090 --> 00:05:30,669
+打印<font color="#E5E5E5">九个Bucky，这就是我们打印的方式 </font>
+
+125
+00:05:30,669 --> 00:05:34,560
+输出<font color="#E5E5E5">与字符串在同一行的数字</font>
+
+126
+00:05:34,560 --> 00:05:37,690
+ <font color="#E5E5E5">很简单 </font><font color="#CCCCCC">所以我为什么要告诉你 </font>
+
+127
+00:05:37,690 --> 00:05:37,930
+那
+
+128
+00:05:37,930 --> 00:05:39,490
+很好，因为我<font color="#E5E5E5">正要</font><font color="#CCCCCC">打印出 </font>
+
+129
+00:05:39,490 --> 00:05:41,199
+ <font color="#E5E5E5">同一行上的数字是一个字符串 </font>
+
+130
+00:05:41,199 --> 00:05:46,900
+显然所以<font color="#CCCCCC">我想 </font><font color="#E5E5E5">再做一次 </font>
+
+131
+00:05:46,900 --> 00:05:50,199
+ <font color="#CCCCCC">我们必须记住我们有 </font><font color="#E5E5E5">一种魔力 </font>
+
+132
+00:05:50,199 --> 00:05:51,880
+ <font color="#CCCCCC">号，并通过循环所有 </font><font color="#E5E5E5">的 </font>
+
+133
+00:05:51,880 --> 00:05:54,880
+ <font color="#E5E5E5">数字 </font><font color="#CCCCCC">0到100，直到我们终于命中 </font>
+
+134
+00:05:54,880 --> 00:05:57,130
+ <font color="#E5E5E5">这个神奇的数字 </font><font color="#CCCCCC">一旦我们终于来了 </font>
+
+135
+00:05:57,130 --> 00:06:00,150
+发现它<font color="#E5E5E5">打印n是一个数字 </font>
+
+136
+00:06:00,150 --> 00:06:02,680
+ <font color="#E5E5E5">记住 </font><font color="#CCCCCC">它是一个变量， </font><font color="#E5E5E5">但它仍然存在 </font>
+
+137
+00:06:02,680 --> 00:06:04,449
+一个数字<font color="#E5E5E5">，然后我们将打印出来 </font>
+
+138
+00:06:04,449 --> 00:06:09,270
+ <font color="#E5E5E5">类似的东西是神奇的数字 </font>
+
+139
+00:06:10,050 --> 00:06:14,650
+ <font color="#E5E5E5">现在我们可以做的就是我们 </font>
+
+140
+00:06:14,650 --> 00:06:16,350
+ <font color="#E5E5E5">现在可以</font><font color="#CCCCCC">直接解决 </font><font color="#E5E5E5">这个问题 </font>
+
+141
+00:06:16,350 --> 00:06:19,360
+ <font color="#E5E5E5">眨眼间它做了什么呢 </font>
+
+142
+00:06:19,360 --> 00:06:22,270
+ <font color="#CCCCCC">循环通过0 1 </font><font color="#E5E5E5">3 </font><font color="#CCCCCC">3 4 </font><font color="#E5E5E5">5 6 7直到它 </font>
+
+143
+00:06:22,270 --> 00:06:25,570
+ <font color="#CCCCCC">到了26岁 </font><font color="#E5E5E5">，一旦到了26岁 </font>
+
+144
+00:06:25,570 --> 00:06:29,800
+如果26是<font color="#E5E5E5">幻 </font><font color="#CCCCCC">数，则打印出来 </font>
+
+145
+00:06:29,800 --> 00:06:31,810
+ 26 <font color="#E5E5E5">是 </font><font color="#CCCCCC">神奇的数字 </font>
+
+146
+00:06:31,810 --> 00:06:34,420
+所以现在我想做的<font color="#E5E5E5">就是我想要的 </font>
+
+147
+00:06:34,420 --> 00:06:36,040
+告诉你们<font color="#E5E5E5">关于休息声明的人 </font>
+
+148
+00:06:36,040 --> 00:06:37,660
+而我实际上要完成<font color="#E5E5E5">写作 </font>
+
+149
+00:06:37,660 --> 00:06:41,950
+ <font color="#CCCCCC">我的代码，然后我会跟</font><font color="#E5E5E5">你们 </font><font color="#CCCCCC">到 </font>
+
+150
+00:06:41,950 --> 00:06:47,380
+真正的最后一次<font color="#CCCCCC">可以和你一样 </font>
+
+151
+00:06:47,380 --> 00:06:49,810
+ <font color="#CCCCCC">可以 </font><font color="#E5E5E5">看到真正 </font><font color="#CCCCCC">快速我做的是我补充说 </font>
+
+152
+00:06:49,810 --> 00:06:52,840
+还有几<font color="#CCCCCC">行 </font><font color="#E5E5E5">到代码和 </font>
+
+153
+00:06:52,840 --> 00:06:55,240
+第一种是，以<font color="#E5E5E5">显示 </font><font color="#CCCCCC">砖 </font>
+
+154
+00:06:55,240 --> 00:06:57,700
+ <font color="#E5E5E5">现在声明什么是break语句 </font>
+
+155
+00:06:57,700 --> 00:07:00,880
+ <font color="#E5E5E5">或 </font><font color="#CCCCCC">关键字确实是几乎 </font><font color="#E5E5E5">打破 </font>
+
+156
+00:07:00,880 --> 00:07:04,240
+出来或停止<font color="#E5E5E5">你的循环现在为什么我 </font>
+
+157
+00:07:04,240 --> 00:07:06,550
+ <font color="#CCCCCC">这里 有 </font><font color="#E5E5E5">这个权利 以及每当我们 </font>
+
+158
+00:07:06,550 --> 00:07:09,070
+ <font color="#E5E5E5">找到26的幻数 </font>
+
+159
+00:07:09,070 --> 00:07:11,890
+ <font color="#CCCCCC">有 </font><font color="#E5E5E5">没有必要继续循环 </font>
+
+160
+00:07:11,890 --> 00:07:13,750
+通过<font color="#E5E5E5">我们所知道的所有其他数字 </font>
+
+161
+00:07:13,750 --> 00:07:17,410
+它不是27 28 29中的<font color="#E5E5E5">任何一个原因 </font>
+
+162
+00:07:17,410 --> 00:07:19,990
+浪费我们计算机的内存<font color="#E5E5E5">循环 </font>
+
+163
+00:07:19,990 --> 00:07:22,060
+通过数字，这无关紧要
+
+164
+00:07:22,060 --> 00:07:24,430
+ <font color="#CCCCCC">所以 </font><font color="#E5E5E5">每当你找到 </font><font color="#CCCCCC">它 </font><font color="#E5E5E5">时 </font><font color="#CCCCCC">它就说 </font><font color="#E5E5E5">好了 </font>
+
+165
+00:07:24,430 --> 00:07:26,320
+魔术数字<font color="#E5E5E5">在这里打印出来</font>
+
+166
+00:07:26,320 --> 00:07:29,950
+ <font color="#CCCCCC">然后打破这意味着什么 </font>
+
+167
+00:07:29,950 --> 00:07:32,590
+停止循环，你可以<font color="#E5E5E5">记住它 </font>
+
+168
+00:07:32,590 --> 00:07:34,320
+ <font color="#E5E5E5">因为它意味着突破循环 </font>
+
+169
+00:07:34,320 --> 00:07:37,720
+ <font color="#E5E5E5">现在这行代码就 </font><font color="#CCCCCC">在这里 </font>
+
+170
+00:07:37,720 --> 00:07:40,560
+ <font color="#CCCCCC">它 </font><font color="#E5E5E5">实际上打破了这样的显示器</font>
+
+171
+00:07:40,560 --> 00:07:43,390
+ <font color="#E5E5E5">除了 </font><font color="#CCCCCC">魔法 </font><font color="#E5E5E5">之外的其他所有数字</font>
+
+172
+00:07:43,390 --> 00:07:46,030
+数<font color="#CCCCCC">如0 1 2 3 </font><font color="#E5E5E5">这将 </font>
+
+173
+00:07:46,030 --> 00:07:49,750
+ <font color="#E5E5E5">无论如何打印</font><font color="#CCCCCC">出来 </font><font color="#E5E5E5">然后再打印</font><font color="#CCCCCC">出来 </font>
+
+174
+00:07:49,750 --> 00:07:51,640
+发现它<font color="#E5E5E5">爆发并停止 </font>
+
+175
+00:07:51,640 --> 00:07:53,440
+印刷所以你们要去<font color="#E5E5E5">看看 </font>
+
+176
+00:07:53,440 --> 00:07:57,040
+ <font color="#CCCCCC">它又 </font><font color="#E5E5E5">发生了 </font><font color="#CCCCCC">什么呢？ </font>
+
+177
+00:07:57,040 --> 00:08:00,910
+ <font color="#CCCCCC">只需打印每一个 </font><font color="#E5E5E5">号码 </font>
+
+178
+00:08:00,910 --> 00:08:02,650
+在这里， <font color="#E5E5E5">因为它测试适合魔术 </font>
+
+179
+00:08:02,650 --> 00:08:04,630
+ <font color="#E5E5E5">好吧不是这样，我只打印 </font>
+
+180
+00:08:04,630 --> 00:08:07,150
+ <font color="#CCCCCC">无论如何 </font><font color="#E5E5E5">， </font><font color="#CCCCCC">这个数字 </font><font color="#E5E5E5">就完成了 </font>
+
+181
+00:08:07,150 --> 00:08:10,630
+ <font color="#E5E5E5">直到现在26岁到26岁的方式 </font>
+
+182
+00:08:10,630 --> 00:08:13,300
+ <font color="#E5E5E5">并确实等于 </font><font color="#CCCCCC">幻数， </font><font color="#E5E5E5">所以打印 </font>
+
+183
+00:08:13,300 --> 00:08:16,450
+ <font color="#E5E5E5">n是一个神奇的数字 </font><font color="#CCCCCC">，然后打破 </font><font color="#E5E5E5">这样 </font>
+
+184
+00:08:16,450 --> 00:08:18,880
+这就是为什么它不<font color="#CCCCCC">打印 </font><font color="#E5E5E5">27 28 29 </font>
+
+185
+00:08:18,880 --> 00:08:21,940
+ <font color="#CCCCCC">因为我们所做的是我们爆发了 </font>
+
+186
+00:08:21,940 --> 00:08:23,150
+ <font color="#CCCCCC">循环的 </font><font color="#E5E5E5">这 </font>
+
+187
+00:08:23,150 --> 00:08:25,340
+很多意味着<font color="#E5E5E5">你说可以阻止 </font>
+
+188
+00:08:25,340 --> 00:08:27,920
+循环现在<font color="#E5E5E5">不需要浪费你的记忆或 </font>
+
+189
+00:08:27,920 --> 00:08:30,530
+你的<font color="#CCCCCC">资源 我们的 </font><font color="#E5E5E5">其他任何东西 </font>
+
+190
+00:08:30,530 --> 00:08:33,860
+ <font color="#E5E5E5">已经找到答案了，我知道了 </font>
+
+191
+00:08:33,860 --> 00:08:36,830
+ <font color="#E5E5E5">这是一个教程有点长 </font>
+
+192
+00:08:36,830 --> 00:08:39,409
+比预期的， <font color="#CCCCCC">但现在我们知道了 </font>
+
+193
+00:08:39,409 --> 00:08:42,350
+评论<font color="#E5E5E5">现在我们知道如何使用 </font>
+
+194
+00:08:42,350 --> 00:08:44,210
+打破<font color="#CCCCCC">声明 </font><font color="#E5E5E5">，我们甚至学会了如何 </font>
+
+195
+00:08:44,210 --> 00:08:50,060
+ <font color="#E5E5E5">如何 </font><font color="#CCCCCC">在循环 </font><font color="#E5E5E5">内 </font><font color="#CCCCCC">添加决策 </font>
+
+196
+00:08:50,060 --> 00:08:51,440
+很酷
+
+197
+00:08:51,440 --> 00:08:53,420
+ <font color="#E5E5E5">所以在眨眼间 </font><font color="#CCCCCC">你的电脑 </font>
+
+198
+00:08:53,420 --> 00:08:56,240
+可以做出8,000多个决定
+
+199
+00:08:56,240 --> 00:08:58,070
+ <font color="#E5E5E5">比你知道的 </font><font color="#CCCCCC">要 </font><font color="#E5E5E5">快得多 </font>
+
+200
+00:08:58,070 --> 00:09:00,920
+ <font color="#CCCCCC">所以我希望你喜欢我希望 </font><font color="#E5E5E5">你 </font>
+
+201
+00:09:00,920 --> 00:09:02,570
+ <font color="#CCCCCC">至少学到了一些 </font><font color="#E5E5E5">东西 </font>
+
+202
+00:09:02,570 --> 00:09:04,190
+ <font color="#E5E5E5">谢谢观看别忘了 </font>
+
+203
+00:09:04,190 --> 00:09:07,310
+订阅<font color="#E5E5E5">，实际上我也不是 </font>
+
+204
+00:09:07,310 --> 00:09:09,410
+ <font color="#E5E5E5">打算让你去做功课 </font>
+
+205
+00:09:09,410 --> 00:09:11,750
+ <font color="#E5E5E5">任务 </font><font color="#CCCCCC">或你的挑战我会打电话 </font>
+
+206
+00:09:11,750 --> 00:09:15,350
+这就是让程序循环
+
+207
+00:09:15,350 --> 00:09:18,650
+ <font color="#E5E5E5">通过数字1到100并打印 </font>
+
+208
+00:09:18,650 --> 00:09:20,920
+输出任意<font color="#E5E5E5">数字 </font><font color="#CCCCCC">为4的倍数 </font>
+
+209
+00:09:20,920 --> 00:09:25,730
+ <font color="#E5E5E5">所以对于12 16等等， </font><font color="#CCCCCC">但是做到了 </font>
+
+210
+00:09:25,730 --> 00:09:28,700
+它以编程方式<font color="#CCCCCC">现在我会给 </font><font color="#E5E5E5">你 </font>
+
+211
+00:09:28,700 --> 00:09:30,710
+ <font color="#E5E5E5">如果你 </font><font color="#CCCCCC">采取 </font><font color="#E5E5E5">一个很好的小关键词 </font>
+
+212
+00:09:30,710 --> 00:09:34,490
+一个数字除以<font color="#CCCCCC">4，你是什么 </font>
+
+213
+00:09:34,490 --> 00:09:37,490
+已经离开了0又记得<font color="#E5E5E5">了 </font>
+
+214
+00:09:37,490 --> 00:09:39,740
+模数的标志是余数<font color="#CCCCCC">，以便 </font>
+
+215
+00:09:39,740 --> 00:09:41,960
+ <font color="#CCCCCC">每当你运行这个小声明 </font>
+
+216
+00:09:41,960 --> 00:09:45,080
+就<font color="#E5E5E5">在这里你划分的数字 </font>
+
+217
+00:09:45,080 --> 00:09:48,670
+按<font color="#E5E5E5">4，余数为0 </font>
+
+218
+00:09:48,670 --> 00:09:53,090
+ <font color="#E5E5E5">可被4整除的 </font><font color="#CCCCCC">数字 </font>
+
+219
+00:09:53,090 --> 00:09:56,180
+ <font color="#CCCCCC">如果有人能做到这一点我就足够了</font>
+
+220
+00:09:56,180 --> 00:09:59,090
+将<font color="#CCCCCC">是令人难以置信的印象，但 </font><font color="#E5E5E5">现在 </font>
+
+221
+00:09:59,090 --> 00:10:01,160
+这是<font color="#E5E5E5">你的家庭作业和一次 </font>
+
+222
+00:10:01,160 --> 00:10:02,930
+它完整​​的帖子<font color="#CCCCCC">在我的论坛和 </font>
+
+223
+00:10:02,930 --> 00:10:04,670
+那么你<font color="#CCCCCC">准备好进入 </font><font color="#E5E5E5">到 </font><font color="#CCCCCC">下一个 </font>
+
+224
+00:10:04,670 --> 00:00:00,000
+视频， <font color="#CCCCCC">所以我会 </font><font color="#E5E5E5">在那里 </font><font color="#CCCCCC">见到 </font><font color="#E5E5E5">你 </font>
+

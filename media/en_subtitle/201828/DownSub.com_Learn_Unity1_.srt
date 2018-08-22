@@ -1,0 +1,2412 @@
+1
+00:00:05,210 --> 00:00:07,470
+hey guys welcome<font color="#E5E5E5"> to our very first</font>
+
+2
+00:00:07,470 --> 00:00:09,780
+course we<font color="#CCCCCC"> have here on</font><font color="#E5E5E5"> the n3k channel</font>
+
+3
+00:00:09,780 --> 00:00:11,940
+it is going to be a course about unity
+
+4
+00:00:11,940 --> 00:00:13,500
+<font color="#E5E5E5">so everything you need to know about the</font>
+
+5
+00:00:13,500 --> 00:00:15,180
+engine is<font color="#E5E5E5"> going to be covered we're also</font>
+
+6
+00:00:15,180 --> 00:00:17,400
+going<font color="#E5E5E5"> to do an introduction to coding so</font>
+
+7
+00:00:17,400 --> 00:00:18,810
+if you don't know how to code just<font color="#E5E5E5"> yet</font>
+
+8
+00:00:18,810 --> 00:00:21,960
+<font color="#E5E5E5">this is a very good place to</font><font color="#CCCCCC"> start so at</font>
+
+9
+00:00:21,960 --> 00:00:23,550
+the very<font color="#E5E5E5"> beginning we're going</font><font color="#CCCCCC"> to create</font>
+
+10
+00:00:23,550 --> 00:00:25,650
+a project<font color="#E5E5E5"> explore all the windows you</font>
+
+11
+00:00:25,650 --> 00:00:28,140
+<font color="#E5E5E5">have in unity and then move on to coding</font>
+
+12
+00:00:28,140 --> 00:00:30,090
+a little bit we're also going to have a
+
+13
+00:00:30,090 --> 00:00:32,159
+good look<font color="#E5E5E5"> at the Unity engine namespace</font>
+
+14
+00:00:32,159 --> 00:00:33,570
+which<font color="#CCCCCC"> means that we're going</font><font color="#E5E5E5"> to be</font>
+
+15
+00:00:33,570 --> 00:00:35,280
+<font color="#E5E5E5">looking at function that unity gives us</font>
+
+16
+00:00:35,280 --> 00:00:37,110
+and we're going to<font color="#E5E5E5"> be</font><font color="#CCCCCC"> able to just make</font>
+
+17
+00:00:37,110 --> 00:00:39,150
+our lives so much<font color="#E5E5E5"> easier with those and</font>
+
+18
+00:00:39,150 --> 00:00:41,370
+<font color="#E5E5E5">also if you're new to coding I still</font>
+
+19
+00:00:41,370 --> 00:00:42,690
+suggest that you stick<font color="#CCCCCC"> around because</font>
+
+20
+00:00:42,690 --> 00:00:43,890
+<font color="#E5E5E5">while you're going to</font><font color="#CCCCCC"> be learning the</font>
+
+21
+00:00:43,890 --> 00:00:46,320
+<font color="#E5E5E5">Unity engine but also that is how I</font>
+
+22
+00:00:46,320 --> 00:00:48,570
+learned just<font color="#CCCCCC"> by looking</font><font color="#E5E5E5"> at somebody else</font>
+
+23
+00:00:48,570 --> 00:00:51,420
+doing<font color="#E5E5E5"> it copying it on my side and just</font>
+
+24
+00:00:51,420 --> 00:00:53,460
+eventually<font color="#E5E5E5"> just picking up the patterns</font>
+
+25
+00:00:53,460 --> 00:00:55,019
+that<font color="#E5E5E5"> is how I learned and I just</font>
+
+26
+00:00:55,019 --> 00:00:57,000
+recommend that<font color="#E5E5E5"> if you're new at</font><font color="#CCCCCC"> least</font>
+
+27
+00:00:57,000 --> 00:00:58,979
+try that because<font color="#CCCCCC"> that might quite help</font>
+
+28
+00:00:58,979 --> 00:01:01,799
+<font color="#E5E5E5">who knows on top of that so on top of</font>
+
+29
+00:01:01,799 --> 00:01:03,360
+learning the<font color="#E5E5E5"> unity engine and also</font>
+
+30
+00:01:03,360 --> 00:01:05,069
+<font color="#E5E5E5">learning some function in the</font><font color="#CCCCCC"> namespace</font>
+
+31
+00:01:05,069 --> 00:01:06,840
+we're going to be<font color="#CCCCCC"> building</font><font color="#E5E5E5"> a game so if</font>
+
+32
+00:01:06,840 --> 00:01:08,700
+you never really<font color="#CCCCCC"> build a game</font><font color="#E5E5E5"> this is</font>
+
+33
+00:01:08,700 --> 00:01:10,320
+also<font color="#E5E5E5"> going to be a very good</font><font color="#CCCCCC"> experience</font>
+
+34
+00:01:10,320 --> 00:01:11,759
+for you<font color="#E5E5E5"> the game we're</font><font color="#CCCCCC"> going to be</font>
+
+35
+00:01:11,759 --> 00:01:14,340
+<font color="#CCCCCC">building is a simple snake game</font><font color="#E5E5E5"> the</font>
+
+36
+00:01:14,340 --> 00:01:16,049
+reason I<font color="#E5E5E5"> chose a snake game is because</font>
+
+37
+00:01:16,049 --> 00:01:17,850
+I'm able<font color="#E5E5E5"> to cover a lot</font><font color="#CCCCCC"> of coding</font>
+
+38
+00:01:17,850 --> 00:01:20,009
+techniques in that symbol game<font color="#E5E5E5"> so we're</font>
+
+39
+00:01:20,009 --> 00:01:20,640
+going to<font color="#E5E5E5"> be talking about</font>
+
+40
+00:01:20,640 --> 00:01:22,439
+<font color="#E5E5E5">multi-dimensional arrays we're going to</font>
+
+41
+00:01:22,439 --> 00:01:23,939
+be talking<font color="#CCCCCC"> about getting inputs from</font><font color="#E5E5E5"> the</font>
+
+42
+00:01:23,939 --> 00:01:26,189
+keyboard<font color="#CCCCCC"> talking</font><font color="#E5E5E5"> about moving objects</font>
+
+43
+00:01:26,189 --> 00:01:28,799
+all very simple topics but this is
+
+44
+00:01:28,799 --> 00:01:30,509
+pretty much<font color="#E5E5E5"> something that</font><font color="#CCCCCC"> is at the</font>
+
+45
+00:01:30,509 --> 00:01:32,880
+base of<font color="#E5E5E5"> a lot of games</font><font color="#CCCCCC"> so we're gonna</font><font color="#E5E5E5"> be</font>
+
+46
+00:01:32,880 --> 00:01:34,649
+<font color="#E5E5E5">covering those topics and without</font>
+
+47
+00:01:34,649 --> 00:01:36,270
+further<font color="#E5E5E5"> ado let's actually just jump</font>
+
+48
+00:01:36,270 --> 00:01:38,310
+right<font color="#E5E5E5"> into it</font><font color="#CCCCCC"> so when you're</font><font color="#E5E5E5"> going to be</font>
+
+49
+00:01:38,310 --> 00:01:40,590
+<font color="#E5E5E5">opening up unity for the very first time</font>
+
+50
+00:01:40,590 --> 00:01:42,329
+this is<font color="#CCCCCC"> a kind of window</font><font color="#E5E5E5"> you're gonna be</font>
+
+51
+00:01:42,329 --> 00:01:44,820
+<font color="#E5E5E5">having so basically it asks you to</font>
+
+52
+00:01:44,820 --> 00:01:46,469
+create<font color="#E5E5E5"> a project</font><font color="#CCCCCC"> which is what we're</font>
+
+53
+00:01:46,469 --> 00:01:48,149
+<font color="#E5E5E5">going to be doing right now so the</font>
+
+54
+00:01:48,149 --> 00:01:51,509
+project name<font color="#CCCCCC"> undermine snag tutorial or</font>
+
+55
+00:01:51,509 --> 00:01:53,729
+unity course<font color="#CCCCCC"> you</font><font color="#E5E5E5"> can name this pretty</font>
+
+56
+00:01:53,729 --> 00:01:55,530
+much anything you<font color="#CCCCCC"> want now you're also</font>
+
+57
+00:01:55,530 --> 00:01:57,749
+going<font color="#CCCCCC"> to have a location</font><font color="#E5E5E5"> down here this</font>
+
+58
+00:01:57,749 --> 00:02:00,329
+is<font color="#E5E5E5"> where your folder your asset for your</font>
+
+59
+00:02:00,329 --> 00:02:02,700
+project folder<font color="#E5E5E5"> is going to be put so</font>
+
+60
+00:02:02,700 --> 00:02:04,679
+<font color="#E5E5E5">mine has</font><font color="#CCCCCC"> its own</font><font color="#E5E5E5"> location here I'm fine</font>
+
+61
+00:02:04,679 --> 00:02:06,539
+with that<font color="#CCCCCC"> I'm also going to be putting</font>
+
+62
+00:02:06,539 --> 00:02:10,258
+this on 3d by default to put yours in<font color="#E5E5E5"> 2d</font>
+
+63
+00:02:10,258 --> 00:02:12,210
+the<font color="#E5E5E5"> only real difference is</font><font color="#CCCCCC"> that when</font>
+
+64
+00:02:12,210 --> 00:02:15,060
+you boot<font color="#E5E5E5"> the engine a lot</font><font color="#CCCCCC"> of settings</font>
+
+65
+00:02:15,060 --> 00:02:16,590
+<font color="#CCCCCC">are going to</font><font color="#E5E5E5"> be set for you to work in</font>
+
+66
+00:02:16,590 --> 00:02:18,569
+2d<font color="#E5E5E5"> now those are real</font>
+
+67
+00:02:18,569 --> 00:02:20,219
+easy to just reverse once we're inside
+
+68
+00:02:20,219 --> 00:02:22,859
+and I'm used<font color="#E5E5E5"> actually working in 3d</font>
+
+69
+00:02:22,859 --> 00:02:24,540
+since unity is actually it's just<font color="#CCCCCC"> it's a</font>
+
+70
+00:02:24,540 --> 00:02:26,129
+3d engine that's why it's called unity
+
+71
+00:02:26,129 --> 00:02:29,129
+3d<font color="#E5E5E5"> I'm just more used to using it in 3d</font>
+
+72
+00:02:29,129 --> 00:02:31,230
+<font color="#CCCCCC">even though we're going</font><font color="#E5E5E5"> to be making a</font>
+
+73
+00:02:31,230 --> 00:02:33,930
+<font color="#E5E5E5">2-d game here so going to be leaving</font>
+
+74
+00:02:33,930 --> 00:02:36,780
+that on<font color="#E5E5E5"> 3d create my</font><font color="#CCCCCC"> project</font><font color="#E5E5E5"> and we're</font>
+
+75
+00:02:36,780 --> 00:02:38,340
+going<font color="#E5E5E5"> to be looking at the interface</font>
+
+76
+00:02:38,340 --> 00:02:41,819
+<font color="#E5E5E5">you're going to get now this is not</font>
+
+77
+00:02:41,819 --> 00:02:44,040
+exactly<font color="#CCCCCC"> how yours should look at the</font>
+
+78
+00:02:44,040 --> 00:02:46,200
+moment and I<font color="#E5E5E5"> will introduce</font><font color="#CCCCCC"> you</font><font color="#E5E5E5"> the very</font>
+
+79
+00:02:46,200 --> 00:02:48,510
+<font color="#CCCCCC">first thing we'll be looking</font><font color="#E5E5E5"> at at the</font>
+
+80
+00:02:48,510 --> 00:02:50,730
+<font color="#CCCCCC">very top</font><font color="#E5E5E5"> right here there</font><font color="#CCCCCC"> is a</font><font color="#E5E5E5"> little</font>
+
+81
+00:02:50,730 --> 00:02:52,889
+layout<font color="#E5E5E5"> button here little layout</font>
+
+82
+00:02:52,889 --> 00:02:55,530
+<font color="#E5E5E5">drop-down menu now this is really</font>
+
+83
+00:02:55,530 --> 00:02:57,150
+depending on<font color="#E5E5E5"> which one you</font><font color="#CCCCCC"> like the most</font>
+
+84
+00:02:57,150 --> 00:02:59,280
+<font color="#E5E5E5">in the end if you</font><font color="#CCCCCC"> want to</font><font color="#E5E5E5"> follow this</font>
+
+85
+00:02:59,280 --> 00:03:02,639
+tutorial<font color="#E5E5E5"> at its full potential</font><font color="#CCCCCC"> and you</font>
+
+86
+00:03:02,639 --> 00:03:04,590
+know just have the windows where I put
+
+87
+00:03:04,590 --> 00:03:06,659
+<font color="#CCCCCC">my windows</font><font color="#E5E5E5"> make sure you put yours on</font>
+
+88
+00:03:06,659 --> 00:03:09,150
+tall<font color="#E5E5E5"> this is what is going</font><font color="#CCCCCC"> to</font><font color="#E5E5E5"> end up</font>
+
+89
+00:03:09,150 --> 00:03:10,560
+<font color="#CCCCCC">looking like and then we're</font><font color="#E5E5E5"> going to be</font>
+
+90
+00:03:10,560 --> 00:03:12,510
+moving<font color="#E5E5E5"> some windows</font><font color="#CCCCCC"> around</font><font color="#E5E5E5"> so we can</font>
+
+91
+00:03:12,510 --> 00:03:14,519
+<font color="#E5E5E5">have the same exact layout as I have now</font>
+
+92
+00:03:14,519 --> 00:03:15,840
+if you<font color="#CCCCCC"> already</font><font color="#E5E5E5"> work with</font><font color="#CCCCCC"> unity before</font>
+
+93
+00:03:15,840 --> 00:03:17,519
+<font color="#E5E5E5">you pretty much already have your layout</font>
+
+94
+00:03:17,519 --> 00:03:19,500
+so just suggest you stick with<font color="#CCCCCC"> that</font><font color="#E5E5E5"> just</font>
+
+95
+00:03:19,500 --> 00:03:20,699
+stick<font color="#E5E5E5"> with something that you're</font><font color="#CCCCCC"> really</font>
+
+96
+00:03:20,699 --> 00:03:24,269
+<font color="#E5E5E5">comfortable using so mine is</font><font color="#CCCCCC"> something</font>
+
+97
+00:03:24,269 --> 00:03:25,470
+<font color="#E5E5E5">like this I'm going to be playing with</font>
+
+98
+00:03:25,470 --> 00:03:27,449
+the windows a little<font color="#E5E5E5"> bit my inspector</font>
+
+99
+00:03:27,449 --> 00:03:28,229
+<font color="#CCCCCC">read the video right</font>
+
+100
+00:03:28,229 --> 00:03:30,030
+<font color="#E5E5E5">just going to</font><font color="#CCCCCC"> make sure that</font><font color="#E5E5E5"> it's all</font>
+
+101
+00:03:30,030 --> 00:03:34,290
+<font color="#E5E5E5">the way here now the</font><font color="#CCCCCC"> R key</font><font color="#E5E5E5"> and the</font>
+
+102
+00:03:34,290 --> 00:03:36,209
+project window<font color="#CCCCCC"> same thing</font><font color="#E5E5E5"> just going to</font>
+
+103
+00:03:36,209 --> 00:03:39,120
+push them on the<font color="#CCCCCC"> right-hand side</font><font color="#E5E5E5"> the</font>
+
+104
+00:03:39,120 --> 00:03:40,769
+next<font color="#CCCCCC"> thing I tend</font><font color="#E5E5E5"> to do is I take my</font>
+
+105
+00:03:40,769 --> 00:03:42,120
+<font color="#CCCCCC">project folder over</font><font color="#E5E5E5"> here</font><font color="#CCCCCC"> I'll</font>
+
+106
+00:03:42,120 --> 00:03:44,220
+<font color="#CCCCCC">right-click on it and I put that in a</font>
+
+107
+00:03:44,220 --> 00:03:46,199
+<font color="#E5E5E5">one column layout that is how you unity</font>
+
+108
+00:03:46,199 --> 00:03:47,849
+<font color="#CCCCCC">actually use</font><font color="#E5E5E5"> the display things before</font>
+
+109
+00:03:47,849 --> 00:03:50,370
+<font color="#E5E5E5">then they came out with the two column</font>
+
+110
+00:03:50,370 --> 00:03:52,470
+layout which I<font color="#CCCCCC"> don't really</font><font color="#E5E5E5"> like it just</font>
+
+111
+00:03:52,470 --> 00:03:54,419
+<font color="#E5E5E5">gives you</font><font color="#CCCCCC"> a nice little search here</font>
+
+112
+00:03:54,419 --> 00:03:56,040
+where you can just search for models
+
+113
+00:03:56,040 --> 00:03:58,739
+prefab or scripts<font color="#E5E5E5"> we'll see more about</font>
+
+114
+00:03:58,739 --> 00:04:00,389
+this a little<font color="#E5E5E5"> bit</font><font color="#CCCCCC"> later on but right now</font>
+
+115
+00:04:00,389 --> 00:04:02,159
+I just make sure<font color="#CCCCCC"> to</font><font color="#E5E5E5"> leave</font><font color="#CCCCCC"> it on one</font>
+
+116
+00:04:02,159 --> 00:04:05,069
+<font color="#CCCCCC">column layout</font><font color="#E5E5E5"> now when I actually do</font><font color="#CCCCCC"> my</font>
+
+117
+00:04:05,069 --> 00:04:07,199
+out<font color="#E5E5E5"> I just use one more window on top of</font>
+
+118
+00:04:07,199 --> 00:04:08,430
+that so I'm<font color="#E5E5E5"> just going</font><font color="#CCCCCC"> to select it</font>
+
+119
+00:04:08,430 --> 00:04:10,199
+really quickly<font color="#E5E5E5"> we're going to go to the</font>
+
+120
+00:04:10,199 --> 00:04:13,069
+very top<font color="#E5E5E5"> here find our console window</font>
+
+121
+00:04:13,069 --> 00:04:15,840
+<font color="#E5E5E5">right here</font><font color="#CCCCCC"> and I'm going</font><font color="#E5E5E5"> to be grabbing</font>
+
+122
+00:04:15,840 --> 00:04:18,630
+<font color="#CCCCCC">this by the little tab you see here</font>
+
+123
+00:04:18,630 --> 00:04:20,789
+<font color="#CCCCCC">you'll be grabbing</font><font color="#E5E5E5"> this like this click</font>
+
+124
+00:04:20,789 --> 00:04:22,979
+and old<font color="#E5E5E5"> and then you get to dock it</font>
+
+125
+00:04:22,979 --> 00:04:24,719
+pretty<font color="#E5E5E5"> much anywhere you want so</font><font color="#CCCCCC"> this is</font>
+
+126
+00:04:24,719 --> 00:04:27,000
+just<font color="#E5E5E5"> like in normal dockable window</font><font color="#CCCCCC"> I</font>
+
+127
+00:04:27,000 --> 00:04:29,370
+like to dock mine at the very<font color="#E5E5E5"> bottom</font>
+
+128
+00:04:29,370 --> 00:04:31,650
+here<font color="#E5E5E5"> the reason</font><font color="#CCCCCC"> I like this</font><font color="#E5E5E5"> layout so</font>
+
+129
+00:04:31,650 --> 00:04:32,100
+much
+
+130
+00:04:32,100 --> 00:04:34,590
+because I have a lot<font color="#CCCCCC"> of</font><font color="#E5E5E5"> space to</font><font color="#CCCCCC"> work in</font>
+
+131
+00:04:34,590 --> 00:04:37,260
+3d here<font color="#E5E5E5"> let's actually talk about this</font>
+
+132
+00:04:37,260 --> 00:04:39,300
+first window here<font color="#CCCCCC"> the scene window</font><font color="#E5E5E5"> as</font>
+
+133
+00:04:39,300 --> 00:04:41,040
+you can tell this one is split<font color="#E5E5E5"> in two</font>
+
+134
+00:04:41,040 --> 00:04:43,020
+there is<font color="#CCCCCC"> a game window and also the</font>
+
+135
+00:04:43,020 --> 00:04:45,570
+scene<font color="#E5E5E5"> now the scene window is when you</font>
+
+136
+00:04:45,570 --> 00:04:47,100
+do<font color="#CCCCCC"> your editing</font><font color="#E5E5E5"> that's when you're</font>
+
+137
+00:04:47,100 --> 00:04:48,720
+placing objects in the scene that's<font color="#CCCCCC"> when</font>
+
+138
+00:04:48,720 --> 00:04:50,820
+you're<font color="#E5E5E5"> just rotating stuff around and</font>
+
+139
+00:04:50,820 --> 00:04:51,870
+<font color="#E5E5E5">we're going to be talking</font><font color="#CCCCCC"> about that</font><font color="#E5E5E5"> in</font>
+
+140
+00:04:51,870 --> 00:04:54,690
+<font color="#CCCCCC">a second</font><font color="#E5E5E5"> the game window is what happens</font>
+
+141
+00:04:54,690 --> 00:04:56,160
+when<font color="#CCCCCC"> you're playing so at this point</font>
+
+142
+00:04:56,160 --> 00:04:58,320
+<font color="#E5E5E5">notice that I can't really move around</font>
+
+143
+00:04:58,320 --> 00:05:00,660
+<font color="#E5E5E5">the same exact way as I</font><font color="#CCCCCC"> did in the scene</font>
+
+144
+00:05:00,660 --> 00:05:03,600
+window<font color="#E5E5E5"> that is because when I'm in my</font>
+
+145
+00:05:03,600 --> 00:05:06,600
+game view<font color="#CCCCCC"> I'm using the game camera and</font>
+
+146
+00:05:06,600 --> 00:05:09,000
+what I actually see in the<font color="#E5E5E5"> game depends</font>
+
+147
+00:05:09,000 --> 00:05:10,980
+on<font color="#E5E5E5"> what I told my camera to see</font><font color="#CCCCCC"> at so</font>
+
+148
+00:05:10,980 --> 00:05:13,230
+<font color="#E5E5E5">right now</font><font color="#CCCCCC"> I'm just</font><font color="#E5E5E5"> going to drop an</font>
+
+149
+00:05:13,230 --> 00:05:19,620
+object really<font color="#E5E5E5"> quickly</font><font color="#CCCCCC"> a cube and as you</font>
+
+150
+00:05:19,620 --> 00:05:21,420
+can<font color="#E5E5E5"> tell</font><font color="#CCCCCC"> my camera is pointing towards</font>
+
+151
+00:05:21,420 --> 00:05:23,640
+<font color="#E5E5E5">that cube</font><font color="#CCCCCC"> if we go see in a</font><font color="#E5E5E5"> game window</font>
+
+152
+00:05:23,640 --> 00:05:27,510
+<font color="#E5E5E5">that is what we see so that's really the</font>
+
+153
+00:05:27,510 --> 00:05:29,160
+<font color="#E5E5E5">big</font><font color="#CCCCCC"> difference you're not</font><font color="#E5E5E5"> able to move</font>
+
+154
+00:05:29,160 --> 00:05:30,690
+in the game window unless<font color="#E5E5E5"> you</font><font color="#CCCCCC"> have some</font>
+
+155
+00:05:30,690 --> 00:05:32,700
+game logic going on which we're<font color="#E5E5E5"> gonna</font>
+
+156
+00:05:32,700 --> 00:05:35,610
+have again a little<font color="#CCCCCC"> bit</font><font color="#E5E5E5"> later</font><font color="#CCCCCC"> on</font><font color="#E5E5E5"> right</font>
+
+157
+00:05:35,610 --> 00:05:37,560
+<font color="#E5E5E5">so let's talk</font><font color="#CCCCCC"> about</font><font color="#E5E5E5"> actually navigating</font>
+
+158
+00:05:37,560 --> 00:05:40,350
+<font color="#E5E5E5">through this 3d environment now if</font>
+
+159
+00:05:40,350 --> 00:05:42,120
+you're familiar with<font color="#E5E5E5"> the doom control a</font>
+
+160
+00:05:42,120 --> 00:05:44,670
+really old game<font color="#E5E5E5"> you can actually use</font>
+
+161
+00:05:44,670 --> 00:05:47,160
+<font color="#E5E5E5">those control let me just explain really</font>
+
+162
+00:05:47,160 --> 00:05:49,320
+<font color="#E5E5E5">quickly</font><font color="#CCCCCC"> I have my mouse</font><font color="#E5E5E5"> right here and I</font>
+
+163
+00:05:49,320 --> 00:05:51,810
+hold my right click when I hold my<font color="#E5E5E5"> right</font>
+
+164
+00:05:51,810 --> 00:05:54,600
+click I'm able to<font color="#CCCCCC"> just rotate around</font><font color="#E5E5E5"> so</font>
+
+165
+00:05:54,600 --> 00:05:57,720
+have a<font color="#E5E5E5"> look around myself</font><font color="#CCCCCC"> now</font><font color="#E5E5E5"> using my</font>
+
+166
+00:05:57,720 --> 00:06:00,480
+<font color="#E5E5E5">utter and I'll go on the WASD key and</font>
+
+167
+00:06:00,480 --> 00:06:02,970
+I'll be able<font color="#CCCCCC"> to move just</font><font color="#E5E5E5"> like in a</font>
+
+168
+00:06:02,970 --> 00:06:06,210
+flying FPS I guess I'm not<font color="#CCCCCC"> sure if that</font>
+
+169
+00:06:06,210 --> 00:06:10,110
+<font color="#E5E5E5">does exist</font><font color="#CCCCCC"> but</font><font color="#E5E5E5"> we're</font><font color="#CCCCCC"> able</font><font color="#E5E5E5"> to move and a</font>
+
+170
+00:06:10,110 --> 00:06:12,270
+fly like this<font color="#E5E5E5"> you're also able to move</font>
+
+171
+00:06:12,270 --> 00:06:14,010
+around<font color="#CCCCCC"> using your</font><font color="#E5E5E5"> middle</font><font color="#CCCCCC"> mouse so if you</font>
+
+172
+00:06:14,010 --> 00:06:15,720
+just click<font color="#E5E5E5"> and all the new your middle</font>
+
+173
+00:06:15,720 --> 00:06:17,400
+<font color="#CCCCCC">Mouse as you can see I'm just</font><font color="#E5E5E5"> dragging</font>
+
+174
+00:06:17,400 --> 00:06:19,680
+this<font color="#CCCCCC"> around</font><font color="#E5E5E5"> now</font><font color="#CCCCCC"> you also have</font><font color="#E5E5E5"> a zoom out</font>
+
+175
+00:06:19,680 --> 00:06:24,480
+and zoom in with your mouse<font color="#E5E5E5"> again so you</font>
+
+176
+00:06:24,480 --> 00:06:27,030
+can<font color="#CCCCCC"> just practice navigating around here</font>
+
+177
+00:06:27,030 --> 00:06:28,740
+a little<font color="#CCCCCC"> bit you're going to be</font><font color="#E5E5E5"> using</font>
+
+178
+00:06:28,740 --> 00:06:31,020
+<font color="#E5E5E5">this window quite a lot and it's quite</font>
+
+179
+00:06:31,020 --> 00:06:32,460
+fun when you're building<font color="#E5E5E5"> your level when</font>
+
+180
+00:06:32,460 --> 00:06:34,110
+you<font color="#CCCCCC"> have some real assets going</font><font color="#E5E5E5"> on so</font>
+
+181
+00:06:34,110 --> 00:06:36,770
+<font color="#E5E5E5">maybe like a little threes little</font><font color="#CCCCCC"> hill</font>
+
+182
+00:06:36,770 --> 00:06:39,300
+<font color="#CCCCCC">boxes you can just place</font><font color="#E5E5E5"> them around</font>
+
+183
+00:06:39,300 --> 00:06:40,710
+<font color="#CCCCCC">super fast if you're used to</font><font color="#E5E5E5"> those</font>
+
+184
+00:06:40,710 --> 00:06:43,250
+controls<font color="#E5E5E5"> right so let's talk about</font><font color="#CCCCCC"> um</font>
+
+185
+00:06:43,250 --> 00:06:45,420
+<font color="#E5E5E5">some more controls</font>
+
+186
+00:06:45,420 --> 00:06:47,790
+<font color="#E5E5E5">you have in this window</font><font color="#CCCCCC"> now something</font>
+
+187
+00:06:47,790 --> 00:06:49,170
+I'm going<font color="#E5E5E5"> to ask you to do really</font>
+
+188
+00:06:49,170 --> 00:06:51,750
+<font color="#E5E5E5">quickly is</font><font color="#CCCCCC"> go at the</font><font color="#E5E5E5"> very top</font><font color="#CCCCCC"> here click</font>
+
+189
+00:06:51,750 --> 00:06:53,490
+on game object<font color="#E5E5E5"> and then create a new</font>
+
+190
+00:06:53,490 --> 00:06:56,550
+cube<font color="#E5E5E5"> just like I did a second ago</font><font color="#CCCCCC"> so</font>
+
+191
+00:06:56,550 --> 00:06:58,620
+basically I've got<font color="#E5E5E5"> a cube right now and</font>
+
+192
+00:06:58,620 --> 00:07:00,660
+if you didn't<font color="#E5E5E5"> see what I did right</font><font color="#CCCCCC"> now</font>
+
+193
+00:07:00,660 --> 00:07:03,420
+<font color="#E5E5E5">is I just move this to 0 0 0</font><font color="#CCCCCC"> and</font>
+
+194
+00:07:03,420 --> 00:07:05,520
+position this is something I<font color="#E5E5E5"> see in my</font>
+
+195
+00:07:05,520 --> 00:07:07,020
+inspector and I will come<font color="#CCCCCC"> back to that</font>
+
+196
+00:07:07,020 --> 00:07:09,540
+<font color="#E5E5E5">in a moment as well so if I just click</font>
+
+197
+00:07:09,540 --> 00:07:12,000
+<font color="#E5E5E5">on this now when selecting an object you</font>
+
+198
+00:07:12,000 --> 00:07:14,160
+<font color="#CCCCCC">have a lot of keybinds that transfers</font>
+
+199
+00:07:14,160 --> 00:07:17,370
+from<font color="#E5E5E5"> the</font><font color="#CCCCCC"> windows explorer to this so if</font>
+
+200
+00:07:17,370 --> 00:07:21,030
+we<font color="#E5E5E5"> just try and copy by doing a</font><font color="#CCCCCC"> ctrl-c</font>
+
+201
+00:07:21,030 --> 00:07:24,330
+and<font color="#CCCCCC"> ctrl-v I don't know if you could</font>
+
+202
+00:07:24,330 --> 00:07:26,490
+tell right<font color="#CCCCCC"> here but we've got</font><font color="#E5E5E5"> another</font>
+
+203
+00:07:26,490 --> 00:07:28,380
+cube and if I<font color="#E5E5E5"> just move this around like</font>
+
+204
+00:07:28,380 --> 00:07:30,390
+<font color="#E5E5E5">this as you can tell there</font><font color="#CCCCCC"> is now 2 if</font>
+
+205
+00:07:30,390 --> 00:07:33,990
+we do<font color="#E5E5E5"> control Z it moves back to the</font>
+
+206
+00:07:33,990 --> 00:07:36,150
+<font color="#E5E5E5">position if</font><font color="#CCCCCC"> we do it</font><font color="#E5E5E5"> again</font><font color="#CCCCCC"> it removes</font>
+
+207
+00:07:36,150 --> 00:07:38,930
+the cube let's actually<font color="#E5E5E5"> talk about</font>
+
+208
+00:07:38,930 --> 00:07:41,820
+moving<font color="#E5E5E5"> this around so as you can tell</font>
+
+209
+00:07:41,820 --> 00:07:44,190
+<font color="#CCCCCC">right now I have a gizmo that allows me</font>
+
+210
+00:07:44,190 --> 00:07:47,430
+to<font color="#CCCCCC"> move this</font><font color="#E5E5E5"> on the z axis on the x axis</font>
+
+211
+00:07:47,430 --> 00:07:51,150
+<font color="#E5E5E5">and also on the y axis</font><font color="#CCCCCC"> now quickly</font>
+
+212
+00:07:51,150 --> 00:07:53,220
+<font color="#E5E5E5">notice that the y axis is actually</font><font color="#CCCCCC"> up</font>
+
+213
+00:07:53,220 --> 00:07:55,830
+and down it's not<font color="#E5E5E5"> the z axis</font><font color="#CCCCCC"> so in unity</font>
+
+214
+00:07:55,830 --> 00:07:58,170
+the it's<font color="#E5E5E5"> actually inverted with a lot of</font>
+
+215
+00:07:58,170 --> 00:08:01,080
+<font color="#E5E5E5">softwares where the z axis would define</font>
+
+216
+00:08:01,080 --> 00:08:03,870
+the height of the object<font color="#CCCCCC"> now the reason</font>
+
+217
+00:08:03,870 --> 00:08:05,520
+I<font color="#CCCCCC"> have this gizmo</font><font color="#E5E5E5"> is because I have an</font>
+
+218
+00:08:05,520 --> 00:08:08,190
+<font color="#CCCCCC">object selected</font><font color="#E5E5E5"> and I've</font><font color="#CCCCCC"> press on W</font>
+
+219
+00:08:08,190 --> 00:08:10,620
+which<font color="#CCCCCC"> is if you just have a look</font><font color="#E5E5E5"> at the</font>
+
+220
+00:08:10,620 --> 00:08:12,990
+very top<font color="#E5E5E5"> left side here you</font><font color="#CCCCCC"> have some</font>
+
+221
+00:08:12,990 --> 00:08:15,150
+options on<font color="#CCCCCC"> your object and as you can</font>
+
+222
+00:08:15,150 --> 00:08:16,560
+<font color="#E5E5E5">tell this is what you have by</font><font color="#CCCCCC"> default</font>
+
+223
+00:08:16,560 --> 00:08:18,210
+it's just a<font color="#E5E5E5"> little hand where you can</font>
+
+224
+00:08:18,210 --> 00:08:21,300
+just move around<font color="#E5E5E5"> your scene when I press</font>
+
+225
+00:08:21,300 --> 00:08:24,360
+W I go in the move gizmo<font color="#CCCCCC"> so now I'm able</font>
+
+226
+00:08:24,360 --> 00:08:27,180
+<font color="#CCCCCC">to move the object</font><font color="#E5E5E5"> the next one is</font>
+
+227
+00:08:27,180 --> 00:08:29,580
+rotation that<font color="#E5E5E5"> you can also reach by</font>
+
+228
+00:08:29,580 --> 00:08:33,210
+pressing on e on the keyboard<font color="#CCCCCC"> and</font><font color="#E5E5E5"> then</font>
+
+229
+00:08:33,210 --> 00:08:35,880
+you can rotate around the<font color="#E5E5E5"> x</font><font color="#CCCCCC"> axis y axis</font>
+
+230
+00:08:35,880 --> 00:08:39,750
+and<font color="#E5E5E5"> z axis you can tell which axis it is</font>
+
+231
+00:08:39,750 --> 00:08:42,539
+by the color so the red circle would
+
+232
+00:08:42,539 --> 00:08:47,430
+mean X the<font color="#E5E5E5"> Z is blue and the</font><font color="#CCCCCC"> Y is green</font>
+
+233
+00:08:47,430 --> 00:08:50,220
+and after a scale there<font color="#CCCCCC"> is one</font><font color="#E5E5E5"> more</font>
+
+234
+00:08:50,220 --> 00:08:51,810
+<font color="#E5E5E5">don't really use because I don't really</font>
+
+235
+00:08:51,810 --> 00:08:55,470
+<font color="#E5E5E5">like to</font><font color="#CCCCCC"> use unity in 2d</font><font color="#E5E5E5"> is if we go into</font>
+
+236
+00:08:55,470 --> 00:08:56,940
+the mode by just pressing that<font color="#CCCCCC"> button</font>
+
+237
+00:08:56,940 --> 00:08:59,250
+here<font color="#E5E5E5"> or on the keyboard</font>
+
+238
+00:08:59,250 --> 00:09:02,550
+it's the number<font color="#CCCCCC"> two</font><font color="#E5E5E5"> then if we go with</font>
+
+239
+00:09:02,550 --> 00:09:04,350
+the<font color="#CCCCCC"> last</font><font color="#E5E5E5"> setting here which you can get</font>
+
+240
+00:09:04,350 --> 00:09:05,850
+<font color="#E5E5E5">by pressing on T we're just pressing up</font>
+
+241
+00:09:05,850 --> 00:09:09,090
+here you can modify<font color="#E5E5E5"> the cube like</font><font color="#CCCCCC"> this</font>
+
+242
+00:09:09,090 --> 00:09:12,180
+as<font color="#E5E5E5"> simple as it looks so it allows you</font>
+
+243
+00:09:12,180 --> 00:09:14,280
+to<font color="#CCCCCC"> actually</font><font color="#E5E5E5"> modify things in 2d if we go</font>
+
+244
+00:09:14,280 --> 00:09:16,950
+back in the 3d scene and we press on<font color="#E5E5E5"> T</font>
+
+245
+00:09:16,950 --> 00:09:19,320
+<font color="#E5E5E5">we'll still have the same exact option</font>
+
+246
+00:09:19,320 --> 00:09:21,210
+but it's<font color="#E5E5E5"> cool it's only going to allow</font>
+
+247
+00:09:21,210 --> 00:09:25,350
+<font color="#E5E5E5">you to scale this on the X and y axis</font>
+
+248
+00:09:25,350 --> 00:09:27,990
+<font color="#E5E5E5">not the z axis because it's meant for 2d</font>
+
+249
+00:09:27,990 --> 00:09:30,020
+<font color="#CCCCCC">games</font><font color="#E5E5E5"> and there really shouldn't be a</font>
+
+250
+00:09:30,020 --> 00:09:34,320
+<font color="#E5E5E5">third axis in 2d so here it is that is</font>
+
+251
+00:09:34,320 --> 00:09:36,900
+basic navigation<font color="#E5E5E5"> and just one more thing</font>
+
+252
+00:09:36,900 --> 00:09:38,880
+<font color="#CCCCCC">that I'd like</font><font color="#E5E5E5"> to show you is when we</font>
+
+253
+00:09:38,880 --> 00:09:40,590
+take our cube let's say we duplicate it
+
+254
+00:09:40,590 --> 00:09:43,680
+<font color="#E5E5E5">and we just move it on this side there</font>
+
+255
+00:09:43,680 --> 00:09:46,230
+is<font color="#E5E5E5"> actually a way to snap as you can see</font>
+
+256
+00:09:46,230 --> 00:09:48,500
+it's not<font color="#E5E5E5"> paying every single meter and</font>
+
+257
+00:09:48,500 --> 00:09:51,240
+the way I do<font color="#E5E5E5"> this is by moving it by</font>
+
+258
+00:09:51,240 --> 00:09:53,700
+<font color="#E5E5E5">holding</font><font color="#CCCCCC"> ctrl so this is a normal just</font>
+
+259
+00:09:53,700 --> 00:09:56,100
+move and when I hold<font color="#CCCCCC"> ctrl it actually</font>
+
+260
+00:09:56,100 --> 00:09:59,280
+snaps<font color="#E5E5E5"> one meter from</font><font color="#CCCCCC"> where it was so</font><font color="#E5E5E5"> you</font>
+
+261
+00:09:59,280 --> 00:10:01,140
+<font color="#E5E5E5">can actually mess this up be just really</font>
+
+262
+00:10:01,140 --> 00:10:03,120
+careful<font color="#CCCCCC"> about</font><font color="#E5E5E5"> that if you just move</font><font color="#CCCCCC"> your</font>
+
+263
+00:10:03,120 --> 00:10:04,710
+<font color="#E5E5E5">object like this and it's not really</font>
+
+264
+00:10:04,710 --> 00:10:07,470
+sticking to<font color="#E5E5E5"> the other one and you're all</font>
+
+265
+00:10:07,470 --> 00:10:09,420
+day in control<font color="#E5E5E5"> you're still going to be</font>
+
+266
+00:10:09,420 --> 00:10:12,510
+<font color="#E5E5E5">a little bit</font><font color="#CCCCCC"> offset as you can tell</font><font color="#E5E5E5"> so</font>
+
+267
+00:10:12,510 --> 00:10:14,670
+whenever you<font color="#E5E5E5"> actually use this make sure</font>
+
+268
+00:10:14,670 --> 00:10:16,290
+<font color="#E5E5E5">you know where you're starting from</font>
+
+269
+00:10:16,290 --> 00:10:20,250
+right<font color="#E5E5E5"> and if in case</font><font color="#CCCCCC"> you</font><font color="#E5E5E5"> just want to</font>
+
+270
+00:10:20,250 --> 00:10:22,080
+make<font color="#CCCCCC"> sure that those object touches like</font>
+
+271
+00:10:22,080 --> 00:10:24,120
+this<font color="#E5E5E5"> but maybe they're not the right</font>
+
+272
+00:10:24,120 --> 00:10:26,280
+<font color="#E5E5E5">length for</font><font color="#CCCCCC"> you for them</font><font color="#E5E5E5"> to</font><font color="#CCCCCC"> actually just</font>
+
+273
+00:10:26,280 --> 00:10:28,680
+snap<font color="#E5E5E5"> correctly right now they are</font><font color="#CCCCCC"> you</font>
+
+274
+00:10:28,680 --> 00:10:30,990
+can<font color="#E5E5E5"> just duplicate this move this and as</font>
+
+275
+00:10:30,990 --> 00:10:33,150
+<font color="#E5E5E5">you can tell they snap perfectly but</font>
+
+276
+00:10:33,150 --> 00:10:34,650
+let's just say that<font color="#CCCCCC"> the scale</font><font color="#E5E5E5"> would</font><font color="#CCCCCC"> be</font>
+
+277
+00:10:34,650 --> 00:10:37,620
+something like<font color="#CCCCCC"> 1.3 and then you'd</font>
+
+278
+00:10:37,620 --> 00:10:40,800
+actually<font color="#CCCCCC"> try</font><font color="#E5E5E5"> to move that as you can</font>
+
+279
+00:10:40,800 --> 00:10:43,110
+tell they overlap a little<font color="#E5E5E5"> bit now there</font>
+
+280
+00:10:43,110 --> 00:10:46,200
+is a way to snap on vertex<font color="#E5E5E5"> and let me</font>
+
+281
+00:10:46,200 --> 00:10:47,790
+<font color="#CCCCCC">just</font><font color="#E5E5E5"> quickly show</font><font color="#CCCCCC"> you how to do that</font>
+
+282
+00:10:47,790 --> 00:10:50,490
+when you old V on the keyboard with your
+
+283
+00:10:50,490 --> 00:10:53,790
+move tool<font color="#CCCCCC"> you actually snap on</font><font color="#E5E5E5"> the</font>
+
+284
+00:10:53,790 --> 00:10:56,010
+vertex<font color="#E5E5E5"> and</font><font color="#CCCCCC"> you can click say on this</font><font color="#E5E5E5"> one</font>
+
+285
+00:10:56,010 --> 00:10:58,320
+<font color="#CCCCCC">and you'd like this vertex to</font><font color="#E5E5E5"> be</font>
+
+286
+00:10:58,320 --> 00:11:02,420
+attached<font color="#CCCCCC"> to</font><font color="#E5E5E5"> this one this way there now</font>
+
+287
+00:11:02,420 --> 00:11:05,190
+<font color="#CCCCCC">just stuck together</font><font color="#E5E5E5"> so that's a pretty</font>
+
+288
+00:11:05,190 --> 00:11:08,790
+<font color="#E5E5E5">good</font><font color="#CCCCCC"> way to</font><font color="#E5E5E5"> make a level without</font>
+
+289
+00:11:08,790 --> 00:11:10,380
+actually having those<font color="#CCCCCC"> little small gap</font>
+
+290
+00:11:10,380 --> 00:11:11,950
+that might<font color="#E5E5E5"> actually mess up your game</font>
+
+291
+00:11:11,950 --> 00:11:13,720
+in the end<font color="#E5E5E5"> depending on which technique</font>
+
+292
+00:11:13,720 --> 00:11:16,120
+you use<font color="#CCCCCC"> to say</font><font color="#E5E5E5"> move your character or</font>
+
+293
+00:11:16,120 --> 00:11:18,910
+<font color="#E5E5E5">check if there is</font><font color="#CCCCCC"> the ground</font><font color="#E5E5E5"> now notice</font>
+
+294
+00:11:18,910 --> 00:11:20,740
+that<font color="#E5E5E5"> every time</font><font color="#CCCCCC"> I duplicate a cube</font><font color="#E5E5E5"> or</font>
+
+295
+00:11:20,740 --> 00:11:23,340
+every time<font color="#CCCCCC"> I</font><font color="#E5E5E5"> select something we have</font>
+
+296
+00:11:23,340 --> 00:11:26,110
+just<font color="#E5E5E5"> some action happening</font><font color="#CCCCCC"> here in the</font>
+
+297
+00:11:26,110 --> 00:11:30,820
+<font color="#CCCCCC">ir key</font><font color="#E5E5E5"> now the R key is just a text</font>
+
+298
+00:11:30,820 --> 00:11:33,760
+representation of your scene<font color="#E5E5E5"> everything</font>
+
+299
+00:11:33,760 --> 00:11:35,260
+you're going<font color="#E5E5E5"> to be seeing in this 3d</font>
+
+300
+00:11:35,260 --> 00:11:37,330
+environment<font color="#E5E5E5"> is going</font><font color="#CCCCCC"> to have a</font>
+
+301
+00:11:37,330 --> 00:11:40,240
+definition right<font color="#CCCCCC"> here on the</font><font color="#E5E5E5"> ir key</font>
+
+302
+00:11:40,240 --> 00:11:43,210
+right now my senior skull on title so<font color="#E5E5E5"> we</font>
+
+303
+00:11:43,210 --> 00:11:44,770
+don't really<font color="#E5E5E5"> have a scene name this is</font>
+
+304
+00:11:44,770 --> 00:11:47,950
+not saved<font color="#E5E5E5"> and it still</font><font color="#CCCCCC"> displays</font><font color="#E5E5E5"> what</font>
+
+305
+00:11:47,950 --> 00:11:49,510
+there<font color="#E5E5E5"> is inside of it so let's</font><font color="#CCCCCC"> just say</font>
+
+306
+00:11:49,510 --> 00:11:51,220
+<font color="#E5E5E5">that</font><font color="#CCCCCC"> I'm going to</font><font color="#E5E5E5"> be a little bit crazy</font>
+
+307
+00:11:51,220 --> 00:11:54,130
+<font color="#CCCCCC">and create a directional light another</font>
+
+308
+00:11:54,130 --> 00:11:56,470
+one<font color="#CCCCCC"> as you</font><font color="#E5E5E5"> can tell there is now</font><font color="#CCCCCC"> - there</font>
+
+309
+00:11:56,470 --> 00:11:58,840
+<font color="#E5E5E5">is this guy here and</font><font color="#CCCCCC"> also this guy here</font>
+
+310
+00:11:58,840 --> 00:12:02,560
+<font color="#E5E5E5">and we can just</font><font color="#CCCCCC"> select them using</font><font color="#E5E5E5"> the R</font>
+
+311
+00:12:02,560 --> 00:12:05,050
+key so just say that I'm looking<font color="#E5E5E5"> for the</font>
+
+312
+00:12:05,050 --> 00:12:06,970
+second directional light I can simply
+
+313
+00:12:06,970 --> 00:12:09,100
+double click on this<font color="#E5E5E5"> one and it's going</font>
+
+314
+00:12:09,100 --> 00:12:12,130
+to actually<font color="#E5E5E5"> zoom on the object or so</font>
+
+315
+00:12:12,130 --> 00:12:13,540
+that you're<font color="#E5E5E5"> looking for your camera you</font>
+
+316
+00:12:13,540 --> 00:12:14,860
+don't<font color="#E5E5E5"> know where your camera is in the</font>
+
+317
+00:12:14,860 --> 00:12:16,210
+scene you've been looking around<font color="#E5E5E5"> for</font>
+
+318
+00:12:16,210 --> 00:12:18,820
+like<font color="#E5E5E5"> a good minute you can also find it</font>
+
+319
+00:12:18,820 --> 00:12:21,460
+<font color="#CCCCCC">using the r key so as you can tell i</font>
+
+320
+00:12:21,460 --> 00:12:23,980
+<font color="#E5E5E5">have my main camera selected now i can</font>
+
+321
+00:12:23,980 --> 00:12:26,140
+double click<font color="#E5E5E5"> on it and it shows it in</font>
+
+322
+00:12:26,140 --> 00:12:29,560
+the view<font color="#E5E5E5"> or i can click</font><font color="#CCCCCC"> on f and it's</font>
+
+323
+00:12:29,560 --> 00:12:31,030
+going<font color="#E5E5E5"> to do the same exact thing</font><font color="#CCCCCC"> so it</font>
+
+324
+00:12:31,030 --> 00:12:35,580
+just<font color="#E5E5E5"> goes</font><font color="#CCCCCC"> back to my object</font><font color="#E5E5E5"> like this</font>
+
+325
+00:12:35,580 --> 00:12:37,690
+right so<font color="#CCCCCC"> that's</font><font color="#E5E5E5"> another way to actually</font>
+
+326
+00:12:37,690 --> 00:12:39,130
+control<font color="#E5E5E5"> the object you have in your</font>
+
+327
+00:12:39,130 --> 00:12:41,650
+scene<font color="#E5E5E5"> if you delete them from here say</font><font color="#CCCCCC"> i</font>
+
+328
+00:12:41,650 --> 00:12:44,020
+choose those<font color="#E5E5E5"> two cubes</font><font color="#CCCCCC"> i delete they're</font>
+
+329
+00:12:44,020 --> 00:12:46,150
+<font color="#E5E5E5">also gone from the scene so just be</font>
+
+330
+00:12:46,150 --> 00:12:46,870
+<font color="#E5E5E5">worried about that</font>
+
+331
+00:12:46,870 --> 00:12:49,690
+<font color="#E5E5E5">those two are connected together that is</font>
+
+332
+00:12:49,690 --> 00:12:53,020
+what<font color="#E5E5E5"> you have to tell yourself right so</font>
+
+333
+00:12:53,020 --> 00:12:55,330
+there is also one more<font color="#CCCCCC"> thing connected</font>
+
+334
+00:12:55,330 --> 00:12:57,490
+to<font color="#E5E5E5"> these guys and as you can</font><font color="#CCCCCC"> tell a</font>
+
+335
+00:12:57,490 --> 00:12:59,260
+<font color="#E5E5E5">little bit earlier we played with it it</font>
+
+336
+00:12:59,260 --> 00:13:01,870
+is<font color="#CCCCCC"> the inspector on the</font><font color="#E5E5E5"> right hand side</font>
+
+337
+00:13:01,870 --> 00:13:04,150
+now<font color="#E5E5E5"> the inspector is connected</font><font color="#CCCCCC"> to a lot</font>
+
+338
+00:13:04,150 --> 00:13:06,160
+of<font color="#CCCCCC"> self annuity everything you select is</font>
+
+339
+00:13:06,160 --> 00:13:08,290
+most likely<font color="#CCCCCC"> going to have a definition</font>
+
+340
+00:13:08,290 --> 00:13:10,870
+<font color="#E5E5E5">in the inspector so if we just have a</font>
+
+341
+00:13:10,870 --> 00:13:13,000
+look here<font color="#CCCCCC"> I'm going</font><font color="#E5E5E5"> to select my camera</font>
+
+342
+00:13:13,000 --> 00:13:15,340
+and<font color="#CCCCCC"> then we have some information about</font>
+
+343
+00:13:15,340 --> 00:13:18,310
+that camera<font color="#CCCCCC"> so if we just check out</font><font color="#E5E5E5"> this</font>
+
+344
+00:13:18,310 --> 00:13:19,270
+component right<font color="#CCCCCC"> here</font>
+
+345
+00:13:19,270 --> 00:13:21,250
+it clears on the<font color="#CCCCCC"> skybox it</font><font color="#E5E5E5"> has a</font>
+
+346
+00:13:21,250 --> 00:13:23,110
+different field<font color="#CCCCCC"> of view which we can</font>
+
+347
+00:13:23,110 --> 00:13:24,910
+modify<font color="#E5E5E5"> it</font>
+
+348
+00:13:24,910 --> 00:13:28,000
+a GUI<font color="#E5E5E5"> layer audio listener</font><font color="#CCCCCC"> all that kind</font>
+
+349
+00:13:28,000 --> 00:13:30,640
+of<font color="#CCCCCC"> good stuff and also</font><font color="#E5E5E5"> a transform which</font>
+
+350
+00:13:30,640 --> 00:13:33,130
+will contain<font color="#CCCCCC"> the position we can modify</font>
+
+351
+00:13:33,130 --> 00:13:35,110
+<font color="#E5E5E5">it at the very top right here and</font><font color="#CCCCCC"> it's</font>
+
+352
+00:13:35,110 --> 00:13:37,150
+going to<font color="#E5E5E5"> be reflected inside of the game</font>
+
+353
+00:13:37,150 --> 00:13:39,520
+<font color="#E5E5E5">we can</font><font color="#CCCCCC"> also play with</font><font color="#E5E5E5"> the rotation a</font>
+
+354
+00:13:39,520 --> 00:13:41,500
+little<font color="#CCCCCC"> bit</font><font color="#E5E5E5"> as you can tell it also</font>
+
+355
+00:13:41,500 --> 00:13:43,900
+reflects it in the game<font color="#E5E5E5"> and they're just</font>
+
+356
+00:13:43,900 --> 00:13:46,300
+connected<font color="#CCCCCC"> together but now these things</font>
+
+357
+00:13:46,300 --> 00:13:48,340
+we see on the<font color="#E5E5E5"> right hand side they're</font>
+
+358
+00:13:48,340 --> 00:13:50,800
+only<font color="#E5E5E5"> for our selected object which is</font><font color="#CCCCCC"> in</font>
+
+359
+00:13:50,800 --> 00:13:52,600
+this<font color="#E5E5E5"> case the</font><font color="#CCCCCC"> camera if we were to</font>
+
+360
+00:13:52,600 --> 00:13:55,030
+select<font color="#CCCCCC"> the cube they</font><font color="#E5E5E5"> actually change as</font>
+
+361
+00:13:55,030 --> 00:13:57,130
+you can tell they're different<font color="#E5E5E5"> stuff</font>
+
+362
+00:13:57,130 --> 00:13:58,990
+<font color="#CCCCCC">that the camera doesn't really have so</font>
+
+363
+00:13:58,990 --> 00:14:00,940
+the camera<font color="#E5E5E5"> doesn't really have a box</font>
+
+364
+00:14:00,940 --> 00:14:03,250
+<font color="#E5E5E5">Collider the camera</font><font color="#CCCCCC"> doesn't really have</font>
+
+365
+00:14:03,250 --> 00:14:06,640
+a mesh renderer<font color="#CCCCCC"> but the cube does so as</font>
+
+366
+00:14:06,640 --> 00:14:09,450
+you<font color="#E5E5E5"> can tell the inspector changes its</font>
+
+367
+00:14:09,450 --> 00:14:11,920
+definition what it<font color="#E5E5E5"> puts inside</font><font color="#CCCCCC"> the</font>
+
+368
+00:14:11,920 --> 00:14:14,230
+inspector it changes with what you have
+
+369
+00:14:14,230 --> 00:14:16,510
+selected<font color="#CCCCCC"> and now it's also</font><font color="#E5E5E5"> going</font><font color="#CCCCCC"> to be</font>
+
+370
+00:14:16,510 --> 00:14:18,400
+changing for<font color="#CCCCCC"> some other</font><font color="#E5E5E5"> stuff as</font><font color="#CCCCCC"> well</font>
+
+371
+00:14:18,400 --> 00:14:21,010
+not<font color="#CCCCCC"> only</font><font color="#E5E5E5"> things in the scene if I just</font>
+
+372
+00:14:21,010 --> 00:14:23,020
+<font color="#E5E5E5">give</font><font color="#CCCCCC"> you a</font><font color="#E5E5E5"> small</font><font color="#CCCCCC"> example really quickly</font>
+
+373
+00:14:23,020 --> 00:14:26,260
+<font color="#CCCCCC">I go inside</font><font color="#E5E5E5"> the input manager now the</font>
+
+374
+00:14:26,260 --> 00:14:27,880
+input manager<font color="#E5E5E5"> is not something in the</font>
+
+375
+00:14:27,880 --> 00:14:30,220
+scene but as you<font color="#E5E5E5"> can tell it's been</font>
+
+376
+00:14:30,220 --> 00:14:32,410
+drawn in<font color="#E5E5E5"> the inspector so this doesn't</font>
+
+377
+00:14:32,410 --> 00:14:34,090
+<font color="#E5E5E5">really have to do with anything right</font>
+
+378
+00:14:34,090 --> 00:14:36,640
+<font color="#E5E5E5">now in my scene or our key and it's</font>
+
+379
+00:14:36,640 --> 00:14:40,720
+still here so<font color="#E5E5E5"> just be</font><font color="#CCCCCC"> worried about that</font>
+
+380
+00:14:40,720 --> 00:14:42,190
+<font color="#CCCCCC">when you click on</font><font color="#E5E5E5"> something when you</font>
+
+381
+00:14:42,190 --> 00:14:43,440
+select something<font color="#E5E5E5"> and you're not</font><font color="#CCCCCC"> sure</font>
+
+382
+00:14:43,440 --> 00:14:46,330
+where you<font color="#E5E5E5"> should be looking at to</font><font color="#CCCCCC"> get</font>
+
+383
+00:14:46,330 --> 00:14:47,800
+information about<font color="#CCCCCC"> that say something</font>
+
+384
+00:14:47,800 --> 00:14:49,360
+<font color="#E5E5E5">then make sure you check out</font><font color="#CCCCCC"> the</font>
+
+385
+00:14:49,360 --> 00:14:50,740
+<font color="#E5E5E5">inspector because what you're looking</font>
+
+386
+00:14:50,740 --> 00:14:53,920
+<font color="#CCCCCC">for is most</font><font color="#E5E5E5"> likely there all right so if</font>
+
+387
+00:14:53,920 --> 00:14:56,710
+<font color="#E5E5E5">we just</font><font color="#CCCCCC"> proceed</font><font color="#E5E5E5"> the console down here is</font>
+
+388
+00:14:56,710 --> 00:14:58,240
+<font color="#E5E5E5">what is going to be reporting some</font>
+
+389
+00:14:58,240 --> 00:15:01,660
+errors so if your game crashes in<font color="#CCCCCC"> the</font>
+
+390
+00:15:01,660 --> 00:15:04,510
+middle of nowhere<font color="#E5E5E5"> it's going to tell you</font>
+
+391
+00:15:04,510 --> 00:15:06,250
+why<font color="#CCCCCC"> so it's going</font><font color="#E5E5E5"> to crash and it's also</font>
+
+392
+00:15:06,250 --> 00:15:07,450
+going to tell<font color="#E5E5E5"> you why</font>
+
+393
+00:15:07,450 --> 00:15:09,940
+which one of<font color="#E5E5E5"> code didn't work and also</font>
+
+394
+00:15:09,940 --> 00:15:11,740
+maybe some warning that goes with that<font color="#CCCCCC"> a</font>
+
+395
+00:15:11,740 --> 00:15:13,630
+stack trace so you can go<font color="#E5E5E5"> back in your</font>
+
+396
+00:15:13,630 --> 00:15:16,030
+code and<font color="#CCCCCC"> actually look ok so it did that</font>
+
+397
+00:15:16,030 --> 00:15:18,250
+function well<font color="#E5E5E5"> it did that other function</font>
+
+398
+00:15:18,250 --> 00:15:21,100
+right after and then it crashed<font color="#E5E5E5"> so it's</font>
+
+399
+00:15:21,100 --> 00:15:22,450
+really<font color="#E5E5E5"> going to be useful</font><font color="#CCCCCC"> for debugging</font>
+
+400
+00:15:22,450 --> 00:15:25,300
+<font color="#CCCCCC">it's really going</font><font color="#E5E5E5"> to be useful for just</font>
+
+401
+00:15:25,300 --> 00:15:27,370
+communicating<font color="#CCCCCC"> with you when the game is</font>
+
+402
+00:15:27,370 --> 00:15:29,200
+playing this is something we'll<font color="#CCCCCC"> be using</font>
+
+403
+00:15:29,200 --> 00:15:32,350
+<font color="#E5E5E5">quite a lot when we code and you're just</font>
+
+404
+00:15:32,350 --> 00:15:33,640
+<font color="#E5E5E5">going</font><font color="#CCCCCC"> to have a good time with it I</font>
+
+405
+00:15:33,640 --> 00:15:36,460
+<font color="#CCCCCC">guess and finally the last window we're</font>
+
+406
+00:15:36,460 --> 00:15:37,670
+going to be using is the
+
+407
+00:15:37,670 --> 00:15:39,950
+project window now this one<font color="#E5E5E5"> I will</font><font color="#CCCCCC"> leave</font>
+
+408
+00:15:39,950 --> 00:15:41,750
+it right<font color="#CCCCCC"> here for</font><font color="#E5E5E5"> now we're not going</font><font color="#CCCCCC"> to</font>
+
+409
+00:15:41,750 --> 00:15:42,830
+be<font color="#CCCCCC"> doing anything</font><font color="#E5E5E5"> we're</font><font color="#CCCCCC"> not going</font><font color="#E5E5E5"> to be</font>
+
+410
+00:15:42,830 --> 00:15:44,090
+<font color="#E5E5E5">talking about this one just for now</font>
+
+411
+00:15:44,090 --> 00:15:45,770
+<font color="#E5E5E5">because I'll be reserving</font><font color="#CCCCCC"> it for the</font>
+
+412
+00:15:45,770 --> 00:15:47,600
+next<font color="#E5E5E5"> episode</font><font color="#CCCCCC"> it's quite a big window</font>
+
+413
+00:15:47,600 --> 00:15:48,770
+we're going to be<font color="#E5E5E5"> doing a lot of stuff</font>
+
+414
+00:15:48,770 --> 00:15:51,200
+with<font color="#CCCCCC"> that</font><font color="#E5E5E5"> and there is a logic</font><font color="#CCCCCC"> to be</font>
+
+415
+00:15:51,200 --> 00:15:53,930
+made<font color="#CCCCCC"> behind this</font><font color="#E5E5E5"> window so we're</font><font color="#CCCCCC"> just</font>
+
+416
+00:15:53,930 --> 00:15:55,760
+going to<font color="#E5E5E5"> leave it</font><font color="#CCCCCC"> here for now and let's</font>
+
+417
+00:15:55,760 --> 00:15:57,800
+quickly<font color="#CCCCCC"> just wrap this tutorial up with</font>
+
+418
+00:15:57,800 --> 00:16:00,830
+an exploration up here of the file menu
+
+419
+00:16:00,830 --> 00:16:03,140
+so at the very<font color="#CCCCCC"> top here</font><font color="#E5E5E5"> we</font><font color="#CCCCCC"> have scenes</font>
+
+420
+00:16:03,140 --> 00:16:05,330
+<font color="#E5E5E5">you can</font><font color="#CCCCCC"> actually create</font><font color="#E5E5E5"> a</font><font color="#CCCCCC"> new scene save</font>
+
+421
+00:16:05,330 --> 00:16:07,640
+a new scene now something that<font color="#E5E5E5"> is really</font>
+
+422
+00:16:07,640 --> 00:16:09,170
+important<font color="#E5E5E5"> to know is</font><font color="#CCCCCC"> one we're going</font><font color="#E5E5E5"> to</font>
+
+423
+00:16:09,170 --> 00:16:11,450
+<font color="#E5E5E5">be coding you don't really need to save</font>
+
+424
+00:16:11,450 --> 00:16:14,270
+scenes because scene<font color="#CCCCCC"> are not going to</font>
+
+425
+00:16:14,270 --> 00:16:15,800
+contain<font color="#E5E5E5"> information about</font><font color="#CCCCCC"> the code you</font>
+
+426
+00:16:15,800 --> 00:16:17,090
+<font color="#CCCCCC">write</font><font color="#E5E5E5"> they're</font><font color="#CCCCCC"> not</font><font color="#E5E5E5"> going to be containing</font>
+
+427
+00:16:17,090 --> 00:16:20,570
+information about<font color="#CCCCCC"> the assets</font><font color="#E5E5E5"> you create</font>
+
+428
+00:16:20,570 --> 00:16:23,510
+those are going<font color="#E5E5E5"> to be objects on their</font>
+
+429
+00:16:23,510 --> 00:16:24,950
+<font color="#E5E5E5">own so in the Windows Explorer</font><font color="#CCCCCC"> we're</font>
+
+430
+00:16:24,950 --> 00:16:26,570
+going to be able to<font color="#E5E5E5"> find those objects</font>
+
+431
+00:16:26,570 --> 00:16:28,400
+they're not going to<font color="#E5E5E5"> be really part of</font>
+
+432
+00:16:28,400 --> 00:16:30,680
+the scene<font color="#E5E5E5"> the only moment where you need</font>
+
+433
+00:16:30,680 --> 00:16:32,450
+to change<font color="#CCCCCC"> the scene is when you move</font>
+
+434
+00:16:32,450 --> 00:16:34,340
+something<font color="#CCCCCC"> around or when you change</font><font color="#E5E5E5"> some</font>
+
+435
+00:16:34,340 --> 00:16:36,650
+settings<font color="#E5E5E5"> in the inspector so right now I</font>
+
+436
+00:16:36,650 --> 00:16:39,770
+<font color="#CCCCCC">just create a new cube another one I can</font>
+
+437
+00:16:39,770 --> 00:16:42,050
+save my scene the way<font color="#CCCCCC"> I do</font><font color="#E5E5E5"> this is by</font>
+
+438
+00:16:42,050 --> 00:16:44,630
+hitting ctrl s and it's going<font color="#E5E5E5"> to prompt</font>
+
+439
+00:16:44,630 --> 00:16:45,920
+<font color="#E5E5E5">me right now the only reason it's</font>
+
+440
+00:16:45,920 --> 00:16:47,720
+prompting me<font color="#E5E5E5"> is because I</font><font color="#CCCCCC"> never</font><font color="#E5E5E5"> really</font>
+
+441
+00:16:47,720 --> 00:16:49,460
+<font color="#E5E5E5">just created a scene in the first place</font>
+
+442
+00:16:49,460 --> 00:16:52,070
+<font color="#E5E5E5">let me create my</font><font color="#CCCCCC"> very first scene I'm</font>
+
+443
+00:16:52,070 --> 00:16:55,130
+going<font color="#CCCCCC"> to call it game and when I save</font>
+
+444
+00:16:55,130 --> 00:16:57,950
+now<font color="#E5E5E5"> it's going to be overriding game so</font>
+
+445
+00:16:57,950 --> 00:17:00,980
+let's create a<font color="#CCCCCC"> new cube</font><font color="#E5E5E5"> and as you can</font>
+
+446
+00:17:00,980 --> 00:17:05,270
+<font color="#CCCCCC">tell this scene is</font><font color="#E5E5E5"> not really saved it's</font>
+
+447
+00:17:05,270 --> 00:17:07,460
+not really up to<font color="#CCCCCC"> date because the name</font>
+
+448
+00:17:07,460 --> 00:17:10,310
+<font color="#CCCCCC">up here</font><font color="#E5E5E5"> it says game and then</font><font color="#CCCCCC"> it'll</font>
+
+449
+00:17:10,310 --> 00:17:12,319
+<font color="#CCCCCC">stall</font><font color="#E5E5E5"> the little</font><font color="#CCCCCC"> style means that it's</font>
+
+450
+00:17:12,319 --> 00:17:15,560
+not been saved<font color="#E5E5E5"> if I press ctrl s the</font>
+
+451
+00:17:15,560 --> 00:17:17,990
+star goes away now if I move something
+
+452
+00:17:17,990 --> 00:17:20,390
+around<font color="#CCCCCC"> it</font><font color="#E5E5E5"> goes back to being in a dirty</font>
+
+453
+00:17:20,390 --> 00:17:22,400
+<font color="#E5E5E5">state where you have to save</font><font color="#CCCCCC"> it</font><font color="#E5E5E5"> again</font>
+
+454
+00:17:22,400 --> 00:17:24,740
+<font color="#E5E5E5">right</font><font color="#CCCCCC"> so</font><font color="#E5E5E5"> that's pretty</font><font color="#CCCCCC"> much</font><font color="#E5E5E5"> all you have</font>
+
+455
+00:17:24,740 --> 00:17:27,020
+to do when you save a scene really
+
+456
+00:17:27,020 --> 00:17:28,760
+<font color="#E5E5E5">simple we're going to be talking a</font>
+
+457
+00:17:28,760 --> 00:17:30,320
+little<font color="#CCCCCC"> bit more about scenes</font><font color="#E5E5E5"> later on</font>
+
+458
+00:17:30,320 --> 00:17:31,850
+and<font color="#CCCCCC"> also build</font><font color="#E5E5E5"> settings this</font><font color="#CCCCCC"> is</font>
+
+459
+00:17:31,850 --> 00:17:33,920
+something I'm<font color="#E5E5E5"> going</font><font color="#CCCCCC"> to skip for</font><font color="#E5E5E5"> now now</font>
+
+460
+00:17:33,920 --> 00:17:35,870
+in the<font color="#CCCCCC"> Edit section there ain't much</font><font color="#E5E5E5"> to</font>
+
+461
+00:17:35,870 --> 00:17:38,000
+talk<font color="#CCCCCC"> about except the</font><font color="#E5E5E5"> preferences</font><font color="#CCCCCC"> I</font>
+
+462
+00:17:38,000 --> 00:17:40,010
+invite<font color="#CCCCCC"> you</font><font color="#E5E5E5"> to just open</font><font color="#CCCCCC"> the Preferences</font>
+
+463
+00:17:40,010 --> 00:17:43,340
+and have a look at the<font color="#E5E5E5"> external tool for</font>
+
+464
+00:17:43,340 --> 00:17:45,260
+this tutorial<font color="#CCCCCC"> for</font><font color="#E5E5E5"> this course I'm going</font>
+
+465
+00:17:45,260 --> 00:17:47,510
+<font color="#CCCCCC">to</font><font color="#E5E5E5"> be using</font><font color="#CCCCCC"> Visual Studio to code but</font>
+
+466
+00:17:47,510 --> 00:17:49,610
+you<font color="#E5E5E5"> can also be using</font><font color="#CCCCCC"> model</font><font color="#E5E5E5"> develop I</font>
+
+467
+00:17:49,610 --> 00:17:50,670
+really do<font color="#CCCCCC"> recommend</font>
+
+468
+00:17:50,670 --> 00:17:52,860
+<font color="#CCCCCC">you use Visual Studio though because Moo</font>
+
+469
+00:17:52,860 --> 00:17:54,600
+<font color="#E5E5E5">develop is just starting</font><font color="#CCCCCC"> to fail a</font>
+
+470
+00:17:54,600 --> 00:17:55,860
+little<font color="#E5E5E5"> bit and I think they're going to</font>
+
+471
+00:17:55,860 --> 00:17:58,440
+drop it<font color="#CCCCCC"> eventually just some rumor I</font>
+
+472
+00:17:58,440 --> 00:18:01,050
+heard but still<font color="#E5E5E5"> we're going to be using</font>
+
+473
+00:18:01,050 --> 00:18:02,880
+Visual Studio on my side<font color="#E5E5E5"> so if</font><font color="#CCCCCC"> you just</font>
+
+474
+00:18:02,880 --> 00:18:05,240
+want<font color="#CCCCCC"> to see</font><font color="#E5E5E5"> like matching colors and</font>
+
+475
+00:18:05,240 --> 00:18:08,430
+<font color="#CCCCCC">helpings</font><font color="#E5E5E5"> work in Visual Studio</font><font color="#CCCCCC"> just make</font>
+
+476
+00:18:08,430 --> 00:18:10,740
+<font color="#E5E5E5">sure it is on</font><font color="#CCCCCC"> Visual Studio you</font><font color="#E5E5E5"> can also</font>
+
+477
+00:18:10,740 --> 00:18:12,000
+play with<font color="#CCCCCC"> your color is a little</font><font color="#E5E5E5"> bit</font>
+
+478
+00:18:12,000 --> 00:18:14,910
+colors of<font color="#CCCCCC"> uui change the color of axis</font>
+
+479
+00:18:14,910 --> 00:18:16,350
+change the color<font color="#CCCCCC"> of pretty</font><font color="#E5E5E5"> much anything</font>
+
+480
+00:18:16,350 --> 00:18:18,600
+and you<font color="#E5E5E5"> have your key binds</font><font color="#CCCCCC"> you can</font>
+
+481
+00:18:18,600 --> 00:18:21,600
+modify and that is pretty much<font color="#E5E5E5"> it</font><font color="#CCCCCC"> the</font>
+
+482
+00:18:21,600 --> 00:18:23,040
+<font color="#E5E5E5">rest we don't really care</font><font color="#CCCCCC"> about right</font>
+
+483
+00:18:23,040 --> 00:18:26,490
+<font color="#CCCCCC">now now the third option is asset we get</font>
+
+484
+00:18:26,490 --> 00:18:29,220
+to<font color="#CCCCCC"> create some kind</font><font color="#E5E5E5"> of assets so this is</font>
+
+485
+00:18:29,220 --> 00:18:30,270
+a lot<font color="#E5E5E5"> of stuff you're going to be seeing</font>
+
+486
+00:18:30,270 --> 00:18:32,040
+<font color="#E5E5E5">on the art side most likely we're also</font>
+
+487
+00:18:32,040 --> 00:18:34,160
+going to be creating<font color="#E5E5E5"> asset as</font>
+
+488
+00:18:34,160 --> 00:18:37,020
+<font color="#E5E5E5">programmers because the scripts we're</font>
+
+489
+00:18:37,020 --> 00:18:38,130
+going to be making<font color="#E5E5E5"> are going to be</font>
+
+490
+00:18:38,130 --> 00:18:40,770
+considered as assets but we're<font color="#CCCCCC"> talking</font>
+
+491
+00:18:40,770 --> 00:18:43,050
+here about materials we're talking about
+
+492
+00:18:43,050 --> 00:18:46,980
+models<font color="#E5E5E5"> texture font but all that kind of</font>
+
+493
+00:18:46,980 --> 00:18:48,510
+good<font color="#CCCCCC"> stuff is actually</font><font color="#E5E5E5"> considered as</font>
+
+494
+00:18:48,510 --> 00:18:51,510
+assets so if you want to import<font color="#E5E5E5"> those if</font>
+
+495
+00:18:51,510 --> 00:18:53,700
+somebody else made it<font color="#CCCCCC"> for you</font><font color="#E5E5E5"> you can</font>
+
+496
+00:18:53,700 --> 00:18:55,710
+actually import<font color="#CCCCCC"> a package via this so</font>
+
+497
+00:18:55,710 --> 00:18:56,820
+<font color="#E5E5E5">pretty much your whole</font><font color="#CCCCCC"> game is</font><font color="#E5E5E5"> going to</font>
+
+498
+00:18:56,820 --> 00:18:59,670
+<font color="#E5E5E5">be made out</font><font color="#CCCCCC"> of asset</font><font color="#E5E5E5"> now</font><font color="#CCCCCC"> since I've</font>
+
+499
+00:18:59,670 --> 00:19:01,590
+installed unity with the standard asset
+
+500
+00:19:01,590 --> 00:19:02,850
+back which is something<font color="#E5E5E5"> that</font><font color="#CCCCCC"> just gave</font>
+
+501
+00:19:02,850 --> 00:19:04,470
+you by<font color="#CCCCCC"> default if you just check</font><font color="#E5E5E5"> the</font>
+
+502
+00:19:04,470 --> 00:19:06,690
+<font color="#E5E5E5">little button</font><font color="#CCCCCC"> you can actually import</font>
+
+503
+00:19:06,690 --> 00:19:08,610
+<font color="#E5E5E5">some package just to test it out as you</font>
+
+504
+00:19:08,610 --> 00:19:10,410
+<font color="#E5E5E5">can tell</font><font color="#CCCCCC"> right</font><font color="#E5E5E5"> here</font><font color="#CCCCCC"> I have</font><font color="#E5E5E5"> you I</font><font color="#CCCCCC"> have</font>
+
+505
+00:19:10,410 --> 00:19:13,230
+the vehicle prototyping environment
+
+506
+00:19:13,230 --> 00:19:14,280
+let's<font color="#CCCCCC"> actually import some in</font>
+
+507
+00:19:14,280 --> 00:19:17,400
+environment<font color="#E5E5E5"> just you check it out see</font>
+
+508
+00:19:17,400 --> 00:19:19,590
+what they give us<font color="#CCCCCC"> and how</font><font color="#E5E5E5"> it works</font><font color="#CCCCCC"> I'm</font>
+
+509
+00:19:19,590 --> 00:19:22,110
+going to<font color="#CCCCCC"> uncheck this</font><font color="#E5E5E5"> just bring some</font>
+
+510
+00:19:22,110 --> 00:19:23,640
+let's say<font color="#E5E5E5"> we're going to be bringing</font>
+
+511
+00:19:23,640 --> 00:19:28,350
+<font color="#E5E5E5">some water why not</font><font color="#CCCCCC"> we can actually just</font>
+
+512
+00:19:28,350 --> 00:19:29,850
+<font color="#E5E5E5">bring some water so I'm only going to</font>
+
+513
+00:19:29,850 --> 00:19:32,310
+<font color="#E5E5E5">check water import and they're going to</font>
+
+514
+00:19:32,310 --> 00:19:34,560
+be putting it in my<font color="#E5E5E5"> project window which</font>
+
+515
+00:19:34,560 --> 00:19:36,300
+I<font color="#E5E5E5"> said we're going to be coming back to</font>
+
+516
+00:19:36,300 --> 00:19:38,370
+that<font color="#E5E5E5"> in a moment but as you can tell</font>
+
+517
+00:19:38,370 --> 00:19:40,350
+without even<font color="#E5E5E5"> doing anything in my game</font>
+
+518
+00:19:40,350 --> 00:19:42,750
+<font color="#E5E5E5">I'm able to just use the asset that</font>
+
+519
+00:19:42,750 --> 00:19:45,750
+<font color="#CCCCCC">they've made</font><font color="#E5E5E5"> and here we go we have a</font>
+
+520
+00:19:45,750 --> 00:19:47,760
+lake we have some kind<font color="#CCCCCC"> of</font><font color="#E5E5E5"> ocean actually</font>
+
+521
+00:19:47,760 --> 00:19:50,370
+<font color="#E5E5E5">and this is all made for</font><font color="#CCCCCC"> us this is</font>
+
+522
+00:19:50,370 --> 00:19:52,640
+unity making a package and we simply
+
+523
+00:19:52,640 --> 00:19:57,990
+<font color="#E5E5E5">import it so a nice little flow of water</font>
+
+524
+00:19:57,990 --> 00:20:00,120
+going<font color="#E5E5E5"> on here now I'm going</font><font color="#CCCCCC"> to</font><font color="#E5E5E5"> remove</font>
+
+525
+00:20:00,120 --> 00:20:01,470
+this because<font color="#E5E5E5"> we're not going</font><font color="#CCCCCC"> to</font><font color="#E5E5E5"> be using</font>
+
+526
+00:20:01,470 --> 00:20:03,630
+<font color="#E5E5E5">water in our game unfortunately</font><font color="#CCCCCC"> it does</font>
+
+527
+00:20:03,630 --> 00:20:07,049
+very good though now the next menu is
+
+528
+00:20:07,049 --> 00:20:08,970
+<font color="#E5E5E5">game object and this one I use quite a</font>
+
+529
+00:20:08,970 --> 00:20:11,070
+lot<font color="#CCCCCC"> so</font><font color="#E5E5E5"> this is where you create some</font>
+
+530
+00:20:11,070 --> 00:20:12,780
+prototyping objects<font color="#E5E5E5"> since we don't</font>
+
+531
+00:20:12,780 --> 00:20:14,520
+<font color="#E5E5E5">really have models for everything we're</font>
+
+532
+00:20:14,520 --> 00:20:15,720
+like programmer and we're<font color="#E5E5E5"> not really</font>
+
+533
+00:20:15,720 --> 00:20:18,630
+good with<font color="#E5E5E5"> art well I mean we're not</font><font color="#CCCCCC"> the</font>
+
+534
+00:20:18,630 --> 00:20:20,850
+<font color="#E5E5E5">best</font><font color="#CCCCCC"> with art at least</font><font color="#E5E5E5"> then you get to</font>
+
+535
+00:20:20,850 --> 00:20:22,710
+<font color="#E5E5E5">create some nice basic</font><font color="#CCCCCC"> cube like that</font>
+
+536
+00:20:22,710 --> 00:20:25,590
+you get<font color="#E5E5E5"> to create some nice</font><font color="#CCCCCC"> planes some</font>
+
+537
+00:20:25,590 --> 00:20:27,299
+quad<font color="#E5E5E5"> all that kind of good</font><font color="#CCCCCC"> stuff can be</font>
+
+538
+00:20:27,299 --> 00:20:29,610
+<font color="#E5E5E5">created towards here you can also create</font>
+
+539
+00:20:29,610 --> 00:20:33,360
+some<font color="#E5E5E5"> lights some audio stores UI</font><font color="#CCCCCC"> when</font>
+
+540
+00:20:33,360 --> 00:20:34,740
+you're actually<font color="#E5E5E5"> ready</font><font color="#CCCCCC"> to create some UI</font>
+
+541
+00:20:34,740 --> 00:20:37,110
+and also like camera particle system
+
+542
+00:20:37,110 --> 00:20:38,580
+there is<font color="#CCCCCC"> a lot</font><font color="#E5E5E5"> of stuff you can</font><font color="#CCCCCC"> do here</font>
+
+543
+00:20:38,580 --> 00:20:40,890
+<font color="#E5E5E5">you just create like a really base</font>
+
+544
+00:20:40,890 --> 00:20:44,039
+object<font color="#CCCCCC"> huge for prototyping</font><font color="#E5E5E5"> there is</font>
+
+545
+00:20:44,039 --> 00:20:45,539
+also<font color="#E5E5E5"> other object that you're not going</font>
+
+546
+00:20:45,539 --> 00:20:46,919
+to be using for<font color="#CCCCCC"> prototype</font><font color="#E5E5E5"> such as</font>
+
+547
+00:20:46,919 --> 00:20:48,990
+delights<font color="#CCCCCC"> all those one can be actually</font>
+
+548
+00:20:48,990 --> 00:20:51,419
+final the particle system<font color="#CCCCCC"> if you</font><font color="#E5E5E5"> just</font>
+
+549
+00:20:51,419 --> 00:20:52,890
+<font color="#CCCCCC">tweak it a little bit it can</font><font color="#E5E5E5"> look quite</font>
+
+550
+00:20:52,890 --> 00:20:55,530
+<font color="#CCCCCC">good and that is pretty much it now the</font>
+
+551
+00:20:55,530 --> 00:20:57,720
+component<font color="#E5E5E5"> I am NOT going to get into</font>
+
+552
+00:20:57,720 --> 00:20:59,490
+this<font color="#E5E5E5"> because this is a lot of stuff</font>
+
+553
+00:20:59,490 --> 00:21:01,559
+we're going<font color="#E5E5E5"> to</font><font color="#CCCCCC"> be doing with code as</font>
+
+554
+00:21:01,559 --> 00:21:03,360
+soon as we understand how<font color="#E5E5E5"> to put it and</font>
+
+555
+00:21:03,360 --> 00:21:06,419
+finally the window is<font color="#CCCCCC"> just to pop your</font>
+
+556
+00:21:06,419 --> 00:21:08,520
+<font color="#E5E5E5">windows back so if you just say you</font>
+
+557
+00:21:08,520 --> 00:21:11,280
+delete your<font color="#E5E5E5"> are key right here it's a</font>
+
+558
+00:21:11,280 --> 00:21:12,690
+floating<font color="#E5E5E5"> window now</font><font color="#CCCCCC"> and you just click</font>
+
+559
+00:21:12,690 --> 00:21:15,809
+<font color="#CCCCCC">on X</font><font color="#E5E5E5"> you lose it you</font><font color="#CCCCCC"> can</font><font color="#E5E5E5"> find it back in</font>
+
+560
+00:21:15,809 --> 00:21:17,850
+the window so as you<font color="#E5E5E5"> can fill</font><font color="#CCCCCC"> out right</font>
+
+561
+00:21:17,850 --> 00:21:21,510
+here<font color="#E5E5E5"> our key control for you pop it</font><font color="#CCCCCC"> back</font>
+
+562
+00:21:21,510 --> 00:21:25,640
+up<font color="#E5E5E5"> and here you go you can actually just</font>
+
+563
+00:21:25,640 --> 00:21:30,270
+<font color="#E5E5E5">put it back where</font><font color="#CCCCCC"> it was</font><font color="#E5E5E5"> like this so</font>
+
+564
+00:21:30,270 --> 00:21:31,650
+this<font color="#E5E5E5"> is where I'm actually going</font><font color="#CCCCCC"> to end</font>
+
+565
+00:21:31,650 --> 00:21:33,870
+the episode<font color="#E5E5E5"> today we had a rough look at</font>
+
+566
+00:21:33,870 --> 00:21:36,270
+how the engine<font color="#CCCCCC"> actually just looks where</font>
+
+567
+00:21:36,270 --> 00:21:38,130
+we can click how the windows work a
+
+568
+00:21:38,130 --> 00:21:40,710
+little<font color="#E5E5E5"> bit it is not supposed to be like</font>
+
+569
+00:21:40,710 --> 00:21:41,880
+<font color="#E5E5E5">something you understand right away</font>
+
+570
+00:21:41,880 --> 00:21:45,000
+<font color="#CCCCCC">you're</font><font color="#E5E5E5"> going to be understanding</font><font color="#CCCCCC"> just by</font>
+
+571
+00:21:45,000 --> 00:21:47,370
+practicing just<font color="#E5E5E5"> by using it a lot so</font>
+
+572
+00:21:47,370 --> 00:21:49,020
+guys thanks for watching I invite you to
+
+573
+00:21:49,020 --> 00:21:51,210
+<font color="#E5E5E5">watch the</font><font color="#CCCCCC"> next episode which is</font><font color="#E5E5E5"> going</font><font color="#CCCCCC"> to</font>
+
+574
+00:21:51,210 --> 00:21:53,340
+be about the assets<font color="#E5E5E5"> and we're going to</font>
+
+575
+00:21:53,340 --> 00:21:54,750
+be importing<font color="#CCCCCC"> some cool stuff</font><font color="#E5E5E5"> I'm going</font>
+
+576
+00:21:54,750 --> 00:21:56,760
+<font color="#E5E5E5">to be looking at texture we're gonna be</font>
+
+577
+00:21:56,760 --> 00:21:59,460
+<font color="#E5E5E5">looking at model scripts material a lot</font>
+
+578
+00:21:59,460 --> 00:22:00,929
+of stuff<font color="#E5E5E5"> so guys just</font><font color="#CCCCCC"> make sure you tune</font>
+
+579
+00:22:00,929 --> 00:22:02,760
+in also check out the<font color="#CCCCCC"> channel subscribe</font>
+
+580
+00:22:02,760 --> 00:22:04,650
+<font color="#CCCCCC">to the channel check out the patreon</font>
+
+581
+00:22:04,650 --> 00:22:06,480
+page if<font color="#CCCCCC"> you wish to just support me and</font>
+
+582
+00:22:06,480 --> 00:22:08,760
+to<font color="#CCCCCC"> support me making</font><font color="#E5E5E5"> some more course</font>
+
+583
+00:22:08,760 --> 00:22:10,530
+because I'm actually having quite<font color="#E5E5E5"> a lot</font>
+
+584
+00:22:10,530 --> 00:22:12,630
+<font color="#E5E5E5">of fun that's</font><font color="#CCCCCC"> what</font><font color="#E5E5E5"> I'm saying it's only</font>
+
+585
+00:22:12,630 --> 00:22:15,030
+my<font color="#E5E5E5"> first course but</font><font color="#CCCCCC"> still um I'm having</font>
+
+586
+00:22:15,030 --> 00:22:16,559
+<font color="#E5E5E5">quite a lot of fun so</font><font color="#CCCCCC"> just check out the</font>
+
+587
+00:22:16,559 --> 00:22:17,340
+patreon page
+
+588
+00:22:17,340 --> 00:22:20,010
+if you wish to<font color="#E5E5E5"> quit so check out the</font>
+
+589
+00:22:20,010 --> 00:22:21,600
+patreon page<font color="#E5E5E5"> if you wish</font><font color="#CCCCCC"> to support</font><font color="#E5E5E5"> me</font>
+
+590
+00:22:21,600 --> 00:22:24,450
+other<font color="#E5E5E5"> than that please quit</font><font color="#CCCCCC"> if you're</font>
+
+591
+00:22:24,450 --> 00:22:26,400
+unable<font color="#CCCCCC"> to support via patreon then just</font>
+
+592
+00:22:26,400 --> 00:22:28,140
+leave a like on this video<font color="#E5E5E5"> it helps</font>
+
+593
+00:22:28,140 --> 00:22:30,120
+<font color="#E5E5E5">quite a lot you</font><font color="#CCCCCC"> can also leave a comment</font>
+
+594
+00:22:30,120 --> 00:22:31,800
+which<font color="#CCCCCC"> is also</font><font color="#E5E5E5"> going to help quite a lot</font>
+
+595
+00:22:31,800 --> 00:22:34,200
+<font color="#E5E5E5">and I'll just make sure</font><font color="#CCCCCC"> to</font><font color="#E5E5E5"> just read all</font>
+
+596
+00:22:34,200 --> 00:22:35,730
+of<font color="#E5E5E5"> them and try to reply to your</font>
+
+597
+00:22:35,730 --> 00:22:37,800
+question guys<font color="#CCCCCC"> I have a lot of question</font>
+
+598
+00:22:37,800 --> 00:22:40,110
+<font color="#E5E5E5">coming in but I do read every</font><font color="#CCCCCC"> single one</font>
+
+599
+00:22:40,110 --> 00:22:42,330
+of your comment<font color="#E5E5E5"> and I'll do my best to</font>
+
+600
+00:22:42,330 --> 00:22:43,590
+actually<font color="#E5E5E5"> read them all for this video</font>
+
+601
+00:22:43,590 --> 00:22:45,510
+specifically because<font color="#E5E5E5"> it's the start of</font>
+
+602
+00:22:45,510 --> 00:22:48,210
+<font color="#CCCCCC">the</font><font color="#E5E5E5"> course so guys thanks for</font><font color="#CCCCCC"> watching</font>
+
+603
+00:22:48,210 --> 00:00:00,000
+again and<font color="#CCCCCC"> I will</font><font color="#E5E5E5"> see you next time</font>
+

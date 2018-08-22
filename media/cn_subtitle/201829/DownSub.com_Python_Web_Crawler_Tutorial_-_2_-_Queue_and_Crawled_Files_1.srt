@@ -1,0 +1,716 @@
+1
+00:00:00,000 --> 00:00:02,970
+ <font color="#CCCCCC">我们已经欢迎回来了 </font>
+
+2
+00:00:02,970 --> 00:00:04,950
+ <font color="#E5E5E5">我要展示的这个小教程 </font>
+
+3
+00:00:04,950 --> 00:00:06,779
+ <font color="#CCCCCC">你们这些如何创建数据文件 </font>
+
+4
+00:00:06,779 --> 00:00:09,540
+其他<font color="#E5E5E5">的话，是</font><font color="#CCCCCC">要在文件</font>
+
+5
+00:00:09,540 --> 00:00:13,139
+ <font color="#E5E5E5">现在进入</font><font color="#CCCCCC">我们的项目目录 </font>
+
+6
+00:00:13,139 --> 00:00:15,120
+ <font color="#E5E5E5">您实际上只抓取您的每个网站 </font>
+
+7
+00:00:15,120 --> 00:00:18,570
+有两个文件<font color="#CCCCCC">，那就是Q和 </font>
+
+8
+00:00:18,570 --> 00:00:21,689
+ <font color="#CCCCCC">已爬网 </font><font color="#E5E5E5">文件和这些文件 </font>
+
+9
+00:00:21,689 --> 00:00:23,580
+这里只有一个<font color="#E5E5E5">链接列表</font>
+
+10
+00:00:23,580 --> 00:00:25,859
+其实<font color="#E5E5E5">真的很 </font><font color="#CCCCCC">容易 </font><font color="#E5E5E5">理解 </font>
+
+11
+00:00:25,859 --> 00:00:27,630
+基本上每当<font color="#E5E5E5">我们打架 </font>
+
+12
+00:00:27,630 --> 00:00:31,650
+他们说战斗机<font color="#E5E5E5">我们的蜘蛛首先开始 </font>
+
+13
+00:00:31,650 --> 00:00:33,719
+什么它<font color="#CCCCCC">会 </font><font color="#E5E5E5">做的是它已经 </font>
+
+14
+00:00:33,719 --> 00:00:36,270
+已在<font color="#E5E5E5">主页，这 </font><font color="#CCCCCC">是 </font><font color="#E5E5E5">唯一</font><font color="#CCCCCC">链接 </font>
+
+15
+00:00:36,270 --> 00:00:38,640
+ <font color="#E5E5E5">当然 ，我们曾经给过它 </font>
+
+16
+00:00:38,640 --> 00:00:41,399
+它需要<font color="#E5E5E5">一个起点，所以从这里开始 </font>
+
+17
+00:00:41,399 --> 00:00:42,960
+ <font color="#CCCCCC">它将会发生什么 </font>
+
+18
+00:00:42,960 --> 00:00:44,550
+ <font color="#E5E5E5">继续开始收集所有 </font><font color="#CCCCCC">的 </font>
+
+19
+00:00:44,550 --> 00:00:49,110
+ <font color="#E5E5E5">这些URL </font><font color="#CCCCCC">美容业务HTML计算机 </font>
+
+20
+00:00:49,110 --> 00:00:51,329
+科学HTML再次我知道<font color="#E5E5E5">不是 </font>
+
+21
+00:00:51,329 --> 00:00:52,949
+ <font color="#CCCCCC">实际的URL，但这 </font><font color="#E5E5E5">只是一个 </font>
+
+22
+00:00:52,949 --> 00:00:55,379
+例子， <font color="#E5E5E5">所以它将开始 </font>
+
+23
+00:00:55,379 --> 00:00:57,960
+这一页，每次发现<font color="#E5E5E5">这个链接</font>
+
+24
+00:00:57,960 --> 00:01:00,180
+一个这一个这<font color="#CCCCCC">一个 </font><font color="#E5E5E5">这块 </font><font color="#CCCCCC">手表现在 </font>
+
+25
+00:01:00,180 --> 00:01:02,640
+这次访问<font color="#E5E5E5">的Android论坛一个是</font><font color="#CCCCCC">要 </font>
+
+26
+00:01:02,640 --> 00:01:05,430
+将所有这些URL添加<font color="#CCCCCC">到等待列表中 </font>
+
+27
+00:01:05,430 --> 00:01:07,470
+ <font color="#E5E5E5">现在每当它完成爬行 </font>
+
+28
+00:01:07,470 --> 00:01:09,840
+页面并收集<font color="#E5E5E5">它的所有链接</font>
+
+29
+00:01:09,840 --> 00:01:12,320
+继续<font color="#CCCCCC">采取这个URL和 </font>
+
+30
+00:01:12,320 --> 00:01:15,509
+将它添加<font color="#CCCCCC">到人群文件中为什么我们这样做 </font>
+
+31
+00:01:15,509 --> 00:01:17,700
+ <font color="#E5E5E5">那很好，因为那时候我们还在 </font>
+
+32
+00:01:17,700 --> 00:01:20,520
+ <font color="#E5E5E5">另一页，我们发现此链接正确 </font>
+
+33
+00:01:20,520 --> 00:01:22,200
+这里链接回<font color="#CCCCCC">主页 </font>
+
+34
+00:01:22,200 --> 00:01:24,390
+ <font color="#E5E5E5">我们不想继续 </font><font color="#CCCCCC">追捕它 </font>
+
+35
+00:01:24,390 --> 00:01:26,220
+我们已经<font color="#CCCCCC">拥挤了，所以我们需要 </font>
+
+36
+00:01:26,220 --> 00:01:27,960
+跟踪<font color="#E5E5E5">我们已经 </font><font color="#CCCCCC">有的页面 </font>
+
+37
+00:01:27,960 --> 00:01:30,630
+抓取<font color="#E5E5E5">了我们发现的链接 </font>
+
+38
+00:01:30,630 --> 00:01:32,250
+在我们没有抓取的等待名单上
+
+39
+00:01:32,250 --> 00:01:35,009
+然而Q或<font color="#E5E5E5">等待名单和 </font>
+
+40
+00:01:35,009 --> 00:01:38,939
+人群文件<font color="#E5E5E5">，这就是我们所需要的一切 </font>
+
+41
+00:01:38,939 --> 00:01:40,860
+领先<font color="#E5E5E5">，做到这一点 </font><font color="#CCCCCC">， </font><font color="#E5E5E5">好吧 </font>
+
+42
+00:01:40,860 --> 00:01:43,409
+ <font color="#E5E5E5">顺便说一下 </font><font color="#CCCCCC">我想要的 </font><font color="#E5E5E5">另一件很酷的事情 </font>
+
+43
+00:01:43,409 --> 00:01:47,310
+ <font color="#E5E5E5">指出你只看到一个线程 </font>
+
+44
+00:01:47,310 --> 00:01:49,320
+ <font color="#E5E5E5">是你需要卷曲这个主页 </font>
+
+45
+00:01:49,320 --> 00:01:51,750
+ <font color="#E5E5E5">你只需要一个 </font><font color="#CCCCCC">小机器人就可以了 </font>
+
+46
+00:01:51,750 --> 00:01:54,659
+每当<font color="#E5E5E5">我们有一堆链接所以 </font><font color="#CCCCCC">1 2 </font>
+
+47
+00:01:54,659 --> 00:01:57,180
+ <font color="#CCCCCC">3 4 5 6 7 8 9 10让 </font><font color="#E5E5E5">我们 </font><font color="#CCCCCC">说 </font><font color="#E5E5E5">有 </font>
+
+48
+00:01:57,180 --> 00:02:00,090
+ <font color="#E5E5E5">等待名单中的 10个链接就好了 </font>
+
+49
+00:02:00,090 --> 00:02:02,610
+ <font color="#E5E5E5">让我们说它需要一秒钟 </font>
+
+50
+00:02:02,610 --> 00:02:04,259
+抓取<font color="#E5E5E5">一个 </font><font color="#CCCCCC">意味着它 </font><font color="#E5E5E5">的页面 </font>
+
+51
+00:02:04,259 --> 00:02:06,000
+花10 <font color="#E5E5E5">秒钟来 </font><font color="#CCCCCC">卷曲所有这些 </font>
+
+52
+00:02:06,000 --> 00:02:07,920
+ <font color="#E5E5E5">我真的有时间的页面</font>
+
+53
+00:02:07,920 --> 00:02:09,389
+要<font color="#E5E5E5">设置这个程序并制作 </font><font color="#CCCCCC">它 </font>
+
+54
+00:02:09,389 --> 00:02:11,910
+多线程意味着我们要走了
+
+55
+00:02:11,910 --> 00:02:13,050
+ <font color="#E5E5E5">制作一个程序 </font>
+
+56
+00:02:13,050 --> 00:02:15,990
+ <font color="#E5E5E5">同时破坏所有这些页面 </font>
+
+57
+00:02:15,990 --> 00:02:17,850
+ <font color="#E5E5E5">所以我们可以 </font><font color="#CCCCCC">卷曲一样 </font>
+
+58
+00:02:17,850 --> 00:02:20,550
+ <font color="#CCCCCC">一次 </font><font color="#E5E5E5">八到 </font><font color="#CCCCCC">十六页 </font><font color="#E5E5E5">所以它是 </font>
+
+59
+00:02:20,550 --> 00:02:22,800
+ <font color="#E5E5E5">要加快 </font><font color="#CCCCCC">步伐了一点 </font><font color="#E5E5E5">，但 我 </font><font color="#CCCCCC">再次 </font>
+
+60
+00:02:22,800 --> 00:02:24,690
+获得<font color="#CCCCCC">标题 </font><font color="#E5E5E5">的那种 </font><font color="#CCCCCC">自己 </font><font color="#E5E5E5">，真实 </font>
+
+61
+00:02:24,690 --> 00:02:28,230
+基本上<font color="#E5E5E5">就是我们正在做的 </font><font color="#CCCCCC">所以</font><font color="#E5E5E5">现在 </font>
+
+62
+00:02:28,230 --> 00:02:34,260
+我只想<font color="#E5E5E5">说创建 </font><font color="#CCCCCC">队列 </font><font color="#E5E5E5">并抓取 </font>
+
+63
+00:02:34,260 --> 00:02:39,000
+ <font color="#E5E5E5">文件现在再次 </font><font color="#CCCCCC">像上次一样 </font>
+
+64
+00:02:39,000 --> 00:02:40,830
+ <font color="#E5E5E5">如果你不想创建这些文件 </font>
+
+65
+00:02:40,830 --> 00:02:42,630
+他们已经存在， <font color="#CCCCCC">因为如果他们 </font>
+
+66
+00:02:42,630 --> 00:02:44,700
+已<font color="#CCCCCC">存在 </font><font color="#E5E5E5">意味着你的机器人 </font>
+
+67
+00:02:44,700 --> 00:02:46,980
+已经<font color="#E5E5E5">运行，你知道 </font>
+
+68
+00:02:46,980 --> 00:02:49,710
+ <font color="#CCCCCC">你像我不 </font><font color="#E5E5E5">知道的那样 </font><font color="#CCCCCC">聚集了 </font><font color="#E5E5E5">20％ </font>
+
+69
+00:02:49,710 --> 00:02:51,750
+ <font color="#E5E5E5">网站已经是你不想要的 </font>
+
+70
+00:02:51,750 --> 00:02:53,400
+重复<font color="#E5E5E5">自己， </font><font color="#CCCCCC">你需要 </font><font color="#E5E5E5">保持这个 </font>
+
+71
+00:02:53,400 --> 00:02:57,450
+高效， <font color="#E5E5E5">所以我们只会说呃 </font><font color="#CCCCCC">def </font>
+
+72
+00:02:57,450 --> 00:03:03,360
+ <font color="#CCCCCC">现在再次创建数据文件</font>
+
+73
+00:03:03,360 --> 00:03:05,730
+ <font color="#CCCCCC">我们有两条 </font><font color="#E5E5E5">信息 </font>
+
+74
+00:03:05,730 --> 00:03:07,920
+需要<font color="#E5E5E5">项目中的项目名称 </font>
+
+75
+00:03:07,920 --> 00:03:09,900
+ <font color="#CCCCCC">名字 </font><font color="#E5E5E5">通常只是它可以 </font>
+
+76
+00:03:09,900 --> 00:03:13,470
+ <font color="#CCCCCC">无论用户输入什么，但99％ </font>
+
+77
+00:03:13,470 --> 00:03:16,440
+ <font color="#E5E5E5">我只是要成为域名 </font>
+
+78
+00:03:16,440 --> 00:03:19,950
+ <font color="#E5E5E5">没有顶级 </font><font color="#CCCCCC">域名，所以 </font><font color="#E5E5E5">com </font>
+
+79
+00:03:19,950 --> 00:03:22,680
+ <font color="#E5E5E5">点edu或这个例子中的任何东西 </font>
+
+80
+00:03:22,680 --> 00:03:25,170
+我只是<font color="#E5E5E5">将项目名称保留为 </font><font color="#CCCCCC">新 </font><font color="#E5E5E5">名称 </font>
+
+81
+00:03:25,170 --> 00:03:28,200
+ <font color="#CCCCCC">波士顿，这将是 </font><font color="#E5E5E5">家 </font>
+
+82
+00:03:28,200 --> 00:03:31,800
+ <font color="#E5E5E5">页面URL所以再次在项目中 </font>
+
+83
+00:03:31,800 --> 00:03:34,140
+目录名是一样的，所以我
+
+84
+00:03:34,140 --> 00:03:37,980
+只说项目<font color="#CCCCCC">名称是第一个 </font>
+
+85
+00:03:37,980 --> 00:03:39,600
+ <font color="#E5E5E5">我们需要的东西，第二个是 </font>
+
+86
+00:03:39,600 --> 00:03:43,950
+基本URL <font color="#E5E5E5">，我们需要它，因为我们 </font>
+
+87
+00:03:43,950 --> 00:03:48,570
+需要给它<font color="#CCCCCC">一个起点 </font><font color="#E5E5E5">所以 </font>
+
+88
+00:03:48,570 --> 00:03:56,580
+ <font color="#CCCCCC">队列我只会说项目名称加Q. </font>
+
+89
+00:03:56,580 --> 00:04:00,510
+文字<font color="#E5E5E5">好，所以我 </font><font color="#CCCCCC">只想 </font><font color="#E5E5E5">去 </font>
+
+90
+00:04:00,510 --> 00:04:03,270
+提前<font color="#E5E5E5">并为 </font><font color="#CCCCCC">文件 </font><font color="#E5E5E5">创建一个变量 </font>
+
+91
+00:04:03,270 --> 00:04:04,860
+路径只是<font color="#CCCCCC">所以我 </font><font color="#E5E5E5">不必 </font><font color="#CCCCCC">输入 </font><font color="#E5E5E5">这个 </font>
+
+92
+00:04:04,860 --> 00:04:08,160
+每次<font color="#E5E5E5">基本上都 </font><font color="#CCCCCC">在这个项目中 </font>
+
+93
+00:04:08,160 --> 00:04:09,780
+就<font color="#E5E5E5">在这里，我们将有 </font><font color="#CCCCCC">一个文件 </font>
+
+94
+00:04:09,780 --> 00:04:13,290
+称为<font color="#E5E5E5">Q dot txt，所有这个文件都是 </font>
+
+95
+00:04:13,290 --> 00:04:16,709
+ <font color="#E5E5E5">将成为是对链接列表 </font>
+
+96
+00:04:16,709 --> 00:04:19,380
+候补名单<font color="#E5E5E5">等待被抓获 </font>
+
+97
+00:04:19,380 --> 00:04:21,920
+ <font color="#E5E5E5">我喜欢爬行的同样的事情</font>
+
+98
+00:04:21,920 --> 00:04:24,950
+需要<font color="#E5E5E5">复制，所以 </font><font color="#CCCCCC">人群才刚刚开始 </font>
+
+99
+00:04:24,950 --> 00:04:32,170
+ <font color="#E5E5E5">是项目名称 </font><font color="#CCCCCC">加上爬网点 </font><font color="#E5E5E5">文本 </font>
+
+100
+00:04:32,170 --> 00:04:36,380
+所以你现在再去<font color="#E5E5E5">，我们需要 </font>
+
+101
+00:04:36,380 --> 00:04:38,150
+ <font color="#CCCCCC">在我们之前 检查 </font><font color="#E5E5E5">这些文件是否存在 </font>
+
+102
+00:04:38,150 --> 00:04:39,350
+实际上继续前进<font color="#E5E5E5">， </font><font color="#CCCCCC">在创建它们 </font>
+
+103
+00:04:39,350 --> 00:04:40,910
+如果你喜欢<font color="#E5E5E5">这样做的话 </font>
+
+104
+00:04:40,910 --> 00:04:47,510
+第二<font color="#E5E5E5">次，所以如果不是OS点路径点是 </font>
+
+105
+00:04:47,510 --> 00:04:51,440
+文件， <font color="#E5E5E5">我将销毁 </font><font color="#CCCCCC">队列，所以我们 </font>
+
+106
+00:04:51,440 --> 00:04:56,480
+基本上<font color="#E5E5E5">说 </font><font color="#CCCCCC">这个文件 </font><font color="#E5E5E5">存在 </font>
+
+107
+00:04:56,480 --> 00:04:56,990
+已经
+
+108
+00:04:56,990 --> 00:04:59,750
+如果没有那么我们<font color="#CCCCCC">可以继续 </font><font color="#E5E5E5">前进 </font>
+
+109
+00:04:59,750 --> 00:05:01,700
+ <font color="#E5E5E5">现在创建它我会快速做 </font>
+
+110
+00:05:01,700 --> 00:05:03,740
+ <font color="#CCCCCC">像一秒钟一样的小功能 </font>
+
+111
+00:05:03,740 --> 00:05:05,030
+ <font color="#E5E5E5">这将是两个 </font>
+
+112
+00:05:05,030 --> 00:05:06,560
+分钟<font color="#E5E5E5">写下它所做的全部就是它 </font>
+
+113
+00:05:06,560 --> 00:05:09,320
+ <font color="#E5E5E5">写一个新的或创建一个新的文本文件 </font>
+
+114
+00:05:09,320 --> 00:05:13,190
+ <font color="#CCCCCC">所以我会说写文件 </font><font color="#E5E5E5">，无论何时你 </font>
+
+115
+00:05:13,190 --> 00:05:13,970
+写一个<font color="#E5E5E5">文件 </font>
+
+116
+00:05:13,970 --> 00:05:15,980
+ <font color="#E5E5E5">你需要 </font><font color="#CCCCCC">的本质上是文件 </font>
+
+117
+00:05:15,980 --> 00:05:21,200
+路径<font color="#CCCCCC">是 </font><font color="#E5E5E5">新的波士顿Q点X所以 </font>
+
+118
+00:05:21,200 --> 00:05:23,830
+这是<font color="#E5E5E5">路径或文件名和 </font>
+
+119
+00:05:23,830 --> 00:05:27,680
+ <font color="#CCCCCC">第二件事情是什么样的数据是</font><font color="#E5E5E5">要去 </font>
+
+120
+00:05:27,680 --> 00:05:30,230
+在文件中，所以你<font color="#E5E5E5">现在可以说嘿 </font>
+
+121
+00:05:30,230 --> 00:05:33,380
+我的名字是巴基但这<font color="#CCCCCC">是 </font>
+
+122
+00:05:33,380 --> 00:05:35,860
+ <font color="#E5E5E5">这个 </font><font color="#CCCCCC">教程 </font><font color="#E5E5E5">再次 毫无意义 </font>
+
+123
+00:05:35,860 --> 00:05:38,150
+只要<font color="#CCCCCC">您</font><font color="#E5E5E5">创建 队列或 </font>
+
+124
+00:05:38,150 --> 00:05:40,910
+等待<font color="#E5E5E5">列表</font><font color="#CCCCCC">中</font><font color="#E5E5E5">你 第一次 </font>
+
+125
+00:05:40,910 --> 00:05:42,530
+ <font color="#E5E5E5">因为那时不想空 </font>
+
+126
+00:05:42,530 --> 00:05:44,120
+ <font color="#CCCCCC">每当你的程序实际 </font><font color="#E5E5E5">启动时 </font>
+
+127
+00:05:44,120 --> 00:05:45,620
+看起来<font color="#CCCCCC">好像我的文件是什么 </font>
+
+128
+00:05:45,620 --> 00:05:48,680
+ <font color="#E5E5E5">需要 </font><font color="#CCCCCC">卷曲没有我做，它会 </font>
+
+129
+00:05:48,680 --> 00:05:50,690
+ <font color="#CCCCCC">是最短的网络爬虫日益 </font><font color="#E5E5E5">等什么 </font>
+
+130
+00:05:50,690 --> 00:05:52,310
+我们真的<font color="#E5E5E5">要做的就是我们 </font>
+
+131
+00:05:52,310 --> 00:05:54,530
+ <font color="#E5E5E5">当 </font><font color="#CCCCCC">你 </font><font color="#E5E5E5">这么做时， </font><font color="#CCCCCC">我会把它传递给你 </font>
+
+132
+00:05:54,530 --> 00:05:57,280
+程序首先启动它有一个臂
+
+133
+00:05:57,280 --> 00:06:00,470
+ <font color="#CCCCCC">等待名单 </font><font color="#E5E5E5">中的 </font><font color="#CCCCCC">URL， </font><font color="#E5E5E5">那就是 </font><font color="#CCCCCC">你的 </font>
+
+134
+00:06:00,470 --> 00:06:02,630
+ <font color="#CCCCCC">主页 </font><font color="#E5E5E5">所以它说 </font><font color="#CCCCCC">好了让我 </font><font color="#E5E5E5">走 </font>
+
+135
+00:06:02,630 --> 00:06:04,580
+领先<font color="#E5E5E5">并 </font><font color="#CCCCCC">抓住 </font><font color="#E5E5E5">并开始爬行 </font>
+
+136
+00:06:04,580 --> 00:06:07,730
+从<font color="#E5E5E5">那里非常酷，我们是 </font>
+
+137
+00:06:07,730 --> 00:06:09,730
+ <font color="#CCCCCC">用爬行去做同样的事情 </font>
+
+138
+00:06:09,730 --> 00:06:16,980
+所以如果没有OS路径是文件
+
+139
+00:06:16,980 --> 00:06:19,260
+如果你没有<font color="#E5E5E5">那个，现在好吧</font>
+
+140
+00:06:19,260 --> 00:06:21,450
+创建然后继续<font color="#E5E5E5">写下来 </font>
+
+141
+00:06:21,450 --> 00:06:28,020
+每当<font color="#E5E5E5">我们这个文件再次出现</font>
+
+142
+00:06:28,020 --> 00:06:30,480
+制作<font color="#E5E5E5">我们想要的人群文件 </font>
+
+143
+00:06:30,480 --> 00:06:32,970
+ <font color="#E5E5E5">里面一个空文件</font><font color="#CCCCCC">进行任何操作 ， </font>
+
+144
+00:06:32,970 --> 00:06:35,160
+那是<font color="#E5E5E5">因为如果我们 </font><font color="#CCCCCC">继续 </font><font color="#E5E5E5">前进的话 </font>
+
+145
+00:06:35,160 --> 00:06:37,620
+制作<font color="#CCCCCC">它 </font><font color="#E5E5E5">并在那里抛出URL然后我们的 </font>
+
+146
+00:06:37,620 --> 00:06:38,790
+ <font color="#CCCCCC">程序 </font><font color="#E5E5E5">会认为我们 </font>
+
+147
+00:06:38,790 --> 00:06:40,680
+抓了这个，但<font color="#E5E5E5">我们刚创建了 </font>
+
+148
+00:06:40,680 --> 00:06:43,230
+ <font color="#E5E5E5">文件，所以我们显然没有卷曲 </font>
+
+149
+00:06:43,230 --> 00:06:45,570
+ <font color="#E5E5E5">这个页面一次又一次是什么的 </font>
+
+150
+00:06:45,570 --> 00:06:48,150
+将要发生的事情是我们<font color="#E5E5E5">要走了 </font>
+
+151
+00:06:48,150 --> 00:06:50,340
+提前<font color="#E5E5E5">看看等待名单爬行 </font>
+
+152
+00:06:50,340 --> 00:06:52,230
+ <font color="#E5E5E5">主页和我们完成后 </font>
+
+153
+00:06:52,230 --> 00:06:54,480
+ <font color="#E5E5E5">抓取这个然后我们将其移动到爬行 </font>
+
+154
+00:06:54,480 --> 00:06:58,260
+所以不是现在<font color="#E5E5E5">，是的，我们去了 </font>
+
+155
+00:06:58,260 --> 00:06:59,160
+这是<font color="#E5E5E5">如何工作的 </font>
+
+156
+00:06:59,160 --> 00:07:00,960
+ <font color="#E5E5E5">现在让我继续 </font><font color="#CCCCCC">创造 </font>
+
+157
+00:07:00,960 --> 00:07:03,690
+这个<font color="#CCCCCC">写文件在这里再没什么新鲜的 </font>
+
+158
+00:07:03,690 --> 00:07:08,610
+我会说<font color="#E5E5E5">呃 </font><font color="#CCCCCC">创建一个新的文件给 </font>
+
+159
+00:07:08,610 --> 00:07:14,490
+我自己<font color="#CCCCCC">在这里有一个def写文件 </font>
+
+160
+00:07:14,490 --> 00:07:17,490
+ <font color="#E5E5E5">我们只会 </font><font color="#CCCCCC">说道路或者道路 </font>
+
+161
+00:07:17,490 --> 00:07:19,470
+文件的名称和实际数据<font color="#E5E5E5">要 </font>
+
+162
+00:07:19,470 --> 00:07:22,290
+ <font color="#E5E5E5">写信给 </font><font color="#CCCCCC">它并创建一个 </font><font color="#E5E5E5">新的 </font>
+
+163
+00:07:22,290 --> 00:07:27,470
+文件<font color="#CCCCCC">我只是写一个 </font><font color="#E5E5E5">泡菜打开 </font>
+
+164
+00:07:27,590 --> 00:07:31,260
+给W中的路径代表权利<font color="#E5E5E5">，使 </font>
+
+165
+00:07:31,260 --> 00:07:33,750
+每当你这样做时， <font color="#CCCCCC">这 </font><font color="#E5E5E5">就是文件 </font>
+
+166
+00:07:33,750 --> 00:07:37,230
+名称<font color="#E5E5E5">，这是 </font><font color="#CCCCCC">在 </font><font color="#E5E5E5">写模式，所以你 </font>
+
+167
+00:07:37,230 --> 00:07:39,300
+ <font color="#E5E5E5">实际上可以将数据写入其中 </font>
+
+168
+00:07:39,300 --> 00:07:41,580
+ <font color="#E5E5E5">为了 </font><font color="#CCCCCC">实际写入数据 </font>
+
+169
+00:07:41,580 --> 00:07:45,210
+你<font color="#E5E5E5">只需要拿起那个文件句柄并打电话 </font>
+
+170
+00:07:45,210 --> 00:07:47,640
+写，然后你可以传递<font color="#CCCCCC">任何东西 </font>
+
+171
+00:07:47,640 --> 00:07:50,370
+你<font color="#CCCCCC">想要的数据， 所以我们正在创建 </font><font color="#E5E5E5">文件 </font>
+
+172
+00:07:50,370 --> 00:07:52,920
+ <font color="#E5E5E5">将数据写入 </font><font color="#CCCCCC">它并且它也很好 </font>
+
+173
+00:07:52,920 --> 00:07:55,110
+家务管理时关闭文件
+
+174
+00:07:55,110 --> 00:07:56,640
+你完成了<font color="#CCCCCC">，所有这一切都是它 </font>
+
+175
+00:07:56,640 --> 00:07:58,800
+释放内存资源<font color="#E5E5E5">并确保 </font>
+
+176
+00:07:58,800 --> 00:08:01,170
+你没有<font color="#E5E5E5">任何缓慢的数据泄漏或 </font>
+
+177
+00:08:01,170 --> 00:08:03,450
+任何奇怪的错误或类似<font color="#E5E5E5">的东西</font>
+
+178
+00:08:03,450 --> 00:08:06,780
+ <font color="#E5E5E5">所以，你去看看甜美 </font>
+
+179
+00:08:06,780 --> 00:00:00,000
+美丽
+

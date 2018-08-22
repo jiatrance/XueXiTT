@@ -1,0 +1,484 @@
+1
+00:00:00,060 --> 00:00:02,310
+ <font color="#CCCCCC">好的家伙在这个 </font><font color="#E5E5E5">视频 </font><font color="#CCCCCC">我想 </font>
+
+2
+00:00:02,310 --> 00:00:05,759
+和<font color="#E5E5E5">你谈谈返回值所以 </font>
+
+3
+00:00:05,759 --> 00:00:07,680
+ <font color="#CCCCCC">我们做的第一对功能</font>
+
+4
+00:00:07,680 --> 00:00:09,510
+他们<font color="#E5E5E5">做的是他们要么 </font><font color="#CCCCCC">刚刚印刷 </font>
+
+5
+00:00:09,510 --> 00:00:12,000
+立即<font color="#E5E5E5">或他们做出的东西</font>
+
+6
+00:00:12,000 --> 00:00:13,769
+像一个简单的计算和<font color="#E5E5E5">打印它 </font>
+
+7
+00:00:13,769 --> 00:00:16,470
+ <font color="#E5E5E5">然而，那里的答案很快</font>
+
+8
+00:00:16,470 --> 00:00:18,390
+ <font color="#CCCCCC">在某些 </font><font color="#E5E5E5">时候我们会去哪里 </font>
+
+9
+00:00:18,390 --> 00:00:20,279
+想要<font color="#CCCCCC">发挥功能 </font>
+
+10
+00:00:20,279 --> 00:00:22,560
+进行<font color="#E5E5E5">计算，我们不去 </font>
+
+11
+00:00:22,560 --> 00:00:24,029
+ <font color="#E5E5E5">想</font><font color="#CCCCCC">打印 </font><font color="#E5E5E5">出来当时 </font><font color="#CCCCCC">的 </font><font color="#E5E5E5">权利 </font>
+
+12
+00:00:24,029 --> 00:00:25,740
+那里<font color="#CCCCCC">我们 </font><font color="#E5E5E5">要做的是 </font>
+
+13
+00:00:25,740 --> 00:00:28,289
+实际存储的答案<font color="#E5E5E5">或 </font>
+
+14
+00:00:28,289 --> 00:00:30,720
+响应所以我们<font color="#CCCCCC">可以 </font><font color="#E5E5E5">在以后 </font><font color="#CCCCCC">使用 </font><font color="#E5E5E5">它 </font>
+
+15
+00:00:30,720 --> 00:00:35,250
+程序， <font color="#CCCCCC">所以我们怎么会这样 </font>
+
+16
+00:00:35,250 --> 00:00:37,649
+回答或<font color="#E5E5E5">结果并将其保存在 </font>
+
+17
+00:00:37,649 --> 00:00:40,829
+ <font color="#CCCCCC">变量以便 </font><font color="#E5E5E5">稍后 </font><font color="#CCCCCC">使用 我们 </font>
+
+18
+00:00:40,829 --> 00:00:42,899
+需要<font color="#E5E5E5">一种叫做回报的东西 </font>
+
+19
+00:00:42,899 --> 00:00:45,270
+ <font color="#CCCCCC">它 </font><font color="#E5E5E5">当然返回一个返回值 </font>
+
+20
+00:00:45,270 --> 00:00:48,930
+ <font color="#CCCCCC">所以对于 </font><font color="#E5E5E5">这个 </font><font color="#CCCCCC">例子我想做的是 </font>
+
+21
+00:00:48,930 --> 00:00:51,120
+我在所有<font color="#E5E5E5">程序教程中都这样做</font>
+
+22
+00:00:51,120 --> 00:00:53,550
+ <font color="#E5E5E5">我要告诉你们一个很酷的小家伙 </font>
+
+23
+00:00:53,550 --> 00:00:56,520
+功能并<font color="#CCCCCC">计算</font><font color="#E5E5E5">时代 </font>
+
+24
+00:00:56,520 --> 00:00:59,309
+ <font color="#E5E5E5">那你被允许 </font><font color="#CCCCCC">更新， </font><font color="#E5E5E5">以便为 女孩 </font>
+
+25
+00:00:59,309 --> 00:01:02,039
+ <font color="#E5E5E5">例如，我不能约会13岁的 </font><font color="#CCCCCC">我 </font>
+
+26
+00:01:02,039 --> 00:01:05,159
+只能和<font color="#E5E5E5">你 </font><font color="#CCCCCC">认识的人约会</font>
+
+27
+00:01:05,159 --> 00:01:07,560
+ <font color="#E5E5E5">适合 </font><font color="#CCCCCC">我的 </font><font color="#E5E5E5">年龄 </font><font color="#CCCCCC">我是27 </font><font color="#E5E5E5">岁 </font><font color="#CCCCCC">，所以我 </font>
+
+28
+00:01:07,560 --> 00:01:09,570
+不知道<font color="#E5E5E5">它就像是20岁 </font>
+
+29
+00:01:09,570 --> 00:01:12,270
+适当的年龄就像23 <font color="#E5E5E5">我知道的那样 </font>
+
+30
+00:01:12,270 --> 00:01:14,909
+ 25 <font color="#E5E5E5">实际上是一个公式 </font>
+
+31
+00:01:14,909 --> 00:01:17,780
+ <font color="#E5E5E5">我将会这样教它 </font>
+
+32
+00:01:17,780 --> 00:01:25,049
+ <font color="#E5E5E5">大声约会年龄就是名字和 </font>
+
+33
+00:01:25,049 --> 00:01:26,850
+ <font color="#CCCCCC">当然</font><font color="#E5E5E5">一条</font><font color="#CCCCCC">信息 </font>
+
+34
+00:01:26,850 --> 00:01:33,090
+ <font color="#E5E5E5">需要是我的年龄，所以在我们这之后 </font>
+
+35
+00:01:33,090 --> 00:01:34,860
+打算做的是我们要<font color="#CCCCCC">成为 </font>
+
+36
+00:01:34,860 --> 00:01:39,060
+计算<font color="#CCCCCC">我能够的女孩年龄 </font>
+
+37
+00:01:39,060 --> 00:01:41,909
+ <font color="#CCCCCC">迄今为止的限制所以公式为 </font>
+
+38
+00:01:41,909 --> 00:01:45,450
+ <font color="#CCCCCC">这是你的年龄 </font><font color="#E5E5E5">，所以我的年龄 </font>
+
+39
+00:01:45,450 --> 00:01:48,840
+ <font color="#E5E5E5">在我的情况下，这将是27分 </font>
+
+40
+00:01:48,840 --> 00:01:53,100
+ <font color="#CCCCCC">两个，并在你的头脑中添加七个 </font>
+
+41
+00:01:53,100 --> 00:01:57,299
+把你的年龄/ <font color="#CCCCCC">2加上 </font><font color="#E5E5E5">七 </font><font color="#CCCCCC">加 </font>
+
+42
+00:01:57,299 --> 00:01:59,189
+ <font color="#E5E5E5">你被允许约会的女孩的年龄</font>
+
+43
+00:01:59,189 --> 00:02:02,790
+ <font color="#E5E5E5">没有比这更年轻或它令人毛骨悚然 </font>
+
+44
+00:02:02,790 --> 00:02:05,759
+当然这是<font color="#CCCCCC">方程式 </font><font color="#E5E5E5">然而 </font>
+
+45
+00:02:05,759 --> 00:02:07,350
+我们<font color="#CCCCCC">只是不想 </font><font color="#E5E5E5">把它打印出来 </font>
+
+46
+00:02:07,350 --> 00:02:09,090
+现在<font color="#CCCCCC">我们要做的是 </font>
+
+47
+00:02:09,090 --> 00:02:11,270
+我们<font color="#E5E5E5">将采取这个 </font><font color="#CCCCCC">价值和 </font>
+
+48
+00:02:11,270 --> 00:02:13,030
+存储在变量中
+
+49
+00:02:13,030 --> 00:02:15,280
+以便我们以后可以<font color="#E5E5E5">使用它 </font>
+
+50
+00:02:15,280 --> 00:02:17,740
+ <font color="#CCCCCC">为此，我们需要一个新的 </font><font color="#E5E5E5">关键字 </font>
+
+51
+00:02:17,740 --> 00:02:20,830
+ <font color="#E5E5E5">它被称为回归，它说什么做 </font>
+
+52
+00:02:20,830 --> 00:02:23,170
+你想从这个计算回来什么
+
+53
+00:02:23,170 --> 00:02:25,030
+你想回答<font color="#E5E5E5">这个问题吗？ </font>
+
+54
+00:02:25,030 --> 00:02:29,770
+案件<font color="#E5E5E5">只是女孩的年龄，所以当然 </font>
+
+55
+00:02:29,770 --> 00:02:32,680
+我们可以<font color="#CCCCCC">用这个</font><font color="#E5E5E5">也 只是像 </font><font color="#CCCCCC">我们一样 </font>
+
+56
+00:02:32,680 --> 00:02:36,880
+ <font color="#E5E5E5">之前 </font><font color="#CCCCCC">你知道 </font><font color="#E5E5E5">，那不是 </font>
+
+57
+00:02:36,880 --> 00:02:40,180
+我希望我们可以召唤一个
+
+58
+00:02:40,180 --> 00:02:46,360
+ <font color="#E5E5E5">我的耳朵是下巴 </font>
+
+59
+00:02:46,360 --> 00:02:50,350
+好吧，这是山雀， <font color="#E5E5E5">我准备继续前进 </font>
+
+60
+00:02:50,350 --> 00:02:54,850
+ <font color="#CCCCCC">好的， </font><font color="#E5E5E5">所以我们会说 </font><font color="#CCCCCC">一个响亮的约会年龄 </font>
+
+61
+00:02:54,850 --> 00:03:00,850
+是27 <font color="#CCCCCC">岁，因为如果你现在需要你的年龄 </font>
+
+62
+00:03:00,850 --> 00:03:03,090
+我们<font color="#CCCCCC">就在 </font><font color="#E5E5E5">这里 </font><font color="#CCCCCC">运行这个程序 </font>
+
+63
+00:03:03,090 --> 00:03:05,140
+屏幕上没有打印出来，因为
+
+64
+00:03:05,140 --> 00:03:08,650
+ <font color="#E5E5E5">这整个陈述等于 </font>
+
+65
+00:03:08,650 --> 00:03:11,170
+返回值， <font color="#E5E5E5">我不 </font><font color="#CCCCCC">知道 </font><font color="#E5E5E5">是 </font><font color="#CCCCCC">什么 </font>
+
+66
+00:03:11,170 --> 00:03:14,110
+所以现在，这<font color="#E5E5E5">等于</font><font color="#CCCCCC">某一号码 </font>
+
+67
+00:03:14,110 --> 00:03:16,840
+ <font color="#E5E5E5">一个女孩的年龄，我想做的是 </font>
+
+68
+00:03:16,840 --> 00:03:20,950
+拿它<font color="#E5E5E5">并存储在变量中 </font>
+
+69
+00:03:20,950 --> 00:03:25,780
+ <font color="#CCCCCC">Bucky的限制等于某个数字 </font>
+
+70
+00:03:25,780 --> 00:03:30,570
+现在<font color="#CCCCCC">我现在可以做类似印刷的事情了 </font>
+
+71
+00:03:30,570 --> 00:03:36,930
+ Bucky <font color="#E5E5E5">可以约会 </font><font color="#CCCCCC">mmm </font><font color="#E5E5E5">我会这样做 </font>
+
+72
+00:03:36,930 --> 00:03:39,360
+约会女孩
+
+73
+00:03:39,360 --> 00:03:46,600
+ Bucky的限制或更老，所以现在我可以
+
+74
+00:03:46,600 --> 00:03:49,739
+ <font color="#CCCCCC">把 </font><font color="#E5E5E5">这个坏孩子 </font><font color="#CCCCCC">打印 出去看看吧 </font>
+
+75
+00:03:49,739 --> 00:03:54,609
+所以我的限制是， <font color="#E5E5E5">我可以约会女孩 </font>
+
+76
+00:03:54,609 --> 00:03:58,299
+ 20 <font color="#E5E5E5">岁 </font><font color="#CCCCCC">半 </font><font color="#E5E5E5">或更老，所以希望我 </font>
+
+77
+00:03:58,299 --> 00:03:59,560
+得到<font color="#E5E5E5">一个 </font><font color="#CCCCCC">二十五岁 </font><font color="#E5E5E5">， </font><font color="#CCCCCC">因为 </font>
+
+78
+00:03:59,560 --> 00:04:01,000
+ <font color="#E5E5E5">你知道她可以开车送我 </font>
+
+79
+00:04:01,000 --> 00:04:03,720
+酒吧周围如果你甚至不能这样喝
+
+80
+00:04:03,720 --> 00:04:05,980
+ <font color="#E5E5E5">说你真是太多了</font>
+
+81
+00:04:05,980 --> 00:04:07,870
+必须<font color="#E5E5E5">编辑出来，但严重的是，如果 </font>
+
+82
+00:04:07,870 --> 00:04:09,400
+任何女孩都在那里给<font color="#CCCCCC">我打个电话 </font>
+
+83
+00:04:09,400 --> 00:04:13,209
+ <font color="#E5E5E5">好吧无论如何继续 </font><font color="#CCCCCC">这样说 </font>
+
+84
+00:04:13,209 --> 00:04:15,970
+我们想<font color="#E5E5E5">为别人这样做 </font>
+
+85
+00:04:15,970 --> 00:04:19,600
+ <font color="#E5E5E5">好吧那就像最长的那样 </font>
+
+86
+00:04:19,600 --> 00:04:22,240
+ <font color="#E5E5E5">复制和粘贴之间的延迟 </font>
+
+87
+00:04:22,240 --> 00:04:25,090
+对，所以说<font color="#E5E5E5">我们想要做到这一点 </font>
+
+88
+00:04:25,090 --> 00:04:26,670
+ <font color="#CCCCCC">我的朋友在我的自由 </font>
+
+89
+00:04:26,670 --> 00:04:29,970
+是49 <font color="#CCCCCC">岁实际上 </font><font color="#E5E5E5">没有 </font>
+
+90
+00:04:29,970 --> 00:04:31,950
+朋友是49 <font color="#CCCCCC">岁其实没有 </font>
+
+91
+00:04:31,950 --> 00:04:36,210
+有任何朋友， <font color="#CCCCCC">好吧和他的 </font>
+
+92
+00:04:36,210 --> 00:04:40,590
+名字是令人毛骨悚然<font color="#E5E5E5">乔是啊我有一个朋友 </font>
+
+93
+00:04:40,590 --> 00:04:45,300
+ <font color="#CCCCCC">如果被命名为令人毛骨悚然的乔，他就会如此关心 </font>
+
+94
+00:04:45,300 --> 00:04:47,160
+我们拿这个<font color="#E5E5E5">副本并 </font><font color="#CCCCCC">粘贴它 </font>
+
+95
+00:04:47,160 --> 00:04:53,040
+拯救我们<font color="#E5E5E5">一段 </font><font color="#CCCCCC">时间令人毛骨悚然的乔让我们 </font>
+
+96
+00:04:53,040 --> 00:04:58,470
+看看他的<font color="#CCCCCC">极限是 </font><font color="#E5E5E5">我的极限 </font>
+
+97
+00:04:58,470 --> 00:05:02,040
+ <font color="#CCCCCC">任何27岁的人都没有 </font>
+
+98
+00:05:02,040 --> 00:05:04,230
+带走<font color="#E5E5E5">20岁半以下的女孩 </font>
+
+99
+00:05:04,230 --> 00:05:08,460
+ <font color="#CCCCCC">如果你49 </font><font color="#E5E5E5">岁，你的极限 </font>
+
+100
+00:05:08,460 --> 00:05:13,470
+ <font color="#E5E5E5">不仅仅是 31 岁半 </font>
+
+101
+00:05:13,470 --> 00:05:15,330
+ <font color="#E5E5E5">在本教程中我们了解了 </font>
+
+102
+00:05:15,330 --> 00:05:17,880
+返回值但<font color="#E5E5E5">我们也学习了 </font>
+
+103
+00:05:17,880 --> 00:05:20,070
+令人敬畏的等式让<font color="#E5E5E5">你可以搞清楚 </font>
+
+104
+00:05:20,070 --> 00:05:23,490
+ <font color="#E5E5E5">好吧 </font><font color="#CCCCCC">，我可以约会一个女孩的年轻 </font>
+
+105
+00:05:23,490 --> 00:05:25,110
+因为我知道你们<font color="#E5E5E5">在那里 </font>
+
+106
+00:05:25,110 --> 00:05:28,200
+ <font color="#E5E5E5">我想知道它，所以我实际上运行这个 </font>
+
+107
+00:05:28,200 --> 00:05:30,960
+计算并告诉我你的限制
+
+108
+00:05:30,960 --> 00:05:32,550
+论坛，因为<font color="#E5E5E5">我其实很 </font>
+
+109
+00:05:32,550 --> 00:05:35,250
+有兴趣<font color="#CCCCCC">知道，也 </font><font color="#E5E5E5">很酷 </font>
+
+110
+00:05:35,250 --> 00:05:38,340
+ <font color="#E5E5E5">事情</font><font color="#CCCCCC">你 可以做，如果有人 </font>
+
+111
+00:05:38,340 --> 00:05:40,260
+ <font color="#E5E5E5">想要 </font><font color="#CCCCCC">像迷你论坛 </font><font color="#E5E5E5">这样做 </font>
+
+112
+00:05:40,260 --> 00:05:44,460
+挑战<font color="#E5E5E5">你经历一份遗嘱清单 </font>
+
+113
+00:05:44,460 --> 00:05:49,230
+ <font color="#E5E5E5">说年龄就像是15到60岁并打印出来 </font>
+
+114
+00:05:49,230 --> 00:05:52,110
+人的年龄这个家伙的年龄和他们的年龄
+
+115
+00:05:52,110 --> 00:05:54,900
+限制<font color="#E5E5E5">在彼此旁边 </font>
+
+116
+00:05:54,900 --> 00:05:57,330
+ <font color="#E5E5E5">一次一排， </font><font color="#CCCCCC">这样就可以了 </font>
+
+117
+00:05:57,330 --> 00:05:58,830
+一个很酷的<font color="#CCCCCC">桌子，如果有人想要的话 </font>
+
+118
+00:05:58,830 --> 00:06:00,720
+ <font color="#CCCCCC">要做到这一点发布 </font><font color="#E5E5E5">我的代码 </font><font color="#CCCCCC">的 </font><font color="#E5E5E5">核心 </font>
+
+119
+00:06:00,720 --> 00:06:02,430
+我的<font color="#E5E5E5">论坛， </font><font color="#CCCCCC">但现在 </font><font color="#E5E5E5">感谢大家 </font>
+
+120
+00:06:02,430 --> 00:06:03,930
+看着<font color="#E5E5E5">别忘了订阅和那个 </font>
+
+121
+00:06:03,930 --> 00:00:00,000
+ <font color="#CCCCCC">以后 </font><font color="#E5E5E5">我们会看到你 </font>
+

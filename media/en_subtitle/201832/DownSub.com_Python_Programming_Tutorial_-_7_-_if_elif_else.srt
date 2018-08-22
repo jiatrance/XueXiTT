@@ -1,0 +1,804 @@
+1
+00:00:00,060 --> 00:00:02,879
+<font color="#CCCCCC">alright guys</font><font color="#E5E5E5"> so about two weeks ago</font><font color="#CCCCCC"> I</font>
+
+2
+00:00:02,879 --> 00:00:04,859
+had<font color="#CCCCCC"> this big</font><font color="#E5E5E5"> cardboard</font><font color="#CCCCCC"> box</font><font color="#E5E5E5"> to throw away</font>
+
+3
+00:00:04,859 --> 00:00:07,649
+so I have this trash<font color="#CCCCCC"> service that comes</font>
+
+4
+00:00:07,649 --> 00:00:09,570
+in<font color="#CCCCCC"> picks on my trash every week so I</font>
+
+5
+00:00:09,570 --> 00:00:11,490
+just<font color="#CCCCCC"> set it right</font><font color="#E5E5E5"> next to my trash and</font>
+
+6
+00:00:11,490 --> 00:00:13,469
+they just took<font color="#E5E5E5"> my trash but they left</font>
+
+7
+00:00:13,469 --> 00:00:16,049
+the<font color="#E5E5E5"> box</font><font color="#CCCCCC"> so I'm</font><font color="#E5E5E5"> like alright maybe if I</font>
+
+8
+00:00:16,049 --> 00:00:17,820
+put<font color="#E5E5E5"> it</font><font color="#CCCCCC"> inside the trash can</font>
+
+9
+00:00:17,820 --> 00:00:20,670
+then then they'll do it so last week
+
+10
+00:00:20,670 --> 00:00:22,350
+<font color="#E5E5E5">that's what I did I ripped it up I put</font>
+
+11
+00:00:22,350 --> 00:00:24,480
+it in the<font color="#E5E5E5"> trash can</font><font color="#CCCCCC"> and then when they</font>
+
+12
+00:00:24,480 --> 00:00:26,070
+came they this took the<font color="#CCCCCC"> one with the</font>
+
+13
+00:00:26,070 --> 00:00:28,710
+trash and left the cardboard so<font color="#E5E5E5"> sorry</font>
+
+14
+00:00:28,710 --> 00:00:31,109
+<font color="#E5E5E5">sounds like</font><font color="#CCCCCC"> alright it</font><font color="#E5E5E5"> must be like um I</font>
+
+15
+00:00:31,109 --> 00:00:33,030
+not must not<font color="#CCCCCC"> be allowed to throw away</font>
+
+16
+00:00:33,030 --> 00:00:34,739
+cardboard or<font color="#CCCCCC"> something so what I did is</font>
+
+17
+00:00:34,739 --> 00:00:37,110
+I this week<font color="#E5E5E5"> I ripped it up and I stuffed</font>
+
+18
+00:00:37,110 --> 00:00:39,629
+it<font color="#E5E5E5"> inside a bag and then I put the bag</font>
+
+19
+00:00:39,629 --> 00:00:42,030
+<font color="#E5E5E5">inside my garbage can and this morning</font>
+
+20
+00:00:42,030 --> 00:00:43,860
+<font color="#CCCCCC">the dude knocks on my door and he</font><font color="#E5E5E5"> goes</font>
+
+21
+00:00:43,860 --> 00:00:45,930
+<font color="#E5E5E5">sir</font><font color="#CCCCCC"> can you</font><font color="#E5E5E5"> stop trying to throw away</font>
+
+22
+00:00:45,930 --> 00:00:48,690
+your cardboard please so that was kind
+
+23
+00:00:48,690 --> 00:00:51,210
+of embarrassing<font color="#CCCCCC"> however I think</font><font color="#E5E5E5"> if I</font>
+
+24
+00:00:51,210 --> 00:00:53,520
+<font color="#E5E5E5">just give up</font><font color="#CCCCCC"> now then</font><font color="#E5E5E5"> it'll be like</font>
+
+25
+00:00:53,520 --> 00:00:56,100
+admitting<font color="#CCCCCC"> defeat</font><font color="#E5E5E5"> so if anyone has any</font>
+
+26
+00:00:56,100 --> 00:00:59,370
+<font color="#E5E5E5">really interesting arm techniques I can</font>
+
+27
+00:00:59,370 --> 00:01:01,680
+use to secretly throw away my cardboard
+
+28
+00:01:01,680 --> 00:01:03,899
+<font color="#CCCCCC">let me know because I'm</font><font color="#E5E5E5"> going to win</font>
+
+29
+00:01:03,899 --> 00:01:07,710
+<font color="#E5E5E5">this</font><font color="#CCCCCC"> battle mr. trash man so again that</font>
+
+30
+00:01:07,710 --> 00:01:09,270
+wasn't<font color="#CCCCCC"> like</font><font color="#E5E5E5"> an</font><font color="#CCCCCC"> analogy or</font><font color="#E5E5E5"> something</font>
+
+31
+00:01:09,270 --> 00:01:11,100
+that's just<font color="#E5E5E5"> a stupid story</font><font color="#CCCCCC"> nothing to do</font>
+
+32
+00:01:11,100 --> 00:01:12,960
+with Python<font color="#E5E5E5"> so let's go ahead and get</font>
+
+33
+00:01:12,960 --> 00:01:16,020
+<font color="#E5E5E5">started learning Python</font><font color="#CCCCCC"> okay in this</font>
+
+34
+00:01:16,020 --> 00:01:17,400
+tutorial<font color="#E5E5E5"> I want to talk to you guys</font>
+
+35
+00:01:17,400 --> 00:01:19,830
+about the if statement<font color="#E5E5E5"> now the if</font>
+
+36
+00:01:19,830 --> 00:01:23,189
+statement is a cool keyword if and it's
+
+37
+00:01:23,189 --> 00:01:25,770
+a way to<font color="#CCCCCC"> have your</font><font color="#E5E5E5"> computer program make</font>
+
+38
+00:01:25,770 --> 00:01:30,240
+a very simple<font color="#CCCCCC"> decision now</font><font color="#E5E5E5"> pretty</font>
+
+39
+00:01:30,240 --> 00:01:32,640
+<font color="#CCCCCC">interesting pretty unique if I just say</font>
+
+40
+00:01:32,640 --> 00:01:34,310
+that so let's<font color="#E5E5E5"> go</font><font color="#CCCCCC"> ahead</font><font color="#E5E5E5"> and get started</font>
+
+41
+00:01:34,310 --> 00:01:39,270
+<font color="#CCCCCC">now</font><font color="#E5E5E5"> the cool thing</font><font color="#CCCCCC"> is since we have this</font>
+
+42
+00:01:39,270 --> 00:01:42,390
+IDE we can make programs<font color="#E5E5E5"> longer than</font>
+
+43
+00:01:42,390 --> 00:01:44,220
+just<font color="#E5E5E5"> one line and whenever we hit</font><font color="#CCCCCC"> Enter</font>
+
+44
+00:01:44,220 --> 00:01:45,659
+of course it doesn't<font color="#E5E5E5"> just execute</font>
+
+45
+00:01:45,659 --> 00:01:48,060
+automatically so say that we wanted<font color="#E5E5E5"> to</font>
+
+46
+00:01:48,060 --> 00:01:50,700
+build<font color="#E5E5E5"> a program that takes a</font><font color="#CCCCCC"> user's</font><font color="#E5E5E5"> age</font>
+
+47
+00:01:50,700 --> 00:01:53,549
+and<font color="#CCCCCC"> we'll say</font><font color="#E5E5E5"> that we're like selling</font>
+
+48
+00:01:53,549 --> 00:01:55,350
+beer online or something<font color="#CCCCCC"> even though</font>
+
+49
+00:01:55,350 --> 00:01:56,130
+that's illegal
+
+50
+00:01:56,130 --> 00:01:58,950
+we'll do<font color="#CCCCCC"> it anyways so if the users age</font>
+
+51
+00:01:58,950 --> 00:02:03,450
+is above 21<font color="#E5E5E5"> then we'll say um you can</font>
+
+52
+00:02:03,450 --> 00:02:05,729
+buy beer<font color="#E5E5E5"> if not then we'll say</font><font color="#CCCCCC"> okay</font>
+
+53
+00:02:05,729 --> 00:02:07,140
+you're<font color="#E5E5E5"> not allowed buy beer because they</font>
+
+54
+00:02:07,140 --> 00:02:11,008
+have to be 21 so what we do is we need<font color="#E5E5E5"> a</font>
+
+55
+00:02:11,008 --> 00:02:12,069
+way to
+
+56
+00:02:12,069 --> 00:02:14,950
+this and execute some code based<font color="#E5E5E5"> on</font>
+
+57
+00:02:14,950 --> 00:02:17,140
+another variable<font color="#E5E5E5"> sounds confusing but</font>
+
+58
+00:02:17,140 --> 00:02:19,659
+check it<font color="#E5E5E5"> out so whatever you want</font><font color="#CCCCCC"> to</font>
+
+59
+00:02:19,659 --> 00:02:21,159
+<font color="#E5E5E5">have your</font><font color="#CCCCCC"> computer make a decision the</font>
+
+60
+00:02:21,159 --> 00:02:23,640
+first<font color="#E5E5E5"> thing you do is add the keyword if</font>
+
+61
+00:02:23,640 --> 00:02:26,980
+now directly<font color="#E5E5E5"> after this we need to give</font>
+
+62
+00:02:26,980 --> 00:02:29,439
+<font color="#E5E5E5">it something to test so right now we're</font>
+
+63
+00:02:29,439 --> 00:02:32,290
+<font color="#E5E5E5">just going to test if this age is less</font>
+
+64
+00:02:32,290 --> 00:02:37,349
+than 21 so if the age is less than 21
+
+65
+00:02:37,349 --> 00:02:39,579
+<font color="#E5E5E5">then we want to do something we'll just</font>
+
+66
+00:02:39,579 --> 00:02:41,469
+like print out no beer for<font color="#CCCCCC"> you since</font><font color="#E5E5E5"> I</font>
+
+67
+00:02:41,469 --> 00:02:45,129
+they're too young<font color="#E5E5E5"> so right</font><font color="#CCCCCC"> after your</font>
+
+68
+00:02:45,129 --> 00:02:48,970
+<font color="#E5E5E5">test add a</font><font color="#CCCCCC"> colon</font><font color="#E5E5E5"> now hit enter and you</font>
+
+69
+00:02:48,970 --> 00:02:50,379
+<font color="#CCCCCC">can</font><font color="#E5E5E5"> see that your cursor doesn't go to</font>
+
+70
+00:02:50,379 --> 00:02:51,639
+the next line it's automatically
+
+71
+00:02:51,639 --> 00:02:55,900
+indented in one tab now<font color="#E5E5E5"> anything that's</font>
+
+72
+00:02:55,900 --> 00:02:59,470
+indented<font color="#E5E5E5"> in one tab your computer knows</font>
+
+73
+00:02:59,470 --> 00:03:02,470
+<font color="#CCCCCC">okay only</font><font color="#E5E5E5"> execute this code if this test</font>
+
+74
+00:03:02,470 --> 00:03:05,799
+is<font color="#E5E5E5"> true so this code that we type right</font>
+
+75
+00:03:05,799 --> 00:03:08,439
+here<font color="#CCCCCC"> is only</font><font color="#E5E5E5"> going</font><font color="#CCCCCC"> to</font><font color="#E5E5E5"> run if the users</font>
+
+76
+00:03:08,439 --> 00:03:12,549
+age is less than 21<font color="#E5E5E5"> so what do we want</font>
+
+77
+00:03:12,549 --> 00:03:13,930
+to happen<font color="#E5E5E5"> if the users age is less than</font>
+
+78
+00:03:13,930 --> 00:03:20,290
+21<font color="#CCCCCC"> we'll just print</font><font color="#E5E5E5"> no beer for you all</font>
+
+79
+00:03:20,290 --> 00:03:22,150
+<font color="#E5E5E5">right so this is</font><font color="#CCCCCC"> a</font><font color="#E5E5E5"> valid print statement</font>
+
+80
+00:03:22,150 --> 00:03:24,819
+<font color="#E5E5E5">and it does indeed</font><font color="#CCCCCC"> print</font><font color="#E5E5E5"> texts out on</font>
+
+81
+00:03:24,819 --> 00:03:25,329
+the screen
+
+82
+00:03:25,329 --> 00:03:28,169
+<font color="#E5E5E5">however check it out whenever</font><font color="#CCCCCC"> we</font><font color="#E5E5E5"> run it</font>
+
+83
+00:03:28,169 --> 00:03:30,579
+<font color="#E5E5E5">nothing's displaying</font><font color="#CCCCCC"> in our console at</font>
+
+84
+00:03:30,579 --> 00:03:32,470
+the bottom<font color="#E5E5E5"> and that's because</font><font color="#CCCCCC"> even</font>
+
+85
+00:03:32,470 --> 00:03:34,629
+though we wrote this line of code<font color="#CCCCCC"> it</font>
+
+86
+00:03:34,629 --> 00:03:37,840
+didn't execute<font color="#E5E5E5"> because the age was over</font>
+
+87
+00:03:37,840 --> 00:03:39,489
+21<font color="#E5E5E5"> so we didn't need to give them this</font>
+
+88
+00:03:39,489 --> 00:03:41,590
+little<font color="#CCCCCC"> warning now if we have some</font>
+
+89
+00:03:41,590 --> 00:03:44,079
+<font color="#E5E5E5">little kid who's like 13 try to use the</font>
+
+90
+00:03:44,079 --> 00:03:47,319
+site it's<font color="#E5E5E5"> going to say okay if 13 is</font>
+
+91
+00:03:47,319 --> 00:03:50,440
+less than 21<font color="#E5E5E5"> that's true 13 is indeed</font>
+
+92
+00:03:50,440 --> 00:03:53,139
+less than 21 then that's when we<font color="#CCCCCC"> want</font><font color="#E5E5E5"> to</font>
+
+93
+00:03:53,139 --> 00:03:55,479
+<font color="#E5E5E5">print this no beer for</font><font color="#CCCCCC"> you</font><font color="#E5E5E5"> so whenever</font>
+
+94
+00:03:55,479 --> 00:03:58,510
+you run this<font color="#E5E5E5"> it says okay check this and</font>
+
+95
+00:03:58,510 --> 00:04:01,359
+<font color="#E5E5E5">okay that is true</font><font color="#CCCCCC"> so run this line of</font>
+
+96
+00:04:01,359 --> 00:04:04,079
+code<font color="#E5E5E5"> so again whenever the test is true</font>
+
+97
+00:04:04,079 --> 00:04:07,689
+run it whenever it's false<font color="#E5E5E5"> just move on</font>
+
+98
+00:04:07,689 --> 00:04:11,049
+<font color="#E5E5E5">so it executes what's ever down here now</font>
+
+99
+00:04:11,049 --> 00:04:14,290
+what if we wanted<font color="#E5E5E5"> to have the computer</font>
+
+100
+00:04:14,290 --> 00:04:16,959
+<font color="#E5E5E5">side between one of</font><font color="#CCCCCC"> two things</font><font color="#E5E5E5"> because</font>
+
+101
+00:04:16,959 --> 00:04:19,389
+of course whenever<font color="#E5E5E5"> the user is less than</font>
+
+102
+00:04:19,389 --> 00:04:20,019
+21
+
+103
+00:04:20,019 --> 00:04:21,579
+we<font color="#CCCCCC"> gave me</font><font color="#E5E5E5"> the</font><font color="#CCCCCC"> warrant</font><font color="#E5E5E5"> a message but</font>
+
+104
+00:04:21,579 --> 00:04:23,320
+what about for the<font color="#E5E5E5"> people who are older</font>
+
+105
+00:04:23,320 --> 00:04:24,550
+<font color="#CCCCCC">than</font><font color="#E5E5E5"> 21</font>
+
+106
+00:04:24,550 --> 00:04:26,139
+how do we make<font color="#E5E5E5"> them you know use the</font>
+
+107
+00:04:26,139 --> 00:04:28,599
+site or something<font color="#CCCCCC"> like</font><font color="#E5E5E5"> that well we can</font>
+
+108
+00:04:28,599 --> 00:04:32,800
+add<font color="#CCCCCC"> another condition called</font><font color="#E5E5E5"> e.l.f and</font>
+
+109
+00:04:32,800 --> 00:04:35,199
+this checks<font color="#E5E5E5"> something else and they'll</font>
+
+110
+00:04:35,199 --> 00:04:37,150
+probably<font color="#CCCCCC"> be easier</font><font color="#E5E5E5"> to see if I use a new</font>
+
+111
+00:04:37,150 --> 00:04:40,389
+example<font color="#E5E5E5"> so let's make a new</font><font color="#CCCCCC"> variable</font>
+
+112
+00:04:40,389 --> 00:04:43,840
+called<font color="#E5E5E5"> name hey take it easy caps log</font>
+
+113
+00:04:43,840 --> 00:04:48,300
+name and we'll set this equal<font color="#CCCCCC"> to Lucy</font>
+
+114
+00:04:48,300 --> 00:04:52,629
+so let's<font color="#CCCCCC"> some check if we'll say we'll</font>
+
+115
+00:04:52,629 --> 00:04:55,629
+check if their name is Bucky<font color="#CCCCCC"> or</font><font color="#E5E5E5"> Lucy how</font>
+
+116
+00:04:55,629 --> 00:04:58,509
+do we do that<font color="#E5E5E5"> well</font><font color="#CCCCCC"> we already know how</font>
+
+117
+00:04:58,509 --> 00:05:01,180
+to<font color="#E5E5E5"> check if name now I'll tell you</font><font color="#CCCCCC"> guys</font>
+
+118
+00:05:01,180 --> 00:05:03,610
+about another type of<font color="#E5E5E5"> test so with</font>
+
+119
+00:05:03,610 --> 00:05:05,770
+numbers we<font color="#E5E5E5"> can do less than</font><font color="#CCCCCC"> greater than</font>
+
+120
+00:05:05,770 --> 00:05:08,620
+<font color="#E5E5E5">however since this is a string we want</font>
+
+121
+00:05:08,620 --> 00:05:10,719
+to see if it's equal<font color="#E5E5E5"> to</font><font color="#CCCCCC"> something else</font>
+
+122
+00:05:10,719 --> 00:05:14,590
+<font color="#CCCCCC">so the key word</font><font color="#E5E5E5"> for</font><font color="#CCCCCC"> this</font><font color="#E5E5E5"> is is so this</font>
+
+123
+00:05:14,590 --> 00:05:16,419
+is pretty<font color="#E5E5E5"> much going</font><font color="#CCCCCC"> to check this</font><font color="#E5E5E5"> name</font>
+
+124
+00:05:16,419 --> 00:05:19,300
+<font color="#E5E5E5">and see if it's equal to something else</font>
+
+125
+00:05:19,300 --> 00:05:23,409
+<font color="#E5E5E5">and of course Eddie or : so again less</font>
+
+126
+00:05:23,409 --> 00:05:27,250
+<font color="#CCCCCC">than greater than four</font><font color="#E5E5E5"> numbers and with</font>
+
+127
+00:05:27,250 --> 00:05:29,650
+strings you can<font color="#CCCCCC"> use this</font><font color="#E5E5E5"> keyword is you</font>
+
+128
+00:05:29,650 --> 00:05:31,360
+can actually<font color="#E5E5E5"> use is when comparing two</font>
+
+129
+00:05:31,360 --> 00:05:33,969
+numbers<font color="#CCCCCC"> as well so what we're</font><font color="#E5E5E5"> going to</font>
+
+130
+00:05:33,969 --> 00:05:40,690
+do is say<font color="#E5E5E5"> okay</font><font color="#CCCCCC"> if the name is Bucky</font><font color="#E5E5E5"> then</font>
+
+131
+00:05:40,690 --> 00:05:46,319
+print<font color="#CCCCCC"> arm a there</font><font color="#E5E5E5"> Bucky</font>
+
+132
+00:05:46,319 --> 00:05:50,050
+now in order<font color="#E5E5E5"> to test another option what</font>
+
+133
+00:05:50,050 --> 00:05:51,219
+you can use is the<font color="#E5E5E5"> keyword</font>
+
+134
+00:05:51,219 --> 00:05:54,520
+<font color="#CCCCCC">al if' and this pretty much means else</font>
+
+135
+00:05:54,520 --> 00:05:57,419
+<font color="#E5E5E5">if or it's just another way</font><font color="#CCCCCC"> of having</font>
+
+136
+00:05:57,419 --> 00:06:01,090
+<font color="#E5E5E5">another if statement in one block of</font>
+
+137
+00:06:01,090 --> 00:06:09,669
+code so else<font color="#E5E5E5"> if the name is Lucy</font><font color="#CCCCCC"> prints</font>
+
+138
+00:06:09,669 --> 00:06:10,919
+what are we going<font color="#E5E5E5"> to print for Lucy</font>
+
+139
+00:06:10,919 --> 00:06:18,910
+something get a like what up loose dog
+
+140
+00:06:18,910 --> 00:06:21,490
+<font color="#E5E5E5">all right so okay i</font><font color="#CCCCCC"> think</font><font color="#E5E5E5"> thats ghetto</font>
+
+141
+00:06:21,490 --> 00:06:24,160
+enough so pretty much it checks<font color="#E5E5E5"> the name</font>
+
+142
+00:06:24,160 --> 00:06:26,980
+<font color="#E5E5E5">if</font><font color="#CCCCCC"> it's Bucky print this statement</font><font color="#E5E5E5"> to</font>
+
+143
+00:06:26,980 --> 00:06:29,860
+<font color="#CCCCCC">them</font><font color="#E5E5E5"> if it's Lucy print this statement</font>
+
+144
+00:06:29,860 --> 00:06:32,140
+to him and we can<font color="#E5E5E5"> actually have as many</font>
+
+145
+00:06:32,140 --> 00:06:36,970
+<font color="#E5E5E5">of these</font><font color="#CCCCCC"> el ifs</font><font color="#E5E5E5"> if we want so we'll say</font>
+
+146
+00:06:36,970 --> 00:06:41,070
+<font color="#CCCCCC">okay if it's Sammy be</font><font color="#E5E5E5"> like what up</font>
+
+147
+00:06:41,070 --> 00:06:45,490
+<font color="#E5E5E5">Slammy so pretty much it's going to go</font>
+
+148
+00:06:45,490 --> 00:06:48,190
+one<font color="#CCCCCC"> by one and only</font><font color="#E5E5E5"> execute a certain</font>
+
+149
+00:06:48,190 --> 00:06:50,860
+block of code whenever the condition is
+
+150
+00:06:50,860 --> 00:06:51,310
+<font color="#E5E5E5">true</font>
+
+151
+00:06:51,310 --> 00:06:54,250
+so hit run and of course the name is
+
+152
+00:06:54,250 --> 00:06:57,820
+Lucy so said what up<font color="#CCCCCC"> loose thought so</font>
+
+153
+00:06:57,820 --> 00:06:59,710
+pretty much<font color="#E5E5E5"> it ran through top to bottom</font>
+
+154
+00:06:59,710 --> 00:07:00,730
+<font color="#E5E5E5">and said</font><font color="#CCCCCC"> okay</font>
+
+155
+00:07:00,730 --> 00:07:03,550
+is this true<font color="#E5E5E5"> nope</font><font color="#CCCCCC"> so go down here is</font>
+
+156
+00:07:03,550 --> 00:07:07,510
+this true<font color="#E5E5E5"> yes so do this and of course</font>
+
+157
+00:07:07,510 --> 00:07:10,030
+<font color="#CCCCCC">since this was not true it skipped</font><font color="#E5E5E5"> this</font>
+
+158
+00:07:10,030 --> 00:07:14,350
+one as well<font color="#E5E5E5"> okay simple enough</font><font color="#CCCCCC"> so now we</font>
+
+159
+00:07:14,350 --> 00:07:16,390
+have a way where we<font color="#E5E5E5"> not only can make a</font>
+
+160
+00:07:16,390 --> 00:07:19,090
+decision<font color="#CCCCCC"> like in that</font><font color="#E5E5E5"> beer example well</font>
+
+161
+00:07:19,090 --> 00:07:21,820
+we can also make a decision to decide
+
+162
+00:07:21,820 --> 00:07:25,510
+between more than<font color="#CCCCCC"> one</font><font color="#E5E5E5"> option now there's</font>
+
+163
+00:07:25,510 --> 00:07:27,310
+<font color="#E5E5E5">one other thing I want to talk to you</font>
+
+164
+00:07:27,310 --> 00:07:31,600
+<font color="#E5E5E5">guys about and that</font><font color="#CCCCCC"> is well what if we</font>
+
+165
+00:07:31,600 --> 00:07:35,020
+ran<font color="#E5E5E5"> through all the</font><font color="#CCCCCC"> options and none of</font>
+
+166
+00:07:35,020 --> 00:07:36,700
+them<font color="#E5E5E5"> were true but we still want to</font>
+
+167
+00:07:36,700 --> 00:07:39,910
+execute<font color="#E5E5E5"> a certain bit of code well we</font>
+
+168
+00:07:39,910 --> 00:07:42,700
+can do something<font color="#CCCCCC"> like</font><font color="#E5E5E5"> this after</font><font color="#CCCCCC"> all of</font>
+
+169
+00:07:42,700 --> 00:07:45,640
+your<font color="#CCCCCC"> el ifs you can have one last</font>
+
+170
+00:07:45,640 --> 00:07:49,270
+condition called<font color="#E5E5E5"> else what else means is</font>
+
+171
+00:07:49,270 --> 00:07:51,640
+if you ran through every<font color="#CCCCCC"> other option</font>
+
+172
+00:07:51,640 --> 00:07:55,000
+<font color="#CCCCCC">and none of</font><font color="#E5E5E5"> those were true then do this</font>
+
+173
+00:07:55,000 --> 00:07:58,000
+one so we can just<font color="#E5E5E5"> run something like</font>
+
+174
+00:07:58,000 --> 00:08:00,640
+<font color="#CCCCCC">prints</font><font color="#E5E5E5"> will say that this is actually</font><font color="#CCCCCC"> a</font>
+
+175
+00:08:00,640 --> 00:08:04,420
+site and if the user logs in then we<font color="#E5E5E5"> can</font>
+
+176
+00:08:04,420 --> 00:08:08,020
+give them<font color="#E5E5E5"> a custom</font><font color="#CCCCCC"> message and of course</font>
+
+177
+00:08:08,020 --> 00:08:10,900
+if none<font color="#CCCCCC"> of these names are true then</font>
+
+178
+00:08:10,900 --> 00:08:12,730
+that<font color="#E5E5E5"> just mean they didn't sign up for</font>
+
+179
+00:08:12,730 --> 00:08:20,050
+<font color="#CCCCCC">the site yet</font><font color="#E5E5E5"> so arm they sign up for</font><font color="#CCCCCC"> the</font>
+
+180
+00:08:20,050 --> 00:08:23,710
+site so of course with Lucy<font color="#E5E5E5"> whenever you</font>
+
+181
+00:08:23,710 --> 00:08:25,420
+run it it's going<font color="#E5E5E5"> to give her that</font>
+
+182
+00:08:25,420 --> 00:08:28,300
+custom welcome message<font color="#CCCCCC"> however if we</font>
+
+183
+00:08:28,300 --> 00:08:32,839
+<font color="#E5E5E5">have a new new guy</font><font color="#CCCCCC"> name like Tommy</font><font color="#E5E5E5"> Dee</font>
+
+184
+00:08:32,839 --> 00:08:34,039
+what it's going<font color="#CCCCCC"> to</font><font color="#E5E5E5"> do is say are you</font>
+
+185
+00:08:34,039 --> 00:08:36,679
+this user<font color="#CCCCCC"> no check if</font><font color="#E5E5E5"> you're this easier</font>
+
+186
+00:08:36,679 --> 00:08:37,159
+nope
+
+187
+00:08:37,159 --> 00:08:39,349
+check<font color="#E5E5E5"> in view of this user and since all</font>
+
+188
+00:08:39,349 --> 00:08:41,479
+<font color="#CCCCCC">of</font><font color="#E5E5E5"> these</font><font color="#CCCCCC"> options are false whenever</font>
+
+189
+00:08:41,479 --> 00:08:44,149
+you're on this it's going to say<font color="#E5E5E5"> please</font>
+
+190
+00:08:44,149 --> 00:08:47,180
+sign<font color="#CCCCCC"> up</font><font color="#E5E5E5"> for the site</font><font color="#CCCCCC"> alright so I know</font>
+
+191
+00:08:47,180 --> 00:08:49,579
+<font color="#CCCCCC">that was a lot to</font><font color="#E5E5E5"> take</font><font color="#CCCCCC"> in</font><font color="#E5E5E5"> but that is</font>
+
+192
+00:08:49,579 --> 00:08:51,649
+<font color="#E5E5E5">pretty much how you can have</font><font color="#CCCCCC"> your</font>
+
+193
+00:08:51,649 --> 00:08:54,709
+computer<font color="#E5E5E5"> make one decision multiple</font>
+
+194
+00:08:54,709 --> 00:08:57,829
+decisions<font color="#E5E5E5"> or multiple decisions with a</font>
+
+195
+00:08:57,829 --> 00:09:01,430
+default answer so I'm going to go
+
+196
+00:09:01,430 --> 00:09:02,749
+scratch my<font color="#E5E5E5"> head and think about how I</font>
+
+197
+00:09:02,749 --> 00:09:05,569
+can<font color="#E5E5E5"> trick my garbage</font><font color="#CCCCCC"> man and again if</font>
+
+198
+00:09:05,569 --> 00:09:07,069
+you have<font color="#CCCCCC"> any questions or</font><font color="#E5E5E5"> you want the</font>
+
+199
+00:09:07,069 --> 00:09:08,300
+source code<font color="#CCCCCC"> to this I'm going to</font><font color="#E5E5E5"> be</font>
+
+200
+00:09:08,300 --> 00:09:10,339
+<font color="#CCCCCC">posting it on my</font><font color="#E5E5E5"> forum so I'll see you</font>
+
+201
+00:09:10,339 --> 00:00:00,000
+<font color="#E5E5E5">later</font>
+

@@ -1,0 +1,680 @@
+1
+00:00:00,030 --> 00:00:02,070
+ <font color="#CCCCCC">正常的家伙欢迎回来，并 </font><font color="#E5E5E5">在此 </font>
+
+2
+00:00:02,070 --> 00:00:04,440
+视频<font color="#E5E5E5">我想跟你谈谈清单 </font>
+
+3
+00:00:04,440 --> 00:00:06,509
+ <font color="#E5E5E5">最重要的一个，也是一个 </font>
+
+4
+00:00:06,509 --> 00:00:07,649
+ <font color="#E5E5E5">你是Python中的东西 </font>
+
+5
+00:00:07,649 --> 00:00:10,679
+将<font color="#E5E5E5">要使用 </font><font color="#CCCCCC">很多，所以列表 </font><font color="#E5E5E5">是 </font>
+
+6
+00:00:10,679 --> 00:00:13,080
+ <font color="#E5E5E5">几乎 </font><font color="#CCCCCC">就是你的想法 </font>
+
+7
+00:00:13,080 --> 00:00:14,670
+ <font color="#CCCCCC">就像 你可以 列出的 </font><font color="#E5E5E5">数字 </font><font color="#CCCCCC">一样 </font>
+
+8
+00:00:14,670 --> 00:00:16,920
+实际上<font color="#E5E5E5">有一个列表，但在 </font>
+
+9
+00:00:16,920 --> 00:00:18,300
+这个<font color="#E5E5E5">视频我将向你展示 </font>
+
+10
+00:00:18,300 --> 00:00:19,859
+伙计<font color="#E5E5E5">只是一个数字列表，因为 </font>
+
+11
+00:00:19,859 --> 00:00:21,630
+这是最简单<font color="#E5E5E5">的工作 </font><font color="#CCCCCC">清单 </font>
+
+12
+00:00:21,630 --> 00:00:24,420
+所以我要<font color="#E5E5E5">列出我的名单 </font>
+
+13
+00:00:24,420 --> 00:00:27,150
+ <font color="#E5E5E5">球员们说我是教练而我 </font>
+
+14
+00:00:27,150 --> 00:00:28,949
+要<font color="#E5E5E5">在 </font><font color="#CCCCCC">保持我的所有玩家轨道</font>
+
+15
+00:00:28,949 --> 00:00:32,640
+某个<font color="#E5E5E5">团队如此设置变量 </font><font color="#CCCCCC">相等 </font>
+
+16
+00:00:32,640 --> 00:00:35,250
+对<font color="#E5E5E5">某事而不是 </font><font color="#CCCCCC">只有 </font>
+
+17
+00:00:35,250 --> 00:00:37,920
+ <font color="#E5E5E5">列出这样的数字你 </font>
+
+18
+00:00:37,920 --> 00:00:39,840
+实际上<font color="#E5E5E5">需要拉你的所有 </font><font color="#CCCCCC">物品 </font>
+
+19
+00:00:39,840 --> 00:00:42,600
+在方<font color="#CCCCCC">括号之间就是如何 </font>
+
+20
+00:00:42,600 --> 00:00:44,789
+ Python知道<font color="#E5E5E5">我正在使用它 </font>
+
+21
+00:00:44,789 --> 00:00:47,730
+列表<font color="#E5E5E5">所以我有一个玩家 </font><font color="#CCCCCC">名字 </font><font color="#E5E5E5">29 </font>
+
+22
+00:00:47,730 --> 00:00:52,440
+另一个名字58另一个他们<font color="#E5E5E5">说名字66 </font>
+
+23
+00:00:52,440 --> 00:00:56,309
+ <font color="#E5E5E5">另一个人数为66 100穿 </font>
+
+24
+00:00:56,309 --> 00:00:59,039
+ <font color="#CCCCCC">那个球衣71和我的最后一名球员是 </font>
+
+25
+00:00:59,039 --> 00:01:02,640
+ 87号<font color="#CCCCCC">，这些实际上是 </font><font color="#E5E5E5">数字 </font>
+
+26
+00:01:02,640 --> 00:01:05,549
+来自<font color="#E5E5E5">我最喜欢的运动队，如果 </font>
+
+27
+00:01:05,549 --> 00:01:08,580
+任何人都可以告诉我最喜欢的运动
+
+28
+00:01:08,580 --> 00:01:10,979
+球队<font color="#E5E5E5">只是他们的号码球衣 </font>
+
+29
+00:01:10,979 --> 00:01:13,590
+穿那么<font color="#CCCCCC">我将真正 </font><font color="#E5E5E5">留下</font><font color="#CCCCCC">深刻的印象 </font>
+
+30
+00:01:13,590 --> 00:01:16,409
+所以无论如何<font color="#E5E5E5">对于那些不在乎的人 </font>
+
+31
+00:01:16,409 --> 00:01:19,200
+关于<font color="#CCCCCC">那，现在我们 </font><font color="#E5E5E5">有一个列表 </font>
+
+32
+00:01:19,200 --> 00:01:22,920
+ <font color="#CCCCCC">数字 </font><font color="#E5E5E5">当然记得 </font><font color="#CCCCCC">在电脑里 </font>
+
+33
+00:01:22,920 --> 00:01:24,960
+编程<font color="#CCCCCC">和 </font><font color="#E5E5E5">Python </font><font color="#CCCCCC">始终开始 </font>
+
+34
+00:01:24,960 --> 00:01:28,680
+在<font color="#CCCCCC">0处计数， 这 </font><font color="#E5E5E5">是 </font><font color="#CCCCCC">位置0 1 2 </font>
+
+35
+00:01:28,680 --> 00:01:32,729
+等等<font color="#E5E5E5">现在 </font><font color="#CCCCCC">就像我们的字符串一样 </font>
+
+36
+00:01:32,729 --> 00:01:34,700
+可以做的是输入<font color="#CCCCCC">列表的</font><font color="#E5E5E5">名称 和 </font>
+
+37
+00:01:34,700 --> 00:01:37,920
+然后是位置<font color="#CCCCCC">编号，它可以得到 </font>
+
+38
+00:01:37,920 --> 00:01:42,720
+该项目<font color="#CCCCCC">如此 </font><font color="#E5E5E5">反复0 1 2使 </font><font color="#CCCCCC">玩家在 </font>
+
+39
+00:01:42,720 --> 00:01:47,490
+位置2 <font color="#E5E5E5">即66 </font><font color="#CCCCCC">简单 </font>
+
+40
+00:01:47,490 --> 00:01:49,229
+够了<font color="#CCCCCC">， </font><font color="#E5E5E5">让我们弄明白该怎么做 </font>
+
+41
+00:01:49,229 --> 00:01:52,020
+ <font color="#E5E5E5">其他东西，所以 </font><font color="#CCCCCC">我们访问的方式 </font>
+
+42
+00:01:52,020 --> 00:01:56,450
+ <font color="#E5E5E5">那个位置的项目，但我们也可以 </font>
+
+43
+00:01:56,450 --> 00:01:59,729
+ <font color="#E5E5E5">将其更改为新值，以便我们说 </font><font color="#CCCCCC">好 </font>
+
+44
+00:01:59,729 --> 00:02:02,820
+实际上我们将<font color="#E5E5E5">66号交易到另一个 </font>
+
+45
+00:02:02,820 --> 00:02:06,509
+团队<font color="#E5E5E5">，而我们得到68所以这是什么 </font>
+
+46
+00:02:06,509 --> 00:02:12,330
+确实<font color="#E5E5E5">可以 </font><font color="#CCCCCC">说确定将球员设置为268 </font>
+
+47
+00:02:12,330 --> 00:02:13,650
+就像我们做变量一样
+
+48
+00:02:13,650 --> 00:02:15,720
+所以现在每当我们<font color="#E5E5E5">谈论球员时 </font>
+
+49
+00:02:15,720 --> 00:02:20,459
+ <font color="#E5E5E5">你可以看到66这是旧值 </font>
+
+50
+00:02:20,459 --> 00:02:22,890
+现在改为<font color="#CCCCCC">68，所以这是 </font>
+
+51
+00:02:22,890 --> 00:02:24,750
+ <font color="#CCCCCC">你是如何装配它的信息和 </font>
+
+52
+00:02:24,750 --> 00:02:27,569
+这<font color="#E5E5E5">就是你如何设置 </font><font color="#CCCCCC">等于 </font><font color="#E5E5E5">新值 </font>
+
+53
+00:02:27,569 --> 00:02:31,290
+ <font color="#E5E5E5">或者新的数字现在 </font><font color="#CCCCCC">是我们的 </font><font color="#E5E5E5">另一件事 </font>
+
+54
+00:02:31,290 --> 00:02:33,690
+可以<font color="#CCCCCC">做的是添加更多的项目到 </font><font color="#E5E5E5">最后 </font>
+
+55
+00:02:33,690 --> 00:02:35,610
+这个清单<font color="#E5E5E5">，我们可以 </font><font color="#CCCCCC">用两个 </font><font color="#E5E5E5">中的一个来做 </font>
+
+56
+00:02:35,610 --> 00:02:38,849
+ <font color="#CCCCCC">第一种方式就是 </font><font color="#E5E5E5">保存 </font>
+
+57
+00:02:38,849 --> 00:02:42,319
+玩家<font color="#E5E5E5">等于 </font><font color="#CCCCCC">这个名单 </font><font color="#E5E5E5">和 </font>
+
+58
+00:02:42,319 --> 00:02:45,480
+ <font color="#CCCCCC">我们可以用另一个 </font><font color="#E5E5E5">列表 </font><font color="#CCCCCC">添加它 </font>
+
+59
+00:02:45,480 --> 00:02:50,790
+说<font color="#E5E5E5">我现在不知道 </font><font color="#CCCCCC">90 91在98 </font>
+
+60
+00:02:50,790 --> 00:02:52,799
+每当<font color="#E5E5E5">我们点击进入 </font><font color="#CCCCCC">它给我们的 </font>
+
+61
+00:02:52,799 --> 00:02:55,319
+ <font color="#E5E5E5">新列表，这是旧的 </font>
+
+62
+00:02:55,319 --> 00:03:00,329
+一个<font color="#CCCCCC">加上我们 </font><font color="#E5E5E5">刚写的但是这个 </font>
+
+63
+00:03:00,329 --> 00:03:03,420
+不会永久<font color="#CCCCCC">改变球员 </font>
+
+64
+00:03:03,420 --> 00:03:06,269
+列出<font color="#E5E5E5">原始玩家列表仍然是 </font>
+
+65
+00:03:06,269 --> 00:03:08,220
+ <font color="#E5E5E5">这只是暂时的 </font>
+
+66
+00:03:08,220 --> 00:03:10,470
+ <font color="#CCCCCC">嗯给你一个新的清单， </font><font color="#E5E5E5">所以你 </font>
+
+67
+00:03:10,470 --> 00:03:12,569
+ <font color="#E5E5E5">实际上可以做的就是你 </font><font color="#CCCCCC">可以 </font>
+
+68
+00:03:12,569 --> 00:03:15,510
+将整个语句设置为<font color="#E5E5E5">等于new </font>
+
+69
+00:03:15,510 --> 00:03:18,780
+ <font color="#CCCCCC">手臂 </font><font color="#E5E5E5">变量就像新玩家一样 </font>
+
+70
+00:03:18,780 --> 00:03:20,160
+球员或其他东西并使用它
+
+71
+00:03:20,160 --> 00:03:22,590
+ <font color="#E5E5E5">变量但只记得 </font><font color="#CCCCCC">这个 </font>
+
+72
+00:03:22,590 --> 00:03:24,540
+声明<font color="#E5E5E5">本身不会改变这一点 </font>
+
+73
+00:03:24,540 --> 00:03:26,760
+原来列表<font color="#E5E5E5">现在实际上有 </font>
+
+74
+00:03:26,760 --> 00:03:29,220
+ <font color="#CCCCCC">有时会成为 </font><font color="#E5E5E5">我们想要的地方 </font>
+
+75
+00:03:29,220 --> 00:03:31,530
+ <font color="#CCCCCC">永久 </font><font color="#E5E5E5">更改 </font><font color="#CCCCCC">列表并添加 </font>
+
+76
+00:03:31,530 --> 00:03:33,780
+ <font color="#E5E5E5">那些将要影响的项目 </font>
+
+77
+00:03:33,780 --> 00:03:36,239
+ <font color="#CCCCCC">这个列表本身是为了添加 </font>
+
+78
+00:03:36,239 --> 00:03:41,340
+ <font color="#E5E5E5">物品永久地 </font><font color="#CCCCCC">吓坏了我们 </font>
+
+79
+00:03:41,340 --> 00:03:44,849
+可以做球员点<font color="#E5E5E5">和调用功能 </font>
+
+80
+00:03:44,849 --> 00:03:47,280
+ <font color="#CCCCCC">现在追加我知道我没跟你说话 </font>
+
+81
+00:03:47,280 --> 00:03:49,709
+ <font color="#CCCCCC">很多人关于功能或点 </font>
+
+82
+00:03:49,709 --> 00:03:51,090
+操作员， <font color="#E5E5E5">但我只是想告诉你 </font>
+
+83
+00:03:51,090 --> 00:03:54,090
+ <font color="#E5E5E5">伙计这个真正简单的伎俩所以这是什 </font>
+
+84
+00:03:54,090 --> 00:03:56,669
+ <font color="#E5E5E5">这 </font><font color="#CCCCCC">基本上是说 </font><font color="#E5E5E5">这写的 </font>
+
+85
+00:03:56,669 --> 00:03:58,799
+ <font color="#E5E5E5">列表 </font><font color="#CCCCCC">的名称，然后 后 右 </font>
+
+86
+00:03:58,799 --> 00:04:01,019
+ <font color="#CCCCCC">点 </font><font color="#E5E5E5">和 </font><font color="#CCCCCC">点没有任何</font><font color="#E5E5E5">空格 </font>
+
+87
+00:04:01,019 --> 00:04:04,379
+ <font color="#E5E5E5">这意味着现在就做这个清单 </font>
+
+88
+00:04:04,379 --> 00:04:07,680
+追加几乎意味着添加一些东西
+
+89
+00:04:07,680 --> 00:04:10,410
+ <font color="#E5E5E5">在这之间，我们写下了 </font>
+
+90
+00:04:10,410 --> 00:04:12,000
+ <font color="#CCCCCC">我们要添加</font><font color="#E5E5E5">就像 我 </font><font color="#CCCCCC">数 </font>
+
+91
+00:04:12,000 --> 00:04:17,220
+不知道120所以现在<font color="#E5E5E5">我们这行</font>
+
+92
+00:04:17,220 --> 00:04:19,918
+ <font color="#E5E5E5">在此添加了另一个项目或编号 </font>
+
+93
+00:04:19,918 --> 00:04:21,659
+列表<font color="#E5E5E5">，如果我们打印 </font><font color="#CCCCCC">那个坏男孩 </font>
+
+94
+00:04:21,659 --> 00:04:25,979
+ <font color="#E5E5E5">看看这是我们之前的清单 </font>
+
+95
+00:04:25,979 --> 00:04:27,690
+现在这里是我们<font color="#E5E5E5">新的 </font>
+
+96
+00:04:27,690 --> 00:04:30,660
+列表<font color="#E5E5E5">所以再次附加永久更改 </font>
+
+97
+00:04:30,660 --> 00:04:33,390
+你的清单<font color="#E5E5E5">暂时加号 </font>
+
+98
+00:04:33,390 --> 00:04:36,960
+ <font color="#CCCCCC">改变 </font><font color="#E5E5E5">它 </font><font color="#CCCCCC">好不坏也不坏列表 </font>
+
+99
+00:04:36,960 --> 00:04:39,540
+ <font color="#E5E5E5">现在 </font><font color="#CCCCCC">到目前为止 </font><font color="#E5E5E5">还 </font><font color="#CCCCCC">很酷 </font>
+
+100
+00:04:39,540 --> 00:04:41,340
+另一件事<font color="#E5E5E5">我</font><font color="#CCCCCC">想 </font><font color="#E5E5E5">告诉你们 </font>
+
+101
+00:04:41,340 --> 00:04:43,500
+关于如何<font color="#E5E5E5">切割物品 </font>
+
+102
+00:04:43,500 --> 00:04:45,420
+列表就像<font color="#E5E5E5">我们用 </font><font color="#CCCCCC">字符串一样 </font>
+
+103
+00:04:45,420 --> 00:04:50,610
+ <font color="#E5E5E5">所以，如果我们想要做球员 </font><font color="#CCCCCC">- 什么 </font>
+
+104
+00:04:50,610 --> 00:04:52,430
+这样<font color="#E5E5E5">做是从一开始就开始的 </font>
+
+105
+00:04:52,430 --> 00:04:55,290
+这就在这里<font color="#CCCCCC">，它去了 </font>
+
+106
+00:04:55,290 --> 00:04:59,370
+位置<font color="#E5E5E5">2所以0 </font><font color="#CCCCCC">1 2当然 </font>
+
+107
+00:04:59,370 --> 00:05:00,990
+ <font color="#E5E5E5">记住 </font><font color="#CCCCCC">它实际上并没有 </font>
+
+108
+00:05:00,990 --> 00:05:03,690
+包括这个项目它只是说<font color="#CCCCCC">好了 </font>
+
+109
+00:05:03,690 --> 00:05:06,210
+ <font color="#E5E5E5">你可以看到停止点 </font>
+
+110
+00:05:06,210 --> 00:05:07,980
+ <font color="#E5E5E5">就像切片字符一样 </font>
+
+111
+00:05:07,980 --> 00:05:11,550
+还<font color="#E5E5E5">与手臂名单做， </font><font color="#CCCCCC">我甚至不能 </font>
+
+112
+00:05:11,550 --> 00:05:12,390
+ <font color="#E5E5E5">现在说说 </font>
+
+113
+00:05:12,390 --> 00:05:15,840
+我觉得我<font color="#E5E5E5">快要爆炸 </font><font color="#CCCCCC">OK大脑</font>
+
+114
+00:05:15,840 --> 00:05:18,600
+除此之外<font color="#CCCCCC">，我们看到你可以 </font>
+
+115
+00:05:18,600 --> 00:05:21,330
+ <font color="#E5E5E5">现在就可以 </font><font color="#CCCCCC">用它来显示 </font>
+
+116
+00:05:21,330 --> 00:05:25,860
+也可以<font color="#CCCCCC">用它来设置它等于 </font><font color="#E5E5E5">new </font>
+
+117
+00:05:25,860 --> 00:05:26,760
+ <font color="#E5E5E5">价值立刻 </font>
+
+118
+00:05:26,760 --> 00:05:29,310
+所以在<font color="#CCCCCC">你看到我们如何采取之前 </font>
+
+119
+00:05:29,310 --> 00:05:32,520
+ <font color="#E5E5E5">列表中的一个项目</font><font color="#CCCCCC">并将其设置为相等 </font>
+
+120
+00:05:32,520 --> 00:05:36,990
+ <font color="#CCCCCC">从这片作品中获得新的价值 </font>
+
+121
+00:05:36,990 --> 00:05:41,340
+ <font color="#CCCCCC">这里的代码</font><font color="#E5E5E5">返回两个我们可以的项目 </font>
+
+122
+00:05:41,340 --> 00:05:43,710
+设置此<font color="#CCCCCC">等于 </font><font color="#E5E5E5">两个新的项目，如 </font>
+
+123
+00:05:43,710 --> 00:05:45,450
+我<font color="#E5E5E5">不 </font><font color="#CCCCCC">知道让我们轻松一点 </font>
+
+124
+00:05:45,450 --> 00:05:48,440
+ <font color="#E5E5E5">看到这样，让我们​​说这是说 </font><font color="#CCCCCC">好的 </font>
+
+125
+00:05:48,440 --> 00:05:52,140
+把物品放在位置1 0 <font color="#CCCCCC">和1 </font><font color="#E5E5E5">和 </font>
+
+126
+00:05:52,140 --> 00:05:56,750
+将它们<font color="#E5E5E5">分别设置为0和0 </font>
+
+127
+00:05:56,750 --> 00:05:59,400
+ <font color="#E5E5E5">这就是你如何替换多个 </font>
+
+128
+00:05:59,400 --> 00:06:02,210
+项目或多个值<font color="#E5E5E5">一次 </font><font color="#CCCCCC">全部 </font>
+
+129
+00:06:02,210 --> 00:06:04,830
+ <font color="#E5E5E5">对不对， </font><font color="#CCCCCC">现在又是你的另一件事 </font>
+
+130
+00:06:04,830 --> 00:06:06,570
+ <font color="#CCCCCC">可以 </font><font color="#E5E5E5">这样做，这 </font><font color="#CCCCCC">实际上是 </font>
+
+131
+00:06:06,570 --> 00:06:09,930
+ <font color="#CCCCCC">真的很方便，而不是0 0 </font>
+
+132
+00:06:09,930 --> 00:06:12,870
+ <font color="#E5E5E5">这是实际的数字 </font><font color="#CCCCCC">然后我们只是 </font>
+
+133
+00:06:12,870 --> 00:06:15,570
+要<font color="#E5E5E5">删除这些项目 </font><font color="#CCCCCC">，以便我们 </font>
+
+134
+00:06:15,570 --> 00:06:18,390
+ <font color="#E5E5E5">如果我们采取前两个可以做到这一点 </font>
+
+135
+00:06:18,390 --> 00:06:20,669
+ <font color="#E5E5E5">列表中的项目并将它们设置为相等 </font>
+
+136
+00:06:20,669 --> 00:06:23,100
+ <font color="#E5E5E5">空</font><font color="#CCCCCC">方</font><font color="#E5E5E5">括号 没有值 </font>
+
+137
+00:06:23,100 --> 00:06:25,260
+在它们中，它<font color="#E5E5E5">会说得 </font><font color="#CCCCCC">很好 </font>
+
+138
+00:06:25,260 --> 00:06:27,600
+ <font color="#E5E5E5">取这些 </font><font color="#CCCCCC">值 </font><font color="#E5E5E5">并删除它们 </font>
+
+139
+00:06:27,600 --> 00:06:31,080
+现在将它们设置为<font color="#E5E5E5">空甚至为零 </font>
+
+140
+00:06:31,080 --> 00:06:34,110
+每当<font color="#CCCCCC">我们 </font><font color="#E5E5E5">输入玩家时都要检查出来 </font>
+
+141
+00:06:34,110 --> 00:06:37,740
+ <font color="#E5E5E5">这些值 现在 为 </font><font color="#CCCCCC">0 </font>
+
+142
+00:06:37,740 --> 00:06:40,169
+永远消失了，这就是你
+
+143
+00:06:40,169 --> 00:06:41,279
+删除
+
+144
+00:06:41,279 --> 00:06:44,669
+从你的清单<font color="#CCCCCC">现在 </font><font color="#E5E5E5">如果你只是 </font>
+
+145
+00:06:44,669 --> 00:06:46,919
+ <font color="#E5E5E5">要</font><font color="#CCCCCC">删除 </font><font color="#E5E5E5">整个</font><font color="#CCCCCC">列表 </font><font color="#E5E5E5">以及 </font>
+
+146
+00:06:46,919 --> 00:06:49,229
+这可能<font color="#E5E5E5">听起来令人困惑，但事实上 </font>
+
+147
+00:06:49,229 --> 00:06:54,509
+ <font color="#E5E5E5">很容易接受球员并设置它 </font>
+
+148
+00:06:54,509 --> 00:06:57,899
+等于<font color="#E5E5E5">空现在记得默认 </font>
+
+149
+00:06:57,899 --> 00:06:59,879
+这个<font color="#CCCCCC">冒号 </font><font color="#E5E5E5">在这里说你在哪里 </font>
+
+150
+00:06:59,879 --> 00:07:01,859
+想要停下来<font color="#CCCCCC">，你 </font><font color="#E5E5E5">想去 </font><font color="#CCCCCC">哪里 </font>
+
+151
+00:07:01,859 --> 00:07:05,069
+ <font color="#E5E5E5">如果我们 </font><font color="#CCCCCC">只是开始或肯定停止 </font>
+
+152
+00:07:05,069 --> 00:07:06,569
+有一个冒号<font color="#E5E5E5">- 足够左边和 </font>
+
+153
+00:07:06,569 --> 00:07:07,829
+ <font color="#CCCCCC">什么都不对，它会抓住 </font>
+
+154
+00:07:07,829 --> 00:07:09,779
+ <font color="#CCCCCC">整个清单 </font><font color="#E5E5E5">，当然我们都知道 </font>
+
+155
+00:07:09,779 --> 00:07:13,319
+设置<font color="#CCCCCC">等于方括号说 </font>
+
+156
+00:07:13,319 --> 00:07:15,299
+拿这整个清单<font color="#CCCCCC">并清空 </font>
+
+157
+00:07:15,299 --> 00:07:18,299
+ <font color="#E5E5E5">无论何时 </font><font color="#CCCCCC">你都是 </font><font color="#E5E5E5">对的 ，现在一切都好 </font>
+
+158
+00:07:18,299 --> 00:07:22,019
+玩家我们只是得到一个空列表<font color="#E5E5E5">，以便 </font>
+
+159
+00:07:22,019 --> 00:07:23,789
+这是你如何清除整个列表
+
+160
+00:07:23,789 --> 00:07:27,149
+删除所有项目， <font color="#CCCCCC">我知道 </font>
+
+161
+00:07:27,149 --> 00:07:29,549
+ <font color="#E5E5E5">这是很多 </font><font color="#CCCCCC">来 </font><font color="#E5E5E5">覆盖我们列出 </font><font color="#CCCCCC">，但我们 </font>
+
+162
+00:07:29,549 --> 00:07:31,110
+将要<font color="#E5E5E5">使用列表很多 </font>
+
+163
+00:07:31,110 --> 00:07:32,819
+有点直观，但<font color="#CCCCCC">有点儿 </font>
+
+164
+00:07:32,819 --> 00:07:35,009
+ <font color="#CCCCCC">起初很困惑，所以你可能不得不这样 </font><font color="#E5E5E5">做 </font>
+
+165
+00:07:35,009 --> 00:07:36,929
+ <font color="#E5E5E5">如果你再 </font><font color="#CCCCCC">看一遍本 </font><font color="#E5E5E5">教程 </font>
+
+166
+00:07:36,929 --> 00:07:38,549
+有什么问题然后问一下
+
+167
+00:07:38,549 --> 00:07:39,869
+ <font color="#E5E5E5">我，我要去论坛，我会很高兴 </font>
+
+168
+00:07:39,869 --> 00:07:40,679
+ <font color="#CCCCCC">为你解答</font>
+
+169
+00:07:40,679 --> 00:07:42,569
+但<font color="#E5E5E5">现在</font><font color="#CCCCCC">感谢你们来观看， </font>
+
+170
+00:07:42,569 --> 00:00:00,000
+我会在下一个视频中看到你们
+

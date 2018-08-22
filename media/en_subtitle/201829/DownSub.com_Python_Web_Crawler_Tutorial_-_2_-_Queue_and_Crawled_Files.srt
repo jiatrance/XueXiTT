@@ -1,0 +1,716 @@
+1
+00:00:00,000 --> 00:00:02,970
+<font color="#CCCCCC">are already hostas welcome back and in</font>
+
+2
+00:00:02,970 --> 00:00:04,950
+<font color="#E5E5E5">this little tutorial I'm going to show</font>
+
+3
+00:00:04,950 --> 00:00:06,779
+<font color="#CCCCCC">you guys how to create the data files in</font>
+
+4
+00:00:06,779 --> 00:00:09,540
+other words the files<font color="#E5E5E5"> that are going</font><font color="#CCCCCC"> to</font>
+
+5
+00:00:09,540 --> 00:00:13,139
+go inside<font color="#CCCCCC"> our projects directory</font><font color="#E5E5E5"> now for</font>
+
+6
+00:00:13,139 --> 00:00:15,120
+each<font color="#E5E5E5"> website you crawl you actually only</font>
+
+7
+00:00:15,120 --> 00:00:18,570
+have two files<font color="#CCCCCC"> and that is the Q and the</font>
+
+8
+00:00:18,570 --> 00:00:21,689
+<font color="#CCCCCC">crawled</font><font color="#E5E5E5"> files and inside these files</font>
+
+9
+00:00:21,689 --> 00:00:23,580
+there's just a list<font color="#E5E5E5"> of links so it's</font>
+
+10
+00:00:23,580 --> 00:00:25,859
+actually<font color="#E5E5E5"> really</font><font color="#CCCCCC"> easy</font><font color="#E5E5E5"> to understand so</font>
+
+11
+00:00:25,859 --> 00:00:27,630
+basically whenever<font color="#E5E5E5"> our fight</font>
+
+12
+00:00:27,630 --> 00:00:31,650
+they say fighter<font color="#E5E5E5"> our spider first starts</font>
+
+13
+00:00:31,650 --> 00:00:33,719
+out what it's going<font color="#CCCCCC"> to</font><font color="#E5E5E5"> do is it already</font>
+
+14
+00:00:33,719 --> 00:00:36,270
+has the<font color="#E5E5E5"> home page this</font><font color="#CCCCCC"> is</font><font color="#E5E5E5"> the</font><font color="#CCCCCC"> only link</font>
+
+15
+00:00:36,270 --> 00:00:38,640
+that we ever give<font color="#E5E5E5"> it because of course</font>
+
+16
+00:00:38,640 --> 00:00:41,399
+it needs<font color="#E5E5E5"> a starting point so from here</font>
+
+17
+00:00:41,399 --> 00:00:42,960
+<font color="#CCCCCC">what it's going to do is it's going to</font>
+
+18
+00:00:42,960 --> 00:00:44,550
+<font color="#E5E5E5">go ahead and start gathering all</font><font color="#CCCCCC"> of</font>
+
+19
+00:00:44,550 --> 00:00:49,110
+<font color="#E5E5E5">these URLs</font><font color="#CCCCCC"> Beauty business HTML computer</font>
+
+20
+00:00:49,110 --> 00:00:51,329
+science the HTML again I know that's<font color="#E5E5E5"> not</font>
+
+21
+00:00:51,329 --> 00:00:52,949
+<font color="#CCCCCC">the actual URL but this is</font><font color="#E5E5E5"> just an</font>
+
+22
+00:00:52,949 --> 00:00:55,379
+example<font color="#E5E5E5"> so it's going to go start on</font>
+
+23
+00:00:55,379 --> 00:00:57,960
+this page and each link it finds<font color="#E5E5E5"> this</font>
+
+24
+00:00:57,960 --> 00:01:00,180
+one this one this<font color="#CCCCCC"> one</font><font color="#E5E5E5"> this</font><font color="#CCCCCC"> watch now on</font>
+
+25
+00:01:00,180 --> 00:01:02,640
+this visit<font color="#E5E5E5"> Android forum one is going</font><font color="#CCCCCC"> to</font>
+
+26
+00:01:02,640 --> 00:01:05,430
+add all of those URLs<font color="#CCCCCC"> to a waiting list</font>
+
+27
+00:01:05,430 --> 00:01:07,470
+<font color="#E5E5E5">now whenever it's done crawling this</font>
+
+28
+00:01:07,470 --> 00:01:09,840
+page and gathering up all the links<font color="#E5E5E5"> it's</font>
+
+29
+00:01:09,840 --> 00:01:12,320
+going to go<font color="#CCCCCC"> ahead and take this URL and</font>
+
+30
+00:01:12,320 --> 00:01:15,509
+add it<font color="#CCCCCC"> to the crowd file why do we do</font>
+
+31
+00:01:15,509 --> 00:01:17,700
+<font color="#E5E5E5">that well because then when we're on</font>
+
+32
+00:01:17,700 --> 00:01:20,520
+<font color="#E5E5E5">another page and we find this link right</font>
+
+33
+00:01:20,520 --> 00:01:22,200
+here which links back<font color="#CCCCCC"> to the home page</font>
+
+34
+00:01:22,200 --> 00:01:24,390
+<font color="#E5E5E5">we don't want to go ahead and</font><font color="#CCCCCC"> crawl that</font>
+
+35
+00:01:24,390 --> 00:01:26,220
+again we already<font color="#CCCCCC"> crowded it so we need</font>
+
+36
+00:01:26,220 --> 00:01:27,960
+to keep track<font color="#CCCCCC"> of what pages</font><font color="#E5E5E5"> we already</font>
+
+37
+00:01:27,960 --> 00:01:30,630
+crawled<font color="#E5E5E5"> and what links we found that are</font>
+
+38
+00:01:30,630 --> 00:01:32,250
+on the waiting list that we didn't crawl
+
+39
+00:01:32,250 --> 00:01:35,009
+yet so the Q or the<font color="#E5E5E5"> waiting list and the</font>
+
+40
+00:01:35,009 --> 00:01:38,939
+crowd files<font color="#E5E5E5"> that's all we need so go</font>
+
+41
+00:01:38,939 --> 00:01:40,860
+ahead<font color="#E5E5E5"> and do this</font><font color="#CCCCCC"> and all</font><font color="#E5E5E5"> right</font>
+
+42
+00:01:40,860 --> 00:01:43,409
+and by<font color="#E5E5E5"> the way another cool thing</font><font color="#CCCCCC"> I want</font>
+
+43
+00:01:43,409 --> 00:01:47,310
+to<font color="#E5E5E5"> point out you see how just one thread</font>
+
+44
+00:01:47,310 --> 00:01:49,320
+<font color="#E5E5E5">is all you need to curl this home page</font>
+
+45
+00:01:49,320 --> 00:01:51,750
+<font color="#E5E5E5">you just need one</font><font color="#CCCCCC"> little bot to do it</font>
+
+46
+00:01:51,750 --> 00:01:54,659
+whenever<font color="#E5E5E5"> we have a bunch of links so</font><font color="#CCCCCC"> 1 2</font>
+
+47
+00:01:54,659 --> 00:01:57,180
+<font color="#CCCCCC">3 4 5 6 7 8 9 10 let's say that</font><font color="#E5E5E5"> we have</font>
+
+48
+00:01:57,180 --> 00:02:00,090
+10 links<font color="#E5E5E5"> in the waiting list well it'll</font>
+
+49
+00:02:00,090 --> 00:02:02,610
+<font color="#E5E5E5">take let's say that it takes one second</font>
+
+50
+00:02:02,610 --> 00:02:04,259
+to crawl<font color="#E5E5E5"> a page that</font><font color="#CCCCCC"> means that it would</font>
+
+51
+00:02:04,259 --> 00:02:06,000
+take 10<font color="#E5E5E5"> seconds to</font><font color="#CCCCCC"> curl all of these</font>
+
+52
+00:02:06,000 --> 00:02:07,920
+pages<font color="#E5E5E5"> who has time for that I'm actually</font>
+
+53
+00:02:07,920 --> 00:02:09,389
+going<font color="#E5E5E5"> to set up this program and make</font><font color="#CCCCCC"> it</font>
+
+54
+00:02:09,389 --> 00:02:11,910
+multi-threaded which means we're going
+
+55
+00:02:11,910 --> 00:02:13,050
+<font color="#E5E5E5">to make a program that</font>
+
+56
+00:02:13,050 --> 00:02:15,990
+<font color="#E5E5E5">crow all of these pages simultaneously</font>
+
+57
+00:02:15,990 --> 00:02:17,850
+<font color="#E5E5E5">so we're going to be able</font><font color="#CCCCCC"> to curl like</font>
+
+58
+00:02:17,850 --> 00:02:20,550
+<font color="#E5E5E5">eight or</font><font color="#CCCCCC"> sixteen pages at once</font><font color="#E5E5E5"> so it's</font>
+
+59
+00:02:20,550 --> 00:02:22,800
+going<font color="#E5E5E5"> to speed it</font><font color="#CCCCCC"> up a bit</font><font color="#E5E5E5"> but</font><font color="#CCCCCC"> again</font><font color="#E5E5E5"> I'm</font>
+
+60
+00:02:22,800 --> 00:02:24,690
+getting<font color="#E5E5E5"> kind of</font><font color="#CCCCCC"> heading myself</font><font color="#E5E5E5"> that's</font>
+
+61
+00:02:24,690 --> 00:02:28,230
+essentially<font color="#E5E5E5"> what we're doing</font><font color="#CCCCCC"> so for</font><font color="#E5E5E5"> now</font>
+
+62
+00:02:28,230 --> 00:02:34,260
+I'll just<font color="#E5E5E5"> say create</font><font color="#CCCCCC"> queue</font><font color="#E5E5E5"> and crawled</font>
+
+63
+00:02:34,260 --> 00:02:39,000
+<font color="#E5E5E5">files now again</font><font color="#CCCCCC"> just like the last time</font>
+
+64
+00:02:39,000 --> 00:02:40,830
+<font color="#E5E5E5">you don't want to create these files if</font>
+
+65
+00:02:40,830 --> 00:02:42,630
+they already exist<font color="#CCCCCC"> because if they</font>
+
+66
+00:02:42,630 --> 00:02:44,700
+already<font color="#CCCCCC"> exist that</font><font color="#E5E5E5"> means that your bot</font>
+
+67
+00:02:44,700 --> 00:02:46,980
+has already<font color="#E5E5E5"> been running and you know</font>
+
+68
+00:02:46,980 --> 00:02:49,710
+<font color="#CCCCCC">you gather like I don't</font><font color="#E5E5E5"> know like 20% of</font>
+
+69
+00:02:49,710 --> 00:02:51,750
+<font color="#E5E5E5">the website already so you don't want to</font>
+
+70
+00:02:51,750 --> 00:02:53,400
+repeat<font color="#E5E5E5"> yourself</font><font color="#CCCCCC"> you need</font><font color="#E5E5E5"> to keep this</font>
+
+71
+00:02:53,400 --> 00:02:57,450
+efficient<font color="#E5E5E5"> so we'll just say uh</font><font color="#CCCCCC"> def</font>
+
+72
+00:02:57,450 --> 00:03:03,360
+create data files<font color="#CCCCCC"> alright now again</font>
+
+73
+00:03:03,360 --> 00:03:05,730
+<font color="#CCCCCC">there are two pieces of</font><font color="#E5E5E5"> information we</font>
+
+74
+00:03:05,730 --> 00:03:07,920
+need<font color="#E5E5E5"> the project name in the project</font>
+
+75
+00:03:07,920 --> 00:03:09,900
+<font color="#CCCCCC">name is</font><font color="#E5E5E5"> usually just going to be it can</font>
+
+76
+00:03:09,900 --> 00:03:13,470
+<font color="#CCCCCC">be whatever the user types in but 99%</font>
+
+77
+00:03:13,470 --> 00:03:16,440
+<font color="#E5E5E5">I'm just going to be the domain name</font>
+
+78
+00:03:16,440 --> 00:03:19,950
+<font color="#E5E5E5">without the top-level</font><font color="#CCCCCC"> domain so</font><font color="#E5E5E5"> that com</font>
+
+79
+00:03:19,950 --> 00:03:22,680
+<font color="#E5E5E5">dot edu or anything so in this example</font>
+
+80
+00:03:22,680 --> 00:03:25,170
+I'll just<font color="#E5E5E5"> keep the project name the</font><font color="#CCCCCC"> new</font>
+
+81
+00:03:25,170 --> 00:03:28,200
+<font color="#CCCCCC">Boston and this is going to be the</font><font color="#E5E5E5"> home</font>
+
+82
+00:03:28,200 --> 00:03:31,800
+<font color="#E5E5E5">page URL so again the project in</font>
+
+83
+00:03:31,800 --> 00:03:34,140
+directory name are the same thing so I
+
+84
+00:03:34,140 --> 00:03:37,980
+just say project<font color="#CCCCCC"> name that's the first</font>
+
+85
+00:03:37,980 --> 00:03:39,600
+<font color="#E5E5E5">thing we need and the second one is the</font>
+
+86
+00:03:39,600 --> 00:03:43,950
+base URL<font color="#E5E5E5"> and we need that because we</font>
+
+87
+00:03:43,950 --> 00:03:48,570
+need to give it<font color="#CCCCCC"> a starting</font><font color="#E5E5E5"> point so the</font>
+
+88
+00:03:48,570 --> 00:03:56,580
+<font color="#CCCCCC">queue I'll just say project name plus Q</font>
+
+89
+00:03:56,580 --> 00:04:00,510
+text<font color="#E5E5E5"> all right so I</font><font color="#CCCCCC"> just want</font><font color="#E5E5E5"> to go</font>
+
+90
+00:04:00,510 --> 00:04:03,270
+ahead<font color="#E5E5E5"> and make a variable for</font><font color="#CCCCCC"> the file</font>
+
+91
+00:04:03,270 --> 00:04:04,860
+path just<font color="#CCCCCC"> so I</font><font color="#E5E5E5"> don't</font><font color="#CCCCCC"> have to type</font><font color="#E5E5E5"> this</font>
+
+92
+00:04:04,860 --> 00:04:08,160
+every time<font color="#E5E5E5"> so basically</font><font color="#CCCCCC"> in this project</font>
+
+93
+00:04:08,160 --> 00:04:09,780
+right<font color="#E5E5E5"> here we're going to have</font><font color="#CCCCCC"> a file</font>
+
+94
+00:04:09,780 --> 00:04:13,290
+called<font color="#E5E5E5"> Q dot txt and all this file is</font>
+
+95
+00:04:13,290 --> 00:04:16,709
+going<font color="#E5E5E5"> to be is a list of links</font><font color="#CCCCCC"> on</font><font color="#E5E5E5"> the</font>
+
+96
+00:04:16,709 --> 00:04:19,380
+waiting list<font color="#E5E5E5"> waiting to be crawled so</font>
+
+97
+00:04:19,380 --> 00:04:21,920
+same thing with crawled<font color="#E5E5E5"> do I want to</font>
+
+98
+00:04:21,920 --> 00:04:24,950
+need to<font color="#E5E5E5"> copy that so</font><font color="#CCCCCC"> crowd is just going</font>
+
+99
+00:04:24,950 --> 00:04:32,170
+<font color="#E5E5E5">to be project name</font><font color="#CCCCCC"> plus crawl dot</font><font color="#E5E5E5"> text</font>
+
+100
+00:04:32,170 --> 00:04:36,380
+so there you go now<font color="#E5E5E5"> again we need to</font>
+
+101
+00:04:36,380 --> 00:04:38,150
+<font color="#CCCCCC">check if</font><font color="#E5E5E5"> these files exist</font><font color="#CCCCCC"> before we</font>
+
+102
+00:04:38,150 --> 00:04:39,350
+actually go ahead<font color="#E5E5E5"> and</font><font color="#CCCCCC"> create them in</font>
+
+103
+00:04:39,350 --> 00:04:40,910
+case you're like running<font color="#E5E5E5"> this for a</font>
+
+104
+00:04:40,910 --> 00:04:47,510
+second<font color="#E5E5E5"> time so if not OS dot path dot is</font>
+
+105
+00:04:47,510 --> 00:04:51,440
+file and<font color="#E5E5E5"> I'll destroy</font><font color="#CCCCCC"> queue so we're</font>
+
+106
+00:04:51,440 --> 00:04:56,480
+basically<font color="#E5E5E5"> saying does</font><font color="#CCCCCC"> this file</font><font color="#E5E5E5"> exist</font>
+
+107
+00:04:56,480 --> 00:04:56,990
+already
+
+108
+00:04:56,990 --> 00:04:59,750
+if not then we<font color="#CCCCCC"> can just go</font><font color="#E5E5E5"> ahead and</font>
+
+109
+00:04:59,750 --> 00:05:01,700
+create<font color="#E5E5E5"> it now I'm going to make a quick</font>
+
+110
+00:05:01,700 --> 00:05:03,740
+<font color="#CCCCCC">little function in like just a second</font>
+
+111
+00:05:03,740 --> 00:05:05,030
+<font color="#E5E5E5">and this is going to take like two</font>
+
+112
+00:05:05,030 --> 00:05:06,560
+minutes<font color="#E5E5E5"> to write all it does is it</font>
+
+113
+00:05:06,560 --> 00:05:09,320
+<font color="#E5E5E5">writes a new or creates a new text file</font>
+
+114
+00:05:09,320 --> 00:05:13,190
+<font color="#CCCCCC">so I'll say write file</font><font color="#E5E5E5"> and whenever you</font>
+
+115
+00:05:13,190 --> 00:05:13,970
+write a<font color="#E5E5E5"> file</font>
+
+116
+00:05:13,970 --> 00:05:15,980
+<font color="#E5E5E5">what you need</font><font color="#CCCCCC"> is essentially the file</font>
+
+117
+00:05:15,980 --> 00:05:21,200
+path which<font color="#CCCCCC"> is</font><font color="#E5E5E5"> the new Boston Q dot X so</font>
+
+118
+00:05:21,200 --> 00:05:23,830
+that's<font color="#E5E5E5"> the path or the file name and the</font>
+
+119
+00:05:23,830 --> 00:05:27,680
+<font color="#CCCCCC">second thing is what data is going</font><font color="#E5E5E5"> to go</font>
+
+120
+00:05:27,680 --> 00:05:30,230
+in the file so you<font color="#E5E5E5"> can say like hey now</font>
+
+121
+00:05:30,230 --> 00:05:33,380
+my name is Bucky but that would<font color="#CCCCCC"> be</font>
+
+122
+00:05:33,380 --> 00:05:35,860
+<font color="#E5E5E5">pointless for this</font><font color="#CCCCCC"> tutorial</font><font color="#E5E5E5"> so again</font>
+
+123
+00:05:35,860 --> 00:05:38,150
+whenever<font color="#E5E5E5"> you create</font><font color="#CCCCCC"> your</font><font color="#E5E5E5"> queue or</font>
+
+124
+00:05:38,150 --> 00:05:40,910
+waiting<font color="#E5E5E5"> list</font><font color="#CCCCCC"> for the very</font><font color="#E5E5E5"> first time you</font>
+
+125
+00:05:40,910 --> 00:05:42,530
+<font color="#E5E5E5">don't want to empty because then</font>
+
+126
+00:05:42,530 --> 00:05:44,120
+<font color="#CCCCCC">whenever your program actually</font><font color="#E5E5E5"> starts is</font>
+
+127
+00:05:44,120 --> 00:05:45,620
+going to look<font color="#CCCCCC"> alright what files do I</font>
+
+128
+00:05:45,620 --> 00:05:48,680
+need<font color="#E5E5E5"> to</font><font color="#CCCCCC"> curl none I'm done and it will</font>
+
+129
+00:05:48,680 --> 00:05:50,690
+<font color="#CCCCCC">be the shortest web crawler ever</font><font color="#E5E5E5"> so what</font>
+
+130
+00:05:50,690 --> 00:05:52,310
+we're going to actually<font color="#E5E5E5"> do is we're</font>
+
+131
+00:05:52,310 --> 00:05:54,530
+going to pass it this<font color="#E5E5E5"> in so when</font><font color="#CCCCCC"> you</font>
+
+132
+00:05:54,530 --> 00:05:57,280
+program first boots up it has one arm
+
+133
+00:05:57,280 --> 00:06:00,470
+<font color="#CCCCCC">URL in the waiting list</font><font color="#E5E5E5"> and that's</font><font color="#CCCCCC"> your</font>
+
+134
+00:06:00,470 --> 00:06:02,630
+<font color="#CCCCCC">homepage</font><font color="#E5E5E5"> so then it says</font><font color="#CCCCCC"> ok let me</font><font color="#E5E5E5"> go</font>
+
+135
+00:06:02,630 --> 00:06:04,580
+ahead<font color="#E5E5E5"> and</font><font color="#CCCCCC"> grab that</font><font color="#E5E5E5"> and start crawling</font>
+
+136
+00:06:04,580 --> 00:06:07,730
+from<font color="#E5E5E5"> there so pretty cool and we're</font>
+
+137
+00:06:07,730 --> 00:06:09,730
+going<font color="#CCCCCC"> to do the same thing with crawled</font>
+
+138
+00:06:09,730 --> 00:06:16,980
+so if not OS path is file
+
+139
+00:06:16,980 --> 00:06:19,260
+all right now if you don't<font color="#E5E5E5"> have that one</font>
+
+140
+00:06:19,260 --> 00:06:21,450
+created then just go<font color="#E5E5E5"> ahead and write</font>
+
+141
+00:06:21,450 --> 00:06:28,020
+this file crowd now again whenever<font color="#E5E5E5"> we</font>
+
+142
+00:06:28,020 --> 00:06:30,480
+make<font color="#E5E5E5"> this crowd file we want to make it</font>
+
+143
+00:06:30,480 --> 00:06:32,970
+is an empty file<font color="#CCCCCC"> nothing</font><font color="#E5E5E5"> inside it</font><font color="#CCCCCC"> and</font>
+
+144
+00:06:32,970 --> 00:06:35,160
+that's<font color="#E5E5E5"> because if we</font><font color="#CCCCCC"> just go</font><font color="#E5E5E5"> ahead and</font>
+
+145
+00:06:35,160 --> 00:06:37,620
+make<font color="#CCCCCC"> it</font><font color="#E5E5E5"> and throw URL in there then our</font>
+
+146
+00:06:37,620 --> 00:06:38,790
+<font color="#CCCCCC">program is</font><font color="#E5E5E5"> going to think that we</font>
+
+147
+00:06:38,790 --> 00:06:40,680
+crawled this already but<font color="#E5E5E5"> we just created</font>
+
+148
+00:06:40,680 --> 00:06:43,230
+<font color="#E5E5E5">the file so we obviously didn't curl</font>
+
+149
+00:06:43,230 --> 00:06:45,570
+<font color="#E5E5E5">this page yet and again later what's</font>
+
+150
+00:06:45,570 --> 00:06:48,150
+going to happen is we're going to<font color="#E5E5E5"> go</font>
+
+151
+00:06:48,150 --> 00:06:50,340
+ahead and<font color="#E5E5E5"> look at the waiting list crawl</font>
+
+152
+00:06:50,340 --> 00:06:52,230
+the<font color="#E5E5E5"> homepage and after we're done</font>
+
+153
+00:06:52,230 --> 00:06:54,480
+<font color="#E5E5E5">crawling this then we move it to crawled</font>
+
+154
+00:06:54,480 --> 00:06:58,260
+so not now<font color="#E5E5E5"> and yeah there we go so</font>
+
+155
+00:06:58,260 --> 00:06:59,160
+that's<font color="#E5E5E5"> how that works</font>
+
+156
+00:06:59,160 --> 00:07:00,960
+<font color="#E5E5E5">and now let me just go ahead</font><font color="#CCCCCC"> and create</font>
+
+157
+00:07:00,960 --> 00:07:03,690
+this<font color="#CCCCCC"> write file again nothing new here</font>
+
+158
+00:07:03,690 --> 00:07:08,610
+I'll say<font color="#E5E5E5"> uh</font><font color="#CCCCCC"> create a new file give</font>
+
+159
+00:07:08,610 --> 00:07:14,490
+myself some<font color="#CCCCCC"> room here a def write file</font>
+
+160
+00:07:14,490 --> 00:07:17,490
+<font color="#E5E5E5">and again we'll just</font><font color="#CCCCCC"> say path or the</font>
+
+161
+00:07:17,490 --> 00:07:19,470
+file name and actual data you want<font color="#E5E5E5"> to</font>
+
+162
+00:07:19,470 --> 00:07:22,290
+<font color="#E5E5E5">write to</font><font color="#CCCCCC"> it and in order to create a</font><font color="#E5E5E5"> new</font>
+
+163
+00:07:22,290 --> 00:07:27,470
+file<font color="#CCCCCC"> I'm just write a</font><font color="#E5E5E5"> pickles open and</font>
+
+164
+00:07:27,590 --> 00:07:31,260
+give the path in W stands for right<font color="#E5E5E5"> so</font>
+
+165
+00:07:31,260 --> 00:07:33,750
+whenever you do this<font color="#CCCCCC"> this</font><font color="#E5E5E5"> is the file</font>
+
+166
+00:07:33,750 --> 00:07:37,230
+name<font color="#E5E5E5"> and this is</font><font color="#CCCCCC"> in</font><font color="#E5E5E5"> write mode so you</font>
+
+167
+00:07:37,230 --> 00:07:39,300
+<font color="#E5E5E5">can actually write data to it and in</font>
+
+168
+00:07:39,300 --> 00:07:41,580
+<font color="#E5E5E5">order</font><font color="#CCCCCC"> to actually write the data to it</font>
+
+169
+00:07:41,580 --> 00:07:45,210
+you<font color="#E5E5E5"> just take that file handle and call</font>
+
+170
+00:07:45,210 --> 00:07:47,640
+write and then you can pass in<font color="#CCCCCC"> whatever</font>
+
+171
+00:07:47,640 --> 00:07:50,370
+data you<font color="#CCCCCC"> want so we're creating</font><font color="#E5E5E5"> the file</font>
+
+172
+00:07:50,370 --> 00:07:52,920
+<font color="#E5E5E5">writing data to</font><font color="#CCCCCC"> it and it's also a good</font>
+
+173
+00:07:52,920 --> 00:07:55,110
+housekeeping to close the file when
+
+174
+00:07:55,110 --> 00:07:56,640
+you're done<font color="#CCCCCC"> and all this does is it</font>
+
+175
+00:07:56,640 --> 00:07:58,800
+frees up memory resources<font color="#E5E5E5"> and make sure</font>
+
+176
+00:07:58,800 --> 00:08:01,170
+you don't<font color="#E5E5E5"> have any slow data leaks or</font>
+
+177
+00:08:01,170 --> 00:08:03,450
+any weird errors or anything like<font color="#E5E5E5"> that</font>
+
+178
+00:08:03,450 --> 00:08:06,780
+<font color="#E5E5E5">so there you go look in sweet looking</font>
+
+179
+00:08:06,780 --> 00:00:00,000
+beautiful
+

@@ -1,0 +1,314 @@
+1
+00:00:00,000 --> 00:00:03,990
+are already houses welcome back and in
+this video I'm going to show you how to
+
+2
+00:00:03,990 --> 00:00:08,220
+sort custom objects using multiple
+different attributes it's actually going
+
+3
+00:00:08,220 --> 00:00:12,509
+to be really useful but before we begin
+I need to ask you guys something
+
+4
+00:00:12,509 --> 00:00:17,670
+have you ever heard the term I ship
+something I was actually texting a girl
+
+5
+00:00:17,670 --> 00:00:24,240
+uh yesterday and she goes I ship yada
+yada yada and I go you ship something
+what's that mean was that like a typo or
+
+6
+00:00:26,189 --> 00:00:30,210
+what the heck are you talking about she
+goes now that's like a saying now when
+
+7
+00:00:30,210 --> 00:00:34,530
+you say I ship something it means you
+really like something and I thought she
+
+8
+00:00:34,530 --> 00:00:38,160
+was just messing with me but then I
+looked it up online and apparently
+that's like a saying now so if anyone
+
+9
+00:00:40,649 --> 00:00:45,020
+ever heard before then let me know maybe
+I'm just like a way out of the loop um
+
+10
+00:00:45,020 --> 00:00:50,700
+for those of you who do say that don't
+anymore because it sounds stupid but I
+
+11
+00:00:50,700 --> 00:00:55,829
+don't know learn something new every day
+so anyways go ahead and type from
+
+12
+00:00:55,829 --> 00:01:01,050
+operator import item get ur figure it's
+a minute in this video now much work
+
+13
+00:01:01,050 --> 00:01:05,460
+learning some actual Python now and what
+I'm going to do is I'm going to show you
+
+14
+00:01:05,459 --> 00:01:10,020
+guys how to sort a custom this is
+actually more often than not going to be
+
+15
+00:01:10,020 --> 00:01:14,460
+a bunch of custom objects but for this
+tutorial I just have a bunch of
+
+16
+00:01:14,460 --> 00:01:20,520
+dictionaries in here so each object is
+of course has multiple attributes these
+
+17
+00:01:20,520 --> 00:01:23,970
+ones just have a first name and last
+name and I'm going to show you guys how
+
+18
+00:01:23,970 --> 00:01:28,740
+to sort these and then I'm going to show
+you guys why sorting them that way is a
+
+19
+00:01:28,740 --> 00:01:33,960
+problem and how to do it properly so we
+want to go ahead and sort these by I
+
+20
+00:01:33,960 --> 00:01:40,530
+don't know first name why not so I'm
+going to write X in sorted all right
+
+21
+00:01:40,530 --> 00:01:45,619
+first thing of course what do you want
+to sort users so anything we can really
+
+22
+00:01:45,619 --> 00:01:52,350
+users and what attribute do you want to
+sort by so instead of just saying okay
+
+23
+00:01:52,350 --> 00:01:56,460
+sort these by whatever default method
+you have we know that we can actually
+
+24
+00:01:56,460 --> 00:02:01,649
+access the attributes so we can sort by
+either first name or last name pretty
+
+25
+00:02:01,649 --> 00:02:06,299
+cool how do we do that the key or the
+thing that we want to sort by equals
+
+26
+00:02:06,299 --> 00:02:11,500
+item getter and this is just like
+attribute getter essentially F&A
+
+27
+00:02:11,500 --> 00:02:15,680
+cool cool everyone's going to be sorted
+by their first name let's just go ahead
+
+28
+00:02:15,680 --> 00:02:21,590
+and print this out and all right Amanda
+Burnie Tom looking good wait a minute
+
+29
+00:02:21,590 --> 00:02:26,870
+look at this right here see whenever
+it's sorted all the Tom's it didn't
+
+30
+00:02:26,870 --> 00:02:30,920
+really sort it in a true alphabetical
+order because it has Tom Roberts
+then Tom Williams and then Tom Jones I
+
+31
+00:02:33,980 --> 00:02:38,989
+mean if this was a true alphabetical
+sort it would be Jones then Roberts then
+
+32
+00:02:38,989 --> 00:02:42,410
+Williams
+so I mean go back here and let me go
+
+33
+00:02:42,410 --> 00:02:49,250
+ahead and sort by L name and that should
+fix that problem what the heck
+
+34
+00:02:49,250 --> 00:02:55,070
+look at this it's ordered by last names
+but whenever sorted by you know this
+
+35
+00:02:55,070 --> 00:02:58,970
+group Robert says it has Bucky Tom and
+Amanda
+
+36
+00:02:58,970 --> 00:03:04,310
+so I mean Amanda should be first and
+then Bucky and then Tom so how the heck
+
+37
+00:03:04,310 --> 00:03:10,459
+do we sort it in true alphabetic order
+where let's say we want to sort by first
+
+38
+00:03:10,459 --> 00:03:15,500
+names but then those subgroup of let's
+say Williams is we want to sort those
+
+39
+00:03:15,500 --> 00:03:20,320
+further by last name so what we can do
+is this
+
+40
+00:03:20,320 --> 00:03:26,510
+I'm just go ahead and print out a little
+separator line and I'm just doing that
+
+41
+00:03:26,510 --> 00:03:31,040
+because I'm going to post all the source
+code on my github page so if you guys
+
+42
+00:03:31,040 --> 00:03:36,650
+want to sort by one attribute I'll keep
+that there too but what I want to do is
+
+43
+00:03:36,650 --> 00:03:43,250
+I want to pretty much do the same thing
+before I'm going to sort users but now
+
+44
+00:03:43,250 --> 00:03:50,150
+for Mikey come on autocomplete I was
+good I don't I get angry like when I
+
+45
+00:03:50,150 --> 00:03:54,410
+just don't type in one like symbol and
+I'm like oh my god autocomplete can you
+
+46
+00:03:54,410 --> 00:03:58,910
+not just type the rest of my code for me
+all these cool features for i DES they
+
+47
+00:03:58,910 --> 00:04:03,769
+just made me incredibly lazy but you
+know I don't know whatever all right so
+
+48
+00:04:03,769 --> 00:04:07,760
+just like before we're going to sort by
+item getter but instead of just having
+one attribute in here such as f name
+
+49
+00:04:10,130 --> 00:04:15,170
+says that didn't give us the desired
+results we can actually throw in another
+
+50
+00:04:15,170 --> 00:04:21,919
+attribute so what we're saying right
+here is go ahead get all of these items
+
+51
+00:04:21,918 --> 00:04:28,400
+and first sort them by their four
+name now once you have all these items
+
+52
+00:04:28,400 --> 00:04:32,660
+sorted by their first names look at the
+individual groups of names and then sort
+
+53
+00:04:32,660 --> 00:04:37,850
+those further by last name really
+awesome so now let's go ahead and print
+
+54
+00:04:37,850 --> 00:04:42,050
+this out so this one was default one and
+look at the Tom's in the first one
+
+55
+00:04:42,050 --> 00:04:47,030
+Roberts Williams and Jones that's not
+right the second one however it sorts
+all of the objects by their first name
+
+56
+00:04:49,370 --> 00:04:56,120
+and then once it has sorted it goes
+further and sorts them by last name so
+
+57
+00:04:56,120 --> 00:05:00,980
+now this is a true alphabetical sort
+where everything even the subgroups are
+
+58
+00:05:00,980 --> 00:05:05,630
+sorted properly so a lot more useful
+especially whenever you're trying to you
+
+59
+00:05:05,630 --> 00:05:10,700
+know like make a database and find stuff
+a lot quicker so there you go so yeah
+
+60
+00:05:10,700 --> 00:05:15,350
+again I'm probably going to go look at
+some more terms on Urban Dictionary and
+
+61
+00:05:15,350 --> 00:05:19,520
+yeah maybe you guys want study some more
+Python so actually I'll probably just
+make another video so I'll see you guys
+
+62
+00:05:20,930 --> 00:05:23,230
+then

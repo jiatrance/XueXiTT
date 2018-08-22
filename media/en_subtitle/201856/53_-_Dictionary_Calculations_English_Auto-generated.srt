@@ -1,0 +1,226 @@
+1
+00:00:00,000 --> 00:00:03,780
+already houses welcome back and in this
+video I'm going to show you how to
+
+2
+00:00:03,780 --> 00:00:08,880
+perform calculations on dictionary
+values rather than the keys if you guys
+
+3
+00:00:08,880 --> 00:00:13,410
+are like wow that sounds incredibly
+boring I am probably never going to need
+
+4
+00:00:13,410 --> 00:00:17,550
+this check this out
+let's say that you just out of this
+
+5
+00:00:17,550 --> 00:00:23,039
+awesome formula - I don't know like
+predict the prices of stocks so you have
+
+6
+00:00:23,039 --> 00:00:26,699
+all these stocks and the first thing
+that you gotta figure out is just what
+
+7
+00:00:26,699 --> 00:00:32,160
+is I don't know like the cheapest stock
+so you try to do something like this
+using your programming skills alright
+
+8
+00:00:34,320 --> 00:00:40,079
+I'm just going to print min it gives me
+the minimum value of some sets some data
+
+9
+00:00:40,079 --> 00:00:44,850
+set or iterable so I'll just write
+stocks right there and it should give me
+
+10
+00:00:44,850 --> 00:00:52,260
+the cheapest one wait a minute it said a
+APL hmm let's look at this right here
+that's not right see Apple is 325 bucks
+
+11
+00:00:55,500 --> 00:00:59,940
+and the cheapest one looks like Ford so
+why the heck isn't this working
+
+12
+00:00:59,940 --> 00:01:04,799
+well it actually did work just not in
+the way that you thought see by default
+
+13
+00:01:04,799 --> 00:01:09,600
+whenever you're running these
+calculations on a dictionary it's going
+to look at the key rather than the value
+
+14
+00:01:11,939 --> 00:01:17,400
+so this is the key and this is the value
+so it did give you the minimum one it's
+
+15
+00:01:17,400 --> 00:01:22,950
+just that the minimum one in
+alphabetical order was Apple but that's
+
+16
+00:01:22,950 --> 00:01:27,420
+not what we want we want the cheapest
+one which is Ford so how the heck do we
+
+17
+00:01:27,420 --> 00:01:34,619
+get that long stocks no not let's figure
+this out all right so we can't just sort
+
+18
+00:01:34,619 --> 00:01:39,240
+it the default way or else we don't get
+what we want what we actually need to do
+
+19
+00:01:39,240 --> 00:01:45,240
+is we actually need to create a new list
+and we do that by using zip now whenever
+
+20
+00:01:45,240 --> 00:01:51,259
+you use it what this is going to do is
+it's going to return a list of tuples so
+
+21
+00:01:51,259 --> 00:01:56,159
+what we can essentially do is anytime
+you have two lists we can essentially
+
+22
+00:01:56,159 --> 00:02:01,110
+zip them together so what we're going to
+do is we're going to get a list of these
+
+23
+00:02:01,110 --> 00:02:06,450
+values and a list of these values and
+we're going to tie them together so the
+
+24
+00:02:06,450 --> 00:02:10,200
+value is first so essentially what we
+end up is with is something like this
+
+25
+00:02:10,199 --> 00:02:14,689
+instead of goob
+four three four we end up with four
+
+26
+00:02:14,689 --> 00:02:26,390
+three four gook and then we end up with
+three to five AAPL there we go so again
+
+27
+00:02:26,390 --> 00:02:30,709
+this isn't valid Python but I just want
+to demonstrate what we're essentially
+
+28
+00:02:30,709 --> 00:02:36,200
+doing let me just go ahead and comment
+that so you guys can see all right so
+
+29
+00:02:36,200 --> 00:02:44,720
+let me just say mint price holy min rice
+the minimum amount of rice that I can
+
+30
+00:02:44,720 --> 00:02:50,299
+eat in one day is one pound no less what
+am I talking about all right let's go
+
+31
+00:02:50,299 --> 00:02:53,629
+ahead and keep going art so we're
+getting the minimum still we're going to
+get the minimum value but instead of
+
+32
+00:02:55,280 --> 00:02:58,939
+just throwing our dictionary in there
+before because that's just going to sort
+
+33
+00:02:58,939 --> 00:03:03,620
+by the keys what we're going to do is
+this we're going to zip two values
+
+34
+00:03:03,620 --> 00:03:08,329
+together now what values do you want is
+it together or the first one is just
+
+35
+00:03:08,329 --> 00:03:15,379
+going to be the values so how do we get
+that we just read stocks values easiest
+thing ever
+
+36
+00:03:15,919 --> 00:03:21,530
+now the second one is going to give us
+stocks keys so all we're doing right
+
+37
+00:03:21,530 --> 00:03:26,359
+here is instead of having the keys first
+in the value second all we're saying is
+
+38
+00:03:26,359 --> 00:03:30,349
+put the values first in the key second
+easiest thing you've probably ever done
+in your life and now let me just print
+
+39
+00:03:32,449 --> 00:03:40,280
+out what we found so print out mint
+price and there you go all right so what
+
+40
+00:03:40,280 --> 00:03:46,430
+we did is we now reorganize that
+essentially that's all we did and we
+
+41
+00:03:46,430 --> 00:03:51,439
+print out the minimum which is indeed
+forward so there you go that ladies and
+gentlemen is how you perform custom
+
+42
+00:03:52,909 --> 00:03:57,409
+dictionary calculations on the values
+rather than the keys you can go make
+
+43
+00:03:57,409 --> 00:04:01,519
+millions with your incredible awesome
+stock formula now I'm going to keep
+
+44
+00:04:01,519 --> 00:04:05,349
+making videos so I'll see you guys next
+time

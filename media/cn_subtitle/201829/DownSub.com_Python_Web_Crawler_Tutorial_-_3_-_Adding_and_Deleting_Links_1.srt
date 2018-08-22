@@ -1,0 +1,460 @@
+1
+00:00:00,030 --> 00:00:02,550
+ <font color="#CCCCCC">我们的道路 </font><font color="#E5E5E5">房屋欢迎回来和我们之前 </font>
+
+2
+00:00:02,550 --> 00:00:04,200
+开始<font color="#E5E5E5">我只是 </font><font color="#CCCCCC">想快速喊出来 </font>
+
+3
+00:00:04,200 --> 00:00:08,210
+ <font color="#E5E5E5">杰森，他是我的第三个赞助人 </font>
+
+4
+00:00:08,210 --> 00:00:10,349
+ <font color="#E5E5E5">我的patreon帐户捐了五块钱 </font>
+
+5
+00:00:10,349 --> 00:00:13,530
+所以<font color="#E5E5E5">杰森谢谢你，我爱</font><font color="#CCCCCC">你们 </font>
+
+6
+00:00:13,530 --> 00:00:16,230
+ <font color="#CCCCCC">现在，我居然发现 </font><font color="#E5E5E5">我每次 </font>
+
+7
+00:00:16,230 --> 00:00:18,359
+正在编辑<font color="#E5E5E5">我忘记的最后一个视频</font>
+
+8
+00:00:18,359 --> 00:00:21,840
+ <font color="#E5E5E5">用，因为这正斜杠 </font><font color="#CCCCCC">什么 </font>
+
+9
+00:00:21,840 --> 00:00:24,090
+那<font color="#CCCCCC">就是现在 </font><font color="#E5E5E5">的文件路径 </font>
+
+10
+00:00:24,090 --> 00:00:28,769
+将<font color="#E5E5E5">是 </font><font color="#CCCCCC">新的波士顿Q点文本 </font><font color="#E5E5E5">和 </font>
+
+11
+00:00:28,769 --> 00:00:32,040
+当然我们需要正斜线
+
+12
+00:00:32,040 --> 00:00:34,559
+得到正确的路径<font color="#E5E5E5">就 </font><font color="#CCCCCC">这样 </font><font color="#E5E5E5">如此 </font>
+
+13
+00:00:34,559 --> 00:00:35,880
+再次<font color="#CCCCCC">确保你添加你的小 </font>
+
+14
+00:00:35,880 --> 00:00:39,059
+斜杠<font color="#CCCCCC">好了，所以让</font><font color="#E5E5E5">我 </font>
+
+15
+00:00:39,059 --> 00:00:40,770
+继续<font color="#E5E5E5">，确保 </font><font color="#CCCCCC">这是有效的 </font>
+
+16
+00:00:40,770 --> 00:00:42,960
+首先<font color="#CCCCCC">，我们将 </font><font color="#E5E5E5">要做什么 </font>
+
+17
+00:00:42,960 --> 00:00:44,730
+ <font color="#E5E5E5">你需要 </font><font color="#CCCCCC">创建数据文件 </font>
+
+18
+00:00:44,730 --> 00:00:46,500
+你<font color="#E5E5E5">看到第一个参数就是两个参数</font>
+
+19
+00:00:46,500 --> 00:00:48,989
+是<font color="#E5E5E5">这是</font><font color="#CCCCCC">新的项目名称 </font>
+
+20
+00:00:48,989 --> 00:00:52,710
+ <font color="#E5E5E5">波士顿和第二个是 </font><font color="#CCCCCC">URL </font>
+
+21
+00:00:52,710 --> 00:00:55,260
+ <font color="#E5E5E5">主页 </font><font color="#CCCCCC">所以 </font><font color="#E5E5E5">每当 </font><font color="#CCCCCC">检查 </font><font color="#E5E5E5">出来 </font>
+
+22
+00:00:55,260 --> 00:00:58,829
+我跑<font color="#E5E5E5">这是它你要做的事情 </font>
+
+23
+00:00:58,829 --> 00:01:01,440
+ <font color="#CCCCCC">我们之前 </font><font color="#E5E5E5">看到 </font><font color="#CCCCCC">这是空的 </font>
+
+24
+00:01:01,440 --> 00:01:05,339
+现在有<font color="#E5E5E5">两个文件如此爬行，这是 </font>
+
+25
+00:01:05,339 --> 00:01:07,110
+ <font color="#E5E5E5">我们没有卷曲任何东西 </font>
+
+26
+00:01:07,110 --> 00:01:12,270
+ <font color="#E5E5E5">也</font><font color="#CCCCCC">排队 ，所以我们必须 </font><font color="#E5E5E5">在 </font><font color="#CCCCCC">一个网址 </font>
+
+27
+00:01:12,270 --> 00:01:14,820
+等待<font color="#CCCCCC">我们的机器人第一次等待</font>
+
+28
+00:01:14,820 --> 00:01:16,920
+启动<font color="#CCCCCC">它 </font><font color="#E5E5E5">会说好的让我 </font>
+
+29
+00:01:16,920 --> 00:01:19,979
+得到<font color="#E5E5E5">在这是我的起点， </font><font color="#CCCCCC">所以 </font>
+
+30
+00:01:19,979 --> 00:01:21,720
+我实际上<font color="#CCCCCC">可以继续 </font><font color="#E5E5E5">删除 </font>
+
+31
+00:01:21,720 --> 00:01:26,670
+ <font color="#CCCCCC">这个现在让 </font><font color="#E5E5E5">我真的摆脱 </font>
+
+32
+00:01:26,670 --> 00:01:31,049
+ <font color="#E5E5E5">这个小东西 </font><font color="#CCCCCC">好吧，所以现在我 </font>
+
+33
+00:01:31,049 --> 00:01:32,490
+实际上只需<font color="#E5E5E5">要做 </font><font color="#CCCCCC">一对 </font>
+
+34
+00:01:32,490 --> 00:01:35,220
+ <font color="#CCCCCC">像这样的其他管家功能 </font>
+
+35
+00:01:35,220 --> 00:01:37,829
+所以这是为了<font color="#E5E5E5">创建一个全新的文件 </font>
+
+36
+00:01:37,829 --> 00:01:39,630
+我们已经看到了<font color="#E5E5E5">什么时候会发生这种情况 </font>
+
+37
+00:01:39,630 --> 00:01:41,909
+ <font color="#E5E5E5">有用但后来我们要去的地方 </font>
+
+38
+00:01:41,909 --> 00:01:44,579
+ <font color="#CCCCCC">我们要做的就是 </font><font color="#E5E5E5">爬行了 </font>
+
+39
+00:01:44,579 --> 00:01:46,950
+很多不同的页面<font color="#E5E5E5">，我们不想要 </font>
+
+40
+00:01:46,950 --> 00:01:48,390
+只创建<font color="#E5E5E5">一个 </font><font color="#CCCCCC">全新的文件 </font>
+
+41
+00:01:48,390 --> 00:01:50,159
+ <font color="#CCCCCC">时间 </font><font color="#E5E5E5">我们 </font><font color="#CCCCCC">只是 </font><font color="#E5E5E5">想发现更多 </font>
+
+42
+00:01:50,159 --> 00:01:52,079
+链接， <font color="#E5E5E5">我们只想将它们添加 </font><font color="#CCCCCC">到 </font>
+
+43
+00:01:52,079 --> 00:01:54,240
+ <font color="#E5E5E5">这个文件的结尾 </font><font color="#CCCCCC">就在这里 </font>
+
+44
+00:01:54,240 --> 00:01:56,969
+所以我们<font color="#E5E5E5">实际上需要一个新功能 </font>
+
+45
+00:01:56,969 --> 00:02:02,930
+我只想说一<font color="#E5E5E5">上添加数据到 </font>
+
+46
+00:02:02,990 --> 00:02:07,860
+现有文件，所以我会说添加<font color="#E5E5E5">F追加 </font>
+
+47
+00:02:07,860 --> 00:02:10,440
+提交
+
+48
+00:02:10,440 --> 00:02:13,620
+它将采用<font color="#CCCCCC">相同的参数 </font>
+
+49
+00:02:13,620 --> 00:02:14,970
+前哪些<font color="#E5E5E5">文件会做你想做 </font><font color="#CCCCCC">的 </font>
+
+50
+00:02:14,970 --> 00:02:16,800
+笔<font color="#E5E5E5">- </font><font color="#CCCCCC">你 </font><font color="#E5E5E5">想坚持 什么？ </font>
+
+51
+00:02:16,800 --> 00:02:19,320
+ <font color="#E5E5E5">它 </font><font color="#CCCCCC">的结束</font><font color="#E5E5E5">，为此，你可以 </font>
+
+52
+00:02:19,320 --> 00:02:22,140
+实际上只是打开你想要的
+
+53
+00:02:22,140 --> 00:02:23,880
+ <font color="#E5E5E5">打开 </font><font color="#CCCCCC">文件你想要什么文件 </font>
+
+54
+00:02:23,880 --> 00:02:24,360
+ <font color="#E5E5E5">打开 </font>
+
+55
+00:02:24,360 --> 00:02:26,850
+以及<font color="#E5E5E5">我们告诉你的任何一个 - 以及如何 </font>
+
+56
+00:02:26,850 --> 00:02:29,580
+你想<font color="#CCCCCC">以 </font><font color="#E5E5E5">一种模式 打开 </font><font color="#CCCCCC">它吗？ </font>
+
+57
+00:02:29,580 --> 00:02:32,430
+意味着<font color="#E5E5E5">追加或添加 </font><font color="#CCCCCC">到 </font><font color="#E5E5E5">它 </font><font color="#CCCCCC">的 </font><font color="#E5E5E5">末尾 </font><font color="#CCCCCC">W </font>
+
+58
+00:02:32,430 --> 00:02:34,080
+如果你正在写一个<font color="#E5E5E5">品牌，那就意味着正确</font>
+
+59
+00:02:34,080 --> 00:02:36,540
+新文件<font color="#E5E5E5">，然后我们只会说 </font><font color="#CCCCCC">作为文件 </font>
+
+60
+00:02:36,540 --> 00:02:39,120
+ <font color="#E5E5E5">所以我们引用 </font><font color="#CCCCCC">了任何文件 </font>
+
+61
+00:02:39,120 --> 00:02:41,880
+我们只是<font color="#E5E5E5">打开，现在我们的文件 </font>
+
+62
+00:02:41,880 --> 00:02:44,940
+ <font color="#E5E5E5">可以只调用一个写方法 </font><font color="#CCCCCC">，我们会 </font>
+
+63
+00:02:44,940 --> 00:02:48,750
+ <font color="#E5E5E5">只是说数据，我们会继续前进 </font>
+
+64
+00:02:48,750 --> 00:02:51,480
+ <font color="#CCCCCC">最后再贴一条新线 </font>
+
+65
+00:02:51,480 --> 00:02:52,770
+ <font color="#E5E5E5">我们要做的就是我们 </font>
+
+66
+00:02:52,770 --> 00:02:54,300
+ <font color="#E5E5E5">无论何时我们都会打电话 </font>
+
+67
+00:02:54,300 --> 00:02:57,030
+想要坚持一个<font color="#E5E5E5">新的链接 </font><font color="#CCCCCC">到最后 </font>
+
+68
+00:02:57,030 --> 00:02:58,710
+其中一个<font color="#CCCCCC">文件就这样 </font><font color="#E5E5E5">了 </font>
+
+69
+00:02:58,710 --> 00:03:00,660
+在<font color="#CCCCCC">它上面贴上一个链接，然后就可以了 </font>
+
+70
+00:03:00,660 --> 00:03:03,240
+将光标向下移动<font color="#CCCCCC">到 </font><font color="#E5E5E5">新行 </font>
+
+71
+00:03:03,240 --> 00:03:05,040
+或者<font color="#E5E5E5">你想要调用的指针 </font>
+
+72
+00:03:05,040 --> 00:03:07,470
+它是啊，然后你有一个链接
+
+73
+00:03:07,470 --> 00:03:08,670
+新线我<font color="#E5E5E5">认为它只是 </font><font color="#CCCCCC">看起来有点 </font>
+
+74
+00:03:08,670 --> 00:03:10,710
+ <font color="#E5E5E5">好一点的 </font><font color="#CCCCCC">那种方式现在让 </font><font color="#E5E5E5">我做 </font>
+
+75
+00:03:10,710 --> 00:03:15,500
+另一个叫做的函数<font color="#E5E5E5">我会说 </font><font color="#CCCCCC">删除 </font>
+
+76
+00:03:16,730 --> 00:03:19,410
+ <font color="#E5E5E5">好吧所以有时候 </font><font color="#CCCCCC">会有 </font>
+
+77
+00:03:19,410 --> 00:03:21,810
+我们真正<font color="#E5E5E5">想要清除的地方还是我们 </font>
+
+78
+00:03:21,810 --> 00:03:23,880
+ <font color="#CCCCCC">不想删除 </font><font color="#E5E5E5">文件，但我们只是 </font>
+
+79
+00:03:23,880 --> 00:03:25,770
+想要<font color="#E5E5E5">摆脱 </font><font color="#CCCCCC">它里面 </font><font color="#E5E5E5">的一切 </font>
+
+80
+00:03:25,770 --> 00:03:26,880
+我们<font color="#E5E5E5">会 </font><font color="#CCCCCC">看到这是为什么 </font>
+
+81
+00:03:26,880 --> 00:03:29,070
+ <font color="#CCCCCC">我以后 </font><font color="#E5E5E5">常常 有用 </font>
+
+82
+00:03:29,070 --> 00:03:32,010
+几乎每一个Python都有这些
+
+83
+00:03:32,010 --> 00:03:33,959
+程序我写，所以这些<font color="#CCCCCC">只是 </font>
+
+84
+00:03:33,959 --> 00:03:37,740
+家政， <font color="#CCCCCC">但 </font><font color="#E5E5E5">我会说删除一个文件 </font>
+
+85
+00:03:37,740 --> 00:03:42,420
+内容，你再也不需要了
+
+86
+00:03:42,420 --> 00:03:44,550
+要在<font color="#CCCCCC">这里传递数据， 因为你是 </font>
+
+87
+00:03:44,550 --> 00:03:46,650
+不<font color="#E5E5E5">写或附加任何东西 </font>
+
+88
+00:03:46,650 --> 00:03:48,060
+你只是<font color="#CCCCCC">删除那里的东西 </font>
+
+89
+00:03:48,060 --> 00:03:54,630
+所以我会用开放的路径说<font color="#E5E5E5">这 </font><font color="#CCCCCC">是 </font>
+
+90
+00:03:54,630 --> 00:04:00,030
+ <font color="#E5E5E5">实际上 </font><font color="#CCCCCC">写模式通过基本上 </font>
+
+91
+00:04:00,030 --> 00:04:02,550
+我们在<font color="#CCCCCC">这里做的就是我们 </font>
+
+92
+00:04:02,550 --> 00:04:06,480
+创建<font color="#E5E5E5">一个 </font><font color="#CCCCCC">新文件或覆盖 </font>
+
+93
+00:04:06,480 --> 00:04:09,660
+现有的同名和本名
+
+94
+00:04:09,660 --> 00:04:11,580
+路<font color="#E5E5E5">就在这里，这 </font><font color="#CCCCCC">是一个 </font><font color="#E5E5E5">关键的词 </font><font color="#CCCCCC">， </font>
+
+95
+00:04:11,580 --> 00:04:13,080
+ <font color="#E5E5E5">你可以随时使用 </font>
+
+96
+00:04:13,080 --> 00:04:13,590
+没有
+
+97
+00:04:13,590 --> 00:04:18,370
+ <font color="#E5E5E5">所以它基本上 </font><font color="#CCCCCC">只是一个 </font>
+
+98
+00:04:18,370 --> 00:04:21,160
+ <font color="#E5E5E5">在 </font><font color="#CCCCCC">写作时发表评论</font>
+
+99
+00:04:21,160 --> 00:04:23,020
+不过，这<font color="#E5E5E5">是 </font><font color="#CCCCCC">要给你一个 </font>
+
+100
+00:04:23,020 --> 00:04:25,449
+错误，因为<font color="#E5E5E5">这里没有代码 </font>
+
+101
+00:04:25,449 --> 00:04:27,639
+无论何时你只想拥有一个
+
+102
+00:04:27,639 --> 00:04:29,830
+循环，让它无所事事，你可以
+
+103
+00:04:29,830 --> 00:04:30,699
+只是<font color="#CCCCCC">写通行证 </font>
+
+104
+00:04:30,699 --> 00:04:34,330
+所以如果存在一个文件而不是
+
+105
+00:04:34,330 --> 00:04:36,130
+只需阅读<font color="#E5E5E5">每一行 </font><font color="#CCCCCC">- </font>
+
+106
+00:04:36,130 --> 00:04:37,690
+ <font color="#E5E5E5">一个留一个 </font><font color="#CCCCCC">，我们只是 </font><font color="#E5E5E5">要 </font>
+
+107
+00:04:37,690 --> 00:04:39,400
+ <font color="#CCCCCC">创建文件具有 </font><font color="#E5E5E5">相同</font><font color="#CCCCCC">的</font><font color="#E5E5E5">名称 </font><font color="#CCCCCC">和 </font>
+
+108
+00:04:39,400 --> 00:04:41,110
+ <font color="#E5E5E5">这基本上 </font><font color="#CCCCCC">就是 </font><font color="#E5E5E5">要 </font><font color="#CCCCCC">删除 </font>
+
+109
+00:04:41,110 --> 00:04:43,150
+ <font color="#E5E5E5">现在所有</font><font color="#CCCCCC">的内容 </font><font color="#E5E5E5">都 </font><font color="#CCCCCC">好 </font><font color="#E5E5E5">了 </font>
+
+110
+00:04:43,150 --> 00:04:45,340
+最后<font color="#CCCCCC">两个函数在这里 </font><font color="#E5E5E5">我实际上 </font>
+
+111
+00:04:45,340 --> 00:04:46,930
+ <font color="#E5E5E5">要 </font><font color="#CCCCCC">保存下一个教程和 </font>
+
+112
+00:04:46,930 --> 00:04:49,660
+我会告诉你们<font color="#E5E5E5">为什么，但我们有两个 </font>
+
+113
+00:04:49,660 --> 00:04:51,669
+ <font color="#E5E5E5">那么这个文件的功能就更多了</font>
+
+114
+00:04:51,669 --> 00:04:53,590
+ <font color="#CCCCCC">我们进入 </font><font color="#E5E5E5">真正有趣</font><font color="#CCCCCC">的</font><font color="#E5E5E5">东西 </font><font color="#CCCCCC">，所以看 </font>
+
+115
+00:04:53,590 --> 00:00:00,000
+ <font color="#CCCCCC">你们下次 </font>
+

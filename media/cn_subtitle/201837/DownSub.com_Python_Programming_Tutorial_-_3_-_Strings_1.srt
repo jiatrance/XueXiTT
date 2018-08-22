@@ -1,0 +1,760 @@
+1
+00:00:00,089 --> 00:00:01,979
+ <font color="#CCCCCC">正常的家伙欢迎回来，并 </font><font color="#E5E5E5">在此 </font>
+
+2
+00:00:01,979 --> 00:00:03,389
+视频<font color="#CCCCCC">我要 </font><font color="#E5E5E5">教你 </font><font color="#CCCCCC">有关 </font>
+
+3
+00:00:03,389 --> 00:00:06,600
+字符串<font color="#E5E5E5">现在是一个字符串就是 </font><font color="#CCCCCC">他们 </font>
+
+4
+00:00:06,600 --> 00:00:09,150
+调用计算机编程的文本<font color="#CCCCCC">是 </font>
+
+5
+00:00:09,150 --> 00:00:11,519
+很像一个名称的<font color="#E5E5E5">任何判决</font>
+
+6
+00:00:11,519 --> 00:00:15,059
+ <font color="#E5E5E5">每当你使用文本时 ， 现在的东西</font>
+
+7
+00:00:15,059 --> 00:00:17,400
+或者<font color="#E5E5E5">您实际需要 </font><font color="#CCCCCC">包含的字符串</font>
+
+8
+00:00:17,400 --> 00:00:19,350
+ <font color="#E5E5E5">它在引号之间 </font>
+
+9
+00:00:19,350 --> 00:00:22,439
+ <font color="#E5E5E5">如果你只是尝试写作，请加倍或单身</font>
+
+10
+00:00:22,439 --> 00:00:23,970
+ <font color="#E5E5E5">就像 </font><font color="#CCCCCC">幸运的 </font><font color="#E5E5E5">罗伯茨 一样 </font>
+
+11
+00:00:23,970 --> 00:00:26,460
+ <font color="#E5E5E5">屏幕它会 </font><font color="#CCCCCC">说无效的语法 </font>
+
+12
+00:00:26,460 --> 00:00:28,230
+ <font color="#E5E5E5">换句话说，它认为它是一个 </font>
+
+13
+00:00:28,230 --> 00:00:29,609
+ <font color="#E5E5E5">变量或 </font><font color="#CCCCCC">其他如果 </font><font color="#E5E5E5">不这样 </font>
+
+14
+00:00:29,609 --> 00:00:32,210
+它包括在之间<font color="#E5E5E5">引号 </font><font color="#CCCCCC">如此 </font>
+
+15
+00:00:32,210 --> 00:00:35,910
+ <font color="#CCCCCC">如果你这样做，你 </font><font color="#E5E5E5">可以输入任何你 </font>
+
+16
+00:00:35,910 --> 00:00:38,579
+ <font color="#E5E5E5">想要，再去两倍是好的 </font>
+
+17
+00:00:38,579 --> 00:00:44,219
+引号或单<font color="#CCCCCC">引号它没有 </font>
+
+18
+00:00:44,219 --> 00:00:46,410
+ <font color="#E5E5E5">但是有一些特定的时间 </font>
+
+19
+00:00:46,410 --> 00:00:48,120
+ <font color="#E5E5E5">在哪里你想要使用一个或 </font>
+
+20
+00:00:48,120 --> 00:00:48,840
+ <font color="#E5E5E5">另一个 </font>
+
+21
+00:00:48,840 --> 00:00:52,260
+ <font color="#CCCCCC">现在的 </font><font color="#E5E5E5">事情之一是说你有 </font>
+
+22
+00:00:52,260 --> 00:00:56,550
+像<font color="#CCCCCC">这样的一句话， 好吧，我 </font>
+
+23
+00:00:56,550 --> 00:00:58,109
+ <font color="#E5E5E5">打 </font><font color="#CCCCCC">个句话 </font><font color="#E5E5E5">说 </font><font color="#CCCCCC">我 </font>
+
+24
+00:00:58,109 --> 00:01:01,649
+ <font color="#E5E5E5">不要以为她是18岁 </font>
+
+25
+00:01:01,649 --> 00:01:04,769
+以及这些引用意味着什么呢
+
+26
+00:01:04,769 --> 00:01:06,450
+ <font color="#E5E5E5">几乎告诉Python在哪里 </font>
+
+27
+00:01:06,450 --> 00:01:09,210
+开始<font color="#E5E5E5">和结束在这里 </font>
+
+28
+00:01:09,210 --> 00:01:12,119
+这个例子<font color="#E5E5E5">就在这里开始吧 </font>
+
+29
+00:01:12,119 --> 00:01:13,799
+这里说<font color="#CCCCCC">Bucky Roberts </font><font color="#E5E5E5">很棒 </font>
+
+30
+00:01:13,799 --> 00:01:15,780
+ <font color="#E5E5E5">它就在这里结束，因为那是 </font>
+
+31
+00:01:15,780 --> 00:01:17,820
+但是你的报价就是这个
+
+32
+00:01:17,820 --> 00:01:21,509
+一句<font color="#E5E5E5">它实际上使用 </font><font color="#CCCCCC">的其中 </font><font color="#E5E5E5">之一 </font>
+
+33
+00:01:21,509 --> 00:01:23,670
+结束之后引用<font color="#E5E5E5">这句 </font>
+
+34
+00:01:23,670 --> 00:01:26,310
+撇号<font color="#E5E5E5">就在这里，所以 </font><font color="#CCCCCC">Python正在进行中 </font>
+
+35
+00:01:26,310 --> 00:01:28,860
+认为<font color="#E5E5E5">它从这里开始就停在这里 </font>
+
+36
+00:01:28,860 --> 00:01:30,720
+ <font color="#E5E5E5">而 </font><font color="#CCCCCC">这个东西</font><font color="#E5E5E5">其余 全部 是 </font>
+
+37
+00:01:30,720 --> 00:01:33,450
+ <font color="#E5E5E5">每时每刻都会感到困惑 </font>
+
+38
+00:01:33,450 --> 00:01:35,670
+你有一个<font color="#CCCCCC">句子 </font><font color="#E5E5E5">确实使用 </font>
+
+39
+00:01:35,670 --> 00:01:37,740
+单引号你想做的就是你
+
+40
+00:01:37,740 --> 00:01:40,170
+ <font color="#E5E5E5">希望把他们在双引号，所以 </font><font color="#CCCCCC">我 </font>
+
+41
+00:01:40,170 --> 00:01:44,729
+不要以为她是18岁就<font color="#E5E5E5">进入了它 </font>
+
+42
+00:01:44,729 --> 00:01:47,250
+工作<font color="#E5E5E5">正常， </font><font color="#CCCCCC">现在正好相反 </font>
+
+43
+00:01:47,250 --> 00:01:50,369
+ <font color="#CCCCCC">这个说你 </font><font color="#E5E5E5">有一个</font><font color="#CCCCCC">句子 </font>
+
+44
+00:01:50,369 --> 00:01:54,290
+你只是像她说的那样加双引号
+
+45
+00:01:54,290 --> 00:01:56,439
+什么
+
+46
+00:01:56,439 --> 00:02:02,829
+牛的一部分是<font color="#CCCCCC">肉饼朗姆酒 </font>
+
+47
+00:02:02,829 --> 00:02:05,710
+ <font color="#CCCCCC">当然这 </font><font color="#E5E5E5">实际上是一个引用或一个 </font>
+
+48
+00:02:05,710 --> 00:02:08,050
+句子， <font color="#E5E5E5">它使用双引号，所以 </font>
+
+49
+00:02:08,050 --> 00:02:09,519
+这种情况下你<font color="#CCCCCC">想要包围 </font><font color="#E5E5E5">它 </font>
+
+50
+00:02:09,519 --> 00:02:13,840
+单<font color="#E5E5E5">引号现在又容易了 </font>
+
+51
+00:02:13,840 --> 00:02:15,310
+ <font color="#E5E5E5">你</font><font color="#CCCCCC"> </font><font color="#E5E5E5">会 </font><font color="#CCCCCC">需要做的事情</font>
+
+52
+00:02:15,310 --> 00:02:18,640
+ <font color="#CCCCCC">有时候如果你的句子有 </font>
+
+53
+00:02:18,640 --> 00:02:20,860
+双引号<font color="#E5E5E5">和单引号 </font>
+
+54
+00:02:20,860 --> 00:02:23,440
+在<font color="#E5E5E5">它，你不能只选择一个或 </font>
+
+55
+00:02:23,440 --> 00:02:25,390
+另一个你可以做的就叫做
+
+56
+00:02:25,390 --> 00:02:27,819
+逃避一个<font color="#E5E5E5">角色我会告诉你如何 </font>
+
+57
+00:02:27,819 --> 00:02:30,849
+ <font color="#E5E5E5">现在 </font><font color="#CCCCCC">这样 </font><font color="#E5E5E5">做， </font><font color="#CCCCCC">所以实际上 </font><font color="#E5E5E5">让我 </font>
+
+58
+00:02:30,849 --> 00:02:35,860
+看看我是否能<font color="#CCCCCC">好吗复制此</font><font color="#E5E5E5">所以 </font><font color="#CCCCCC">在 </font>
+
+59
+00:02:35,860 --> 00:02:38,170
+这个例子<font color="#E5E5E5">你 </font><font color="#CCCCCC">看到它认为它 </font>
+
+60
+00:02:38,170 --> 00:02:41,230
+ <font color="#CCCCCC">然而，在这里开始和停止然后 </font><font color="#E5E5E5">说 </font>
+
+61
+00:02:41,230 --> 00:02:43,599
+那<font color="#CCCCCC">我们 </font><font color="#E5E5E5">在 </font><font color="#CCCCCC">这里 有双引号 </font>
+
+62
+00:02:43,599 --> 00:02:45,670
+ <font color="#E5E5E5">那么 </font><font color="#CCCCCC">我们需要将其包围起来 </font>
+
+63
+00:02:45,670 --> 00:02:48,180
+单引号<font color="#E5E5E5">你能做的就是 </font>
+
+64
+00:02:48,180 --> 00:02:51,190
+每当它认为这是结束而<font color="#E5E5E5">你 </font>
+
+65
+00:02:51,190 --> 00:02:52,660
+实际上<font color="#E5E5E5">只是想 </font><font color="#CCCCCC">用它作为一部分 </font>
+
+66
+00:02:52,660 --> 00:02:55,630
+ <font color="#E5E5E5">你的字符串就在引用之前 </font>
+
+67
+00:02:55,630 --> 00:02:58,299
+引号你可以使用<font color="#E5E5E5">反斜杠 </font>
+
+68
+00:02:58,299 --> 00:03:01,209
+ <font color="#E5E5E5">并且每当你使用反斜杠然后 </font>
+
+69
+00:03:01,209 --> 00:03:03,400
+ <font color="#CCCCCC">它后面的符号几乎 </font><font color="#E5E5E5">意味着 </font>
+
+70
+00:03:03,400 --> 00:03:05,920
+对待这是正常的<font color="#E5E5E5">文本，所以它是 </font>
+
+71
+00:03:05,920 --> 00:03:08,079
+ <font color="#E5E5E5">要说 </font><font color="#CCCCCC">好吗从这里开始 </font><font color="#E5E5E5">好吧 </font>
+
+72
+00:03:08,079 --> 00:03:09,880
+反斜杠会这样<font color="#E5E5E5">，这只是正常的 </font><font color="#CCCCCC">， </font>
+
+73
+00:03:09,880 --> 00:03:13,030
+结束这里<font color="#E5E5E5">繁荣，所以再次反斜杠 </font>
+
+74
+00:03:13,030 --> 00:03:15,730
+任何意味着它都是一种特殊的意义
+
+75
+00:03:15,730 --> 00:03:18,069
+ <font color="#E5E5E5">那就是把它视为一部分 </font>
+
+76
+00:03:18,069 --> 00:03:23,049
+现在每当字符串<font color="#E5E5E5">我们 </font><font color="#CCCCCC">实际使用 </font><font color="#E5E5E5">UM </font>
+
+77
+00:03:23,049 --> 00:03:26,079
+氧每当我们打印字符串<font color="#E5E5E5">出 </font>
+
+78
+00:03:26,079 --> 00:03:28,480
+我们的常规计划我们不只是去
+
+79
+00:03:28,480 --> 00:03:31,120
+ <font color="#E5E5E5">使用 </font><font color="#CCCCCC">我们 </font><font color="#E5E5E5">实际需要 的 </font><font color="#CCCCCC">常规文本 </font>
+
+80
+00:03:31,120 --> 00:03:32,680
+ <font color="#CCCCCC">使用 </font><font color="#E5E5E5">一种叫做函数的东西 </font>
+
+81
+00:03:32,680 --> 00:03:33,819
+我<font color="#CCCCCC">打算和你谈谈 </font>
+
+82
+00:03:33,819 --> 00:03:35,859
+ <font color="#E5E5E5">稍后的功能，但第一个 </font>
+
+83
+00:03:35,859 --> 00:03:37,709
+ <font color="#E5E5E5">我们 </font><font color="#CCCCCC">要 </font><font color="#E5E5E5">学习的功能是 </font>
+
+84
+00:03:37,709 --> 00:03:40,720
+打印它很容易就是你打印的方式
+
+85
+00:03:40,720 --> 00:03:44,739
+ <font color="#E5E5E5">在屏幕上填充所以按下打印 </font>
+
+86
+00:03:44,739 --> 00:03:46,180
+ <font color="#E5E5E5">这意味着打印出来 </font><font color="#CCCCCC">的 </font><font color="#E5E5E5">东西 </font>
+
+87
+00:03:46,180 --> 00:03:49,150
+ <font color="#CCCCCC">屏幕，现在 </font><font color="#E5E5E5">放两个 </font><font color="#CCCCCC">小嗯 </font>
+
+88
+00:03:49,150 --> 00:03:52,030
+ <font color="#CCCCCC">括号现在介于两者之间 </font>
+
+89
+00:03:52,030 --> 00:03:54,130
+ <font color="#E5E5E5">括号右边的任何字符串 </font>
+
+90
+00:03:54,130 --> 00:03:59,109
+ <font color="#E5E5E5">想要嘿现在是棕色的牛， </font><font color="#CCCCCC">所以这就是 </font>
+
+91
+00:03:59,109 --> 00:04:00,370
+实际上<font color="#E5E5E5">我们将如何打印 </font>
+
+92
+00:04:00,370 --> 00:04:01,690
+ <font color="#E5E5E5">每当我们制作时，屏幕上都会显示出来 </font>
+
+93
+00:04:01,690 --> 00:04:05,970
+一个完整的软件<font color="#E5E5E5">如此命中 </font><font color="#CCCCCC">输入 </font>
+
+94
+00:04:05,970 --> 00:04:09,240
+漂亮的<font color="#E5E5E5">friggin简单现在另一件事 </font>
+
+95
+00:04:09,240 --> 00:04:11,630
+我应该<font color="#E5E5E5">提一下这个 </font>
+
+96
+00:04:11,630 --> 00:04:14,250
+ <font color="#E5E5E5">有时候你会想要我 </font>
+
+97
+00:04:14,250 --> 00:04:15,570
+给你<font color="#E5E5E5">举个例子， </font><font color="#CCCCCC">我会告诉你 </font>
+
+98
+00:04:15,570 --> 00:04:18,238
+ <font color="#CCCCCC">它导致</font><font color="#E5E5E5">的问题 </font><font color="#CCCCCC">以及如何 </font><font color="#E5E5E5">家伙 </font>
+
+99
+00:04:18,238 --> 00:04:21,149
+修复它说<font color="#CCCCCC">我们想要 </font><font color="#E5E5E5">打印出来 </font>
+
+100
+00:04:21,149 --> 00:04:23,730
+路径<font color="#E5E5E5">我不知道我们的一些文件夹 </font>
+
+101
+00:04:23,730 --> 00:04:26,550
+桌面， <font color="#CCCCCC">所以 </font><font color="#E5E5E5">我们可以做的就是好的在哪里 </font>
+
+102
+00:04:26,550 --> 00:04:31,110
+是看<font color="#E5E5E5">也许 </font><font color="#CCCCCC">巴基 </font><font color="#E5E5E5">应该将我的 </font>
+
+103
+00:04:31,110 --> 00:04:33,750
+ <font color="#E5E5E5">光标在你的桌面方式之外 </font>
+
+104
+00:04:33,750 --> 00:04:36,420
+ <font color="#E5E5E5">知道我 </font><font color="#CCCCCC">的课程的 </font><font color="#E5E5E5">裸照 </font>
+
+105
+00:04:36,420 --> 00:04:39,720
+我的裸体照片文件夹， <font color="#E5E5E5">所以你期待 </font>
+
+106
+00:04:39,720 --> 00:04:41,850
+ <font color="#CCCCCC">它打印出整个字符串吧 </font>
+
+107
+00:04:41,850 --> 00:04:45,690
+ <font color="#E5E5E5">在这里 </font><font color="#CCCCCC">点击 </font><font color="#E5E5E5">输入 </font><font color="#CCCCCC">好吧让我们看看 </font><font color="#E5E5E5">发生了什么 </font>
+
+108
+00:04:45,690 --> 00:04:48,060
+错误的是Bucky桌面然后它
+
+109
+00:04:48,060 --> 00:04:51,780
+走<font color="#E5E5E5">了 </font><font color="#CCCCCC">一条新线，并说道德照片 </font><font color="#E5E5E5">没有 </font>
+
+110
+00:04:51,780 --> 00:04:53,940
+不，我<font color="#E5E5E5">想让我的裸体照片让我的 </font>
+
+111
+00:04:53,940 --> 00:04:56,430
+食物照片<font color="#CCCCCC">你不想看的照片 </font>
+
+112
+00:04:56,430 --> 00:04:59,490
+什么在那里<font color="#E5E5E5">，为什么这对你好 </font>
+
+113
+00:04:59,490 --> 00:05:01,320
+知道我是怎么告诉<font color="#E5E5E5">你们的 </font>
+
+114
+00:05:01,320 --> 00:05:04,320
+ <font color="#E5E5E5">你在后面的东西中使用反斜杠 </font>
+
+115
+00:05:04,320 --> 00:05:07,740
+ <font color="#E5E5E5">在这方面意味着特别好的东西</font>
+
+116
+00:05:07,740 --> 00:05:10,410
+案例和编程，无论何时使用
+
+117
+00:05:10,410 --> 00:05:13,860
+反斜杠， <font color="#E5E5E5">这意味着去一个新的行 </font><font color="#CCCCCC">吧 </font>
+
+118
+00:05:13,860 --> 00:05:16,650
+具有<font color="#CCCCCC">特殊意义 </font><font color="#E5E5E5">所以这样做 </font>
+
+119
+00:05:16,650 --> 00:05:18,480
+ <font color="#E5E5E5">是开始打印出来的吗？ </font>
+
+120
+00:05:18,480 --> 00:05:21,480
+说<font color="#CCCCCC">好的反斜杠 </font><font color="#E5E5E5">n把它 </font><font color="#CCCCCC">撞到 一个新的 </font>
+
+121
+00:05:21,480 --> 00:05:23,850
+ <font color="#E5E5E5">然后打印出其余部分 </font>
+
+122
+00:05:23,850 --> 00:05:26,580
+是<font color="#CCCCCC">选择， </font><font color="#E5E5E5">所以这是什么碰到了 </font>
+
+123
+00:05:26,580 --> 00:05:28,650
+新线<font color="#E5E5E5">dude </font><font color="#CCCCCC">pics当然 </font>
+
+124
+00:05:28,650 --> 00:05:30,930
+ <font color="#E5E5E5">每当我们 </font><font color="#CCCCCC">在我们的程序中使用它时 </font>
+
+125
+00:05:30,930 --> 00:05:34,620
+会<font color="#CCCCCC">导致问题，因为 </font><font color="#E5E5E5">这是 </font>
+
+126
+00:05:34,620 --> 00:05:37,500
+会<font color="#E5E5E5">混淆一个程序，所以 </font>
+
+127
+00:05:37,500 --> 00:05:39,330
+当你真的想要<font color="#E5E5E5">打印时会发生</font>
+
+128
+00:05:39,330 --> 00:05:42,750
+在这里<font color="#E5E5E5">你可以做的很好 </font>
+
+129
+00:05:42,750 --> 00:05:47,580
+就在<font color="#E5E5E5">你的第一个小小的时候 </font>
+
+130
+00:05:47,580 --> 00:05:48,419
+ <font color="#E5E5E5">引号 </font>
+
+131
+00:05:48,419 --> 00:05:51,750
+你<font color="#CCCCCC">现在可以把R放在R的意思 </font><font color="#E5E5E5">是打印 </font>
+
+132
+00:05:51,750 --> 00:05:54,390
+ <font color="#E5E5E5">没有特别的排队 </font>
+
+133
+00:05:54,390 --> 00:05:57,060
+意思<font color="#E5E5E5">就是把它打印出去 </font>
+
+134
+00:05:57,060 --> 00:05:59,250
+ <font color="#E5E5E5">在</font><font color="#CCCCCC">引号</font><font color="#E5E5E5">之间 </font><font color="#CCCCCC">，现在 </font>
+
+135
+00:05:59,250 --> 00:06:02,790
+你点击<font color="#E5E5E5">进入并再次检查出来 </font>
+
+136
+00:06:02,790 --> 00:06:05,400
+你会<font color="#E5E5E5">正确之前 </font><font color="#CCCCCC">， </font><font color="#E5E5E5">用R </font>
+
+137
+00:06:05,400 --> 00:06:06,840
+你的角色<font color="#E5E5E5">很多 </font>
+
+138
+00:06:06,840 --> 00:06:09,600
+ <font color="#CCCCCC">使用文件路径和其他东西 </font>
+
+139
+00:06:09,600 --> 00:06:10,700
+ <font color="#E5E5E5">这样 </font><font color="#CCCCCC">的 </font>
+
+140
+00:06:10,700 --> 00:06:13,040
+所以现在我们知道<font color="#E5E5E5">了它的基础知识 </font>
+
+141
+00:06:13,040 --> 00:06:15,140
+字符串以及<font color="#E5E5E5">如何将它们打印出来我 </font>
+
+142
+00:06:15,140 --> 00:06:16,430
+想<font color="#E5E5E5">给别人看一些东西 </font>
+
+143
+00:06:16,430 --> 00:06:19,430
+ <font color="#E5E5E5">在我看来 ，这非常酷 </font>
+
+144
+00:06:19,430 --> 00:06:22,040
+ <font color="#CCCCCC">实际上可以添加字符串种类 </font>
+
+145
+00:06:22,040 --> 00:06:25,010
+就像你可以数字<font color="#E5E5E5">所以让我们做一个 </font>
+
+146
+00:06:25,010 --> 00:06:27,860
+变量名为<font color="#CCCCCC">first name并设置 </font><font color="#E5E5E5">它 </font>
+
+147
+00:06:27,860 --> 00:06:31,700
+等于一个<font color="#E5E5E5">名为Bucky的字符串 </font><font color="#CCCCCC">并 </font><font color="#E5E5E5">添加一个 </font>
+
+148
+00:06:31,700 --> 00:06:35,360
+ <font color="#E5E5E5">它之后的空间</font><font color="#CCCCCC">现在 </font><font color="#E5E5E5">我们 </font><font color="#CCCCCC">不仅 </font><font color="#E5E5E5">可以 </font>
+
+149
+00:06:35,360 --> 00:06:37,400
+ <font color="#E5E5E5">我们也可以存储数字和变量 </font>
+
+150
+00:06:37,400 --> 00:06:41,360
+ <font color="#CCCCCC">在变量中存储</font><font color="#E5E5E5">字符串 </font><font color="#CCCCCC">， </font><font color="#E5E5E5">以便我能做到 </font>
+
+151
+00:06:41,360 --> 00:06:44,080
+这就是说<font color="#E5E5E5">这个名字的 </font><font color="#CCCCCC">东西 </font>
+
+152
+00:06:44,080 --> 00:06:48,470
+ <font color="#E5E5E5">加上另一个字符串我的姓罗伯茨 </font>
+
+153
+00:06:48,470 --> 00:06:50,360
+ <font color="#E5E5E5">无论何时 </font><font color="#CCCCCC">你都会</font><font color="#E5E5E5">说 </font><font color="#CCCCCC">好的 </font>
+
+154
+00:06:50,360 --> 00:06:52,730
+有<font color="#E5E5E5">一个字符串和另一个字符串添加 </font><font color="#CCCCCC">到 </font>
+
+155
+00:06:52,730 --> 00:06:54,190
+它检查<font color="#CCCCCC">出来 </font>
+
+156
+00:06:54,190 --> 00:06:58,340
+它会产生<font color="#E5E5E5">更长的字符串 </font>
+
+157
+00:06:58,340 --> 00:07:00,530
+只有数字你也可以添加字符串
+
+158
+00:07:00,530 --> 00:07:04,100
+ <font color="#E5E5E5">在一起，你 </font><font color="#CCCCCC">可以 </font><font color="#E5E5E5">做的 另一件事 是 </font>
+
+159
+00:07:04,100 --> 00:07:09,320
+ <font color="#E5E5E5">这个，如果你再次采取并添加 </font>
+
+160
+00:07:09,320 --> 00:07:14,930
+另一个名字如mclovin <font color="#CCCCCC">并 </font><font color="#E5E5E5">点击进入 </font>
+
+161
+00:07:14,930 --> 00:07:17,960
+ <font color="#E5E5E5">我现在有一个新 的</font><font color="#CCCCCC">姓氏</font><font color="#E5E5E5">所以这是一个 </font>
+
+162
+00:07:17,960 --> 00:07:19,670
+ <font color="#CCCCCC">如何添加字符串的用法 </font>
+
+163
+00:07:19,670 --> 00:07:21,140
+ <font color="#CCCCCC">在一起，我想告诉你们 </font>
+
+164
+00:07:21,140 --> 00:07:23,450
+别的东西很酷<font color="#E5E5E5">你不仅仅是 </font>
+
+165
+00:07:23,450 --> 00:07:25,880
+ <font color="#CCCCCC">限于在一起增加收缩 </font>
+
+166
+00:07:25,880 --> 00:07:28,070
+ Python你可以做的就是你<font color="#E5E5E5">也可以 </font>
+
+167
+00:07:28,070 --> 00:07:31,640
+ <font color="#E5E5E5">如果我们有第一个，那么乘以字符串 </font>
+
+168
+00:07:31,640 --> 00:07:34,220
+名字是Bucky <font color="#CCCCCC">，我们乘以它 </font>
+
+169
+00:07:34,220 --> 00:07:37,490
+通过<font color="#CCCCCC">5看看它发生了什么 </font>
+
+170
+00:07:37,490 --> 00:07:39,530
+是否需要<font color="#E5E5E5">该字符串并打印它 </font>
+
+171
+00:07:39,530 --> 00:07:42,260
+ <font color="#CCCCCC">五次 </font><font color="#E5E5E5">， </font><font color="#CCCCCC">所以这 </font><font color="#E5E5E5">实际上是 </font>
+
+172
+00:07:42,260 --> 00:07:44,210
+ <font color="#CCCCCC">无论何时我们都能为我们节省很多</font><font color="#E5E5E5">工作 </font>
+
+173
+00:07:44,210 --> 00:07:45,830
+必须<font color="#CCCCCC">反复打印出来的东西</font>
+
+174
+00:07:45,830 --> 00:07:47,540
+喜欢<font color="#E5E5E5">人们的名字或类似的东西 </font>
+
+175
+00:07:47,540 --> 00:07:49,340
+ <font color="#E5E5E5">我们</font><font color="#CCCCCC">实际上可以采取一个字符串 </font>
+
+176
+00:07:49,340 --> 00:07:51,590
+乘以<font color="#E5E5E5">一些数字来打印它 </font>
+
+177
+00:07:51,590 --> 00:07:54,050
+出，很多时候它发生<font color="#E5E5E5">，而不是 </font>
+
+178
+00:07:54,050 --> 00:07:55,400
+必须<font color="#E5E5E5">像五行一样写</font>
+
+179
+00:07:55,400 --> 00:07:58,250
+ <font color="#E5E5E5">代码 </font><font color="#CCCCCC">，所以我知道 </font><font color="#E5E5E5">这是一个很多 </font><font color="#CCCCCC">采取 </font>
+
+180
+00:07:58,250 --> 00:08:02,510
+ <font color="#E5E5E5">但是必须时记得逃避 </font>
+
+181
+00:08:02,510 --> 00:08:05,030
+ <font color="#E5E5E5">无论何时何地使用特殊字符 </font>
+
+182
+00:08:05,030 --> 00:08:08,630
+ <font color="#CCCCCC">使用文件路径 </font><font color="#E5E5E5">使用 </font><font color="#CCCCCC">我们之前的 </font>
+
+183
+00:08:08,630 --> 00:08:10,550
+这几乎意味着<font color="#CCCCCC">匆忙的 </font><font color="#E5E5E5">字符串和 </font>
+
+184
+00:08:10,550 --> 00:08:13,070
+你也可以进行数学运算
+
+185
+00:08:13,070 --> 00:08:15,860
+ <font color="#CCCCCC">对字符串的操作很多就像你一样 </font>
+
+186
+00:08:15,860 --> 00:08:18,290
+数字所以谢谢你们<font color="#CCCCCC">观看 </font>
+
+187
+00:08:18,290 --> 00:08:21,050
+ <font color="#CCCCCC">我累了，我要 </font><font color="#E5E5E5">小睡一会儿 </font>
+
+188
+00:08:21,050 --> 00:08:22,129
+可能只是<font color="#CCCCCC">要吃</font><font color="#E5E5E5">热的口袋 </font>
+
+189
+00:08:22,129 --> 00:08:23,840
+但无论<font color="#CCCCCC">我会看到你 </font><font color="#E5E5E5">的 </font><font color="#CCCCCC">男人 </font>
+
+190
+00:08:23,840 --> 00:00:00,000
+下一个视频
+

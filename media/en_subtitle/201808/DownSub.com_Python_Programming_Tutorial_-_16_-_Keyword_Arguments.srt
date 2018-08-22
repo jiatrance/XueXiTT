@@ -1,0 +1,368 @@
+1
+00:00:00,060 --> 00:00:02,310
+<font color="#CCCCCC">alright guys in this video</font><font color="#E5E5E5"> I'm going to</font>
+
+2
+00:00:02,310 --> 00:00:04,170
+be<font color="#CCCCCC"> talking about keyword arguments in</font>
+
+3
+00:00:04,170 --> 00:00:06,660
+also explaining<font color="#E5E5E5"> all the cool things</font><font color="#CCCCCC"> that</font>
+
+4
+00:00:06,660 --> 00:00:08,760
+<font color="#CCCCCC">we</font><font color="#E5E5E5"> can do with them so in the last video</font>
+
+5
+00:00:08,760 --> 00:00:10,290
+<font color="#CCCCCC">all</font><font color="#E5E5E5"> right</font><font color="#CCCCCC"> yeah I don't even know</font><font color="#E5E5E5"> if it</font>
+
+6
+00:00:10,290 --> 00:00:12,210
+<font color="#E5E5E5">was the</font><font color="#CCCCCC"> last video in one</font><font color="#E5E5E5"> of the past</font>
+
+7
+00:00:12,210 --> 00:00:14,009
+videos<font color="#CCCCCC"> I</font><font color="#E5E5E5"> already showed you</font><font color="#CCCCCC"> guys that</font>
+
+8
+00:00:14,009 --> 00:00:16,139
+you<font color="#CCCCCC"> can have default arguments for</font>
+
+9
+00:00:16,139 --> 00:00:17,550
+<font color="#CCCCCC">example you can have a number instead</font>
+
+10
+00:00:17,550 --> 00:00:19,859
+<font color="#CCCCCC">equal to a value or I think we did this</font>
+
+11
+00:00:19,859 --> 00:00:22,580
+sex and we set<font color="#E5E5E5"> it equal to unknown so we</font>
+
+12
+00:00:22,580 --> 00:00:24,960
+<font color="#CCCCCC">did something</font><font color="#E5E5E5"> like</font><font color="#CCCCCC"> this</font><font color="#E5E5E5"> let</font><font color="#CCCCCC"> me make a</font>
+
+13
+00:00:24,960 --> 00:00:30,869
+really simple function<font color="#CCCCCC"> I'll just name a</font>
+
+14
+00:00:30,869 --> 00:00:32,850
+dumb sentence and it's going to print
+
+15
+00:00:32,850 --> 00:00:35,489
+<font color="#E5E5E5">out really dumb sentence and we'll give</font>
+
+16
+00:00:35,489 --> 00:00:37,620
+it<font color="#E5E5E5"> a couple default values and we</font>
+
+17
+00:00:37,620 --> 00:00:38,969
+<font color="#CCCCCC">already know</font><font color="#E5E5E5"> what those are</font><font color="#CCCCCC"> so</font><font color="#E5E5E5"> I will</font>
+
+18
+00:00:38,969 --> 00:00:41,129
+explain them again<font color="#E5E5E5"> so we'll have a</font>
+
+19
+00:00:41,129 --> 00:00:43,739
+variable<font color="#E5E5E5"> called</font><font color="#CCCCCC"> name</font><font color="#E5E5E5"> have another one</font>
+
+20
+00:00:43,739 --> 00:00:47,910
+called action and all<font color="#CCCCCC"> these</font><font color="#E5E5E5"> are</font><font color="#CCCCCC"> just</font>
+
+21
+00:00:47,910 --> 00:00:50,219
+<font color="#CCCCCC">going</font><font color="#E5E5E5"> to be a simple string variables</font>
+
+22
+00:00:50,219 --> 00:00:55,530
+and item so the only<font color="#E5E5E5"> purpose of this</font>
+
+23
+00:00:55,530 --> 00:00:57,000
+function is<font color="#E5E5E5"> that print out a dumb</font>
+
+24
+00:00:57,000 --> 00:00:58,770
+sentence<font color="#E5E5E5"> and by default we'll just say</font>
+
+25
+00:00:58,770 --> 00:01:02,789
+<font color="#E5E5E5">Bucky</font><font color="#CCCCCC"> a tuna using three different</font>
+
+26
+00:01:02,789 --> 00:01:05,580
+variables<font color="#E5E5E5"> so in order to do this print</font>
+
+27
+00:01:05,580 --> 00:01:13,200
+name action item<font color="#CCCCCC"> so right now</font><font color="#E5E5E5"> if I</font><font color="#CCCCCC"> just</font>
+
+28
+00:01:13,200 --> 00:01:19,439
+<font color="#E5E5E5">run this of course well got phlegm in my</font>
+
+29
+00:01:19,439 --> 00:01:22,590
+throat<font color="#E5E5E5"> so remember when we don't pass in</font>
+
+30
+00:01:22,590 --> 00:01:26,909
+any arguments<font color="#E5E5E5"> it just uses the default</font><font color="#CCCCCC"> I</font>
+
+31
+00:01:26,909 --> 00:01:33,030
+<font color="#CCCCCC">say the fart default argument</font><font color="#E5E5E5"> so that's</font>
+
+32
+00:01:33,030 --> 00:01:36,000
+what what is happening<font color="#CCCCCC"> right now</font><font color="#E5E5E5"> however</font>
+
+33
+00:01:36,000 --> 00:01:37,500
+<font color="#CCCCCC">and</font><font color="#E5E5E5"> this is</font><font color="#CCCCCC"> Horo</font>
+
+34
+00:01:37,500 --> 00:01:40,140
+<font color="#E5E5E5">I want to show you something else so we</font>
+
+35
+00:01:40,140 --> 00:01:42,259
+<font color="#E5E5E5">have a different couple</font><font color="#CCCCCC"> options of</font>
+
+36
+00:01:42,259 --> 00:01:44,670
+<font color="#E5E5E5">exactly what parameters we pass in and</font>
+
+37
+00:01:44,670 --> 00:01:47,700
+how<font color="#E5E5E5"> we pass them in so by</font><font color="#CCCCCC"> default</font>
+
+38
+00:01:47,700 --> 00:01:50,640
+<font color="#E5E5E5">whenever we pass in parameters it's</font>
+
+39
+00:01:50,640 --> 00:01:52,290
+going to accept them in the<font color="#E5E5E5"> order we</font>
+
+40
+00:01:52,290 --> 00:01:57,750
+pass them<font color="#CCCCCC"> in so Sally um what did Sally</font>
+
+41
+00:01:57,750 --> 00:01:59,130
+do<font color="#CCCCCC"> Sally</font>
+
+42
+00:01:59,130 --> 00:02:02,100
+farts<font color="#CCCCCC"> and for the item will just say</font>
+
+43
+00:02:02,100 --> 00:02:07,890
+Sally farts gently so Sally farts gently
+
+44
+00:02:07,890 --> 00:02:11,160
+so again this<font color="#E5E5E5"> function the function that</font>
+
+45
+00:02:11,160 --> 00:02:13,410
+<font color="#E5E5E5">we just created it takes three</font>
+
+46
+00:02:13,410 --> 00:02:16,320
+the string variables<font color="#E5E5E5"> now we're passing</font>
+
+47
+00:02:16,320 --> 00:02:19,400
+in<font color="#E5E5E5"> three string variables right now so</font>
+
+48
+00:02:19,400 --> 00:02:22,830
+what it<font color="#E5E5E5"> does is it says okay since you</font>
+
+49
+00:02:22,830 --> 00:02:24,540
+did this one first this one second in
+
+50
+00:02:24,540 --> 00:02:26,250
+this one third<font color="#E5E5E5"> I'm going to go ahead and</font>
+
+51
+00:02:26,250 --> 00:02:29,100
+assume that<font color="#E5E5E5"> the first one is</font><font color="#CCCCCC"> supposed to</font>
+
+52
+00:02:29,100 --> 00:02:30,960
+<font color="#E5E5E5">be equal</font><font color="#CCCCCC"> to</font><font color="#E5E5E5"> name</font><font color="#CCCCCC"> the second one action</font>
+
+53
+00:02:30,960 --> 00:02:33,990
+in the<font color="#CCCCCC"> third one item okay makes sense</font>
+
+54
+00:02:33,990 --> 00:02:37,820
+<font color="#E5E5E5">and that's how</font><font color="#CCCCCC"> we'll display that</font>
+
+55
+00:02:37,820 --> 00:02:40,590
+whenever<font color="#E5E5E5"> or that's how it</font><font color="#CCCCCC"> use this</font><font color="#E5E5E5"> I</font>
+
+56
+00:02:40,590 --> 00:02:42,750
+should probably say however they're
+
+57
+00:02:42,750 --> 00:02:45,000
+going<font color="#CCCCCC"> to come certain times where maybe</font>
+
+58
+00:02:45,000 --> 00:02:47,640
+we only want<font color="#E5E5E5"> to pass in the second one</font>
+
+59
+00:02:47,640 --> 00:02:49,860
+or maybe we want<font color="#E5E5E5"> to pass in the third</font>
+
+60
+00:02:49,860 --> 00:02:53,370
+one in the<font color="#CCCCCC"> first one</font><font color="#E5E5E5"> so whenever we want</font>
+
+61
+00:02:53,370 --> 00:02:56,100
+to pass in a<font color="#E5E5E5"> limited number of arguments</font>
+
+62
+00:02:56,100 --> 00:02:58,440
+or we want to<font color="#E5E5E5"> pass them in in a</font>
+
+63
+00:02:58,440 --> 00:03:01,770
+<font color="#E5E5E5">different order this is how we do it we</font>
+
+64
+00:03:01,770 --> 00:03:05,700
+need to<font color="#CCCCCC"> utilize the key word of this</font>
+
+65
+00:03:05,700 --> 00:03:08,730
+argument<font color="#E5E5E5"> right here so say that we</font>
+
+66
+00:03:08,730 --> 00:03:10,200
+wanted<font color="#E5E5E5"> to set the item equal to</font>
+
+67
+00:03:10,200 --> 00:03:11,820
+<font color="#E5E5E5">something</font><font color="#CCCCCC"> different well if we just</font>
+
+68
+00:03:11,820 --> 00:03:14,010
+<font color="#E5E5E5">write a string there it's going</font><font color="#CCCCCC"> to</font><font color="#E5E5E5"> think</font>
+
+69
+00:03:14,010 --> 00:03:16,260
+it's meant<font color="#CCCCCC"> for the first</font><font color="#E5E5E5"> one so what we</font>
+
+70
+00:03:16,260 --> 00:03:18,360
+<font color="#E5E5E5">can do is we can actually type item and</font>
+
+71
+00:03:18,360 --> 00:03:23,580
+set it equal to awesome so now<font color="#CCCCCC"> whenever</font>
+
+72
+00:03:23,580 --> 00:03:26,360
+<font color="#E5E5E5">you print this out it says Bucky</font><font color="#CCCCCC"> eight</font>
+
+73
+00:03:26,360 --> 00:03:29,190
+<font color="#E5E5E5">awesome what that doesn't really make</font>
+
+74
+00:03:29,190 --> 00:03:31,190
+sense so let's go ahead<font color="#E5E5E5"> and change that</font>
+
+75
+00:03:31,190 --> 00:03:33,900
+<font color="#E5E5E5">so in this last example we'll say okay</font>
+
+76
+00:03:33,900 --> 00:03:37,410
+tree item is awesome instead of tuna and
+
+77
+00:03:37,410 --> 00:03:42,270
+also for the action it'll<font color="#E5E5E5"> make more</font>
+
+78
+00:03:42,270 --> 00:03:45,180
+sense<font color="#CCCCCC"> if we</font><font color="#E5E5E5"> wrote is so again not only</font>
+
+79
+00:03:45,180 --> 00:03:47,910
+<font color="#E5E5E5">are we choosing the pass in only a</font>
+
+80
+00:03:47,910 --> 00:03:51,030
+limited<font color="#E5E5E5"> number</font><font color="#CCCCCC"> of these parameters just</font>
+
+81
+00:03:51,030 --> 00:03:52,680
+a second<font color="#E5E5E5"> and third one but we can also</font>
+
+82
+00:03:52,680 --> 00:03:55,709
+<font color="#CCCCCC">pesum</font><font color="#E5E5E5"> it in any order</font><font color="#CCCCCC"> we want</font><font color="#E5E5E5"> pretty</font>
+
+83
+00:03:55,709 --> 00:03:58,739
+easy especially<font color="#E5E5E5"> when ever we wrote a bit</font>
+
+84
+00:03:58,739 --> 00:04:00,870
+of code and we're giving this to someone
+
+85
+00:04:00,870 --> 00:04:03,390
+else<font color="#E5E5E5"> and allow them to use our functions</font>
+
+86
+00:04:03,390 --> 00:04:08,459
+so run<font color="#E5E5E5"> this and it says Bucky is awesome</font>
+
+87
+00:04:08,459 --> 00:04:11,580
+so again that<font color="#CCCCCC"> is what a keyword argument</font>
+
+88
+00:04:11,580 --> 00:04:12,959
+is a really cool way<font color="#CCCCCC"> to work with</font>
+
+89
+00:04:12,959 --> 00:04:14,880
+arguments the fasten a limited amount<font color="#E5E5E5"> of</font>
+
+90
+00:04:14,880 --> 00:04:16,589
+arguments or pessimal
+
+91
+00:04:16,589 --> 00:04:18,779
+any order you want so<font color="#CCCCCC"> then guys for</font>
+
+92
+00:04:18,779 --> 00:00:00,000
+watching<font color="#E5E5E5"> and I'll see you later</font>
+

@@ -1,0 +1,298 @@
+1
+00:00:00,030 --> 00:00:05,339
+all right guys now they understand the
+basics of inheritance now I want to talk
+
+2
+00:00:05,339 --> 00:00:10,559
+to you guys about multiple inheritance
+so this is basically a way where we can
+inherit or get stuff from more than one
+
+3
+00:00:14,400 --> 00:00:19,109
+class so we can actually inherit from
+like three different classes if we want
+
+4
+00:00:19,109 --> 00:00:22,439
+so right now I'm just going to be
+showing you guys two but the concept is
+
+5
+00:00:22,439 --> 00:00:26,939
+the same no matter how many you use so
+let's go ahead and make some simple
+
+6
+00:00:26,939 --> 00:00:31,500
+classes that we can inherit from and
+might as well since it's always fun to
+
+7
+00:00:31,500 --> 00:00:37,309
+pretend we're making on a little
+computer game so I'll make like um Mario
+
+8
+00:00:37,309 --> 00:00:42,450
+like if you ever played Mario on
+Nintendo so what's one function that
+
+9
+00:00:42,450 --> 00:00:49,680
+Mario can do will say that he can move
+around so move himself around and we'll
+just make this printout something like I
+
+10
+00:00:53,300 --> 00:01:01,879
+am I don't know moving whatever who
+cares alright so he can move around
+
+11
+00:01:01,879 --> 00:01:04,979
+something simple
+anything you know this is just an
+
+12
+00:01:04,979 --> 00:01:12,420
+example so another class I want to make
+is one called shroom so we already know
+
+13
+00:01:12,420 --> 00:01:17,009
+that whenever Mario eats a mushroom or
+maybe he jumps on it what does he do you
+
+14
+00:01:17,009 --> 00:01:20,549
+can't jump on him because why would that
+do anything he can't eat him because
+
+15
+00:01:20,549 --> 00:01:25,979
+they're huge almost the size of him huh
+I really thought about that well in this
+tutorial we're going to say that he eats
+
+16
+00:01:27,600 --> 00:01:34,229
+the shroom and probably should name it
+mushroom because these rooms make them I
+
+17
+00:01:34,229 --> 00:01:39,810
+don't know like sound like a druggie or
+something but whenever he eats shrooms
+
+18
+00:01:39,810 --> 00:01:50,189
+goes now I am big and this just because
+formatting and all right so we have two
+different classes right here each of
+
+19
+00:01:52,049 --> 00:01:57,810
+them have a function in them we have a
+Mario class and he can move around all
+
+20
+00:01:57,810 --> 00:02:03,030
+Mario's can move around and we also have
+a shroom class that whenever heats a
+
+21
+00:02:03,030 --> 00:02:07,920
+mushroom he grows into big Mario so now
+what I want to do is I want to make a
+
+22
+00:02:07,920 --> 00:02:12,300
+class that can inherit from both of
+these things so we're going to make a
+
+23
+00:02:12,300 --> 00:02:16,650
+special class called
+big mario and we're going to create an
+
+24
+00:02:16,650 --> 00:02:22,050
+object from this class whenever mario
+eats a mushroom now it would be kind of
+
+25
+00:02:22,050 --> 00:02:27,510
+stupid to rewrite these functions over
+and over again for big mario since we
+already wrote them one time so instead
+
+26
+00:02:30,630 --> 00:02:34,620
+of having to write or rewrite a bunch of
+stuff over and over what I'm going to do
+
+27
+00:02:34,620 --> 00:02:39,900
+is I'm just going to inherit these real
+quick so I'm going to inherit from Mario
+
+28
+00:02:39,900 --> 00:02:48,420
+and also shroom so what this does is
+whenever we create an object from big
+Mario it already has all the
+
+29
+00:02:50,610 --> 00:02:56,700
+functionality of regular Mario and also
+shroom saves us from rewriting a whole
+bunch of crap now check this out here's
+
+30
+00:02:59,850 --> 00:03:04,980
+another thing that I should probably
+teach you right now this big Mario class
+
+31
+00:03:04,980 --> 00:03:09,210
+has two functions in it even though we
+can't see them they're there because we
+
+32
+00:03:09,210 --> 00:03:13,800
+inherited them however any time you make
+a class in Python you see that little
+
+33
+00:03:13,800 --> 00:03:18,600
+red line right there it says ok you
+pretty much need to have something in
+this class so I don't know that's just
+
+34
+00:03:21,420 --> 00:03:26,880
+some so you don't get a syntax error so
+whenever you need to write something but
+
+35
+00:03:26,880 --> 00:03:30,960
+it's just kind of like a blank line that
+you don't want to add any functionality
+
+36
+00:03:30,960 --> 00:03:36,210
+to it you can just write the word pass
+what pass means essentially like I said
+
+37
+00:03:36,210 --> 00:03:40,290
+is if you need a line but you don't want
+it to actually do anything like print
+out anything or change your code at all
+
+38
+00:03:42,150 --> 00:03:48,450
+just write pass and it'll fix some it'll
+pretty much handle the syntax error so
+you don't get any exceptions but also
+
+39
+00:03:51,810 --> 00:03:57,660
+allow you to I don't know it's like just
+look at it you guys can see it's how do
+
+40
+00:03:57,660 --> 00:04:01,830
+how do I explain how something does
+nothing kind of a riddle but I just
+
+41
+00:04:01,830 --> 00:04:05,910
+tried it and I probably just failed at
+it so now let's create an object from
+this big Mario class so BM equals big
+
+42
+00:04:08,480 --> 00:04:16,890
+Mario and of course now what we can do
+is we can call all his normal functions
+
+43
+00:04:16,890 --> 00:04:21,900
+so we can call move look at that it pops
+right up so even though we didn't
+
+44
+00:04:21,899 --> 00:04:28,100
+explicitly write any functions in here
+since we inherited from this Mario class
+
+45
+00:04:28,100 --> 00:04:34,350
+we inherited the function move and we
+can also call what else did we inherit
+
+46
+00:04:34,350 --> 00:04:43,860
+eat shroom check this out
+pretty frickin cool so another reason
+
+47
+00:04:43,860 --> 00:04:48,150
+that you might use this is let's say you
+wanted on I think whenever Mario like
+jumps on a flower he can shoot fire out
+
+48
+00:04:51,060 --> 00:04:56,550
+of his stomach this I never really like
+thought about this stuff until I'm like
+
+49
+00:04:56,550 --> 00:04:59,730
+trying to explain it hopefully you guys
+just played the game before also I'm
+
+50
+00:04:59,730 --> 00:05:04,440
+going to sound like a idiot
+so whenever he jumps up whenever he
+
+51
+00:05:04,440 --> 00:05:09,150
+jumps on a mushroom he grows in whenever
+he jumps on a flower he can shoot fire
+
+52
+00:05:09,150 --> 00:05:14,910
+out of its stomach so if you wanted to
+like make a fire class then you could do
+
+53
+00:05:14,910 --> 00:05:18,930
+that as well and also inherit from Mario
+so of course instead of having the right
+
+54
+00:05:18,930 --> 00:05:23,400
+move move move the function three
+different times just inherit from it and
+boom so that's another practical example
+
+55
+00:05:26,220 --> 00:05:31,020
+of when you would use inheritance but
+for now I am probably going to not play
+Mario because they would drive myself
+
+56
+00:05:32,370 --> 00:05:35,940
+crazy I'm going to do anything else
+thank as for watching don't forget
+
+57
+00:05:35,940 --> 00:05:39,710
+subscribe and I'll see you guys next
+time

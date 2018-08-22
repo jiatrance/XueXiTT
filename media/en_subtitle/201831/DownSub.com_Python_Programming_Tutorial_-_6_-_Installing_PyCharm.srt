@@ -1,0 +1,688 @@
+1
+00:00:00,120 --> 00:00:01,680
+<font color="#CCCCCC">alright guys welcome back</font><font color="#E5E5E5"> to another</font>
+
+2
+00:00:01,680 --> 00:00:04,140
+<font color="#E5E5E5">video and you probably notice</font><font color="#CCCCCC"> that the</font>
+
+3
+00:00:04,140 --> 00:00:05,850
+sound<font color="#CCCCCC"> on this video is a little</font><font color="#E5E5E5"> bit</font>
+
+4
+00:00:05,850 --> 00:00:09,300
+different<font color="#E5E5E5"> and also my computer screen</font><font color="#CCCCCC"> is</font>
+
+5
+00:00:09,300 --> 00:00:11,309
+slightly different<font color="#CCCCCC"> and</font><font color="#E5E5E5"> that's because</font>
+
+6
+00:00:11,309 --> 00:00:13,799
+I'm on my laptop<font color="#E5E5E5"> right</font><font color="#CCCCCC"> now and the</font>
+
+7
+00:00:13,799 --> 00:00:15,269
+<font color="#E5E5E5">reason</font><font color="#CCCCCC"> that I'm</font><font color="#E5E5E5"> filming this on my</font>
+
+8
+00:00:15,269 --> 00:00:17,190
+laptop is because<font color="#E5E5E5"> we're going to</font>
+
+9
+00:00:17,190 --> 00:00:18,930
+<font color="#CCCCCC">download a</font><font color="#E5E5E5"> new piece of software in this</font>
+
+10
+00:00:18,930 --> 00:00:21,029
+<font color="#CCCCCC">tutorial and I already</font><font color="#E5E5E5"> have it</font><font color="#CCCCCC"> installed</font>
+
+11
+00:00:21,029 --> 00:00:22,769
+on my other<font color="#E5E5E5"> computer so I didn't want to</font>
+
+12
+00:00:22,769 --> 00:00:24,840
+install it again<font color="#CCCCCC"> and mess</font><font color="#E5E5E5"> everything up</font>
+
+13
+00:00:24,840 --> 00:00:27,000
+<font color="#E5E5E5">but what we're going</font><font color="#CCCCCC"> to be</font><font color="#E5E5E5"> installing is</font>
+
+14
+00:00:27,000 --> 00:00:29,580
+called a Python IDE<font color="#CCCCCC"> it's a last piece of</font>
+
+15
+00:00:29,580 --> 00:00:31,710
+software that<font color="#CCCCCC"> we need to</font><font color="#E5E5E5"> install because</font>
+
+16
+00:00:31,710 --> 00:00:35,250
+this little<font color="#E5E5E5"> program right here it's</font>
+
+17
+00:00:35,250 --> 00:00:37,140
+<font color="#E5E5E5">really good for learning basic commands</font>
+
+18
+00:00:37,140 --> 00:00:39,149
+<font color="#E5E5E5">and testing stuff out</font><font color="#CCCCCC"> or whenever</font><font color="#E5E5E5"> we</font>
+
+19
+00:00:39,149 --> 00:00:41,309
+want to<font color="#E5E5E5"> make an actual Python program</font>
+
+20
+00:00:41,309 --> 00:00:43,920
+it's good to work<font color="#CCCCCC"> with a</font><font color="#E5E5E5"> bunch of files</font>
+
+21
+00:00:43,920 --> 00:00:46,680
+and you know<font color="#E5E5E5"> just use something</font><font color="#CCCCCC"> a little</font>
+
+22
+00:00:46,680 --> 00:00:49,469
+<font color="#CCCCCC">more advanced so well</font><font color="#E5E5E5"> I'm going to be</font>
+
+23
+00:00:49,469 --> 00:00:51,420
+showing you<font color="#E5E5E5"> guys how to</font><font color="#CCCCCC"> install is this</font>
+
+24
+00:00:51,420 --> 00:00:54,300
+<font color="#CCCCCC">played on IDE now it doesn't matter what</font>
+
+25
+00:00:54,300 --> 00:00:56,969
+<font color="#E5E5E5">IDE you choose but this is my favorite</font>
+
+26
+00:00:56,969 --> 00:01:00,210
+it's called pipe looks<font color="#E5E5E5"> a</font><font color="#CCCCCC"> bit low I feel</font>
+
+27
+00:01:00,210 --> 00:01:01,530
+like I'm<font color="#E5E5E5"> gonna puke what if I just start</font>
+
+28
+00:01:01,530 --> 00:01:03,480
+puking in<font color="#CCCCCC"> the middle of</font><font color="#E5E5E5"> this video that</font>
+
+29
+00:01:03,480 --> 00:01:05,420
+would be hilarious<font color="#CCCCCC"> but nonetheless</font>
+
+30
+00:01:05,420 --> 00:01:07,920
+<font color="#E5E5E5">choose any IDE</font><font color="#CCCCCC"> you want I'm going to be</font>
+
+31
+00:01:07,920 --> 00:01:09,780
+using<font color="#CCCCCC"> PyCharm</font>
+
+32
+00:01:09,780 --> 00:01:11,939
+and in order<font color="#CCCCCC"> to get this this is</font><font color="#E5E5E5"> the</font>
+
+33
+00:01:11,939 --> 00:01:14,939
+website<font color="#CCCCCC"> right here JetBrains comm slash</font>
+
+34
+00:01:14,939 --> 00:01:18,750
+<font color="#CCCCCC">PyCharm and my laptop is in the living</font>
+
+35
+00:01:18,750 --> 00:01:20,759
+<font color="#E5E5E5">room</font><font color="#CCCCCC"> so I can</font><font color="#E5E5E5"> hear people driving by all</font>
+
+36
+00:01:20,759 --> 00:01:23,310
+the time<font color="#E5E5E5"> anyways go ahead and click get</font>
+
+37
+00:01:23,310 --> 00:01:25,350
+<font color="#CCCCCC">pycharm and I actually have the</font>
+
+38
+00:01:25,350 --> 00:01:27,299
+<font color="#E5E5E5">professional Edition because</font><font color="#CCCCCC"> I don't</font>
+
+39
+00:01:27,299 --> 00:01:30,180
+know I<font color="#E5E5E5"> just um use it all the time but</font>
+
+40
+00:01:30,180 --> 00:01:32,369
+if you click<font color="#E5E5E5"> download</font><font color="#CCCCCC"> then what it's</font>
+
+41
+00:01:32,369 --> 00:01:34,259
+going<font color="#E5E5E5"> to do just like before is it's</font>
+
+42
+00:01:34,259 --> 00:01:38,460
+<font color="#E5E5E5">going to give you downloads this file</font>
+
+43
+00:01:38,460 --> 00:01:41,880
+right here<font color="#E5E5E5"> now double</font><font color="#CCCCCC"> click this and</font>
+
+44
+00:01:41,880 --> 00:01:44,130
+<font color="#E5E5E5">let's see</font><font color="#CCCCCC"> if I remember</font><font color="#E5E5E5"> how to install</font>
+
+45
+00:01:44,130 --> 00:01:48,360
+<font color="#CCCCCC">it yes you can have permission next I</font>
+
+46
+00:01:48,360 --> 00:01:52,229
+agree<font color="#E5E5E5"> next</font><font color="#CCCCCC"> and might as well create a</font>
+
+47
+00:01:52,229 --> 00:01:56,189
+shortcut<font color="#E5E5E5"> pretty much stick with all of</font>
+
+48
+00:01:56,189 --> 00:01:58,950
+the defaults also if you ever<font color="#E5E5E5"> want to</font>
+
+49
+00:01:58,950 --> 00:02:00,270
+change anything then you can<font color="#E5E5E5"> just</font><font color="#CCCCCC"> change</font>
+
+50
+00:02:00,270 --> 00:02:02,040
+<font color="#E5E5E5">it in the program but for now</font><font color="#CCCCCC"> just stick</font>
+
+51
+00:02:02,040 --> 00:02:04,729
+with defaults
+
+52
+00:02:09,389 --> 00:02:11,830
+there's like a guy<font color="#E5E5E5"> I don't know if he's</font>
+
+53
+00:02:11,830 --> 00:02:14,170
+<font color="#CCCCCC">weed eating or mowing</font><font color="#E5E5E5"> or sounds like</font>
+
+54
+00:02:14,170 --> 00:02:16,240
+he's using<font color="#E5E5E5"> a huge electric toothbrush</font>
+
+55
+00:02:16,240 --> 00:02:19,810
+<font color="#E5E5E5">but whatever</font><font color="#CCCCCC"> r-right so finish that and</font>
+
+56
+00:02:19,810 --> 00:02:22,660
+now<font color="#E5E5E5"> you</font><font color="#CCCCCC"> can close</font><font color="#E5E5E5"> this out</font><font color="#CCCCCC"> let the clean</font>
+
+57
+00:02:22,660 --> 00:02:24,209
+everything up
+
+58
+00:02:24,209 --> 00:02:27,220
+see you later window and double<font color="#E5E5E5"> click it</font>
+
+59
+00:02:27,220 --> 00:02:30,850
+and<font color="#E5E5E5"> see what we got now</font><font color="#CCCCCC"> okay what's this</font>
+
+60
+00:02:30,850 --> 00:02:32,110
+say<font color="#CCCCCC"> you can import sentence for in</font>
+
+61
+00:02:32,110 --> 00:02:33,880
+previous version and<font color="#E5E5E5"> nope this is</font><font color="#CCCCCC"> my</font>
+
+62
+00:02:33,880 --> 00:02:36,190
+first time installing<font color="#E5E5E5"> so just click</font><font color="#CCCCCC"> OK</font>
+
+63
+00:02:36,190 --> 00:02:39,820
+and of course<font color="#CCCCCC"> um if you</font><font color="#E5E5E5"> don't have a</font>
+
+64
+00:02:39,820 --> 00:02:40,810
+license key yet
+
+65
+00:02:40,810 --> 00:02:43,239
+then you just<font color="#E5E5E5"> have</font><font color="#CCCCCC"> a 30 day free trial</font>
+
+66
+00:02:43,239 --> 00:02:46,330
+trial but so again I don't<font color="#E5E5E5"> have a</font>
+
+67
+00:02:46,330 --> 00:02:48,700
+license key not for this computer<font color="#CCCCCC"> I</font>
+
+68
+00:02:48,700 --> 00:02:50,470
+actually<font color="#E5E5E5"> have one for my</font><font color="#CCCCCC"> other computer</font>
+
+69
+00:02:50,470 --> 00:02:51,700
+don't<font color="#E5E5E5"> know if I could use it</font><font color="#CCCCCC"> for this</font>
+
+70
+00:02:51,700 --> 00:02:57,790
+one and of<font color="#E5E5E5"> course if you have a license</font>
+
+71
+00:02:57,790 --> 00:03:00,070
+key if<font color="#CCCCCC"> you bought the full version then</font>
+
+72
+00:03:00,070 --> 00:03:01,930
+you<font color="#E5E5E5"> can enter it here</font><font color="#CCCCCC"> however</font><font color="#E5E5E5"> we can</font>
+
+73
+00:03:01,930 --> 00:03:04,330
+just choose evaluate free for<font color="#E5E5E5"> 30 days to</font>
+
+74
+00:03:04,330 --> 00:03:06,730
+see if<font color="#CCCCCC"> we like this IDE first</font><font color="#E5E5E5"> we read</font>
+
+75
+00:03:06,730 --> 00:03:09,610
+this real quick<font color="#CCCCCC"> ok I read it I read</font><font color="#E5E5E5"> it</font>
+
+76
+00:03:09,610 --> 00:03:14,080
+trust me<font color="#CCCCCC"> alright now this baby can load</font>
+
+77
+00:03:14,080 --> 00:03:15,910
+up<font color="#E5E5E5"> and it says a couple</font><font color="#CCCCCC"> things that</font><font color="#E5E5E5"> we</font>
+
+78
+00:03:15,910 --> 00:03:18,880
+have to start<font color="#E5E5E5"> with</font><font color="#CCCCCC"> keymap ID let's see</font>
+
+79
+00:03:18,880 --> 00:03:20,890
+this is just<font color="#E5E5E5"> a theme which is pretty</font>
+
+80
+00:03:20,890 --> 00:03:21,640
+much<font color="#CCCCCC"> a</font><font color="#E5E5E5"> colors</font>
+
+81
+00:03:21,640 --> 00:03:24,250
+I actually like um<font color="#E5E5E5"> dark yellow</font><font color="#CCCCCC"> this</font><font color="#E5E5E5"> is</font>
+
+82
+00:03:24,250 --> 00:03:28,630
+<font color="#E5E5E5">the one that I use and</font><font color="#CCCCCC"> ok so this is</font>
+
+83
+00:03:28,630 --> 00:03:30,010
+pretty<font color="#E5E5E5"> much just</font><font color="#CCCCCC"> a highlighting</font><font color="#E5E5E5"> or</font>
+
+84
+00:03:30,010 --> 00:03:32,230
+syntax and I'm going<font color="#E5E5E5"> to be using this</font>
+
+85
+00:03:32,230 --> 00:03:33,850
+first so hopefully it shows up good in
+
+86
+00:03:33,850 --> 00:03:35,560
+<font color="#CCCCCC">my videos if not have to</font><font color="#E5E5E5"> switch some</font>
+
+87
+00:03:35,560 --> 00:03:38,760
+from something<font color="#E5E5E5"> else</font>
+
+88
+00:03:39,390 --> 00:03:43,269
+yep alright<font color="#CCCCCC"> so just</font><font color="#E5E5E5"> pretty much says</font>
+
+89
+00:03:43,269 --> 00:03:44,590
+<font color="#E5E5E5">whenever you pick a new theme you have</font>
+
+90
+00:03:44,590 --> 00:03:45,730
+<font color="#E5E5E5">to restart it and that's what's</font>
+
+91
+00:03:45,730 --> 00:03:48,220
+happening<font color="#CCCCCC"> right now</font><font color="#E5E5E5"> so</font><font color="#CCCCCC"> now once you got</font>
+
+92
+00:03:48,220 --> 00:03:49,870
+<font color="#E5E5E5">your theme you see everything is cool</font>
+
+93
+00:03:49,870 --> 00:03:53,500
+<font color="#CCCCCC">and dark now pretty sweet</font><font color="#E5E5E5"> alright so in</font>
+
+94
+00:03:53,500 --> 00:03:56,500
+order to start<font color="#E5E5E5"> using this IDE</font><font color="#CCCCCC"> of course</font>
+
+95
+00:03:56,500 --> 00:03:58,329
+you need<font color="#CCCCCC"> to create a new</font><font color="#E5E5E5"> project in a</font>
+
+96
+00:03:58,329 --> 00:04:00,100
+<font color="#E5E5E5">project is pretty much where all of your</font>
+
+97
+00:04:00,100 --> 00:04:03,670
+<font color="#E5E5E5">files</font><font color="#CCCCCC"> are stored</font><font color="#E5E5E5"> so the project name for</font>
+
+98
+00:04:03,670 --> 00:04:07,090
+this is<font color="#CCCCCC"> just going</font><font color="#E5E5E5"> to be like</font><font color="#CCCCCC"> um I'm at</font>
+
+99
+00:04:07,090 --> 00:04:10,000
+<font color="#E5E5E5">YouTube</font><font color="#CCCCCC"> and whenever you type in your</font>
+
+100
+00:04:10,000 --> 00:04:12,340
+project name it automatically fills in
+
+101
+00:04:12,340 --> 00:04:15,100
+the location right here<font color="#E5E5E5"> so don't change</font>
+
+102
+00:04:15,100 --> 00:04:17,798
+<font color="#E5E5E5">them like manually and the project type</font>
+
+103
+00:04:17,798 --> 00:04:19,600
+it can<font color="#E5E5E5"> just be an empty project for now</font>
+
+104
+00:04:19,600 --> 00:04:21,639
+<font color="#CCCCCC">and everything else is good</font>
+
+105
+00:04:21,639 --> 00:04:24,550
+whenever you download<font color="#E5E5E5"> this</font><font color="#CCCCCC"> IDE</font><font color="#E5E5E5"> it</font>
+
+106
+00:04:24,550 --> 00:04:26,740
+automatically finds your interpreter
+
+107
+00:04:26,740 --> 00:04:29,050
+which is pretty<font color="#E5E5E5"> much</font><font color="#CCCCCC"> on</font><font color="#E5E5E5"> Python the very</font>
+
+108
+00:04:29,050 --> 00:04:30,430
+first thing we downloaded<font color="#E5E5E5"> in the first</font>
+
+109
+00:04:30,430 --> 00:04:32,409
+video<font color="#CCCCCC"> so that's what this is</font><font color="#E5E5E5"> choosing</font>
+
+110
+00:04:32,409 --> 00:04:35,110
+right now so it's<font color="#E5E5E5"> pretty cool how it's</font>
+
+111
+00:04:35,110 --> 00:04:36,729
+you know it sets<font color="#CCCCCC"> everything up</font><font color="#E5E5E5"> for you</font>
+
+112
+00:04:36,729 --> 00:04:41,229
+<font color="#E5E5E5">and of course this is</font><font color="#CCCCCC"> okay</font><font color="#E5E5E5"> windows and</font>
+
+113
+00:04:41,229 --> 00:04:43,629
+actually<font color="#E5E5E5"> don't like these tips</font><font color="#CCCCCC"> even</font>
+
+114
+00:04:43,629 --> 00:04:46,689
+though they're helpful<font color="#E5E5E5"> so close out</font><font color="#CCCCCC"> that</font>
+
+115
+00:04:46,689 --> 00:04:49,719
+<font color="#E5E5E5">and now</font><font color="#CCCCCC"> check it out</font><font color="#E5E5E5"> we now have a</font>
+
+116
+00:04:49,719 --> 00:04:53,530
+pretty<font color="#E5E5E5"> cool IDE but where the heck is</font>
+
+117
+00:04:53,530 --> 00:04:55,330
+our you<font color="#E5E5E5"> know we're</font><font color="#CCCCCC"> ahead company type</font>
+
+118
+00:04:55,330 --> 00:04:58,629
+stuff in well if you expand<font color="#CCCCCC"> this right</font>
+
+119
+00:04:58,629 --> 00:05:00,189
+here it's going to<font color="#E5E5E5"> show all your files</font>
+
+120
+00:05:00,189 --> 00:05:02,979
+<font color="#CCCCCC">and</font><font color="#E5E5E5"> we don't have any files yet so what</font>
+
+121
+00:05:02,979 --> 00:05:06,340
+we need<font color="#CCCCCC"> to do is</font><font color="#E5E5E5"> right-click our project</font>
+
+122
+00:05:06,340 --> 00:05:08,229
+name<font color="#CCCCCC"> mine's YouTube and we're going to</font>
+
+123
+00:05:08,229 --> 00:05:11,919
+write new<font color="#CCCCCC"> Python file</font><font color="#E5E5E5"> so our project can</font>
+
+124
+00:05:11,919 --> 00:05:13,270
+have<font color="#CCCCCC"> a bunch</font><font color="#E5E5E5"> of different files you can</font>
+
+125
+00:05:13,270 --> 00:05:15,460
+even have like<font color="#CCCCCC"> um text</font><font color="#E5E5E5"> files in it</font>
+
+126
+00:05:15,460 --> 00:05:17,800
+<font color="#E5E5E5">images if we're working with images but</font>
+
+127
+00:05:17,800 --> 00:05:19,479
+for right now let's<font color="#CCCCCC"> create</font><font color="#E5E5E5"> a basic um</font>
+
+128
+00:05:19,479 --> 00:05:22,479
+<font color="#E5E5E5">Python file and I'm just going</font><font color="#CCCCCC"> to name</font>
+
+129
+00:05:22,479 --> 00:05:24,909
+this<font color="#E5E5E5"> um first name it anything you want</font>
+
+130
+00:05:24,909 --> 00:05:27,550
+<font color="#CCCCCC">and also</font><font color="#E5E5E5"> the extension for Python files</font>
+
+131
+00:05:27,550 --> 00:05:31,449
+<font color="#CCCCCC">are dot py</font><font color="#E5E5E5"> so make sure you have Python</font>
+
+132
+00:05:31,449 --> 00:05:33,490
+<font color="#E5E5E5">file selected and also name it</font><font color="#CCCCCC"> dot P</font><font color="#E5E5E5"> why</font>
+
+133
+00:05:33,490 --> 00:05:36,789
+why not what was that noise<font color="#E5E5E5"> you know</font>
+
+134
+00:05:36,789 --> 00:05:38,440
+<font color="#CCCCCC">another thing</font><font color="#E5E5E5"> I live next to a fire</font>
+
+135
+00:05:38,440 --> 00:05:41,800
+<font color="#CCCCCC">station</font><font color="#E5E5E5"> so all the time this stupid</font><font color="#CCCCCC"> uh</font>
+
+136
+00:05:41,800 --> 00:05:43,479
+fire alarms gone off so it's really
+
+137
+00:05:43,479 --> 00:05:46,180
+annoying<font color="#CCCCCC"> but anyways back to</font><font color="#E5E5E5"> the sort</font>
+
+138
+00:05:46,180 --> 00:05:48,969
+what oh yeah<font color="#E5E5E5"> right now I'm here</font><font color="#CCCCCC"> in</font><font color="#E5E5E5"> the</font>
+
+139
+00:05:48,969 --> 00:05:49,569
+<font color="#CCCCCC">Train</font>
+
+140
+00:05:49,569 --> 00:05:52,000
+I hate<font color="#E5E5E5"> making videos in my living room</font>
+
+141
+00:05:52,000 --> 00:05:54,339
+<font color="#CCCCCC">alright so delete</font><font color="#E5E5E5"> anything out of your</font>
+
+142
+00:05:54,339 --> 00:05:56,379
+<font color="#E5E5E5">Python file and let's just run a simple</font>
+
+143
+00:05:56,379 --> 00:05:58,449
+<font color="#E5E5E5">command let's just print something out</font>
+
+144
+00:05:58,449 --> 00:06:00,129
+so print we already know how<font color="#CCCCCC"> to</font><font color="#E5E5E5"> use this</font>
+
+145
+00:06:00,129 --> 00:06:05,279
+in here put a string like I hope this
+
+146
+00:06:05,279 --> 00:06:10,509
+works<font color="#CCCCCC"> and now in order</font><font color="#E5E5E5"> to run this as</font>
+
+147
+00:06:10,509 --> 00:06:12,819
+you can<font color="#CCCCCC"> see whenever you're making a an</font>
+
+148
+00:06:12,819 --> 00:06:14,979
+actual<font color="#E5E5E5"> program you just</font><font color="#CCCCCC"> can't hit enter</font>
+
+149
+00:06:14,979 --> 00:06:18,310
+and<font color="#E5E5E5"> it runs like</font><font color="#CCCCCC"> you're on</font><font color="#E5E5E5"> your</font><font color="#CCCCCC"> show so</font>
+
+150
+00:06:18,310 --> 00:06:19,870
+what<font color="#E5E5E5"> you need to do for the first time</font>
+
+151
+00:06:19,870 --> 00:06:23,759
+is right click it<font color="#E5E5E5"> and hit run first and</font>
+
+152
+00:06:23,759 --> 00:06:26,740
+get out of<font color="#E5E5E5"> the way now all of your</font>
+
+153
+00:06:26,740 --> 00:06:28,479
+<font color="#E5E5E5">results are going to pop up in this</font>
+
+154
+00:06:28,479 --> 00:06:31,000
+little<font color="#E5E5E5"> command window down here</font><font color="#CCCCCC"> so</font>
+
+155
+00:06:31,000 --> 00:06:32,770
+whenever you<font color="#E5E5E5"> change something else like</font>
+
+156
+00:06:32,770 --> 00:06:34,840
+I love
+
+157
+00:06:34,840 --> 00:06:39,880
+and hit<font color="#E5E5E5"> run your new results are going</font>
+
+158
+00:06:39,880 --> 00:06:41,830
+<font color="#E5E5E5">to pop</font><font color="#CCCCCC"> up down</font><font color="#E5E5E5"> here so that</font><font color="#CCCCCC"> way you can</font>
+
+159
+00:06:41,830 --> 00:06:43,750
+work<font color="#E5E5E5"> on all your stuff up here your</font>
+
+160
+00:06:43,750 --> 00:06:45,580
+files are<font color="#CCCCCC"> on the left</font><font color="#E5E5E5"> and the results</font>
+
+161
+00:06:45,580 --> 00:06:48,160
+are on the<font color="#E5E5E5"> bottom now whenever you run</font>
+
+162
+00:06:48,160 --> 00:06:49,450
+it<font color="#CCCCCC"> for the first</font><font color="#E5E5E5"> time you do</font><font color="#CCCCCC"> have to</font>
+
+163
+00:06:49,450 --> 00:06:51,669
+right click<font color="#CCCCCC"> it and hit</font><font color="#E5E5E5"> run but any time</font>
+
+164
+00:06:51,669 --> 00:06:53,169
+<font color="#CCCCCC">after</font><font color="#E5E5E5"> that you can</font><font color="#CCCCCC"> just</font><font color="#E5E5E5"> click this</font>
+
+165
+00:06:53,169 --> 00:06:56,500
+<font color="#CCCCCC">button or</font><font color="#E5E5E5"> hit shift f10 but I just click</font>
+
+166
+00:06:56,500 --> 00:06:57,940
+this button<font color="#E5E5E5"> it's a little bit easier and</font>
+
+167
+00:06:57,940 --> 00:07:03,070
+<font color="#CCCCCC">that runs your entire on project so</font><font color="#E5E5E5"> now</font>
+
+168
+00:07:03,070 --> 00:07:05,980
+that<font color="#E5E5E5"> you have</font><font color="#CCCCCC"> a suite</font><font color="#E5E5E5"> IDE we can now</font>
+
+169
+00:07:05,980 --> 00:07:07,960
+actually<font color="#E5E5E5"> start</font><font color="#CCCCCC"> making some cool programs</font>
+
+170
+00:07:07,960 --> 00:07:09,820
+<font color="#E5E5E5">so thank you</font><font color="#CCCCCC"> guys</font><font color="#E5E5E5"> for watching don't</font>
+
+171
+00:07:09,820 --> 00:07:11,290
+<font color="#CCCCCC">forget to</font><font color="#E5E5E5"> subscribe and I'll see you</font>
+
+172
+00:07:11,290 --> 00:00:00,000
+<font color="#E5E5E5">guys in the next video</font>
+

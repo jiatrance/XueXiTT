@@ -1,0 +1,213 @@
+1
+00:00:00,000 --> 00:00:03,510
+all ready guys welcome back and in this
+video I'm going to show you a really
+
+2
+00:00:03,510 --> 00:00:08,519
+cool way to get the most frequently
+occurring item in a list but before we
+
+3
+00:00:08,519 --> 00:00:13,320
+do I just want to give a quick shout out
+to Caleb Haslam and Nathan Bradley they
+
+4
+00:00:13,320 --> 00:00:17,640
+each contributed 5 bucks to my patreon
+account I love you guys I want to have
+
+5
+00:00:17,640 --> 00:00:23,820
+your babies and yeah let's get on to the
+tutorial all right so let's say that we
+
+6
+00:00:23,820 --> 00:00:31,679
+have any list but in this tutorial let
+me go ahead and copy this alright so
+there we go so I just have this chunk of
+
+7
+00:00:34,770 --> 00:00:41,340
+text right here and I'll remember huh I
+don't even remember where I pasted this
+
+8
+00:00:41,340 --> 00:00:45,059
+from somewhere maybe on my website or
+something but we have any text you can
+have any list and we want to get the
+
+9
+00:00:46,890 --> 00:00:51,960
+words that occur most frequently maybe
+my PR guy was yelling at me he's like
+
+10
+00:00:51,960 --> 00:00:56,160
+dude you save the same words over and
+over again and I probably do so how can
+we do that well we can write our own
+
+11
+00:00:58,410 --> 00:01:03,500
+custom function or I'll show you guys a
+cool little module so from collections
+
+12
+00:01:03,500 --> 00:01:10,619
+we're going to import the class counter
+so this is gonna this is actually pretty
+
+13
+00:01:10,619 --> 00:01:14,850
+cool class if you want to dive deeper
+well what it essentially does is you
+
+14
+00:01:14,850 --> 00:01:20,040
+pass it in a list and then you can run a
+bunch of cool statistics on it now we
+
+15
+00:01:20,040 --> 00:01:23,670
+already have one issue and that's that
+this right here is just a big ol long
+
+16
+00:01:23,670 --> 00:01:29,850
+string we actually need to convert all
+of these words into a list so in order
+
+17
+00:01:29,850 --> 00:01:34,770
+to do that it's actually really easy
+just say words you can name your
+
+18
+00:01:34,770 --> 00:01:40,140
+variable anything you want of course for
+this text string in order to make it
+
+19
+00:01:40,140 --> 00:01:46,500
+individual a list of words all you do is
+your right split so that it breaks up a
+
+20
+00:01:46,500 --> 00:01:52,770
+string into a list so now we have a list
+that's I don't know like maybe 50 words
+
+21
+00:01:52,770 --> 00:01:57,920
+long or whatever and just to show you
+guys real quick just print this out
+
+22
+00:01:57,920 --> 00:02:03,600
+alright so now we can see that we have a
+list look at that looking good so now
+
+23
+00:02:03,600 --> 00:02:08,160
+that we have a list we want to get the
+most frequently occurring word so how do
+
+24
+00:02:08,160 --> 00:02:11,730
+we do that well let me just make a just
+name a counter wine
+
+25
+00:02:11,730 --> 00:02:17,489
+and I'm going to set this equal to
+counter which is an object from the
+
+26
+00:02:17,489 --> 00:02:22,739
+counter class or an instance is the
+proper term so whenever we initialize
+
+27
+00:02:22,739 --> 00:02:27,840
+this what we do is we pass in a list so
+what that's going to do is it's going to
+
+28
+00:02:27,840 --> 00:02:32,810
+say this is our object run a bunch of
+statistics about this list just
+
+29
+00:02:32,810 --> 00:02:38,370
+essentially this right here so boom
+roasted it did that now once it's
+
+30
+00:02:38,370 --> 00:02:42,840
+initialized we can just you know print
+out whatever we want so let's say that
+
+31
+00:02:42,840 --> 00:02:49,110
+we want the top three occurring words
+well for counter which was our object
+
+32
+00:02:49,110 --> 00:02:54,030
+there is a function called most common
+now inside here we can just write any
+
+33
+00:02:54,030 --> 00:03:00,090
+number we want a 3 5 whatever I'm going
+to say 3 and that's going to give me the
+
+34
+00:03:00,090 --> 00:03:11,450
+3 most common words in that list so now
+I'll just print top 3 and there we go so
+
+35
+00:03:11,450 --> 00:03:16,889
+this is actually pretty cool it returns
+a list of tuples and the tupple has two
+
+36
+00:03:16,889 --> 00:03:21,150
+parts to it the first one is of course
+the word itself the item in the list and
+
+37
+00:03:21,150 --> 00:03:25,620
+the second one is the frequency counter
+so this says hey these are your three
+
+38
+00:03:25,620 --> 00:03:34,260
+most common occurring words the you
+wrote 5 times 2 euro 4 and in was in
+
+39
+00:03:34,260 --> 00:03:40,350
+your list 3 times so a lot of awesome
+information so there you go again a real
+
+40
+00:03:40,350 --> 00:03:45,299
+quick tutorial but definitely useful and
+again there's a lot more to this counter
+
+41
+00:03:45,299 --> 00:03:50,010
+class but now that I you know got your
+guys a feet a little bit wet you can
+dive in a little more if you want thank
+
+42
+00:03:52,079 --> 00:03:56,120
+you guys for watching I'll see you guys
+next time

@@ -1,0 +1,662 @@
+﻿1
+00:00:00,000 --> 00:00:06,765
+
+
+2
+00:00:06,765 --> 00:00:08,140
+JOSH GORDON:
+Classifiers are only
+
+3
+00:00:08,140 --> 00:00:10,270
+as good as the
+features you provide.
+
+4
+00:00:10,270 --> 00:00:12,059
+That means coming up
+with good features
+
+5
+00:00:12,060 --> 00:00:14,740
+is one of your most important
+jobs in machine learning.
+
+6
+00:00:14,740 --> 00:00:17,060
+But what makes a good
+feature, and how can you tell?
+
+7
+00:00:17,060 --> 00:00:19,400
+If you're doing
+binary classification,
+
+8
+00:00:19,400 --> 00:00:21,669
+then a good feature
+makes it easy to decide
+
+9
+00:00:21,670 --> 00:00:23,270
+between two different things.
+
+10
+00:00:23,270 --> 00:00:26,100
+For example, imagine we
+wanted to write a classifier
+
+11
+00:00:26,100 --> 00:00:29,090
+to tell the difference
+between two types of dogs--
+
+12
+00:00:29,090 --> 00:00:30,890
+greyhounds and Labradors.
+
+13
+00:00:30,890 --> 00:00:34,090
+Here we'll use two features--
+the dog's height in inches
+
+14
+00:00:34,090 --> 00:00:35,490
+and their eye color.
+
+15
+00:00:35,490 --> 00:00:38,490
+Just for this toy example,
+let's make a couple assumptions
+
+16
+00:00:38,490 --> 00:00:40,930
+about dogs to keep
+things simple.
+
+17
+00:00:40,930 --> 00:00:43,050
+First, we'll say that
+greyhounds are usually
+
+18
+00:00:43,050 --> 00:00:44,180
+taller than Labradors.
+
+19
+00:00:44,180 --> 00:00:47,019
+Next, we'll pretend that
+dogs have only two eye
+
+20
+00:00:47,020 --> 00:00:48,750
+colors-- blue and brown.
+
+21
+00:00:48,750 --> 00:00:50,760
+And we'll say the
+color of their eyes
+
+22
+00:00:50,760 --> 00:00:53,160
+doesn't depend on
+the breed of dog.
+
+23
+00:00:53,160 --> 00:00:55,519
+This means that one of
+these features is useful
+
+24
+00:00:55,520 --> 00:00:57,480
+and the other tells us nothing.
+
+25
+00:00:57,480 --> 00:01:01,260
+To understand why, we'll
+visualize them using a toy
+
+26
+00:01:01,260 --> 00:01:02,970
+dataset I'll create.
+
+27
+00:01:02,970 --> 00:01:04,300
+Let's begin with height.
+
+28
+00:01:04,300 --> 00:01:06,649
+How useful do you
+think this feature is?
+
+29
+00:01:06,650 --> 00:01:08,070
+Well, on average,
+greyhounds tend
+
+30
+00:01:08,070 --> 00:01:11,309
+to be a couple inches taller
+than Labradors, but not always.
+
+31
+00:01:11,310 --> 00:01:13,736
+There's a lot of
+variation in the world.
+
+32
+00:01:13,736 --> 00:01:15,110
+So when we think
+of a feature, we
+
+33
+00:01:15,110 --> 00:01:17,620
+have to consider how it
+looks for different values
+
+34
+00:01:17,620 --> 00:01:19,630
+in a population.
+
+35
+00:01:19,630 --> 00:01:22,360
+Let's head into Python for
+a programmatic example.
+
+36
+00:01:22,360 --> 00:01:24,440
+I'm creating a
+population of 1,000
+
+37
+00:01:24,440 --> 00:01:27,737
+dogs-- 50-50 greyhound Labrador.
+
+38
+00:01:27,737 --> 00:01:29,070
+I'll give each of them a height.
+
+39
+00:01:29,070 --> 00:01:31,500
+For this example, we'll
+say that greyhounds
+
+40
+00:01:31,500 --> 00:01:35,510
+are on average 28 inches
+tall and Labradors are 24.
+
+41
+00:01:35,510 --> 00:01:37,564
+Now, all dogs are
+a bit different.
+
+42
+00:01:37,564 --> 00:01:39,479
+Let's say that height
+is normally distributed,
+
+43
+00:01:39,480 --> 00:01:42,790
+so we'll make both of these
+plus or minus 4 inches.
+
+44
+00:01:42,790 --> 00:01:44,660
+This will give us two
+arrays of numbers,
+
+45
+00:01:44,660 --> 00:01:47,200
+and we can visualize
+them in a histogram.
+
+46
+00:01:47,200 --> 00:01:49,520
+I'll add a parameter so
+greyhounds are in red
+
+47
+00:01:49,520 --> 00:01:51,320
+and Labradors are in blue.
+
+48
+00:01:51,320 --> 00:01:53,320
+Now we can run our script.
+
+49
+00:01:53,320 --> 00:01:57,460
+This shows how many dogs in our
+population have a given height.
+
+50
+00:01:57,460 --> 00:01:58,960
+There's a lot of
+data on the screen,
+
+51
+00:01:58,960 --> 00:02:03,202
+so let's simplify it and
+look at it piece by piece.
+
+52
+00:02:03,202 --> 00:02:05,230
+We'll start with
+dogs on the far left
+
+53
+00:02:05,230 --> 00:02:08,600
+of the distribution-- say,
+who are about 20 inches tall.
+
+54
+00:02:08,600 --> 00:02:11,380
+Imagine I asked you to predict
+whether a dog with his height
+
+55
+00:02:11,380 --> 00:02:13,299
+was a lab or a greyhound.
+
+56
+00:02:13,300 --> 00:02:14,180
+What would you do?
+
+57
+00:02:14,180 --> 00:02:16,710
+Well, you could figure out
+the probability of each type
+
+58
+00:02:16,710 --> 00:02:18,670
+of dog given their height.
+
+59
+00:02:18,670 --> 00:02:20,940
+Here, it's more likely
+the dog is a lab.
+
+60
+00:02:20,940 --> 00:02:22,966
+On the other hand,
+if we go all the way
+
+61
+00:02:22,967 --> 00:02:24,550
+to the right of the
+histogram and look
+
+62
+00:02:24,550 --> 00:02:26,950
+at a dog who is
+35 inches tall, we
+
+63
+00:02:26,950 --> 00:02:29,450
+can be pretty confident
+they're a greyhound.
+
+64
+00:02:29,450 --> 00:02:31,299
+Now, what about a
+dog in the middle?
+
+65
+00:02:31,300 --> 00:02:33,520
+You can see the graph
+gives us less information
+
+66
+00:02:33,520 --> 00:02:36,750
+here, because the probability
+of each type of dog is close.
+
+67
+00:02:36,750 --> 00:02:40,220
+So height is a useful
+feature, but it's not perfect.
+
+68
+00:02:40,220 --> 00:02:42,280
+That's why in machine
+learning, you almost always
+
+69
+00:02:42,280 --> 00:02:43,482
+need multiple features.
+
+70
+00:02:43,482 --> 00:02:45,440
+Otherwise, you could just
+write an if statement
+
+71
+00:02:45,440 --> 00:02:47,160
+instead of bothering
+with the classifier.
+
+72
+00:02:47,160 --> 00:02:50,590
+To figure out what types
+of features you should use,
+
+73
+00:02:50,590 --> 00:02:52,390
+do a thought experiment.
+
+74
+00:02:52,390 --> 00:02:53,820
+Pretend you're the classifier.
+
+75
+00:02:53,820 --> 00:02:55,870
+If you were trying to
+figure out if this dog is
+
+76
+00:02:55,870 --> 00:03:00,167
+a lab or a greyhound, what other
+things would you want to know?
+
+77
+00:03:00,167 --> 00:03:01,750
+You might ask about
+their hair length,
+
+78
+00:03:01,750 --> 00:03:04,680
+or how fast they can run,
+or how much they weigh.
+
+79
+00:03:04,680 --> 00:03:06,980
+Exactly how many
+features you should use
+
+80
+00:03:06,980 --> 00:03:08,549
+is more of an art
+than a science,
+
+81
+00:03:08,550 --> 00:03:10,720
+but as a rule of thumb,
+think about how many you'd
+
+82
+00:03:10,720 --> 00:03:12,620
+need to solve the problem.
+
+83
+00:03:12,620 --> 00:03:15,590
+Now let's look at another
+feature like eye color.
+
+84
+00:03:15,590 --> 00:03:17,470
+Just for this toy
+example, let's imagine
+
+85
+00:03:17,470 --> 00:03:20,500
+dogs have only two eye
+colors, blue and brown.
+
+86
+00:03:20,500 --> 00:03:22,100
+And let's say the
+color of their eyes
+
+87
+00:03:22,100 --> 00:03:24,500
+doesn't depend on
+the breed of dog.
+
+88
+00:03:24,500 --> 00:03:28,590
+Here's what a histogram might
+look like for this example.
+
+89
+00:03:28,590 --> 00:03:32,170
+For most values, the
+distribution is about 50/50.
+
+90
+00:03:32,170 --> 00:03:33,850
+So this feature
+tells us nothing,
+
+91
+00:03:33,850 --> 00:03:36,109
+because it doesn't correlate
+with the type of dog.
+
+92
+00:03:36,110 --> 00:03:39,200
+Including a useless feature
+like this in your training
+
+93
+00:03:39,200 --> 00:03:41,940
+data can hurt your
+classifier's accuracy.
+
+94
+00:03:41,940 --> 00:03:45,210
+That's because there's a chance
+they might appear useful purely
+
+95
+00:03:45,210 --> 00:03:48,430
+by accident, especially if
+you have only a small amount
+
+96
+00:03:48,430 --> 00:03:50,040
+of training data.
+
+97
+00:03:50,040 --> 00:03:52,320
+You also want your
+features to be independent.
+
+98
+00:03:52,320 --> 00:03:54,600
+And independent
+features give you
+
+99
+00:03:54,600 --> 00:03:56,870
+different types of information.
+
+100
+00:03:56,870 --> 00:03:59,360
+Imagine we already have a
+feature-- height and inches--
+
+101
+00:03:59,360 --> 00:04:00,800
+in our dataset.
+
+102
+00:04:00,800 --> 00:04:02,250
+Ask yourself,
+would it be helpful
+
+103
+00:04:02,250 --> 00:04:05,800
+if we added another feature,
+like height in centimeters?
+
+104
+00:04:05,800 --> 00:04:08,230
+No, because it's perfectly
+correlated with one
+
+105
+00:04:08,230 --> 00:04:09,410
+we already have.
+
+106
+00:04:09,410 --> 00:04:12,650
+It's good practice to remove
+highly correlated features
+
+107
+00:04:12,650 --> 00:04:14,032
+from your training data.
+
+108
+00:04:14,032 --> 00:04:15,490
+That's because a
+lot of classifiers
+
+109
+00:04:15,490 --> 00:04:18,190
+aren't smart enough to
+realize that height in inches
+
+110
+00:04:18,190 --> 00:04:20,200
+in centimeters are
+the same thing,
+
+111
+00:04:20,200 --> 00:04:23,340
+so they might double count
+how important this feature is.
+
+112
+00:04:23,340 --> 00:04:26,599
+Last, you want your features
+to be easy to understand.
+
+113
+00:04:26,600 --> 00:04:28,730
+For a new example,
+imagine you want
+
+114
+00:04:28,730 --> 00:04:30,330
+to predict how many
+days it will take
+
+115
+00:04:30,330 --> 00:04:33,580
+to mail a letter between
+two different cities.
+
+116
+00:04:33,580 --> 00:04:37,130
+The farther apart the cities
+are, the longer it will take.
+
+117
+00:04:37,130 --> 00:04:39,650
+A great feature to use
+would be the distance
+
+118
+00:04:39,650 --> 00:04:42,200
+between the cities in miles.
+
+119
+00:04:42,200 --> 00:04:44,219
+A much worse pair
+of features to use
+
+120
+00:04:44,220 --> 00:04:47,160
+would be the city's locations
+given by their latitude
+
+121
+00:04:47,160 --> 00:04:48,260
+and longitude.
+
+122
+00:04:48,260 --> 00:04:48,969
+And here's why.
+
+123
+00:04:48,970 --> 00:04:51,120
+I can look at the
+distance and make
+
+124
+00:04:51,120 --> 00:04:54,100
+a good guess of how long it
+will take the letter to arrive.
+
+125
+00:04:54,100 --> 00:04:56,880
+But learning the relationship
+between latitude, longitude,
+
+126
+00:04:56,880 --> 00:05:00,020
+and time is much harder
+and would require many more
+
+127
+00:05:00,020 --> 00:05:01,986
+examples in your training data.
+
+128
+00:05:01,986 --> 00:05:03,360
+Now, there are
+techniques you can
+
+129
+00:05:03,360 --> 00:05:05,970
+use to figure out exactly
+how useful your features are,
+
+130
+00:05:05,970 --> 00:05:08,920
+and even what combinations
+of them are best,
+
+131
+00:05:08,920 --> 00:05:11,390
+so you never have to
+leave it to chance.
+
+132
+00:05:11,390 --> 00:05:13,770
+We'll get to those
+in a future episode.
+
+133
+00:05:13,770 --> 00:05:16,229
+Coming up next time, we'll
+continue building our intuition
+
+134
+00:05:16,230 --> 00:05:17,750
+for supervised learning.
+
+135
+00:05:17,750 --> 00:05:19,680
+We'll show how different
+types of classifiers
+
+136
+00:05:19,680 --> 00:05:22,290
+can be used to solve the same
+problem and dive a little bit
+
+137
+00:05:22,290 --> 00:05:24,240
+deeper into how they work.
+
+138
+00:05:24,240 --> 00:05:27,220
+Thanks very much for watching,
+and I'll see you then.
+
+139
+00:05:27,220 --> 00:05:40,032
+
+

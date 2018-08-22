@@ -1,0 +1,688 @@
+1
+00:00:00,120 --> 00:00:01,680
+ <font color="#CCCCCC">好吧欢迎回到 </font><font color="#E5E5E5">另一个人 </font>
+
+2
+00:00:01,680 --> 00:00:04,140
+ <font color="#E5E5E5">视频，你可能会</font><font color="#CCCCCC">注意到 </font>
+
+3
+00:00:04,140 --> 00:00:05,850
+ <font color="#CCCCCC">这段视频的声音</font><font color="#E5E5E5">有点儿 </font>
+
+4
+00:00:05,850 --> 00:00:09,300
+不同<font color="#E5E5E5">，我的电脑屏幕 </font><font color="#CCCCCC">也是 </font>
+
+5
+00:00:09,300 --> 00:00:11,309
+略有不同<font color="#CCCCCC">， </font><font color="#E5E5E5">那是因为 </font>
+
+6
+00:00:11,309 --> 00:00:13,799
+我<font color="#CCCCCC">现在对我的笔记本电脑和 </font>
+
+7
+00:00:13,799 --> 00:00:15,269
+ <font color="#E5E5E5">因为 </font><font color="#CCCCCC">我正在 </font><font color="#E5E5E5">拍摄这张照片 </font>
+
+8
+00:00:15,269 --> 00:00:17,190
+笔记本电脑是因为<font color="#E5E5E5">我们要去 </font>
+
+9
+00:00:17,190 --> 00:00:18,930
+ <font color="#E5E5E5">在此 </font><font color="#CCCCCC">下载一个 </font><font color="#E5E5E5">新的软件 </font>
+
+10
+00:00:18,930 --> 00:00:21,029
+ <font color="#CCCCCC">教程中，我</font><font color="#E5E5E5">已经 </font><font color="#CCCCCC">安装 </font>
+
+11
+00:00:21,029 --> 00:00:22,769
+在我的另一<font color="#E5E5E5">台电脑上，所以我不想 </font>
+
+12
+00:00:22,769 --> 00:00:24,840
+再次安装<font color="#CCCCCC">并弄乱 </font><font color="#E5E5E5">一切 </font>
+
+13
+00:00:24,840 --> 00:00:27,000
+ <font color="#E5E5E5">但正是我们</font><font color="#CCCCCC">将 要 </font><font color="#E5E5E5">安装的 </font>
+
+14
+00:00:27,000 --> 00:00:29,580
+称为Python IDE， <font color="#CCCCCC">它是最后一块 </font>
+
+15
+00:00:29,580 --> 00:00:31,710
+ <font color="#CCCCCC">我们需要 </font><font color="#E5E5E5">安装的软件， 因为 </font>
+
+16
+00:00:31,710 --> 00:00:35,250
+这个小<font color="#E5E5E5">程序就在这里 </font>
+
+17
+00:00:35,250 --> 00:00:37,140
+ <font color="#E5E5E5">非常适合学习基本命令 </font>
+
+18
+00:00:37,140 --> 00:00:39,149
+ <font color="#E5E5E5">并测试东西 </font><font color="#CCCCCC">或 </font><font color="#E5E5E5">我们的时间 </font>
+
+19
+00:00:39,149 --> 00:00:41,309
+想要<font color="#E5E5E5">制作一个真正的Python程序 </font>
+
+20
+00:00:41,309 --> 00:00:43,920
+ <font color="#CCCCCC">使用 </font><font color="#E5E5E5">一堆文件很好</font>
+
+21
+00:00:43,920 --> 00:00:46,680
+而且你知道<font color="#E5E5E5">只是 </font><font color="#CCCCCC">稍微 </font><font color="#E5E5E5">使用一些东西 </font>
+
+22
+00:00:46,680 --> 00:00:49,469
+ <font color="#CCCCCC">更先进， </font><font color="#E5E5E5">我将成为 </font>
+
+23
+00:00:49,469 --> 00:00:51,420
+向<font color="#E5E5E5">你们展示如何 </font><font color="#CCCCCC">安装就是这个 </font>
+
+24
+00:00:51,420 --> 00:00:54,300
+ <font color="#CCCCCC">现在在IDE上播放并不重要 </font>
+
+25
+00:00:54,300 --> 00:00:56,969
+ <font color="#E5E5E5">您选择的IDE，但这是我的最爱 </font>
+
+26
+00:00:56,969 --> 00:01:00,210
+这就是所谓的管看起来<font color="#E5E5E5">有点</font><font color="#CCCCCC">低，我觉得 </font>
+
+27
+00:01:00,210 --> 00:01:01,530
+就像<font color="#E5E5E5">我刚开始时我会呕吐一样 </font>
+
+28
+00:01:01,530 --> 00:01:03,480
+在<font color="#E5E5E5">这个视频 </font><font color="#CCCCCC">的中间呕吐</font>
+
+29
+00:01:03,480 --> 00:01:05,420
+ <font color="#CCCCCC">虽然会很搞笑但是很有趣</font>
+
+30
+00:01:05,420 --> 00:01:07,920
+ <font color="#E5E5E5">选择 </font><font color="#CCCCCC">你想要的 </font><font color="#E5E5E5">任何IDE </font>
+
+31
+00:01:07,920 --> 00:01:09,780
+使用<font color="#CCCCCC">PyCharm </font>
+
+32
+00:01:09,780 --> 00:01:11,939
+而<font color="#CCCCCC">为了得到这个，这</font><font color="#E5E5E5">是 </font>
+
+33
+00:01:11,939 --> 00:01:14,939
+网站<font color="#CCCCCC">就在这里JetBrains comm斜线 </font>
+
+34
+00:01:14,939 --> 00:01:18,750
+ <font color="#CCCCCC">PyCharm和我的笔记本电脑在生活中 </font>
+
+35
+00:01:18,750 --> 00:01:20,759
+ <font color="#E5E5E5">房间， </font><font color="#CCCCCC">所以我可以 </font><font color="#E5E5E5">听到所有人开车 </font>
+
+36
+00:01:20,759 --> 00:01:23,310
+ <font color="#E5E5E5">无论如何继续前进并点击获取 </font>
+
+37
+00:01:23,310 --> 00:01:25,350
+ <font color="#CCCCCC">pycharm，我实际上有 </font>
+
+38
+00:01:25,350 --> 00:01:27,299
+ <font color="#E5E5E5">专业版，因为 </font><font color="#CCCCCC">我没有 </font>
+
+39
+00:01:27,299 --> 00:01:30,180
+知道我<font color="#E5E5E5">只是一直使用它但是 </font>
+
+40
+00:01:30,180 --> 00:01:32,369
+如果你点击<font color="#E5E5E5">下载， </font><font color="#CCCCCC">那么它是什么 </font>
+
+41
+00:01:32,369 --> 00:01:34,259
+ <font color="#E5E5E5">就像以前一样去做 </font>
+
+42
+00:01:34,259 --> 00:01:38,460
+ <font color="#E5E5E5">打算给你下载这个文件 </font>
+
+43
+00:01:38,460 --> 00:01:41,880
+就在这里， <font color="#E5E5E5">现在双击 </font><font color="#CCCCCC">这个和 </font>
+
+44
+00:01:41,880 --> 00:01:44,130
+ <font color="#E5E5E5">让我们看看 </font><font color="#CCCCCC">我是否记得 </font><font color="#E5E5E5">如何安装 </font>
+
+45
+00:01:44,130 --> 00:01:48,360
+ <font color="#CCCCCC">是的，你接下来可以获得许可我 </font>
+
+46
+00:01:48,360 --> 00:01:52,229
+ <font color="#E5E5E5">接下来同意</font><font color="#CCCCCC">，不妨创建一个 </font>
+
+47
+00:01:52,229 --> 00:01:56,189
+快捷方式<font color="#E5E5E5">几乎坚持所有 </font>
+
+48
+00:01:56,189 --> 00:01:58,950
+如果您<font color="#E5E5E5">愿意，也可以使用默认值</font>
+
+49
+00:01:58,950 --> 00:02:00,270
+改变任何东西，然后你可以<font color="#CCCCCC">改变 </font>
+
+50
+00:02:00,270 --> 00:02:02,040
+ <font color="#E5E5E5">它在程序中，但现在 </font><font color="#CCCCCC">只是坚持 </font>
+
+51
+00:02:02,040 --> 00:02:04,729
+默认值
+
+52
+00:02:09,389 --> 00:02:11,830
+有一个人<font color="#E5E5E5">我不知道他是不是 </font>
+
+53
+00:02:11,830 --> 00:02:14,170
+ <font color="#CCCCCC">杂草吃或割 </font><font color="#E5E5E5">或听起来像 </font>
+
+54
+00:02:14,170 --> 00:02:16,240
+他正在使用<font color="#E5E5E5">一个巨大的电动牙刷 </font>
+
+55
+00:02:16,240 --> 00:02:19,810
+ <font color="#E5E5E5">但无论如何 </font><font color="#CCCCCC">r-right如此完成那个和 </font>
+
+56
+00:02:19,810 --> 00:02:22,660
+现在<font color="#E5E5E5">你 </font><font color="#CCCCCC">可以关闭 </font><font color="#E5E5E5">这个 </font><font color="#CCCCCC">让清洁 </font>
+
+57
+00:02:22,660 --> 00:02:24,209
+一切都好
+
+58
+00:02:24,209 --> 00:02:27,220
+看到你以后的窗口， <font color="#E5E5E5">然后双击它 </font>
+
+59
+00:02:27,220 --> 00:02:30,850
+ <font color="#E5E5E5">看看我们现在得到了 </font><font color="#CCCCCC">什么，这是什么 </font>
+
+60
+00:02:30,850 --> 00:02:32,110
+说<font color="#CCCCCC">你可以导入句子 </font>
+
+61
+00:02:32,110 --> 00:02:33,880
+以前的版本和<font color="#E5E5E5">nope这是 </font><font color="#CCCCCC">我的 </font>
+
+62
+00:02:33,880 --> 00:02:36,190
+第一次安装<font color="#E5E5E5">，只需单击 </font><font color="#CCCCCC">确定 </font>
+
+63
+00:02:36,190 --> 00:02:39,820
+当然， <font color="#CCCCCC">如果你 </font><font color="#E5E5E5">没有 </font>
+
+64
+00:02:39,820 --> 00:02:40,810
+许可证密钥
+
+65
+00:02:40,810 --> 00:02:43,239
+那么你只<font color="#E5E5E5">需要 </font><font color="#CCCCCC">30天免费试用 </font>
+
+66
+00:02:43,239 --> 00:02:46,330
+审判，但这样我又<font color="#E5E5E5">没有 </font>
+
+67
+00:02:46,330 --> 00:02:48,700
+许可证密钥不适用于此计算机<font color="#CCCCCC">我 </font>
+
+68
+00:02:48,700 --> 00:02:50,470
+实际上<font color="#E5E5E5">有一个用于我的 </font><font color="#CCCCCC">其他电脑 </font>
+
+69
+00:02:50,470 --> 00:02:51,700
+不<font color="#E5E5E5">知道如果我能使用它 </font><font color="#CCCCCC">的这个 </font>
+
+70
+00:02:51,700 --> 00:02:57,790
+一个， <font color="#E5E5E5">当然，如果你有许可证 </font>
+
+71
+00:02:57,790 --> 00:03:00,070
+关键，如果<font color="#CCCCCC">你买了完整版 </font>
+
+72
+00:03:00,070 --> 00:03:01,930
+你<font color="#E5E5E5">可以在这里输入它， </font><font color="#CCCCCC">但 </font><font color="#E5E5E5">我们可以 </font>
+
+73
+00:03:01,930 --> 00:03:04,330
+只需选择免费评估<font color="#E5E5E5">30天 </font>
+
+74
+00:03:04,330 --> 00:03:06,730
+看看<font color="#CCCCCC">我们首先喜欢这个IDE </font><font color="#E5E5E5">我们读到 </font>
+
+75
+00:03:06,730 --> 00:03:09,610
+这真快速<font color="#CCCCCC">好我读了它我读了 </font><font color="#E5E5E5">它 </font>
+
+76
+00:03:09,610 --> 00:03:14,080
+相信我<font color="#CCCCCC">好，现在这个宝宝可以加载 </font>
+
+77
+00:03:14,080 --> 00:03:15,910
+起来<font color="#E5E5E5">，它说了几 </font><font color="#CCCCCC">件 </font><font color="#E5E5E5">我们的 </font><font color="#CCCCCC">事情 </font>
+
+78
+00:03:15,910 --> 00:03:18,880
+必须<font color="#E5E5E5">先从 </font><font color="#CCCCCC">键盘布局ID让我们来看看 </font>
+
+79
+00:03:18,880 --> 00:03:20,890
+这只是<font color="#E5E5E5">一个很漂亮的主题 </font>
+
+80
+00:03:20,890 --> 00:03:21,640
+太大<font color="#CCCCCC">的 </font><font color="#E5E5E5">颜色 </font>
+
+81
+00:03:21,640 --> 00:03:24,250
+其实我喜欢嗯<font color="#E5E5E5">暗黄色 </font><font color="#CCCCCC">，这 </font><font color="#E5E5E5">是 </font>
+
+82
+00:03:24,250 --> 00:03:28,630
+ <font color="#E5E5E5">我使用的那个， </font><font color="#CCCCCC">确定如此 </font>
+
+83
+00:03:28,630 --> 00:03:30,010
+几乎<font color="#E5E5E5">只是 </font><font color="#CCCCCC">突出显示 </font><font color="#E5E5E5">或 </font>
+
+84
+00:03:30,010 --> 00:03:32,230
+语法，我<font color="#E5E5E5">将使用它 </font>
+
+85
+00:03:32,230 --> 00:03:33,850
+首先，所以希望它显示出良好的效果
+
+86
+00:03:33,850 --> 00:03:35,560
+ <font color="#CCCCCC">我的视频，如果不必 </font><font color="#E5E5E5">切换一些 </font>
+
+87
+00:03:35,560 --> 00:03:38,760
+从别的<font color="#E5E5E5">东西 </font>
+
+88
+00:03:39,390 --> 00:03:43,269
+是的， <font color="#CCCCCC">所以只是 </font><font color="#E5E5E5">说 </font>
+
+89
+00:03:43,269 --> 00:03:44,590
+ <font color="#E5E5E5">每当你选择一个新主题时 </font>
+
+90
+00:03:44,590 --> 00:03:45,730
+ <font color="#E5E5E5">重新启动它，这是什么 </font>
+
+91
+00:03:45,730 --> 00:03:48,220
+ <font color="#CCCCCC">现在发生， </font><font color="#E5E5E5">所以 </font><font color="#CCCCCC">现在一旦你有了 </font>
+
+92
+00:03:48,220 --> 00:03:49,870
+ <font color="#E5E5E5">你认为一切都很酷的主题 </font>
+
+93
+00:03:49,870 --> 00:03:53,500
+ <font color="#CCCCCC">黑暗现在非常 </font><font color="#E5E5E5">好，所以 </font>
+
+94
+00:03:53,500 --> 00:03:56,500
+ <font color="#CCCCCC">当然要开始</font><font color="#E5E5E5">使用这个IDE </font>
+
+95
+00:03:56,500 --> 00:03:58,329
+你需要<font color="#CCCCCC">在一个新的 </font><font color="#E5E5E5">项目中 </font><font color="#CCCCCC">创建 </font><font color="#E5E5E5">一个 </font>
+
+96
+00:03:58,329 --> 00:04:00,100
+ <font color="#E5E5E5">项目几乎就是你所有的 </font>
+
+97
+00:04:00,100 --> 00:04:03,670
+ <font color="#E5E5E5">文件 </font><font color="#CCCCCC">存储 </font><font color="#E5E5E5">所以项目名称为 </font>
+
+98
+00:04:03,670 --> 00:04:07,090
+这<font color="#CCCCCC">只是</font><font color="#E5E5E5">会 像 </font><font color="#CCCCCC">嗯我在 </font>
+
+99
+00:04:07,090 --> 00:04:10,000
+ <font color="#E5E5E5">YouTube </font><font color="#CCCCCC">和您输入的时间 </font>
+
+100
+00:04:10,000 --> 00:04:12,340
+它自动填写的项目名称
+
+101
+00:04:12,340 --> 00:04:15,100
+就在这里， <font color="#E5E5E5">所以不要改变 </font>
+
+102
+00:04:15,100 --> 00:04:17,798
+ <font color="#E5E5E5">他们喜欢手动和项目类型 </font>
+
+103
+00:04:17,798 --> 00:04:19,600
+它现在可以<font color="#E5E5E5">只是一个空项目 </font>
+
+104
+00:04:19,600 --> 00:04:21,639
+ <font color="#CCCCCC">其他一切都很好 </font>
+
+105
+00:04:21,639 --> 00:04:24,550
+每当你下载<font color="#E5E5E5">这个 </font><font color="#CCCCCC">IDE </font><font color="#E5E5E5">它 </font>
+
+106
+00:04:24,550 --> 00:04:26,740
+自动找到你的口译员
+
+107
+00:04:26,740 --> 00:04:29,050
+这是<font color="#CCCCCC">对 </font><font color="#E5E5E5">Python的相当多 的很 </font>
+
+108
+00:04:29,050 --> 00:04:30,430
+我们<font color="#E5E5E5">在第一件事中下载了第一件事</font>
+
+109
+00:04:30,430 --> 00:04:32,409
+视频<font color="#CCCCCC">这就是 </font><font color="#E5E5E5">选择它 </font>
+
+110
+00:04:32,409 --> 00:04:35,110
+现在所以这<font color="#E5E5E5">很酷很酷 </font>
+
+111
+00:04:35,110 --> 00:04:36,729
+你知道它<font color="#E5E5E5">为你设置</font><font color="#CCCCCC">一切 </font>
+
+112
+00:04:36,729 --> 00:04:41,229
+ <font color="#E5E5E5">当然这是 </font><font color="#CCCCCC">好的 </font><font color="#E5E5E5">窗户和 </font>
+
+113
+00:04:41,229 --> 00:04:43,629
+其实<font color="#E5E5E5">一点</font><font color="#CCCCCC">都</font><font color="#E5E5E5">不像这些技巧 </font>
+
+114
+00:04:43,629 --> 00:04:46,689
+虽然他们是有用的<font color="#E5E5E5">，这样收的 </font><font color="#CCCCCC">是 </font><font color="#E5E5E5">， </font>
+
+115
+00:04:46,689 --> 00:04:49,719
+ <font color="#E5E5E5">现在 </font><font color="#CCCCCC">看看 </font><font color="#E5E5E5">我们现在有一个 </font>
+
+116
+00:04:49,719 --> 00:04:53,530
+非常<font color="#E5E5E5">酷的IDE，但它的位置 </font>
+
+117
+00:04:53,530 --> 00:04:55,330
+我们你<font color="#E5E5E5">知道我们 </font><font color="#CCCCCC">领先于公司类型 </font>
+
+118
+00:04:55,330 --> 00:04:58,629
+如果你扩展<font color="#CCCCCC">这个权利就好了</font>
+
+119
+00:04:58,629 --> 00:05:00,189
+这里它会<font color="#E5E5E5">显示你的所有文件 </font>
+
+120
+00:05:00,189 --> 00:05:02,979
+ <font color="#CCCCCC">而且 </font><font color="#E5E5E5">我们还没有任何文件 </font>
+
+121
+00:05:02,979 --> 00:05:06,340
+我们需要<font color="#CCCCCC">做的是 </font><font color="#E5E5E5">右键单击我们的项目 </font>
+
+122
+00:05:06,340 --> 00:05:08,229
+说<font color="#CCCCCC">我的YouTube，我们要去 </font>
+
+123
+00:05:08,229 --> 00:05:11,919
+编写新的<font color="#CCCCCC">Python文件， </font><font color="#E5E5E5">以便我们的项目可以 </font>
+
+124
+00:05:11,919 --> 00:05:13,270
+ <font color="#E5E5E5">你可以拥有</font><font color="#CCCCCC">一堆 </font><font color="#E5E5E5">不同的文件 </font>
+
+125
+00:05:13,270 --> 00:05:15,460
+甚至有像<font color="#CCCCCC">um文本 </font><font color="#E5E5E5">文件 </font>
+
+126
+00:05:15,460 --> 00:05:17,800
+ <font color="#E5E5E5">如果我们正在使用图像但是 </font>
+
+127
+00:05:17,800 --> 00:05:19,479
+现在让我们<font color="#CCCCCC">创建 </font><font color="#E5E5E5">一个基本的嗯 </font>
+
+128
+00:05:19,479 --> 00:05:22,479
+ <font color="#E5E5E5">Python文件，我只想 </font><font color="#CCCCCC">命名 </font>
+
+129
+00:05:22,479 --> 00:05:24,909
+这个<font color="#E5E5E5">名字就是你想要的任何东西 </font>
+
+130
+00:05:24,909 --> 00:05:27,550
+ <font color="#CCCCCC">以及 </font><font color="#E5E5E5">Python文件的扩展名 </font>
+
+131
+00:05:27,550 --> 00:05:31,449
+ <font color="#CCCCCC">是dot py </font><font color="#E5E5E5">所以请确保你有Python </font>
+
+132
+00:05:31,449 --> 00:05:33,490
+ <font color="#E5E5E5">选择文件，并将其命名为 </font><font color="#CCCCCC">点P </font><font color="#E5E5E5">为什么 </font>
+
+133
+00:05:33,490 --> 00:05:36,789
+为什么不知道那个噪音是<font color="#E5E5E5">什么？ </font>
+
+134
+00:05:36,789 --> 00:05:38,440
+ <font color="#E5E5E5">我生活在火旁边的 </font><font color="#CCCCCC">另一件事 </font>
+
+135
+00:05:38,440 --> 00:05:41,800
+ <font color="#CCCCCC">站 这么傻 </font><font color="#E5E5E5">这个 </font><font color="#CCCCCC">呃呃 </font>
+
+136
+00:05:41,800 --> 00:05:43,479
+火警已经消失，所以它确实如此
+
+137
+00:05:43,479 --> 00:05:46,180
+很讨厌， <font color="#CCCCCC">但无论如何回到 </font><font color="#E5E5E5">排序 </font>
+
+138
+00:05:46,180 --> 00:05:48,969
+什么噢<font color="#E5E5E5">，现在我 在 这里 </font>
+
+139
+00:05:48,969 --> 00:05:49,569
+ <font color="#CCCCCC">培养 </font>
+
+140
+00:05:49,569 --> 00:05:52,000
+我讨厌<font color="#E5E5E5">在客厅里制作视频 </font>
+
+141
+00:05:52,000 --> 00:05:54,339
+ <font color="#CCCCCC">好的，所以删除 </font><font color="#E5E5E5">你的任何东西 </font>
+
+142
+00:05:54,339 --> 00:05:56,379
+ <font color="#E5E5E5">Python文件，让我们运行一个简单的 </font>
+
+143
+00:05:56,379 --> 00:05:58,449
+ <font color="#E5E5E5">命令让我们打印一些东西 </font>
+
+144
+00:05:58,449 --> 00:06:00,129
+所以打印我们已经知道<font color="#CCCCCC">如何 </font><font color="#E5E5E5">使用这个 </font>
+
+145
+00:06:00,129 --> 00:06:05,279
+在这里放一个字符串，我希望这个
+
+146
+00:06:05,279 --> 00:06:10,509
+工作<font color="#CCCCCC">，现在为了 </font><font color="#E5E5E5">运行它 </font>
+
+147
+00:06:10,509 --> 00:06:12,819
+你可以<font color="#CCCCCC">看到你做的时候 </font>
+
+148
+00:06:12,819 --> 00:06:14,979
+实际的<font color="#E5E5E5">程序，你只是 </font><font color="#CCCCCC">无法进入 </font>
+
+149
+00:06:14,979 --> 00:06:18,310
+ <font color="#E5E5E5">它运行就像 </font><font color="#CCCCCC">你对 </font><font color="#E5E5E5">你的 </font><font color="#CCCCCC">表演如此 </font>
+
+150
+00:06:18,310 --> 00:06:19,870
+ <font color="#E5E5E5">你第一次需要做什么</font>
+
+151
+00:06:19,870 --> 00:06:23,759
+是右击它<font color="#E5E5E5">并先点击运行 </font>
+
+152
+00:06:23,759 --> 00:06:26,740
+ <font color="#E5E5E5">现在开始你所有的 </font>
+
+153
+00:06:26,740 --> 00:06:28,479
+ <font color="#E5E5E5">结果会在此弹出 </font>
+
+154
+00:06:28,479 --> 00:06:31,000
+ <font color="#E5E5E5">这儿的小命令窗口 </font><font color="#CCCCCC">， </font>
+
+155
+00:06:31,000 --> 00:06:32,770
+每当你<font color="#E5E5E5">改变别的东西时 </font>
+
+156
+00:06:32,770 --> 00:06:34,840
+我爱
+
+157
+00:06:34,840 --> 00:06:39,880
+并点击<font color="#E5E5E5">运行你的新结果 </font>
+
+158
+00:06:39,880 --> 00:06:41,830
+ <font color="#E5E5E5">到 这儿</font><font color="#CCCCCC"> </font><font color="#E5E5E5">弹出 这样</font><font color="#CCCCCC">这样 ，你可以 </font>
+
+159
+00:06:41,830 --> 00:06:43,750
+ <font color="#E5E5E5">在这里完成所有你的工作</font>
+
+160
+00:06:43,750 --> 00:06:45,580
+文件<font color="#CCCCCC">在左侧 </font><font color="#E5E5E5">和结果 </font>
+
+161
+00:06:45,580 --> 00:06:48,160
+ <font color="#E5E5E5">每当你跑步时，它们都在底部 </font>
+
+162
+00:06:48,160 --> 00:06:49,450
+这<font color="#CCCCCC">是第 </font><font color="#E5E5E5">一次你 </font><font color="#CCCCCC">必须 </font>
+
+163
+00:06:49,450 --> 00:06:51,669
+右键单击<font color="#CCCCCC">它并 </font><font color="#E5E5E5">随时 </font><font color="#CCCCCC">点击 </font><font color="#E5E5E5">运行 </font>
+
+164
+00:06:51,669 --> 00:06:53,169
+ <font color="#CCCCCC">之后 </font><font color="#E5E5E5">，你</font><font color="#CCCCCC">可以 </font><font color="#E5E5E5">点击这个 </font>
+
+165
+00:06:53,169 --> 00:06:56,500
+ <font color="#CCCCCC">按钮或 </font><font color="#E5E5E5">点击班次f10，但我只需点击 </font>
+
+166
+00:06:56,500 --> 00:06:57,940
+这个按钮<font color="#E5E5E5">有点容易 </font>
+
+167
+00:06:57,940 --> 00:07:03,070
+ <font color="#CCCCCC">这就是 </font><font color="#E5E5E5">现在 </font><font color="#CCCCCC">运行你的整个项目 </font>
+
+168
+00:07:03,070 --> 00:07:05,980
+ <font color="#E5E5E5">您 现在可以 </font><font color="#CCCCCC">使用套件 </font><font color="#E5E5E5">IDE </font>
+
+169
+00:07:05,980 --> 00:07:07,960
+实际上<font color="#E5E5E5">开始 </font><font color="#CCCCCC">做一些很酷的程序 </font>
+
+170
+00:07:07,960 --> 00:07:09,820
+ <font color="#E5E5E5">所以谢谢 </font><font color="#CCCCCC">你们 </font><font color="#E5E5E5">观看不要 </font>
+
+171
+00:07:09,820 --> 00:07:11,290
+ <font color="#CCCCCC">忘了 </font><font color="#E5E5E5">订阅，我会见到你 </font>
+
+172
+00:07:11,290 --> 00:00:00,000
+ <font color="#E5E5E5">伙计们在下一个视频中 </font>
+

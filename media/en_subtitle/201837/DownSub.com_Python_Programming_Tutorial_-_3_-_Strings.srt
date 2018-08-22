@@ -1,0 +1,760 @@
+1
+00:00:00,089 --> 00:00:01,979
+<font color="#CCCCCC">alright guys welcome back and</font><font color="#E5E5E5"> in this</font>
+
+2
+00:00:01,979 --> 00:00:03,389
+video<font color="#CCCCCC"> I'm going to</font><font color="#E5E5E5"> be teaching you</font><font color="#CCCCCC"> about</font>
+
+3
+00:00:03,389 --> 00:00:06,600
+strings<font color="#E5E5E5"> now a string is</font><font color="#CCCCCC"> just what they</font>
+
+4
+00:00:06,600 --> 00:00:09,150
+call text in computer programming<font color="#CCCCCC"> it's</font>
+
+5
+00:00:09,150 --> 00:00:11,519
+pretty much like a name a sentence<font color="#E5E5E5"> any</font>
+
+6
+00:00:11,519 --> 00:00:15,059
+of that stuff<font color="#E5E5E5"> now whenever you use text</font>
+
+7
+00:00:15,059 --> 00:00:17,400
+or a string<font color="#E5E5E5"> you actually need</font><font color="#CCCCCC"> to include</font>
+
+8
+00:00:17,400 --> 00:00:19,350
+<font color="#E5E5E5">it in between quotation marks either</font>
+
+9
+00:00:19,350 --> 00:00:22,439
+double or single<font color="#E5E5E5"> if you just try writing</font>
+
+10
+00:00:22,439 --> 00:00:23,970
+anything<font color="#E5E5E5"> like</font><font color="#CCCCCC"> lucky</font><font color="#E5E5E5"> Roberts on the</font>
+
+11
+00:00:23,970 --> 00:00:26,460
+<font color="#E5E5E5">screen it's going</font><font color="#CCCCCC"> to say invalid syntax</font>
+
+12
+00:00:26,460 --> 00:00:28,230
+<font color="#E5E5E5">in other words it like thinks it's a</font>
+
+13
+00:00:28,230 --> 00:00:29,609
+<font color="#E5E5E5">variable or</font><font color="#CCCCCC"> something if you</font><font color="#E5E5E5"> don't</font>
+
+14
+00:00:29,609 --> 00:00:32,210
+include it in between<font color="#E5E5E5"> quotation marks</font><font color="#CCCCCC"> so</font>
+
+15
+00:00:32,210 --> 00:00:35,910
+<font color="#CCCCCC">if you do that you</font><font color="#E5E5E5"> can type anything you</font>
+
+16
+00:00:35,910 --> 00:00:38,579
+<font color="#E5E5E5">want and it's good to go again double</font>
+
+17
+00:00:38,579 --> 00:00:44,219
+quotes or single<font color="#CCCCCC"> quotes it doesn't</font>
+
+18
+00:00:44,219 --> 00:00:46,410
+<font color="#E5E5E5">matter however there are specific times</font>
+
+19
+00:00:46,410 --> 00:00:48,120
+<font color="#E5E5E5">where you're going to want to use one or</font>
+
+20
+00:00:48,120 --> 00:00:48,840
+the<font color="#E5E5E5"> other</font>
+
+21
+00:00:48,840 --> 00:00:52,260
+now one<font color="#CCCCCC"> of those</font><font color="#E5E5E5"> things is say you have</font>
+
+22
+00:00:52,260 --> 00:00:56,550
+a sentence like<font color="#CCCCCC"> this um alright I'm</font>
+
+23
+00:00:56,550 --> 00:00:58,109
+going to<font color="#E5E5E5"> make</font><font color="#CCCCCC"> a sentence that</font><font color="#E5E5E5"> says</font><font color="#CCCCCC"> I</font>
+
+24
+00:00:58,109 --> 00:01:01,649
+<font color="#E5E5E5">don't think she's 18</font>
+
+25
+00:01:01,649 --> 00:01:04,769
+well what these quotes mean is it's
+
+26
+00:01:04,769 --> 00:01:06,450
+<font color="#E5E5E5">pretty much telling Python where to</font>
+
+27
+00:01:06,450 --> 00:01:09,210
+begin<font color="#E5E5E5"> and where to end so in this</font>
+
+28
+00:01:09,210 --> 00:01:12,119
+example<font color="#E5E5E5"> right up here it started right</font>
+
+29
+00:01:12,119 --> 00:01:13,799
+here it said<font color="#CCCCCC"> Bucky Roberts is</font><font color="#E5E5E5"> awesome</font>
+
+30
+00:01:13,799 --> 00:01:15,780
+<font color="#E5E5E5">and it ended right here because that's</font>
+
+31
+00:01:15,780 --> 00:01:17,820
+where your quote is however this
+
+32
+00:01:17,820 --> 00:01:21,509
+sentence<font color="#E5E5E5"> it uses actually one</font><font color="#CCCCCC"> of these</font>
+
+33
+00:01:21,509 --> 00:01:23,670
+quotes right after the end<font color="#E5E5E5"> this</font>
+
+34
+00:01:23,670 --> 00:01:26,310
+apostrophe<font color="#E5E5E5"> right here so</font><font color="#CCCCCC"> Python is going</font>
+
+35
+00:01:26,310 --> 00:01:28,860
+to think<font color="#E5E5E5"> that it starts here stops here</font>
+
+36
+00:01:28,860 --> 00:01:30,720
+<font color="#E5E5E5">and all the</font><font color="#CCCCCC"> rest of this stuff</font><font color="#E5E5E5"> it's</font>
+
+37
+00:01:30,720 --> 00:01:33,450
+<font color="#E5E5E5">going to get confused about so whenever</font>
+
+38
+00:01:33,450 --> 00:01:35,670
+you have a sentence<font color="#CCCCCC"> that</font><font color="#E5E5E5"> does use a</font>
+
+39
+00:01:35,670 --> 00:01:37,740
+single quote what you want to do is you
+
+40
+00:01:37,740 --> 00:01:40,170
+want<font color="#E5E5E5"> to put that in double quotes so</font><font color="#CCCCCC"> I</font>
+
+41
+00:01:40,170 --> 00:01:44,729
+don't think she's 18 hit<font color="#E5E5E5"> enter and it'll</font>
+
+42
+00:01:44,729 --> 00:01:47,250
+work<font color="#E5E5E5"> fine</font><font color="#CCCCCC"> now the opposite of that is</font>
+
+43
+00:01:47,250 --> 00:01:50,369
+<font color="#CCCCCC">this say that you</font><font color="#E5E5E5"> have a sentence</font><font color="#CCCCCC"> that</font>
+
+44
+00:01:50,369 --> 00:01:54,290
+you just double quotes like she said
+
+45
+00:01:54,290 --> 00:01:56,439
+what
+
+46
+00:01:56,439 --> 00:02:02,829
+part of the cow is<font color="#CCCCCC"> the meatloaf rum well</font>
+
+47
+00:02:02,829 --> 00:02:05,710
+of<font color="#CCCCCC"> course this</font><font color="#E5E5E5"> is actually a quote or a</font>
+
+48
+00:02:05,710 --> 00:02:08,050
+sentence and<font color="#E5E5E5"> it uses double quotes so in</font>
+
+49
+00:02:08,050 --> 00:02:09,519
+this case you<font color="#CCCCCC"> would want to surround</font><font color="#E5E5E5"> it</font>
+
+50
+00:02:09,519 --> 00:02:13,840
+in single<font color="#E5E5E5"> quotes easy enough now another</font>
+
+51
+00:02:13,840 --> 00:02:15,310
+thing<font color="#E5E5E5"> that</font><font color="#CCCCCC"> you're</font><font color="#E5E5E5"> going</font><font color="#CCCCCC"> to need to do</font>
+
+52
+00:02:15,310 --> 00:02:18,640
+<font color="#CCCCCC">sometimes is what if your sentence has</font>
+
+53
+00:02:18,640 --> 00:02:20,860
+either double quotes<font color="#E5E5E5"> and single quotes</font>
+
+54
+00:02:20,860 --> 00:02:23,440
+in<font color="#E5E5E5"> it well you can't just pick one or</font>
+
+55
+00:02:23,440 --> 00:02:25,390
+the other so what you can do is called
+
+56
+00:02:25,390 --> 00:02:27,819
+escaping a<font color="#E5E5E5"> character I'll show you how</font>
+
+57
+00:02:27,819 --> 00:02:30,849
+to<font color="#E5E5E5"> do that right now</font><font color="#CCCCCC"> so actually</font><font color="#E5E5E5"> let me</font>
+
+58
+00:02:30,849 --> 00:02:35,860
+see if I can copy this<font color="#CCCCCC"> alright</font><font color="#E5E5E5"> so</font><font color="#CCCCCC"> in</font>
+
+59
+00:02:35,860 --> 00:02:38,170
+this example<font color="#E5E5E5"> you</font><font color="#CCCCCC"> see that it thinks it</font>
+
+60
+00:02:38,170 --> 00:02:41,230
+starts and stops<font color="#CCCCCC"> right here however</font><font color="#E5E5E5"> say</font>
+
+61
+00:02:41,230 --> 00:02:43,599
+that<font color="#CCCCCC"> um we have double quotes</font><font color="#E5E5E5"> in</font><font color="#CCCCCC"> here as</font>
+
+62
+00:02:43,599 --> 00:02:45,670
+well<font color="#E5E5E5"> so</font><font color="#CCCCCC"> we need to surround this in</font>
+
+63
+00:02:45,670 --> 00:02:48,180
+single quotes<font color="#E5E5E5"> well what you can do is</font>
+
+64
+00:02:48,180 --> 00:02:51,190
+whenever it thinks it's the end and<font color="#E5E5E5"> you</font>
+
+65
+00:02:51,190 --> 00:02:52,660
+actually<font color="#E5E5E5"> just want</font><font color="#CCCCCC"> to use it as part of</font>
+
+66
+00:02:52,660 --> 00:02:55,630
+<font color="#E5E5E5">your string right before the quote the</font>
+
+67
+00:02:55,630 --> 00:02:58,299
+quotation mark you can use a<font color="#E5E5E5"> backslash</font>
+
+68
+00:02:58,299 --> 00:03:01,209
+<font color="#E5E5E5">and whenever you use backslash and then</font>
+
+69
+00:03:01,209 --> 00:03:03,400
+a symbol<font color="#CCCCCC"> after it pretty</font><font color="#E5E5E5"> much means just</font>
+
+70
+00:03:03,400 --> 00:03:05,920
+treat this is normal<font color="#E5E5E5"> text so then it's</font>
+
+71
+00:03:05,920 --> 00:03:08,079
+<font color="#E5E5E5">going to say</font><font color="#CCCCCC"> okay start here</font><font color="#E5E5E5"> okay</font>
+
+72
+00:03:08,079 --> 00:03:09,880
+backslash this so<font color="#E5E5E5"> that's just normal</font><font color="#CCCCCC"> and</font>
+
+73
+00:03:09,880 --> 00:03:13,030
+end here<font color="#E5E5E5"> boom so again backslash</font>
+
+74
+00:03:13,030 --> 00:03:15,730
+anything means it's a special meaning
+
+75
+00:03:15,730 --> 00:03:18,069
+<font color="#E5E5E5">that says treat that as part of the</font>
+
+76
+00:03:18,069 --> 00:03:23,049
+string now whenever<font color="#E5E5E5"> we</font><font color="#CCCCCC"> actually use</font><font color="#E5E5E5"> um</font>
+
+77
+00:03:23,049 --> 00:03:26,079
+oxygen whenever we print strings out<font color="#E5E5E5"> in</font>
+
+78
+00:03:26,079 --> 00:03:28,480
+our regular program we're not just going
+
+79
+00:03:28,480 --> 00:03:31,120
+<font color="#E5E5E5">to use the</font><font color="#CCCCCC"> regular text we</font><font color="#E5E5E5"> actually need</font>
+
+80
+00:03:31,120 --> 00:03:32,680
+<font color="#CCCCCC">to use</font><font color="#E5E5E5"> something called a function and</font>
+
+81
+00:03:32,680 --> 00:03:33,819
+I'm<font color="#CCCCCC"> going to be talking to you about</font>
+
+82
+00:03:33,819 --> 00:03:35,859
+functions<font color="#E5E5E5"> later on but the first</font>
+
+83
+00:03:35,859 --> 00:03:37,709
+function that<font color="#E5E5E5"> we're</font><font color="#CCCCCC"> going</font><font color="#E5E5E5"> to learn is</font>
+
+84
+00:03:37,709 --> 00:03:40,720
+print it's very easy it's how you print
+
+85
+00:03:40,720 --> 00:03:44,739
+<font color="#E5E5E5">stuff out on the screen so press print</font>
+
+86
+00:03:44,739 --> 00:03:46,180
+<font color="#E5E5E5">and that means print stuff out on</font><font color="#CCCCCC"> the</font>
+
+87
+00:03:46,180 --> 00:03:49,150
+<font color="#CCCCCC">screen and now</font><font color="#E5E5E5"> put two</font><font color="#CCCCCC"> little um</font>
+
+88
+00:03:49,150 --> 00:03:52,030
+<font color="#CCCCCC">parentheses now in between the</font>
+
+89
+00:03:52,030 --> 00:03:54,130
+<font color="#E5E5E5">parentheses right any string that you</font>
+
+90
+00:03:54,130 --> 00:03:59,109
+<font color="#E5E5E5">want so hey now brown cow</font><font color="#CCCCCC"> so this is</font>
+
+91
+00:03:59,109 --> 00:04:00,370
+actually how<font color="#E5E5E5"> we're going to be printing</font>
+
+92
+00:04:00,370 --> 00:04:01,690
+stuff<font color="#E5E5E5"> out on the screen whenever we make</font>
+
+93
+00:04:01,690 --> 00:04:05,970
+a full piece of software<font color="#E5E5E5"> so hit</font><font color="#CCCCCC"> enter</font>
+
+94
+00:04:05,970 --> 00:04:09,240
+pretty<font color="#E5E5E5"> friggin simple now another thing</font>
+
+95
+00:04:09,240 --> 00:04:11,630
+I should<font color="#E5E5E5"> probably mention is this</font>
+
+96
+00:04:11,630 --> 00:04:14,250
+<font color="#E5E5E5">sometimes you're going to want to I'll</font>
+
+97
+00:04:14,250 --> 00:04:15,570
+show you an<font color="#E5E5E5"> example and</font><font color="#CCCCCC"> I'll show you</font>
+
+98
+00:04:15,570 --> 00:04:18,238
+<font color="#E5E5E5">guys</font><font color="#CCCCCC"> on the</font><font color="#E5E5E5"> problem it causes</font><font color="#CCCCCC"> and how to</font>
+
+99
+00:04:18,238 --> 00:04:21,149
+fix it say that<font color="#CCCCCC"> we wanted</font><font color="#E5E5E5"> to print out a</font>
+
+100
+00:04:21,149 --> 00:04:23,730
+path<font color="#E5E5E5"> to I don't know some folder on our</font>
+
+101
+00:04:23,730 --> 00:04:26,550
+desktop<font color="#CCCCCC"> so</font><font color="#E5E5E5"> we can do is just okay where</font>
+
+102
+00:04:26,550 --> 00:04:31,110
+is it see<font color="#E5E5E5"> maybe</font><font color="#CCCCCC"> Bucky</font><font color="#E5E5E5"> should move my</font>
+
+103
+00:04:31,110 --> 00:04:33,750
+<font color="#E5E5E5">cursor out of the way desktop in a you</font>
+
+104
+00:04:33,750 --> 00:04:36,420
+<font color="#E5E5E5">know my naked pictures</font><font color="#CCCCCC"> of our course in</font>
+
+105
+00:04:36,420 --> 00:04:39,720
+my nude pics folder<font color="#E5E5E5"> so you are expecting</font>
+
+106
+00:04:39,720 --> 00:04:41,850
+<font color="#CCCCCC">it to print out this entire string right</font>
+
+107
+00:04:41,850 --> 00:04:45,690
+<font color="#E5E5E5">here</font><font color="#CCCCCC"> hit</font><font color="#E5E5E5"> enter</font><font color="#CCCCCC"> okay let's see</font><font color="#E5E5E5"> what went</font>
+
+108
+00:04:45,690 --> 00:04:48,060
+wrong is head Bucky desktop and then it
+
+109
+00:04:48,060 --> 00:04:51,780
+went<font color="#E5E5E5"> to</font><font color="#CCCCCC"> a new line and said dude pics</font><font color="#E5E5E5"> no</font>
+
+110
+00:04:51,780 --> 00:04:53,940
+no I'm trying<font color="#E5E5E5"> to get my nude pics let my</font>
+
+111
+00:04:53,940 --> 00:04:56,430
+food pics pics<font color="#CCCCCC"> you don't want to see</font>
+
+112
+00:04:56,430 --> 00:04:59,490
+what's in there<font color="#E5E5E5"> so why is this well you</font>
+
+113
+00:04:59,490 --> 00:05:01,320
+know how I told<font color="#E5E5E5"> you guys that whenever</font>
+
+114
+00:05:01,320 --> 00:05:04,320
+<font color="#E5E5E5">you use backslash in something after it</font>
+
+115
+00:05:04,320 --> 00:05:07,740
+means something special<font color="#E5E5E5"> well in this</font>
+
+116
+00:05:07,740 --> 00:05:10,410
+case and in programming whenever you use
+
+117
+00:05:10,410 --> 00:05:13,860
+backslash<font color="#E5E5E5"> n it means go to a new line</font><font color="#CCCCCC"> it</font>
+
+118
+00:05:13,860 --> 00:05:16,650
+has<font color="#CCCCCC"> a special meaning</font><font color="#E5E5E5"> so what this does</font>
+
+119
+00:05:16,650 --> 00:05:18,480
+<font color="#E5E5E5">is it starts printing this out and it</font>
+
+120
+00:05:18,480 --> 00:05:21,480
+says<font color="#CCCCCC"> okay backslash</font><font color="#E5E5E5"> n bump it</font><font color="#CCCCCC"> to a new</font>
+
+121
+00:05:21,480 --> 00:05:23,850
+line and<font color="#E5E5E5"> then print the rest of it which</font>
+
+122
+00:05:23,850 --> 00:05:26,580
+is ood<font color="#CCCCCC"> picks</font><font color="#E5E5E5"> so that's what did bump to</font>
+
+123
+00:05:26,580 --> 00:05:28,650
+new line<font color="#E5E5E5"> dude</font><font color="#CCCCCC"> pics but of course</font>
+
+124
+00:05:28,650 --> 00:05:30,930
+<font color="#E5E5E5">whenever we use</font><font color="#CCCCCC"> this in our program it's</font>
+
+125
+00:05:30,930 --> 00:05:34,620
+going<font color="#CCCCCC"> to cause an issue because</font><font color="#E5E5E5"> this is</font>
+
+126
+00:05:34,620 --> 00:05:37,500
+going<font color="#E5E5E5"> to confuse a program so what</font>
+
+127
+00:05:37,500 --> 00:05:39,330
+happens when you actually want<font color="#E5E5E5"> to print</font>
+
+128
+00:05:39,330 --> 00:05:42,750
+out this right here<font color="#E5E5E5"> well what you can do</font>
+
+129
+00:05:42,750 --> 00:05:47,580
+is right before<font color="#E5E5E5"> your first um little</font>
+
+130
+00:05:47,580 --> 00:05:48,419
+<font color="#E5E5E5">quotation mark</font>
+
+131
+00:05:48,419 --> 00:05:51,750
+you can put<font color="#CCCCCC"> R now what R means</font><font color="#E5E5E5"> is print</font>
+
+132
+00:05:51,750 --> 00:05:54,390
+<font color="#E5E5E5">out the rostering with no special</font>
+
+133
+00:05:54,390 --> 00:05:57,060
+meaning<font color="#E5E5E5"> just print it out as is whatever</font>
+
+134
+00:05:57,060 --> 00:05:59,250
+<font color="#E5E5E5">is in between the quotation</font><font color="#CCCCCC"> marks so now</font>
+
+135
+00:05:59,250 --> 00:06:02,790
+you hit<font color="#E5E5E5"> enter and check it out so again</font>
+
+136
+00:06:02,790 --> 00:06:05,400
+you're going<font color="#CCCCCC"> to</font><font color="#E5E5E5"> use the R right before</font>
+
+137
+00:06:05,400 --> 00:06:06,840
+your strings<font color="#E5E5E5"> a lot whenever you're</font>
+
+138
+00:06:06,840 --> 00:06:09,600
+working<font color="#CCCCCC"> with file paths and other stuff</font>
+
+139
+00:06:09,600 --> 00:06:10,700
+<font color="#E5E5E5">like</font><font color="#CCCCCC"> that</font>
+
+140
+00:06:10,700 --> 00:06:13,040
+so now that we know<font color="#E5E5E5"> the basics of</font>
+
+141
+00:06:13,040 --> 00:06:15,140
+strings and<font color="#E5E5E5"> how to print them out now I</font>
+
+142
+00:06:15,140 --> 00:06:16,430
+want<font color="#E5E5E5"> to show you guys something else</font>
+
+143
+00:06:16,430 --> 00:06:19,430
+that's<font color="#E5E5E5"> well pretty cool in my mind you</font>
+
+144
+00:06:19,430 --> 00:06:22,040
+can<font color="#CCCCCC"> actually add together strings kind</font>
+
+145
+00:06:22,040 --> 00:06:25,010
+of like you can numbers<font color="#E5E5E5"> so let's make a</font>
+
+146
+00:06:25,010 --> 00:06:27,860
+variable called<font color="#CCCCCC"> first name and set</font><font color="#E5E5E5"> it</font>
+
+147
+00:06:27,860 --> 00:06:31,700
+equal to a<font color="#E5E5E5"> string called Bucky</font><font color="#CCCCCC"> and</font><font color="#E5E5E5"> add a</font>
+
+148
+00:06:31,700 --> 00:06:35,360
+space after<font color="#E5E5E5"> it</font><font color="#CCCCCC"> to so now not only</font><font color="#E5E5E5"> can we</font>
+
+149
+00:06:35,360 --> 00:06:37,400
+<font color="#E5E5E5">store numbers and variables we can also</font>
+
+150
+00:06:37,400 --> 00:06:41,360
+store<font color="#E5E5E5"> strings</font><font color="#CCCCCC"> in variables</font><font color="#E5E5E5"> so what I can</font>
+
+151
+00:06:41,360 --> 00:06:44,080
+do is say<font color="#CCCCCC"> something</font><font color="#E5E5E5"> like this first name</font>
+
+152
+00:06:44,080 --> 00:06:48,470
+<font color="#E5E5E5">plus another string my last name Roberts</font>
+
+153
+00:06:48,470 --> 00:06:50,360
+and it's going<font color="#E5E5E5"> to say</font><font color="#CCCCCC"> ok</font><font color="#E5E5E5"> whenever</font><font color="#CCCCCC"> you</font>
+
+154
+00:06:50,360 --> 00:06:52,730
+take<font color="#E5E5E5"> a string and add another string</font><font color="#CCCCCC"> to</font>
+
+155
+00:06:52,730 --> 00:06:54,190
+it check<font color="#CCCCCC"> it out</font>
+
+156
+00:06:54,190 --> 00:06:58,340
+it makes an<font color="#E5E5E5"> even longer string so not</font>
+
+157
+00:06:58,340 --> 00:07:00,530
+only numbers you can also add strings
+
+158
+00:07:00,530 --> 00:07:04,100
+<font color="#E5E5E5">together and another thing you</font><font color="#CCCCCC"> can</font><font color="#E5E5E5"> do is</font>
+
+159
+00:07:04,100 --> 00:07:09,320
+<font color="#E5E5E5">this if you take that again and add</font>
+
+160
+00:07:09,320 --> 00:07:14,930
+another name like mclovin<font color="#CCCCCC"> and</font><font color="#E5E5E5"> hit enter</font>
+
+161
+00:07:14,930 --> 00:07:17,960
+<font color="#E5E5E5">I now have a new</font><font color="#CCCCCC"> last</font><font color="#E5E5E5"> name so that's one</font>
+
+162
+00:07:17,960 --> 00:07:19,670
+<font color="#CCCCCC">of the uses of how to add strings</font>
+
+163
+00:07:19,670 --> 00:07:21,140
+<font color="#CCCCCC">together and I want to show you guys</font>
+
+164
+00:07:21,140 --> 00:07:23,450
+something else cool<font color="#E5E5E5"> you're not only</font>
+
+165
+00:07:23,450 --> 00:07:25,880
+<font color="#CCCCCC">limited to adding shrinks together in</font>
+
+166
+00:07:25,880 --> 00:07:28,070
+Python what you can do is you<font color="#E5E5E5"> can also</font>
+
+167
+00:07:28,070 --> 00:07:31,640
+multiply<font color="#E5E5E5"> strings so if we have first</font>
+
+168
+00:07:31,640 --> 00:07:34,220
+name which is Bucky<font color="#CCCCCC"> and we multiply it</font>
+
+169
+00:07:34,220 --> 00:07:37,490
+by<font color="#CCCCCC"> 5 check out what happens what it does</font>
+
+170
+00:07:37,490 --> 00:07:39,530
+is it takes<font color="#E5E5E5"> that string and it prints it</font>
+
+171
+00:07:39,530 --> 00:07:42,260
+out<font color="#CCCCCC"> five</font><font color="#E5E5E5"> times</font><font color="#CCCCCC"> so this</font><font color="#E5E5E5"> is actually going</font>
+
+172
+00:07:42,260 --> 00:07:44,210
+to save us a lot of<font color="#E5E5E5"> work</font><font color="#CCCCCC"> whenever we</font>
+
+173
+00:07:44,210 --> 00:07:45,830
+have to print something out<font color="#CCCCCC"> repeatedly</font>
+
+174
+00:07:45,830 --> 00:07:47,540
+like<font color="#E5E5E5"> people's names or anything like</font>
+
+175
+00:07:47,540 --> 00:07:49,340
+<font color="#E5E5E5">that</font><font color="#CCCCCC"> we can actually take a string and</font>
+
+176
+00:07:49,340 --> 00:07:51,590
+multiply it<font color="#E5E5E5"> by some number to print it</font>
+
+177
+00:07:51,590 --> 00:07:54,050
+out that many times it happens<font color="#E5E5E5"> instead</font>
+
+178
+00:07:54,050 --> 00:07:55,400
+of having to write<font color="#E5E5E5"> like five lines of</font>
+
+179
+00:07:55,400 --> 00:07:58,250
+<font color="#E5E5E5">code</font><font color="#CCCCCC"> so I know</font><font color="#E5E5E5"> that was a lot</font><font color="#CCCCCC"> to take in</font>
+
+180
+00:07:58,250 --> 00:08:02,510
+<font color="#E5E5E5">but remember escape whenever you have to</font>
+
+181
+00:08:02,510 --> 00:08:05,030
+use a special<font color="#E5E5E5"> character whenever you're</font>
+
+182
+00:08:05,030 --> 00:08:08,630
+working<font color="#CCCCCC"> with file paths</font><font color="#E5E5E5"> use</font><font color="#CCCCCC"> our before</font>
+
+183
+00:08:08,630 --> 00:08:10,550
+which pretty much means<font color="#CCCCCC"> rush</font><font color="#E5E5E5"> string and</font>
+
+184
+00:08:10,550 --> 00:08:13,070
+you can also perform mathematical
+
+185
+00:08:13,070 --> 00:08:15,860
+operations<font color="#CCCCCC"> on strings a lot like you can</font>
+
+186
+00:08:15,860 --> 00:08:18,290
+numbers so thank you guys<font color="#CCCCCC"> for watching</font>
+
+187
+00:08:18,290 --> 00:08:21,050
+<font color="#CCCCCC">I'm tired out I'm going to</font><font color="#E5E5E5"> go take a nap</font>
+
+188
+00:08:21,050 --> 00:08:22,129
+probably just<font color="#E5E5E5"> going</font><font color="#CCCCCC"> to</font><font color="#E5E5E5"> eat a hot pocket</font>
+
+189
+00:08:22,129 --> 00:08:23,840
+but whatever<font color="#CCCCCC"> I'll see you guys</font><font color="#E5E5E5"> in the</font>
+
+190
+00:08:23,840 --> 00:00:00,000
+next video
+

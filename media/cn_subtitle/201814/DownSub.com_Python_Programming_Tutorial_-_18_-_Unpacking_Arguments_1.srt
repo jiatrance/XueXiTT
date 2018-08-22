@@ -1,0 +1,340 @@
+1
+00:00:00,060 --> 00:00:02,909
+ <font color="#CCCCCC">好吧，伙计们， </font><font color="#E5E5E5">这是我的最后一个主要概念 </font>
+
+2
+00:00:02,909 --> 00:00:04,740
+想<font color="#E5E5E5">谈谈 </font><font color="#CCCCCC">有关论点的问题 </font>
+
+3
+00:00:04,740 --> 00:00:08,130
+是如何解包<font color="#E5E5E5">参数，这是 </font>
+
+4
+00:00:08,130 --> 00:00:10,559
+实际上很方便和很多<font color="#E5E5E5">实例 </font>
+
+5
+00:00:10,559 --> 00:00:11,880
+无论<font color="#E5E5E5">你什么时候做，你都会看到</font>
+
+6
+00:00:11,880 --> 00:00:15,480
+以后更大的节目<font color="#E5E5E5">让我们走了 </font>
+
+7
+00:00:15,480 --> 00:00:17,190
+进取<font color="#E5E5E5">， </font><font color="#CCCCCC">做一个 </font><font color="#E5E5E5">简单的功能 </font><font color="#CCCCCC">， </font>
+
+8
+00:00:17,190 --> 00:00:23,519
+我将其命名为健康计算器<font color="#E5E5E5">等什么 </font>
+
+9
+00:00:23,519 --> 00:00:26,310
+ <font color="#E5E5E5">这个功能确实需要三个 </font>
+
+10
+00:00:26,310 --> 00:00:29,250
+参数它需要你的年龄， <font color="#CCCCCC">我们会说 </font>
+
+11
+00:00:29,250 --> 00:00:32,189
+ <font color="#CCCCCC">你一周吃的苹果量</font>
+
+12
+00:00:32,189 --> 00:00:37,590
+ <font color="#E5E5E5">还有你的卷烟数量 </font>
+
+13
+00:00:37,590 --> 00:00:40,890
+ <font color="#CCCCCC">吸烟一周，并与这 </font><font color="#E5E5E5">一点 </font><font color="#CCCCCC">， </font>
+
+14
+00:00:40,890 --> 00:00:44,070
+ <font color="#E5E5E5">计算 </font><font color="#CCCCCC">你的预期 </font><font color="#E5E5E5">是 </font><font color="#CCCCCC">年龄 </font>
+
+15
+00:00:44,070 --> 00:00:46,980
+ <font color="#CCCCCC">你要 </font><font color="#E5E5E5">活着 </font><font color="#CCCCCC">- </font><font color="#E5E5E5">所以这个公式 </font>
+
+16
+00:00:46,980 --> 00:00:49,800
+ <font color="#E5E5E5">该看看我能</font><font color="#CCCCCC">想出 </font>
+
+17
+00:00:49,800 --> 00:00:52,530
+有些现实的东西<font color="#CCCCCC">是100 </font>
+
+18
+00:00:52,530 --> 00:00:59,070
+ <font color="#E5E5E5">减去你的年龄然后它补充说让我 </font>
+
+19
+00:00:59,070 --> 00:01:00,800
+添加一些<font color="#E5E5E5">他们会更容易的东西</font>
+
+20
+00:01:00,800 --> 00:01:04,860
+所以<font color="#E5E5E5">Apple是 </font><font color="#CCCCCC">8，我们会 </font>
+
+21
+00:01:04,860 --> 00:01:07,590
+ <font color="#E5E5E5">如果值，则乘以</font><font color="#CCCCCC">3.5 </font>
+
+22
+00:01:07,590 --> 00:01:09,510
+ <font color="#E5E5E5">真奇怪我以后可以改变它 </font>
+
+23
+00:01:09,510 --> 00:01:18,630
+ <font color="#CCCCCC">但当然有六个烟熏 </font><font color="#E5E5E5">x </font><font color="#CCCCCC">- </font><font color="#E5E5E5">全部 </font>
+
+24
+00:01:18,630 --> 00:01:22,170
+这当然是年轻<font color="#E5E5E5">的 </font>
+
+25
+00:01:22,170 --> 00:01:25,020
+你<font color="#E5E5E5">的苹果越多越好</font>
+
+26
+00:01:25,020 --> 00:01:27,299
+它和<font color="#CCCCCC">你 </font><font color="#E5E5E5">的香烟量 </font>
+
+27
+00:01:27,299 --> 00:01:30,329
+烟减少它<font color="#E5E5E5">然后我们得到一个 </font>
+
+28
+00:01:30,329 --> 00:01:36,210
+最终答案<font color="#E5E5E5">， </font><font color="#CCCCCC">我们实际上会这样说 </font>
+
+29
+00:01:36,210 --> 00:01:37,829
+ <font color="#CCCCCC">不是你的预期年龄就会说 </font>
+
+30
+00:01:37,829 --> 00:01:39,180
+这<font color="#CCCCCC">有点像健康 </font>
+
+31
+00:01:39,180 --> 00:01:44,250
+等级<font color="#CCCCCC">为1  - 是的，如200 </font>
+
+32
+00:01:44,250 --> 00:01:47,759
+它可能会<font color="#E5E5E5">被 </font><font color="#CCCCCC">周围 </font><font color="#E5E5E5">等什么 </font>
+
+33
+00:01:47,759 --> 00:01:51,030
+我们可以<font color="#E5E5E5">做的 </font><font color="#CCCCCC">过程中 </font><font color="#E5E5E5">传递三个 </font>
+
+34
+00:01:51,030 --> 00:01:53,909
+这里的参数是<font color="#E5E5E5">三个整数 </font>
+
+35
+00:01:53,909 --> 00:01:55,409
+ <font color="#E5E5E5">我们可以将 </font><font color="#CCCCCC">它们 </font><font color="#E5E5E5">传递 </font><font color="#CCCCCC">给一对 </font>
+
+36
+00:01:55,409 --> 00:02:02,360
+ <font color="#E5E5E5">不同的 </font><font color="#CCCCCC">方式所以说我们有一个清单 </font>
+
+37
+00:02:02,810 --> 00:02:07,170
+ <font color="#E5E5E5">我们会说我不吸烟 </font><font color="#CCCCCC">也是零 </font>
+
+38
+00:02:07,170 --> 00:02:08,580
+ <font color="#E5E5E5">所以我27岁 </font>
+
+39
+00:02:08,580 --> 00:02:11,400
+我<font color="#E5E5E5">一周吃20个苹果，我真的没有 </font>
+
+40
+00:02:11,400 --> 00:02:13,890
+ <font color="#CCCCCC">错误 </font><font color="#E5E5E5">，我其实从来没有抽过 </font>
+
+41
+00:02:13,890 --> 00:02:15,510
+我<font color="#E5E5E5">生命中的香烟， 因为如果你这样做 </font>
+
+42
+00:02:15,510 --> 00:02:18,420
+你<font color="#CCCCCC">是个白痴，所以这是我的 </font>
+
+43
+00:02:18,420 --> 00:02:21,000
+信息<font color="#CCCCCC">，我们 </font><font color="#E5E5E5">也有 </font><font color="#CCCCCC">信息 </font>
+
+44
+00:02:21,000 --> 00:02:23,460
+来自大量<font color="#E5E5E5">其他 </font><font color="#CCCCCC">人， </font><font color="#E5E5E5">因为你 </font>
+
+45
+00:02:23,460 --> 00:02:25,260
+ <font color="#CCCCCC">知道 </font><font color="#E5E5E5">我们 </font><font color="#CCCCCC">刚刚想出了这个新的 </font>
+
+46
+00:02:25,260 --> 00:02:26,910
+公式<font color="#E5E5E5">每个人都想尝试一下 </font>
+
+47
+00:02:26,910 --> 00:02:28,640
+ <font color="#CCCCCC">你 </font><font color="#E5E5E5">有一个完整的信息数据库 </font>
+
+48
+00:02:28,640 --> 00:02:32,310
+ <font color="#CCCCCC">所以 </font><font color="#E5E5E5">我们能做的就是你可以运行我们的 </font>
+
+49
+00:02:32,310 --> 00:02:34,620
+程序并<font color="#E5E5E5">传递这些参数 </font>
+
+50
+00:02:34,620 --> 00:02:36,740
+ <font color="#CCCCCC">第一种方式，我们 </font><font color="#E5E5E5">知道如何旧的方式 </font>
+
+51
+00:02:36,740 --> 00:02:41,160
+幸运的是<font color="#E5E5E5">零，这是我的幸运年龄 </font>
+
+52
+00:02:41,160 --> 00:02:47,460
+ <font color="#E5E5E5">一个 </font><font color="#CCCCCC">1是 </font><font color="#E5E5E5">苹果和 </font><font color="#CCCCCC">Buckey数据 </font>
+
+53
+00:02:47,460 --> 00:02:51,660
+ <font color="#CCCCCC">2这是 </font><font color="#E5E5E5">香烟烟雾 </font><font color="#CCCCCC">和什么时候 </font>
+
+54
+00:02:51,660 --> 00:02:54,300
+你这样<font color="#E5E5E5">跑好我的健康 </font>
+
+55
+00:02:54,300 --> 00:02:56,370
+ <font color="#E5E5E5">无论你知道什么这都很奇怪 </font>
+
+56
+00:02:56,370 --> 00:02:59,820
+公式被称为143 <font color="#CCCCCC">我可以猜测和 </font>
+
+57
+00:02:59,820 --> 00:03:02,100
+ <font color="#CCCCCC">这是 </font><font color="#E5E5E5">相当不错的但是 </font><font color="#CCCCCC">如果我们 </font><font color="#E5E5E5">要 </font>
+
+58
+00:03:02,100 --> 00:03:04,170
+ <font color="#E5E5E5">为 </font><font color="#CCCCCC">每个人都要这样做</font>
+
+59
+00:03:04,170 --> 00:03:06,720
+很多<font color="#E5E5E5">代码行 </font><font color="#CCCCCC">所以我想 </font><font color="#E5E5E5">表现出来 </font>
+
+60
+00:03:06,720 --> 00:03:10,620
+你们这<font color="#E5E5E5">是一个真正快速或快速的方式 </font>
+
+61
+00:03:10,620 --> 00:03:13,500
+无论何时我们称这个功能<font color="#E5E5E5">为什么 </font>
+
+62
+00:03:13,500 --> 00:03:16,230
+能做的我们<font color="#E5E5E5">就可以真正</font><font color="#CCCCCC">键入 </font>
+
+63
+00:03:16,230 --> 00:03:19,709
+ <font color="#E5E5E5">列表的名称</font><font color="#CCCCCC">就在这里 </font><font color="#E5E5E5">并添加一个 </font>
+
+64
+00:03:19,709 --> 00:03:22,620
+ <font color="#CCCCCC">现在</font><font color="#E5E5E5">什么这</font><font color="#CCCCCC">是</font><font color="#E5E5E5">怎么回事 之前出演</font>
+
+65
+00:03:22,620 --> 00:03:26,400
+这是否被称为解包参数
+
+66
+00:03:26,400 --> 00:03:29,010
+列表所以它<font color="#E5E5E5">几乎采取这个列表 </font>
+
+67
+00:03:29,010 --> 00:03:33,620
+并且它<font color="#CCCCCC">一次一个地传递每个项目</font>
+
+68
+00:03:33,620 --> 00:03:36,150
+ <font color="#E5E5E5">所以不必写所有这些 </font>
+
+69
+00:03:36,150 --> 00:03:38,700
+废话， <font color="#CCCCCC">我们只是说 </font><font color="#E5E5E5">好吧把这个列表 </font>
+
+70
+00:03:38,700 --> 00:03:42,209
+ <font color="#CCCCCC">现在 ， 额外的喜剧演员打开包装 </font>
+
+71
+00:03:42,209 --> 00:03:44,910
+每当你运行它时，请检查它
+
+72
+00:03:44,910 --> 00:03:47,580
+打印<font color="#CCCCCC">出 </font><font color="#E5E5E5">与之 </font><font color="#CCCCCC">完全相同的东西 </font>
+
+73
+00:03:47,580 --> 00:03:49,650
+会将其完全相同的方式，它<font color="#E5E5E5">只是 </font>
+
+74
+00:03:49,650 --> 00:03:53,880
+我们节省了大量<font color="#CCCCCC">的 </font><font color="#E5E5E5">编码，使 </font><font color="#CCCCCC">我 </font>
+
+75
+00:03:53,880 --> 00:03:55,800
+朋友是<font color="#CCCCCC">你 </font><font color="#E5E5E5">如何 </font><font color="#CCCCCC">解包参数和 </font>
+
+76
+00:03:55,800 --> 00:03:58,290
+好消息<font color="#E5E5E5">现在我们已经完成了 </font>
+
+77
+00:03:58,290 --> 00:04:00,090
+功能我们用参数完成
+
+78
+00:04:00,090 --> 00:04:02,360
+ <font color="#CCCCCC">我们已经准备好移动</font><font color="#E5E5E5">到 别的东西 </font>
+
+79
+00:04:02,360 --> 00:04:04,680
+ <font color="#CCCCCC">因为我想要 </font><font color="#E5E5E5">完成基础知识 </font>
+
+80
+00:04:04,680 --> 00:04:06,209
+真快， <font color="#E5E5E5">因为我想开始 </font>
+
+81
+00:04:06,209 --> 00:04:09,090
+ <font color="#E5E5E5">建立更大的 </font><font color="#CCCCCC">令人敬畏的计划 </font>
+
+82
+00:04:09,090 --> 00:04:11,670
+实际上<font color="#E5E5E5">当然是</font><font color="#CCCCCC">有用 </font><font color="#E5E5E5">的 </font>
+
+83
+00:04:11,670 --> 00:04:13,200
+ <font color="#E5E5E5">如果你 </font><font color="#CCCCCC">有的 </font><font color="#E5E5E5">话，谢谢你们 </font>
+
+84
+00:04:13,200 --> 00:04:15,060
+ <font color="#E5E5E5">我在论坛上 </font><font color="#CCCCCC">提出的任何问题 </font>
+
+85
+00:04:15,060 --> 00:00:00,000
+我<font color="#CCCCCC">下次见</font>
+

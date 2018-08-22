@@ -1,0 +1,552 @@
+1
+00:00:00,060 --> 00:00:02,159
+<font color="#CCCCCC">alright guys I</font><font color="#E5E5E5"> hope</font><font color="#CCCCCC"> that you already</font>
+
+2
+00:00:02,159 --> 00:00:05,250
+<font color="#CCCCCC">learn about functions because oh well</font>
+
+3
+00:00:05,250 --> 00:00:06,420
+that's<font color="#CCCCCC"> one we're going</font><font color="#E5E5E5"> to teach you</font><font color="#CCCCCC"> in</font>
+
+4
+00:00:06,420 --> 00:00:09,059
+<font color="#CCCCCC">this video</font><font color="#E5E5E5"> so if you're not well sucks</font>
+
+5
+00:00:09,059 --> 00:00:12,450
+<font color="#CCCCCC">for</font><font color="#E5E5E5"> you</font><font color="#CCCCCC"> but anyways</font><font color="#E5E5E5"> what the heck is a</font>
+
+6
+00:00:12,450 --> 00:00:15,809
+function well<font color="#E5E5E5"> whenever we make a big</font>
+
+7
+00:00:15,809 --> 00:00:17,820
+<font color="#E5E5E5">computer program that's more than like</font>
+
+8
+00:00:17,820 --> 00:00:19,650
+<font color="#E5E5E5">you know these small little samples that</font>
+
+9
+00:00:19,650 --> 00:00:22,350
+we've been<font color="#CCCCCC"> makin it's good to break your</font>
+
+10
+00:00:22,350 --> 00:00:25,140
+program up into manageable chunks<font color="#CCCCCC"> now</font>
+
+11
+00:00:25,140 --> 00:00:27,529
+these chunks<font color="#E5E5E5"> are called functions</font>
+
+12
+00:00:27,529 --> 00:00:30,240
+<font color="#CCCCCC">alright so it helps organize our program</font>
+
+13
+00:00:30,240 --> 00:00:32,279
+a<font color="#E5E5E5"> little bit better pretty cool now</font>
+
+14
+00:00:32,279 --> 00:00:34,050
+another cool<font color="#CCCCCC"> thing about a function is</font>
+
+15
+00:00:34,050 --> 00:00:36,630
+what we can do is we can<font color="#CCCCCC"> write a certain</font>
+
+16
+00:00:36,630 --> 00:00:38,399
+<font color="#E5E5E5">bit of code and put it inside</font><font color="#CCCCCC"> a function</font>
+
+17
+00:00:38,399 --> 00:00:41,129
+<font color="#E5E5E5">and then we can use it over and</font><font color="#CCCCCC"> over</font>
+
+18
+00:00:41,129 --> 00:00:43,530
+again<font color="#E5E5E5"> whenever we want and however many</font>
+
+19
+00:00:43,530 --> 00:00:46,469
+<font color="#CCCCCC">times</font><font color="#E5E5E5"> you want really easily</font><font color="#CCCCCC"> so I'll</font>
+
+20
+00:00:46,469 --> 00:00:48,090
+show you<font color="#E5E5E5"> guys</font><font color="#CCCCCC"> how to make</font><font color="#E5E5E5"> a really</font>
+
+21
+00:00:48,090 --> 00:00:50,670
+<font color="#CCCCCC">simple function right now</font><font color="#E5E5E5"> whenever you</font>
+
+22
+00:00:50,670 --> 00:00:52,649
+make a function for<font color="#E5E5E5"> the first time right</font>
+
+23
+00:00:52,649 --> 00:00:55,860
+d<font color="#CCCCCC"> e</font><font color="#E5E5E5"> f this pretty much means you're</font>
+
+24
+00:00:55,860 --> 00:00:57,750
+defining<font color="#CCCCCC"> a function or creating a</font>
+
+25
+00:00:57,750 --> 00:01:00,780
+<font color="#E5E5E5">function now after this you have to give</font>
+
+26
+00:01:00,780 --> 00:01:02,100
+your function a name<font color="#CCCCCC"> just like</font><font color="#E5E5E5"> a</font>
+
+27
+00:01:02,100 --> 00:01:04,860
+<font color="#E5E5E5">variable name and you can</font><font color="#CCCCCC"> name it</font>
+
+28
+00:01:04,860 --> 00:01:06,299
+anything<font color="#E5E5E5"> you</font><font color="#CCCCCC"> want</font><font color="#E5E5E5"> I'll name it beef</font>
+
+29
+00:01:06,299 --> 00:01:09,330
+because<font color="#CCCCCC"> why</font><font color="#E5E5E5"> the heck not</font><font color="#CCCCCC"> just to show</font>
+
+30
+00:01:09,330 --> 00:01:10,619
+you guys<font color="#CCCCCC"> that it doesn't have to be</font>
+
+31
+00:01:10,619 --> 00:01:14,240
+anything special<font color="#E5E5E5"> now after the name add</font>
+
+32
+00:01:14,240 --> 00:01:15,960
+<font color="#CCCCCC">parenthesis and</font><font color="#E5E5E5"> I'll talk</font><font color="#CCCCCC"> to you</font><font color="#E5E5E5"> guys</font>
+
+33
+00:01:15,960 --> 00:01:18,570
+about<font color="#CCCCCC"> on</font><font color="#E5E5E5"> what you can use the for later</font>
+
+34
+00:01:18,570 --> 00:01:20,939
+<font color="#CCCCCC">on</font><font color="#E5E5E5"> but for now we'll</font><font color="#CCCCCC"> just put two empty</font>
+
+35
+00:01:20,939 --> 00:01:23,640
+<font color="#E5E5E5">parenthesis and the last thing for your</font>
+
+36
+00:01:23,640 --> 00:01:28,080
+definition is<font color="#E5E5E5"> a colon now after this :</font>
+
+37
+00:01:28,080 --> 00:01:32,100
+<font color="#CCCCCC">hit</font><font color="#E5E5E5"> enter and any line of code</font><font color="#CCCCCC"> that goes</font>
+
+38
+00:01:32,100 --> 00:01:35,100
+in<font color="#E5E5E5"> here is going to be part of your</font>
+
+39
+00:01:35,100 --> 00:01:39,000
+<font color="#E5E5E5">function so any line of code that's</font>
+
+40
+00:01:39,000 --> 00:01:41,310
+inside<font color="#E5E5E5"> your function whenever you use it</font>
+
+41
+00:01:41,310 --> 00:01:44,130
+later<font color="#E5E5E5"> on this is the part that executes</font>
+
+42
+00:01:44,130 --> 00:01:47,369
+so<font color="#E5E5E5"> we'll make this a very</font><font color="#CCCCCC"> simple</font>
+
+43
+00:01:47,369 --> 00:01:50,220
+function<font color="#E5E5E5"> print something out and we'll</font>
+
+44
+00:01:50,220 --> 00:01:53,810
+<font color="#E5E5E5">just write they um</font>
+
+45
+00:01:53,810 --> 00:01:59,009
+functions are cool<font color="#E5E5E5"> alright so this is a</font>
+
+46
+00:01:59,009 --> 00:02:01,770
+pretty useless function again this is
+
+47
+00:02:01,770 --> 00:02:05,310
+just a function<font color="#E5E5E5"> called beef and the only</font>
+
+48
+00:02:05,310 --> 00:02:07,259
+<font color="#E5E5E5">job</font><font color="#CCCCCC"> of it is a print something out</font><font color="#E5E5E5"> on</font>
+
+49
+00:02:07,259 --> 00:02:11,599
+<font color="#E5E5E5">the screen so if you run this right now</font>
+
+50
+00:02:11,599 --> 00:02:13,560
+<font color="#E5E5E5">okay nothing</font>
+
+51
+00:02:13,560 --> 00:02:16,020
+print it out it's interesting<font color="#CCCCCC"> and the</font>
+
+52
+00:02:16,020 --> 00:02:18,830
+reason for<font color="#E5E5E5"> that is this even though we</font>
+
+53
+00:02:18,830 --> 00:02:21,840
+<font color="#CCCCCC">made a function right</font><font color="#E5E5E5"> now we didn't tell</font>
+
+54
+00:02:21,840 --> 00:02:24,120
+<font color="#E5E5E5">Python hey we actually</font><font color="#CCCCCC"> want to</font><font color="#E5E5E5"> use</font><font color="#CCCCCC"> this</font>
+
+55
+00:02:24,120 --> 00:02:26,250
+<font color="#CCCCCC">function so</font><font color="#E5E5E5"> whenever you want</font><font color="#CCCCCC"> to</font>
+
+56
+00:02:26,250 --> 00:02:28,319
+<font color="#E5E5E5">actually use a function that you created</font>
+
+57
+00:02:28,319 --> 00:02:31,019
+<font color="#E5E5E5">what you do is you type the name of your</font>
+
+58
+00:02:31,019 --> 00:02:33,569
+<font color="#CCCCCC">function</font><font color="#E5E5E5"> and then those two little</font>
+
+59
+00:02:33,569 --> 00:02:37,470
+<font color="#E5E5E5">parentheses after so now when it gets to</font>
+
+60
+00:02:37,470 --> 00:02:38,819
+this line it says<font color="#E5E5E5"> okay</font>
+
+61
+00:02:38,819 --> 00:02:40,980
+use a function<font color="#CCCCCC"> called beef</font><font color="#E5E5E5"> so then it</font>
+
+62
+00:02:40,980 --> 00:02:43,260
+looks<font color="#CCCCCC"> for a function called beef which</font>
+
+63
+00:02:43,260 --> 00:02:45,120
+<font color="#CCCCCC">is this and it does</font><font color="#E5E5E5"> whatever is inside</font>
+
+64
+00:02:45,120 --> 00:02:50,220
+<font color="#E5E5E5">it so run</font><font color="#CCCCCC"> it and check</font><font color="#E5E5E5"> it out and like I</font>
+
+65
+00:02:50,220 --> 00:02:51,630
+<font color="#CCCCCC">said before it the cool thing about</font>
+
+66
+00:02:51,630 --> 00:02:54,269
+these is<font color="#E5E5E5"> you</font><font color="#CCCCCC"> can use them over and over</font>
+
+67
+00:02:54,269 --> 00:02:55,920
+<font color="#CCCCCC">and over again as many times as you want</font>
+
+68
+00:02:55,920 --> 00:03:00,540
+<font color="#E5E5E5">so this will call the function</font><font color="#CCCCCC"> and</font>
+
+69
+00:03:00,540 --> 00:03:02,700
+whenever<font color="#E5E5E5"> I say</font><font color="#CCCCCC"> caller function</font><font color="#E5E5E5"> that's</font>
+
+70
+00:03:02,700 --> 00:03:05,190
+just<font color="#E5E5E5"> wait</font><font color="#CCCCCC"> use</font><font color="#E5E5E5"> a function means just a</font>
+
+71
+00:03:05,190 --> 00:03:07,769
+technical stupid programmer talk calling
+
+72
+00:03:07,769 --> 00:03:10,170
+a function means using<font color="#E5E5E5"> a function so I'm</font>
+
+73
+00:03:10,170 --> 00:03:15,030
+calling<font color="#CCCCCC"> beef three times</font><font color="#E5E5E5"> simple enough</font>
+
+74
+00:03:15,030 --> 00:03:18,420
+<font color="#E5E5E5">so</font><font color="#CCCCCC"> now let me</font><font color="#E5E5E5"> show</font><font color="#CCCCCC"> you an actual useful</font>
+
+75
+00:03:18,420 --> 00:03:20,070
+function and I also want to talk<font color="#E5E5E5"> about</font>
+
+76
+00:03:20,070 --> 00:03:23,549
+what these<font color="#E5E5E5"> parentheses are right here so</font>
+
+77
+00:03:23,549 --> 00:03:25,560
+we'll make<font color="#E5E5E5"> a new function so underneath</font>
+
+78
+00:03:25,560 --> 00:03:29,400
+it myself<font color="#E5E5E5"> a little bit space</font><font color="#CCCCCC"> write a new</font>
+
+79
+00:03:29,400 --> 00:03:32,190
+function of course<font color="#CCCCCC"> de f and I'll just</font>
+
+80
+00:03:32,190 --> 00:03:37,920
+write like<font color="#CCCCCC"> a</font><font color="#E5E5E5"> Bitcoin</font><font color="#CCCCCC"> to</font><font color="#E5E5E5"> USD so what this</font>
+
+81
+00:03:37,920 --> 00:03:39,390
+<font color="#E5E5E5">function is</font><font color="#CCCCCC"> going to do is it's</font><font color="#E5E5E5"> going to</font>
+
+82
+00:03:39,390 --> 00:03:41,819
+take<font color="#E5E5E5"> a Bitcoin amount and convert it to</font>
+
+83
+00:03:41,819 --> 00:03:44,760
+<font color="#E5E5E5">US dollars</font><font color="#CCCCCC"> so if you're</font><font color="#E5E5E5"> curious about</font>
+
+84
+00:03:44,760 --> 00:03:48,090
+like how many<font color="#E5E5E5"> Bitcoin arm like how much</font>
+
+85
+00:03:48,090 --> 00:03:50,400
+one bitcoins worth this function can do
+
+86
+00:03:50,400 --> 00:03:55,350
+that for you so inside these parentheses
+
+87
+00:03:55,350 --> 00:03:57,930
+right here whenever your function needs
+
+88
+00:03:57,930 --> 00:04:01,530
+extra<font color="#CCCCCC"> information this is where it goes</font>
+
+89
+00:04:01,530 --> 00:04:04,410
+so of course<font color="#E5E5E5"> in order to calculate or</font>
+
+90
+00:04:04,410 --> 00:04:06,989
+convert Bitcoin<font color="#E5E5E5"> to US dollars</font><font color="#CCCCCC"> it needs</font>
+
+91
+00:04:06,989 --> 00:04:09,269
+<font color="#E5E5E5">the value of Bitcoin</font><font color="#CCCCCC"> do you want to</font>
+
+92
+00:04:09,269 --> 00:04:10,739
+convert one Bitcoin do you want to
+
+93
+00:04:10,739 --> 00:04:12,930
+convert<font color="#E5E5E5"> 10 well it needs some extra</font>
+
+94
+00:04:12,930 --> 00:04:15,359
+information<font color="#E5E5E5"> so we're going to throw it</font>
+
+95
+00:04:15,359 --> 00:04:17,668
+in as a variable<font color="#CCCCCC"> and that variable is</font>
+
+96
+00:04:17,668 --> 00:04:21,899
+<font color="#CCCCCC">going to</font><font color="#E5E5E5"> be called</font><font color="#CCCCCC"> B T C so now what we</font>
+
+97
+00:04:21,899 --> 00:04:25,510
+<font color="#E5E5E5">need to do is just make the formula</font>
+
+98
+00:04:25,510 --> 00:04:28,740
+so we will store the<font color="#CCCCCC"> answer in amount</font>
+
+99
+00:04:28,740 --> 00:04:31,660
+<font color="#E5E5E5">and we'll say the amount or</font><font color="#CCCCCC"> the US</font>
+
+100
+00:04:31,660 --> 00:04:33,700
+dollar amount<font color="#CCCCCC"> it's</font><font color="#E5E5E5"> equal</font><font color="#CCCCCC"> to is however</font>
+
+101
+00:04:33,700 --> 00:04:39,370
+<font color="#E5E5E5">many bitcoins</font><font color="#CCCCCC"> multiplied by</font><font color="#E5E5E5"> 527 so again</font>
+
+102
+00:04:39,370 --> 00:04:43,150
+one<font color="#E5E5E5"> Bitcoin would be 527 US dollars</font><font color="#CCCCCC"> so</font>
+
+103
+00:04:43,150 --> 00:04:47,560
+<font color="#CCCCCC">on and so forth</font><font color="#E5E5E5"> so I guess we can</font><font color="#CCCCCC"> just</font>
+
+104
+00:04:47,560 --> 00:04:53,410
+print this out so print amount so again
+
+105
+00:04:53,410 --> 00:04:58,000
+in order<font color="#E5E5E5"> to use this</font><font color="#CCCCCC"> function what we do</font>
+
+106
+00:04:58,000 --> 00:05:00,580
+is<font color="#E5E5E5"> actually let me call</font><font color="#CCCCCC"> p4 so I have</font>
+
+107
+00:05:00,580 --> 00:05:02,260
+something<font color="#E5E5E5"> when I post my source</font><font color="#CCCCCC"> code on</font>
+
+108
+00:05:02,260 --> 00:05:05,590
+the forum so this line is<font color="#E5E5E5"> going to</font><font color="#CCCCCC"> call</font>
+
+109
+00:05:05,590 --> 00:05:10,810
+this function<font color="#E5E5E5"> now this line is let's say</font>
+
+110
+00:05:10,810 --> 00:05:13,600
+<font color="#E5E5E5">we want</font><font color="#CCCCCC"> to convert like um</font><font color="#E5E5E5"> we want to</font>
+
+111
+00:05:13,600 --> 00:05:15,340
+see how<font color="#CCCCCC"> many dollars</font><font color="#E5E5E5"> three point eight</font>
+
+112
+00:05:15,340 --> 00:05:18,670
+<font color="#E5E5E5">five bitcoins is so let me run this and</font>
+
+113
+00:05:18,670 --> 00:05:22,870
+check it out this<font color="#E5E5E5"> is the result of this</font>
+
+114
+00:05:22,870 --> 00:05:27,970
+line and this is<font color="#E5E5E5"> the result of this so</font>
+
+115
+00:05:27,970 --> 00:05:29,830
+basically<font color="#CCCCCC"> what we</font><font color="#E5E5E5"> did is we</font><font color="#CCCCCC"> called</font><font color="#E5E5E5"> the</font>
+
+116
+00:05:29,830 --> 00:05:33,430
+<font color="#E5E5E5">function and whenever we wrote</font><font color="#CCCCCC"> three</font>
+
+117
+00:05:33,430 --> 00:05:35,830
+<font color="#CCCCCC">point eight five in here</font><font color="#E5E5E5"> it pretty</font><font color="#CCCCCC"> much</font>
+
+118
+00:05:35,830 --> 00:05:38,950
+took this value set it equal to<font color="#E5E5E5"> the</font>
+
+119
+00:05:38,950 --> 00:05:41,800
+variable BTC and anywhere<font color="#CCCCCC"> in the</font>
+
+120
+00:05:41,800 --> 00:05:47,200
+function<font color="#CCCCCC"> that was BTC law BTC was</font>
+
+121
+00:05:47,200 --> 00:05:50,940
+actually 3.85<font color="#E5E5E5"> so it took</font><font color="#CCCCCC"> three point 8 5</font>
+
+122
+00:05:50,940 --> 00:05:55,030
+x 5 27<font color="#E5E5E5"> and</font><font color="#CCCCCC"> gave us the amount and then</font>
+
+123
+00:05:55,030 --> 00:05:57,340
+if you want<font color="#E5E5E5"> to say okay</font><font color="#CCCCCC"> well what is it</font>
+
+124
+00:05:57,340 --> 00:06:01,390
+<font color="#CCCCCC">for just</font><font color="#E5E5E5"> one Bitcoin</font><font color="#CCCCCC"> or what is it for</font>
+
+125
+00:06:01,390 --> 00:06:05,920
+um I don't know<font color="#E5E5E5"> like 13 bitcoins well if</font>
+
+126
+00:06:05,920 --> 00:06:10,060
+you run<font color="#E5E5E5"> this you</font><font color="#CCCCCC"> can see one Bitcoin</font><font color="#E5E5E5"> is</font>
+
+127
+00:06:10,060 --> 00:06:13,600
+equal to 500 $27<font color="#CCCCCC"> 13 bitcoins is equal to</font>
+
+128
+00:06:13,600 --> 00:06:16,330
+<font color="#E5E5E5">almost</font><font color="#CCCCCC"> $7,000</font><font color="#E5E5E5"> so it's a really awesome</font>
+
+129
+00:06:16,330 --> 00:06:19,930
+<font color="#E5E5E5">way of taking a bit</font><font color="#CCCCCC"> of code in being</font>
+
+130
+00:06:19,930 --> 00:06:24,400
+able<font color="#CCCCCC"> to reuse it incredibly easy so that</font>
+
+131
+00:06:24,400 --> 00:06:26,860
+<font color="#CCCCCC">is all I</font><font color="#E5E5E5"> have for</font><font color="#CCCCCC"> you guys for functions</font>
+
+132
+00:06:26,860 --> 00:06:28,420
+for right now we're<font color="#E5E5E5"> going to be using</font>
+
+133
+00:06:28,420 --> 00:06:30,490
+them a lot<font color="#CCCCCC"> and if they seem confusing</font>
+
+134
+00:06:30,490 --> 00:06:32,860
+right<font color="#CCCCCC"> now then</font><font color="#E5E5E5"> don't worry about it</font>
+
+135
+00:06:32,860 --> 00:06:35,080
+because<font color="#E5E5E5"> after we make a few more you're</font>
+
+136
+00:06:35,080 --> 00:06:37,660
+going to become an expert<font color="#E5E5E5"> of making them</font>
+
+137
+00:06:37,660 --> 00:06:39,400
+so thing<font color="#CCCCCC"> gas rushing</font><font color="#E5E5E5"> don't</font>
+
+138
+00:06:39,400 --> 00:00:00,000
+subscribe in<font color="#E5E5E5"> I'll see you later</font>
+

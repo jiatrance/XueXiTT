@@ -1,0 +1,124 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+{% block title %}课程列表{% endblock %}
+{% block breadcrumb %}
+   <li class="breadcrumb-item"><a href="{% url 'index' %}">Home</a></li>
+    <li class="breadcrumb-item">课程列表</li>
+{% endblock %}
+{% block custom_css %}
+    <link rel="stylesheet" href="{% static 'dist/css/mystyle.css' %}">
+{% endblock %}
+{% block content %}
+        <section class="content">
+        <div class="container-fluid">
+
+        <div class="row">
+          <div class="col-md-9">
+            <!-- Custom Tabs -->
+            <div class="card">
+              <div class="card-header d-flex p-0">
+                <h3 class="card-title p-3">课程列表</h3>
+                <ul class="tab_header ml-auto p-2">
+                        <li class="{% ifequal sort '' %}active{% endifequal %}"><a href="?sort=">最新 </a></li>
+                        <li class="{% ifequal sort 'hot' %}active{% endifequal %}"><a href="?sort=hot">最热门</a></li>
+                        <li class="{% ifequal sort 'students' %}active{% endifequal %}"><a href="?sort=students">参与人数</a></li>
+                    </ul>
+              </div><!-- /.card-header -->
+              <div class="card-body">
+                    <div class="row">
+               {% for course in all_courses.object_list %}
+                <div class="col-lg-4 col-md-6">
+                    <a href="{% url 'course:course_detail' course.id %}" ><span class="mailbox-attachment-icon has-img"><img src="{{ MEDIA_URL }}{{ course.image }}" alt="Attachment"></span></a>
+                  <div class="mailbox-attachment-info">
+                    <a href="{% url 'course:course_detail' course.id %}" class="mailbox-attachment-name"><h5>{{ course.name }}</h5></a>
+                        <span class="mailbox-attachment-size">
+                          <h6>课程数：{{ course.get_vd_nums }}</h6>
+                          <a href="#" class="mailbox-attachment-name"><h6>{{ course.teacher.name }}</h6></a>
+                        </span>
+                  </div>
+                    <br>
+              </div>
+             {% endfor %}
+             </div>
+                <!-- /.tab-content -->
+              </div>
+                <!-- /.card-body -->
+            <div class="card-footer">
+                <nav aria-label="Page navigation example">
+                  <ul class="pagination justify-content-center">
+                  {% if all_courses.has_previous %}
+                    <li class="page-item">
+                      <a class="page-link" href="?{{ all_courses.previous_page_number.querystring }}" tabindex="-1">Previous</a>
+                    </li>
+                  {% else %}
+                  <li class="page-item disabled">
+                      <a class="page-link" href="?{{ all_courses.previous_page_number.querystring }}" tabindex="-1">Previous</a>
+                    </li>
+                  {% endif %}
+
+                  {% for page in all_courses.pages %}
+                        {% if page %}
+                            {% ifequal page all_courses.number %}
+                            <li class="page-item active"><a class="page-link" href="?{{ page.querystring }}">{{ page }}</a></li>
+                            {% else %}
+                            <li class="page-item"><a class="page-link" href="?{{ page.querystring }}">{{ page }}</a></li>
+                            {% endifequal %}
+                         {% else %}
+                        <li class="page-item"><a class="page-link" href="">...</a></li>
+                         {% endif %}
+                    {% endfor %}
+
+                      {% if all_courses.has_next %}
+                    <li class="page-item">
+                      <a class="page-link" href="?{{ all_courses.next_page_number.querystring }}">Next</a>
+                    </li>
+                      {% else %}
+                     <li class="page-item disabled">
+                      <a class="page-link" href="?{{ all_courses.next_page_number.querystring }}">Next</a>
+                    </li>
+                      {% endif %}
+                  </ul>
+                </nav>
+            </div>
+            </div>
+            <!-- ./card -->
+          </div>
+          <!-- /.col -->
+            <div class="col-md-3">
+      <div class="container-fluid">
+        <!-- COLOR PALETTE -->
+        <!-- Recommended -->
+        <div class="card card-default color-palette-box">
+          <div class="card-header">
+            <h3 class="card-title">
+              <i class="fa fa-star"></i>
+              Recommended
+            </h3>
+          </div>
+          <div class="card-body">
+            <div class="row">
+               {% for course in hot_courses %}
+                <div class="col-md-12">
+                    <a href="{% url 'course:course_detail' course.id %}" ><span class="mailbox-attachment-icon has-img"><img src="{{ MEDIA_URL }}{{ course.image }}" alt="Attachment"></span></a>
+                  <div class="mailbox-attachment-info">
+                    <a href="{% url 'course:course_detail' course.id %}" class="mailbox-attachment-name"><h5>{{ course.name }}</h5></a>
+                        <span class="mailbox-attachment-size">
+                          <h6>课程数：{{ course.get_vd_nums }}</h6>
+                          <a href="#" class="mailbox-attachment-name"><h6>{{ course.teacher.name }}</h6></a>
+                        </span>
+                  </div>
+                    <br>
+              </div>
+             {% endfor %}
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+            </div>
+        </div>
+        <!-- /.row -->
+        <!-- END CUSTOM TABS -->
+        </div>
+        </section>
+{% endblock %}

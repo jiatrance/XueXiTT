@@ -1,0 +1,484 @@
+1
+00:00:00,060 --> 00:00:02,310
+<font color="#CCCCCC">alright guys in this</font><font color="#E5E5E5"> video</font><font color="#CCCCCC"> I want to</font>
+
+2
+00:00:02,310 --> 00:00:05,759
+talk<font color="#E5E5E5"> to you about return values so the</font>
+
+3
+00:00:05,759 --> 00:00:07,680
+first couple functions<font color="#CCCCCC"> that we made what</font>
+
+4
+00:00:07,680 --> 00:00:09,510
+they<font color="#E5E5E5"> did is they either</font><font color="#CCCCCC"> just printed</font>
+
+5
+00:00:09,510 --> 00:00:12,000
+something out immediately<font color="#E5E5E5"> or they made</font>
+
+6
+00:00:12,000 --> 00:00:13,769
+like a simple calculation and<font color="#E5E5E5"> print it</font>
+
+7
+00:00:13,769 --> 00:00:16,470
+out the answer real quick<font color="#E5E5E5"> however there</font>
+
+8
+00:00:16,470 --> 00:00:18,390
+<font color="#CCCCCC">are certain</font><font color="#E5E5E5"> times where we're going to</font>
+
+9
+00:00:18,390 --> 00:00:20,279
+want<font color="#CCCCCC"> to function to do something like</font>
+
+10
+00:00:20,279 --> 00:00:22,560
+make<font color="#E5E5E5"> the calculation and we're not going</font>
+
+11
+00:00:22,560 --> 00:00:24,029
+to<font color="#E5E5E5"> want</font><font color="#CCCCCC"> to print</font><font color="#E5E5E5"> it out right then</font><font color="#CCCCCC"> and</font>
+
+12
+00:00:24,029 --> 00:00:25,740
+there<font color="#CCCCCC"> what we're going to</font><font color="#E5E5E5"> want to do is</font>
+
+13
+00:00:25,740 --> 00:00:28,289
+actually store the answer<font color="#CCCCCC"> or</font><font color="#E5E5E5"> the</font>
+
+14
+00:00:28,289 --> 00:00:30,720
+response so we<font color="#CCCCCC"> can use</font><font color="#E5E5E5"> it later in our</font>
+
+15
+00:00:30,720 --> 00:00:35,250
+program<font color="#CCCCCC"> so how would we um take like the</font>
+
+16
+00:00:35,250 --> 00:00:37,649
+answer or<font color="#E5E5E5"> the result and save it in a</font>
+
+17
+00:00:37,649 --> 00:00:40,829
+<font color="#CCCCCC">variable to use</font><font color="#E5E5E5"> later well for that</font><font color="#CCCCCC"> we</font>
+
+18
+00:00:40,829 --> 00:00:42,899
+need<font color="#E5E5E5"> something called a return statement</font>
+
+19
+00:00:42,899 --> 00:00:45,270
+<font color="#CCCCCC">and it</font><font color="#E5E5E5"> returns of course a return value</font>
+
+20
+00:00:45,270 --> 00:00:48,930
+<font color="#CCCCCC">so for</font><font color="#E5E5E5"> this</font><font color="#CCCCCC"> example what I want to do is</font>
+
+21
+00:00:48,930 --> 00:00:51,120
+I do this in all my<font color="#E5E5E5"> program tutorials</font>
+
+22
+00:00:51,120 --> 00:00:53,550
+<font color="#E5E5E5">I'm going to show you guys a cool little</font>
+
+23
+00:00:53,550 --> 00:00:56,520
+function and it<font color="#CCCCCC"> calculates the age</font><font color="#E5E5E5"> of</font>
+
+24
+00:00:56,520 --> 00:00:59,309
+<font color="#E5E5E5">girls that you're allowed</font><font color="#CCCCCC"> to date</font><font color="#E5E5E5"> so for</font>
+
+25
+00:00:59,309 --> 00:01:02,039
+<font color="#E5E5E5">example I could not date a 13 year old</font><font color="#CCCCCC"> I</font>
+
+26
+00:01:02,039 --> 00:01:05,159
+can only date someone<font color="#E5E5E5"> who is you</font><font color="#CCCCCC"> know</font>
+
+27
+00:01:05,159 --> 00:01:07,560
+the<font color="#E5E5E5"> appropriate age</font><font color="#CCCCCC"> for me I'm 27 so I</font>
+
+28
+00:01:07,560 --> 00:01:09,570
+don't know<font color="#E5E5E5"> it's like it's 20 an</font>
+
+29
+00:01:09,570 --> 00:01:12,270
+appropriate age is like 23<font color="#E5E5E5"> I know like</font>
+
+30
+00:01:12,270 --> 00:01:14,909
+25<font color="#E5E5E5"> is so there's actually a formula for</font>
+
+31
+00:01:14,909 --> 00:01:17,780
+this<font color="#E5E5E5"> I'm going to be teaching it so</font>
+
+32
+00:01:17,780 --> 00:01:25,049
+<font color="#E5E5E5">aloud dating age is what the name is and</font>
+
+33
+00:01:25,049 --> 00:01:26,850
+of<font color="#CCCCCC"> course</font><font color="#E5E5E5"> the piece of information</font><font color="#CCCCCC"> that</font>
+
+34
+00:01:26,850 --> 00:01:33,090
+<font color="#E5E5E5">needs is my age so after this what we're</font>
+
+35
+00:01:33,090 --> 00:01:34,860
+going to be doing is we're going to<font color="#CCCCCC"> be</font>
+
+36
+00:01:34,860 --> 00:01:39,060
+calculating<font color="#CCCCCC"> the girls age that I'm able</font>
+
+37
+00:01:39,060 --> 00:01:41,909
+<font color="#CCCCCC">to date the limit so the formula for</font>
+
+38
+00:01:41,909 --> 00:01:45,450
+<font color="#CCCCCC">this is whatever your age</font><font color="#E5E5E5"> is so my age</font>
+
+39
+00:01:45,450 --> 00:01:48,840
+<font color="#E5E5E5">which would be 27 in my case divide that</font>
+
+40
+00:01:48,840 --> 00:01:53,100
+by<font color="#CCCCCC"> two and add seven so in your head</font>
+
+41
+00:01:53,100 --> 00:01:57,299
+take your age /<font color="#CCCCCC"> 2 in add</font><font color="#E5E5E5"> seven that's</font>
+
+42
+00:01:57,299 --> 00:01:59,189
+the age of girls<font color="#E5E5E5"> you're allowed to date</font>
+
+43
+00:01:59,189 --> 00:02:02,790
+<font color="#E5E5E5">no younger than that or it's creepy so</font>
+
+44
+00:02:02,790 --> 00:02:05,759
+of course this is<font color="#CCCCCC"> the equation</font><font color="#E5E5E5"> however</font>
+
+45
+00:02:05,759 --> 00:02:07,350
+we<font color="#CCCCCC"> just don't want</font><font color="#E5E5E5"> to print it out right</font>
+
+46
+00:02:07,350 --> 00:02:09,090
+now<font color="#CCCCCC"> what we're going to be doing is</font>
+
+47
+00:02:09,090 --> 00:02:11,270
+we're going<font color="#E5E5E5"> to be taking this</font><font color="#CCCCCC"> value and</font>
+
+48
+00:02:11,270 --> 00:02:13,030
+storing in variable
+
+49
+00:02:13,030 --> 00:02:15,280
+so that we can<font color="#E5E5E5"> use it later on so in</font>
+
+50
+00:02:15,280 --> 00:02:17,740
+order<font color="#CCCCCC"> to do that we need a new</font><font color="#E5E5E5"> keyword</font>
+
+51
+00:02:17,740 --> 00:02:20,830
+<font color="#E5E5E5">it's called a return and it says what do</font>
+
+52
+00:02:20,830 --> 00:02:23,170
+you want back from this calculation what
+
+53
+00:02:23,170 --> 00:02:25,030
+answer do you want back<font color="#E5E5E5"> well in this</font>
+
+54
+00:02:25,030 --> 00:02:29,770
+case<font color="#E5E5E5"> just the girls age so of course now</font>
+
+55
+00:02:29,770 --> 00:02:32,680
+we can<font color="#CCCCCC"> use this as</font><font color="#E5E5E5"> well just like</font><font color="#CCCCCC"> we did</font>
+
+56
+00:02:32,680 --> 00:02:36,880
+<font color="#E5E5E5">before</font><font color="#CCCCCC"> so you know</font><font color="#E5E5E5"> before and that's not</font>
+
+57
+00:02:36,880 --> 00:02:40,180
+what I wanted we can call hold on a
+
+58
+00:02:40,180 --> 00:02:46,360
+second<font color="#E5E5E5"> my ear is a chin</font>
+
+59
+00:02:46,360 --> 00:02:50,350
+well it's tit and<font color="#E5E5E5"> I'm ready to move on</font>
+
+60
+00:02:50,350 --> 00:02:54,850
+<font color="#CCCCCC">okay</font><font color="#E5E5E5"> so we'll say</font><font color="#CCCCCC"> that a loud dating age</font>
+
+61
+00:02:54,850 --> 00:03:00,850
+is 27<font color="#CCCCCC"> because it takes your age now if</font>
+
+62
+00:03:00,850 --> 00:03:03,090
+we<font color="#CCCCCC"> just run this program right</font><font color="#E5E5E5"> here</font>
+
+63
+00:03:03,090 --> 00:03:05,140
+nothing prints out on the screen because
+
+64
+00:03:05,140 --> 00:03:08,650
+<font color="#E5E5E5">this entire statement is equal to the</font>
+
+65
+00:03:08,650 --> 00:03:11,170
+return value and what<font color="#E5E5E5"> is it I don't</font><font color="#CCCCCC"> know</font>
+
+66
+00:03:11,170 --> 00:03:14,110
+so now that this<font color="#E5E5E5"> is</font><font color="#CCCCCC"> equal to some number</font>
+
+67
+00:03:14,110 --> 00:03:16,840
+of<font color="#E5E5E5"> a girl's age what I want to do is</font>
+
+68
+00:03:16,840 --> 00:03:20,950
+take that<font color="#E5E5E5"> and store in a variable so</font>
+
+69
+00:03:20,950 --> 00:03:25,780
+<font color="#CCCCCC">Bucky's limit is equal to some number</font>
+
+70
+00:03:25,780 --> 00:03:30,570
+now<font color="#CCCCCC"> so now I can do something like print</font>
+
+71
+00:03:30,570 --> 00:03:36,930
+Bucky<font color="#E5E5E5"> can date</font><font color="#CCCCCC"> mmm</font><font color="#E5E5E5"> I'll just do this</font>
+
+72
+00:03:36,930 --> 00:03:39,360
+date girls
+
+73
+00:03:39,360 --> 00:03:46,600
+Bucky's limits or older so now I can
+
+74
+00:03:46,600 --> 00:03:49,739
+<font color="#CCCCCC">print</font><font color="#E5E5E5"> this bad boy</font><font color="#CCCCCC"> out and check it out</font>
+
+75
+00:03:49,739 --> 00:03:54,609
+so my limit is<font color="#E5E5E5"> I can date girls that are</font>
+
+76
+00:03:54,609 --> 00:03:58,299
+20 and<font color="#CCCCCC"> a half</font><font color="#E5E5E5"> or older so hopefully I</font>
+
+77
+00:03:58,299 --> 00:03:59,560
+get<font color="#E5E5E5"> one that's</font><font color="#CCCCCC"> twenty</font><font color="#E5E5E5"> and</font><font color="#CCCCCC"> a half because</font>
+
+78
+00:03:59,560 --> 00:04:01,000
+<font color="#E5E5E5">you know then she can like drive me</font>
+
+79
+00:04:01,000 --> 00:04:03,720
+around bars if you can't even drink so
+
+80
+00:04:03,720 --> 00:04:05,980
+that was pretty so much thing<font color="#E5E5E5"> to say you</font>
+
+81
+00:04:05,980 --> 00:04:07,870
+have<font color="#E5E5E5"> to edit that out but seriously if</font>
+
+82
+00:04:07,870 --> 00:04:09,400
+any girls are out there give<font color="#CCCCCC"> me a call</font>
+
+83
+00:04:09,400 --> 00:04:13,209
+<font color="#E5E5E5">all right anyways moving on</font><font color="#CCCCCC"> so say that</font>
+
+84
+00:04:13,209 --> 00:04:15,970
+we wanted<font color="#E5E5E5"> to do this for someone else</font>
+
+85
+00:04:15,970 --> 00:04:19,600
+well<font color="#E5E5E5"> okay that was like the longest</font>
+
+86
+00:04:19,600 --> 00:04:22,240
+<font color="#E5E5E5">delay between copying and pasting all</font>
+
+87
+00:04:22,240 --> 00:04:25,090
+right so say<font color="#E5E5E5"> that we wanted to do it for</font>
+
+88
+00:04:25,090 --> 00:04:26,670
+<font color="#CCCCCC">my friend in my free</font>
+
+89
+00:04:26,670 --> 00:04:29,970
+is 49 years<font color="#CCCCCC"> old actually</font><font color="#E5E5E5"> don't have</font>
+
+90
+00:04:29,970 --> 00:04:31,950
+friend is 49 years<font color="#CCCCCC"> old actually don't</font>
+
+91
+00:04:31,950 --> 00:04:36,210
+have any friends at all<font color="#CCCCCC"> alright and his</font>
+
+92
+00:04:36,210 --> 00:04:40,590
+name is creepy<font color="#E5E5E5"> Joe yeah I got a friend</font>
+
+93
+00:04:40,590 --> 00:04:45,300
+<font color="#CCCCCC">named creepy Joe who freakin cares so if</font>
+
+94
+00:04:45,300 --> 00:04:47,160
+we take this<font color="#E5E5E5"> copy and</font><font color="#CCCCCC"> paste it as well</font>
+
+95
+00:04:47,160 --> 00:04:53,040
+save us<font color="#E5E5E5"> some</font><font color="#CCCCCC"> time so creepy Joe let's</font>
+
+96
+00:04:53,040 --> 00:04:58,470
+see what his<font color="#CCCCCC"> limit is</font><font color="#E5E5E5"> our a so my limit</font>
+
+97
+00:04:58,470 --> 00:05:02,040
+<font color="#CCCCCC">and anyone who's 27 out there do not</font>
+
+98
+00:05:02,040 --> 00:05:04,230
+take<font color="#E5E5E5"> girls younger than 20 and a half</font>
+
+99
+00:05:04,230 --> 00:05:08,460
+<font color="#CCCCCC">and if you're 49</font><font color="#E5E5E5"> years old your limit</font>
+
+100
+00:05:08,460 --> 00:05:13,470
+would be 31<font color="#E5E5E5"> and a half so again not only</font>
+
+101
+00:05:13,470 --> 00:05:15,330
+<font color="#E5E5E5">in this tutorial did we learn about</font>
+
+102
+00:05:15,330 --> 00:05:17,880
+return values but<font color="#E5E5E5"> we also learn an</font>
+
+103
+00:05:17,880 --> 00:05:20,070
+awesome equation so<font color="#E5E5E5"> you can figure out</font>
+
+104
+00:05:20,070 --> 00:05:23,490
+<font color="#E5E5E5">okay</font><font color="#CCCCCC"> how young of a girl can I date</font>
+
+105
+00:05:23,490 --> 00:05:25,110
+because I know all you guys<font color="#E5E5E5"> out there</font>
+
+106
+00:05:25,110 --> 00:05:28,200
+were wondering it so<font color="#E5E5E5"> I actually run this</font>
+
+107
+00:05:28,200 --> 00:05:30,960
+calculation and tell me your limit on
+
+108
+00:05:30,960 --> 00:05:32,550
+the forum because<font color="#E5E5E5"> I'm actually quite</font>
+
+109
+00:05:32,550 --> 00:05:35,250
+interested<font color="#CCCCCC"> to know and also</font><font color="#E5E5E5"> another cool</font>
+
+110
+00:05:35,250 --> 00:05:38,340
+<font color="#E5E5E5">thing that</font><font color="#CCCCCC"> you can do and if anyone</font>
+
+111
+00:05:38,340 --> 00:05:40,260
+<font color="#E5E5E5">wants to do this for</font><font color="#CCCCCC"> like a mini forum</font>
+
+112
+00:05:40,260 --> 00:05:44,460
+challenge<font color="#E5E5E5"> um go through a list of will</font>
+
+113
+00:05:44,460 --> 00:05:49,230
+<font color="#E5E5E5">say age is like 15 to 60 and print the</font>
+
+114
+00:05:49,230 --> 00:05:52,110
+person's age the dude's age and their
+
+115
+00:05:52,110 --> 00:05:54,900
+limit right<font color="#E5E5E5"> next to each other side by</font>
+
+116
+00:05:54,900 --> 00:05:57,330
+<font color="#E5E5E5">side one row at a</font><font color="#CCCCCC"> time so that would be</font>
+
+117
+00:05:57,330 --> 00:05:58,830
+a pretty cool<font color="#CCCCCC"> table so if anyone wants</font>
+
+118
+00:05:58,830 --> 00:06:00,720
+<font color="#CCCCCC">to do that post the</font><font color="#E5E5E5"> core of my code on</font>
+
+119
+00:06:00,720 --> 00:06:02,430
+my<font color="#E5E5E5"> forum</font><font color="#CCCCCC"> but for now</font><font color="#E5E5E5"> thank guys for</font>
+
+120
+00:06:02,430 --> 00:06:03,930
+watching<font color="#E5E5E5"> don't forget subscribe and that</font>
+
+121
+00:06:03,930 --> 00:00:00,000
+<font color="#E5E5E5">we'll see you</font><font color="#CCCCCC"> later</font>
+

@@ -1,0 +1,520 @@
+1
+00:00:00,030 --> 00:00:02,370
+<font color="#CCCCCC">shuts up us welcome to another video</font>
+
+2
+00:00:02,370 --> 00:00:04,290
+<font color="#E5E5E5">where I am going to be teaching you</font><font color="#CCCCCC"> some</font>
+
+3
+00:00:04,290 --> 00:00:05,879
+<font color="#E5E5E5">really cool things</font><font color="#CCCCCC"> that</font><font color="#E5E5E5"> you can do with</font>
+
+4
+00:00:05,879 --> 00:00:08,360
+shrinks<font color="#E5E5E5"> the first thing is how to access</font>
+
+5
+00:00:08,360 --> 00:00:11,910
+individual characters from<font color="#E5E5E5"> a string so</font>
+
+6
+00:00:11,910 --> 00:00:15,630
+say that we had a<font color="#E5E5E5"> user sign up for the</font>
+
+7
+00:00:15,630 --> 00:00:18,750
+site<font color="#CCCCCC"> and their name was tuna</font><font color="#E5E5E5"> Mick fish</font>
+
+8
+00:00:18,750 --> 00:00:20,520
+<font color="#E5E5E5">which was actually the name</font><font color="#CCCCCC"> of my great</font>
+
+9
+00:00:20,520 --> 00:00:24,180
+uncle<font color="#E5E5E5"> tournament fish and the first</font>
+
+10
+00:00:24,180 --> 00:00:26,550
+<font color="#E5E5E5">thing I want to</font><font color="#CCCCCC"> mention is this whatever</font>
+
+11
+00:00:26,550 --> 00:00:28,949
+people<font color="#E5E5E5"> count like</font><font color="#CCCCCC"> whenever</font><font color="#E5E5E5"> you teach</font>
+
+12
+00:00:28,949 --> 00:00:31,500
+<font color="#E5E5E5">like</font><font color="#CCCCCC"> a kid</font><font color="#E5E5E5"> to count they always start at</font>
+
+13
+00:00:31,500 --> 00:00:35,190
+1 1 2<font color="#CCCCCC"> 3 4</font><font color="#E5E5E5"> however computers are</font>
+
+14
+00:00:35,190 --> 00:00:36,960
+different computers start counting<font color="#CCCCCC"> is</font>
+
+15
+00:00:36,960 --> 00:00:40,110
+<font color="#CCCCCC">zero so just keep that</font><font color="#E5E5E5"> in mind</font><font color="#CCCCCC"> because</font>
+
+16
+00:00:40,110 --> 00:00:41,570
+it's going<font color="#E5E5E5"> to come into play right now</font>
+
+17
+00:00:41,570 --> 00:00:44,520
+<font color="#E5E5E5">so in order to access an individual</font>
+
+18
+00:00:44,520 --> 00:00:47,610
+<font color="#CCCCCC">character from this name or from a</font>
+
+19
+00:00:47,610 --> 00:00:50,399
+string type<font color="#E5E5E5"> the variables name which is</font>
+
+20
+00:00:50,399 --> 00:00:52,829
+user and in between<font color="#E5E5E5"> square brackets</font>
+
+21
+00:00:52,829 --> 00:00:55,410
+<font color="#CCCCCC">write the position of the</font><font color="#E5E5E5"> character you</font>
+
+22
+00:00:55,410 --> 00:00:57,420
+<font color="#CCCCCC">want to get so if you want to get the</font>
+
+23
+00:00:57,420 --> 00:00:59,340
+<font color="#E5E5E5">first character you don't type</font><font color="#CCCCCC"> one</font><font color="#E5E5E5"> you</font>
+
+24
+00:00:59,340 --> 00:01:02,370
+actually<font color="#CCCCCC"> type zero since computers</font><font color="#E5E5E5"> start</font>
+
+25
+00:01:02,370 --> 00:01:05,369
+counting is zero so<font color="#CCCCCC"> again it</font><font color="#E5E5E5"> outputs T</font>
+
+26
+00:01:05,369 --> 00:01:10,200
+<font color="#E5E5E5">so this is</font><font color="#CCCCCC"> zero</font><font color="#E5E5E5"> this</font><font color="#CCCCCC"> is position</font><font color="#E5E5E5"> 1 2 3 4</font>
+
+27
+00:01:10,200 --> 00:01:16,520
+<font color="#E5E5E5">5 so let's see the 5 should be the M and</font>
+
+28
+00:01:16,520 --> 00:01:20,640
+indeed it<font color="#E5E5E5"> is so pretty cool now another</font>
+
+29
+00:01:20,640 --> 00:01:23,100
+thing I want<font color="#CCCCCC"> to mention is this so</font>
+
+30
+00:01:23,100 --> 00:01:24,840
+computers start counting is<font color="#CCCCCC"> zero</font><font color="#E5E5E5"> and</font>
+
+31
+00:01:24,840 --> 00:01:27,450
+then go<font color="#E5E5E5"> from left to right you can also</font>
+
+32
+00:01:27,450 --> 00:01:30,750
+go from right<font color="#CCCCCC"> to left now if you ever</font>
+
+33
+00:01:30,750 --> 00:01:33,750
+want the last character<font color="#E5E5E5"> what you can do</font>
+
+34
+00:01:33,750 --> 00:01:37,110
+is press negative<font color="#CCCCCC"> 1</font><font color="#E5E5E5"> now it's not</font>
+
+35
+00:01:37,110 --> 00:01:38,759
+negative<font color="#CCCCCC"> 0 like you might</font><font color="#E5E5E5"> think because</font>
+
+36
+00:01:38,759 --> 00:01:42,420
+<font color="#E5E5E5">negative</font><font color="#CCCCCC"> 0 is 0 so negative 1 is always</font>
+
+37
+00:01:42,420 --> 00:01:44,399
+<font color="#E5E5E5">the last character which is in this</font><font color="#CCCCCC"> case</font>
+
+38
+00:01:44,399 --> 00:01:51,630
+<font color="#E5E5E5">H so</font><font color="#CCCCCC"> you can also do that for not</font><font color="#E5E5E5"> only</font>
+
+39
+00:01:51,630 --> 00:01:53,369
+<font color="#E5E5E5">last one but say you want</font><font color="#CCCCCC"> to start at</font>
+
+40
+00:01:53,369 --> 00:01:55,530
+the<font color="#CCCCCC"> end and put negative</font><font color="#E5E5E5"> 1 negative 2</font>
+
+41
+00:01:55,530 --> 00:01:58,950
+negative 3 is the<font color="#CCCCCC"> I so on and so forth</font>
+
+42
+00:01:58,950 --> 00:02:01,259
+<font color="#E5E5E5">so that is how you access individual</font>
+
+43
+00:02:01,259 --> 00:02:02,850
+characters from<font color="#E5E5E5"> a string again the</font>
+
+44
+00:02:02,850 --> 00:02:05,790
+variable name and the position<font color="#E5E5E5"> in square</font>
+
+45
+00:02:05,790 --> 00:02:08,068
+brackets now another thing that<font color="#CCCCCC"> you can</font>
+
+46
+00:02:08,068 --> 00:02:10,440
+do is you can<font color="#E5E5E5"> actually slice out a</font>
+
+47
+00:02:10,440 --> 00:02:12,400
+section<font color="#E5E5E5"> of the name</font>
+
+48
+00:02:12,400 --> 00:02:14,140
+so in<font color="#CCCCCC"> order</font><font color="#E5E5E5"> to do that I'll show you</font>
+
+49
+00:02:14,140 --> 00:02:15,159
+<font color="#E5E5E5">guys what I'm talking about it's really</font>
+
+50
+00:02:15,159 --> 00:02:17,920
+<font color="#E5E5E5">easy if you</font><font color="#CCCCCC"> just</font><font color="#E5E5E5"> look at it</font><font color="#CCCCCC"> you write</font>
+
+51
+00:02:17,920 --> 00:02:20,260
+two numbers the first one is where you
+
+52
+00:02:20,260 --> 00:02:22,150
+<font color="#E5E5E5">want to start so say we wanted to start</font>
+
+53
+00:02:22,150 --> 00:02:22,540
+<font color="#E5E5E5">it</font>
+
+54
+00:02:22,540 --> 00:02:26,860
+<font color="#CCCCCC">zero one two which is the</font><font color="#E5E5E5"> end and the</font>
+
+55
+00:02:26,860 --> 00:02:29,560
+<font color="#E5E5E5">last one is where you want to stop</font>
+
+56
+00:02:29,560 --> 00:02:33,760
+so we'll say<font color="#E5E5E5"> okay this M is</font><font color="#CCCCCC"> five so stop</font>
+
+57
+00:02:33,760 --> 00:02:37,540
+at this<font color="#E5E5E5"> F which is seven now whenever we</font>
+
+58
+00:02:37,540 --> 00:02:40,629
+<font color="#E5E5E5">hit enter</font><font color="#CCCCCC"> it gives us this little</font>
+
+59
+00:02:40,629 --> 00:02:43,569
+<font color="#E5E5E5">section</font><font color="#CCCCCC"> right here</font><font color="#E5E5E5"> and you</font><font color="#CCCCCC"> see it didn't</font>
+
+60
+00:02:43,569 --> 00:02:45,489
+include<font color="#E5E5E5"> that F because it stops right</font>
+
+61
+00:02:45,489 --> 00:02:47,280
+<font color="#CCCCCC">before it's</font><font color="#E5E5E5"> pretty much saying okay um</font>
+
+62
+00:02:47,280 --> 00:02:50,859
+<font color="#E5E5E5">when you get to this character stop so</font>
+
+63
+00:02:50,859 --> 00:02:53,170
+that's how you slice out<font color="#CCCCCC"> um some</font>
+
+64
+00:02:53,170 --> 00:02:55,959
+characters from<font color="#CCCCCC"> a middle</font><font color="#E5E5E5"> of a string now</font>
+
+65
+00:02:55,959 --> 00:02:57,780
+<font color="#CCCCCC">I want</font><font color="#E5E5E5"> to mention one more thing</font>
+
+66
+00:02:57,780 --> 00:03:02,560
+<font color="#E5E5E5">actually two more things so you use the</font>
+
+67
+00:03:02,560 --> 00:03:04,239
+little<font color="#CCCCCC"> colon right here to say where</font><font color="#E5E5E5"> you</font>
+
+68
+00:03:04,239 --> 00:03:05,560
+want to stop<font color="#CCCCCC"> into where you want to</font>
+
+69
+00:03:05,560 --> 00:03:08,920
+start and stop<font color="#CCCCCC"> so I might say now if you</font>
+
+70
+00:03:08,920 --> 00:03:10,900
+ever<font color="#E5E5E5"> forget to include or if you ever</font>
+
+71
+00:03:10,900 --> 00:03:13,659
+just don't include the beginning then<font color="#CCCCCC"> it</font>
+
+72
+00:03:13,659 --> 00:03:15,010
+automatically assumes that<font color="#E5E5E5"> you want to</font>
+
+73
+00:03:15,010 --> 00:03:17,410
+start<font color="#E5E5E5"> from the very</font><font color="#CCCCCC"> beginning so this</font>
+
+74
+00:03:17,410 --> 00:03:18,579
+<font color="#E5E5E5">pretty much</font><font color="#CCCCCC"> means</font><font color="#E5E5E5"> start at the beginning</font>
+
+75
+00:03:18,579 --> 00:03:21,819
+<font color="#CCCCCC">and</font><font color="#E5E5E5"> go to the seventh position</font><font color="#CCCCCC"> and</font><font color="#E5E5E5"> just</font>
+
+76
+00:03:21,819 --> 00:03:24,220
+like<font color="#E5E5E5"> that you can</font><font color="#CCCCCC"> also forget</font><font color="#E5E5E5"> that</font>
+
+77
+00:03:24,220 --> 00:03:26,049
+stopping<font color="#E5E5E5"> point and it will go all the</font>
+
+78
+00:03:26,049 --> 00:03:30,970
+<font color="#CCCCCC">way</font><font color="#E5E5E5"> to the end</font><font color="#CCCCCC"> so again that just gets</font>
+
+79
+00:03:30,970 --> 00:03:36,010
+this right there now<font color="#E5E5E5"> if you do with both</font>
+
+80
+00:03:36,010 --> 00:03:39,849
+of them then of course<font color="#CCCCCC"> it'll start at</font>
+
+81
+00:03:39,849 --> 00:03:42,069
+<font color="#E5E5E5">the beginning and stuff at the end which</font>
+
+82
+00:03:42,069 --> 00:03:44,049
+<font color="#E5E5E5">pretty</font><font color="#CCCCCC"> much gives you</font><font color="#E5E5E5"> um what you</font>
+
+83
+00:03:44,049 --> 00:03:45,370
+started with the whole entire<font color="#CCCCCC"> thing</font>
+
+84
+00:03:45,370 --> 00:03:48,519
+<font color="#CCCCCC">pretty</font><font color="#E5E5E5"> simple and actually since we have</font>
+
+85
+00:03:48,519 --> 00:03:50,319
+time I'll show you guys<font color="#E5E5E5"> one other cool</font>
+
+86
+00:03:50,319 --> 00:03:52,470
+function<font color="#E5E5E5"> you know how I</font><font color="#CCCCCC"> said that</font>
+
+87
+00:03:52,470 --> 00:03:55,150
+<font color="#E5E5E5">whenever we write actual program we're</font>
+
+88
+00:03:55,150 --> 00:03:56,319
+<font color="#E5E5E5">going to be using</font><font color="#CCCCCC"> these</font><font color="#E5E5E5"> things called</font>
+
+89
+00:03:56,319 --> 00:03:58,660
+functions<font color="#CCCCCC"> you know</font><font color="#E5E5E5"> we learned one</font><font color="#CCCCCC"> had</font>
+
+90
+00:03:58,660 --> 00:03:59,859
+print stuff out on<font color="#CCCCCC"> the screen</font>
+
+91
+00:03:59,859 --> 00:04:02,709
+<font color="#E5E5E5">simple enough well another thing I want</font>
+
+92
+00:04:02,709 --> 00:04:05,199
+to tell you is quite often<font color="#CCCCCC"> you're want</font>
+
+93
+00:04:05,199 --> 00:04:07,690
+to get the length of a string<font color="#E5E5E5"> so say we</font>
+
+94
+00:04:07,690 --> 00:04:10,030
+<font color="#CCCCCC">have this name right here but we don't</font>
+
+95
+00:04:10,030 --> 00:04:12,310
+know how long it is<font color="#CCCCCC"> how many characters</font>
+
+96
+00:04:12,310 --> 00:04:14,230
+are<font color="#E5E5E5"> in it well the function that we</font><font color="#CCCCCC"> can</font>
+
+97
+00:04:14,230 --> 00:04:17,738
+<font color="#CCCCCC">use for</font><font color="#E5E5E5"> this is</font><font color="#CCCCCC"> L</font><font color="#E5E5E5"> e n and what this does</font>
+
+98
+00:04:17,738 --> 00:04:20,199
+is in<font color="#E5E5E5"> between its</font><font color="#CCCCCC"> parenthesis you can</font>
+
+99
+00:04:20,199 --> 00:04:22,690
+type in any string just<font color="#E5E5E5"> type in some</font>
+
+100
+00:04:22,690 --> 00:04:24,270
+random characters and
+
+101
+00:04:24,270 --> 00:04:26,819
+<font color="#E5E5E5">enter and it'll say how</font><font color="#CCCCCC"> many characters</font>
+
+102
+00:04:26,819 --> 00:04:30,090
+<font color="#E5E5E5">are in that string</font><font color="#CCCCCC"> so if you</font><font color="#E5E5E5"> ever want</font>
+
+103
+00:04:30,090 --> 00:04:32,520
+to<font color="#E5E5E5"> know how many</font><font color="#CCCCCC"> characters are</font><font color="#E5E5E5"> in the</font>
+
+104
+00:04:32,520 --> 00:04:36,960
+word<font color="#CCCCCC"> deflect is cast if it's 21</font><font color="#E5E5E5"> now of</font>
+
+105
+00:04:36,960 --> 00:04:40,229
+<font color="#CCCCCC">course</font><font color="#E5E5E5"> just</font><font color="#CCCCCC"> like basic strings you can</font>
+
+106
+00:04:40,229 --> 00:04:44,729
+use<font color="#E5E5E5"> variables as well so if we do this</font>
+
+107
+00:04:44,729 --> 00:04:46,080
+it's<font color="#E5E5E5"> pretty much</font><font color="#CCCCCC"> just going</font><font color="#E5E5E5"> to say what</font>
+
+108
+00:04:46,080 --> 00:04:48,930
+is the<font color="#CCCCCC"> length of to Namak fish anyone</font>
+
+109
+00:04:48,930 --> 00:04:50,370
+want to take<font color="#CCCCCC"> guests</font><font color="#E5E5E5"> before</font><font color="#CCCCCC"> I hit enter</font>
+
+110
+00:04:50,370 --> 00:04:54,449
+<font color="#E5E5E5">if you</font><font color="#CCCCCC"> guess</font><font color="#E5E5E5"> 11 you were correct</font><font color="#CCCCCC"> and</font><font color="#E5E5E5"> of</font>
+
+111
+00:04:54,449 --> 00:05:00,449
+course<font color="#E5E5E5"> this counts 1</font><font color="#CCCCCC"> 2 3 4 5 6 7</font><font color="#E5E5E5"> 8 9</font><font color="#CCCCCC"> 10</font>
+
+112
+00:05:00,449 --> 00:05:01,229
+11
+
+113
+00:05:01,229 --> 00:05:04,110
+so this blank space counts<font color="#E5E5E5"> is a</font>
+
+114
+00:05:04,110 --> 00:05:05,970
+character as well just something that
+
+115
+00:05:05,970 --> 00:05:08,819
+<font color="#E5E5E5">you may want</font><font color="#CCCCCC"> to remember so</font><font color="#E5E5E5"> that is it</font>
+
+116
+00:05:08,819 --> 00:05:10,020
+and the only other<font color="#CCCCCC"> thing I want to</font>
+
+117
+00:05:10,020 --> 00:05:12,270
+<font color="#CCCCCC">mention is</font><font color="#E5E5E5"> if you ever have questions</font>
+
+118
+00:05:12,270 --> 00:05:15,090
+<font color="#E5E5E5">about my tutorials if you ever have any</font>
+
+119
+00:05:15,090 --> 00:05:17,190
+code that's<font color="#E5E5E5"> not working</font><font color="#CCCCCC"> or if you just</font>
+
+120
+00:05:17,190 --> 00:05:19,560
+<font color="#E5E5E5">want the source code for my tutorials if</font>
+
+121
+00:05:19,560 --> 00:05:21,150
+you go to my<font color="#CCCCCC"> website</font>
+
+122
+00:05:21,150 --> 00:05:24,750
+Bucky's room<font color="#CCCCCC"> to org slash</font><font color="#E5E5E5"> forum I'm</font>
+
+123
+00:05:24,750 --> 00:05:26,669
+going to put<font color="#E5E5E5"> all the source</font><font color="#CCCCCC"> code in the</font>
+
+124
+00:05:26,669 --> 00:05:29,400
+Python section so click this again
+
+125
+00:05:29,400 --> 00:05:30,840
+here's the<font color="#E5E5E5"> source code for my last</font>
+
+126
+00:05:30,840 --> 00:05:33,740
+<font color="#E5E5E5">tutorial</font><font color="#CCCCCC"> and you can just copy it</font><font color="#E5E5E5"> and</font>
+
+127
+00:05:33,740 --> 00:05:36,840
+use it<font color="#CCCCCC"> if you</font><font color="#E5E5E5"> ever your</font><font color="#CCCCCC"> view so again if</font>
+
+128
+00:05:36,840 --> 00:05:38,310
+you<font color="#E5E5E5"> have any questions ask me there</font>
+
+129
+00:05:38,310 --> 00:05:39,870
+<font color="#E5E5E5">thank you guys</font><font color="#CCCCCC"> for watching and</font><font color="#E5E5E5"> well</font>
+
+130
+00:05:39,870 --> 00:00:00,000
+<font color="#E5E5E5">I'll see you</font><font color="#CCCCCC"> later</font>
+

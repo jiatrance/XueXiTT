@@ -1,0 +1,384 @@
+1
+00:00:00,060 --> 00:00:06,870
+what is going on everybody I'm pretty
+good Halloween boys for a homie coming
+
+2
+00:00:06,870 --> 00:00:11,400
+up I have to keep that voice around
+alright Bucky get off track already ten
+
+3
+00:00:11,400 --> 00:00:15,839
+seconds in so let's focus on the
+tutorial well I'm going to teach you
+
+4
+00:00:15,839 --> 00:00:20,550
+guys in this video is how to get the
+minimum the maximum of a dictionary and
+
+5
+00:00:20,550 --> 00:00:26,039
+also how to sort the entire dictionary
+so it's nice me and in order now you
+
+6
+00:00:26,039 --> 00:00:29,429
+guys may be thinking that there's some
+really easy function that's already
+built into Python to allow you do this
+
+7
+00:00:31,830 --> 00:00:36,780
+in a simple kind of way but
+unfortunately for us there is not and
+
+8
+00:00:36,780 --> 00:00:41,040
+it's not really intuitive to figure out
+at first so that's why I want to make
+
+9
+00:00:41,040 --> 00:00:44,430
+this tutorial it's going to save you
+guys a bunch of time in you probably
+
+10
+00:00:44,430 --> 00:00:50,840
+want to do this every time you work with
+dictionary so hohoho that wasn't me um
+
+11
+00:00:50,840 --> 00:00:55,530
+so I'm going to have to blame it one on
+someone else all right so the first
+
+12
+00:00:55,530 --> 00:01:01,410
+thing we need is a dictionary so I'm
+just going to make mine out of pretend
+stock prices that I'm just going to pull
+
+13
+00:01:03,270 --> 00:01:06,900
+off the top of my head and we'll say
+that we have like five companies or
+
+14
+00:01:06,900 --> 00:01:12,840
+something now I know the ticker symbol
+for Google is goog and this one uses
+
+15
+00:01:12,840 --> 00:01:17,909
+trades for like five hundred twenty
+bucks and just make something else I
+
+16
+00:01:17,909 --> 00:01:29,189
+know Facebook FB like 76 54 45 whatever
+Yahoo I do know this one to UM say this
+one is like 39 28 and what's another one
+
+17
+00:01:35,340 --> 00:01:42,960
+I know Amazon and Apple and that's it so
+Amazon that's not it AMZN on this one is
+actually pretty expensive around like
+
+18
+00:01:44,280 --> 00:01:52,350
+three hundred five dollars usually an
+Apple AAPL that's the last one I know
+
+19
+00:01:52,350 --> 00:01:57,990
+that is as far as my financial knowledge
+goes it's somewhere around 100 bucks so
+
+20
+00:01:57,990 --> 00:02:02,130
+this is a dictionary of course these
+aren't accurate values but it's good
+
+21
+00:02:02,130 --> 00:02:06,840
+enough for this example and this would
+resemble something like if we scraped
+
+22
+00:02:06,840 --> 00:02:13,200
+some website and pulled of the prices
+off or maybe someone emailed us a list
+of
+
+23
+00:02:13,770 --> 00:02:17,700
+stocks that they were interested in and
+wanted us to make some program for it
+this of course would be an example of
+
+24
+00:02:20,640 --> 00:02:26,430
+what they gave us it's not sorted in any
+kind of way not alphabetical order not
+
+25
+00:02:26,430 --> 00:02:32,220
+by price and of course it would be handy
+to have this nice and sorted so the
+
+26
+00:02:32,220 --> 00:02:37,560
+first thing I want to do is show you
+guys exactly we need to do to either get
+
+27
+00:02:37,560 --> 00:02:44,220
+the minimum get the maximum or just like
+sort it and print it out so first what
+
+28
+00:02:44,220 --> 00:02:48,930
+you need to do is actually use that zip
+function that we learned earlier and
+
+29
+00:02:48,930 --> 00:02:55,170
+what we're going to do is actually treat
+this as two lists a list of keys which
+is the name and the list of values now
+
+30
+00:02:58,200 --> 00:03:02,400
+if you guys don't know what zipping does
+um go watch my zip tutorial I made it
+
+31
+00:03:02,400 --> 00:03:08,010
+like two tutorials ago but a one
+sentence overview it takes two lists and
+it zips them together until a list of
+
+32
+00:03:10,080 --> 00:03:13,530
+tuples so now they're tied together and
+now we can do some pretty cool things to
+
+33
+00:03:13,530 --> 00:03:16,980
+them
+so again what we're going to do is we're
+
+34
+00:03:16,980 --> 00:03:22,770
+going to use that zip function and I
+want to mention this you can not just
+
+35
+00:03:22,770 --> 00:03:29,310
+sort a dictionary by default but you can
+sort a zipped list since it is a list
+
+36
+00:03:29,310 --> 00:03:34,440
+now whenever python sorts things it
+looks at the first element in that list
+
+37
+00:03:34,440 --> 00:03:41,160
+so remember whenever you zip a list you
+give it to lists which in this case is
+
+38
+00:03:41,160 --> 00:03:46,830
+the prices or the name and you time
+together so why am I saying this I just
+
+39
+00:03:46,830 --> 00:03:51,540
+said that well it's actually really
+important because the item or the list
+that you've thrown first is how it's
+
+40
+00:03:54,420 --> 00:03:59,340
+going to sort it by so if you throw in
+the prices first your result is going to
+
+41
+00:03:59,340 --> 00:04:03,180
+be sorted by prices if you throw in the
+names first is going to be sorted by
+
+42
+00:04:03,180 --> 00:04:07,440
+names in other words alphabetical order
+so let's say that we actually want to
+
+43
+00:04:07,440 --> 00:04:11,310
+sort these by the prices remember
+technically these are called the keys
+
+44
+00:04:11,310 --> 00:04:16,380
+and these are called the values so the
+first item we zip is going to be the
+
+45
+00:04:16,380 --> 00:04:22,770
+value so stocks values that's the first
+list were thrown in all the blue stuff
+
+46
+00:04:22,770 --> 00:04:26,110
+the second one is just going to be
+stocks
+
+47
+00:04:26,110 --> 00:04:34,599
+and keys right there so now what we have
+is pretty much a nice list that zipped
+
+48
+00:04:34,599 --> 00:04:39,729
+together and we can perform any function
+that we would on any other list so let's
+
+49
+00:04:39,729 --> 00:04:44,919
+just go ahead and get the minimum value
+of this list by taking this and thrown
+
+50
+00:04:44,919 --> 00:04:50,949
+it in men and there we go
+so what this is going to do is it's
+
+51
+00:04:50,949 --> 00:04:56,860
+going to get the minimum value of this
+nice zip to list now actually just want
+
+52
+00:04:56,860 --> 00:05:01,990
+to print out that value so that is how
+we're constructing that and I know I
+
+53
+00:05:01,990 --> 00:05:06,129
+kind of build it inside out but I just
+wanted to break it down you know not
+
+54
+00:05:06,129 --> 00:05:10,870
+kind of like rap game break it down but
+yeah that's how it works so let's run
+
+55
+00:05:10,870 --> 00:05:18,940
+this and check it out so again it gives
+us thirty nine twenty-eight yahoo now
+
+56
+00:05:18,940 --> 00:05:24,939
+again the thing I want to point out is
+that even though the zip list consists
+
+57
+00:05:24,939 --> 00:05:31,449
+of two values it's sorted it or gave us
+the minimum price because the value of a
+
+58
+00:05:31,449 --> 00:05:37,090
+dictionary is the second element so
+that's why it sipped together got the
+minimum and it printed it out now of
+
+59
+00:05:39,849 --> 00:05:46,449
+course the max is just really easy
+change min to max run that bad boy boom
+
+60
+00:05:46,449 --> 00:05:53,110
+roast the next thing you know you got
+the max price pretty freaking sweet now
+
+61
+00:05:53,110 --> 00:05:57,250
+of course if you want this sorted you
+guys want like the third easiest thing
+
+62
+00:05:57,250 --> 00:06:04,240
+in the world change that max to sorted
+and now let's go ahead and run this Oh
+
+63
+00:06:04,240 --> 00:06:11,529
+mg Bucky check it out you just sorted an
+entire dictionary really really easily
+
+64
+00:06:11,529 --> 00:06:17,139
+so again now you can see kind of how
+this entire um as if the list is
+
+65
+00:06:17,139 --> 00:06:24,849
+constructed by a set of values in keys
+and of course the reason that it's
+
+66
+00:06:24,849 --> 00:06:29,259
+sorting by the price is because we threw
+values and first so it goes from minimum
+
+67
+00:06:29,259 --> 00:06:34,990
+to maximum Yahoo being the cheapest and
+Google being the most expensive if we
+
+68
+00:06:34,990 --> 00:06:39,550
+ever wanted to sort it by the name all
+we have to do is change this the key
+
+69
+00:06:39,550 --> 00:06:44,710
+these and this the values and what this
+is going to do is it's going to zip it
+together a little bit differently
+
+70
+00:06:46,000 --> 00:06:54,070
+flip-flop the two around but you still
+get a nice sorted dictionary now in
+
+71
+00:06:54,070 --> 00:06:58,510
+alphabetical order so you guys are now
+experts on how to get the minimum
+
+72
+00:06:58,510 --> 00:07:02,680
+maximum and make a nice sorted
+dictionary check this out it's pretty
+
+73
+00:07:02,680 --> 00:07:07,810
+much all one simple line of code Python
+would be really nice if they have
+
+74
+00:07:07,810 --> 00:07:11,860
+built-in way but you know it was easy
+enough so thank you guys for watching
+
+75
+00:07:11,860 --> 00:07:15,780
+and I'll see you guys in the next video

@@ -1,0 +1,7180 @@
+1
+00:00:00,570 --> 00:00:06,649
+ [音乐] 
+
+2
+00:00:06,649 --> 00:00:09,059
+嘿， <font color="#CCCCCC">欢迎来到我的家伙 </font>
+
+3
+00:00:09,059 --> 00:00:11,519
+绝对<font color="#CCCCCC">初学者的 CSS速成课程</font>
+
+4
+00:00:11,519 --> 00:00:14,250
+ <font color="#E5E5E5">这是我的HTML崩溃的延续 </font>
+
+5
+00:00:14,250 --> 00:00:16,139
+在这个视频中，我将<font color="#E5E5E5">尝试 </font>
+
+6
+00:00:16,139 --> 00:00:18,210
+并尽可能多地填写有关CSS的信息
+
+7
+00:00:18,210 --> 00:00:20,820
+ <font color="#E5E5E5">我可以从头开始和 </font><font color="#CCCCCC">你一起开始 </font>
+
+8
+00:00:20,820 --> 00:00:22,230
+ <font color="#E5E5E5">不需要 </font><font color="#CCCCCC">任何 </font><font color="#E5E5E5">经验可言 </font>
+
+9
+00:00:22,230 --> 00:00:25,130
+无论如何使用CSS <font color="#E5E5E5">来跟随 </font>
+
+10
+00:00:25,130 --> 00:00:27,480
+ <font color="#E5E5E5">好吧， </font><font color="#CCCCCC">在 </font><font color="#E5E5E5">我们得到 </font><font color="#CCCCCC">之前 </font><font color="#E5E5E5">这么几 </font><font color="#CCCCCC">件事 </font>
+
+11
+00:00:27,480 --> 00:00:29,039
+开始<font color="#CCCCCC">我想强调一下这个指南 </font>
+
+12
+00:00:29,039 --> 00:00:30,840
+适合<font color="#CCCCCC">初学者和 </font><font color="#E5E5E5">不适合的</font><font color="#CCCCCC">初学者 </font>
+
+13
+00:00:30,840 --> 00:00:33,510
+我真的<font color="#E5E5E5">对CSS一无所知 </font>
+
+14
+00:00:33,510 --> 00:00:36,030
+继续我的<font color="#E5E5E5">HTML速成课程 </font>
+
+15
+00:00:36,030 --> 00:00:38,040
+ <font color="#E5E5E5">YouTube，除非你 </font><font color="#CCCCCC">非常 </font><font color="#E5E5E5">了解 </font><font color="#CCCCCC">HTML </font>
+
+16
+00:00:38,040 --> 00:00:40,050
+好吧， <font color="#CCCCCC">我建议 </font><font color="#E5E5E5">回去 </font>
+
+17
+00:00:40,050 --> 00:00:42,059
+ <font color="#E5E5E5">先观看视频 </font><font color="#CCCCCC">和 </font><font color="#E5E5E5">链接 </font>
+
+18
+00:00:42,059 --> 00:00:44,489
+ <font color="#CCCCCC">现在正好</font><font color="#E5E5E5">在描述中 </font>
+
+19
+00:00:44,489 --> 00:00:45,899
+重要的是<font color="#E5E5E5">要知道 </font><font color="#CCCCCC">， </font><font color="#E5E5E5">当 </font><font color="#CCCCCC">涉及到 </font>
+
+20
+00:00:45,899 --> 00:00:48,239
+ CSS它<font color="#CCCCCC">比HTML </font><font color="#E5E5E5">更自由 </font>
+
+21
+00:00:48,239 --> 00:00:50,010
+这意味着有很多<font color="#E5E5E5">方法 </font>
+
+22
+00:00:50,010 --> 00:00:52,590
+ <font color="#E5E5E5">做</font><font color="#CCCCCC">同样的事情在HTML你 </font><font color="#E5E5E5">有 </font>
+
+23
+00:00:52,590 --> 00:00:54,300
+ <font color="#CCCCCC">用于创建的特定标记</font>
+
+24
+00:00:54,300 --> 00:00:56,940
+ CSS用于设计时的文档
+
+25
+00:00:56,940 --> 00:00:58,710
+和布局，所以它更具<font color="#E5E5E5">艺术性 </font>
+
+26
+00:00:58,710 --> 00:01:01,050
+ <font color="#CCCCCC">许多高级Web开发人员仍在 </font>
+
+27
+00:01:01,050 --> 00:01:02,910
+与CSS斗争， <font color="#CCCCCC">因为它更多 </font>
+
+28
+00:01:02,910 --> 00:01:05,700
+ <font color="#E5E5E5">然而当你是右脑时 </font>
+
+29
+00:01:05,700 --> 00:01:07,680
+ <font color="#CCCCCC">本</font><font color="#E5E5E5">指南你会 </font><font color="#CCCCCC">沿着以下</font>
+
+30
+00:01:07,680 --> 00:01:08,939
+注意我们就是<font color="#E5E5E5">这样 </font>
+
+31
+00:01:08,939 --> 00:01:11,490
+看<font color="#E5E5E5">CSS语法的不是那么多 </font>
+
+32
+00:01:11,490 --> 00:01:13,560
+创造性<font color="#E5E5E5">和艺术能力或 </font>
+
+33
+00:01:13,560 --> 00:01:15,330
+造型趋势和类似的东西
+
+34
+00:01:15,330 --> 00:01:18,020
+ <font color="#CCCCCC">好吧，希望 </font><font color="#E5E5E5">这 </font><font color="#CCCCCC">是有道理的 </font>
+
+35
+00:01:18,020 --> 00:01:21,390
+我们也不会<font color="#E5E5E5">覆盖更多 </font>
+
+36
+00:01:21,390 --> 00:01:23,340
+高级主题， <font color="#CCCCCC">如flexbox和 </font>
+
+37
+00:01:23,340 --> 00:01:26,850
+动画<font color="#E5E5E5">弹性框的css3布局模式 </font>
+
+38
+00:01:26,850 --> 00:01:29,490
+它会<font color="#E5E5E5">像对齐元素一样 </font>
+
+39
+00:01:29,490 --> 00:01:31,110
+很<font color="#E5E5E5">容易， </font><font color="#CCCCCC">但我认为也是如此 </font>
+
+40
+00:01:31,110 --> 00:01:33,329
+ <font color="#CCCCCC">这个视频的高级加上 </font><font color="#E5E5E5">我确实有一个 </font>
+
+41
+00:01:33,329 --> 00:01:35,909
+ <font color="#E5E5E5">在20分钟内称为flexbox的视频</font>
+
+42
+00:01:35,909 --> 00:01:37,950
+ <font color="#CCCCCC">如果你愿意，可以 </font><font color="#E5E5E5">教你所有 </font><font color="#CCCCCC">这些 </font>
+
+43
+00:01:37,950 --> 00:01:39,240
+ <font color="#E5E5E5">要了解有关flex的更多信息， </font><font color="#CCCCCC">我建议 </font>
+
+44
+00:01:39,240 --> 00:01:41,640
+ <font color="#E5E5E5">看着那毕竟</font><font color="#CCCCCC">这 </font><font color="#E5E5E5">正确的 </font><font color="#CCCCCC">，我 </font>
+
+45
+00:01:41,640 --> 00:01:44,100
+将<font color="#CCCCCC">做一个先进的css3视频 </font>
+
+46
+00:01:44,100 --> 00:01:46,020
+很快<font color="#CCCCCC">，这将包括 </font><font color="#E5E5E5">一些事情 </font>
+
+47
+00:01:46,020 --> 00:01:49,259
+像<font color="#CCCCCC">你知道的动画和过渡</font>
+
+48
+00:01:49,259 --> 00:01:52,280
+所有的伪元素都是这样的
+
+49
+00:01:52,280 --> 00:01:55,979
+ <font color="#E5E5E5">好吧所以我们无法涵盖所有​​内容 </font>
+
+50
+00:01:55,979 --> 00:01:58,560
+本<font color="#E5E5E5">指南这是 </font><font color="#CCCCCC">一个速成课程，但我 </font>
+
+51
+00:01:58,560 --> 00:02:00,630
+将覆盖<font color="#E5E5E5">最重要的和 </font>
+
+52
+00:02:00,630 --> 00:02:04,619
+ CSS的有用部分<font color="#CCCCCC">好吧，让我们来吧 </font>
+
+53
+00:02:04,619 --> 00:02:06,030
+ <font color="#CCCCCC">谈什么CSS一</font><font color="#E5E5E5">点点 </font>
+
+54
+00:02:06,030 --> 00:02:08,038
+ <font color="#E5E5E5">实际上它代表级联 </font>
+
+55
+00:02:08,038 --> 00:02:11,730
+样式<font color="#CCCCCC">表和HTML一样，它不是 </font>
+
+56
+00:02:11,730 --> 00:02:12,940
+ <font color="#E5E5E5">编程 </font><font color="#CCCCCC">语言 </font>
+
+57
+00:02:12,940 --> 00:02:15,220
+它实际上是样式表<font color="#CCCCCC">或 </font><font color="#E5E5E5">样式 </font>
+
+58
+00:02:15,220 --> 00:02:17,440
+它用于网站<font color="#E5E5E5">布局的语言</font>
+
+59
+00:02:17,440 --> 00:02:20,110
+和设计<font color="#E5E5E5">它和它一起使用 </font>
+
+60
+00:02:20,110 --> 00:02:22,480
+ HTML现在它也<font color="#E5E5E5">可以与 </font><font color="#CCCCCC">其他人 </font><font color="#E5E5E5">一起使用 </font>
+
+61
+00:02:22,480 --> 00:02:26,650
+像XHTML <font color="#E5E5E5">XML SVG这样的模型， 但它是 </font>
+
+62
+00:02:26,650 --> 00:02:30,790
+现在最常用于HTML 
+
+63
+00:02:30,790 --> 00:02:33,190
+默认CSS没有任何<font color="#CCCCCC">逻辑 </font>
+
+64
+00:02:33,190 --> 00:02:34,600
+编程语言就是这样
+
+65
+00:02:34,600 --> 00:02:36,640
+ <font color="#E5E5E5">但是那里有严格的表现</font>
+
+66
+00:02:36,640 --> 00:02:38,680
+ <font color="#E5E5E5">是sass等技术 </font>
+
+67
+00:02:38,680 --> 00:02:40,840
+ <font color="#E5E5E5">这可以让 </font><font color="#CCCCCC">你 </font><font color="#E5E5E5">扩展 </font>
+
+68
+00:02:40,840 --> 00:02:43,120
+ <font color="#E5E5E5">CSS的功能， 并 </font><font color="#CCCCCC">允许您 </font>
+
+69
+00:02:43,120 --> 00:02:44,740
+ <font color="#E5E5E5">使用像变量和 </font>
+
+70
+00:02:44,740 --> 00:02:47,110
+条件， <font color="#CCCCCC">但这超出了这个范围 </font>
+
+71
+00:02:47,110 --> 00:02:49,330
+ <font color="#CCCCCC">当然哦，只要花花公子 </font><font color="#E5E5E5">我希望 </font><font color="#CCCCCC">让 </font>
+
+72
+00:02:49,330 --> 00:02:51,190
+你知道<font color="#CCCCCC">那是实际的 </font>
+
+73
+00:02:51,190 --> 00:02:53,770
+事儿<font color="#CCCCCC">没事儿</font><font color="#E5E5E5">我</font><font color="#CCCCCC">对 萨斯视频 </font>
+
+74
+00:02:53,770 --> 00:02:55,330
+ <font color="#CCCCCC">如果你是的话，我的频道就少了 </font>
+
+75
+00:02:55,330 --> 00:02:58,270
+ <font color="#E5E5E5">感兴趣所以你需要得到的 </font>
+
+76
+00:02:58,270 --> 00:03:00,730
+ <font color="#CCCCCC">就像在HTML崩溃中一样 </font><font color="#E5E5E5">开始 </font>
+
+77
+00:03:00,730 --> 00:03:02,620
+当然我们<font color="#CCCCCC">只需要一个文本 </font><font color="#E5E5E5">编辑器和一个 </font>
+
+78
+00:03:02,620 --> 00:03:04,810
+ <font color="#E5E5E5">浏览器我们将使用谷歌浏览器 </font>
+
+79
+00:03:04,810 --> 00:03:06,850
+我们的浏览器和<font color="#E5E5E5">崇高文本作为 </font>
+
+80
+00:03:06,850 --> 00:03:09,370
+ <font color="#E5E5E5">编辑 </font><font color="#CCCCCC">我经历 </font><font color="#E5E5E5">了安装 </font>
+
+81
+00:03:09,370 --> 00:03:11,500
+在HTML崩溃中返回的sublime文本
+
+82
+00:03:11,500 --> 00:03:13,090
+当然<font color="#E5E5E5">所以我不打算再这样做 </font>
+
+83
+00:03:13,090 --> 00:03:15,190
+你可以<font color="#CCCCCC">使用sublime或 </font><font color="#E5E5E5">你可以使用 </font>
+
+84
+00:03:15,190 --> 00:03:17,740
+ <font color="#CCCCCC">视觉工作室中的 </font><font color="#E5E5E5">其他 </font><font color="#CCCCCC">原子 </font>
+
+85
+00:03:17,740 --> 00:03:19,960
+代码是很棒的编辑，但<font color="#CCCCCC">我知道 </font>
+
+86
+00:03:19,960 --> 00:03:21,820
+ <font color="#E5E5E5">认为他们对此有点过分 </font>
+
+87
+00:03:21,820 --> 00:03:24,400
+ <font color="#E5E5E5">特别是视频 </font><font color="#CCCCCC">好的记事本加 </font>
+
+88
+00:03:24,400 --> 00:03:26,680
+加和<font color="#CCCCCC">文本伙伴也是 </font><font color="#E5E5E5">一些非常 </font>
+
+89
+00:03:26,680 --> 00:03:30,790
+ <font color="#E5E5E5">简单而且 </font><font color="#CCCCCC">非常轻便的解决方案 </font>
+
+90
+00:03:30,790 --> 00:03:32,650
+伙计们， <font color="#E5E5E5">所以我们要继续 </font><font color="#CCCCCC">前进 </font>
+
+91
+00:03:32,650 --> 00:03:34,660
+我开始<font color="#E5E5E5">让我们创建一个新文件夹 </font>
+
+92
+00:03:34,660 --> 00:03:35,950
+ <font color="#CCCCCC">要把它放在我的桌面上， </font><font color="#E5E5E5">我们就是 </font>
+
+93
+00:03:35,950 --> 00:03:40,440
+只是<font color="#E5E5E5">要</font><font color="#CCCCCC">调用这个CSS速成班 </font>
+
+94
+00:03:40,440 --> 00:03:43,060
+ <font color="#CCCCCC">好吧， </font><font color="#E5E5E5">现在将有两个 </font>
+
+95
+00:03:43,060 --> 00:03:44,260
+的事情，我们打算<font color="#E5E5E5">先办</font>
+
+96
+00:03:44,260 --> 00:03:45,610
+我们打算<font color="#E5E5E5">像骗子一样建造 </font>
+
+97
+00:03:45,610 --> 00:03:47,710
+就像我们<font color="#E5E5E5">在HTML速成课程中所做的那样</font>
+
+98
+00:03:47,710 --> 00:03:50,140
+ <font color="#E5E5E5">它不是 </font><font color="#CCCCCC">真正 </font><font color="#E5E5E5">放在一起的网站 </font>
+
+99
+00:03:50,140 --> 00:03:51,940
+或类似的东西<font color="#E5E5E5">，这 </font><font color="#CCCCCC">只是一种方式 </font>
+
+100
+00:03:51,940 --> 00:03:54,850
+ <font color="#CCCCCC">我们 </font><font color="#E5E5E5">学习</font><font color="#CCCCCC">它</font><font color="#E5E5E5">是 我们添加 一个方法 </font>
+
+101
+00:03:54,850 --> 00:03:57,340
+ <font color="#E5E5E5">类和ID，然后通过所有 </font>
+
+102
+00:03:57,340 --> 00:03:59,710
+特定的造型规则和东西
+
+103
+00:03:59,710 --> 00:04:02,170
+ CSS并在那之后我们<font color="#CCCCCC">要 </font>
+
+104
+00:04:02,170 --> 00:04:05,020
+实际上<font color="#E5E5E5">我实际上是不会的 </font>
+
+105
+00:04:05,020 --> 00:04:06,790
+真的称它为<font color="#CCCCCC">网站，但我 </font><font color="#E5E5E5">想是一个 </font>
+
+106
+00:04:06,790 --> 00:04:09,340
+ <font color="#E5E5E5">使用html5的网站</font><font color="#CCCCCC">主页 </font>
+
+107
+00:04:09,340 --> 00:04:11,050
+语义标记， <font color="#E5E5E5">我告诉 </font><font color="#CCCCCC">你</font><font color="#E5E5E5">如何 </font>
+
+108
+00:04:11,050 --> 00:04:13,840
+漂浮的东西， <font color="#E5E5E5">只是创建一个基本的 </font>
+
+109
+00:04:13,840 --> 00:04:16,329
+基本<font color="#CCCCCC">网页 </font><font color="#E5E5E5">好了，让我们走吧 </font>
+
+110
+00:04:16,329 --> 00:04:18,010
+提前<font color="#E5E5E5">并 </font><font color="#CCCCCC">在这里 创建 </font><font color="#E5E5E5">一个新文件夹 </font>
+
+111
+00:04:18,010 --> 00:04:21,970
+ <font color="#CCCCCC">而我 </font><font color="#E5E5E5">打算 </font><font color="#CCCCCC">称 </font><font color="#E5E5E5">这个CSS作弊 </font>
+
+112
+00:04:21,970 --> 00:04:23,260
+片
+
+113
+00:04:23,260 --> 00:04:24,880
+ <font color="#E5E5E5">好的，这就是我们要做的 </font>
+
+114
+00:04:24,880 --> 00:04:26,980
+先工作<font color="#E5E5E5">但我也是 </font>
+
+115
+00:04:26,980 --> 00:04:29,530
+ <font color="#E5E5E5">要创建 </font><font color="#CCCCCC">一个 名为my 的 </font><font color="#E5E5E5">文件夹 </font>
+
+116
+00:04:29,530 --> 00:04:31,270
+网站，这<font color="#E5E5E5">就是我们将要 </font><font color="#CCCCCC">工作的 </font>
+
+117
+00:04:31,270 --> 00:04:33,250
+现在我们要去<font color="#E5E5E5">了 </font>
+
+118
+00:04:33,250 --> 00:04:35,140
+在作弊表上工作， <font color="#E5E5E5">让我们进去吧 </font>
+
+119
+00:04:35,140 --> 00:04:40,440
+ <font color="#E5E5E5">让我们创建我们的 </font><font color="#CCCCCC">index.html文件 </font>
+
+120
+00:04:42,180 --> 00:04:44,530
+ <font color="#CCCCCC">好吧 </font><font color="#E5E5E5">，然后我要做的是 </font>
+
+121
+00:04:44,530 --> 00:04:46,060
+我<font color="#E5E5E5">将 </font><font color="#CCCCCC">在 </font><font color="#E5E5E5">崇高中 </font><font color="#CCCCCC">打开它 </font>
+
+122
+00:04:46,060 --> 00:04:47,950
+ <font color="#CCCCCC">我实际上打算 </font><font color="#E5E5E5">开放 </font>
+
+123
+00:04:47,950 --> 00:04:50,410
+崇高，然后我要去<font color="#CCCCCC">归档 </font>
+
+124
+00:04:50,410 --> 00:04:54,400
+打开文件夹，我们要去<font color="#CCCCCC">或 </font>
+
+125
+00:04:54,400 --> 00:04:58,870
+是<font color="#CCCCCC">我的桌面CSS速成课程吗？ </font>
+
+126
+00:04:58,870 --> 00:05:00,130
+ <font color="#E5E5E5">要打开 </font><font color="#CCCCCC">了 </font><font color="#E5E5E5">， </font><font color="#CCCCCC">然后你可以 </font>
+
+127
+00:05:00,130 --> 00:05:02,770
+看到我这两个文件夹<font color="#CCCCCC">都没问题 </font>
+
+128
+00:05:02,770 --> 00:05:04,660
+所以我们<font color="#E5E5E5">将这两者都视为 </font>
+
+129
+00:05:04,660 --> 00:05:06,370
+不同的项目，所以<font color="#CCCCCC">我们</font><font color="#E5E5E5">已经开始 </font>
+
+130
+00:05:06,370 --> 00:05:09,220
+ <font color="#E5E5E5">CSS备忘单 </font><font color="#CCCCCC">让我们打开吧 </font>
+
+131
+00:05:09,220 --> 00:05:11,710
+ <font color="#CCCCCC">我们可以说 index.html 和崇高 </font>
+
+132
+00:05:11,710 --> 00:05:13,600
+ HTML标签，这<font color="#E5E5E5">将给我们一个 </font>
+
+133
+00:05:13,600 --> 00:05:16,150
+基本<font color="#E5E5E5">结构 </font><font color="#CCCCCC">，我完成 </font><font color="#E5E5E5">了这一切 </font>
+
+134
+00:05:16,150 --> 00:05:18,070
+在HTML速成课程中，如果你不这样做
+
+135
+00:05:18,070 --> 00:05:19,780
+了解<font color="#E5E5E5">这 </font><font color="#CCCCCC">是什么请 </font><font color="#E5E5E5">回去 </font>
+
+136
+00:05:19,780 --> 00:05:22,420
+并<font color="#CCCCCC">观看该视频以 </font><font color="#E5E5E5">获得标题 </font>
+
+137
+00:05:22,420 --> 00:05:27,340
+让我们说CSS备忘单<font color="#CCCCCC">好吧 </font>
+
+138
+00:05:27,340 --> 00:05:29,860
+ <font color="#E5E5E5">在我们写任何我想要的东西之前 </font>
+
+139
+00:05:29,860 --> 00:05:31,510
+去看看<font color="#CCCCCC">不同的类型 </font><font color="#E5E5E5">或 </font>
+
+140
+00:05:31,510 --> 00:05:34,120
+不同的<font color="#E5E5E5">使用CSS的方法</font>
+
+141
+00:05:34,120 --> 00:05:36,520
+有<font color="#E5E5E5">添加</font><font color="#CCCCCC">的</font><font color="#E5E5E5"> CSS的 </font><font color="#CCCCCC">方式主要有三种 </font>
+
+142
+00:05:36,520 --> 00:05:39,250
+一个<font color="#E5E5E5">HTML文件，内联内部和 </font>
+
+143
+00:05:39,250 --> 00:05:41,080
+外部<font color="#E5E5E5">我会告诉你 </font><font color="#CCCCCC">一个 </font>
+
+144
+00:05:41,080 --> 00:05:42,670
+ <font color="#E5E5E5">三个例子，但让我们谈谈 </font>
+
+145
+00:05:42,670 --> 00:05:45,250
+ <font color="#E5E5E5">关于差异首先是内联CSS </font>
+
+146
+00:05:45,250 --> 00:05:47,050
+意味着你要添加<font color="#E5E5E5">一种风格 </font>
+
+147
+00:05:47,050 --> 00:05:50,230
+ <font color="#E5E5E5">属性为实际的HTML标记 </font>
+
+148
+00:05:50,230 --> 00:05:52,120
+ <font color="#E5E5E5">就像你会像任何 </font><font color="#CCCCCC">其他属性一样 </font>
+
+149
+00:05:52,120 --> 00:05:54,940
+标题或href <font color="#E5E5E5">这不是你想要的 </font>
+
+150
+00:05:54,940 --> 00:05:56,950
+ <font color="#E5E5E5">这样做是可怕的做法 </font>
+
+151
+00:05:56,950 --> 00:05:58,720
+你永远不会看到<font color="#E5E5E5">专业的网络 </font>
+
+152
+00:05:58,720 --> 00:06:01,000
+开发人员做这个<font color="#E5E5E5">关键规则之一 </font>
+
+153
+00:06:01,000 --> 00:06:03,190
+ <font color="#E5E5E5">跟随开发人员或 </font><font color="#CCCCCC">程序员 </font>
+
+154
+00:06:03,190 --> 00:06:05,200
+ <font color="#E5E5E5">用任何语言来保持 </font>
+
+155
+00:06:05,200 --> 00:06:07,210
+介绍<font color="#E5E5E5">的功能</font><font color="#CCCCCC">和 </font>
+
+156
+00:06:07,210 --> 00:06:09,430
+造型完全分开或同样多
+
+157
+00:06:09,430 --> 00:06:12,520
+ <font color="#CCCCCC">尽可能使用内联CSS混合 </font>
+
+158
+00:06:12,520 --> 00:06:15,070
+这个演示<font color="#E5E5E5">与造型和它的 </font>
+
+159
+00:06:15,070 --> 00:06:17,080
+没有效率， <font color="#CCCCCC">它不可 </font><font color="#E5E5E5">扩展，它是 </font>
+
+160
+00:06:17,080 --> 00:06:20,500
+只是不实用的<font color="#E5E5E5">内联CSS指的是 </font>
+
+161
+00:06:20,500 --> 00:06:23,050
+ <font color="#E5E5E5">在你的头脑中使用样式标签 </font>
+
+162
+00:06:23,050 --> 00:06:25,360
+ <font color="#E5E5E5">HTML页面，我们确实做 </font><font color="#CCCCCC">的 </font><font color="#E5E5E5">这 </font><font color="#CCCCCC">一点 </font>
+
+163
+00:06:25,360 --> 00:06:27,640
+ <font color="#E5E5E5">在最后的HTML速成课程中 </font>
+
+164
+00:06:27,640 --> 00:06:29,290
+这<font color="#E5E5E5">比 </font><font color="#CCCCCC">一个好多 </font><font color="#E5E5E5">了 </font>
+
+165
+00:06:29,290 --> 00:06:31,390
+ <font color="#CCCCCC">使用内联 </font><font color="#E5E5E5">CSS，因为它 </font>
+
+166
+00:06:31,390 --> 00:06:34,180
+将风格与<font color="#E5E5E5">演示分开但是 </font>
+
+167
+00:06:34,180 --> 00:06:36,700
+它仍然不是<font color="#E5E5E5">太建议 </font><font color="#CCCCCC">这个 </font><font color="#E5E5E5">方法 </font>
+
+168
+00:06:36,700 --> 00:06:38,650
+使得它使<font color="#CCCCCC">你</font><font color="#E5E5E5">是 在 </font><font color="#CCCCCC">CSS </font>
+
+169
+00:06:38,650 --> 00:06:40,180
+写作<font color="#E5E5E5">只能用于此 </font>
+
+170
+00:06:40,180 --> 00:06:42,700
+特别是<font color="#CCCCCC">HTML文件也可以 </font>
+
+171
+00:06:42,700 --> 00:06:44,860
+ <font color="#CCCCCC">你 </font><font color="#E5E5E5">希望增加HTML文件 </font>
+
+172
+00:06:44,860 --> 00:06:46,690
+保持一样苗条尽可能<font color="#E5E5E5">只用</font>
+
+173
+00:06:46,690 --> 00:06:49,600
+ <font color="#CCCCCC">HTML </font><font color="#E5E5E5">中的第三个选项是 最好 </font><font color="#CCCCCC">的 </font><font color="#E5E5E5">， </font>
+
+174
+00:06:49,600 --> 00:06:50,890
+最<font color="#E5E5E5">常用的，也就是使用 </font>
+
+175
+00:06:50,890 --> 00:06:53,800
+ <font color="#CCCCCC">您可以创建的外部</font><font color="#E5E5E5">CSS </font><font color="#CCCCCC">样式表 </font>
+
+176
+00:06:53,800 --> 00:06:56,410
+带有CSS扩展名的单独文件
+
+177
+00:06:56,410 --> 00:06:58,510
+然后<font color="#E5E5E5">你可以简单地链接该文件 </font>
+
+178
+00:06:58,510 --> 00:07:01,180
+无论你想要什么HTML文件
+
+179
+00:07:01,180 --> 00:07:04,000
+ <font color="#E5E5E5">你想要使用那个CSS </font>
+
+180
+00:07:04,000 --> 00:07:06,490
+ <font color="#CCCCCC">所以我们 </font><font color="#E5E5E5">将</font><font color="#CCCCCC">要 </font><font color="#E5E5E5">使用的外部 </font>
+
+181
+00:07:06,490 --> 00:07:09,070
+方法，这<font color="#E5E5E5">在 </font><font color="#CCCCCC">很大程度上 </font>
+
+182
+00:07:09,070 --> 00:07:13,390
+建议所有的时间<font color="#CCCCCC">好吗 </font><font color="#E5E5E5">这样 </font><font color="#CCCCCC">的家伙 </font>
+
+183
+00:07:13,390 --> 00:07:15,640
+让我们<font color="#CCCCCC">继续 </font><font color="#E5E5E5">开放我们的指数 </font>
+
+184
+00:07:15,640 --> 00:07:18,490
+ <font color="#CCCCCC">我们的浏览器上的文件没问题，所以我们有 </font>
+
+185
+00:07:18,490 --> 00:07:20,410
+我的CSS备忘单我要去
+
+186
+00:07:20,410 --> 00:07:22,540
+ <font color="#E5E5E5">打开 </font><font color="#CCCCCC">index.html这 </font><font color="#E5E5E5">将是 </font>
+
+187
+00:07:22,540 --> 00:07:23,940
+完全空白
+
+188
+00:07:23,940 --> 00:07:26,590
+实际上<font color="#E5E5E5">标题 </font><font color="#CCCCCC">我没有保存这个 </font>
+
+189
+00:07:26,590 --> 00:07:29,050
+ <font color="#E5E5E5">现在我没有保存，所以如果我重装 </font>
+
+190
+00:07:29,050 --> 00:07:30,910
+现在你将看到CSS中的骗子表
+
+191
+00:07:30,910 --> 00:07:33,520
+标题， <font color="#CCCCCC">如果我做一个ctrl你会看到 </font>
+
+192
+00:07:33,520 --> 00:07:35,320
+ <font color="#E5E5E5">与我们匹配的源代码</font>
+
+193
+00:07:35,320 --> 00:07:38,470
+在<font color="#CCCCCC">这里 </font><font color="#E5E5E5">好吧 </font><font color="#CCCCCC">，让我们走吧 </font>
+
+194
+00:07:38,470 --> 00:07:40,360
+ <font color="#CCCCCC">提前 </font><font color="#E5E5E5">看看不同的方式 </font>
+
+195
+00:07:40,360 --> 00:07:43,120
+实现CSS所以我要放一个h1 
+
+196
+00:07:43,120 --> 00:07:45,990
+在这里<font color="#E5E5E5">，我们只是 </font><font color="#CCCCCC">想说 </font>
+
+197
+00:07:45,990 --> 00:07:48,940
+世界你好<font color="#CCCCCC">没事</font><font color="#E5E5E5">所以它很简单 </font>
+
+198
+00:07:48,940 --> 00:07:50,770
+如果我保存并重新加载它将会发生
+
+199
+00:07:50,770 --> 00:07:52,780
+ <font color="#E5E5E5">在屏幕上显示出来</font><font color="#CCCCCC">，现在让我们说我 </font>
+
+200
+00:07:52,780 --> 00:07:54,640
+想要<font color="#E5E5E5">改变它的颜色 </font>
+
+201
+00:07:54,640 --> 00:07:57,550
+ <font color="#CCCCCC">现在没事了 </font><font color="#E5E5E5">， </font><font color="#CCCCCC">我 </font><font color="#E5E5E5">要 </font><font color="#CCCCCC">第 </font><font color="#E5E5E5">一种方式 </font>
+
+202
+00:07:57,550 --> 00:08:00,490
+演示<font color="#E5E5E5">是内联CSS </font><font color="#CCCCCC">所以是 </font>
+
+203
+00:08:00,490 --> 00:08:03,910
+使用样式属性<font color="#CCCCCC">然后 </font><font color="#E5E5E5">执行 </font>
+
+204
+00:08:03,910 --> 00:08:06,400
+ <font color="#E5E5E5">实际的CSS会说颜色 </font>
+
+205
+00:08:06,400 --> 00:08:10,210
+ <font color="#CCCCCC">现在阅读并保存好，确实有效 </font>
+
+206
+00:08:10,210 --> 00:08:12,669
+但这<font color="#E5E5E5">是一种可怕的可怕方式 </font>
+
+207
+00:08:12,669 --> 00:08:16,419
+ <font color="#E5E5E5">实现这个 </font><font color="#CCCCCC">没关系，因为 </font><font color="#E5E5E5">我们是 </font>
+
+208
+00:08:16,419 --> 00:08:18,490
+混合<font color="#E5E5E5">刚才的演示文稿</font>
+
+209
+00:08:18,490 --> 00:08:21,460
+ h1和带有<font color="#E5E5E5">样式的文本或 </font>
+
+210
+00:08:21,460 --> 00:08:24,040
+与本红色的CSS <font color="#E5E5E5">和 </font>
+
+211
+00:08:24,040 --> 00:08:25,360
+我们不希望我们想<font color="#CCCCCC">保留这些 </font>
+
+212
+00:08:25,360 --> 00:08:27,760
+分开<font color="#CCCCCC">好吧， </font><font color="#E5E5E5">这是第一种方式 </font>
+
+213
+00:08:27,760 --> 00:08:30,640
+ <font color="#CCCCCC">我们现在 </font><font color="#E5E5E5">不想 用 </font><font color="#CCCCCC">这种方式来 </font>
+
+214
+00:08:30,640 --> 00:08:34,390
+不要使用我们需要的内联样式
+
+215
+00:08:34,390 --> 00:08:36,400
+需要<font color="#E5E5E5">一种方法来抓住 </font><font color="#CCCCCC">这个 </font><font color="#E5E5E5">，我们可以 </font>
+
+216
+00:08:36,400 --> 00:08:39,339
+实际使用<font color="#CCCCCC">的元件本身有</font><font color="#E5E5E5">很多 </font>
+
+217
+00:08:39,339 --> 00:08:41,589
+我们将使用ID和类的时间
+
+218
+00:08:41,589 --> 00:08:43,839
+ <font color="#E5E5E5">抓住一个元素，但你可以 </font>
+
+219
+00:08:43,839 --> 00:08:47,110
+ <font color="#E5E5E5">使用实际的 </font><font color="#CCCCCC">HTML标记， </font><font color="#E5E5E5">让我们拿一个 </font>
+
+220
+00:08:47,110 --> 00:08:49,740
+看看内部的第二种方式
+
+221
+00:08:49,740 --> 00:08:53,250
+所以我们<font color="#E5E5E5">会把样式标签放好 </font>
+
+222
+00:08:53,250 --> 00:08:55,200
+在头部区域<font color="#E5E5E5">好吗你想 </font><font color="#CCCCCC">放 </font>
+
+223
+00:08:55,200 --> 00:08:57,210
+这些<font color="#CCCCCC">在头部 </font><font color="#E5E5E5">然后在里面 </font>
+
+224
+00:08:57,210 --> 00:08:59,670
+我们可以把<font color="#CCCCCC">我们的 </font><font color="#E5E5E5">CSS所以</font><font color="#CCCCCC">实例 </font>
+
+225
+00:08:59,670 --> 00:09:02,130
+ <font color="#CCCCCC">我们想 </font><font color="#E5E5E5">抓住我们可以使用的h1 </font>
+
+226
+00:09:02,130 --> 00:09:04,740
+ <font color="#E5E5E5">选择器之外，然后一些卷曲 </font>
+
+227
+00:09:04,740 --> 00:09:07,550
+括号<font color="#CCCCCC">， </font><font color="#E5E5E5">然后我们可以说红色 </font>
+
+228
+00:09:07,550 --> 00:09:09,900
+ <font color="#CCCCCC">好吧，如果我真的坐下来让它 </font><font color="#E5E5E5">成功 </font>
+
+229
+00:09:09,900 --> 00:09:11,970
+蓝色只是让你可以看到<font color="#E5E5E5">它 </font>
+
+230
+00:09:11,970 --> 00:09:14,700
+ <font color="#CCCCCC">肯定是从这里来的，所以如果我 </font>
+
+231
+00:09:14,700 --> 00:09:18,000
+重装现在我们得到蓝色<font color="#CCCCCC">好吧，喜欢 </font>
+
+232
+00:09:18,000 --> 00:09:20,760
+据我<font color="#CCCCCC">所知，我说这确实是分开的</font>
+
+233
+00:09:20,760 --> 00:09:23,790
+风格的演示， <font color="#E5E5E5">但你 </font><font color="#CCCCCC">只能 </font>
+
+234
+00:09:23,790 --> 00:09:26,550
+ <font color="#CCCCCC">在 </font><font color="#E5E5E5">这个文件中 使用这些 </font><font color="#CCCCCC">样式 </font><font color="#E5E5E5">没关系 </font>
+
+235
+00:09:26,550 --> 00:09:28,950
+您可能希望<font color="#CCCCCC">在其他HTML中使用这些</font>
+
+236
+00:09:28,950 --> 00:09:31,080
+文件以及将我们<font color="#E5E5E5">带到了 </font>
+
+237
+00:09:31,080 --> 00:09:33,360
+第三种<font color="#E5E5E5">方法是 </font><font color="#CCCCCC">外在的那么 </font>
+
+238
+00:09:33,360 --> 00:09:36,660
+我要做的就是<font color="#E5E5E5">进入我们的CSS作弊 </font>
+
+239
+00:09:36,660 --> 00:09:38,520
+工作表文件夹并创建<font color="#CCCCCC">一个新文件夹 </font>
+
+240
+00:09:38,520 --> 00:09:41,550
+ <font color="#E5E5E5">称为CSS然后这就是我们的地方 </font>
+
+241
+00:09:41,550 --> 00:09:42,930
+ <font color="#CCCCCC">会把我们的样式表 </font>
+
+242
+00:09:42,930 --> 00:09:44,790
+ <font color="#CCCCCC">好的，让我们创建一个 </font><font color="#E5E5E5">新文件 </font>
+
+243
+00:09:44,790 --> 00:09:47,850
+ <font color="#E5E5E5">我们称这种风格的圆点CSS我们 </font><font color="#CCCCCC">得 </font>
+
+244
+00:09:47,850 --> 00:09:52,950
+ <font color="#E5E5E5">保存 </font><font color="#CCCCCC">ctrl s style dot CSS现在好了 </font>
+
+245
+00:09:52,950 --> 00:09:54,510
+你不必<font color="#E5E5E5">称它为你的风格 </font>
+
+246
+00:09:54,510 --> 00:09:56,040
+把它称之为你<font color="#CCCCCC">想要的只是 </font><font color="#E5E5E5">确保 </font>
+
+247
+00:09:56,040 --> 00:09:59,220
+它有一个点CSS扩展名， <font color="#CCCCCC">好吧 </font>
+
+248
+00:09:59,220 --> 00:10:01,650
+那么<font color="#E5E5E5">我们要做的就是我们会说h1 </font>
+
+249
+00:10:01,650 --> 00:10:03,720
+就像我们在HTML中的样式标签中所做的那样
+
+250
+00:10:03,720 --> 00:10:08,340
+ <font color="#E5E5E5">我们会说，颜色为绿色 和 </font><font color="#CCCCCC">好吗 </font>
+
+251
+00:10:08,340 --> 00:10:10,650
+那么我们<font color="#E5E5E5">现在显然会保存它</font>
+
+252
+00:10:10,650 --> 00:10:11,970
+这<font color="#E5E5E5">不会 </font><font color="#CCCCCC">马上 工作 </font>
+
+253
+00:10:11,970 --> 00:10:14,310
+因为它不知道要连<font color="#E5E5E5">看 </font>
+
+254
+00:10:14,310 --> 00:10:15,900
+ <font color="#E5E5E5">这样的样式表 </font><font color="#CCCCCC">就是我们要做的 </font>
+
+255
+00:10:15,900 --> 00:10:18,090
+做<font color="#E5E5E5">的就是在这里摆脱了风格的标签 </font><font color="#CCCCCC">和 </font>
+
+256
+00:10:18,090 --> 00:10:20,280
+我们将<font color="#E5E5E5">使用一个名为的HTML标签 </font>
+
+257
+00:10:20,280 --> 00:10:23,210
+ <font color="#E5E5E5">链接没关系所以我们要说链接 </font>
+
+258
+00:10:23,210 --> 00:10:25,440
+崇高的<font color="#E5E5E5">文字 </font><font color="#CCCCCC">我们可以输入单词 </font>
+
+259
+00:10:25,440 --> 00:10:27,540
+链接和点击标签<font color="#E5E5E5">，这将是 </font>
+
+260
+00:10:27,540 --> 00:10:29,130
+给<font color="#CCCCCC">我们标签以及 </font><font color="#E5E5E5">一些 </font>
+
+261
+00:10:29,130 --> 00:10:31,800
+属性， <font color="#E5E5E5">所以它有这个rel属性 </font>
+
+262
+00:10:31,800 --> 00:10:33,840
+这<font color="#CCCCCC">告诉它这是一种风格 </font>
+
+263
+00:10:33,840 --> 00:10:36,090
+表<font color="#CCCCCC">我们也有一个类型 </font>
+
+264
+00:10:36,090 --> 00:10:38,610
+说这<font color="#CCCCCC">将 </font><font color="#E5E5E5">是CSS和 </font>
+
+265
+00:10:38,610 --> 00:10:41,160
+ <font color="#E5E5E5">则href会链接</font><font color="#CCCCCC">到 </font>
+
+266
+00:10:41,160 --> 00:10:44,550
+ <font color="#E5E5E5">CSS文件所以在这里我们 </font><font color="#CCCCCC">想说CSS </font>
+
+267
+00:10:44,550 --> 00:10:48,660
+ <font color="#E5E5E5">斜线样式点CSS和我放的原因 </font>
+
+268
+00:10:48,660 --> 00:10:52,380
+这个CSS斜杠是因为它是什么
+
+269
+00:10:52,380 --> 00:10:55,110
+ <font color="#E5E5E5">位于CSS文件夹就 </font><font color="#CCCCCC">在这里 </font>
+
+270
+00:10:55,110 --> 00:10:57,470
+你必须<font color="#E5E5E5">指定整个位置 </font>
+
+271
+00:10:57,470 --> 00:11:00,330
+ <font color="#CCCCCC">没事</font><font color="#E5E5E5">让我们保存和重新加载 </font>
+
+272
+00:11:00,330 --> 00:11:01,770
+现在<font color="#E5E5E5">你会 </font><font color="#CCCCCC">发现 </font><font color="#E5E5E5">它是绿色的 </font>
+
+273
+00:11:01,770 --> 00:11:02,720
+实际上<font color="#E5E5E5">看 </font>
+
+274
+00:11:02,720 --> 00:11:06,740
+在这个style.css文件中<font color="#E5E5E5">可以这么做 </font>
+
+275
+00:11:06,740 --> 00:11:08,689
+这是<font color="#E5E5E5">推荐的做法和方式 </font>
+
+276
+00:11:08,689 --> 00:11:10,220
+如果我们<font color="#CCCCCC">想 </font><font color="#E5E5E5">使用这些样式 </font>
+
+277
+00:11:10,220 --> 00:11:12,230
+ <font color="#E5E5E5">我们要做的另一个HTML </font><font color="#CCCCCC">文件 </font><font color="#E5E5E5">是 </font>
+
+278
+00:11:12,230 --> 00:11:15,139
+把它放在那里<font color="#CCCCCC">让我们来 </font><font color="#E5E5E5">看看 </font>
+
+279
+00:11:15,139 --> 00:11:17,990
+ CSS选择器的快速图表<font color="#CCCCCC">和 </font>
+
+280
+00:11:17,990 --> 00:11:22,310
+声明<font color="#CCCCCC">所以这是一个 </font><font color="#E5E5E5">基本格式 </font>
+
+281
+00:11:22,310 --> 00:11:24,079
+在<font color="#E5E5E5">这种情况下，我们有选择器</font>
+
+282
+00:11:24,079 --> 00:11:26,629
+我们说<font color="#CCCCCC">一个 </font><font color="#E5E5E5">8和一个标签是一个 </font>
+
+283
+00:11:26,629 --> 00:11:28,699
+链接<font color="#CCCCCC">没关系，我们在HTML中了解到这一点 </font>
+
+284
+00:11:28,699 --> 00:11:31,279
+速成课程现在你可以使用<font color="#E5E5E5">实际的 </font>
+
+285
+00:11:31,279 --> 00:11:33,620
+ <font color="#E5E5E5">像这样的元素，但这是 </font><font color="#CCCCCC">怎么回事 </font>
+
+286
+00:11:33,620 --> 00:11:35,180
+ <font color="#E5E5E5">要做的就是应用这种风格 </font>
+
+287
+00:11:35,180 --> 00:11:38,060
+ <font color="#CCCCCC">如果你想， </font><font color="#E5E5E5">到处都是所有链接 </font>
+
+288
+00:11:38,060 --> 00:11:39,649
+定位<font color="#E5E5E5">您可以使用的某个链接 </font>
+
+289
+00:11:39,649 --> 00:11:42,439
+类或ID <font color="#CCCCCC">没关系，我们会得到 成 </font>
+
+290
+00:11:42,439 --> 00:11:44,540
+一点点<font color="#CCCCCC">，然后开始 </font>
+
+291
+00:11:44,540 --> 00:11:46,160
+宣言我们有一个开放的<font color="#E5E5E5">卷曲 </font>
+
+292
+00:11:46,160 --> 00:11:48,139
+大括号<font color="#E5E5E5">结束它我们有一个收尾卷曲 </font>
+
+293
+00:11:48,139 --> 00:11:50,329
+支撑然后在里面我们有一个
+
+294
+00:11:50,329 --> 00:11:53,089
+ <font color="#E5E5E5">财产和价值好，所以像一把钥匙 </font>
+
+295
+00:11:53,089 --> 00:11:55,490
+ <font color="#E5E5E5">属性将成为价值对 </font>
+
+296
+00:11:55,490 --> 00:11:58,069
+在这种情况下<font color="#E5E5E5">背景颜色，我们是 </font>
+
+297
+00:11:58,069 --> 00:11:59,540
+ <font color="#CCCCCC">要经历一大堆 </font><font color="#E5E5E5">不同的 </font><font color="#CCCCCC">事情 </font>
+
+298
+00:11:59,540 --> 00:12:02,509
+ <font color="#CCCCCC">现在CSS中可用的 </font><font color="#E5E5E5">属性 </font>
+
+299
+00:12:02,509 --> 00:12:05,120
+只是将这些分开，我们就拥有了<font color="#E5E5E5">我们的 </font>
+
+300
+00:12:05,120 --> 00:12:07,430
+冒号在这里<font color="#E5E5E5">，然后我们有价值 </font>
+
+301
+00:12:07,430 --> 00:12:08,839
+这个案子我们说的是背景
+
+302
+00:12:08,839 --> 00:12:10,670
+颜色应该<font color="#CCCCCC">是黄色 </font><font color="#E5E5E5">然后你 </font>
+
+303
+00:12:10,670 --> 00:12:12,199
+ <font color="#CCCCCC">总是 </font><font color="#E5E5E5">希望 </font><font color="#CCCCCC">用一个结束这些 </font>
+
+304
+00:12:12,199 --> 00:12:13,269
+分号
+
+305
+00:12:13,269 --> 00:12:15,620
+ <font color="#E5E5E5">好的，所以我们要跳进去了 </font>
+
+306
+00:12:15,620 --> 00:12:17,569
+ <font color="#CCCCCC">现在我 </font><font color="#E5E5E5">开始在 </font><font color="#CCCCCC">这里 </font><font color="#E5E5E5">创造 </font><font color="#CCCCCC">这样的风格 </font>
+
+307
+00:12:17,569 --> 00:12:19,339
+要转到CSS文件<font color="#E5E5E5">并摆脱 </font>
+
+308
+00:12:19,339 --> 00:12:22,850
+ h1造型在这里<font color="#E5E5E5">好然后我 </font>
+
+309
+00:12:22,850 --> 00:12:24,949
+ <font color="#CCCCCC">只是要说身体，然后</font><font color="#E5E5E5">打开 </font>
+
+310
+00:12:24,949 --> 00:12:27,139
+一些花括号<font color="#CCCCCC">可以，所以我们有 </font>
+
+311
+00:12:27,139 --> 00:12:28,759
+我们选择的是<font color="#E5E5E5">这里的身体 </font>
+
+312
+00:12:28,759 --> 00:12:30,800
+ <font color="#CCCCCC">将涉及身体标签 </font><font color="#E5E5E5">和 </font>
+
+313
+00:12:30,800 --> 00:12:34,129
+ <font color="#E5E5E5">一切都好， </font><font color="#CCCCCC">我不应该 </font>
+
+314
+00:12:34,129 --> 00:12:35,269
+说的一切，它不是<font color="#CCCCCC">去 </font>
+
+315
+00:12:35,269 --> 00:12:37,220
+实际上<font color="#E5E5E5">像背景一样 </font><font color="#CCCCCC">改变 </font>
+
+316
+00:12:37,220 --> 00:12:39,589
+ <font color="#CCCCCC">每个 </font><font color="#E5E5E5">元素的 颜色 </font><font color="#CCCCCC">， </font><font color="#E5E5E5">但 </font><font color="#CCCCCC">身体 </font>
+
+317
+00:12:39,589 --> 00:12:42,110
+这本身就包裹着一切
+
+318
+00:12:42,110 --> 00:12:45,980
+让我们<font color="#E5E5E5">添加背景颜色 </font><font color="#CCCCCC">吧 </font>
+
+319
+00:12:45,980 --> 00:12:49,009
+ <font color="#E5E5E5">将它更改为一个值， 该 值 </font>
+
+320
+00:12:49,009 --> 00:12:50,750
+ <font color="#CCCCCC">将 </font><font color="#E5E5E5">是一个十六进制的颜色，我 </font>
+
+321
+00:12:50,750 --> 00:12:52,370
+ <font color="#E5E5E5">我会 在一秒钟内完成 </font><font color="#CCCCCC">这个过程 </font>
+
+322
+00:12:52,370 --> 00:12:54,589
+这将是数字<font color="#CCCCCC">符号 </font><font color="#E5E5E5">f4三 </font>
+
+323
+00:12:54,589 --> 00:12:57,170
+所以如果我们保存这个<font color="#CCCCCC">并且我们重新加载 </font>
+
+324
+00:12:57,170 --> 00:12:59,420
+注意到<font color="#CCCCCC">背景</font><font color="#E5E5E5">首先 </font>
+
+325
+00:12:59,420 --> 00:13:01,069
+绿色文本<font color="#E5E5E5">因为我们得到了而消失了 </font>
+
+326
+00:13:01,069 --> 00:13:03,110
+ <font color="#CCCCCC">除了 </font><font color="#E5E5E5">那种风​​格， </font><font color="#CCCCCC">但背景 </font>
+
+327
+00:13:03,110 --> 00:13:05,600
+身体现在是浅灰色， <font color="#E5E5E5">好吧 </font>
+
+328
+00:13:05,600 --> 00:13:08,329
+ <font color="#E5E5E5">现在是浅灰色的十六进制值 </font>
+
+329
+00:13:08,329 --> 00:13:09,769
+如果我们想<font color="#E5E5E5">改变颜色 </font>
+
+330
+00:13:09,769 --> 00:13:12,829
+ <font color="#CCCCCC">文字，我们可以 </font><font color="#E5E5E5">使用颜色好吧 </font><font color="#CCCCCC">，让我们 </font>
+
+331
+00:13:12,829 --> 00:13:15,559
+说我们希望颜色是<font color="#CCCCCC">十六进制 </font>
+
+332
+00:13:15,559 --> 00:13:16,650
+值
+
+333
+00:13:16,650 --> 00:13:19,620
+ <font color="#CCCCCC">六个5s， </font><font color="#E5E5E5">这将是一个黑暗 </font>
+
+334
+00:13:19,620 --> 00:13:22,380
+ <font color="#CCCCCC">灰色 </font><font color="#E5E5E5">现在，如果我重新加载注意到h1 </font>
+
+335
+00:13:22,380 --> 00:13:25,350
+实际上变成了浅<font color="#E5E5E5">灰色 </font>
+
+336
+00:13:25,350 --> 00:13:27,300
+我们把在默认情况下， <font color="#CCCCCC">这个 </font><font color="#E5E5E5">可以在任何文本</font>
+
+337
+00:13:27,300 --> 00:13:30,420
+现在将<font color="#E5E5E5">是这种颜色，所以只是一个 </font>
+
+338
+00:13:30,420 --> 00:13:32,580
+ <font color="#CCCCCC">关于CSS中的颜色我们现在一点点 </font>
+
+339
+00:13:32,580 --> 00:13:35,370
+我可以<font color="#CCCCCC">在这里 </font><font color="#E5E5E5">使用不同的 </font><font color="#CCCCCC">值 </font>
+
+340
+00:13:35,370 --> 00:13:37,740
+ <font color="#E5E5E5">使用颜色名称我们可以使用html5 </font><font color="#CCCCCC">颜色 </font>
+
+341
+00:13:37,740 --> 00:13:41,250
+名<font color="#E5E5E5">十六进制值和RGB我们 </font><font color="#CCCCCC">我们 </font>
+
+342
+00:13:41,250 --> 00:13:43,650
+ <font color="#E5E5E5">红绿蓝的价值也是如此 </font>
+
+343
+00:13:43,650 --> 00:13:45,870
+ <font color="#E5E5E5">这里的例子我们正在使用颜色名称 </font>
+
+344
+00:13:45,870 --> 00:13:49,440
+颜色红，因为<font color="#E5E5E5">蓝黄色非常你 </font>
+
+345
+00:13:49,440 --> 00:13:52,260
+ <font color="#E5E5E5">知道常见的颜色，然后添加html5 </font>
+
+346
+00:13:52,260 --> 00:13:55,050
+这里有一些额外的颜色可以
+
+347
+00:13:55,050 --> 00:13:56,700
+例如<font color="#E5E5E5">珊瑚， </font><font color="#CCCCCC">就像一盏灯 </font>
+
+348
+00:13:56,700 --> 00:13:58,530
+橙色和有很多<font color="#E5E5E5">人有 </font>
+
+349
+00:13:58,530 --> 00:14:00,420
+朦胧<font color="#CCCCCC">玫瑰有各种奇怪的东西 </font>
+
+350
+00:14:00,420 --> 00:14:02,430
+的颜色，你可以看一下<font color="#CCCCCC">好吗 </font>
+
+351
+00:14:02,430 --> 00:14:04,590
+现在十六进制值看起来像这样我们
+
+352
+00:14:04,590 --> 00:14:06,420
+有<font color="#E5E5E5">数字标志 </font><font color="#CCCCCC">然后 </font><font color="#E5E5E5">你有一个 </font>
+
+353
+00:14:06,420 --> 00:14:08,490
+与该特定有关的代码
+
+354
+00:14:08,490 --> 00:14:12,030
+颜色<font color="#CCCCCC">好六个零将是 </font>
+
+355
+00:14:12,030 --> 00:14:14,460
+黑色<font color="#CCCCCC">和六个FS将是白色的 </font>
+
+356
+00:14:14,460 --> 00:14:17,190
+ <font color="#E5E5E5">你也可以使用快捷方式并使用三个 </font>
+
+357
+00:14:17,190 --> 00:14:20,610
+ <font color="#CCCCCC">约 </font><font color="#E5E5E5">三个字符，以及 </font><font color="#CCCCCC">一些 </font>
+
+358
+00:14:20,610 --> 00:14:22,140
+ <font color="#CCCCCC">这些，我会告诉你 </font><font color="#E5E5E5">， </font><font color="#CCCCCC">在一个 </font>
+
+359
+00:14:22,140 --> 00:14:24,510
+ <font color="#E5E5E5">一点点 </font><font color="#CCCCCC">，然后我们也可以使用RGB </font>
+
+360
+00:14:24,510 --> 00:14:27,000
+因此我们使用RGB <font color="#E5E5E5">然后使用RGB </font>
+
+361
+00:14:27,000 --> 00:14:28,980
+ <font color="#CCCCCC">括号，然后 </font><font color="#E5E5E5">是红色的值 </font>
+
+362
+00:14:28,980 --> 00:14:31,680
+绿色和蓝色<font color="#E5E5E5">好吧所以我们这里 </font><font color="#CCCCCC">有蓝色 </font>
+
+363
+00:14:31,680 --> 00:14:33,810
+在255，这<font color="#CCCCCC">将 </font><font color="#E5E5E5">是这种颜色 </font>
+
+364
+00:14:33,810 --> 00:14:37,620
+ <font color="#E5E5E5">一定的蓝色都可以 </font>
+
+365
+00:14:37,620 --> 00:14:40,620
+ <font color="#E5E5E5">现在我回到我们的HTML 和CSS </font>
+
+366
+00:14:40,620 --> 00:14:42,330
+ <font color="#E5E5E5">要做的就是我想要的h1 </font>
+
+367
+00:14:42,330 --> 00:14:45,150
+我们提出一个段落<font color="#E5E5E5">和崇高 </font>
+
+368
+00:14:45,150 --> 00:14:47,130
+可以输入<font color="#CCCCCC">单词larom和tab </font>
+
+369
+00:14:47,130 --> 00:14:49,500
+它<font color="#E5E5E5">会给我们一大堆示例文本 </font>
+
+370
+00:14:49,500 --> 00:14:50,940
+对，我们将重新加载<font color="#CCCCCC">，就像我们一样 </font>
+
+371
+00:14:50,940 --> 00:14:53,670
+ <font color="#E5E5E5">还有一些别的东西要看 </font>
+
+372
+00:14:53,670 --> 00:14:56,130
+身体<font color="#E5E5E5">我还要补充我 </font><font color="#CCCCCC">要去 </font>
+
+373
+00:14:56,130 --> 00:14:58,460
+ <font color="#E5E5E5">更改字体所以让我们说字体 </font>
+
+374
+00:14:58,460 --> 00:15:02,130
+家人<font color="#CCCCCC">，我 </font><font color="#E5E5E5">要说Arial和 </font>
+
+375
+00:15:02,130 --> 00:15:05,310
+然后如果由于某种原因Arial无法加载
+
+376
+00:15:05,310 --> 00:15:07,320
+它会<font color="#CCCCCC">加载我们放在 </font><font color="#E5E5E5">这里的东西 </font>
+
+377
+00:15:07,320 --> 00:15:10,860
+让我们说Helvetica <font color="#CCCCCC">然后我们 </font><font color="#E5E5E5">要去 </font>
+
+378
+00:15:10,860 --> 00:15:16,080
+ <font color="#E5E5E5">做sans-serif好吧让我们保存 </font>
+
+379
+00:15:16,080 --> 00:15:17,970
+那<font color="#CCCCCC">并重新加载 </font><font color="#E5E5E5">并注意到该字体 </font>
+
+380
+00:15:17,970 --> 00:15:22,620
+现在已经改变<font color="#E5E5E5">了CSS你有网络 </font>
+
+381
+00:15:22,620 --> 00:15:26,310
+ <font color="#E5E5E5">安全的字体，然后你有其他字体 </font>
+
+382
+00:15:26,310 --> 00:15:27,690
+您现在可以使用网络安全字体
+
+383
+00:15:27,690 --> 00:15:30,150
+意味着你<font color="#E5E5E5">不需要 </font><font color="#CCCCCC">改进 </font>
+
+384
+00:15:30,150 --> 00:15:32,130
+或任何类型<font color="#E5E5E5">的特殊字体你可以 </font>
+
+385
+00:15:32,130 --> 00:15:34,410
+使用<font color="#E5E5E5">它，就像我们 </font><font color="#CCCCCC">在这里 </font><font color="#E5E5E5">做 没事 </font>
+
+386
+00:15:34,410 --> 00:15:35,880
+如果你想<font color="#E5E5E5">使用</font><font color="#CCCCCC">某种 </font>
+
+387
+00:15:35,880 --> 00:15:38,010
+ <font color="#E5E5E5">来自 </font><font color="#CCCCCC">谷歌的专业字体</font>
+
+388
+00:15:38,010 --> 00:15:40,140
+ <font color="#E5E5E5">字体你必须把 </font><font color="#CCCCCC">那个像 </font>
+
+389
+00:15:40,140 --> 00:15:42,410
+你会使用<font color="#CCCCCC">样式表 </font><font color="#E5E5E5">然后应用它 </font>
+
+390
+00:15:42,410 --> 00:15:45,150
+ <font color="#CCCCCC">没事</font><font color="#E5E5E5">让我们来看看一些 </font>
+
+391
+00:15:45,150 --> 00:15:47,640
+ <font color="#E5E5E5">网络安全字体所以这是一个 </font>
+
+392
+00:15:47,640 --> 00:15:49,560
+ <font color="#E5E5E5">不同字体系列的示例</font>
+
+393
+00:15:49,560 --> 00:15:51,120
+我们可以<font color="#CCCCCC">使用，我们 </font><font color="#E5E5E5">不必 </font>
+
+394
+00:15:51,120 --> 00:15:53,520
+导入<font color="#CCCCCC">任何类型的特殊字体文件或 </font>
+
+395
+00:15:53,520 --> 00:15:55,740
+这<font color="#E5E5E5">就是我们使用的东西 </font>
+
+396
+00:15:55,740 --> 00:15:59,250
+ arial helvetica sans-serif <font color="#CCCCCC">我们也有 </font>
+
+397
+00:15:59,250 --> 00:16:02,160
+ Arial黑色<font color="#E5E5E5">Bookman旧式事业 </font>
+
+398
+00:16:02,160 --> 00:16:05,460
+ <font color="#CCCCCC">Comic Sans </font><font color="#E5E5E5">快递有点像 </font>
+
+399
+00:16:05,460 --> 00:16:08,760
+ <font color="#E5E5E5">我们可以看到 </font><font color="#CCCCCC">Microsoft </font><font color="#E5E5E5">Word类型的字体 </font>
+
+400
+00:16:08,760 --> 00:16:12,510
+还有什么<font color="#E5E5E5">乔治亚verdana非常好 </font>
+
+401
+00:16:12,510 --> 00:16:15,720
+我喜欢<font color="#E5E5E5">Dan，我喜欢 </font><font color="#CCCCCC">Homa Times New </font>
+
+402
+00:16:15,720 --> 00:16:17,580
+罗马这是<font color="#E5E5E5">默认的，如果 </font><font color="#CCCCCC">你 </font><font color="#E5E5E5">不 </font>
+
+403
+00:16:17,580 --> 00:16:19,290
+应用<font color="#E5E5E5">默认的字体</font>
+
+404
+00:16:19,290 --> 00:16:22,830
+将<font color="#E5E5E5">在大多数浏览器中 </font><font color="#CCCCCC">，它很漂亮 </font>
+
+405
+00:16:22,830 --> 00:16:24,390
+ <font color="#E5E5E5">多少呢所以 </font><font color="#CCCCCC">这些都是</font><font color="#E5E5E5">网络 安全字体 </font>
+
+406
+00:16:24,390 --> 00:16:27,990
+ <font color="#E5E5E5">当我们谈论serif字体时你 </font>
+
+407
+00:16:27,990 --> 00:16:30,660
+ <font color="#E5E5E5">可以看到serif字体有 </font>
+
+408
+00:16:30,660 --> 00:16:32,820
+ <font color="#E5E5E5">这边的小小钩子</font>
+
+409
+00:16:32,820 --> 00:16:35,400
+字母然后<font color="#CCCCCC">sans </font><font color="#E5E5E5">serif是善良的 </font>
+
+410
+00:16:35,400 --> 00:16:37,920
+ <font color="#E5E5E5">平坦的样子，所以这就是 </font>
+
+411
+00:16:37,920 --> 00:16:41,280
+ <font color="#CCCCCC">那些我 </font><font color="#E5E5E5">不是的基本</font><font color="#CCCCCC">区别 </font>
+
+412
+00:16:41,280 --> 00:16:43,170
+ <font color="#E5E5E5">字体专家或类似的东西 </font>
+
+413
+00:16:43,170 --> 00:16:45,600
+ <font color="#CCCCCC">但我 </font><font color="#E5E5E5">只是想给 </font><font color="#CCCCCC">你们一个 </font>
+
+414
+00:16:45,600 --> 00:16:47,460
+ <font color="#E5E5E5">什么被认为是网络安全的想法</font>
+
+415
+00:16:47,460 --> 00:16:48,030
+字形
+
+416
+00:16:48,030 --> 00:16:50,790
+好的，让<font color="#E5E5E5">我们回到我们的 </font><font color="#CCCCCC">CSS </font>
+
+417
+00:16:50,790 --> 00:16:52,740
+我只是<font color="#E5E5E5">想做这个包装 </font>
+
+418
+00:16:52,740 --> 00:16:54,750
+ <font color="#CCCCCC">你们所看到的一切，我们会 </font><font color="#E5E5E5">公正 </font>
+
+419
+00:16:54,750 --> 00:16:58,170
+做自动换行，让我们继续<font color="#E5E5E5">添加 </font>
+
+420
+00:16:58,170 --> 00:17:00,330
+ <font color="#E5E5E5">a改变字体的大小， </font><font color="#CCCCCC">以便 </font>
+
+421
+00:17:00,330 --> 00:17:02,280
+我们<font color="#E5E5E5">可以简单地 </font><font color="#CCCCCC">说字体大小 </font>
+
+422
+00:17:02,280 --> 00:17:05,819
+我们将它设置<font color="#E5E5E5">为16像素，如果 </font>
+
+423
+00:17:05,819 --> 00:17:07,290
+我们保存并重新加载它会<font color="#E5E5E5">看起来 </font>
+
+424
+00:17:07,290 --> 00:17:08,880
+ <font color="#E5E5E5">同样的，因为那 </font><font color="#CCCCCC">实际上是 </font>
+
+425
+00:17:08,880 --> 00:17:10,859
+ <font color="#CCCCCC">默认但如果 </font><font color="#E5E5E5">我想 </font><font color="#CCCCCC">改变它 </font>
+
+426
+00:17:10,859 --> 00:17:13,980
+让我们<font color="#CCCCCC">说 </font><font color="#E5E5E5">你会看到重新加载 </font><font color="#CCCCCC">12个像素 </font>
+
+427
+00:17:13,980 --> 00:17:17,430
+它变得更小<font color="#CCCCCC">没事 </font>
+
+428
+00:17:17,430 --> 00:17:20,130
+现在<font color="#CCCCCC">我们也可以改变字体重量 </font>
+
+429
+00:17:20,130 --> 00:17:22,349
+ <font color="#E5E5E5">从这里 </font><font color="#CCCCCC">如果我们说字体重量我们 </font>
+
+430
+00:17:22,349 --> 00:17:25,530
+可以将<font color="#E5E5E5">其设置</font><font color="#CCCCCC">为粗体 </font><font color="#E5E5E5">并重新加载 </font>
+
+431
+00:17:25,530 --> 00:17:26,880
+它<font color="#E5E5E5">会使一切都变得大胆你也可以 </font>
+
+432
+00:17:26,880 --> 00:17:30,630
+使用像400这样的数字你可以改变
+
+433
+00:17:30,630 --> 00:17:33,630
+ <font color="#CCCCCC">数字也很大胆</font><font color="#E5E5E5">但是 </font>
+
+434
+00:17:33,630 --> 00:17:34,590
+我们<font color="#E5E5E5">要 </font><font color="#CCCCCC">， </font><font color="#E5E5E5">我们</font><font color="#CCCCCC">要 保持这个 </font>
+
+435
+00:17:34,590 --> 00:17:38,650
+在正常<font color="#E5E5E5">情况下默认好 </font>
+
+436
+00:17:38,650 --> 00:17:41,720
+现在<font color="#E5E5E5">实际上有一个更短的方法 </font>
+
+437
+00:17:41,720 --> 00:17:43,550
+ <font color="#CCCCCC">当你处理这些字体时 </font>
+
+438
+00:17:43,550 --> 00:17:45,950
+ <font color="#CCCCCC">这里的破折号风格 </font><font color="#E5E5E5">我们其实可以 </font>
+
+439
+00:17:45,950 --> 00:17:49,580
+使用字体，然后我们可以说正常
+
+440
+00:17:49,580 --> 00:17:52,130
+对于字体重量然后我们可以做
+
+441
+00:17:52,130 --> 00:17:55,240
+ <font color="#E5E5E5">字体系列将是arial </font>
+
+442
+00:17:55,240 --> 00:17:59,960
+ helvetica <font color="#E5E5E5">sans-serif然后我们可以 </font>
+
+443
+00:17:59,960 --> 00:18:03,620
+只是<font color="#CCCCCC">把字体 </font><font color="#E5E5E5">实际上让我们把它 </font>
+
+444
+00:18:03,620 --> 00:18:08,870
+这里的大小<font color="#CCCCCC">是16像素 </font><font color="#E5E5E5">好吧 </font>
+
+445
+00:18:08,870 --> 00:18:10,750
+如果<font color="#E5E5E5">我 </font><font color="#CCCCCC">摆脱 </font><font color="#E5E5E5">这三个和 </font>
+
+446
+00:18:10,750 --> 00:18:13,220
+重装我们得到同样的事情<font color="#CCCCCC">好 </font><font color="#E5E5E5">了， </font>
+
+447
+00:18:13,220 --> 00:18:15,980
+它<font color="#CCCCCC">只是 </font><font color="#E5E5E5">一种较短的方式 </font>
+
+448
+00:18:15,980 --> 00:18:17,450
+我在<font color="#CCCCCC">这里 </font><font color="#E5E5E5">稍作评论 </font>
+
+449
+00:18:17,450 --> 00:18:22,220
+我<font color="#CCCCCC">只是要说同上 </font><font color="#E5E5E5">所有 </font>
+
+450
+00:18:22,220 --> 00:18:24,710
+ <font color="#E5E5E5">对，你知道我要离开这一切 </font>
+
+451
+00:18:24,710 --> 00:18:26,150
+在这里的东西，所以<font color="#E5E5E5">你们有这个作为一个 </font>
+
+452
+00:18:26,150 --> 00:18:27,740
+ <font color="#E5E5E5">通常你不会参考 </font>
+
+453
+00:18:27,740 --> 00:18:29,720
+这两个， <font color="#E5E5E5">但我希望你们 </font>
+
+454
+00:18:29,720 --> 00:18:32,050
+如果你以后需要它，请这样做
+
+455
+00:18:32,050 --> 00:18:35,660
+ <font color="#E5E5E5">好的，你会看到另一种常见的风格 </font>
+
+456
+00:18:35,660 --> 00:18:39,500
+在体内<font color="#CCCCCC">是线高度没关系 </font>
+
+457
+00:18:39,500 --> 00:18:42,410
+现在注意<font color="#E5E5E5">这些对我来说这些 </font>
+
+458
+00:18:42,410 --> 00:18:44,510
+线看起来很近， <font color="#CCCCCC">所以我 </font>
+
+459
+00:18:44,510 --> 00:18:46,400
+想把<font color="#CCCCCC">它们分开来 </font>
+
+460
+00:18:46,400 --> 00:18:48,080
+ <font color="#CCCCCC">有点 </font><font color="#E5E5E5">所以</font><font color="#CCCCCC">我 要在这里做 </font>
+
+461
+00:18:48,080 --> 00:18:52,490
+是说<font color="#E5E5E5">一点 </font><font color="#CCCCCC">六M </font><font color="#E5E5E5">或 </font><font color="#CCCCCC">em和让我们 </font>
+
+462
+00:18:52,490 --> 00:18:54,230
+保存重新加载， <font color="#CCCCCC">现在注意到 </font>
+
+463
+00:18:54,230 --> 00:18:56,210
+这<font color="#CCCCCC">之间还有更多的空间</font>
+
+464
+00:18:56,210 --> 00:18:59,150
+线路<font color="#E5E5E5">正好就是线高 </font>
+
+465
+00:18:59,150 --> 00:19:04,130
+现在<font color="#CCCCCC">EMR m只是一个可以使用的单位 </font>
+
+466
+00:19:04,130 --> 00:19:06,500
+ <font color="#E5E5E5">在CSS中它 </font><font color="#CCCCCC">通常用于 </font><font color="#E5E5E5">更多 </font>
+
+467
+00:19:06,500 --> 00:19:09,500
+响应型网站<font color="#E5E5E5">你可以 </font>
+
+468
+00:19:09,500 --> 00:19:11,780
+如果我们想要，也可以制作这个像素
+
+469
+00:19:11,780 --> 00:19:14,330
+说<font color="#E5E5E5">行高三个像素 </font>
+
+470
+00:19:14,330 --> 00:19:16,100
+你会看到只有三个
+
+471
+00:19:16,100 --> 00:19:17,960
+ <font color="#E5E5E5">它之间的像素 </font>
+
+472
+00:19:17,960 --> 00:19:18,620
+不可读
+
+473
+00:19:18,620 --> 00:19:21,500
+但你可以这样做，但我们会<font color="#E5E5E5">去 </font>
+
+474
+00:19:21,500 --> 00:19:24,050
+坚持<font color="#E5E5E5">M通常你会看到M换行 </font>
+
+475
+00:19:24,050 --> 00:19:26,990
+ <font color="#CCCCCC">高地好，所以我 </font><font color="#E5E5E5">要做的 </font>
+
+476
+00:19:26,990 --> 00:19:29,210
+现在只是<font color="#CCCCCC">添加 </font><font color="#E5E5E5">一点 </font><font color="#CCCCCC">HTML </font>
+
+477
+00:19:29,210 --> 00:19:32,890
+在这里有<font color="#E5E5E5">更多HTML，所以我们走了 </font>
+
+478
+00:19:32,890 --> 00:19:34,850
+实际上<font color="#CCCCCC">我们知道我们会做什么 </font>
+
+479
+00:19:34,850 --> 00:19:37,730
+将h1和<font color="#E5E5E5">段落包装在div中 </font>
+
+480
+00:19:37,730 --> 00:19:42,470
+让我们给出一个<font color="#CCCCCC">我们会给的课程</font>
+
+481
+00:19:42,470 --> 00:19:45,940
+ <font color="#CCCCCC">一类让我们说盒子 - 一个 </font>
+
+482
+00:19:45,940 --> 00:19:49,340
+好吧所以包装段落和
+
+483
+00:19:49,340 --> 00:19:50,330
+标题
+
+484
+00:19:50,330 --> 00:19:53,230
+ <font color="#CCCCCC">好的，我们会把它推到 </font><font color="#E5E5E5">一点点我 </font>
+
+485
+00:19:53,230 --> 00:19:56,210
+不喜欢的房子<font color="#CCCCCC">是啊，我只是 要 </font>
+
+486
+00:19:56,210 --> 00:19:59,930
+ <font color="#E5E5E5">让这个更大一点 </font><font color="#CCCCCC">，让我们谈谈吧 </font>
+
+487
+00:19:59,930 --> 00:20:01,130
+ <font color="#CCCCCC">关于差异一</font><font color="#E5E5E5">点点 </font>
+
+488
+00:20:01,130 --> 00:20:04,190
+ <font color="#CCCCCC">现在，在</font><font color="#E5E5E5">类 </font><font color="#CCCCCC">和ID之间</font>
+
+489
+00:20:04,190 --> 00:20:06,590
+浏览器去执行规则ID 
+
+490
+00:20:06,590 --> 00:20:08,600
+上课<font color="#E5E5E5">真的没什么区别的 </font>
+
+491
+00:20:08,600 --> 00:20:12,380
+它<font color="#CCCCCC">涉及HTML和 </font><font color="#E5E5E5">CSS，但你是什么 </font>
+
+492
+00:20:12,380 --> 00:20:14,240
+想要做的是你想要<font color="#CCCCCC">ID </font>
+
+493
+00:20:14,240 --> 00:20:18,530
+作为<font color="#E5E5E5">不是的ID的元素 </font>
+
+494
+00:20:18,530 --> 00:20:20,330
+ <font color="#E5E5E5">会 被 </font><font color="#CCCCCC">其他地方他们 </font><font color="#E5E5E5">放 </font>
+
+495
+00:20:20,330 --> 00:20:22,340
+将<font color="#E5E5E5">是独特的 </font><font color="#CCCCCC">，例如，如果 </font>
+
+496
+00:20:22,340 --> 00:20:24,560
+你有一个主<font color="#E5E5E5">导航栏你可能会给 </font>
+
+497
+00:20:24,560 --> 00:20:26,600
+ <font color="#CCCCCC">那个主导航棒的想法因为 </font>
+
+498
+00:20:26,600 --> 00:20:27,980
+你<font color="#E5E5E5">不打算使用那个主要的 </font>
+
+499
+00:20:27,980 --> 00:20:30,830
+ <font color="#E5E5E5">在任何其他元素上导航我们的ID但是 </font>
+
+500
+00:20:30,830 --> 00:20:34,160
+如果你正在使用像<font color="#E5E5E5">我们这样的话 </font>
+
+501
+00:20:34,160 --> 00:20:36,350
+ <font color="#E5E5E5">我们要给的一个盒子 </font>
+
+502
+00:20:36,350 --> 00:20:38,210
+这是一种背景<font color="#E5E5E5">颜色和边框 </font>
+
+503
+00:20:38,210 --> 00:20:40,850
+你可以在<font color="#CCCCCC">某处使用这个盒子的东西</font>
+
+504
+00:20:40,850 --> 00:20:42,890
+ <font color="#CCCCCC">否则因为您可能想要 </font><font color="#E5E5E5">应用 </font><font color="#CCCCCC">它 </font>
+
+505
+00:20:42,890 --> 00:20:46,100
+ <font color="#E5E5E5">风格， </font><font color="#CCCCCC">所以它不是 </font><font color="#E5E5E5">唯一 </font><font color="#CCCCCC">所以你 </font><font color="#E5E5E5">会 </font>
+
+506
+00:20:46,100 --> 00:20:48,410
+ <font color="#CCCCCC">如果你有课，请使用课程 </font>
+
+507
+00:20:48,410 --> 00:20:50,930
+这<font color="#CCCCCC">使文本显示为 </font><font color="#E5E5E5">红色或 </font><font color="#CCCCCC">类似 </font><font color="#E5E5E5">的东西 </font>
+
+508
+00:20:50,930 --> 00:20:51,950
+那
+
+509
+00:20:51,950 --> 00:20:53,360
+你会<font color="#E5E5E5">想要使用一个类，因为 </font>
+
+510
+00:20:53,360 --> 00:20:55,070
+你可以<font color="#CCCCCC">使用 </font><font color="#E5E5E5">别的 </font><font color="#CCCCCC">地方 </font><font color="#E5E5E5">所以只 </font>
+
+511
+00:20:55,070 --> 00:20:56,870
+ <font color="#E5E5E5">请记住ID应该始终是 </font>
+
+512
+00:20:56,870 --> 00:21:00,980
+ <font color="#E5E5E5">您可以重用所有类的唯一类</font>
+
+513
+00:21:00,980 --> 00:21:02,930
+是的，如果你不想跟随
+
+514
+00:21:02,930 --> 00:21:04,610
+ <font color="#CCCCCC">我 </font><font color="#E5E5E5">建议的那个</font><font color="#CCCCCC">标准 </font>
+
+515
+00:21:04,610 --> 00:21:07,730
+ <font color="#E5E5E5">总是使用 </font><font color="#CCCCCC">你会 </font><font color="#E5E5E5">注意到的 课程 </font>
+
+516
+00:21:07,730 --> 00:21:09,380
+使用像bootstrap这样的框架
+
+517
+00:21:09,380 --> 00:21:11,060
+不要将ID用于任何事情
+
+518
+00:21:11,060 --> 00:21:13,100
+ <font color="#E5E5E5">你 </font><font color="#CCCCCC">不想重复的课程</font>
+
+519
+00:21:13,100 --> 00:21:15,080
+ ID就是<font color="#E5E5E5">底线 </font>
+
+520
+00:21:15,080 --> 00:21:17,600
+ <font color="#E5E5E5">好的，所以我们有这个div </font>
+
+521
+00:21:17,600 --> 00:21:19,760
+类箱<font color="#CCCCCC">1所以让我们继续前进 </font><font color="#E5E5E5">， </font>
+
+522
+00:21:19,760 --> 00:21:21,170
+保存这个<font color="#E5E5E5">， </font><font color="#CCCCCC">然后我们将进入我们的 </font>
+
+523
+00:21:21,170 --> 00:21:25,270
+造型<font color="#E5E5E5">，让我们 </font><font color="#CCCCCC">只是 </font><font color="#E5E5E5">让这小 </font>
+
+524
+00:21:25,270 --> 00:21:29,000
+ <font color="#CCCCCC">所以为了定位一个类，我们使用一个点 </font>
+
+525
+00:21:29,000 --> 00:21:31,040
+记得我们称它为<font color="#E5E5E5">方框1所以我们是 </font>
+
+526
+00:21:31,040 --> 00:21:35,450
+ <font color="#E5E5E5">现在就说点框1 </font>
+
+527
+00:21:35,450 --> 00:21:37,460
+ <font color="#E5E5E5">我在这里要做的就是我 </font>
+
+528
+00:21:37,460 --> 00:21:39,440
+ <font color="#CCCCCC">要 </font><font color="#E5E5E5">首先 </font><font color="#CCCCCC">添加背景颜色 </font>
+
+529
+00:21:39,440 --> 00:21:42,820
+ <font color="#E5E5E5">所有这些让我们说背景 - 颜色和 </font>
+
+530
+00:21:42,820 --> 00:21:46,670
+让我们把它设置<font color="#E5E5E5">成几乎像黑色一样 </font>
+
+531
+00:21:46,670 --> 00:21:49,220
+深灰色，这<font color="#CCCCCC">将 </font><font color="#E5E5E5">是 </font><font color="#CCCCCC">三个 </font><font color="#E5E5E5">六 </font>
+
+532
+00:21:49,220 --> 00:21:51,380
+ <font color="#E5E5E5">现在这是其中一种 </font><font color="#CCCCCC">颜色 </font>
+
+533
+00:21:51,380 --> 00:21:53,390
+ <font color="#CCCCCC">在哪里我们可以使用快捷方式，我们可以 </font>
+
+534
+00:21:53,390 --> 00:21:55,400
+ <font color="#CCCCCC">实际上只用 </font><font color="#E5E5E5">三个三分球就可以了 </font>
+
+535
+00:21:55,400 --> 00:21:57,830
+给我们<font color="#CCCCCC">相同颜色的所有 </font><font color="#E5E5E5">权利，使 </font>
+
+536
+00:21:57,830 --> 00:21:59,870
+让我们保存<font color="#E5E5E5">并重新加载并注意 </font>
+
+537
+00:21:59,870 --> 00:22:02,850
+ <font color="#CCCCCC">背景现在是黑暗的 </font>
+
+538
+00:22:02,850 --> 00:22:06,180
+灰色<font color="#E5E5E5">以及一两件事，我也</font><font color="#CCCCCC">想做 </font>
+
+539
+00:22:06,180 --> 00:22:08,400
+是<font color="#CCCCCC">在 </font><font color="#E5E5E5">身体上</font><font color="#CCCCCC">我想零 </font><font color="#E5E5E5">出 </font>
+
+540
+00:22:08,400 --> 00:22:10,320
+ <font color="#E5E5E5">保证金，我将超过保证金 </font>
+
+541
+00:22:10,320 --> 00:22:12,030
+后来所以<font color="#E5E5E5">不要</font><font color="#CCCCCC">担心 </font><font color="#E5E5E5">，但 </font>
+
+542
+00:22:12,030 --> 00:22:13,920
+ <font color="#E5E5E5">我只是将保证金设置为零 </font><font color="#CCCCCC">和 </font>
+
+543
+00:22:13,920 --> 00:22:16,170
+那将<font color="#CCCCCC">摆脱 </font><font color="#E5E5E5">周围 </font><font color="#CCCCCC">的这些空间 </font>
+
+544
+00:22:16,170 --> 00:22:18,540
+ <font color="#E5E5E5">它 </font><font color="#CCCCCC">除了</font><font color="#E5E5E5">顶部，因为 </font><font color="#CCCCCC">好吗 </font>
+
+545
+00:22:18,540 --> 00:22:22,160
+标题<font color="#E5E5E5">实际上默认有保证金 </font>
+
+546
+00:22:22,160 --> 00:22:24,900
+ <font color="#E5E5E5">好的，所以我们 </font><font color="#CCCCCC">这个盒子里有一个 </font>
+
+547
+00:22:24,900 --> 00:22:27,330
+ <font color="#E5E5E5">深灰色的 </font><font color="#CCCCCC">背景颜色 </font><font color="#E5E5E5">差不多 </font>
+
+548
+00:22:27,330 --> 00:22:29,640
+黑色<font color="#CCCCCC">所以我们要改变 </font><font color="#E5E5E5">文字 </font>
+
+549
+00:22:29,640 --> 00:22:31,590
+颜色，因为它<font color="#E5E5E5">几乎是不可读的 </font>
+
+550
+00:22:31,590 --> 00:22:33,450
+我们<font color="#E5E5E5">要说颜色，让我们设定 </font>
+
+551
+00:22:33,450 --> 00:22:35,610
+是<font color="#E5E5E5">白色</font><font color="#CCCCCC"> ，现在我们能做的文本 </font>
+
+552
+00:22:35,610 --> 00:22:38,130
+白色，但我更喜欢<font color="#E5E5E5">使用十六进制 </font>
+
+553
+00:22:38,130 --> 00:22:39,750
+我<font color="#E5E5E5">要说数字符号然后 </font>
+
+554
+00:22:39,750 --> 00:22:43,200
+ <font color="#E5E5E5">无论你有 三个 </font><font color="#CCCCCC">FS </font><font color="#E5E5E5">好还是六个FS </font>
+
+555
+00:22:43,200 --> 00:22:46,550
+想要<font color="#E5E5E5">重装，现在 </font><font color="#CCCCCC">文字 </font><font color="#E5E5E5">是白色的 </font>
+
+556
+00:22:46,550 --> 00:22:49,200
+ <font color="#E5E5E5">现在我想推动一切 </font>
+
+557
+00:22:49,200 --> 00:22:51,300
+从<font color="#E5E5E5">边缘 </font><font color="#CCCCCC">，你会看到 </font><font color="#E5E5E5">很多 </font>
+
+558
+00:22:51,300 --> 00:22:53,070
+通常<font color="#CCCCCC">与网站的内容将 </font>
+
+559
+00:22:53,070 --> 00:22:54,720
+在它推不是<font color="#E5E5E5">要</font><font color="#CCCCCC">全力以赴 </font>
+
+560
+00:22:54,720 --> 00:22:57,240
+ <font color="#CCCCCC">通往边缘的道路，以便我们能够做到 </font>
+
+561
+00:22:57,240 --> 00:23:00,450
+正在<font color="#E5E5E5">创建一个我要提出的课程 </font>
+
+562
+00:23:00,450 --> 00:23:02,190
+就<font color="#CCCCCC">在这里，让我们 </font><font color="#E5E5E5">把 </font><font color="#CCCCCC">它 </font>
+
+563
+00:23:02,190 --> 00:23:04,530
+容器， <font color="#E5E5E5">如果你曾经使用过bootstrap </font>
+
+564
+00:23:04,530 --> 00:23:06,210
+或者你可能只是其他框架
+
+565
+00:23:06,210 --> 00:23:08,400
+看到这<font color="#E5E5E5">一点 </font><font color="#CCCCCC">，我们可以设置 </font>
+
+566
+00:23:08,400 --> 00:23:10,800
+这个<font color="#CCCCCC">宽度 </font><font color="#E5E5E5">还可以，所以现在 </font>
+
+567
+00:23:10,800 --> 00:23:13,590
+ <font color="#E5E5E5">我只想说500像素 </font>
+
+568
+00:23:13,590 --> 00:23:16,170
+是的，然后让我们继续<font color="#E5E5E5">保存 </font>
+
+569
+00:23:16,170 --> 00:23:18,680
+这一点<font color="#E5E5E5">， </font><font color="#CCCCCC">然后让应用该 </font><font color="#E5E5E5">容器 </font>
+
+570
+00:23:18,680 --> 00:23:22,410
+ <font color="#E5E5E5">所以让我们把它环绕在盒子里 </font>
+
+571
+00:23:22,410 --> 00:23:23,820
+ <font color="#CCCCCC">我</font><font color="#E5E5E5">打算 有 </font><font color="#CCCCCC">这样 </font><font color="#E5E5E5">的 </font><font color="#CCCCCC">猛禽出 </font>
+
+572
+00:23:23,820 --> 00:23:31,470
+一切都好，所以我们会去<font color="#CCCCCC">这里 </font>
+
+573
+00:23:31,470 --> 00:23:34,440
+ <font color="#CCCCCC">并把结束div标签让我们选中它 </font>
+
+574
+00:23:34,440 --> 00:23:37,590
+在<font color="#E5E5E5">所有 </font><font color="#CCCCCC">的权利，所以如果我们保存和 </font>
+
+575
+00:23:37,590 --> 00:23:40,530
+重装你会发现它现在已经<font color="#E5E5E5">500了 </font>
+
+576
+00:23:40,530 --> 00:23:43,140
+ <font color="#E5E5E5">像I这样的 </font><font color="#CCCCCC">容器现在像素宽</font>
+
+577
+00:23:43,140 --> 00:23:44,640
+说你想要<font color="#CCCCCC">通常想 </font><font color="#E5E5E5">推它 </font>
+
+578
+00:23:44,640 --> 00:23:46,710
+到中间<font color="#E5E5E5">所以我们要去做 </font>
+
+579
+00:23:46,710 --> 00:23:49,920
+ <font color="#E5E5E5">只是 </font><font color="#CCCCCC">说保证金，我们要去 </font>
+
+580
+00:23:49,920 --> 00:23:52,410
+将它设置<font color="#CCCCCC">为自动 </font><font color="#E5E5E5">，它的作用是什么 </font>
+
+581
+00:23:52,410 --> 00:23:54,630
+设置保证金，设定自动保证金
+
+582
+00:23:54,630 --> 00:23:56,580
+ <font color="#CCCCCC">各方都好，它 </font><font color="#E5E5E5">会把它设置 </font><font color="#CCCCCC">为 </font>
+
+583
+00:23:56,580 --> 00:23:58,410
+ <font color="#E5E5E5">所有方面都一样，所以 </font><font color="#CCCCCC">让我们保存 </font>
+
+584
+00:23:58,410 --> 00:24:01,170
+重新加载，它被推到<font color="#E5E5E5">它上面 </font>
+
+585
+00:24:01,170 --> 00:24:04,290
+ <font color="#CCCCCC">这边有 </font><font color="#E5E5E5">一定的余量 </font>
+
+586
+00:24:04,290 --> 00:24:06,270
+这边<font color="#E5E5E5">和边缘基本上是 </font>
+
+587
+00:24:06,270 --> 00:24:10,380
+ <font color="#E5E5E5">现在设置它的元素周围的间距</font>
+
+588
+00:24:10,380 --> 00:24:13,470
+ <font color="#E5E5E5">实际上你 </font><font color="#CCCCCC">可能是 </font><font color="#E5E5E5">500像素 </font>
+
+589
+00:24:13,470 --> 00:24:16,210
+不会看到<font color="#E5E5E5">500，你可能会</font><font color="#CCCCCC">看到 </font>
+
+590
+00:24:16,210 --> 00:24:19,210
+ 960 <font color="#CCCCCC">是网站的流行宽度 </font>
+
+591
+00:24:19,210 --> 00:24:22,119
+ <font color="#E5E5E5">好吧，这样的事情，但这使得 </font>
+
+592
+00:24:22,119 --> 00:24:24,369
+如果我做的<font color="#CCCCCC">话它就没有响应</font>
+
+593
+00:24:24,369 --> 00:24:27,100
+更小， <font color="#CCCCCC">你可以看到它 </font><font color="#E5E5E5">不是 </font>
+
+594
+00:24:27,100 --> 00:24:30,129
+响应它没有正确适应
+
+595
+00:24:30,129 --> 00:24:32,080
+ <font color="#CCCCCC">所以我们要做的是将其设置 </font><font color="#E5E5E5">为a </font>
+
+596
+00:24:32,080 --> 00:24:34,299
+百分比而不是像素，所以我
+
+597
+00:24:34,299 --> 00:24:37,299
+然后<font color="#CCCCCC">将它设置为80％没关系 </font>
+
+598
+00:24:37,299 --> 00:24:39,249
+重新加载，然后<font color="#CCCCCC">我把它 </font><font color="#E5E5E5">缩小 </font>
+
+599
+00:24:39,249 --> 00:24:40,960
+你会看到它<font color="#E5E5E5">实际上是响应 </font>
+
+600
+00:24:40,960 --> 00:24:43,990
+正确的尺寸让你<font color="#E5E5E5">最大 </font>
+
+601
+00:24:43,990 --> 00:24:46,059
+你<font color="#E5E5E5">想要使用百分比的部分</font>
+
+602
+00:24:46,059 --> 00:24:46,960
+你正在处理<font color="#CCCCCC">的事情 </font>
+
+603
+00:24:46,960 --> 00:24:48,970
+容器<font color="#CCCCCC">或类似 </font><font color="#E5E5E5">的 </font><font color="#CCCCCC">东西 </font>
+
+604
+00:24:48,970 --> 00:24:51,549
+好吧现在<font color="#CCCCCC">让我们谈谈保证金 </font>
+
+605
+00:24:51,549 --> 00:24:53,889
+和填充<font color="#E5E5E5">所以很多 人</font><font color="#CCCCCC">围 </font>
+
+606
+00:24:53,889 --> 00:24:55,809
+ <font color="#E5E5E5">先是</font><font color="#CCCCCC">用保证金困惑， </font>
+
+607
+00:24:55,809 --> 00:24:58,240
+填充<font color="#E5E5E5">，因为两者都</font><font color="#CCCCCC">属于 </font>
+
+608
+00:24:58,240 --> 00:25:00,850
+ <font color="#E5E5E5">元素周围空间</font><font color="#CCCCCC">，所以我</font><font color="#E5E5E5">要去 </font>
+
+609
+00:25:00,850 --> 00:25:03,220
+尽力<font color="#E5E5E5">解释我能 </font><font color="#CCCCCC">做到 </font><font color="#E5E5E5">的最好 </font>
+
+610
+00:25:03,220 --> 00:25:04,690
+有一种<font color="#CCCCCC">叫做 </font><font color="#E5E5E5">盒子模型的东西</font>
+
+611
+00:25:04,690 --> 00:25:07,269
+在CSS中并想到这个内容块
+
+612
+00:25:07,269 --> 00:25:09,190
+广告你的元素<font color="#E5E5E5">是否是 </font>
+
+613
+00:25:09,190 --> 00:25:12,580
+它是div或标签链接或
+
+614
+00:25:12,580 --> 00:25:15,299
+ <font color="#E5E5E5">段落一个标题任何东西和 </font>
+
+615
+00:25:15,299 --> 00:25:18,309
+填充将成为空间
+
+616
+00:25:18,309 --> 00:25:22,059
+在<font color="#CCCCCC">那个 </font><font color="#E5E5E5">元素和它的边界之间没关系 </font>
+
+617
+00:25:22,059 --> 00:25:25,119
+ <font color="#CCCCCC">它是边缘， </font><font color="#E5E5E5">所以你可以设置填充 </font>
+
+618
+00:25:25,119 --> 00:25:27,340
+ <font color="#CCCCCC">顶部右侧</font><font color="#E5E5E5">的 </font><font color="#CCCCCC">底部</font><font color="#E5E5E5">或 </font>
+
+619
+00:25:27,340 --> 00:25:29,200
+留下任何你想要的填充物
+
+620
+00:25:29,200 --> 00:25:31,869
+好吧， <font color="#E5E5E5">它 现在 将添加 </font><font color="#CCCCCC">该空间 </font>
+
+621
+00:25:31,869 --> 00:25:34,629
+边界与<font color="#E5E5E5">边界有关 </font>
+
+622
+00:25:34,629 --> 00:25:35,919
+财产<font color="#E5E5E5">，你并不总是这样 </font>
+
+623
+00:25:35,919 --> 00:25:38,200
+ <font color="#E5E5E5">使用这个，但你可以设置边框 </font>
+
+624
+00:25:38,200 --> 00:25:40,389
+您可以<font color="#E5E5E5">将宽度设置为 </font><font color="#CCCCCC">宽度 </font><font color="#E5E5E5">和 </font>
+
+625
+00:25:40,389 --> 00:25:42,399
+你可以在<font color="#CCCCCC">左上角 </font><font color="#E5E5E5">和右下角做</font>
+
+626
+00:25:42,399 --> 00:25:44,200
+然后保证金<font color="#E5E5E5">将是间距 </font>
+
+627
+00:25:44,200 --> 00:25:46,840
+ <font color="#E5E5E5">在那个边界之外 </font><font color="#CCCCCC">还好吧 </font>
+
+628
+00:25:46,840 --> 00:25:48,669
+ <font color="#E5E5E5">记住填充是里面的空间 </font>
+
+629
+00:25:48,669 --> 00:25:52,869
+ <font color="#E5E5E5">保证金是 </font><font color="#CCCCCC">现在外面的空间 </font>
+
+630
+00:25:52,869 --> 00:25:55,210
+我们正在<font color="#E5E5E5">应用样式或何时使用样式 </font>
+
+631
+00:25:55,210 --> 00:25:57,940
+应用填充和边距
+
+632
+00:25:57,940 --> 00:25:59,049
+不同的方式<font color="#E5E5E5">来 </font><font color="#CCCCCC">做到这一点 </font>
+
+633
+00:25:59,049 --> 00:26:01,029
+还好还有的还有很长的路<font color="#CCCCCC">，是 </font>
+
+634
+00:26:01,029 --> 00:26:03,220
+在这个例子中<font color="#E5E5E5">我们现在的方式很短</font>
+
+635
+00:26:03,220 --> 00:26:06,039
+ <font color="#CCCCCC">使用此段的保证金，所以我们是 </font>
+
+636
+00:26:06,039 --> 00:26:08,139
+说我们希望<font color="#E5E5E5">保证金最高为 </font><font color="#CCCCCC">5 </font>
+
+637
+00:26:08,139 --> 00:26:11,200
+像素<font color="#E5E5E5">边距底部 </font><font color="#CCCCCC">5边距 </font>
+
+638
+00:26:11,200 --> 00:26:13,600
+是10 <font color="#E5E5E5">和剩余边距 </font>
+
+639
+00:26:13,600 --> 00:26:15,549
+ 10如果<font color="#E5E5E5">我们在这里查看我们的盒子模型 </font>
+
+640
+00:26:15,549 --> 00:26:18,580
+它是<font color="#CCCCCC">我们的上下边距 </font>
+
+641
+00:26:18,580 --> 00:26:20,830
+想<font color="#E5E5E5">成为5所以这就是这个 </font>
+
+642
+00:26:20,830 --> 00:26:23,080
+ <font color="#E5E5E5">然后左右将是10 </font>
+
+643
+00:26:23,080 --> 00:26:26,980
+ <font color="#CCCCCC">好的，现在我们也有这个 </font>
+
+644
+00:26:26,980 --> 00:26:29,470
+用更短的语法<font color="#CCCCCC">来代替 </font>
+
+645
+00:26:29,470 --> 00:26:30,190
+保证金
+
+646
+00:26:30,190 --> 00:26:32,350
+ <font color="#CCCCCC">我们可以就是上边距等等 </font>
+
+647
+00:26:32,350 --> 00:26:35,950
+说保证金然后<font color="#E5E5E5">我们可以做到顶级 </font>
+
+648
+00:26:35,950 --> 00:26:39,159
+ <font color="#E5E5E5">右下角好吧就是那个 </font>
+
+649
+00:26:39,159 --> 00:26:40,779
+什么你需要<font color="#E5E5E5">记住右上角 </font>
+
+650
+00:26:40,779 --> 00:26:43,450
+在<font color="#CCCCCC">左下方 </font><font color="#E5E5E5">，你会看到前五名 </font>
+
+651
+00:26:43,450 --> 00:26:48,820
+呐喊前五名<font color="#CCCCCC">右下十名 </font>
+
+652
+00:26:48,820 --> 00:26:52,389
+ <font color="#E5E5E5">现在就离开了十点，迈出了 </font><font color="#CCCCCC">一步 </font>
+
+653
+00:26:52,389 --> 00:26:54,370
+ <font color="#E5E5E5">甚至你知道， </font><font color="#CCCCCC">使其 更 </font>
+
+654
+00:26:54,370 --> 00:26:57,100
+ <font color="#E5E5E5">如果顶部和底部 </font><font color="#CCCCCC">是 较短 的 </font>
+
+655
+00:26:57,100 --> 00:26:59,049
+ <font color="#E5E5E5">相同，左右相同 </font>
+
+656
+00:26:59,049 --> 00:27:00,159
+好的
+
+657
+00:27:00,159 --> 00:27:02,259
+例如在这种<font color="#CCCCCC">情况下顶部 </font><font color="#E5E5E5">或底部或 </font>
+
+658
+00:27:02,259 --> 00:27:05,110
+五个<font color="#E5E5E5">左右 </font><font color="#CCCCCC">十个 </font><font color="#E5E5E5">我们可以做到这一点 </font>
+
+659
+00:27:05,110 --> 00:27:08,379
+ <font color="#E5E5E5">我们</font><font color="#CCCCCC">可以说，五层为顶部和 </font>
+
+660
+00:27:08,379 --> 00:27:11,590
+ <font color="#E5E5E5">左下角 </font><font color="#CCCCCC">十分为 </font><font color="#E5E5E5">好 </font>
+
+661
+00:27:11,590 --> 00:27:13,269
+所以这是一个<font color="#E5E5E5">缺乏 </font><font color="#CCCCCC">语法，然后 </font><font color="#E5E5E5">是 </font>
+
+662
+00:27:13,269 --> 00:27:14,889
+当然<font color="#E5E5E5">，如果他们都是平等的，你可以 </font><font color="#CCCCCC">只 </font>
+
+663
+00:27:14,889 --> 00:27:17,169
+保证金<font color="#E5E5E5">五个像素，这将添加 </font>
+
+664
+00:27:17,169 --> 00:27:19,210
+ <font color="#E5E5E5">围绕整个 </font><font color="#CCCCCC">事物的 </font><font color="#E5E5E5">五个像素 </font>
+
+665
+00:27:19,210 --> 00:27:21,309
+您可以使用<font color="#CCCCCC">此相同的格式</font>
+
+666
+00:27:21,309 --> 00:27:23,289
+填充你可以做填充顶部填充
+
+667
+00:27:23,289 --> 00:27:25,360
+底部，然后<font color="#CCCCCC">在这里同样的事情你 </font>
+
+668
+00:27:25,360 --> 00:27:28,690
+可以<font color="#E5E5E5">只使用填充，所以什么 </font>
+
+669
+00:27:28,690 --> 00:27:30,129
+我现在要做的<font color="#E5E5E5">是我要补充一下 </font>
+
+670
+00:27:30,129 --> 00:27:32,289
+ <font color="#E5E5E5">这是一个边界，所以我们可以看到 </font>
+
+671
+00:27:32,289 --> 00:27:33,850
+填充和边距之间的差异
+
+672
+00:27:33,850 --> 00:27:37,539
+更清楚， <font color="#E5E5E5">所以对于盒子一，这里让我们 </font>
+
+673
+00:27:37,539 --> 00:27:41,500
+ <font color="#E5E5E5">继续 </font><font color="#CCCCCC">，让我们说边境 </font><font color="#E5E5E5">没问题 </font>
+
+674
+00:27:41,500 --> 00:27:43,090
+ <font color="#E5E5E5">我们要把它设置 </font><font color="#CCCCCC">为五 </font>
+
+675
+00:27:43,090 --> 00:27:46,990
+像素<font color="#E5E5E5">红色好，所以尺寸颜色和 </font>
+
+676
+00:27:46,990 --> 00:27:50,620
+ <font color="#E5E5E5">然后键入或样式，我会说坚实 </font>
+
+677
+00:27:50,620 --> 00:27:52,539
+所以让我们继续<font color="#CCCCCC">前进 </font><font color="#E5E5E5">， </font><font color="#CCCCCC">保存 和 </font>
+
+678
+00:27:52,539 --> 00:27:55,690
+重装<font color="#CCCCCC">，你会在右边看到 </font>
+
+679
+00:27:55,690 --> 00:27:58,529
+ <font color="#E5E5E5">我们有 </font><font color="#CCCCCC">一个五像素红色实心边框 </font>
+
+680
+00:27:58,529 --> 00:28:01,059
+ <font color="#E5E5E5">如果我们想添加，现在好了 </font>
+
+681
+00:28:01,059 --> 00:28:05,049
+在另一边<font color="#E5E5E5">的边界让我们说 </font>
+
+682
+00:28:05,049 --> 00:28:09,100
+ <font color="#E5E5E5">如果我保存 </font><font color="#CCCCCC">，那就 </font><font color="#E5E5E5">想 </font><font color="#CCCCCC">做好 了 </font>
+
+683
+00:28:09,100 --> 00:28:10,330
+它<font color="#CCCCCC">会 </font><font color="#E5E5E5">增加它的权利， </font>
+
+684
+00:28:10,330 --> 00:28:15,899
+ <font color="#CCCCCC">离开， </font><font color="#E5E5E5">当然我们可以做到顶部和 </font>
+
+685
+00:28:15,899 --> 00:28:18,730
+ <font color="#E5E5E5">好吧，那就好了 </font>
+
+686
+00:28:18,730 --> 00:28:20,529
+ <font color="#E5E5E5">给它 </font><font color="#CCCCCC">一个五像素的边框 </font>
+
+687
+00:28:20,529 --> 00:28:23,710
+ <font color="#E5E5E5">整个事情 </font><font color="#CCCCCC">现在就像 </font>
+
+688
+00:28:23,710 --> 00:28:25,450
+有边距和填充，有<font color="#CCCCCC">他们的 </font>
+
+689
+00:28:25,450 --> 00:28:27,159
+ <font color="#E5E5E5">你不需要做所有的短手</font>
+
+690
+00:28:27,159 --> 00:28:30,429
+ <font color="#E5E5E5">这个 </font><font color="#CCCCCC">，如果你希望它们都</font><font color="#E5E5E5">相同 </font>
+
+691
+00:28:30,429 --> 00:28:32,289
+ <font color="#CCCCCC">好的，我们 </font><font color="#E5E5E5">能做的就是我们能做到的 </font>
+
+692
+00:28:32,289 --> 00:28:35,639
+ <font color="#CCCCCC">只说边界然后我们可以说 </font>
+
+693
+00:28:35,639 --> 00:28:41,220
+ <font color="#E5E5E5">五像素红色固体 </font>
+
+694
+00:28:41,220 --> 00:28:43,260
+ <font color="#E5E5E5">没关系，然后，如果我们摆脱了所有</font><font color="#CCCCCC">的 </font>
+
+695
+00:28:43,260 --> 00:28:45,630
+这和保存它重新加载<font color="#E5E5E5">我们得到相同 </font>
+
+696
+00:28:45,630 --> 00:28:47,730
+ <font color="#CCCCCC">所以 </font><font color="#E5E5E5">这就是你想要的 </font>
+
+697
+00:28:47,730 --> 00:28:49,830
+做而不是<font color="#E5E5E5">这个，但我会继续 </font>
+
+698
+00:28:49,830 --> 00:28:52,350
+ <font color="#E5E5E5">它有再次 </font><font color="#CCCCCC">只是你们有它 </font><font color="#E5E5E5">， </font>
+
+699
+00:28:52,350 --> 00:28:57,150
+ <font color="#E5E5E5">现在你可以这样说 </font>
+
+700
+00:28:57,150 --> 00:28:59,490
+还针对<font color="#E5E5E5">特定的边界属性 </font>
+
+701
+00:28:59,490 --> 00:29:04,590
+像大小<font color="#E5E5E5">颜色和 </font><font color="#CCCCCC">样式 </font><font color="#E5E5E5">，以便 </font>
+
+702
+00:29:04,590 --> 00:29:06,240
+ <font color="#CCCCCC">比方说 </font><font color="#E5E5E5">我们想要 </font>
+
+703
+00:29:06,240 --> 00:29:09,090
+ <font color="#E5E5E5">改变我们可以说边界的宽度 -  </font>
+
+704
+00:29:09,090 --> 00:29:13,590
+宽度并将其设置<font color="#CCCCCC">为3像素，如果我们 </font>
+
+705
+00:29:13,590 --> 00:29:15,870
+重新加载<font color="#E5E5E5">，这将设置所有方面 </font>
+
+706
+00:29:15,870 --> 00:29:18,570
+ <font color="#E5E5E5">3像素，如果我们想让我们说的话 </font>
+
+707
+00:29:18,570 --> 00:29:21,840
+瞄准底部底部的宽度
+
+708
+00:29:21,840 --> 00:29:26,780
+ <font color="#CCCCCC">底部边界底部我们可以说边界 </font>
+
+709
+00:29:26,780 --> 00:29:32,040
+底部宽度，让我们把它设置<font color="#E5E5E5">为 </font>
+
+710
+00:29:32,040 --> 00:29:35,880
+ <font color="#E5E5E5">10 </font><font color="#CCCCCC">像素 </font><font color="#E5E5E5">还可以，所以我们可以像它一样 </font>
+
+711
+00:29:35,880 --> 00:29:39,570
+我们也可以做风格，如果我们想要的话
+
+712
+00:29:39,570 --> 00:29:41,640
+ <font color="#E5E5E5">说边境 </font>
+
+713
+00:29:41,640 --> 00:29:49,110
+让我们做边框顶级风格<font color="#E5E5E5">，我们将设置 </font>
+
+714
+00:29:49,110 --> 00:29:52,500
+ ， <font color="#CCCCCC">为 </font><font color="#E5E5E5">点缀，所以如果我现在你重装 </font>
+
+715
+00:29:52,500 --> 00:29:54,540
+看到顶部边框点缀着<font color="#E5E5E5">我 </font>
+
+716
+00:29:54,540 --> 00:29:56,640
+相信那里<font color="#CCCCCC">有坚实的点缀 </font>
+
+717
+00:29:56,640 --> 00:30:01,230
+ <font color="#CCCCCC">我想可能会有一个 </font><font color="#E5E5E5">虚线 </font>
+
+718
+00:30:01,230 --> 00:30:02,670
+ <font color="#E5E5E5">如果你想看，还有其他人 </font>
+
+719
+00:30:02,670 --> 00:30:04,920
+ <font color="#CCCCCC">你可以， </font><font color="#E5E5E5">但在大多数情况下我们 </font>
+
+720
+00:30:04,920 --> 00:30:07,400
+至少对我来说，我通常<font color="#CCCCCC">使用固体 </font>
+
+721
+00:30:07,400 --> 00:30:09,420
+ <font color="#CCCCCC">好吧， </font><font color="#E5E5E5">现在我想保持这个 </font>
+
+722
+00:30:09,420 --> 00:30:14,190
+很简单<font color="#CCCCCC">，我只想这样做 </font>
+
+723
+00:30:14,190 --> 00:30:15,570
+我<font color="#E5E5E5">打算把</font><font color="#CCCCCC">这一 权利 </font><font color="#E5E5E5">和 </font>
+
+724
+00:30:15,570 --> 00:30:17,640
+ <font color="#E5E5E5">应该覆盖一切 </font><font color="#CCCCCC">没关系 </font>
+
+725
+00:30:17,640 --> 00:30:19,440
+但<font color="#E5E5E5">同样 </font><font color="#CCCCCC">，我要离开这一切 </font>
+
+726
+00:30:19,440 --> 00:30:23,700
+只是<font color="#E5E5E5">让你们拥有它所以现在让我们 </font>
+
+727
+00:30:23,700 --> 00:30:26,310
+看看<font color="#E5E5E5">padding好吧所以在这里 </font><font color="#CCCCCC">让我们来吧 </font>
+
+728
+00:30:26,310 --> 00:30:31,650
+说填充<font color="#CCCCCC">我会说填充顶部和 </font>
+
+729
+00:30:31,650 --> 00:30:35,700
+我们将其设置<font color="#E5E5E5">为20像素重新加载和 </font>
+
+730
+00:30:35,700 --> 00:30:36,960
+你会看到它将它添加到<font color="#E5E5E5">顶部 </font>
+
+731
+00:30:36,960 --> 00:30:38,910
+现在<font color="#E5E5E5">有</font><font color="#CCCCCC">最初 一些填充 </font>
+
+732
+00:30:38,910 --> 00:30:41,160
+这里因为默认情况下<font color="#E5E5E5">有一个h1 </font>
+
+733
+00:30:41,160 --> 00:30:43,770
+如果你<font color="#E5E5E5">愿意，现在填充</font>
+
+734
+00:30:43,770 --> 00:30:45,780
+你可以将保证金归零
+
+735
+00:30:45,780 --> 00:30:47,820
+填充页面上的所有内容
+
+736
+00:30:47,820 --> 00:30:49,530
+让我告诉你如何<font color="#E5E5E5">做到这一点，如果我们 </font>
+
+737
+00:30:49,530 --> 00:30:51,690
+ <font color="#CCCCCC">在这里走到最顶端 </font><font color="#E5E5E5">，我们放了一个 </font>
+
+738
+00:30:51,690 --> 00:30:55,500
+星号<font color="#CCCCCC">这基本上是在 </font><font color="#E5E5E5">说 </font>
+
+739
+00:30:55,500 --> 00:30:59,490
+所以每个<font color="#E5E5E5">风格的每一个元素</font><font color="#CCCCCC">都会如此</font>
+
+740
+00:30:59,490 --> 00:31:03,450
+将其设置<font color="#E5E5E5">为margin：0 padding：0和 </font>
+
+741
+00:31:03,450 --> 00:31:05,370
+那就是<font color="#E5E5E5">把一切都归零</font>
+
+742
+00:31:05,370 --> 00:31:07,590
+ <font color="#E5E5E5">这称为重置好，所以如果我们 </font>
+
+743
+00:31:07,590 --> 00:31:10,710
+现在重新加载<font color="#E5E5E5">h1和段落 </font>
+
+744
+00:31:10,710 --> 00:31:12,929
+ <font color="#E5E5E5">你会发现他们没有任何保证金或 </font>
+
+745
+00:31:12,929 --> 00:31:14,730
+默认填充， <font color="#E5E5E5">所以你可能想要 </font>
+
+746
+00:31:14,730 --> 00:31:16,860
+如果你想<font color="#E5E5E5">只为零，请添加重置</font>
+
+747
+00:31:16,860 --> 00:31:18,809
+一切都在<font color="#E5E5E5">外面，没有 </font>
+
+748
+00:31:18,809 --> 00:31:21,299
+ <font color="#E5E5E5">任何 </font><font color="#CCCCCC">让你知道最初的 </font><font color="#E5E5E5">困惑 </font>
+
+749
+00:31:21,299 --> 00:31:23,120
+ <font color="#CCCCCC">某些元素的填充和边距 </font>
+
+750
+00:31:23,120 --> 00:31:25,440
+ <font color="#E5E5E5">如果 </font><font color="#CCCCCC">你愿意 </font><font color="#E5E5E5">，这完全 </font><font color="#CCCCCC">取决于 你 </font>
+
+751
+00:31:25,440 --> 00:31:28,020
+这样做， <font color="#E5E5E5">但我实际上只是去 </font>
+
+752
+00:31:28,020 --> 00:31:31,409
+ <font color="#E5E5E5">评论这个，所以 </font><font color="#CCCCCC">它不需要 </font>
+
+753
+00:31:31,409 --> 00:31:35,429
+ <font color="#E5E5E5">效果好，所以我们有 </font><font color="#CCCCCC">一些填充 </font>
+
+754
+00:31:35,429 --> 00:31:38,130
+在<font color="#E5E5E5">顶部， </font><font color="#CCCCCC">但我想要 </font><font color="#E5E5E5">做的是添加 </font>
+
+755
+00:31:38,130 --> 00:31:44,000
+ <font color="#E5E5E5">四处填充所以我能做的就是 </font>
+
+756
+00:31:44,000 --> 00:31:46,350
+我们可以做很长的<font color="#CCCCCC">路 </font>
+
+757
+00:31:46,350 --> 00:31:54,840
+所以我们可以说右下角<font color="#E5E5E5">没问题 </font>
+
+758
+00:31:54,840 --> 00:31:57,720
+我们可以这样做<font color="#E5E5E5">，但你不想这样做 </font>
+
+759
+00:31:57,720 --> 00:31:59,159
+做到这一点<font color="#CCCCCC">特别是如果它 </font><font color="#E5E5E5">会 </font>
+
+760
+00:31:59,159 --> 00:32:01,649
+ 20像素或任何尺寸无论如何
+
+761
+00:32:01,649 --> 00:32:04,350
+你<font color="#CCCCCC">只想 </font><font color="#E5E5E5">用填充好吧 </font>
+
+762
+00:32:04,350 --> 00:32:07,890
+所以我们会说填充20 <font color="#CCCCCC">像素然后让 </font>
+
+763
+00:32:07,890 --> 00:32:09,539
+我<font color="#E5E5E5">只是在这里发表评论 </font><font color="#CCCCCC">，我 </font><font color="#E5E5E5">只是 </font>
+
+764
+00:32:09,539 --> 00:32:18,330
+要<font color="#E5E5E5">现在</font><font color="#CCCCCC">说</font><font color="#E5E5E5">同样高于一切 </font>
+
+765
+00:32:18,330 --> 00:32:20,370
+在另一方面保证金<font color="#CCCCCC">将 </font><font color="#E5E5E5">是 </font>
+
+766
+00:32:20,370 --> 00:32:23,100
+ <font color="#CCCCCC">所有边境 </font><font color="#E5E5E5">以外的空间</font>
+
+767
+00:32:23,100 --> 00:32:25,429
+是的，所以让我们说我们想增加保证金
+
+768
+00:32:25,429 --> 00:32:29,370
+顶部，我们会说20像素<font color="#E5E5E5">是什么 </font>
+
+769
+00:32:29,370 --> 00:32:31,110
+应该做的就是把整个事情搞砸
+
+770
+00:32:31,110 --> 00:32:33,140
+因为<font color="#E5E5E5">它会在它上面增加空间 </font>
+
+771
+00:32:33,140 --> 00:32:37,020
+ <font color="#E5E5E5">好的 </font><font color="#CCCCCC">，我们可以再次这样做 </font>
+
+772
+00:32:37,020 --> 00:32:41,220
+保证金<font color="#E5E5E5">或我们可以 </font><font color="#CCCCCC">说保证金20 </font>
+
+773
+00:32:41,220 --> 00:32:42,720
+ <font color="#E5E5E5">像素，这将把它全部 </font>
+
+774
+00:32:42,720 --> 00:32:44,640
+ <font color="#CCCCCC">好的 </font><font color="#E5E5E5">方式 你会看到它 </font>
+
+775
+00:32:44,640 --> 00:32:46,380
+ <font color="#E5E5E5">实际上因为它添加了更瘦的皮肤 </font>
+
+776
+00:32:46,380 --> 00:32:48,990
+ <font color="#CCCCCC">这里有 20个像素，但我们只是说 </font>
+
+777
+00:32:48,990 --> 00:32:50,700
+ <font color="#CCCCCC">想要 </font><font color="#E5E5E5">顶部和底部的边距 </font>
+
+778
+00:32:50,700 --> 00:32:53,880
+ <font color="#E5E5E5">我们可以做20个 </font><font color="#CCCCCC">像素，然后</font><font color="#E5E5E5">零 </font>
+
+779
+00:32:53,880 --> 00:32:55,950
+左右<font color="#CCCCCC">都可以 </font>
+
+780
+00:32:55,950 --> 00:33:00,539
+重装，有我们<font color="#CCCCCC">这么走了 </font><font color="#E5E5E5">没事 </font>
+
+781
+00:33:00,539 --> 00:33:02,700
+我想<font color="#CCCCCC">继续阅读一些 </font><font color="#E5E5E5">文字 </font>
+
+782
+00:33:02,700 --> 00:33:04,470
+格式<font color="#E5E5E5">样式等什么我</font><font color="#CCCCCC">要 </font>
+
+783
+00:33:04,470 --> 00:33:08,380
+我<font color="#E5E5E5">打算把盒子对准一个h1 </font>
+
+784
+00:33:08,380 --> 00:33:10,660
+好的，所以这就是说<font color="#CCCCCC">我想 </font>
+
+785
+00:33:10,660 --> 00:33:13,090
+设置<font color="#CCCCCC">此类中的任何h1 </font>
+
+786
+00:33:13,090 --> 00:33:15,250
+ <font color="#E5E5E5">好吧，它不会影响任何h1 </font>
+
+787
+00:33:15,250 --> 00:33:18,520
+那不是在这个班级让我们开始吧
+
+788
+00:33:18,520 --> 00:33:20,620
+让我们<font color="#E5E5E5">改变字体系列 </font>
+
+789
+00:33:20,620 --> 00:33:23,140
+ <font color="#CCCCCC">好的，所以我们不必 </font><font color="#E5E5E5">有 </font><font color="#CCCCCC">一种字体 </font>
+
+790
+00:33:23,140 --> 00:33:24,910
+整个网站的家庭让我们说
+
+791
+00:33:24,910 --> 00:33:28,090
+想要<font color="#E5E5E5">使用两个 </font><font color="#CCCCCC">Homa </font><font color="#E5E5E5">重装，我明白了 </font>
+
+792
+00:33:28,090 --> 00:33:30,450
+这是<font color="#CCCCCC">一个侯马字体 </font>
+
+793
+00:33:30,450 --> 00:33:32,860
+让我们说<font color="#CCCCCC">，我们要</font><font color="#E5E5E5">改变字体 </font>
+
+794
+00:33:32,860 --> 00:33:38,770
+体重到800，让我们说我们<font color="#E5E5E5">想要它 </font>
+
+795
+00:33:38,770 --> 00:33:41,890
+我们可以说字体样式设置为斜体
+
+796
+00:33:41,890 --> 00:33:46,419
+那是斜体<font color="#CCCCCC">，如果我们重新加载到那里我们 </font>
+
+797
+00:33:46,419 --> 00:33:46,809
+走
+
+798
+00:33:46,809 --> 00:33:51,190
+所以如果<font color="#E5E5E5">我们 </font><font color="#CCCCCC">有 </font><font color="#E5E5E5">字体重量字体样式 </font>
+
+799
+00:33:51,190 --> 00:33:55,830
+ <font color="#E5E5E5">我们可以做的文字装饰 </font>
+
+800
+00:33:55,830 --> 00:33:59,559
+ <font color="#E5E5E5">强调如果我们想要那样 </font>
+
+801
+00:33:59,559 --> 00:34:02,280
+ <font color="#CCCCCC">如果我们 </font><font color="#E5E5E5">愿意，给它一个下划线 </font>
+
+802
+00:34:02,280 --> 00:34:04,870
+将它<font color="#CCCCCC">改为我们可以使用的全部大写 </font>
+
+803
+00:34:04,870 --> 00:34:10,510
+文字变换，并说大写<font color="#CCCCCC">OK </font>
+
+804
+00:34:10,510 --> 00:34:13,719
+现在重装它全部大写<font color="#E5E5E5">让我们看看 </font>
+
+805
+00:34:13,719 --> 00:34:17,409
+如果我们想要，还有什么字母间距
+
+806
+00:34:17,409 --> 00:34:19,030
+ <font color="#E5E5E5">在 </font><font color="#CCCCCC">这封信 </font><font color="#E5E5E5">之间放置空格 </font>
+
+807
+00:34:19,030 --> 00:34:21,940
+通常会与<font color="#E5E5E5">M单位一起 </font>
+
+808
+00:34:21,940 --> 00:34:27,129
+让我们说<font color="#CCCCCC">0.2米，现在重装，现在 </font>
+
+809
+00:34:27,129 --> 00:34:29,199
+你看到<font color="#E5E5E5">每个字母之间的这个空格 </font>
+
+810
+00:34:29,199 --> 00:34:33,730
+然后我们也有字间距<font color="#E5E5E5">说 </font>
+
+811
+00:34:33,730 --> 00:34:38,469
+字间距<font color="#E5E5E5">，我们会说 </font><font color="#CCCCCC">1M重载 </font>
+
+812
+00:34:38,469 --> 00:34:40,480
+而且你看到<font color="#E5E5E5">现在有更多的空间 </font>
+
+813
+00:34:40,480 --> 00:34:42,100
+ <font color="#CCCCCC">每个 </font><font color="#E5E5E5">单词 </font><font color="#CCCCCC">之间 </font><font color="#E5E5E5">所以这些只是一些 </font>
+
+814
+00:34:42,100 --> 00:34:45,850
+ <font color="#E5E5E5">文本格式 </font><font color="#CCCCCC">样式好吧让我们走吧 </font>
+
+815
+00:34:45,850 --> 00:34:47,440
+提前<font color="#E5E5E5">并在页面上放置另一个框 </font>
+
+816
+00:34:47,440 --> 00:34:49,418
+ <font color="#CCCCCC">只需添加一些 </font><font color="#E5E5E5">更多 </font><font color="#CCCCCC">的HTML所以我打算 </font>
+
+817
+00:34:49,418 --> 00:34:55,000
+ <font color="#E5E5E5">复制框1，我们将其更改为 </font>
+
+818
+00:34:55,000 --> 00:34:59,950
+ <font color="#E5E5E5">箱 </font><font color="#CCCCCC">-这很好，我们将</font><font color="#E5E5E5">离开 </font>
+
+819
+00:34:59,950 --> 00:35:02,109
+相同的文字我想你加载的地方
+
+820
+00:35:02,109 --> 00:35:06,150
+ <font color="#CCCCCC">实际上 </font><font color="#E5E5E5">改变了我们会说的标题 </font>
+
+821
+00:35:06,660 --> 00:35:09,000
+再见<font color="#E5E5E5">世界 </font>
+
+822
+00:35:09,000 --> 00:35:12,190
+ <font color="#CCCCCC">好了， </font><font color="#E5E5E5">现在注意到我们没有 </font>
+
+823
+00:35:12,190 --> 00:35:14,380
+任何造型，因为我们现在用<font color="#E5E5E5">的是 </font>
+
+824
+00:35:14,380 --> 00:35:17,020
+ <font color="#CCCCCC">如果我们是的话，我们可以选择不对齐的方框 </font>
+
+825
+00:35:17,020 --> 00:35:19,060
+ <font color="#E5E5E5">将其更改为方框1当然是 </font>
+
+826
+00:35:19,060 --> 00:35:21,590
+要<font color="#E5E5E5">应用这些风格 </font>
+
+827
+00:35:21,590 --> 00:35:24,470
+但让我们改变它框<font color="#CCCCCC">两则 </font>
+
+828
+00:35:24,470 --> 00:35:29,570
+在CSS中只会说第二个框<font color="#CCCCCC">和 </font>
+
+829
+00:35:29,570 --> 00:35:31,880
+让我们看看我<font color="#E5E5E5">不想添加一堆 </font>
+
+830
+00:35:31,880 --> 00:35:34,510
+疯狂的<font color="#E5E5E5">风格让我们只是给它一个边框 </font>
+
+831
+00:35:34,510 --> 00:35:37,490
+让我们说我们<font color="#CCCCCC">想要三个 </font><font color="#E5E5E5">三像素 </font>
+
+832
+00:35:37,490 --> 00:35:41,210
+ <font color="#E5E5E5">我们会做点缀， </font><font color="#CCCCCC">让我们做一个 </font>
+
+833
+00:35:41,210 --> 00:35:45,320
+浅<font color="#E5E5E5">灰色重装好，所以现在我有 </font><font color="#CCCCCC">一个 </font>
+
+834
+00:35:45,320 --> 00:35:50,960
+ border让我们添加填充<font color="#E5E5E5">20像素和 </font>
+
+835
+00:35:50,960 --> 00:35:56,270
+让我们说边缘让我们做20像素的顶部
+
+836
+00:35:56,270 --> 00:35:59,060
+并且左下角<font color="#E5E5E5">为零，好吧 </font>
+
+837
+00:35:59,060 --> 00:36:00,710
+添加一些填充并添加
+
+838
+00:36:00,710 --> 00:36:03,980
+顶部和<font color="#CCCCCC">底部的边距如下</font>
+
+839
+00:36:03,980 --> 00:36:05,840
+ <font color="#E5E5E5">我要做的就是让我们添加let's </font>
+
+840
+00:36:05,840 --> 00:36:08,470
+在一些<font color="#E5E5E5">列表中我 </font><font color="#CCCCCC">列出了 </font><font color="#E5E5E5">无序 </font><font color="#CCCCCC">列表 </font>
+
+841
+00:36:08,470 --> 00:36:10,460
+ <font color="#CCCCCC">好了让我们</font><font color="#E5E5E5">回到 </font><font color="#CCCCCC">我们的HTML </font>
+
+842
+00:36:10,460 --> 00:36:15,740
+ <font color="#CCCCCC">我将进入第二盒，让我们放一个 </font>
+
+843
+00:36:15,740 --> 00:36:18,740
+ div <font color="#CCCCCC">我们会给这个会给它一个类 </font>
+
+844
+00:36:18,740 --> 00:36:23,420
+让我们说类别，让我们放一个
+
+845
+00:36:23,420 --> 00:36:30,320
+ <font color="#CCCCCC">h2 </font><font color="#E5E5E5">会说类别，让我们放一个 </font>
+
+846
+00:36:30,320 --> 00:36:33,920
+ <font color="#CCCCCC">UL和一些盟友都可以 </font>
+
+847
+00:36:33,920 --> 00:36:37,030
+ <font color="#E5E5E5">有一个标签，将无处可去 </font>
+
+848
+00:36:37,030 --> 00:36:43,870
+ <font color="#E5E5E5">我会说第一类我 </font><font color="#CCCCCC">要去 </font>
+
+849
+00:36:43,870 --> 00:36:46,880
+就像<font color="#CCCCCC">那样我们会看到第一类 </font>
+
+850
+00:36:46,880 --> 00:36:51,020
+三，四<font color="#CCCCCC">好，所以现在我们 </font><font color="#E5E5E5">有一个 </font>
+
+851
+00:36:51,020 --> 00:36:52,460
+简单列表<font color="#E5E5E5">这 </font><font color="#CCCCCC">是它的 </font><font color="#E5E5E5">样子 </font>
+
+852
+00:36:52,460 --> 00:36:56,840
+ <font color="#CCCCCC">像默认情况下 </font><font color="#E5E5E5">没有CSS所以现在让我们 </font>
+
+853
+00:36:56,840 --> 00:36:59,530
+转到<font color="#CCCCCC">我们的样式点CSS文件和 </font>
+
+854
+00:36:59,530 --> 00:37:04,000
+让我们<font color="#CCCCCC">将 </font><font color="#E5E5E5">一些样式应用于类别 </font>
+
+855
+00:37:04,000 --> 00:37:06,650
+记住类别实际上就是div 
+
+856
+00:37:06,650 --> 00:37:08,840
+ <font color="#E5E5E5">围绕着这不是 </font><font color="#CCCCCC">真实的 </font>
+
+857
+00:37:08,840 --> 00:37:11,390
+列出<font color="#E5E5E5">自己没关系，这就是 </font><font color="#CCCCCC">我的意思 </font>
+
+858
+00:37:11,390 --> 00:37:14,060
+ <font color="#E5E5E5">使用CSS你 </font><font color="#CCCCCC">可以做同样的事情 </font>
+
+859
+00:37:14,060 --> 00:37:15,530
+ <font color="#E5E5E5">我们可以通过一百万种不同的方式 </font>
+
+860
+00:37:15,530 --> 00:37:18,590
+ <font color="#CCCCCC">把课程放在了实际的UL上 </font>
+
+861
+00:37:18,590 --> 00:37:21,860
+你知道你会<font color="#E5E5E5">找到自己的方式 </font>
+
+862
+00:37:21,860 --> 00:37:24,560
+ <font color="#E5E5E5">做事 </font><font color="#CCCCCC">所以它 </font><font color="#E5E5E5">只是给它一个 </font>
+
+863
+00:37:24,560 --> 00:37:30,350
+ <font color="#E5E5E5">一个像素的边框像灰色一样的像素 </font>
+
+864
+00:37:30,350 --> 00:37:32,110
+ <font color="#E5E5E5">固体 </font>
+
+865
+00:37:32,110 --> 00:37:35,200
+然后我们<font color="#E5E5E5">只是给它一些 </font>
+
+866
+00:37:35,200 --> 00:37:37,890
+ <font color="#CCCCCC">一路填充</font><font color="#E5E5E5">10个像素 </font>
+
+867
+00:37:37,890 --> 00:37:40,330
+ <font color="#E5E5E5">好吧， </font><font color="#CCCCCC">它 </font><font color="#E5E5E5">只是围绕着 </font>
+
+868
+00:37:40,330 --> 00:37:44,820
+整个事情<font color="#CCCCCC">还有一个边界半径 </font>
+
+869
+00:37:44,820 --> 00:37:46,630
+我们可以<font color="#E5E5E5">使用的财产， </font><font color="#CCCCCC">那就是 </font>
+
+870
+00:37:46,630 --> 00:37:48,730
+ <font color="#E5E5E5">这可以给它圆角 </font>
+
+871
+00:37:48,730 --> 00:37:51,820
+让我们说15像素<font color="#E5E5E5">并重新加载现在 </font>
+
+872
+00:37:51,820 --> 00:37:54,930
+ <font color="#E5E5E5">注意这个盒子有弯曲的边缘 </font>
+
+873
+00:37:54,930 --> 00:37:59,260
+ <font color="#E5E5E5">好吧 </font><font color="#CCCCCC">哦， </font><font color="#E5E5E5">让我们看看还有什么 </font>
+
+874
+00:37:59,260 --> 00:38:02,050
+ <font color="#CCCCCC">发一条线 </font><font color="#E5E5E5">，这 </font><font color="#CCCCCC">就是你的意思 </font>
+
+875
+00:38:02,050 --> 00:38:04,980
+ <font color="#E5E5E5">可能会使用很多， </font><font color="#CCCCCC">所以让我们说类别 </font>
+
+876
+00:38:04,980 --> 00:38:07,960
+ <font color="#CCCCCC">是类别，我认为它是在内 </font>
+
+877
+00:38:07,960 --> 00:38:11,530
+一个h1我们给它一个h2 <font color="#CCCCCC">所以我们说吧 </font>
+
+878
+00:38:11,530 --> 00:38:13,600
+希望<font color="#E5E5E5">h2与中心对齐 </font>
+
+879
+00:38:13,600 --> 00:38:19,750
+所以我们会<font color="#E5E5E5">说text-align：center </font><font color="#CCCCCC">reload </font>
+
+880
+00:38:19,750 --> 00:38:21,630
+现在<font color="#E5E5E5">你会看到它在 </font><font color="#CCCCCC">中间 </font>
+
+881
+00:38:21,630 --> 00:38:24,670
+ <font color="#CCCCCC">好吧让我们 </font><font color="#E5E5E5">应用一些风格 </font>
+
+882
+00:38:24,670 --> 00:38:28,030
+ UL <font color="#CCCCCC">和结束时的李标签 ， </font><font color="#E5E5E5">所以 </font><font color="#CCCCCC">我们会说 </font>
+
+883
+00:38:28,030 --> 00:38:32,800
+类别<font color="#CCCCCC">UL现在ul默认 </font><font color="#E5E5E5">具有 </font>
+
+884
+00:38:32,800 --> 00:38:35,740
+ <font color="#CCCCCC">你看到 </font><font color="#E5E5E5">他们推了一些填充物</font>
+
+885
+00:38:35,740 --> 00:38:38,620
+ <font color="#E5E5E5">认为它像40像素那么让我们 </font>
+
+886
+00:38:38,620 --> 00:38:41,670
+ <font color="#E5E5E5">通过说，实际上是零 </font>
+
+887
+00:38:41,670 --> 00:38:44,770
+ padding：0 <font color="#E5E5E5">好的，如果我们重新加载，你会 </font>
+
+888
+00:38:44,770 --> 00:38:47,350
+看到它<font color="#E5E5E5">摆脱 </font><font color="#CCCCCC">你可以 </font>
+
+889
+00:38:47,350 --> 00:38:49,000
+ <font color="#E5E5E5">如果你也改变了要点 </font>
+
+890
+00:38:49,000 --> 00:38:51,060
+希望通过<font color="#E5E5E5">使用列表样式 </font>
+
+891
+00:38:51,060 --> 00:38:55,560
+ <font color="#E5E5E5">所以，如果我们说列表样式 </font><font color="#CCCCCC">广场和 </font>
+
+892
+00:38:55,560 --> 00:38:58,390
+现在重装<font color="#E5E5E5">你还可以摆正方形 </font>
+
+893
+00:38:58,390 --> 00:39:00,040
+ <font color="#E5E5E5">也彻底摆脱 </font><font color="#CCCCCC">了他们 </font>
+
+894
+00:39:00,040 --> 00:39:04,690
+说list-style：没有<font color="#CCCCCC">好的重装和 </font>
+
+895
+00:39:04,690 --> 00:39:07,600
+ <font color="#E5E5E5">现在它没有任何好处 </font>
+
+896
+00:39:07,600 --> 00:39:09,700
+在<font color="#E5E5E5">我们得到 Li标签 </font><font color="#CCCCCC">的样式之前</font>
+
+897
+00:39:09,700 --> 00:39:11,410
+ <font color="#E5E5E5">让我们来谈谈 链接 一 点点 </font>
+
+898
+00:39:11,410 --> 00:39:12,970
+因为链接实际上<font color="#E5E5E5">有所不同 </font>
+
+899
+00:39:12,970 --> 00:39:16,240
+ <font color="#E5E5E5">我现在可以说类别了 </font><font color="#CCCCCC">- </font>
+
+900
+00:39:16,240 --> 00:39:18,280
+才刚刚目标在于， <font color="#E5E5E5">在链接</font>
+
+901
+00:39:18,280 --> 00:39:20,170
+类别， <font color="#E5E5E5">但我实际上要去 </font>
+
+902
+00:39:20,170 --> 00:39:23,020
+ <font color="#E5E5E5">在这里登顶并应用全球风格 </font>
+
+903
+00:39:23,020 --> 00:39:26,110
+ <font color="#E5E5E5">链接所以只是一个所以这将适用 </font>
+
+904
+00:39:26,110 --> 00:39:29,050
+ <font color="#E5E5E5">到 </font><font color="#CCCCCC">页面 </font><font color="#E5E5E5">上的任何链接， </font><font color="#CCCCCC">让我们开始吧 </font>
+
+905
+00:39:29,050 --> 00:39:31,180
+ <font color="#E5E5E5">通过 </font><font color="#CCCCCC">删除下划线 </font><font color="#E5E5E5">所以 </font>
+
+906
+00:39:31,180 --> 00:39:34,600
+我们会说文字装饰： <font color="#CCCCCC">没关系 </font>
+
+907
+00:39:34,600 --> 00:39:35,650
+这将<font color="#E5E5E5">摆脱那令人讨厌的 </font>
+
+908
+00:39:35,650 --> 00:39:38,440
+ <font color="#CCCCCC">下划线，你可能 </font><font color="#E5E5E5">想要 </font>
+
+909
+00:39:38,440 --> 00:39:39,790
+ <font color="#E5E5E5">因为默认值而更改颜色 </font>
+
+910
+00:39:39,790 --> 00:39:41,800
+蓝色<font color="#E5E5E5">真的很丑，所以让我们改变它 </font>
+
+911
+00:39:41,800 --> 00:39:43,859
+变黑
+
+912
+00:39:43,859 --> 00:39:45,720
+ <font color="#E5E5E5">好的，现在你可以看到链接了 </font>
+
+913
+00:39:45,720 --> 00:39:48,059
+黑色<font color="#E5E5E5">现在，因为我说 </font><font color="#CCCCCC">他们有不同 </font>
+
+914
+00:39:48,059 --> 00:39:49,859
+ <font color="#E5E5E5">所以他们有一个悬停 </font><font color="#CCCCCC">状态所以我们 </font>
+
+915
+00:39:49,859 --> 00:39:54,269
+可以说a <font color="#CCCCCC">： </font><font color="#E5E5E5">悬停，让我们说我们想要的 </font>
+
+916
+00:39:54,269 --> 00:39:56,819
+ <font color="#E5E5E5">当他们 </font><font color="#CCCCCC">的颜色变成红色 </font><font color="#E5E5E5">时 </font>
+
+917
+00:39:56,819 --> 00:39:59,700
+ <font color="#E5E5E5">当我徘徊过来的时候，现在就重新加载</font>
+
+918
+00:39:59,700 --> 00:40:03,450
+ <font color="#CCCCCC">每个 </font><font color="#E5E5E5">链接变成红色，还有一个 </font>
+
+919
+00:40:03,450 --> 00:40:10,130
+活动<font color="#E5E5E5">状态和活动状态 </font><font color="#CCCCCC">使其变为绿色 </font>
+
+920
+00:40:10,130 --> 00:40:14,039
+ <font color="#E5E5E5">当你点击 </font><font color="#CCCCCC">它 </font><font color="#E5E5E5">时就是活跃的 </font>
+
+921
+00:40:14,039 --> 00:40:15,930
+ <font color="#CCCCCC">只是快速闪现你怎么看 </font>
+
+922
+00:40:15,930 --> 00:40:17,789
+ <font color="#E5E5E5">当我</font><font color="#CCCCCC">点击</font><font color="#E5E5E5">变绿了第二 </font>
+
+923
+00:40:17,789 --> 00:40:20,970
+它<font color="#E5E5E5">是那个的意思是 </font><font color="#CCCCCC">所有 </font><font color="#E5E5E5">活动 </font>
+
+924
+00:40:20,970 --> 00:40:23,940
+ <font color="#CCCCCC">对，我们也有一个访问 </font><font color="#E5E5E5">状态，如果 </font>
+
+925
+00:40:23,940 --> 00:40:28,460
+我们说<font color="#E5E5E5">访问过，让我们说颜色 </font>
+
+926
+00:40:28,460 --> 00:40:32,730
+黄色<font color="#CCCCCC">好的，如果我 </font><font color="#E5E5E5">重新加载他们就是全部 </font>
+
+927
+00:40:32,730 --> 00:40:34,230
+ <font color="#E5E5E5">因为我们做了，所以会变黄 </font>
+
+928
+00:40:34,230 --> 00:40:36,150
+ <font color="#CCCCCC">访问所有 </font><font color="#E5E5E5">这些，但如果我们要添加 </font>
+
+929
+00:40:36,150 --> 00:40:42,180
+ <font color="#CCCCCC">另一个人 </font><font color="#E5E5E5">说 </font><font color="#CCCCCC">第五 </font><font color="#E5E5E5">类 </font><font color="#CCCCCC">并保存 </font>
+
+930
+00:40:42,180 --> 00:40:43,109
+重装
+
+931
+00:40:43,109 --> 00:40:47,670
+我想那就是<font color="#E5E5E5">哦，你知道是什么让我们 </font>
+
+932
+00:40:47,670 --> 00:40:49,380
+让<font color="#E5E5E5">我们 </font><font color="#CCCCCC">一去别的地方会说 </font>
+
+933
+00:40:49,380 --> 00:40:54,329
+ <font color="#E5E5E5">测试HTML好吧所以现在它是黑​​色的，因为 </font>
+
+934
+00:40:54,329 --> 00:40:57,210
+ <font color="#E5E5E5">它取决于实际位置，但如果我 </font>
+
+935
+00:40:57,210 --> 00:40:59,039
+ <font color="#CCCCCC">点击那 </font><font color="#E5E5E5">显然是这样的 </font>
+
+936
+00:40:59,039 --> 00:41:01,109
+ <font color="#E5E5E5">无处，因为它是一个空白页 </font><font color="#CCCCCC">但是如果 </font>
+
+937
+00:41:01,109 --> 00:41:04,980
+我们<font color="#E5E5E5">回去重新加载我猜它 </font>
+
+938
+00:41:04,980 --> 00:41:06,599
+不起作用， <font color="#CCCCCC">因为 </font><font color="#E5E5E5">它不是一个实际的 </font>
+
+939
+00:41:06,599 --> 00:41:10,559
+ <font color="#E5E5E5">页面嗯所以我想我的意思是，如果我们创建 </font>
+
+940
+00:41:10,559 --> 00:41:13,049
+应该转向的测试点HTML 
+
+941
+00:41:13,049 --> 00:41:16,410
+黄<font color="#E5E5E5">老实说 </font><font color="#CCCCCC">我 </font><font color="#E5E5E5">真的没有记不起来 </font>
+
+942
+00:41:16,410 --> 00:41:18,749
+ <font color="#E5E5E5">我最后一次 </font><font color="#CCCCCC">使用访问但是就是这样 </font>
+
+943
+00:41:18,749 --> 00:41:21,539
+你们知道你可以做到<font color="#E5E5E5">这 </font><font color="#CCCCCC">一点 </font>
+
+944
+00:41:21,539 --> 00:41:24,720
+ <font color="#CCCCCC">让 </font><font color="#E5E5E5">我们 </font><font color="#CCCCCC">回到 </font><font color="#E5E5E5">我们的类别和 </font>
+
+945
+00:41:24,720 --> 00:41:26,999
+让我们摆脱那种<font color="#E5E5E5">风格吧 </font>
+
+946
+00:41:26,999 --> 00:41:28,859
+ <font color="#CCCCCC">实际上我不 </font><font color="#E5E5E5">希望被访问者 </font>
+
+947
+00:41:28,859 --> 00:41:34,999
+黄色<font color="#CCCCCC">所以让我们把它变成黑色吧 </font>
+
+948
+00:41:34,999 --> 00:41:41,150
+所以现在让我们说类别盟友和
+
+949
+00:41:41,150 --> 00:41:43,859
+ <font color="#E5E5E5">对于 </font><font color="#CCCCCC">李让我们增加 </font><font color="#E5E5E5">了 </font><font color="#CCCCCC">一点点 </font>
+
+950
+00:41:43,859 --> 00:41:46,950
+填充<font color="#CCCCCC">到底部所以我们会说8 </font>
+
+951
+00:41:46,950 --> 00:41:50,130
+像素，让我们实际添加<font color="#E5E5E5">一个边框 </font>
+
+952
+00:41:50,130 --> 00:41:52,380
+ <font color="#CCCCCC">到底 </font>
+
+953
+00:41:52,380 --> 00:41:57,460
+我们会说点了一个像素<font color="#E5E5E5">，我们说 </font>
+
+954
+00:41:57,460 --> 00:42:00,340
+ <font color="#E5E5E5">三三三 </font><font color="#CCCCCC">四的颜色 </font><font color="#E5E5E5">会 </font>
+
+955
+00:42:00,340 --> 00:42:02,650
+重装， <font color="#CCCCCC">现在它 </font><font color="#E5E5E5">看起来像 </font>
+
+956
+00:42:02,650 --> 00:42:03,600
+那
+
+957
+00:42:03,600 --> 00:42:07,810
+ <font color="#CCCCCC">好吧让我们实际上 </font><font color="#E5E5E5">不加热 </font>
+
+958
+00:42:07,810 --> 00:42:14,470
+像素<font color="#E5E5E5">我们现在就做六个 </font>
+
+959
+00:42:14,470 --> 00:42:17,020
+ <font color="#CCCCCC">该 </font><font color="#E5E5E5">要点，你 </font><font color="#CCCCCC">可以 </font><font color="#E5E5E5">做这个名单 </font>
+
+960
+00:42:17,020 --> 00:42:18,970
+您可以<font color="#E5E5E5">在UL或 </font>
+
+961
+00:42:18,970 --> 00:42:21,970
+李<font color="#E5E5E5">，然后我们也有这个清单 </font>
+
+962
+00:42:21,970 --> 00:42:25,330
+风格形象好，你<font color="#E5E5E5">其实可以</font>
+
+963
+00:42:25,330 --> 00:42:27,730
+将其设置为<font color="#E5E5E5">您要设置的图像</font>
+
+964
+00:42:27,730 --> 00:42:29,200
+ <font color="#CCCCCC">我要 </font><font color="#E5E5E5">进入的背景</font><font color="#CCCCCC">图片 </font>
+
+965
+00:42:29,200 --> 00:42:32,350
+ <font color="#CCCCCC">稍后让我们说URL，我们会说 </font>
+
+966
+00:42:32,350 --> 00:42:37,540
+斜线图像斜线检查点PNG <font color="#CCCCCC">好吧 </font>
+
+967
+00:42:37,540 --> 00:42:40,510
+而我<font color="#E5E5E5">要做的就是抓住一个 </font>
+
+968
+00:42:40,510 --> 00:42:46,630
+图像<font color="#E5E5E5">让我们说复选 </font><font color="#CCCCCC">标记图像和 </font>
+
+969
+00:42:46,630 --> 00:42:48,130
+让我们<font color="#CCCCCC">在这里抓住这个复选标记</font>
+
+970
+00:42:48,130 --> 00:42:51,880
+ <font color="#CCCCCC">我们 </font><font color="#E5E5E5">只是将其保存 </font><font color="#CCCCCC">为 </font><font color="#E5E5E5">支票 </font>
+
+971
+00:42:51,880 --> 00:42:54,640
+ PNG <font color="#E5E5E5">，我们将把它保存在我们的 </font>
+
+972
+00:42:54,640 --> 00:43:00,010
+桌面CSS <font color="#CCCCCC">速成课程CSS作弊表 </font>
+
+973
+00:43:00,010 --> 00:43:01,990
+我要<font color="#E5E5E5">创建一个 </font><font color="#CCCCCC">名为 </font><font color="#E5E5E5">的文件夹 </font>
+
+974
+00:43:01,990 --> 00:43:05,500
+图像<font color="#E5E5E5">还可以，然后在那里我们将保存 </font>
+
+975
+00:43:05,500 --> 00:43:07,600
+ <font color="#CCCCCC">它，然后让我们</font><font color="#E5E5E5">去 我们的网站 </font><font color="#CCCCCC">， </font>
+
+976
+00:43:07,600 --> 00:43:10,240
+重新加载并注意它使用<font color="#E5E5E5">了 </font>
+
+977
+00:43:10,240 --> 00:43:12,490
+ <font color="#E5E5E5">图像的实际大小，所以我要去 </font>
+
+978
+00:43:12,490 --> 00:43:15,490
+做<font color="#E5E5E5">那个小的好，你可以做 </font>
+
+979
+00:43:15,490 --> 00:43:17,110
+然而， <font color="#E5E5E5">你想要我 </font><font color="#CCCCCC">只是去 </font>
+
+980
+00:43:17,110 --> 00:43:20,080
+ <font color="#E5E5E5">用Photoshop打开它让我们 </font><font color="#CCCCCC">看到这个 </font>
+
+981
+00:43:20,080 --> 00:43:27,520
+正确的文件夹<font color="#CCCCCC">桌面好吧所以我 </font>
+
+982
+00:43:27,520 --> 00:43:29,020
+只是<font color="#CCCCCC">要 </font><font color="#E5E5E5">打开这个真正的快和 </font>
+
+983
+00:43:29,020 --> 00:43:30,640
+ <font color="#E5E5E5">你喜欢我说 </font><font color="#CCCCCC">你 </font><font color="#E5E5E5">可以调整 </font><font color="#CCCCCC">它 </font>
+
+984
+00:43:30,640 --> 00:43:33,100
+但是你想要<font color="#E5E5E5">我只是 </font><font color="#CCCCCC">给你 </font><font color="#E5E5E5">一个 </font>
+
+985
+00:43:33,100 --> 00:43:35,830
+ <font color="#CCCCCC">我这样做的例子来调整图像大小 </font>
+
+986
+00:43:35,830 --> 00:43:39,360
+我<font color="#E5E5E5">只想去图片大小 </font>
+
+987
+00:43:39,360 --> 00:43:43,090
+ <font color="#E5E5E5">将它改为10像素然后我就是 </font>
+
+988
+00:43:43,090 --> 00:43:50,350
+ <font color="#CCCCCC">要重新保存为PNG文件保存 </font><font color="#E5E5E5">如此 </font>
+
+989
+00:43:50,350 --> 00:43:53,320
+现在这样<font color="#E5E5E5">它现在</font><font color="#CCCCCC">应该 </font><font color="#E5E5E5">是10像素 </font>
+
+990
+00:43:53,320 --> 00:43:55,210
+让我们重装<font color="#E5E5E5">，现在你可以看到我们有 </font>
+
+991
+00:43:55,210 --> 00:43:58,230
+ <font color="#E5E5E5">我们类别旁边的小支票</font>
+
+992
+00:43:58,230 --> 00:44:00,310
+ <font color="#CCCCCC">好吧，你可能 </font><font color="#E5E5E5">想推这个 </font>
+
+993
+00:44:00,310 --> 00:44:01,750
+ <font color="#E5E5E5">如果您要使用，请稍微过一点</font>
+
+994
+00:44:01,750 --> 00:44:03,670
+项目符号<font color="#CCCCCC">因为我们设置 </font><font color="#E5E5E5">了填充 </font>
+
+995
+00:44:03,670 --> 00:44:05,090
+ <font color="#CCCCCC">为零 </font>
+
+996
+00:44:05,090 --> 00:44:06,170
+假设我们<font color="#CCCCCC">只想</font><font color="#E5E5E5">说 </font>
+
+997
+00:44:06,170 --> 00:44:08,510
+填充左
+
+998
+00:44:08,510 --> 00:44:13,670
+ 20 <font color="#CCCCCC">像素，这将推动所有 </font>
+
+999
+00:44:13,670 --> 00:44:15,140
+ <font color="#CCCCCC">合适的人， </font><font color="#E5E5E5">所以我们开始用完 </font><font color="#CCCCCC">了 </font>
+
+1000
+00:44:15,140 --> 00:44:16,760
+ <font color="#E5E5E5">时间我还想到达 </font>
+
+1001
+00:44:16,760 --> 00:44:18,710
+布局页面，所以这可能是<font color="#E5E5E5">一点点 </font>
+
+1002
+00:44:18,710 --> 00:44:20,810
+ <font color="#E5E5E5">不到一个小时的时间，但让我们 </font><font color="#CCCCCC">继续 </font>
+
+1003
+00:44:20,810 --> 00:44:23,150
+表格<font color="#E5E5E5">还可以，因为表格很难看 </font>
+
+1004
+00:44:23,150 --> 00:44:25,940
+默认情况下<font color="#E5E5E5">，我们希望留在 </font>
+
+1005
+00:44:25,940 --> 00:44:28,640
+在<font color="#E5E5E5">这里结束的容器 </font><font color="#CCCCCC">我是 </font>
+
+1006
+00:44:28,640 --> 00:44:30,230
+实际上<font color="#E5E5E5">要在这里发表评论 </font>
+
+1007
+00:44:30,230 --> 00:44:33,890
+哎呀<font color="#E5E5E5">告诉我们 </font><font color="#CCCCCC">这 </font><font color="#E5E5E5">是 </font>
+
+1008
+00:44:33,890 --> 00:44:36,200
+ <font color="#E5E5E5">容器因为 </font><font color="#CCCCCC">我们想要而 </font><font color="#E5E5E5">结束的地方 </font>
+
+1009
+00:44:36,200 --> 00:44:40,040
+ <font color="#CCCCCC">保持原状 </font><font color="#E5E5E5">，让我们走吧 </font>
+
+1010
+00:44:40,040 --> 00:44:44,720
+提前<font color="#E5E5E5">并放入一个表格 </font><font color="#CCCCCC">，我实际上 </font>
+
+1011
+00:44:44,720 --> 00:44:46,940
+ <font color="#E5E5E5">只是粘贴我的所有字段 </font>
+
+1012
+00:44:46,940 --> 00:44:49,880
+ <font color="#E5E5E5">只是把它做得更大 </font><font color="#CCCCCC">，基本上是什么 </font>
+
+1013
+00:44:49,880 --> 00:44:57,170
+我做的<font color="#CCCCCC">只是将这个基本上放回去 </font><font color="#E5E5E5">了 </font>
+
+1014
+00:44:57,170 --> 00:44:59,510
+我做的<font color="#CCCCCC">是我创建了 </font><font color="#E5E5E5">几个字段和我 </font>
+
+1015
+00:44:59,510 --> 00:45:01,280
+ <font color="#E5E5E5">把它们包裹在一个div </font><font color="#CCCCCC">中 </font>
+
+1016
+00:45:01,280 --> 00:45:03,500
+ <font color="#E5E5E5">如果您使用过bootstrap，那么表单组可以 </font>
+
+1017
+00:45:03,500 --> 00:45:05,300
+在<font color="#E5E5E5">此之前他们实际上是班级 </font>
+
+1018
+00:45:05,300 --> 00:45:07,730
+使用<font color="#E5E5E5">然后我们有标签和我们 </font>
+
+1019
+00:45:07,730 --> 00:45:09,860
+有输入所以<font color="#E5E5E5">我们有一个名字电子邮件 </font>
+
+1020
+00:45:09,860 --> 00:45:11,840
+然后<font color="#E5E5E5">是一个消息的文本区域 </font>
+
+1021
+00:45:11,840 --> 00:45:15,080
+然后一个简单的<font color="#E5E5E5">提交按钮全部 </font>
+
+1022
+00:45:15,080 --> 00:45:17,330
+ <font color="#E5E5E5">是的，让我们保存，看看它是什么 </font>
+
+1023
+00:45:17,330 --> 00:45:19,430
+看起来默认好看， <font color="#CCCCCC">所以它看起来 </font>
+
+1024
+00:45:19,430 --> 00:45:22,340
+非常<font color="#CCCCCC">丑陋现在你知道我没有 </font>
+
+1025
+00:45:22,340 --> 00:45:23,540
+希望你们<font color="#E5E5E5">不得不 </font><font color="#CCCCCC">看看 </font>
+
+1026
+00:45:23,540 --> 00:45:25,340
+ <font color="#CCCCCC">屏幕的最底部</font><font color="#E5E5E5">让我这么做 </font>
+
+1027
+00:45:25,340 --> 00:45:28,160
+真的<font color="#E5E5E5">很快，我打算把div放进去 </font>
+
+1028
+00:45:28,160 --> 00:45:31,630
+ <font color="#E5E5E5">在这里，只是给它一个内联样式 </font>
+
+1029
+00:45:31,630 --> 00:45:35,210
+保证金最高500 <font color="#E5E5E5">像素 </font>
+
+1030
+00:45:35,210 --> 00:45:37,240
+一切都失败<font color="#E5E5E5">或推动一切 </font>
+
+1031
+00:45:37,240 --> 00:45:41,690
+ <font color="#E5E5E5">没事</font><font color="#CCCCCC">让 我们继续前进 </font><font color="#E5E5E5">， </font><font color="#CCCCCC">开始 </font>
+
+1032
+00:45:41,690 --> 00:45:43,730
+使这个表格看起来<font color="#E5E5E5">好一些 </font>
+
+1033
+00:45:43,730 --> 00:45:46,270
+我们要去<font color="#E5E5E5">我们的风格CSS </font>
+
+1034
+00:45:46,270 --> 00:45:50,780
+实际上<font color="#E5E5E5">让我们给表格一个类 </font>
+
+1035
+00:45:50,780 --> 00:45:56,450
+ <font color="#CCCCCC">我们会说我的表格好然后 </font>
+
+1036
+00:45:56,450 --> 00:45:59,660
+在这里，我们将以<font color="#E5E5E5">我的形式 </font><font color="#CCCCCC">为 </font><font color="#E5E5E5">目标 </font>
+
+1037
+00:45:59,660 --> 00:46:02,090
+ <font color="#CCCCCC">首先我要补充一下 </font>
+
+1038
+00:46:02,090 --> 00:46:04,610
+ <font color="#E5E5E5">一些填充，我们将看到20像素 </font>
+
+1039
+00:46:04,610 --> 00:46:08,510
+ <font color="#CCCCCC">在整个表格周围 </font><font color="#E5E5E5">好然后 </font>
+
+1040
+00:46:08,510 --> 00:46:13,010
+让我们分开<font color="#E5E5E5">表单组 </font>
+
+1041
+00:46:13,010 --> 00:46:15,770
+ <font color="#CCCCCC">每个领域都要记得我们 </font>
+
+1042
+00:46:15,770 --> 00:46:18,430
+给了它一组表格组
+
+1043
+00:46:18,430 --> 00:46:21,020
+所以我们只是<font color="#E5E5E5">添加 </font><font color="#CCCCCC">一些填充 </font>
+
+1044
+00:46:21,020 --> 00:46:26,060
+ 15像素的底部， <font color="#E5E5E5">我将它分开 </font>
+
+1045
+00:46:26,060 --> 00:46:30,470
+ <font color="#CCCCCC">现在有点 </font><font color="#E5E5E5">标签标签了 </font>
+
+1046
+00:46:30,470 --> 00:46:31,730
+都<font color="#CCCCCC">符合 </font><font color="#E5E5E5">这就是为什么他们是在 </font>
+
+1047
+00:46:31,730 --> 00:46:34,250
+ <font color="#E5E5E5">相同水平 </font><font color="#CCCCCC">的输入同性恋 </font>
+
+1048
+00:46:34,250 --> 00:46:36,410
+输入和标签<font color="#E5E5E5">都 </font><font color="#CCCCCC">符合我想要 </font>
+
+1049
+00:46:36,410 --> 00:46:37,940
+这<font color="#E5E5E5">是一个单独的行没有 </font>
+
+1050
+00:46:37,940 --> 00:46:40,490
+ <font color="#E5E5E5">不必</font><font color="#CCCCCC">把实际的管线</font><font color="#E5E5E5">断裂 </font><font color="#CCCCCC">，从而 </font>
+
+1051
+00:46:40,490 --> 00:46:41,900
+我<font color="#E5E5E5">要做的是我准备好了 </font>
+
+1052
+00:46:41,900 --> 00:46:44,690
+ <font color="#E5E5E5">标签实际上 </font><font color="#CCCCCC">知道我们应该做什么 </font>
+
+1053
+00:46:44,690 --> 00:46:47,290
+ <font color="#CCCCCC">在所有这些之前 </font><font color="#E5E5E5">把我的形式 </font>
+
+1054
+00:46:47,290 --> 00:46:52,990
+这样<font color="#E5E5E5">的 </font><font color="#CCCCCC">我会说我的表单</font><font color="#E5E5E5">标签 </font>
+
+1055
+00:46:52,990 --> 00:46:55,609
+然后我会<font color="#E5E5E5">展示它 </font>
+
+1056
+00:46:55,609 --> 00:46:57,290
+虽然它是符合我们<font color="#CCCCCC">就可以将其设置</font><font color="#E5E5E5">为 </font>
+
+1057
+00:46:57,290 --> 00:46:59,990
+ <font color="#CCCCCC">块好了，记住块级别 </font>
+
+1058
+00:46:59,990 --> 00:47:02,270
+元素，他们将把它放在一个新的
+
+1059
+00:47:02,270 --> 00:47:03,770
+线，他们穿过整个
+
+1060
+00:47:03,770 --> 00:47:06,940
+ <font color="#E5E5E5">百叶窗，所以如果我们现在保存，你会看到 </font>
+
+1061
+00:47:06,940 --> 00:47:09,859
+ <font color="#E5E5E5">现在让 标签 </font><font color="#CCCCCC">在他们自己的行 </font><font color="#E5E5E5">上 </font>
+
+1062
+00:47:09,859 --> 00:47:11,630
+使这些文本输入看起来有点
+
+1063
+00:47:11,630 --> 00:47:17,829
+ <font color="#E5E5E5">更好，所以我们会说我的表格输入和 </font>
+
+1064
+00:47:17,829 --> 00:47:20,990
+让我们添加一些<font color="#E5E5E5">填充来使它们看起来 </font>
+
+1065
+00:47:20,990 --> 00:47:24,020
+ <font color="#E5E5E5">稍厚， </font><font color="#CCCCCC">所以我们会说8像素 </font>
+
+1066
+00:47:24,020 --> 00:47:26,329
+ <font color="#E5E5E5">然后我们还可以设置宽度</font><font color="#CCCCCC">为 </font>
+
+1067
+00:47:26,329 --> 00:47:29,450
+ <font color="#E5E5E5">其容器</font><font color="#CCCCCC">百分百</font><font color="#E5E5E5">如此 </font>
+
+1068
+00:47:29,450 --> 00:47:33,109
+ <font color="#E5E5E5">现在重新加载一些事情 </font><font color="#CCCCCC">在这里注意到 </font>
+
+1069
+00:47:33,109 --> 00:47:36,859
+ <font color="#CCCCCC">因为我们说的只是输入 </font>
+
+1070
+00:47:36,859 --> 00:47:38,990
+ <font color="#E5E5E5">即使是任何输入也属于 </font>
+
+1071
+00:47:38,990 --> 00:47:41,599
+按钮，这<font color="#CCCCCC">也是</font><font color="#E5E5E5">输入，如果我们有 </font>
+
+1072
+00:47:41,599 --> 00:47:43,490
+让我们说<font color="#E5E5E5">一个单选按钮 </font>
+
+1073
+00:47:43,490 --> 00:47:46,040
+也属于<font color="#E5E5E5">那个，它没有 </font>
+
+1074
+00:47:46,040 --> 00:47:47,810
+ <font color="#CCCCCC">以此 </font><font color="#E5E5E5">为 </font><font color="#CCCCCC">目标，因为这 实际上是 </font><font color="#E5E5E5">一个 </font>
+
+1075
+00:47:47,810 --> 00:47:51,290
+文本<font color="#E5E5E5">区域它 现在 不是 </font><font color="#CCCCCC">输入标签 </font>
+
+1076
+00:47:51,290 --> 00:47:53,180
+我们可以做的是我们<font color="#CCCCCC">可以针对 </font><font color="#E5E5E5">某些 </font>
+
+1077
+00:47:53,180 --> 00:47:56,210
+ <font color="#E5E5E5">输入的类型， </font><font color="#CCCCCC">所以这些都是文本 </font>
+
+1078
+00:47:56,210 --> 00:47:58,730
+正确的<font color="#E5E5E5">，所以我们可以做的是把 </font><font color="#CCCCCC">一</font><font color="#E5E5E5">组 </font>
+
+1079
+00:47:58,730 --> 00:48:01,010
+ <font color="#CCCCCC">括号在这里 </font><font color="#E5E5E5">，我们可以说类型等于 </font>
+
+1080
+00:48:01,010 --> 00:48:04,579
+文本<font color="#CCCCCC">，然后</font><font color="#E5E5E5">什么 会做 </font>
+
+1081
+00:48:04,579 --> 00:48:07,730
+当我重新加载它应<font color="#E5E5E5">忽略 </font>
+
+1082
+00:48:07,730 --> 00:48:09,410
+按钮，因为<font color="#CCCCCC">这不是 类型 </font>
+
+1083
+00:48:09,410 --> 00:48:12,380
+ <font color="#E5E5E5">文字还可以看看 </font><font color="#CCCCCC">我在说 </font><font color="#E5E5E5">什么 </font>
+
+1084
+00:48:12,380 --> 00:48:14,720
+然后<font color="#CCCCCC">我们也想要的文本区域 </font>
+
+1085
+00:48:14,720 --> 00:48:16,339
+ <font color="#E5E5E5">添加这些样式 </font><font color="#CCCCCC">所以我 </font><font color="#E5E5E5">只是去 </font>
+
+1086
+00:48:16,339 --> 00:48:19,190
+把逗号放在这里<font color="#E5E5E5">，我们就要去了 </font>
+
+1087
+00:48:19,190 --> 00:48:27,349
+ <font color="#E5E5E5">说点你的形式文本区域在哪里 </font>
+
+1088
+00:48:27,349 --> 00:48:29,210
+加载，然后它适用<font color="#E5E5E5">于作为 </font>
+
+1089
+00:48:29,210 --> 00:48:30,690
+好
+
+1090
+00:48:30,690 --> 00:48:32,700
+现在让我们添加<font color="#E5E5E5">一些 </font><font color="#CCCCCC">造型 </font>
+
+1091
+00:48:32,700 --> 00:48:36,780
+ <font color="#E5E5E5">这里的按钮 </font><font color="#CCCCCC">所以我能做的就是 </font><font color="#E5E5E5">我 </font>
+
+1092
+00:48:36,780 --> 00:48:43,410
+可以<font color="#E5E5E5">说我的表格输入然后我们 </font>
+
+1093
+00:48:43,410 --> 00:48:46,260
+ <font color="#E5E5E5">可以说嘴唇喜欢它的类型等于 </font>
+
+1094
+00:48:46,260 --> 00:48:51,870
+提交<font color="#E5E5E5">好，我们可以做到这一点，让我们 </font>
+
+1095
+00:48:51,870 --> 00:48:56,310
+给它<font color="#E5E5E5">一个 </font><font color="#CCCCCC">深灰色 </font><font color="#E5E5E5">的背景色 </font>
+
+1096
+00:48:56,310 --> 00:49:00,870
+ <font color="#CCCCCC">我们会把颜色变成白色 </font><font color="#E5E5E5">让我们说 </font>
+
+1097
+00:49:00,870 --> 00:49:04,710
+ <font color="#E5E5E5">顶部 </font><font color="#CCCCCC">和底部的 </font><font color="#E5E5E5">填充 将做15 </font>
+
+1098
+00:49:04,710 --> 00:49:08,910
+ <font color="#CCCCCC">现在我们将做10个像素并离开和 </font>
+
+1099
+00:49:08,910 --> 00:49:13,700
+ <font color="#E5E5E5">右边15然后让 </font><font color="#CCCCCC">边框没有' </font>
+
+1100
+00:49:13,700 --> 00:49:16,800
+ <font color="#E5E5E5">好的，让我们重装，现在我们得到这个 </font>
+
+1101
+00:49:16,800 --> 00:49:20,610
+按钮<font color="#E5E5E5">现在这很好，但我是什么 </font>
+
+1102
+00:49:20,610 --> 00:49:23,010
+我想做的<font color="#CCCCCC">是我想 </font><font color="#E5E5E5">上课 </font>
+
+1103
+00:49:23,010 --> 00:49:25,740
+叫做<font color="#E5E5E5">按钮，我们可以申请 </font><font color="#CCCCCC">任何 </font>
+
+1104
+00:49:25,740 --> 00:49:29,330
+按钮并获得这种风格<font color="#CCCCCC">，而不是 </font>
+
+1105
+00:49:29,330 --> 00:49:31,680
+ <font color="#E5E5E5">这就是我要去 </font><font color="#CCCCCC">的地方 </font>
+
+1106
+00:49:31,680 --> 00:49:34,080
+ <font color="#E5E5E5">做只是将此更改为点按钮和 </font>
+
+1107
+00:49:34,080 --> 00:49:36,690
+因为这<font color="#CCCCCC">只是全球 </font><font color="#E5E5E5">不 </font><font color="#CCCCCC">的 </font><font color="#E5E5E5">一部分 </font>
+
+1108
+00:49:36,690 --> 00:49:38,280
+只是<font color="#CCCCCC">形式，我 </font><font color="#E5E5E5">打算只是把它 </font>
+
+1109
+00:49:38,280 --> 00:49:42,360
+在<font color="#E5E5E5">这里，所以让我们去吧 </font>
+
+1110
+00:49:42,360 --> 00:49:46,200
+容器<font color="#E5E5E5">，然后我会做什么 </font>
+
+1111
+00:49:46,200 --> 00:49:50,250
+将该类<font color="#E5E5E5">应用于此 </font><font color="#CCCCCC">输入 </font><font color="#E5E5E5">没关系 </font>
+
+1112
+00:49:50,250 --> 00:49:51,540
+ <font color="#CCCCCC">实际上我已经做到了 </font>
+
+1113
+00:49:51,540 --> 00:49:54,840
+我已经这样做了，所以还是应该这样做
+
+1114
+00:49:54,840 --> 00:49:56,580
+ <font color="#CCCCCC">现在 </font><font color="#E5E5E5">好</font><font color="#CCCCCC">了工作，如果我 </font><font color="#E5E5E5">想</font><font color="#CCCCCC">放 </font>
+
+1115
+00:49:56,580 --> 00:49:58,290
+ <font color="#E5E5E5">其他地方的按钮就像让我们说的那样 </font>
+
+1116
+00:49:58,290 --> 00:50:02,070
+框<font color="#CCCCCC">2或 </font><font color="#E5E5E5">甚至只是一个按钮它可以 </font>
+
+1117
+00:50:02,070 --> 00:50:07,290
+做个<font color="#E5E5E5">链接，所以我们只是把一个链接 </font><font color="#CCCCCC">，我们将 </font>
+
+1118
+00:50:07,290 --> 00:50:10,680
+如果我们离开<font color="#CCCCCC">就好，请多读一读</font>
+
+1119
+00:50:10,680 --> 00:50:12,450
+ <font color="#CCCCCC">当然，它 </font><font color="#E5E5E5">只是看起来 </font>
+
+1120
+00:50:12,450 --> 00:50:19,260
+ <font color="#CCCCCC">那样但是如果我们现在放上课堂按钮 </font>
+
+1121
+00:50:19,260 --> 00:50:22,290
+ <font color="#E5E5E5">我们做得 </font><font color="#CCCCCC">很好 </font><font color="#E5E5E5">，实际上发送给了 </font>
+
+1122
+00:50:22,290 --> 00:50:26,340
+联系我们想要<font color="#CCCCCC">的颜色为白色 </font><font color="#E5E5E5">，以便 </font>
+
+1123
+00:50:26,340 --> 00:50:33,770
+ <font color="#CCCCCC">让我们回到按钮 </font><font color="#E5E5E5">让我们看看颜色 </font>
+
+1124
+00:50:35,579 --> 00:50:39,640
+你知道<font color="#E5E5E5">这是什么</font>
+
+1125
+00:50:39,640 --> 00:50:43,299
+将<font color="#E5E5E5">它与访问过的颜色混合起来吧 </font>
+
+1126
+00:50:43,299 --> 00:50:44,769
+让我们真的<font color="#E5E5E5">摆脱它 </font>
+
+1127
+00:50:44,769 --> 00:50:46,589
+就<font color="#CCCCCC">在那里 </font>
+
+1128
+00:50:46,589 --> 00:50:50,980
+在那里，我们可以<font color="#CCCCCC">很酷， </font><font color="#E5E5E5">所以我们可以 </font>
+
+1129
+00:50:50,980 --> 00:50:53,980
+ <font color="#E5E5E5">在任何地方应用该课程，如果我们 </font>
+
+1130
+00:50:53,980 --> 00:50:55,420
+我想把<font color="#CCCCCC">悬停状态 </font><font color="#E5E5E5">放到 </font>
+
+1131
+00:50:55,420 --> 00:50:57,099
+按钮我们也可以<font color="#E5E5E5">这样做， </font><font color="#CCCCCC">如果 </font><font color="#E5E5E5">我们 </font>
+
+1132
+00:50:57,099 --> 00:51:01,630
+说按钮悬停，让我们说
+
+1133
+00:51:01,630 --> 00:51:09,849
+背景<font color="#E5E5E5">红色白色，现在我们 </font>
+
+1134
+00:51:09,849 --> 00:51:14,019
+有<font color="#E5E5E5">颜色悬停效果 </font><font color="#CCCCCC">都 </font>
+
+1135
+00:51:14,019 --> 00:51:16,410
+ <font color="#CCCCCC">希望这 </font><font color="#E5E5E5">不是太混乱 </font>
+
+1136
+00:51:16,410 --> 00:51:20,710
+ <font color="#E5E5E5">这样我们的形式现在很简单了 </font>
+
+1137
+00:51:20,710 --> 00:51:22,960
+我想做的<font color="#E5E5E5">是谈谈对齐和 </font>
+
+1138
+00:51:22,960 --> 00:51:25,690
+浮动好吧，让我们<font color="#E5E5E5">回到 </font><font color="#CCCCCC">我们的 </font>
+
+1139
+00:51:25,690 --> 00:51:30,130
+ HTML <font color="#CCCCCC">我们将在 </font><font color="#E5E5E5">表格和什么 </font>
+
+1140
+00:51:30,130 --> 00:51:31,539
+我打算<font color="#CCCCCC">在这里做，我打算 </font><font color="#E5E5E5">放 </font>
+
+1141
+00:51:31,539 --> 00:51:36,539
+在<font color="#E5E5E5">三个街区中没关系，所以这是一个给予和 </font>
+
+1142
+00:51:36,539 --> 00:51:40,380
+ <font color="#CCCCCC">让我们给出一类块 </font><font color="#E5E5E5">和 </font>
+
+1143
+00:51:40,380 --> 00:51:43,480
+在这些块里面<font color="#E5E5E5">会有一个h3 </font><font color="#CCCCCC">意志 </font>
+
+1144
+00:51:43,480 --> 00:51:46,960
+只是说<font color="#E5E5E5">标题然后我们将有一个 </font>
+
+1145
+00:51:46,960 --> 00:51:49,599
+ <font color="#E5E5E5">带有一些虚拟 </font><font color="#CCCCCC">文字的 </font><font color="#E5E5E5">段落 我只是 </font>
+
+1146
+00:51:49,599 --> 00:51:53,829
+ <font color="#E5E5E5">让它变得更短一点 </font><font color="#CCCCCC">吧 </font>
+
+1147
+00:51:53,829 --> 00:51:56,980
+好像在那里看起来我们要去
+
+1148
+00:51:56,980 --> 00:51:58,690
+ <font color="#CCCCCC">有三个这样的 </font><font color="#E5E5E5">让我们复制 </font>
+
+1149
+00:51:58,690 --> 00:52:00,609
+整个div与块类
+
+1150
+00:52:00,609 --> 00:52:04,859
+ <font color="#E5E5E5">将它粘贴两次并重新加载 </font>
+
+1151
+00:52:04,859 --> 00:52:06,819
+正常的流量，我们将要有
+
+1152
+00:52:06,819 --> 00:52:08,380
+他们<font color="#E5E5E5">在 </font><font color="#CCCCCC">彼此 </font><font color="#E5E5E5">之上， 但让我们说 </font>
+
+1153
+00:52:08,380 --> 00:52:10,539
+我们想让<font color="#E5E5E5">他们漂浮去 </font>
+
+1154
+00:52:10,539 --> 00:52:12,970
+ <font color="#E5E5E5">好的，我们希望他们 </font><font color="#CCCCCC">去 </font>
+
+1155
+00:52:12,970 --> 00:52:16,109
+横向<font color="#E5E5E5">让我们去看看我们的 </font><font color="#CCCCCC">CSS </font>
+
+1156
+00:52:16,109 --> 00:52:18,869
+记住他们都有一类阻挡
+
+1157
+00:52:18,869 --> 00:52:21,640
+ <font color="#E5E5E5">所以我们要说我们想要这些 </font>
+
+1158
+00:52:21,640 --> 00:52:26,279
+漂浮<font color="#E5E5E5">到 他们漂浮 </font><font color="#CCCCCC">的原始出口 </font>
+
+1159
+00:52:26,279 --> 00:52:33,400
+我们现在<font color="#E5E5E5">要设置一个宽度 </font>
+
+1160
+00:52:33,400 --> 00:52:34,690
+有<font color="#CCCCCC">三 </font><font color="#E5E5E5">个人，我要设置 </font>
+
+1161
+00:52:34,690 --> 00:52:37,710
+宽度为33.3％ 
+
+1162
+00:52:37,710 --> 00:52:41,670
+好吧，然后让我们添加喜欢
+
+1163
+00:52:41,670 --> 00:52:44,079
+实际上让我们<font color="#CCCCCC">现在就</font><font color="#E5E5E5">这样做 </font>
+
+1164
+00:52:44,079 --> 00:52:45,970
+让我们看看它的<font color="#CCCCCC">作用 </font>
+
+1165
+00:52:45,970 --> 00:52:48,849
+ <font color="#CCCCCC">好吧重新加载， </font><font color="#E5E5E5">现在我们有了 </font>
+
+1166
+00:52:48,849 --> 00:52:52,300
+ <font color="#E5E5E5">现在如果我想放三个街区 </font>
+
+1167
+00:52:52,300 --> 00:52:56,109
+ <font color="#E5E5E5">说放一个边框， </font><font color="#CCCCCC">我们会说 </font><font color="#E5E5E5">一个像素 </font>
+
+1168
+00:52:56,109 --> 00:53:02,200
+固体<font color="#CCCCCC">C，让我们放入填充10 </font>
+
+1169
+00:53:02,200 --> 00:53:05,530
+像素<font color="#E5E5E5">，让我们现在重新加载 </font>
+
+1170
+00:53:05,530 --> 00:53:07,119
+ <font color="#E5E5E5">把一切搞得一团糟，因为 </font><font color="#CCCCCC">它 </font><font color="#E5E5E5">是 </font><font color="#CCCCCC">什么 </font>
+
+1171
+00:53:07,119 --> 00:53:09,819
+做的<font color="#CCCCCC">是它采取 </font><font color="#E5E5E5">这个宽度 </font>
+
+1172
+00:53:09,819 --> 00:53:12,940
+这几乎不适合<font color="#E5E5E5">所有的东西 </font>
+
+1173
+00:53:12,940 --> 00:53:15,790
+然后它添加了<font color="#CCCCCC">10个 </font><font color="#E5E5E5">像素填充它 </font>
+
+1174
+00:53:15,790 --> 00:53:18,160
+添加边框的像素<font color="#E5E5E5">，这使得它 </font>
+
+1175
+00:53:18,160 --> 00:53:20,819
+太大了， <font color="#E5E5E5">把所有在同一行 </font><font color="#CCCCCC">，以便 </font>
+
+1176
+00:53:20,819 --> 00:53:23,980
+ <font color="#CCCCCC">对此的简单修复就是添加一个 </font>
+
+1177
+00:53:23,980 --> 00:53:26,800
+ <font color="#E5E5E5">称为 </font><font color="#CCCCCC">盒子大小的属性</font><font color="#E5E5E5">没有 </font>
+
+1178
+00:53:26,800 --> 00:53:30,730
+框阴影框<font color="#E5E5E5">大小调整，我们将其设置为 </font>
+
+1179
+00:53:30,730 --> 00:53:33,849
+ <font color="#E5E5E5">如果我们保存，边框 </font><font color="#CCCCCC">的 </font><font color="#E5E5E5">价值 </font>
+
+1180
+00:53:33,849 --> 00:53:36,760
+ <font color="#E5E5E5">现在 </font><font color="#CCCCCC">重新加载， </font><font color="#E5E5E5">注意我们他们是 </font>
+
+1181
+00:53:36,760 --> 00:53:38,410
+ <font color="#E5E5E5">因为什么，所以回到同一条线上 </font>
+
+1182
+00:53:38,410 --> 00:53:40,540
+这样<font color="#E5E5E5">做是它 </font><font color="#CCCCCC">使得 </font><font color="#E5E5E5">它，使它 </font>
+
+1183
+00:53:40,540 --> 00:53:43,180
+采取填充和边框，它需要
+
+1184
+00:53:43,180 --> 00:53:45,369
+这些东西并将其应用<font color="#E5E5E5">到 </font>
+
+1185
+00:53:45,369 --> 00:53:47,710
+宽度本身， <font color="#CCCCCC">以便它不添加它 </font>
+
+1186
+00:53:47,710 --> 00:53:50,020
+ <font color="#E5E5E5">使它太大 </font><font color="#CCCCCC">或太宽 </font>
+
+1187
+00:53:50,020 --> 00:53:53,290
+ <font color="#CCCCCC">好吧，只是为了让你知道什么时候 </font>
+
+1188
+00:53:53,290 --> 00:53:55,599
+你<font color="#E5E5E5">进入柔性盒柔性 </font><font color="#CCCCCC">盒需要 </font>
+
+1189
+00:53:55,599 --> 00:53:57,460
+ <font color="#CCCCCC">很好地照顾这些 </font><font color="#E5E5E5">东西 和你 </font>
+
+1190
+00:53:57,460 --> 00:53:59,710
+可以<font color="#CCCCCC">做更多， </font><font color="#E5E5E5">但就像我 </font><font color="#CCCCCC">说的那样 </font>
+
+1191
+00:53:59,710 --> 00:54:01,480
+太先进了这个视频的<font color="#CCCCCC">这一 </font>
+
+1192
+00:54:01,480 --> 00:54:04,000
+ <font color="#E5E5E5">教程中 </font><font color="#CCCCCC">，你可能要检查</font><font color="#E5E5E5">出 </font>
+
+1193
+00:54:04,000 --> 00:54:06,690
+ <font color="#E5E5E5">我做了20分钟视频的 弹性 </font><font color="#CCCCCC">盒子 </font>
+
+1194
+00:54:06,690 --> 00:54:09,160
+ <font color="#CCCCCC">好吧 </font><font color="#E5E5E5">那么浮动元素呢 </font>
+
+1195
+00:54:09,160 --> 00:54:11,890
+ <font color="#E5E5E5">这个宽度不一样 </font>
+
+1196
+00:54:11,890 --> 00:54:14,980
+让我们<font color="#E5E5E5">继续，像主要一样 </font>
+
+1197
+00:54:14,980 --> 00:54:18,099
+区域<font color="#CCCCCC">和侧边栏 </font><font color="#E5E5E5">所以我们将在下面 </font>
+
+1198
+00:54:18,099 --> 00:54:19,810
+ <font color="#E5E5E5">你漂浮的时候就是那三个街区 </font>
+
+1199
+00:54:19,810 --> 00:54:21,310
+你<font color="#E5E5E5">想要清除它的东西 </font>
+
+1200
+00:54:21,310 --> 00:54:24,490
+ <font color="#E5E5E5">因为你的下一个你的下一个标记 </font>
+
+1201
+00:54:24,490 --> 00:54:26,619
+ <font color="#CCCCCC">将会 </font><font color="#E5E5E5">搞砸所有事情 </font>
+
+1202
+00:54:26,619 --> 00:54:30,609
+ <font color="#E5E5E5">就像在这里一样， </font><font color="#CCCCCC">我们所做的就是我们 </font>
+
+1203
+00:54:30,609 --> 00:54:32,410
+ <font color="#CCCCCC">创建一个div让它 </font><font color="#E5E5E5">给它一类 </font>
+
+1204
+00:54:32,410 --> 00:54:35,560
+ <font color="#E5E5E5">CLR您可能也会看到明确的修复 </font>
+
+1205
+00:54:35,560 --> 00:54:38,980
+ <font color="#E5E5E5">有时我喜欢 </font><font color="#CCCCCC">使用CLR，然后我就是 </font>
+
+1206
+00:54:38,980 --> 00:54:40,329
+要把<font color="#CCCCCC">它 </font><font color="#E5E5E5">放在首位因为 </font>
+
+1207
+00:54:40,329 --> 00:54:43,660
+ <font color="#E5E5E5">这是一种全球性的课程，所以我们会 </font>
+
+1208
+00:54:43,660 --> 00:54:46,720
+就像在这里<font color="#E5E5E5">说点CLR和 </font>
+
+1209
+00:54:46,720 --> 00:54:49,349
+我们只是想添加明确的<font color="#E5E5E5">人和 </font>
+
+1210
+00:54:49,349 --> 00:54:51,730
+这<font color="#E5E5E5">将 </font><font color="#CCCCCC">清除上面的任何浮动 </font>
+
+1211
+00:54:51,730 --> 00:54:53,620
+ <font color="#CCCCCC">没关系 </font>
+
+1212
+00:54:53,620 --> 00:54:57,900
+然后我们要做的就是<font color="#CCCCCC">创造一个 </font><font color="#E5E5E5">给予 </font>
+
+1213
+00:54:57,900 --> 00:55:01,180
+这时候我要去给它一个<font color="#E5E5E5">ID，因此 </font>
+
+1214
+00:55:01,180 --> 00:55:09,040
+我给它的主要块的<font color="#E5E5E5">所有想法</font>
+
+1215
+00:55:09,040 --> 00:55:10,600
+ <font color="#CCCCCC">是的，然后让我们 </font><font color="#E5E5E5">做一个div </font>
+
+1216
+00:55:10,600 --> 00:55:19,600
+ <font color="#CCCCCC">侧栏的ID好在 </font><font color="#E5E5E5">主要的 </font>
+
+1217
+00:55:19,600 --> 00:55:21,880
+块就让我们抓住这个H3 <font color="#CCCCCC">在这 </font>
+
+1218
+00:55:21,880 --> 00:55:28,440
+段落然后<font color="#E5E5E5">侧边栏 </font><font color="#CCCCCC">我们会 </font>
+
+1219
+00:55:28,440 --> 00:55:31,870
+ <font color="#E5E5E5">默认情况下只有段落 </font>
+
+1220
+00:55:31,870 --> 00:55:33,190
+显然这些<font color="#E5E5E5">都 </font><font color="#CCCCCC">将 </font><font color="#E5E5E5">成为最重要的 </font>
+
+1221
+00:55:33,190 --> 00:55:35,110
+ <font color="#E5E5E5">彼此 </font><font color="#CCCCCC">但 </font><font color="#E5E5E5">我们说我们想要的 </font>
+
+1222
+00:55:35,110 --> 00:55:37,060
+前往<font color="#E5E5E5">主要区域和 </font>
+
+1223
+00:55:37,060 --> 00:55:38,980
+占据这么多空间<font color="#E5E5E5">然后 </font>
+
+1224
+00:55:38,980 --> 00:55:41,740
+ <font color="#E5E5E5">在这边的侧边栏，所以我们会 </font>
+
+1225
+00:55:41,740 --> 00:55:46,990
+做的是去<font color="#CCCCCC">我们的CSS </font><font color="#E5E5E5">并记住他们的 </font>
+
+1226
+00:55:46,990 --> 00:55:49,360
+ ID所以我们<font color="#E5E5E5">想要使用数字符号 </font><font color="#CCCCCC">和 </font>
+
+1227
+00:55:49,360 --> 00:55:52,680
+让我们说主要块
+
+1228
+00:55:52,680 --> 00:55:55,360
+ <font color="#E5E5E5">好的主要块，我们将浮动 </font>
+
+1229
+00:55:55,360 --> 00:55:58,000
+在左边<font color="#E5E5E5">，然后我要去 </font>
+
+1230
+00:55:58,000 --> 00:56:01,390
+设置宽度<font color="#E5E5E5">为70％， </font><font color="#CCCCCC">因为 </font><font color="#E5E5E5">我想要 </font>
+
+1231
+00:56:01,390 --> 00:56:04,000
+这<font color="#CCCCCC">是一种 </font><font color="#E5E5E5">反应好的 </font>
+
+1232
+00:56:04,000 --> 00:56:07,720
+然后<font color="#E5E5E5">让我们复制那个 </font><font color="#CCCCCC">然后再 </font><font color="#E5E5E5">复制 </font>
+
+1233
+00:56:07,720 --> 00:56:10,960
+ <font color="#E5E5E5">这会说侧边栏就是我 </font>
+
+1234
+00:56:10,960 --> 00:56:12,760
+称它为右侧边栏<font color="#E5E5E5">，我们希望如此 </font>
+
+1235
+00:56:12,760 --> 00:56:15,220
+ <font color="#CCCCCC">向右流动 </font><font color="#E5E5E5">，我们想要那样做 </font>
+
+1236
+00:56:15,220 --> 00:56:18,400
+ <font color="#E5E5E5">30％ </font><font color="#CCCCCC">没事所以让我们继续前进 </font><font color="#E5E5E5">， </font>
+
+1237
+00:56:18,400 --> 00:56:21,940
+ <font color="#E5E5E5">保存重新加载，我们现在 </font><font color="#CCCCCC">去 </font>
+
+1238
+00:56:21,940 --> 00:56:23,350
+边栏我还要补充一下
+
+1239
+00:56:23,350 --> 00:56:29,320
+实际上<font color="#E5E5E5">添加了黑暗的背景颜色 </font>
+
+1240
+00:56:29,320 --> 00:56:34,840
+ <font color="#CCCCCC">灰色白色 </font><font color="#E5E5E5">哎呀颜色白色和 </font>
+
+1241
+00:56:34,840 --> 00:56:38,880
+让我们添加<font color="#E5E5E5">15个像素的填充并保存 </font>
+
+1242
+00:56:38,880 --> 00:56:42,010
+好了， <font color="#E5E5E5">现在又不是它会去的 </font>
+
+1243
+00:56:42,010 --> 00:56:45,100
+在<font color="#CCCCCC">这里看起来不正确 </font><font color="#E5E5E5">所以 </font>
+
+1244
+00:56:45,100 --> 00:56:47,080
+我们需要<font color="#E5E5E5">做的只是添加我们的边界 </font>
+
+1245
+00:56:47,080 --> 00:56:53,550
+对不起我们<font color="#E5E5E5">的边框盒子 </font><font color="#CCCCCC">大小 </font>
+
+1246
+00:56:53,550 --> 00:56:57,460
+好的，我们还要<font color="#E5E5E5">添加一些 </font>
+
+1247
+00:56:57,460 --> 00:56:59,950
+ <font color="#CCCCCC">在 </font><font color="#E5E5E5">我们主要的边框框中填充</font>
+
+1248
+00:56:59,950 --> 00:57:03,580
+阻止<font color="#E5E5E5">好，所以现在我们将重新加载那里 </font>
+
+1249
+00:57:03,580 --> 00:57:06,910
+我们<font color="#CCCCCC">现在就这样，它是正确加载的 </font>
+
+1250
+00:57:06,910 --> 00:57:09,319
+ <font color="#E5E5E5">好的，所以我们到了 </font><font color="#CCCCCC">那里 </font>
+
+1251
+00:57:09,319 --> 00:57:11,030
+现在我想<font color="#E5E5E5">谈谈 </font><font color="#CCCCCC">一下 </font>
+
+1252
+00:57:11,030 --> 00:57:13,880
+这样定位<font color="#CCCCCC">所以 </font><font color="#E5E5E5">正确的位置 </font>
+
+1253
+00:57:13,880 --> 00:57:16,099
+属性<font color="#CCCCCC">有几个 </font><font color="#E5E5E5">不同的值 </font>
+
+1254
+00:57:16,099 --> 00:57:18,500
+ <font color="#CCCCCC">如果我们，静态</font><font color="#E5E5E5">实际上是 </font><font color="#CCCCCC">默认值 </font>
+
+1255
+00:57:18,500 --> 00:57:20,270
+不要指定一个<font color="#CCCCCC">静态的位置</font>
+
+1256
+00:57:20,270 --> 00:57:22,160
+只是呈现元素<font color="#E5E5E5">的顺序</font>
+
+1257
+00:57:22,160 --> 00:57:24,859
+文档流程<font color="#E5E5E5">相对意味着 </font>
+
+1258
+00:57:24,859 --> 00:57:26,930
+元素相对于
+
+1259
+00:57:26,930 --> 00:57:28,789
+它的正常位置， <font color="#CCCCCC">所以它下降 </font>
+
+1260
+00:57:28,789 --> 00:57:31,520
+自然<font color="#CCCCCC">但我们可以添加我们可以添加 </font>
+
+1261
+00:57:31,520 --> 00:57:33,859
+左上角<font color="#E5E5E5">右下方的属性</font>
+
+1262
+00:57:33,859 --> 00:57:36,500
+ <font color="#CCCCCC">等等我们可以把它推到我们的位置 </font>
+
+1263
+00:57:36,500 --> 00:57:39,890
+ <font color="#E5E5E5">想现在绝对可以让</font><font color="#CCCCCC">我们 </font>
+
+1264
+00:57:39,890 --> 00:57:42,020
+瞄准<font color="#E5E5E5">我们想要的任何位置 </font>
+
+1265
+00:57:42,020 --> 00:57:43,819
+ <font color="#CCCCCC">一个相对元素，我会告诉你 </font>
+
+1266
+00:57:43,819 --> 00:57:46,880
+ <font color="#E5E5E5">我在 </font><font color="#CCCCCC">第二个固定的 </font><font color="#E5E5E5">意思 </font><font color="#CCCCCC">是固定的 </font>
+
+1267
+00:57:46,880 --> 00:57:48,500
+位置到浏览器<font color="#CCCCCC">窗口所以没有 </font>
+
+1268
+00:57:48,500 --> 00:57:50,990
+ <font color="#E5E5E5">怎么回事， </font><font color="#CCCCCC">是我们多少滚动哪里 </font>
+
+1269
+00:57:50,990 --> 00:57:52,520
+我们在页面上它将永远<font color="#CCCCCC">存在 </font>
+
+1270
+00:57:52,520 --> 00:57:55,069
+ <font color="#E5E5E5">相同的位置 </font><font color="#CCCCCC">初始设置 </font>
+
+1271
+00:57:55,069 --> 00:57:57,440
+属性为其默认<font color="#CCCCCC">值然后 </font>
+
+1272
+00:57:57,440 --> 00:57:59,030
+继承将继承任何东西
+
+1273
+00:57:59,030 --> 00:58:01,069
+ <font color="#E5E5E5">它的父元素的属性是这样的 </font>
+
+1274
+00:58:01,069 --> 00:58:03,010
+看看<font color="#E5E5E5">其中一些在行动 </font>
+
+1275
+00:58:03,010 --> 00:58:05,089
+ <font color="#E5E5E5">好的家伙回到我们的HTML </font>
+
+1276
+00:58:05,089 --> 00:58:08,030
+ <font color="#E5E5E5">记得我们做了上浮的主要</font><font color="#CCCCCC">块 </font>
+
+1277
+00:58:08,030 --> 00:58:09,710
+ <font color="#E5E5E5">侧边栏所以我打算 </font><font color="#CCCCCC">去那些 </font>
+
+1278
+00:58:09,710 --> 00:58:11,720
+两个div，然后<font color="#E5E5E5">清除 </font><font color="#CCCCCC">它，所以我们会 </font>
+
+1279
+00:58:11,720 --> 00:58:13,849
+ <font color="#E5E5E5">说div，我们打算 </font><font color="#CCCCCC">给 </font><font color="#E5E5E5">它一个 </font>
+
+1280
+00:58:13,849 --> 00:58:18,349
+ CLR的等级<font color="#E5E5E5">好 </font><font color="#CCCCCC">然后我是什么 </font>
+
+1281
+00:58:18,349 --> 00:58:20,900
+ <font color="#E5E5E5">要做的是我</font><font color="#CCCCCC">要 </font><font color="#E5E5E5">创建一个div </font>
+
+1282
+00:58:20,900 --> 00:58:25,789
+让我们给它一类P <font color="#E5E5E5">- 盒子 </font>
+
+1283
+00:58:25,789 --> 00:58:28,520
+定位盒<font color="#CCCCCC">好，然后我 </font>
+
+1284
+00:58:28,520 --> 00:58:30,079
+ <font color="#E5E5E5">打算 </font><font color="#CCCCCC">把h1放在这里，我们只是 </font>
+
+1285
+00:58:30,079 --> 00:58:33,410
+ <font color="#E5E5E5">打招呼， </font><font color="#CCCCCC">然后让我们也放一个h2 </font>
+
+1286
+00:58:33,410 --> 00:58:35,720
+我们会说<font color="#E5E5E5">再见而我只是在使用 </font>
+
+1287
+00:58:35,720 --> 00:58:37,670
+这些<font color="#E5E5E5">我可以给你一些例子 </font>
+
+1288
+00:58:37,670 --> 00:58:40,010
+定位所以让我们继续前进<font color="#E5E5E5">并保存 </font>
+
+1289
+00:58:40,010 --> 00:58:41,599
+ <font color="#CCCCCC">现在，如果我们重新加载，我们就会去 </font>
+
+1290
+00:58:41,599 --> 00:58:43,700
+ <font color="#E5E5E5">看到两个标题， </font><font color="#CCCCCC">但 </font><font color="#E5E5E5">我们要去 </font>
+
+1291
+00:58:43,700 --> 00:58:47,089
+ <font color="#CCCCCC">现在 </font><font color="#E5E5E5">就去我们的 </font><font color="#CCCCCC">CSS吧 </font>
+
+1292
+00:58:47,089 --> 00:58:50,150
+体积更小<font color="#CCCCCC">，让我们看看我们</font><font color="#E5E5E5">要 </font>
+
+1293
+00:58:50,150 --> 00:58:54,859
+ <font color="#E5E5E5">定位我们刚才的P  -  box元素 </font>
+
+1294
+00:58:54,859 --> 00:58:57,559
+已创建<font color="#CCCCCC">，我将 </font><font color="#E5E5E5">设置一个具体的 </font>
+
+1295
+00:58:57,559 --> 00:59:00,349
+ <font color="#E5E5E5">宽度和高度 </font><font color="#CCCCCC">，所以 </font><font color="#E5E5E5">让我们说 </font>
+
+1296
+00:59:00,349 --> 00:59:03,500
+ <font color="#CCCCCC">我们将宽度高度为800像素</font>
+
+1297
+00:59:03,500 --> 00:59:06,529
+说500像素<font color="#E5E5E5">，然后让我们添加一个 </font>
+
+1298
+00:59:06,529 --> 00:59:08,480
+ <font color="#E5E5E5">它周围的边界所以 </font><font color="#CCCCCC">我们绝对可以 </font>
+
+1299
+00:59:08,480 --> 00:59:12,500
+看到<font color="#E5E5E5">这样一个像素实心一个像素 </font>
+
+1300
+00:59:12,500 --> 00:59:15,190
+ <font color="#CCCCCC">纯黑色 </font>
+
+1301
+00:59:15,190 --> 00:59:17,470
+好吧，如果我们<font color="#CCCCCC">看那 </font><font color="#E5E5E5">就是那样 </font>
+
+1302
+00:59:17,470 --> 00:59:21,460
+ <font color="#E5E5E5">它 </font><font color="#CCCCCC">现在 </font><font color="#E5E5E5">看起来 </font><font color="#CCCCCC">像是 </font><font color="#E5E5E5">什么 </font><font color="#CCCCCC">样的 </font>
+
+1303
+00:59:21,460 --> 00:59:23,140
+ <font color="#E5E5E5">在顶部 </font><font color="#CCCCCC">添加 </font><font color="#E5E5E5">一点边距推 </font>
+
+1304
+00:59:23,140 --> 00:59:31,599
+它<font color="#CCCCCC">有点下降</font><font color="#E5E5E5">所以这个 </font>
+
+1305
+00:59:31,599 --> 00:59:34,780
+ <font color="#E5E5E5">现在我想要的是默认位置静态 </font>
+
+1306
+00:59:34,780 --> 00:59:38,140
+这些是<font color="#E5E5E5">绝对的，所以我可以 </font>
+
+1307
+00:59:38,140 --> 00:59:40,420
+把它们移到<font color="#E5E5E5">我想要的任何地方 </font>
+
+1308
+00:59:40,420 --> 00:59:43,810
+它的元素<font color="#E5E5E5">现在实际上让它 </font>
+
+1309
+00:59:43,810 --> 00:59:45,220
+ <font color="#E5E5E5">我告诉 </font><font color="#CCCCCC">你让我告诉你发生了什么 </font>
+
+1310
+00:59:45,220 --> 00:59:47,260
+如果我们<font color="#E5E5E5">不 首先 将 </font><font color="#CCCCCC">它 </font><font color="#E5E5E5">设置 为相对的 </font>
+
+1311
+00:59:47,260 --> 00:59:51,700
+所以，如果我们说点<font color="#CCCCCC">P盒，让我们的 </font><font color="#E5E5E5">目标 </font>
+
+1312
+00:59:51,700 --> 00:59:55,990
+ h1 <font color="#E5E5E5">应该是一个点可以 </font>
+
+1313
+00:59:55,990 --> 00:59:59,319
+然后让我们说<font color="#E5E5E5">顶部，我们将设置它 </font>
+
+1314
+00:59:59,319 --> 01:00:02,200
+ <font color="#E5E5E5">至40像素，让我们看看会发生什么 </font>
+
+1315
+01:00:02,200 --> 01:00:08,980
+当<font color="#E5E5E5">我重装到这个h1时，没有什么可以的 </font>
+
+1316
+01:00:08,980 --> 01:00:11,560
+看到那是<font color="#E5E5E5">因为我没有把它设置为 </font>
+
+1317
+01:00:11,560 --> 01:00:12,460
+绝对
+
+1318
+01:00:12,460 --> 01:00:21,220
+我希望位置<font color="#E5E5E5">绝对全部 </font>
+
+1319
+01:00:21,220 --> 01:00:23,410
+ <font color="#E5E5E5">是的，然后重新加载， </font><font color="#CCCCCC">现在它 </font>
+
+1320
+01:00:23,410 --> 01:00:24,790
+它<font color="#CCCCCC">实际上并没有消失</font>
+
+1321
+01:00:24,790 --> 01:00:26,920
+如果<font color="#CCCCCC">我们上去，会发生什么</font>
+
+1322
+01:00:26,920 --> 01:00:30,579
+在这里它是<font color="#E5E5E5">如此正在发生的事情 </font>
+
+1323
+01:00:30,579 --> 01:00:33,160
+它是我们说的<font color="#CCCCCC">前40个像素所以它是 </font>
+
+1324
+01:00:33,160 --> 01:00:36,460
+ <font color="#E5E5E5">从上正在 </font><font color="#CCCCCC">来 </font><font color="#E5E5E5">的路上40个像素 </font>
+
+1325
+01:00:36,460 --> 01:00:39,190
+ <font color="#E5E5E5">因为它没有明显的元素 </font>
+
+1326
+01:00:39,190 --> 01:00:41,770
+这是相对<font color="#E5E5E5">的 </font>
+
+1327
+01:00:41,770 --> 01:00:44,440
+将使用<font color="#E5E5E5">整个HTML文档 </font>
+
+1328
+01:00:44,440 --> 01:00:47,740
+ <font color="#E5E5E5">没关系，它的容器，现在我们希望</font><font color="#CCCCCC">它 </font>
+
+1329
+01:00:47,740 --> 01:00:49,810
+从<font color="#CCCCCC">这个 </font><font color="#E5E5E5">顶部推40个像素</font>
+
+1330
+01:00:49,810 --> 01:00:52,569
+ P盒的元素<font color="#E5E5E5">所以 </font><font color="#CCCCCC">为了 </font><font color="#E5E5E5">那个 </font>
+
+1331
+01:00:52,569 --> 01:00:54,819
+ <font color="#E5E5E5">我们需要 </font><font color="#CCCCCC">实际设置它 </font>
+
+1332
+01:00:54,819 --> 01:00:59,950
+如果我们现在，那么现在就相对了
+
+1333
+01:00:59,950 --> 01:01:02,410
+保存并重装现在它被推了40 
+
+1334
+01:01:02,410 --> 01:01:04,510
+ <font color="#CCCCCC">顶部的像素</font><font color="#E5E5E5">，只是为了向您展示 </font>
+
+1335
+01:01:04,510 --> 01:01:07,540
+我就<font color="#CCCCCC">改成了一百 </font><font color="#E5E5E5">没事 </font>
+
+1336
+01:01:07,540 --> 01:01:09,280
+然后我们<font color="#E5E5E5">基本上可以把它 </font>
+
+1337
+01:01:09,280 --> 01:01:11,050
+如果我们<font color="#E5E5E5">想要它，我们想要的任何地方</font>
+
+1338
+01:01:11,050 --> 01:01:14,819
+ <font color="#CCCCCC">让我们说从 </font><font color="#E5E5E5">左边200像素 </font>
+
+1339
+01:01:14,819 --> 01:01:17,380
+ <font color="#E5E5E5">重新加载然后你可以看到它已经失效 </font>
+
+1340
+01:01:17,380 --> 01:01:21,220
+ <font color="#E5E5E5">100和左边或 </font><font color="#CCCCCC">右边 </font>
+
+1341
+01:01:21,220 --> 01:01:24,339
+ <font color="#CCCCCC">左边200 </font><font color="#E5E5E5">好吧让我们说我们想要 </font>
+
+1342
+01:01:24,339 --> 01:01:26,650
+ <font color="#CCCCCC">在这里的 </font><font color="#E5E5E5">某个地方再见 </font>
+
+1343
+01:01:26,650 --> 01:01:28,520
+我们会说
+
+1344
+01:01:28,520 --> 01:01:35,320
+ <font color="#E5E5E5">P  - 盒 </font><font color="#CCCCCC">并将目标瞄准 </font><font color="#E5E5E5">H </font><font color="#CCCCCC">- </font>
+
+1345
+01:01:35,320 --> 01:01:40,160
+将<font color="#E5E5E5">它设置为position：absolute然后 </font>
+
+1346
+01:01:40,160 --> 01:01:42,710
+让我们说<font color="#CCCCCC">我们想从底层40开始 </font>
+
+1347
+01:01:42,710 --> 01:01:47,200
+ <font color="#E5E5E5">像素，然后从 </font><font color="#CCCCCC">右边 </font><font color="#E5E5E5">说 </font>
+
+1348
+01:01:47,200 --> 01:01:48,890
+ 100像素
+
+1349
+01:01:48,890 --> 01:01:51,830
+ <font color="#CCCCCC">好的重装然后我们就 </font><font color="#E5E5E5">这样你可以 </font>
+
+1350
+01:01:51,830 --> 01:01:53,480
+看，我们可以<font color="#CCCCCC">把这些东西放在 </font><font color="#E5E5E5">我们身上 </font>
+
+1351
+01:01:53,480 --> 01:01:55,010
+希望这<font color="#CCCCCC">对 </font><font color="#E5E5E5">你来说真的</font><font color="#CCCCCC">很有帮助 </font>
+
+1352
+01:01:55,010 --> 01:01:57,280
+构建与CSS有关的游戏
+
+1353
+01:01:57,280 --> 01:01:59,780
+ <font color="#CCCCCC">好吧，你 </font><font color="#E5E5E5">可以想象像一个人一样移动 </font>
+
+1354
+01:01:59,780 --> 01:02:01,310
+小图像一点点<font color="#CCCCCC">检查或 </font>
+
+1355
+01:02:01,310 --> 01:02:04,580
+ <font color="#E5E5E5">现在一切都在附近 </font>
+
+1356
+01:02:04,580 --> 01:02:07,040
+让我们来看看<font color="#E5E5E5">固定定位 </font>
+
+1357
+01:02:07,040 --> 01:02:09,050
+真快，所以<font color="#E5E5E5">我要做的就是 </font><font color="#CCCCCC">我要去 </font>
+
+1358
+01:02:09,050 --> 01:02:10,670
+ <font color="#E5E5E5">实际上走出 </font><font color="#CCCCCC">集装箱 </font>
+
+1359
+01:02:10,670 --> 01:02:15,070
+ <font color="#E5E5E5">我要创建一个标签 </font>
+
+1360
+01:02:15,070 --> 01:02:17,240
+ <font color="#CCCCCC">好吧，让我们真的给它上课 </font>
+
+1361
+01:02:17,240 --> 01:02:19,910
+按钮<font color="#CCCCCC">好吧我记得我们有 </font>
+
+1362
+01:02:19,910 --> 01:02:23,240
+ <font color="#E5E5E5">按钮类，我也会给 </font>
+
+1363
+01:02:23,240 --> 01:02:27,980
+我会说一类修复我<font color="#CCCCCC">没关系 </font>
+
+1364
+01:02:27,980 --> 01:02:30,320
+它有<font color="#E5E5E5">两个类 </font><font color="#CCCCCC">现在修复我和按钮 </font>
+
+1365
+01:02:30,320 --> 01:02:32,420
+现在，如果我重装<font color="#E5E5E5">它会显示下来 </font>
+
+1366
+01:02:32,420 --> 01:02:33,619
+ <font color="#E5E5E5">在这里 </font>
+
+1367
+01:02:33,619 --> 01:02:36,430
+ <font color="#E5E5E5">哎呀我们 </font><font color="#CCCCCC">链接 </font><font color="#E5E5E5">里面没有文字 </font>
+
+1368
+01:02:36,430 --> 01:02:41,119
+ <font color="#CCCCCC">我们只是打个招呼，所以我们 </font>
+
+1369
+01:02:41,119 --> 01:02:44,720
+ <font color="#CCCCCC">现在有这个按钮你好 </font><font color="#E5E5E5">- 如果我们设置的话 </font>
+
+1370
+01:02:44,720 --> 01:02:47,119
+它<font color="#CCCCCC">来 </font><font color="#E5E5E5">修复它将会做的事情 </font>
+
+1371
+01:02:47,119 --> 01:02:49,609
+有点卡<font color="#CCCCCC">在页面的某个地方 </font>
+
+1372
+01:02:49,609 --> 01:02:51,500
+无论我们在哪里滚动<font color="#E5E5E5">它仍然会留下来 </font>
+
+1373
+01:02:51,500 --> 01:02:54,320
+ <font color="#E5E5E5">那么让我告诉你 </font><font color="#CCCCCC">我们去这里 </font>
+
+1374
+01:02:54,320 --> 01:02:58,400
+ <font color="#CCCCCC">我们说点固定了我然后我们要去 </font>
+
+1375
+01:02:58,400 --> 01:03:03,770
+设置位置<font color="#CCCCCC">固定然后让我们 </font>
+
+1376
+01:03:03,770 --> 01:03:08,150
+设置顶部<font color="#E5E5E5">-  400像素好，所以现在如果 </font>
+
+1377
+01:03:08,150 --> 01:03:10,369
+我们保存并重新装载<font color="#E5E5E5">你会看到那个 </font>
+
+1378
+01:03:10,369 --> 01:03:12,590
+按钮<font color="#E5E5E5">现在将留在那里400 </font>
+
+1379
+01:03:12,590 --> 01:03:14,420
+来自<font color="#E5E5E5">浏览器 </font><font color="#CCCCCC">顶部的像素</font><font color="#E5E5E5">和 </font>
+
+1380
+01:03:14,420 --> 01:03:17,060
+它坐着它<font color="#E5E5E5">不会移动好吧不 </font>
+
+1381
+01:03:17,060 --> 01:03:18,619
+ <font color="#E5E5E5">我们 </font><font color="#CCCCCC">在 </font><font color="#E5E5E5">网页上的位置和 </font>
+
+1382
+01:03:18,619 --> 01:03:21,560
+ <font color="#CCCCCC">像社交一样 </font><font color="#E5E5E5">非常酷 </font>
+
+1383
+01:03:21,560 --> 01:03:23,510
+媒体<font color="#E5E5E5">链接你所在的地方 </font>
+
+1384
+01:03:23,510 --> 01:03:24,859
+想要你知道你<font color="#CCCCCC">想要用户 </font>
+
+1385
+01:03:24,859 --> 01:03:27,320
+总是看到<font color="#E5E5E5">有时你甚至会看到它</font>
+
+1386
+01:03:27,320 --> 01:03:29,150
+ <font color="#E5E5E5">这个与导航栏，所以滚动时 </font>
+
+1387
+01:03:29,150 --> 01:03:32,480
+导航栏下方仍显示<font color="#E5E5E5">正常 </font>
+
+1388
+01:03:32,480 --> 01:03:34,820
+所以我们现在<font color="#E5E5E5">过了一个小时，我们还在 </font>
+
+1389
+01:03:34,820 --> 01:03:36,680
+ <font color="#CCCCCC">必须做布局，所以我道歉 </font>
+
+1390
+01:03:36,680 --> 01:03:38,540
+ <font color="#CCCCCC">这需要很长时间，但我确实这么做 </font>
+
+1391
+01:03:38,540 --> 01:03:39,410
+想掩盖<font color="#E5E5E5">我们的 </font>
+
+1392
+01:03:39,410 --> 01:03:42,109
+所以我<font color="#E5E5E5">现在要做的 </font><font color="#CCCCCC">就是告诉你如何 </font>
+
+1393
+01:03:42,109 --> 01:03:44,630
+使用图像<font color="#E5E5E5">作为元素背景 </font>
+
+1394
+01:03:44,630 --> 01:03:46,430
+所以我们<font color="#E5E5E5">将在这里使用这个 </font>
+
+1395
+01:03:46,430 --> 01:03:49,970
+这个<font color="#CCCCCC">P盒 </font><font color="#E5E5E5">让我们看看我刚刚开始 </font>
+
+1396
+01:03:49,970 --> 01:03:53,859
+ <font color="#CCCCCC">抓住图像真快速 </font><font color="#E5E5E5">说光 </font>
+
+1397
+01:03:53,859 --> 01:03:56,450
+ <font color="#E5E5E5">抽象图像实际上 </font><font color="#CCCCCC">并不是什么 </font>
+
+1398
+01:03:56,450 --> 01:03:58,780
+我想要
+
+1399
+01:04:01,690 --> 01:04:07,339
+让我们在这里抓住这一权利<font color="#E5E5E5">这么 </font><font color="#CCCCCC">好吗 </font>
+
+1400
+01:04:07,339 --> 01:04:08,839
+ <font color="#CCCCCC">我要抓住这张 </font><font color="#E5E5E5">图片，我就是 </font>
+
+1401
+01:04:08,839 --> 01:04:16,010
+将<font color="#CCCCCC">它 </font><font color="#E5E5E5">保存 </font><font color="#CCCCCC">为 </font><font color="#E5E5E5">BG图像点 </font>
+
+1402
+01:04:16,010 --> 01:04:18,380
+ <font color="#CCCCCC">jpg， </font><font color="#E5E5E5">我们将把它保存到我们的备忘单中 </font>
+
+1403
+01:04:18,380 --> 01:04:23,240
+ <font color="#E5E5E5">图像文件夹 </font><font color="#CCCCCC">可以，然后让我们 </font>
+
+1404
+01:04:23,240 --> 01:04:26,000
+回去<font color="#E5E5E5">关闭那些让我们回去吧 </font>
+
+1405
+01:04:26,000 --> 01:04:28,849
+我们的<font color="#E5E5E5">CSS和P框下就可以了 </font>
+
+1406
+01:04:28,849 --> 01:04:33,890
+背景-图像，然后这<font color="#CCCCCC">回事 </font>
+
+1407
+01:04:33,890 --> 01:04:36,410
+ <font color="#E5E5E5">说URL然后在这里 </font><font color="#CCCCCC">我们需要一个 </font>
+
+1408
+01:04:36,410 --> 01:04:38,809
+路径到图像的路径<font color="#E5E5E5">所以它正在进行 </font>
+
+1409
+01:04:38,809 --> 01:04:41,000
+ <font color="#E5E5E5">因为现在是点dot斜线 </font>
+
+1410
+01:04:41,000 --> 01:04:42,710
+我们在<font color="#E5E5E5">CSS文件夹中，但我们想要 </font>
+
+1411
+01:04:42,710 --> 01:04:44,450
+走<font color="#CCCCCC">在 </font><font color="#E5E5E5">它 </font><font color="#CCCCCC">之外 </font><font color="#E5E5E5">， </font><font color="#CCCCCC">这样 给 </font><font color="#E5E5E5">我们 </font><font color="#CCCCCC">带来 </font><font color="#E5E5E5">了 </font>
+
+1412
+01:04:44,450 --> 01:04:46,579
+ <font color="#E5E5E5">然后我们想进入图像 </font>
+
+1413
+01:04:46,579 --> 01:04:49,640
+ <font color="#CCCCCC">文件夹 </font><font color="#E5E5E5">然后我们要调用BG </font><font color="#CCCCCC">图像 </font>
+
+1414
+01:04:49,640 --> 01:04:54,859
+点<font color="#CCCCCC">JPG </font><font color="#E5E5E5">没事</font><font color="#CCCCCC">让我们保存和 </font>
+
+1415
+01:04:54,859 --> 01:04:56,900
+重装<font color="#CCCCCC">， </font><font color="#E5E5E5">现在你会看到我们有 </font>
+
+1416
+01:04:56,900 --> 01:04:59,539
+图像作为<font color="#CCCCCC">背景 </font><font color="#E5E5E5">现在有 </font>
+
+1417
+01:04:59,539 --> 01:05:02,450
+有<font color="#E5E5E5">不同之 </font><font color="#CCCCCC">处 </font>
+
+1418
+01:05:02,450 --> 01:05:04,730
+我们可以使用的背景样式
+
+1419
+01:05:04,730 --> 01:05:07,730
+ <font color="#E5E5E5">例如，这个位置让我们走下去 </font>
+
+1420
+01:05:07,730 --> 01:05:12,410
+ <font color="#CCCCCC">在这里说背景位置和 </font>
+
+1421
+01:05:12,410 --> 01:05:14,359
+我们<font color="#E5E5E5">打算 </font><font color="#CCCCCC">让它说出来 </font>
+
+1422
+01:05:14,359 --> 01:05:19,700
+百<font color="#E5E5E5">像素 </font><font color="#CCCCCC">200 </font><font color="#E5E5E5">像素并重新加载 </font>
+
+1423
+01:05:19,700 --> 01:05:21,650
+ <font color="#E5E5E5">它将会 </font><font color="#CCCCCC">发生什么 </font>
+
+1424
+01:05:21,650 --> 01:05:24,440
+将它向下推<font color="#CCCCCC">100像素然后按或 </font>
+
+1425
+01:05:24,440 --> 01:05:27,020
+将<font color="#CCCCCC">它推过 </font><font color="#E5E5E5">一百个像素并向下 </font>
+
+1426
+01:05:27,020 --> 01:05:30,500
+ <font color="#CCCCCC">200 </font><font color="#E5E5E5">现在注意到 </font><font color="#CCCCCC">它 </font><font color="#E5E5E5">实际上是 </font>
+
+1427
+01:05:30,500 --> 01:05:32,750
+重复图像重复<font color="#CCCCCC">没问题 </font>
+
+1428
+01:05:32,750 --> 01:05:34,549
+ <font color="#E5E5E5">这是 </font><font color="#CCCCCC">结束 </font><font color="#E5E5E5">，然后 </font><font color="#CCCCCC">它重复两者 </font>
+
+1429
+01:05:34,549 --> 01:05:37,039
+ <font color="#E5E5E5">所以我们要做的事情就是确定的 </font>
+
+1430
+01:05:37,039 --> 01:05:41,529
+ <font color="#CCCCCC">背景 - 你的重复 </font><font color="#E5E5E5">到不重复 </font>
+
+1431
+01:05:41,529 --> 01:05:43,970
+ <font color="#CCCCCC">好的，重装，现在你会看到 </font>
+
+1432
+01:05:43,970 --> 01:05:46,579
+ <font color="#E5E5E5">它 </font><font color="#CCCCCC">现在</font><font color="#E5E5E5">不</font><font color="#CCCCCC">重复的 </font>
+
+1433
+01:05:46,579 --> 01:05:49,329
+ <font color="#E5E5E5">背景位置 </font>
+
+1434
+01:05:50,490 --> 01:05:53,560
+你也可以用我不能打字的位置
+
+1435
+01:05:53,560 --> 01:05:57,520
+ <font color="#CCCCCC">今天 </font><font color="#E5E5E5">你也可以使用中心让我们说 </font>
+
+1436
+01:05:57,520 --> 01:06:01,510
+ <font color="#CCCCCC">中心和重装 </font><font color="#E5E5E5">，那将 </font>
+
+1437
+01:06:01,510 --> 01:06:03,550
+把它<font color="#E5E5E5">放在你水平的中心上 </font>
+
+1438
+01:06:03,550 --> 01:06:07,170
+ <font color="#E5E5E5">我们可以说 </font><font color="#CCCCCC">中心顶部 </font>
+
+1439
+01:06:07,170 --> 01:06:09,910
+ <font color="#E5E5E5">重新加载，这将中心位于顶部 </font>
+
+1440
+01:06:09,910 --> 01:06:12,220
+您<font color="#CCCCCC">可以使用像素，也可以使用中心 </font>
+
+1441
+01:06:12,220 --> 01:06:14,910
+你<font color="#E5E5E5">也可以使用我相信的百分比 </font>
+
+1442
+01:06:14,910 --> 01:06:17,110
+ <font color="#CCCCCC">好吧， </font><font color="#E5E5E5">但这就是所有工作 </font>
+
+1443
+01:06:17,110 --> 01:06:18,460
+我们<font color="#E5E5E5">要做的是背景 </font>
+
+1444
+01:06:18,460 --> 01:06:22,270
+ <font color="#CCCCCC">图像好吧，所以 </font><font color="#E5E5E5">我想要 </font><font color="#CCCCCC">的最后一 </font><font color="#E5E5E5">件事 </font>
+
+1445
+01:06:22,270 --> 01:06:24,460
+ <font color="#E5E5E5">在骗子里面做我想要的 </font>
+
+1446
+01:06:24,460 --> 01:06:26,440
+我想要<font color="#CCCCCC">告诉你 关于 一</font><font color="#E5E5E5">点点 </font>
+
+1447
+01:06:26,440 --> 01:06:28,960
+ <font color="#E5E5E5">伪类所以我要做的 </font>
+
+1448
+01:06:28,960 --> 01:06:31,270
+是在<font color="#CCCCCC">P Box下的容器中</font>
+
+1449
+01:06:31,270 --> 01:06:35,230
+让我们继续吧， <font color="#CCCCCC">我们就是UL </font>
+
+1450
+01:06:35,230 --> 01:06:36,700
+将会有一帮<font color="#E5E5E5">盟友 </font><font color="#CCCCCC">的 </font><font color="#E5E5E5">，我只是 </font>
+
+1451
+01:06:36,700 --> 01:06:40,960
+要留下列表项目<font color="#CCCCCC">， </font><font color="#E5E5E5">我们将复制 </font>
+
+1452
+01:06:40,960 --> 01:06:43,540
+我只<font color="#CCCCCC">想要 </font><font color="#E5E5E5">一堆 </font>
+
+1453
+01:06:43,540 --> 01:06:48,580
+这些<font color="#CCCCCC">确定会重新加载一堆 </font>
+
+1454
+01:06:48,580 --> 01:06:51,040
+列出<font color="#E5E5E5">项目，我们可以使用伪类 </font>
+
+1455
+01:06:51,040 --> 01:06:54,400
+以某些<font color="#E5E5E5">事情为目标，让我们说吧 </font>
+
+1456
+01:06:54,400 --> 01:06:58,000
+ <font color="#E5E5E5">让我们实际上给一个班级 </font>
+
+1457
+01:06:58,000 --> 01:07:03,540
+ <font color="#CCCCCC">所以UL </font><font color="#E5E5E5">类 </font><font color="#CCCCCC">我们 </font><font color="#E5E5E5">只是称之为 </font><font color="#CCCCCC">我的列表 </font>
+
+1458
+01:07:03,540 --> 01:07:09,690
+ <font color="#CCCCCC">好吧所以我们会说点我的名单和 </font>
+
+1459
+01:07:09,690 --> 01:07:12,250
+ <font color="#E5E5E5">实际上我们要 </font><font color="#CCCCCC">针对 </font><font color="#E5E5E5">一个李和 </font>
+
+1460
+01:07:12,250 --> 01:07:13,810
+然后我将<font color="#E5E5E5">使用伪类 </font>
+
+1461
+01:07:13,810 --> 01:07:16,150
+ <font color="#CCCCCC">使用 </font><font color="#E5E5E5">冒号我们会说 </font>
+
+1462
+01:07:16,150 --> 01:07:18,420
+ <font color="#E5E5E5">第一个孩子 </font>
+
+1463
+01:07:18,420 --> 01:07:20,800
+ <font color="#E5E5E5">好的，然后我们要设置 </font>
+
+1464
+01:07:20,800 --> 01:07:24,880
+背景会说背景，我们会
+
+1465
+01:07:24,880 --> 01:07:26,860
+设置<font color="#CCCCCC">为红色 </font><font color="#E5E5E5">注意我们没有 </font>
+
+1466
+01:07:26,860 --> 01:07:30,130
+必须<font color="#CCCCCC">使用背景颜色我们可以 </font>
+
+1467
+01:07:30,130 --> 01:07:31,750
+使用<font color="#CCCCCC">背景然后我们可以使用 </font>
+
+1468
+01:07:31,750 --> 01:07:35,740
+无论是颜色还是图像都<font color="#E5E5E5">可以 </font>
+
+1469
+01:07:35,740 --> 01:07:37,420
+ <font color="#E5E5E5">那</font><font color="#CCCCCC">将 获得</font><font color="#E5E5E5">第一个孩子是 </font>
+
+1470
+01:07:37,420 --> 01:07:39,730
+ <font color="#E5E5E5">我们也有 第一个 </font><font color="#CCCCCC">李 </font>
+
+1471
+01:07:39,730 --> 01:07:42,510
+最后一个孩子
+
+1472
+01:07:43,230 --> 01:07:46,570
+好吧，所以最后一个孩子，我们会改变<font color="#E5E5E5">它 </font>
+
+1473
+01:07:46,570 --> 01:07:50,080
+让我们说蓝色<font color="#E5E5E5">我不会去 </font>
+
+1474
+01:07:50,080 --> 01:07:53,200
+ <font color="#CCCCCC">所有的伪元素，但只是 </font>
+
+1475
+01:07:53,200 --> 01:07:55,420
+ <font color="#CCCCCC">现在让我们说一些</font><font color="#E5E5E5">重要 </font><font color="#CCCCCC">的 </font>
+
+1476
+01:07:55,420 --> 01:07:57,400
+你想像<font color="#E5E5E5">第五个 </font><font color="#CCCCCC">目标 </font><font color="#E5E5E5">一样 </font>
+
+1477
+01:07:57,400 --> 01:07:59,650
+ <font color="#E5E5E5">这样你可以做什么，这是 </font>
+
+1478
+01:07:59,650 --> 01:08:01,550
+所有css3 
+
+1479
+01:08:01,550 --> 01:08:04,160
+我们<font color="#CCCCCC">可以说我的名单 </font><font color="#E5E5E5">李然后我们可以 </font>
+
+1480
+01:08:04,160 --> 01:08:08,660
+使用一种<font color="#E5E5E5">叫做 </font><font color="#CCCCCC">nth和 </font><font color="#E5E5E5">child的东西</font>
+
+1481
+01:08:08,660 --> 01:08:10,640
+那么我们就要投入一些了
+
+1482
+01:08:10,640 --> 01:08:14,510
+ <font color="#E5E5E5">括号在这里，让我们说我们想要 </font>
+
+1483
+01:08:14,510 --> 01:08:17,240
+ <font color="#E5E5E5">第五 </font><font color="#CCCCCC">，所以我们可以把五则 </font>
+
+1484
+01:08:17,240 --> 01:08:20,380
+我们会留下颜色<font color="#CCCCCC">或让我们说背景 </font>
+
+1485
+01:08:20,380 --> 01:08:22,750
+ <font color="#E5E5E5">黄色 </font>
+
+1486
+01:08:22,750 --> 01:08:25,490
+好的，所以我们将重装， <font color="#CCCCCC">现在 </font>
+
+1487
+01:08:25,490 --> 01:08:27,170
+第五个是黄色，所以你可以瞄准
+
+1488
+01:08:27,170 --> 01:08:29,660
+ <font color="#E5E5E5">无论你想要什么使用这些伪 </font>
+
+1489
+01:08:29,660 --> 01:08:33,200
+内容现在你也可以使用<font color="#CCCCCC">一个 </font><font color="#E5E5E5">连 </font>
+
+1490
+01:08:33,200 --> 01:08:36,109
+和第n个孩子一样， <font color="#CCCCCC">所以让我们复制一下 </font>
+
+1491
+01:08:36,109 --> 01:08:40,970
+ <font color="#CCCCCC">让我们说我们想要 </font><font color="#E5E5E5">所有的偶数 </font>
+
+1492
+01:08:40,970 --> 01:08:46,790
+是<font color="#E5E5E5">灰色的， </font><font color="#CCCCCC">重新加载，现在都是均匀的 </font>
+
+1493
+01:08:46,790 --> 01:08:48,589
+列表中的项目将有<font color="#E5E5E5">一个 </font><font color="#CCCCCC">灰色 </font><font color="#E5E5E5">背景 </font>
+
+1494
+01:08:48,589 --> 01:08:50,810
+所以非常<font color="#E5E5E5">非常有帮助，特别是如果 </font>
+
+1495
+01:08:50,810 --> 01:08:52,729
+东西是<font color="#CCCCCC">动态生成的 </font>
+
+1496
+01:08:52,729 --> 01:08:54,939
+无法真正定位<font color="#CCCCCC">特定的列表项 </font>
+
+1497
+01:08:54,939 --> 01:08:57,529
+ <font color="#CCCCCC">好吧， </font><font color="#E5E5E5">伙计们，所以我们看了很多 </font>
+
+1498
+01:08:57,529 --> 01:09:00,080
+几乎<font color="#E5E5E5">所有的基本面 </font>
+
+1499
+01:09:00,080 --> 01:09:03,020
+ CSS的<font color="#E5E5E5">属性和 </font>
+
+1500
+01:09:03,020 --> 01:09:04,850
+ <font color="#E5E5E5">所有我的意思是有 </font><font color="#CCCCCC">更多， </font><font color="#E5E5E5">但它是 </font>
+
+1501
+01:09:04,850 --> 01:09:06,560
+ <font color="#E5E5E5">不可能去了所有 </font><font color="#CCCCCC">的 </font><font color="#E5E5E5">人 都 在 </font>
+
+1502
+01:09:06,560 --> 01:09:07,970
+这段<font color="#E5E5E5">时间 </font>
+
+1503
+01:09:07,970 --> 01:09:10,790
+ <font color="#E5E5E5">除了我，我已经完成</font><font color="#CCCCCC">了我想做的事情 </font>
+
+1504
+01:09:10,790 --> 01:09:13,040
+我想做我所承诺和善良的事情
+
+1505
+01:09:13,040 --> 01:09:14,870
+ <font color="#E5E5E5">为你们创建一个网站布局 </font>
+
+1506
+01:09:14,870 --> 01:09:17,390
+所以<font color="#CCCCCC">希望这不会</font><font color="#E5E5E5">太长 ，如果 </font>
+
+1507
+01:09:17,390 --> 01:09:19,130
+那时你已经看过了
+
+1508
+01:09:19,130 --> 01:09:21,410
+我相信<font color="#CCCCCC">你不会介意看另一个 </font>
+
+1509
+01:09:21,410 --> 01:09:25,970
+你知道<font color="#CCCCCC">10-15分钟所以我要去 </font>
+
+1510
+01:09:25,970 --> 01:09:27,529
+这样做<font color="#E5E5E5">很快，因为我们确实去了 </font>
+
+1511
+01:09:27,529 --> 01:09:29,029
+在你身上<font color="#E5E5E5">知道的大部分 </font><font color="#CCCCCC">内容 </font>
+
+1512
+01:09:29,029 --> 01:09:31,069
+ <font color="#E5E5E5">我们将在这里做我的 </font>
+
+1513
+01:09:31,069 --> 01:09:32,689
+网站<font color="#CCCCCC">我要创建 </font><font color="#E5E5E5">一个新文件 </font>
+
+1514
+01:09:32,689 --> 01:09:35,569
+ <font color="#CCCCCC">叫做index.html我为什么一直这样做 </font>
+
+1515
+01:09:35,569 --> 01:09:40,220
+ <font color="#CCCCCC">因为 </font><font color="#E5E5E5">我经常使用 </font><font color="#CCCCCC">，所以 </font><font color="#E5E5E5">我 </font><font color="#CCCCCC">这样做 </font>
+
+1516
+01:09:40,220 --> 01:09:42,049
+ <font color="#CCCCCC">亚当，当你这样做时， </font><font color="#E5E5E5">你创造了一个 </font>
+
+1517
+01:09:42,049 --> 01:09:44,420
+新文件，您<font color="#E5E5E5">只需键入名称和 </font>
+
+1518
+01:09:44,420 --> 01:09:46,120
+说如果你<font color="#E5E5E5">不必做ctrl s </font>
+
+1519
+01:09:46,120 --> 01:09:48,680
+ <font color="#CCCCCC">好吧然后让我们创建 </font><font color="#E5E5E5">一个文件夹 </font>
+
+1520
+01:09:48,680 --> 01:09:53,330
+ <font color="#CCCCCC">称为 </font><font color="#E5E5E5">CSS，我们将创建另一个 </font>
+
+1521
+01:09:53,330 --> 01:09:58,220
+ <font color="#E5E5E5">文件夹现在称为图像 </font>
+
+1522
+01:09:58,220 --> 01:10:00,620
+ CSS <font color="#E5E5E5">我们将创建一个文件，让我们保存 </font>
+
+1523
+01:10:00,620 --> 01:10:04,280
+它<font color="#E5E5E5">作为样式点CSS好吧我们现在在 </font>
+
+1524
+01:10:04,280 --> 01:10:06,380
+我的网站文件夹<font color="#E5E5E5">备忘单是 </font>
+
+1525
+01:10:06,380 --> 01:10:09,230
+ <font color="#E5E5E5">没事，所以我们有这两个文件 </font>
+
+1526
+01:10:09,230 --> 01:10:12,230
+让我们继续添加<font color="#CCCCCC">一些基本的 </font><font color="#E5E5E5">标记 </font>
+
+1527
+01:10:12,230 --> 01:10:14,960
+ <font color="#E5E5E5">到我们的网站， </font><font color="#CCCCCC">我们只是说我的网站 </font>
+
+1528
+01:10:14,960 --> 01:10:17,810
+ <font color="#E5E5E5">网站没事，然后我们想要链接 </font>
+
+1529
+01:10:17,810 --> 01:10:21,380
+样式表，所以<font color="#CCCCCC">它链接到 </font><font color="#E5E5E5">CSS </font>
+
+1530
+01:10:21,380 --> 01:10:25,610
+ <font color="#E5E5E5">斜线样式点CSS然后我们要去 </font>
+
+1531
+01:10:25,610 --> 01:10:26,930
+写<font color="#E5E5E5">我们的标记，这通常是 </font>
+
+1532
+01:10:26,930 --> 01:10:28,969
+ <font color="#E5E5E5">我</font><font color="#CCCCCC">喜欢做的是 </font><font color="#E5E5E5">先 </font><font color="#CCCCCC">做好</font><font color="#E5E5E5">标记 </font>
+
+1533
+01:10:28,969 --> 01:10:32,420
+然后是造型，所以我们<font color="#E5E5E5">要去 </font>
+
+1534
+01:10:32,420 --> 01:10:36,290
+ <font color="#E5E5E5">使用html5 html5语义元素 </font>
+
+1535
+01:10:36,290 --> 01:10:39,469
+ <font color="#CCCCCC">所以让我们从 </font><font color="#E5E5E5">标题和我们开始吧 </font>
+
+1536
+01:10:39,469 --> 01:10:41,660
+标题只是<font color="#E5E5E5">基本上有 </font>
+
+1537
+01:10:41,660 --> 01:10:45,170
+一个h1 <font color="#E5E5E5">，我们将其称为我的网站 </font>
+
+1538
+01:10:45,170 --> 01:10:48,590
+这有点<font color="#CCCCCC">像</font><font color="#E5E5E5">我们的标志 </font><font color="#CCCCCC">， </font><font color="#E5E5E5">我 </font>
+
+1539
+01:10:48,590 --> 01:10:51,469
+ <font color="#E5E5E5">要给这个标题一个主要的ID </font>
+
+1540
+01:10:51,469 --> 01:10:56,840
+现在好头，我们就要<font color="#CCCCCC">有 </font>
+
+1541
+01:10:56,840 --> 01:10:58,910
+ <font color="#CCCCCC">一个容器类，它将推动 </font>
+
+1542
+01:10:58,910 --> 01:11:00,530
+一切都<font color="#E5E5E5">在中间等等，但我 </font>
+
+1543
+01:11:00,530 --> 01:11:01,940
+ <font color="#CCCCCC">不想 </font><font color="#E5E5E5">把它包裹 </font><font color="#CCCCCC">在整体 </font>
+
+1544
+01:11:01,940 --> 01:11:04,310
+网站<font color="#CCCCCC">，因为我不想</font><font color="#E5E5E5">一切 </font>
+
+1545
+01:11:04,310 --> 01:11:06,110
+被推倒例如标题我
+
+1546
+01:11:06,110 --> 01:11:08,540
+希望<font color="#CCCCCC">背景颜色 </font><font color="#E5E5E5">跨去 </font>
+
+1547
+01:11:08,540 --> 01:11:11,360
+整个事情， <font color="#CCCCCC">但我想要的内容 </font>
+
+1548
+01:11:11,360 --> 01:11:14,180
+实际的<font color="#E5E5E5">h1是你知道的 </font>
+
+1549
+01:11:14,180 --> 01:11:15,739
+ <font color="#E5E5E5">它周围的容器所以我们将成为 </font>
+
+1550
+01:11:15,739 --> 01:11:18,100
+ <font color="#E5E5E5">使用此内部的容器和 </font>
+
+1551
+01:11:18,100 --> 01:11:25,880
+ <font color="#CCCCCC">我们很多元素里面都是如此 </font>
+
+1552
+01:11:25,880 --> 01:11:27,860
+ <font color="#CCCCCC">接下来我们会做我们的标题</font>
+
+1553
+01:11:27,860 --> 01:11:31,250
+是<font color="#CCCCCC">导航栏，我们将继续 </font>
+
+1554
+01:11:31,250 --> 01:11:33,260
+ <font color="#E5E5E5">把容器放在里面那么 </font>
+
+1555
+01:11:33,260 --> 01:11:35,600
+我要做的就是<font color="#E5E5E5">复制这个我们 </font>
+
+1556
+01:11:35,600 --> 01:11:40,390
+将此更改为nav将ID更改为
+
+1557
+01:11:40,390 --> 01:11:44,150
+导航栏<font color="#E5E5E5">确保您也改变它 </font>
+
+1558
+01:11:44,150 --> 01:11:48,580
+然后我们<font color="#E5E5E5">将获得UL </font>
+
+1559
+01:11:48,580 --> 01:11:52,910
+让我们的<font color="#E5E5E5">L眼睛 </font><font color="#CCCCCC">好吧我们的标签我是 </font>
+
+1560
+01:11:52,910 --> 01:11:56,300
+不会<font color="#E5E5E5">去任何地方但是 </font>
+
+1561
+01:11:56,300 --> 01:12:00,260
+这<font color="#E5E5E5">是我们的假导航，所以我们会说 </font>
+
+1562
+01:12:00,260 --> 01:12:09,560
+关于服务的家和联系<font color="#CCCCCC">所有 </font>
+
+1563
+01:12:09,560 --> 01:12:11,270
+ <font color="#E5E5E5">右侧，然后根据 </font><font color="#CCCCCC">我们</font><font color="#E5E5E5">要去 </font>
+
+1564
+01:12:11,270 --> 01:12:14,210
+ <font color="#E5E5E5">就像这样展示区域 </font>
+
+1565
+01:12:14,210 --> 01:12:16,460
+ <font color="#E5E5E5">我</font><font color="#CCCCCC">将 </font><font color="#E5E5E5">用一个章节标记和我 </font>
+
+1566
+01:12:16,460 --> 01:12:19,400
+ <font color="#E5E5E5">要给这个展示ID </font>
+
+1567
+01:12:19,400 --> 01:12:21,800
+注意到这些<font color="#E5E5E5">都是</font><font color="#CCCCCC">这些 </font><font color="#E5E5E5">东西 </font>
+
+1568
+01:12:21,800 --> 01:12:24,200
+ <font color="#E5E5E5">您使用ID是因为我不是 </font>
+
+1569
+01:12:24,200 --> 01:12:26,300
+ <font color="#E5E5E5">将有另一个主导航栏或 </font>
+
+1570
+01:12:26,300 --> 01:12:28,560
+另一个主头部或<font color="#E5E5E5">展示 </font>
+
+1571
+01:12:28,560 --> 01:12:30,360
+是所有<font color="#E5E5E5">独特的东西，所以我给它一个 </font>
+
+1572
+01:12:30,360 --> 01:12:32,730
+ ID <font color="#E5E5E5">没问题，这样就 </font><font color="#CCCCCC">可以了 </font>
+
+1573
+01:12:32,730 --> 01:12:36,030
+ <font color="#E5E5E5">好的 </font><font color="#CCCCCC">例子 </font>
+
+1574
+01:12:36,030 --> 01:12:38,010
+然后我们正在使用容器
+
+1575
+01:12:38,010 --> 01:12:39,870
+在所有不同的地方<font color="#E5E5E5">，这是一个 </font>
+
+1576
+01:12:39,870 --> 01:12:43,050
+上课<font color="#E5E5E5">好吧让我们把h1放进去吧 </font>
+
+1577
+01:12:43,050 --> 01:12:46,050
+ showcase <font color="#CCCCCC">只是放了一些 </font><font color="#E5E5E5">我想要的 </font><font color="#CCCCCC">虚拟文字 </font>
+
+1578
+01:12:46,050 --> 01:12:48,930
+ <font color="#CCCCCC">它 </font><font color="#E5E5E5">真的很短暂，所以我会这样做 </font>
+
+1579
+01:12:48,930 --> 01:12:52,440
+ <font color="#CCCCCC">没关系，这就是我们的展示 </font>
+
+1580
+01:12:52,440 --> 01:12:55,920
+ <font color="#CCCCCC">两个标签，然后在下面 </font>
+
+1581
+01:12:55,920 --> 01:12:57,480
+展示我们会喜欢的
+
+1582
+01:12:57,480 --> 01:12:59,460
+主要区域也<font color="#E5E5E5">将是 </font><font color="#CCCCCC">一个 </font>
+
+1583
+01:12:59,460 --> 01:13:06,900
+部分所以<font color="#CCCCCC">让我们说部分说节 </font>
+
+1584
+01:13:06,900 --> 01:13:13,320
+ ID <font color="#E5E5E5">main，我们只是在这里放一个h1 </font>
+
+1585
+01:13:13,320 --> 01:13:17,610
+ <font color="#CCCCCC">我们会说欢迎 </font><font color="#E5E5E5">， </font><font color="#CCCCCC">然后我们会有一个 </font>
+
+1586
+01:13:17,610 --> 01:13:22,200
+ <font color="#E5E5E5">带有一些虚拟 </font><font color="#CCCCCC">文字的 </font><font color="#E5E5E5">段落 现在 </font>
+
+1587
+01:13:22,200 --> 01:13:24,390
+主要区域将在左侧然后
+
+1588
+01:13:24,390 --> 01:13:25,980
+ <font color="#E5E5E5">你会有一个侧边栏 </font>
+
+1589
+01:13:25,980 --> 01:13:31,530
+ <font color="#E5E5E5">我可以放在一边 </font><font color="#CCCCCC">，放在一边 </font>
+
+1590
+01:13:31,530 --> 01:13:33,720
+ <font color="#CCCCCC">要给，一个ID </font><font color="#E5E5E5">为</font><font color="#CCCCCC">好 </font>
+
+1591
+01:13:33,720 --> 01:13:37,800
+好吧，然后让我们看看吧
+
+1592
+01:13:37,800 --> 01:13:41,370
+ <font color="#E5E5E5">我想 </font><font color="#CCCCCC">放在这里让 </font><font color="#E5E5E5">我们放手吧 </font>
+
+1593
+01:13:41,370 --> 01:13:43,940
+我们只是把一些<font color="#CCCCCC">文字复制一下 </font>
+
+1594
+01:13:43,940 --> 01:13:48,780
+ <font color="#CCCCCC">尽管如此，我会</font><font color="#E5E5E5">让它 </font><font color="#CCCCCC">缩短 </font><font color="#E5E5E5">一点 </font>
+
+1595
+01:13:48,780 --> 01:13:52,590
+ <font color="#E5E5E5">现在主要和侧边我做 </font>
+
+1596
+01:13:52,590 --> 01:13:54,570
+希望这两者都<font color="#CCCCCC">推向 </font><font color="#E5E5E5">中间 </font>
+
+1597
+01:13:54,570 --> 01:13:56,220
+我打算<font color="#CCCCCC">把一个容器包起来 </font>
+
+1598
+01:13:56,220 --> 01:14:01,260
+ <font color="#CCCCCC">这些都和这一次 </font><font color="#E5E5E5">来 </font>
+
+1599
+01:14:01,260 --> 01:14:03,960
+你会在一起看到我为什么
+
+1600
+01:14:03,960 --> 01:14:06,830
+ <font color="#CCCCCC">做这个哎呀 </font>
+
+1601
+01:14:07,550 --> 01:14:10,380
+好吧<font color="#E5E5E5">，最后 </font><font color="#CCCCCC">我们只想要 </font>
+
+1602
+01:14:10,380 --> 01:14:12,080
+一个页脚<font color="#E5E5E5">所以我们将使用html5 </font>
+
+1603
+01:14:12,080 --> 01:14:14,670
+ <font color="#CCCCCC">拆分我们的标签，让我们给它一个ID </font>
+
+1604
+01:14:14,670 --> 01:14:18,500
+主页脚
+
+1605
+01:14:20,340 --> 01:14:23,220
+ <font color="#E5E5E5">好的，我们会提出一个段落，并会说 </font>
+
+1606
+01:14:23,220 --> 01:14:32,180
+版权<font color="#CCCCCC">＆ampersand 2017我的网站 </font>
+
+1607
+01:14:32,180 --> 01:14:34,380
+ <font color="#CCCCCC">好吧， </font><font color="#E5E5E5">所以应该 </font><font color="#CCCCCC">是所有的 </font>
+
+1608
+01:14:34,380 --> 01:14:36,990
+ <font color="#CCCCCC">模拟，所以现在让我们去 </font><font color="#E5E5E5">我们的文件 </font>
+
+1609
+01:14:36,990 --> 01:14:41,150
+ <font color="#E5E5E5">路径在这里 </font><font color="#CCCCCC">它是在速成课程斜线 </font>
+
+1610
+01:14:41,150 --> 01:14:43,380
+ <font color="#E5E5E5">实际上我们只是从中打开它 </font>
+
+1611
+01:14:43,380 --> 01:14:50,100
+ <font color="#CCCCCC">探险家 </font><font color="#E5E5E5">看到我的网站index.html所以 </font>
+
+1612
+01:14:50,100 --> 01:14:51,590
+这就是<font color="#E5E5E5">没有CSS的样子 </font>
+
+1613
+01:14:51,590 --> 01:14:55,470
+ <font color="#E5E5E5">为什么不是哦，我的上帝应该是 </font>
+
+1614
+01:14:55,470 --> 01:15:02,460
+ <font color="#CCCCCC">复制2017年， </font><font color="#E5E5E5">所以这就是 </font><font color="#CCCCCC">它 </font>
+
+1615
+01:15:02,460 --> 01:15:03,870
+看起来<font color="#CCCCCC">没有CSS现在我们要去 </font>
+
+1616
+01:15:03,870 --> 01:15:07,560
+ <font color="#E5E5E5">再次开始添加 </font><font color="#CCCCCC">我的 </font><font color="#E5E5E5">样式我是 </font>
+
+1617
+01:15:07,560 --> 01:15:08,880
+将<font color="#E5E5E5">要做这种 </font><font color="#CCCCCC">快速 </font>
+
+1618
+01:15:08,880 --> 01:15:10,320
+ <font color="#E5E5E5">因为我们已经有很多这样的东西 </font>
+
+1619
+01:15:10,320 --> 01:15:15,060
+ <font color="#E5E5E5">走了过去</font><font color="#CCCCCC">让我们说身体是一个 </font>
+
+1620
+01:15:15,060 --> 01:15:20,940
+背景或背景颜色<font color="#CCCCCC">像灰色 </font>
+
+1621
+01:15:20,940 --> 01:15:22,860
+ <font color="#CCCCCC">很多风格都是一样的 </font>
+
+1622
+01:15:22,860 --> 01:15:28,440
+那么<font color="#CCCCCC">说颜色 </font><font color="#E5E5E5">将 </font><font color="#CCCCCC">是五种字体 </font>
+
+1623
+01:15:28,440 --> 01:15:36,360
+家庭字体家庭arial helvetica 
+
+1624
+01:15:36,360 --> 01:15:43,970
+ sans-serif <font color="#CCCCCC">好吧我们会设置字体大小 </font>
+
+1625
+01:15:43,970 --> 01:15:51,450
+ <font color="#CCCCCC">到16 </font><font color="#E5E5E5">让我们设置线高和 </font>
+
+1626
+01:15:51,450 --> 01:15:53,100
+这些只是我常见的设置
+
+1627
+01:15:53,100 --> 01:15:55,230
+ <font color="#CCCCCC">等上使用了 </font><font color="#E5E5E5">大量的 </font><font color="#CCCCCC">线条和高度 </font>
+
+1628
+01:15:55,230 --> 01:15:57,330
+然后我<font color="#CCCCCC">就要开始了 </font>
+
+1629
+01:15:57,330 --> 01:16:02,190
+ <font color="#CCCCCC">零 </font><font color="#E5E5E5">，然后容器，所以 </font>
+
+1630
+01:16:02,190 --> 01:16:07,110
+容器将是<font color="#CCCCCC">80％，并希望 </font>
+
+1631
+01:16:07,110 --> 01:16:10,140
+保证金<font color="#CCCCCC">自动，我们将设置 </font>
+
+1632
+01:16:10,140 --> 01:16:13,140
+溢出到隐藏<font color="#E5E5E5">所以没有 </font>
+
+1633
+01:16:13,140 --> 01:16:14,760
+滚动条<font color="#E5E5E5">即使有事情发生 </font>
+
+1634
+01:16:14,760 --> 01:16:17,250
+ <font color="#E5E5E5">其容器 现在好</font><font color="#CCCCCC">了 外 </font>
+
+1635
+01:16:17,250 --> 01:16:18,900
+ <font color="#E5E5E5">记住我们有一个标题 </font>
+
+1636
+01:16:18,900 --> 01:16:22,560
+ <font color="#E5E5E5">主标题的 ID ，所以我要去 </font>
+
+1637
+01:16:22,560 --> 01:16:25,320
+ <font color="#CCCCCC">设置背景 </font><font color="#E5E5E5">X让我们做 </font>
+
+1638
+01:16:25,320 --> 01:16:27,600
+ <font color="#CCCCCC">背景颜色，我要设置 </font>
+
+1639
+01:16:27,600 --> 01:16:30,690
+那个<font color="#CCCCCC">颜色珊瑚然后设置 </font>
+
+1640
+01:16:30,690 --> 01:16:33,719
+实际文字颜色为<font color="#E5E5E5">白色 </font>
+
+1641
+01:16:33,719 --> 01:16:36,120
+ <font color="#E5E5E5">好的，让我们来看看那是什么 </font>
+
+1642
+01:16:36,120 --> 01:16:38,160
+ <font color="#E5E5E5">它 </font><font color="#CCCCCC">现在 </font><font color="#E5E5E5">看起来像 </font><font color="#CCCCCC">我们想要 </font><font color="#E5E5E5">的风格 </font>
+
+1643
+01:16:38,160 --> 01:16:41,489
+导航栏<font color="#CCCCCC">，这是UM这 </font><font color="#E5E5E5">是 </font>
+
+1644
+01:16:41,489 --> 01:16:43,110
+ <font color="#CCCCCC">我们需要 </font><font color="#E5E5E5">做的 </font><font color="#CCCCCC">事实上真的很 </font><font color="#E5E5E5">容易 </font>
+
+1645
+01:16:43,110 --> 01:16:45,270
+将填充物从<font color="#E5E5E5">UL中取出</font>
+
+1646
+01:16:45,270 --> 01:16:47,580
+抓住要点
+
+1647
+01:16:47,580 --> 01:16:50,250
+我们需要浮动链接或不浮动
+
+1648
+01:16:50,250 --> 01:16:54,020
+但是<font color="#E5E5E5">显示它们就好 </font><font color="#CCCCCC">了 </font>
+
+1649
+01:16:54,020 --> 01:16:57,030
+你知道他们漂浮得<font color="#CCCCCC">很好我猜 </font>
+
+1650
+01:16:57,030 --> 01:17:00,330
+我们也会把它们折叠起来<font color="#CCCCCC">我很抱歉 </font>
+
+1651
+01:17:00,330 --> 01:17:02,430
+ <font color="#CCCCCC">我们不打算把链接打开 </font>
+
+1652
+01:17:02,430 --> 01:17:03,840
+我们<font color="#E5E5E5">要制作列表项目 </font>
+
+1653
+01:17:03,840 --> 01:17:07,560
+在线，所以让我们抓住<font color="#E5E5E5">UL，这样我们就可以了 </font>
+
+1654
+01:17:07,560 --> 01:17:13,770
+说<font color="#E5E5E5">主要我很抱歉导航让我们这样做 </font>
+
+1655
+01:17:13,770 --> 01:17:17,430
+导航栏本身首先请<font color="#E5E5E5">原谅我 </font>
+
+1656
+01:17:17,430 --> 01:17:22,260
+将<font color="#E5E5E5">有一个黑暗的背景颜色 </font>
+
+1657
+01:17:22,260 --> 01:17:28,610
+ <font color="#CCCCCC">灰色， </font><font color="#E5E5E5">我们会说颜色为白色 </font><font color="#CCCCCC">，让我们说 </font>
+
+1658
+01:17:28,610 --> 01:17:31,310
+ <font color="#CCCCCC">好吧 </font><font color="#E5E5E5">， </font><font color="#CCCCCC">没关系 </font><font color="#E5E5E5">，我们 </font><font color="#CCCCCC">就这么做了 </font>
+
+1659
+01:17:31,310 --> 01:17:38,730
+然后<font color="#E5E5E5">导航栏让我们来吧 </font>
+
+1660
+01:17:38,730 --> 01:17:41,760
+ <font color="#E5E5E5">摆脱填充让我们摆脱 </font>
+
+1661
+01:17:41,760 --> 01:17:46,160
+这些<font color="#CCCCCC">要点让 </font><font color="#E5E5E5">我们的风格没有 </font>
+
+1662
+01:17:46,160 --> 01:17:48,719
+ <font color="#E5E5E5">好的，如果我们继续前进 </font><font color="#CCCCCC">，我们看 </font>
+
+1663
+01:17:48,719 --> 01:17:50,219
+这<font color="#E5E5E5">就是它的样子 </font>
+
+1664
+01:17:50,219 --> 01:17:52,980
+现在我们想的李标签那些<font color="#CCCCCC">在 </font>
+
+1665
+01:17:52,980 --> 01:17:55,350
+我们可以说，而不是阻止行
+
+1666
+01:17:55,350 --> 01:18:04,430
+导航栏导航<font color="#E5E5E5">李和我们要设置 </font>
+
+1667
+01:18:04,430 --> 01:18:08,280
+ <font color="#CCCCCC">显示： </font><font color="#E5E5E5">如果我们看的话，现在可以 </font><font color="#CCCCCC">内联 </font>
+
+1668
+01:18:08,280 --> 01:18:10,739
+在<font color="#E5E5E5">那你现在会看到他们去 </font>
+
+1669
+01:18:10,739 --> 01:18:13,199
+ <font color="#E5E5E5">一边然后是最后一部分 </font>
+
+1670
+01:18:13,199 --> 01:18:15,960
+ <font color="#CCCCCC">navbar </font><font color="#E5E5E5">to style是链接所以现在吧 </font>
+
+1671
+01:18:15,960 --> 01:18:21,870
+ <font color="#E5E5E5">让我们将颜色设置为白色设置 </font>
+
+1672
+01:18:21,870 --> 01:18:26,340
+文本装饰<font color="#E5E5E5">到没有设置 </font>
+
+1673
+01:18:26,340 --> 01:18:29,040
+颜色<font color="#CCCCCC">很好，我们已经做了 </font>
+
+1674
+01:18:29,040 --> 01:18:34,290
+ color让我们将字体大小设置<font color="#CCCCCC">为18 </font>
+
+1675
+01:18:34,290 --> 01:18:36,360
+ <font color="#E5E5E5">像素让它们变大了 </font>
+
+1676
+01:18:36,360 --> 01:18:39,750
+然后填充权利， <font color="#E5E5E5">所以我们不想要它们 </font>
+
+1677
+01:18:39,750 --> 01:18:43,410
+ <font color="#E5E5E5">如此接近 </font><font color="#CCCCCC">15像素 </font><font color="#E5E5E5">重新加载 </font>
+
+1678
+01:18:43,410 --> 01:18:46,360
+我们去那里是<font color="#E5E5E5">我们的导航栏 </font>
+
+1679
+01:18:46,360 --> 01:18:51,650
+所以下一<font color="#E5E5E5">件事是 </font><font color="#CCCCCC">展示 </font>
+
+1680
+01:18:51,650 --> 01:18:55,010
+展示<font color="#E5E5E5">，我们正在努力 </font>
+
+1681
+01:18:55,010 --> 01:18:58,869
+ <font color="#E5E5E5">为此 </font><font color="#CCCCCC">oops 设置背景 </font><font color="#E5E5E5">图像 </font>
+
+1682
+01:18:58,869 --> 01:19:04,570
+ <font color="#E5E5E5">我只需输入 </font><font color="#CCCCCC">背景 </font><font color="#E5E5E5">图片网址即可 </font>
+
+1683
+01:19:04,570 --> 01:19:07,730
+ <font color="#E5E5E5">好吧那就是 </font><font color="#CCCCCC">我们去点dot </font>
+
+1684
+01:19:07,730 --> 01:19:11,840
+ <font color="#E5E5E5">斜线图片斜线展示点jpg所以 </font>
+
+1685
+01:19:11,840 --> 01:19:16,360
+让我们<font color="#E5E5E5">得到那个 </font><font color="#CCCCCC">光明的 </font><font color="#E5E5E5">形象 </font>
+
+1686
+01:19:16,360 --> 01:19:26,480
+抽象<font color="#CCCCCC">珊瑚在哪里缩小这个 </font>
+
+1687
+01:19:26,480 --> 01:19:35,630
+从<font color="#E5E5E5">大到大这就是 </font><font color="#CCCCCC">我没有 </font>
+
+1688
+01:19:35,630 --> 01:19:38,929
+认为<font color="#E5E5E5">这是它 </font><font color="#CCCCCC">的权利在这里 </font><font color="#E5E5E5">我要 </font>
+
+1689
+01:19:38,929 --> 01:19:42,349
+ <font color="#E5E5E5">在这里抓住这个图像 </font><font color="#CCCCCC">，你可以 </font><font color="#E5E5E5">使用 </font>
+
+1690
+01:19:42,349 --> 01:19:44,300
+无论<font color="#CCCCCC">你想要什么形象，我都会去 </font>
+
+1691
+01:19:44,300 --> 01:19:46,760
+保存这个<font color="#E5E5E5">确保 </font><font color="#CCCCCC">它在我的 </font>
+
+1692
+01:19:46,760 --> 01:19:50,059
+网站<font color="#E5E5E5">图片，我们打算打电话 </font>
+
+1693
+01:19:50,059 --> 01:19:54,889
+ <font color="#CCCCCC">如果 </font><font color="#E5E5E5">我们回去， 这个展示 </font><font color="#CCCCCC">就好 </font><font color="#E5E5E5">了 </font>
+
+1694
+01:19:54,889 --> 01:19:59,269
+ <font color="#CCCCCC">到我们的网站实际上我们 </font><font color="#E5E5E5">需要添加一些 </font>
+
+1695
+01:19:59,269 --> 01:20:01,519
+ <font color="#E5E5E5">其他的东西在这里， </font><font color="#CCCCCC">所以我们有 </font>
+
+1696
+01:20:01,519 --> 01:20:03,769
+ <font color="#CCCCCC">背景图片 </font><font color="#E5E5E5">让我们设置位置 </font>
+
+1697
+01:20:03,769 --> 01:20:08,000
+ <font color="#CCCCCC">所以 我要 </font><font color="#E5E5E5">设置的 背景位置 </font>
+
+1698
+01:20:08,000 --> 01:20:13,429
+ <font color="#E5E5E5">该 </font><font color="#CCCCCC">居中右，让我们设置 </font>
+
+1699
+01:20:13,429 --> 01:20:15,949
+ <font color="#E5E5E5">高度 </font><font color="#CCCCCC">现在我要把它设置为 </font>
+
+1700
+01:20:15,949 --> 01:20:17,389
+现在高度但是<font color="#E5E5E5">我要去 </font>
+
+1701
+01:20:17,389 --> 01:20:19,969
+告诉<font color="#E5E5E5">你一些 </font><font color="#CCCCCC">好事 </font><font color="#E5E5E5">然后 </font>
+
+1702
+01:20:19,969 --> 01:20:25,099
+让我呃，好吧，让我们保存<font color="#CCCCCC">一切 </font>
+
+1703
+01:20:25,099 --> 01:20:26,079
+ <font color="#CCCCCC">对 </font>
+
+1704
+01:20:26,079 --> 01:20:29,650
+所以<font color="#CCCCCC">实际上让我们添加其他几个 </font>
+
+1705
+01:20:29,650 --> 01:20:33,719
+ <font color="#CCCCCC">这里的事情将保持在底部 </font>
+
+1706
+01:20:33,719 --> 01:20:36,119
+ <font color="#E5E5E5">因为你想把一切都推倒 </font>
+
+1707
+01:20:36,119 --> 01:20:39,790
+让我们说30像素<font color="#E5E5E5">下的一切 </font>
+
+1708
+01:20:39,790 --> 01:20:42,010
+展示，然后让我们发<font color="#E5E5E5">短信 </font>
+
+1709
+01:20:42,010 --> 01:20:46,510
+ <font color="#CCCCCC">现在我想抓住 </font><font color="#E5E5E5">中心线 </font>
+
+1710
+01:20:46,510 --> 01:20:50,920
+ <font color="#CCCCCC">到这是在展示的H1 </font><font color="#E5E5E5">那么 </font>
+
+1711
+01:20:50,920 --> 01:20:52,659
+对于h1，我要改变颜色
+
+1712
+01:20:52,659 --> 01:20:56,020
+ <font color="#E5E5E5">白</font><font color="#CCCCCC">我要改变字体 </font>
+
+1713
+01:20:56,020 --> 01:21:00,639
+ <font color="#CCCCCC">大小 </font><font color="#E5E5E5">到50 </font><font color="#CCCCCC">我想让它更大 </font><font color="#E5E5E5">我是 </font>
+
+1714
+01:21:00,639 --> 01:21:04,449
+要改变我的线高
+
+1715
+01:21:04,449 --> 01:21:08,199
+将其<font color="#E5E5E5">改为 </font><font color="#CCCCCC">1.6 </font><font color="#E5E5E5">米然后 </font>
+
+1716
+01:21:08,199 --> 01:21:11,230
+只需添加一些填充<font color="#CCCCCC">顶端</font><font color="#E5E5E5"> 30 </font>
+
+1717
+01:21:11,230 --> 01:21:13,389
+像素，这样就<font color="#CCCCCC">可以将h1向下移动 </font>
+
+1718
+01:21:13,389 --> 01:21:19,170
+让我们继续<font color="#E5E5E5">， 现在 </font><font color="#CCCCCC">重装 </font>
+
+1719
+01:21:19,170 --> 01:21:21,969
+我去小这里需要注意的<font color="#E5E5E5">是 </font><font color="#CCCCCC">， </font>
+
+1720
+01:21:21,969 --> 01:21:25,090
+ <font color="#CCCCCC">文字 </font><font color="#E5E5E5">超出 </font><font color="#CCCCCC">了高度 </font>
+
+1721
+01:21:25,090 --> 01:21:27,940
+这里所以这<font color="#E5E5E5">是 </font><font color="#CCCCCC">你 </font><font color="#E5E5E5">想要 的情况 </font>
+
+1722
+01:21:27,940 --> 01:21:30,849
+使用最小高度好吧<font color="#E5E5E5">因为 </font><font color="#CCCCCC">你想要的 </font>
+
+1723
+01:21:30,849 --> 01:21:32,800
+如果文字高度逐渐增长
+
+1724
+01:21:32,800 --> 01:21:35,619
+在展示中增长而不仅仅是
+
+1725
+01:21:35,619 --> 01:21:38,010
+高度，我们要说最小高度
+
+1726
+01:21:38,010 --> 01:21:41,320
+所以，如果我们<font color="#E5E5E5">达到这个水平，我们就会去 </font>
+
+1727
+01:21:41,320 --> 01:21:44,860
+ <font color="#E5E5E5">300，</font><font color="#CCCCCC">但如果我们把 </font><font color="#E5E5E5">它缩小 </font><font color="#CCCCCC">你会看到 </font>
+
+1728
+01:21:44,860 --> 01:21:47,050
+它<font color="#E5E5E5">会让高度随之增长 </font>
+
+1729
+01:21:47,050 --> 01:21:48,520
+ <font color="#CCCCCC">我们想要的文本</font>
+
+1730
+01:21:48,520 --> 01:21:51,130
+使其响应实际上这个网站
+
+1731
+01:21:51,130 --> 01:21:54,520
+会有所回应，所以那就是
+
+1732
+01:21:54,520 --> 01:21:56,409
+ <font color="#E5E5E5">现在展示主要和 </font>
+
+1733
+01:21:56,409 --> 01:21:59,230
+侧边栏<font color="#CCCCCC">所以我们在这里有主要部分 </font>
+
+1734
+01:21:59,230 --> 01:22:01,210
+ <font color="#E5E5E5">对，然后这是 </font><font color="#CCCCCC">我们 </font><font color="#E5E5E5">的侧边栏 </font>
+
+1735
+01:22:01,210 --> 01:22:03,790
+希望他们想要<font color="#E5E5E5">漂浮那些让我们的 </font>
+
+1736
+01:22:03,790 --> 01:22:10,030
+说左边的主流量<font color="#E5E5E5">设定宽度 </font>
+
+1737
+01:22:10,030 --> 01:22:18,369
+将70％的<font color="#E5E5E5">填充设置为 </font><font color="#CCCCCC">0 30像素 </font><font color="#E5E5E5">和 </font>
+
+1738
+01:22:18,369 --> 01:22:21,579
+然后让我们将<font color="#CCCCCC">框大小设置为边框 </font>
+
+1739
+01:22:21,579 --> 01:22:23,860
+框， <font color="#E5E5E5">所以它包括填充和 </font>
+
+1740
+01:22:23,860 --> 01:22:26,880
+东西<font color="#E5E5E5">好吧 </font><font color="#CCCCCC">，然后 </font><font color="#E5E5E5">侧边栏 </font>
+
+1741
+01:22:26,880 --> 01:22:29,139
+ <font color="#E5E5E5">我会变得有点 </font><font color="#CCCCCC">类似，所以我 </font>
+
+1742
+01:22:29,139 --> 01:22:34,050
+ <font color="#E5E5E5">只是复制，我会说侧边栏 </font>
+
+1743
+01:22:34,050 --> 01:22:37,190
+它会漂浮<font color="#CCCCCC">到右边 </font>
+
+1744
+01:22:37,190 --> 01:22:41,070
+我们要给<font color="#CCCCCC">它宽30 </font>
+
+1745
+01:22:41,070 --> 01:22:46,699
+让我们给它<font color="#E5E5E5">一个背景背景 </font>
+
+1746
+01:22:46,699 --> 01:22:54,559
+ <font color="#CCCCCC">糟糕 </font><font color="#E5E5E5">深灰色</font><font color="#CCCCCC"> </font><font color="#E5E5E5">和 白色 </font><font color="#CCCCCC">的颜色 </font><font color="#E5E5E5">和 </font>
+
+1747
+01:22:54,559 --> 01:22:56,730
+这应该是<font color="#CCCCCC">做的 </font><font color="#E5E5E5">很好的实际 </font>
+
+1748
+01:22:56,730 --> 01:22:59,239
+ <font color="#E5E5E5">一直填充10个像素 </font>
+
+1749
+01:22:59,239 --> 01:23:03,030
+重新加载我们去<font color="#CCCCCC">，然后为 </font>
+
+1750
+01:23:03,030 --> 01:23:05,130
+页脚<font color="#CCCCCC">记得它有一个主要的想法 </font>
+
+1751
+01:23:05,130 --> 01:23:09,769
+页脚我要设置<font color="#E5E5E5">的背景</font>
+
+1752
+01:23:09,769 --> 01:23:17,099
+ <font color="#CCCCCC">深灰色的白色哎呀 </font>
+
+1753
+01:23:17,099 --> 01:23:23,780
+ <font color="#CCCCCC">给中心写一条线，还有什么 </font>
+
+1754
+01:23:23,780 --> 01:23:28,289
+ <font color="#E5E5E5">填充20个像素的填充和 </font>
+
+1755
+01:23:28,289 --> 01:23:30,239
+然后让我们把<font color="#E5E5E5">它向下移动</font><font color="#CCCCCC">一点 </font>
+
+1756
+01:23:30,239 --> 01:23:35,639
+保证金顶说40个像素<font color="#E5E5E5">保存 </font>
+
+1757
+01:23:35,639 --> 01:23:38,969
+重装，现在我们的页脚<font color="#E5E5E5">了 </font>
+
+1758
+01:23:38,969 --> 01:23:40,650
+最后<font color="#CCCCCC">一步是</font><font color="#E5E5E5">使 </font><font color="#CCCCCC">之完全 </font>
+
+1759
+01:23:40,650 --> 01:23:42,960
+如果我们小下来，现在回应
+
+1760
+01:23:42,960 --> 01:23:44,460
+像这样我不<font color="#CCCCCC">希望这些 </font>
+
+1761
+01:23:44,460 --> 01:23:46,800
+浮动，所以我们需要<font color="#CCCCCC">做的是添加一个 </font>
+
+1762
+01:23:46,800 --> 01:23:49,230
+媒体查询我们可以<font color="#E5E5E5">添加媒体查询 </font>
+
+1763
+01:23:49,230 --> 01:23:53,190
+说添加媒体<font color="#CCCCCC">然后条件 </font>
+
+1764
+01:23:53,190 --> 01:23:58,019
+如果它的最大宽度为600像素那么
+
+1765
+01:23:58,019 --> 01:23:59,969
+ <font color="#CCCCCC">我们在这里放任何风格的任何东西</font>
+
+1766
+01:23:59,969 --> 01:24:01,440
+只是要<font color="#CCCCCC">生效 </font><font color="#E5E5E5">，如果它是 </font>
+
+1767
+01:24:01,440 --> 01:24:04,110
+下<font color="#E5E5E5">看过来 600个像素这样 </font><font color="#CCCCCC">和 </font>
+
+1768
+01:24:04,110 --> 01:24:06,300
+我们想要<font color="#E5E5E5">做的是我们要删除 </font>
+
+1769
+01:24:06,300 --> 01:24:09,809
+从主要和侧边栏浮动
+
+1770
+01:24:09,809 --> 01:24:11,429
+我们也<font color="#CCCCCC">想 </font><font color="#E5E5E5">改变宽度相 </font>
+
+1771
+01:24:11,429 --> 01:24:13,619
+ <font color="#E5E5E5">这两个百分之百都没关系 </font>
+
+1772
+01:24:13,619 --> 01:24:17,610
+所以让我们说<font color="#CCCCCC">一百个命名 </font>
+
+1773
+01:24:17,610 --> 01:24:19,619
+ ％ <font color="#E5E5E5">然后我们想说浮动 </font>
+
+1774
+01:24:19,619 --> 01:24:20,630
+没有
+
+1775
+01:24:20,630 --> 01:24:24,150
+ <font color="#E5E5E5">好吧 </font><font color="#CCCCCC">，侧边栏也一样 </font>
+
+1776
+01:24:24,150 --> 01:24:26,219
+ <font color="#CCCCCC">基本上他们只是在 </font><font color="#E5E5E5">每一个上面 </font>
+
+1777
+01:24:26,219 --> 01:24:31,199
+其他<font color="#E5E5E5">没事，所以 </font><font color="#CCCCCC">让我们节省重装和 </font>
+
+1778
+01:24:31,199 --> 01:24:33,749
+我们去了， <font color="#E5E5E5">所以我们现在有了回应 </font>
+
+1779
+01:24:33,749 --> 01:24:37,559
+ <font color="#E5E5E5">使用CSS的网站</font><font color="#CCCCCC">就好了，所以这是一个 </font>
+
+1780
+01:24:37,559 --> 01:24:39,749
+长视频家伙希望<font color="#E5E5E5">学到很多东西 </font>
+
+1781
+01:24:39,749 --> 01:24:42,300
+ <font color="#E5E5E5">我</font><font color="#CCCCCC">觉得 这是很不错的 </font><font color="#E5E5E5">它 </font>
+
+1782
+01:24:42,300 --> 01:24:45,239
+传达得很好， <font color="#CCCCCC">你 </font><font color="#E5E5E5">知道让 </font><font color="#CCCCCC">我 </font>
+
+1783
+01:24:45,239 --> 01:24:46,949
+ <font color="#E5E5E5">知道你是否认为不同或让我 </font>
+
+1784
+01:24:46,949 --> 01:24:49,199
+知道<font color="#CCCCCC">你是否喜欢它，请订阅 </font>
+
+1785
+01:24:49,199 --> 01:24:50,269
+你喜欢它
+
+1786
+01:24:50,269 --> 01:24:52,039
+这就是感谢你<font color="#CCCCCC">看我的家伙 </font>
+
+1787
+01:24:52,039 --> 01:24:54,170
+有一个<font color="#CCCCCC">链接的patreon </font><font color="#E5E5E5">帐户 </font>
+
+1788
+01:24:54,170 --> 01:24:56,150
+在<font color="#CCCCCC">描述中，如果你们 </font><font color="#E5E5E5">想要的话 </font>
+
+1789
+01:24:56,150 --> 01:24:57,710
+支持<font color="#E5E5E5">我 </font><font color="#CCCCCC">更进一步 </font><font color="#E5E5E5">，即使是 </font>
+
+1790
+01:24:57,710 --> 01:25:00,469
+ <font color="#E5E5E5">每月美元 </font><font color="#CCCCCC">我确实有一对 </font>
+
+1791
+01:25:00,469 --> 01:25:02,809
+津贴， <font color="#E5E5E5">我来的过程中 </font>
+
+1792
+01:25:02,809 --> 01:25:04,550
+找出<font color="#E5E5E5">更多给 </font><font color="#CCCCCC">我的东西 </font>
+
+1793
+01:25:04,550 --> 01:25:07,099
+顾客<font color="#E5E5E5">所以检查 </font><font color="#CCCCCC">出来 </font><font color="#E5E5E5">的是 </font>
+
+1794
+01:25:07,099 --> 01:25:09,260
+描述<font color="#CCCCCC">和感谢观看的人 </font>
+
+1795
+01:25:09,260 --> 00:00:00,000
+ <font color="#CCCCCC">下次</font><font color="#E5E5E5">再见 </font>
+

@@ -1,0 +1,445 @@
+1
+00:00:00,000 --> 00:00:03,750
+already houses welcome back and in this
+video I want to talk to you about
+
+2
+00:00:03,750 --> 00:00:09,510
+strokes now what the heck is a struct in
+Python well a struct is a way that you
+
+3
+00:00:09,510 --> 00:00:13,530
+can actually take any type of data in
+python whether it's numbers letter
+
+4
+00:00:13,530 --> 00:00:20,460
+strings whatever and you can convert it
+to bytes format so first question is why
+
+5
+00:00:20,460 --> 00:00:24,390
+would we ever want to do this I mean it
+might be interesting to know how your
+
+6
+00:00:24,390 --> 00:00:28,830
+computer stores memory or how it
+transfers data over the network but you
+really don't care about those ones zeros
+
+7
+00:00:30,810 --> 00:00:36,450
+most of the time so why are we learning
+this well I'm actually going to be
+
+8
+00:00:36,450 --> 00:00:41,370
+making a new tutorial series about some
+network applications in Python and
+whenever you work with network
+
+9
+00:00:43,320 --> 00:00:48,840
+applications you actually need to read
+the bytes value so you're on a network
+
+10
+00:00:48,840 --> 00:00:52,050
+and you see all these one zeroes coming
+across and you need to actually
+interpret it because humans can't read
+
+11
+00:00:54,180 --> 00:00:59,039
+ones and zeros so we need to figure out
+a way to take all of that data that raw
+
+12
+00:00:59,039 --> 00:01:03,600
+data and turn it into something that's
+readable for humans so that's why I'm
+
+13
+00:01:03,600 --> 00:01:07,920
+going to be showing you how to use strux
+basically to turn ones and zeros into
+
+14
+00:01:07,920 --> 00:01:11,909
+something that humans can read so the
+first thing that you need to do is go
+
+15
+00:01:11,909 --> 00:01:18,540
+from struct imports all and I'll show
+you guys how to pack and unpack and what
+
+16
+00:01:18,540 --> 00:01:22,650
+all that means so the first thing I'm
+going to do is just we're going to have
+
+17
+00:01:22,650 --> 00:01:27,570
+some data and I'll just have like three
+numbers like 6 whatever 19 and some
+float and we'll store his bytes so store
+
+18
+00:01:31,350 --> 00:01:39,780
+as bytes data and someone is texting me
+actually that's male and it was an
+
+19
+00:01:39,780 --> 00:01:46,229
+update for my Facebook page all right so
+how do we take data in actually convert
+
+20
+00:01:46,229 --> 00:01:50,280
+it to bytes why would we want to do this
+well say we're preparing to send some
+
+21
+00:01:50,280 --> 00:01:54,360
+data across the network well let's go
+ahead and make a variable and I'll just
+
+22
+00:01:54,360 --> 00:01:58,170
+name it pack that up and what you need
+to do is you need to call a function
+
+23
+00:01:58,170 --> 00:02:03,509
+called a pack now as you can see before
+I hit enter this is going to take two
+
+24
+00:02:03,509 --> 00:02:08,819
+parameters the first one is the format
+and the second one is going to be a list
+
+25
+00:02:08,818 --> 00:02:12,160
+of values and it can either be just one
+value like a number or
+
+26
+00:02:12,160 --> 00:02:16,720
+or it can be you know a list like you
+know ten different numbers
+
+27
+00:02:16,720 --> 00:02:23,070
+so remember format and values alright so
+if you go to the Python documentation
+
+28
+00:02:23,070 --> 00:02:29,170
+they'll say that what you store and
+they'll give you the the letter for what
+
+29
+00:02:29,170 --> 00:02:34,900
+it is but say that we wanted to distort
+two integers and a float some decimal
+
+30
+00:02:34,900 --> 00:02:39,910
+point
+well the key letter for integers is I so
+
+31
+00:02:39,910 --> 00:02:43,960
+if we wanted to store two of them just
+type I twice and then I'm also going to
+
+32
+00:02:43,960 --> 00:02:48,010
+store a decimal point or float so I'm
+just going to write that now if I just
+wanted to store five integers then I'll
+
+33
+00:02:50,710 --> 00:02:55,470
+just write I five times but let's go
+ahead and start two integers in a float
+
+34
+00:02:55,470 --> 00:03:00,310
+so now with the comma separated this we
+just need to give it two integers in
+
+35
+00:03:00,310 --> 00:03:07,740
+flow so I'll say like six oh 19 and
+float like four point seven three
+
+36
+00:03:07,740 --> 00:03:12,670
+whatever and of course if you're using
+like strings or characters or anything
+like that then this is going to be
+
+37
+00:03:14,380 --> 00:03:19,450
+different but basically whenever you
+have data such as this and you want to
+
+38
+00:03:19,450 --> 00:03:24,400
+convert it to a byte format just write
+what type of data you're storing and
+
+39
+00:03:24,400 --> 00:03:28,780
+then the data itself simple enough now
+if you actually just want to see this
+
+40
+00:03:28,780 --> 00:03:32,830
+right now we can print it out and
+remember whenever I print this out is
+
+41
+00:03:32,830 --> 00:03:38,590
+going to print it out in byte format so
+this B right here
+
+42
+00:03:38,590 --> 00:03:47,050
+it signifies bytes and now you see all
+of that stuff so /xo 6 /x double-o all
+
+43
+00:03:47,050 --> 00:03:51,730
+of that crap so again whenever you
+transfer data over the network that's
+what's actually being sent so that's why
+
+44
+00:03:55,180 --> 00:03:59,080
+when a lot of people try to build like
+password sniffers and they start see you
+
+45
+00:03:59,080 --> 00:04:03,670
+know that they're like what the heck so
+now we know what's going on behind the
+scenes now I want to show you guys some
+
+46
+00:04:06,130 --> 00:04:10,060
+other cool things before I show you guys
+how to take that byte data and actually
+
+47
+00:04:10,060 --> 00:04:15,400
+convert it back it's a huge human
+readable form so this is going to come
+
+48
+00:04:15,400 --> 00:04:19,900
+in handy later whenever we're learning
+about why we need to get a certain
+
+49
+00:04:19,899 --> 00:04:23,830
+amount of bytes so check this out this
+calc size
+
+50
+00:04:23,830 --> 00:04:27,470
+this is Bo and function that
+tells you how many bytes are needed to
+
+51
+00:04:27,470 --> 00:04:31,430
+store some value so let me just type I
+right there
+
+52
+00:04:31,430 --> 00:04:42,560
+and let me just type something like f
+and IIF IIF re so check this out
+
+53
+00:04:42,560 --> 00:04:46,370
+so we're printing out the byte data we
+already saw that before and now I'm
+
+54
+00:04:46,370 --> 00:04:51,500
+going to print out the size needed to
+store an integer a float and our data
+
+55
+00:04:51,500 --> 00:04:58,940
+which was two integers and a float
+all right so it says 4 4 12 so whenever
+
+56
+00:04:58,940 --> 00:05:03,020
+you're sending data across the network
+and you're sending an integer it takes
+
+57
+00:05:03,020 --> 00:05:07,790
+up 4 bytes that's how much space or
+memory takes up same thing with a flow
+
+58
+00:05:07,790 --> 00:05:12,320
+very same size 4 bytes each and whenever
+we try to calculate the size needed to
+
+59
+00:05:12,320 --> 00:05:17,770
+store two integers in a float it was 12
+and that makes sense 4 plus 4 plus 4
+
+60
+00:05:17,770 --> 00:05:22,370
+equals 12
+so later on what we're going to be doing
+
+61
+00:05:22,370 --> 00:05:26,810
+is we're going to say get the first 12
+bytes of this packet or something and
+
+62
+00:05:26,810 --> 00:05:30,800
+now you guys are like oh so that's why
+because you know that's how much space
+
+63
+00:05:30,800 --> 00:05:37,760
+it takes up so easy breezy beautiful
+covergirl already now we need to figure
+
+64
+00:05:37,760 --> 00:05:44,210
+out how to get this data all this byte
+data and convert it back into human
+
+65
+00:05:44,210 --> 00:05:49,640
+readable form well if PAC was the
+function to make it byte data unpack is
+
+66
+00:05:49,640 --> 00:05:55,520
+the function to get it back to normal so
+I'll say to kids I don't know data back
+
+67
+00:05:55,520 --> 00:06:06,920
+to normal say to get byte data all right
+so I'll just name it original data and
+
+68
+00:06:06,920 --> 00:06:12,410
+what we need to do is we need to unpack
+it now whenever you unpack it you also
+
+69
+00:06:12,410 --> 00:06:17,630
+need to give it the format so it's going
+to be looking at a bunch of bytes which
+is actually this thing and it's going to
+
+70
+00:06:20,210 --> 00:06:25,070
+say ok arm what do you want me to do
+like are there integers in here are
+
+71
+00:06:25,070 --> 00:06:28,520
+there characters or there strings are
+there floats how do you want me to
+
+72
+00:06:28,520 --> 00:06:32,030
+unpack it and we said that there's
+actually two integers and a float in
+
+73
+00:06:32,030 --> 00:06:38,510
+here now is the second parameter you
+just give it that pack data
+
+74
+00:06:38,510 --> 00:06:42,960
+right like that and this is all your
+bytes that up so now whenever you run
+
+75
+00:06:42,960 --> 00:06:53,580
+this and we need to actually print it
+out then check it out all right so all
+
+76
+00:06:53,580 --> 00:07:01,260
+this was from before and now we unpacked
+it and we got 619 and our float which is
+
+77
+00:07:01,260 --> 00:07:06,330
+four point seven three and some numbers
+on the end because computers are awesome
+
+78
+00:07:06,330 --> 00:07:13,110
+it's storing decimal points but we got a
+little extra values right there so there
+
+79
+00:07:13,110 --> 00:07:17,330
+you go so another thing that I'll
+actually want to show you guys is this
+if I just copy all of this byte data
+
+80
+00:07:20,160 --> 00:07:25,400
+right here remember this is basically
+six nineteen and four point seven three
+stored as bytes you can actually just do
+
+81
+00:07:29,280 --> 00:07:39,630
+this print unpack iif and put all your
+byte data right there so this may be a
+
+82
+00:07:39,630 --> 00:07:43,440
+little bit easier to visually see
+whenever you first start learning about
+
+83
+00:07:43,440 --> 00:07:48,840
+this so let me go ahead and run this and
+we get the same results right there
+
+84
+00:07:48,840 --> 00:07:54,990
+because of course this variable is equal
+to this right there but basically
+
+85
+00:07:54,990 --> 00:07:58,620
+whenever you have to work with bytes or
+you need to have byte data and transfer
+
+86
+00:07:58,620 --> 00:08:05,730
+it back into human readable form then
+you can use pack and unpack from struck
+
+87
+00:08:05,730 --> 00:08:11,750
+so pretty easy stuff there you go I'll
+see you guys next

@@ -1,0 +1,336 @@
+1
+00:00:00,000 --> 00:00:03,360
+are already houses welcome back and in
+this video I'm going to show you how to
+
+2
+00:00:03,360 --> 00:00:08,550
+sort custom objects by any attribute
+that you want so let's go ahead and say
+
+3
+00:00:08,550 --> 00:00:11,940
+that you were working on the social
+network and you had a bunch of users
+signed up and they all had like first
+
+4
+00:00:14,400 --> 00:00:19,020
+names last names birthdays maybe a user
+ID
+
+5
+00:00:19,020 --> 00:00:23,160
+they also listed their favorite colors
+and I don't know like how much money was
+
+6
+00:00:23,160 --> 00:00:27,660
+in their bank account for whatever
+reason many ways these users had a bunch
+
+7
+00:00:27,660 --> 00:00:31,410
+of different attributes and you were
+having a tough time figuring out how to
+
+8
+00:00:31,410 --> 00:00:36,750
+make an algorithm or function to sort by
+each one so let's say you want to sort
+
+9
+00:00:36,750 --> 00:00:42,030
+by favorite colors or birthdays you can
+do that so check this out what we're
+
+10
+00:00:42,030 --> 00:00:46,530
+going to do is just like before we're
+going to use operator module and we're
+
+11
+00:00:46,530 --> 00:00:53,309
+going to import attribute getter so now
+item getter by attribute getter so now
+
+12
+00:00:53,309 --> 00:00:57,649
+let me go ahead and make a real quick
+class and I think you need two spaces
+
+13
+00:00:57,649 --> 00:01:07,950
+Pepe all right so class user and let me
+just make dunder init and we'll say that
+
+14
+00:01:07,950 --> 00:01:13,619
+whenever you make a new user object
+we'll say that they need a name and user
+
+15
+00:01:13,619 --> 00:01:24,000
+ID so we'll just say x and y all right
+so self name equals x and so I'll just
+
+16
+00:01:24,000 --> 00:01:30,810
+name it a user ID equals y so whenever
+we initialize object we'll just say like
+
+17
+00:01:30,810 --> 00:01:36,990
+Bucky ten or whatever so something like
+that all right looking good now actually
+another thing that I want to do I'll
+
+18
+00:01:38,430 --> 00:01:43,229
+show you guys a cool it's not really a
+trick but dunder init of course that
+means whenever you initialize there's
+
+19
+00:01:45,090 --> 00:01:53,280
+another one called ar e PR so this is a
+string representation of this object so
+
+20
+00:01:53,280 --> 00:01:57,780
+that means let's say that you just
+wanted to print out let's say that you
+
+21
+00:01:57,780 --> 00:02:01,110
+had um an instance of this user class
+that was Bucky
+
+22
+00:02:01,110 --> 00:02:07,469
+so the info was just the name Bucky and
+my user ID which was ten but then later
+
+23
+00:02:07,469 --> 00:02:12,460
+on in your code you just said print out
+Bucky well then Python would be like
+
+24
+00:02:12,460 --> 00:02:17,840
+what exactly do you want me to print out
+a about him his name or his user ID or
+
+25
+00:02:17,840 --> 00:02:22,550
+his name and his user ID or do you want
+to print out where that object is in
+
+26
+00:02:22,550 --> 00:02:25,970
+memory I mean what the heck am I
+supposed to know what Bucky is what you
+
+27
+00:02:25,970 --> 00:02:30,350
+want well that's what this is for right
+here so what we can do is we can
+
+28
+00:02:30,350 --> 00:02:36,080
+basically just return whatever
+representation we want to make and we
+
+29
+00:02:36,080 --> 00:02:41,210
+can make this however we want so I'll
+say whenever I just say print out Bucky
+
+30
+00:02:41,210 --> 00:02:45,560
+then it's going to print out that
+object's name and then I'll print out
+
+31
+00:02:45,560 --> 00:02:51,530
+his ID and I'll separate them by like I
+don't know semicolons or whatever so
+
+32
+00:02:51,530 --> 00:02:58,040
+plus and again this user ID it's
+actually going to be um an int so we
+
+33
+00:02:58,040 --> 00:03:04,490
+need to make sure to convert that to a
+string sofie's your ID and the name of
+
+34
+00:03:04,490 --> 00:03:07,430
+course is already a string so that's why
+we don't need to do that but again
+
+35
+00:03:07,430 --> 00:03:12,170
+whenever we say print out an instance or
+a user object then this is what it's
+going to give us so just save us a
+
+36
+00:03:13,730 --> 00:03:18,890
+little bit of time from formatting
+everyone later on all right so now let
+
+37
+00:03:18,890 --> 00:03:25,280
+me go ahead and make a bunch of users
+paste that in so you guys don't have to
+
+38
+00:03:25,280 --> 00:03:31,400
+watch me do it all so now I have a list
+of user objects I have Bucky
+
+39
+00:03:31,400 --> 00:03:36,680
+Sally tuna Brian who's name is tuna
+that's weird but actually that would be
+
+40
+00:03:36,680 --> 00:03:40,580
+a pretty cool name I'm gonna name my kid
+tuna all right and they all have user
+
+41
+00:03:40,580 --> 00:03:45,350
+IDs nothing special
+however what we want to do is we pretty
+much just want to sort all of these
+
+42
+00:03:47,209 --> 00:03:52,239
+users so let's see what order they're
+sorted in by default so for user in
+
+43
+00:03:52,239 --> 00:03:59,239
+users just go ahead and print user so
+run that and check it out and again it
+
+44
+00:03:59,239 --> 00:04:05,600
+prints it and maybe if I add a space
+right there might be a little bit easier
+
+45
+00:04:05,600 --> 00:04:10,610
+to see but again it prints it in the
+specified order so by default and see
+
+46
+00:04:10,610 --> 00:04:16,430
+what's going on here prints out Bucky
+Sally tuna Brian re so it prints it out
+
+47
+00:04:16,430 --> 00:04:22,070
+in whatever order we initialize objects
+in however we want to you know make
+
+48
+00:04:22,070 --> 00:04:26,130
+special functions to sort them by name
+and also the
+
+49
+00:04:26,130 --> 00:04:30,180
+our ID since whenever like you're
+looking for a friend you just don't want
+
+50
+00:04:30,180 --> 00:04:34,410
+to look through all of them randomly
+randomly wouldn't be very efficient so
+
+51
+00:04:34,410 --> 00:04:40,440
+check this out
+let me add that little separator so they
+
+52
+00:04:40,440 --> 00:04:45,360
+don't cut it all jumbled together and
+we'll do this for user just name it user
+
+53
+00:04:45,360 --> 00:04:53,700
+still in sorted and again what do you
+want to sort users nothing new there
+
+54
+00:04:53,700 --> 00:04:57,180
+but what we're going to do is we just
+don't want to sort it in the default
+
+55
+00:04:57,180 --> 00:05:02,220
+order what we want to do is we want to
+sort it by we'll say sort them by name
+
+56
+00:05:02,220 --> 00:05:11,970
+first so get an attribute and in this
+case we'll just type name and this is
+
+57
+00:05:11,970 --> 00:05:20,040
+how we can specify how to sort so just
+like before we'll print user and check
+
+58
+00:05:20,040 --> 00:05:24,360
+this out so again what this does is it
+just doesn't print them out in default
+
+59
+00:05:24,360 --> 00:05:29,340
+order it sorts them by their name and
+then this is a lot more efficient and
+again if you want to do by ID
+
+60
+00:05:32,900 --> 00:05:41,070
+then what I just name it user ID then
+we'll just say sort this iterable by
+
+61
+00:05:41,070 --> 00:05:46,470
+this attribute so now we can go ahead
+and run this and check it out so this is
+
+62
+00:05:46,470 --> 00:05:52,110
+default this one sorted by name and this
+of course is sorted by their user ID two
+
+63
+00:05:52,110 --> 00:05:59,660
+five nine forty three sixty one and 77
+so how awesome is that again a lot
+
+64
+00:05:59,660 --> 00:06:04,530
+easier than you may have been doing it
+before oh yeah there you go in six
+minutes you learn not only about
+
+65
+00:06:06,540 --> 00:06:11,210
+representations about how to sort custom
+objects I mean this is absolutely
+fantastic so think as watching I will
+
+66
+00:06:13,920 --> 00:06:17,150
+smell you next time

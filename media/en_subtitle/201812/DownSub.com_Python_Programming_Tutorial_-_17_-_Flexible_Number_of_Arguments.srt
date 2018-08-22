@@ -1,0 +1,324 @@
+1
+00:00:00,060 --> 00:00:02,520
+<font color="#CCCCCC">alright guys in this video</font><font color="#E5E5E5"> what I want</font>
+
+2
+00:00:02,520 --> 00:00:04,740
+<font color="#CCCCCC">to do is I want to show you how</font><font color="#E5E5E5"> to build</font>
+
+3
+00:00:04,740 --> 00:00:07,740
+<font color="#E5E5E5">a function that</font><font color="#CCCCCC"> can</font><font color="#E5E5E5"> take any amount of</font>
+
+4
+00:00:07,740 --> 00:00:11,070
+arguments so before<font color="#E5E5E5"> what we did is we</font>
+
+5
+00:00:11,070 --> 00:00:16,680
+<font color="#CCCCCC">built a function and will say that it</font>
+
+6
+00:00:16,680 --> 00:00:19,619
+was adding two<font color="#E5E5E5"> numbers together well we</font>
+
+7
+00:00:19,619 --> 00:00:22,170
+can have it add like one number two
+
+8
+00:00:22,170 --> 00:00:24,779
+numbers<font color="#E5E5E5"> however that can get kind</font><font color="#CCCCCC"> of</font>
+
+9
+00:00:24,779 --> 00:00:26,640
+cumbersome and say that we're<font color="#CCCCCC"> making I</font>
+
+10
+00:00:26,640 --> 00:00:28,800
+don't<font color="#CCCCCC"> know like a calculator well we</font>
+
+11
+00:00:28,800 --> 00:00:30,599
+don't know<font color="#E5E5E5"> if the</font><font color="#CCCCCC"> users</font><font color="#E5E5E5"> going</font><font color="#CCCCCC"> to try to</font>
+
+12
+00:00:30,599 --> 00:00:32,759
+add two numbers<font color="#E5E5E5"> or a hundred</font><font color="#CCCCCC"> numbers or</font>
+
+13
+00:00:32,759 --> 00:00:35,040
+<font color="#E5E5E5">a thousand numbers together so we don't</font>
+
+14
+00:00:35,040 --> 00:00:38,070
+know how many<font color="#CCCCCC"> arguments to have until</font>
+
+15
+00:00:38,070 --> 00:00:41,309
+now we can<font color="#E5E5E5"> X actually</font><font color="#CCCCCC"> have a flexible</font>
+
+16
+00:00:41,309 --> 00:00:43,649
+amount of arguments<font color="#E5E5E5"> by adding the</font>
+
+17
+00:00:43,649 --> 00:00:47,399
+<font color="#E5E5E5">Asterix sign and then the</font><font color="#CCCCCC"> keyword which</font>
+
+18
+00:00:47,399 --> 00:00:48,390
+is pretty much<font color="#E5E5E5"> just</font><font color="#CCCCCC"> like a normal</font>
+
+19
+00:00:48,390 --> 00:00:51,829
+variable<font color="#E5E5E5"> like before so</font><font color="#CCCCCC"> what the Asterix</font>
+
+20
+00:00:51,829 --> 00:00:54,420
+does right here<font color="#E5E5E5"> is it's pretty much</font>
+
+21
+00:00:54,420 --> 00:00:56,789
+saying we're<font color="#E5E5E5"> going to be taking a bunch</font>
+
+22
+00:00:56,789 --> 00:00:58,559
+of arguments<font color="#E5E5E5"> but</font><font color="#CCCCCC"> we don't know how many</font>
+
+23
+00:00:58,559 --> 00:01:01,710
+yet so store them in this variable
+
+24
+00:01:01,710 --> 00:01:04,140
+<font color="#E5E5E5">however many they are so then we can</font>
+
+25
+00:01:04,140 --> 00:01:05,820
+loop through<font color="#CCCCCC"> them</font><font color="#E5E5E5"> and another thing I</font>
+
+26
+00:01:05,820 --> 00:01:07,950
+<font color="#E5E5E5">want to point out you're going to see</font>
+
+27
+00:01:07,950 --> 00:01:10,560
+this args<font color="#E5E5E5"> keyword a lot and you can</font>
+
+28
+00:01:10,560 --> 00:01:12,299
+<font color="#E5E5E5">actually name this anything you want you</font>
+
+29
+00:01:12,299 --> 00:01:14,430
+can name it<font color="#E5E5E5"> tuna for you know your</font>
+
+30
+00:01:14,430 --> 00:01:16,740
+<font color="#E5E5E5">program doesn't care however the reason</font>
+
+31
+00:01:16,740 --> 00:01:18,390
+<font color="#E5E5E5">that you see this a lot is</font><font color="#CCCCCC"> just because</font>
+
+32
+00:01:18,390 --> 00:01:20,549
+it's<font color="#E5E5E5"> common</font><font color="#CCCCCC"> practice among Python</font>
+
+33
+00:01:20,549 --> 00:01:23,100
+programmers to always name the<font color="#E5E5E5"> flexible</font>
+
+34
+00:01:23,100 --> 00:01:26,400
+argument parameter<font color="#CCCCCC"> um args so again it</font>
+
+35
+00:01:26,400 --> 00:01:28,259
+doesn't<font color="#E5E5E5"> have</font><font color="#CCCCCC"> to be named that even</font>
+
+36
+00:01:28,259 --> 00:01:30,060
+though you're<font color="#E5E5E5"> going to be seeing it so</font>
+
+37
+00:01:30,060 --> 00:01:33,720
+now we have either<font color="#CCCCCC"> one</font><font color="#E5E5E5"> number or</font><font color="#CCCCCC"> one</font>
+
+38
+00:01:33,720 --> 00:01:35,610
+<font color="#CCCCCC">hundred</font><font color="#E5E5E5"> numbers however many stored in</font>
+
+39
+00:01:35,610 --> 00:01:39,240
+args<font color="#E5E5E5"> so since we made a function called</font>
+
+40
+00:01:39,240 --> 00:01:40,979
+<font color="#E5E5E5">add numbers probably should start adding</font>
+
+41
+00:01:40,979 --> 00:01:48,899
+some numbers together<font color="#E5E5E5"> so</font><font color="#CCCCCC"> alright my my</font>
+
+42
+00:01:48,899 --> 00:01:51,140
+<font color="#E5E5E5">Wow</font>
+
+43
+00:01:51,140 --> 00:01:53,880
+<font color="#E5E5E5">all right it was</font><font color="#CCCCCC"> a really</font><font color="#E5E5E5"> hot in my</font>
+
+44
+00:01:53,880 --> 00:01:56,070
+computer<font color="#E5E5E5"> room so I opened my</font><font color="#CCCCCC"> door like</font>
+
+45
+00:01:56,070 --> 00:01:58,079
+slightly<font color="#E5E5E5"> but since it's like cold</font>
+
+46
+00:01:58,079 --> 00:02:01,079
+outside<font color="#E5E5E5"> my room</font><font color="#CCCCCC"> and warm inside I guess</font>
+
+47
+00:02:01,079 --> 00:02:03,180
+<font color="#E5E5E5">there's a draft that keeps moving it</font>
+
+48
+00:02:03,180 --> 00:02:05,070
+back<font color="#CCCCCC"> and forward</font><font color="#E5E5E5"> and it in middle my</font>
+
+49
+00:02:05,070 --> 00:02:07,680
+tutorials it just like<font color="#CCCCCC"> creaks and let's</font>
+
+50
+00:02:07,680 --> 00:02:09,869
+see it's<font color="#CCCCCC"> 3:40 9:00 a.m.</font><font color="#E5E5E5"> right now so</font>
+
+51
+00:02:09,869 --> 00:02:11,400
+it's pitch<font color="#CCCCCC"> black so it's kind of</font>
+
+52
+00:02:11,400 --> 00:02:13,470
+freaking me out anyways
+
+53
+00:02:13,470 --> 00:02:15,210
+nice<font color="#E5E5E5"> little side story cool</font><font color="#CCCCCC"> story bro</font>
+
+54
+00:02:15,210 --> 00:02:18,000
+right<font color="#CCCCCC"> alright so now we can just</font><font color="#E5E5E5"> loop</font>
+
+55
+00:02:18,000 --> 00:02:19,710
+through<font color="#E5E5E5"> it like we</font><font color="#CCCCCC"> would a</font><font color="#E5E5E5"> normal</font><font color="#CCCCCC"> four</font>
+
+56
+00:02:19,710 --> 00:02:24,810
+loop<font color="#CCCCCC"> so for a and args</font><font color="#E5E5E5"> pretty much</font><font color="#CCCCCC"> loop</font>
+
+57
+00:02:24,810 --> 00:02:26,190
+through every<font color="#CCCCCC"> single argument</font><font color="#E5E5E5"> and do</font>
+
+58
+00:02:26,190 --> 00:02:28,650
+something with it<font color="#E5E5E5"> well we just want to</font>
+
+59
+00:02:28,650 --> 00:02:32,370
+take a which is whatever value and add
+
+60
+00:02:32,370 --> 00:02:35,310
+it to<font color="#CCCCCC"> the total so now we get a running</font>
+
+61
+00:02:35,310 --> 00:02:37,800
+tally of<font color="#CCCCCC"> the</font><font color="#E5E5E5"> sum stored in the total</font>
+
+62
+00:02:37,800 --> 00:02:39,780
+variable and we can just<font color="#E5E5E5"> print out the</font>
+
+63
+00:02:39,780 --> 00:02:43,020
+<font color="#CCCCCC">total right</font><font color="#E5E5E5"> there so now we can</font><font color="#CCCCCC"> just do</font>
+
+64
+00:02:43,020 --> 00:02:46,380
+<font color="#CCCCCC">it for we can even do for one number</font>
+
+65
+00:02:46,380 --> 00:02:50,690
+like three and it just adds<font color="#E5E5E5"> three</font><font color="#CCCCCC"> two oh</font>
+
+66
+00:02:50,690 --> 00:02:53,400
+great now<font color="#E5E5E5"> I got the freaking hiccups so</font>
+
+67
+00:02:53,400 --> 00:02:57,480
+then<font color="#E5E5E5"> just adds three</font><font color="#CCCCCC"> to total and we can</font>
+
+68
+00:02:57,480 --> 00:02:59,760
+do it<font color="#CCCCCC"> for two</font><font color="#E5E5E5"> numbers such as</font><font color="#CCCCCC"> three and</font>
+
+69
+00:02:59,760 --> 00:03:01,770
+<font color="#CCCCCC">thirty-two and</font><font color="#E5E5E5"> we can even do it for</font>
+
+70
+00:03:01,770 --> 00:03:08,550
+<font color="#CCCCCC">it's well that's not a number four</font>
+
+71
+00:03:08,550 --> 00:03:11,820
+<font color="#CCCCCC">that's whatever the heck this is</font><font color="#E5E5E5"> so</font>
+
+72
+00:03:11,820 --> 00:03:14,670
+again<font color="#E5E5E5"> one number two however many you</font>
+
+73
+00:03:14,670 --> 00:03:18,660
+want<font color="#E5E5E5"> it works the</font><font color="#CCCCCC"> same regardless</font><font color="#E5E5E5"> so</font>
+
+74
+00:03:18,660 --> 00:03:21,060
+<font color="#CCCCCC">again</font><font color="#E5E5E5"> how awesome is that</font><font color="#CCCCCC"> instead of</font>
+
+75
+00:03:21,060 --> 00:03:22,980
+<font color="#E5E5E5">having to write you know a bajillion</font>
+
+76
+00:03:22,980 --> 00:03:26,070
+parameters pretty<font color="#CCCCCC"> friggin sweet if you</font>
+
+77
+00:03:26,070 --> 00:03:29,790
+ask me<font color="#E5E5E5"> so that is how you</font><font color="#CCCCCC"> use</font><font color="#E5E5E5"> a function</font>
+
+78
+00:03:29,790 --> 00:03:32,670
+with a flexible<font color="#E5E5E5"> amount of arguments so</font>
+
+79
+00:03:32,670 --> 00:03:34,260
+thank you guys<font color="#CCCCCC"> for watching don't forget</font>
+
+80
+00:03:34,260 --> 00:03:36,239
+to<font color="#E5E5E5"> subscribe and I will see you in the</font>
+
+81
+00:03:36,239 --> 00:00:00,000
+next<font color="#CCCCCC"> tutorial</font>
+

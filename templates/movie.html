@@ -1,0 +1,242 @@
+﻿{% extends 'base.html' %}
+{% load staticfiles %}
+{% block custom_css %}
+    <link href="https://vjs.zencdn.net/7.0.3/video-js.css" rel="stylesheet">
+{% endblock %}
+{% block title %}电影{% endblock %}
+{% block breadcrumb %}
+   <li class="breadcrumb-item"><a href="{% url 'index' %}">Home</a></li>
+   <li class="breadcrumb-item"><a href="{% url 'course:movie_list' %}">电影列表</a></li>
+    <li class="breadcrumb-item">电影</li>
+{% endblock %}
+{% block content %}
+        <section class="content">
+        <div class="container-fluid">
+            <div id="advertising" hidden="hidden" class="row">
+               <div class="col-md-12 ">
+                      <a  target="_black" href="https://s.click.taobao.com/t?e=m%3D2%26s%3DtDLh0sAaPVQcQipKwQzePCperVdZeJviK7Vc7tFgwiFRAdhuF14FMbRf5sLDNdCSxq3IhSJN6GTG1rXVe6qtx4QuAthmNVubR0RQU503xceLIdoSz6Pg%2FU5U%2BEi82A4gU9jONtfgAYE735YeP4ao%2FPQho7GrRW4P5MRYl0%2FyOZHb9no%2FURc5w7o18kPD%2BYRAFveQ9Ld2jopI6hq4ZBly3fZbe7%2BT1VrxBLDta0RKWlc%2BcYMFbeWZXCGFCzYOOqAQ">
+                      <span class="mailbox-attachment-icon has-img"><img src="{% static 'dist/img/taobao_other/lingshi.jpg' %}"></span>
+                      </a>
+                 </div>
+            </div>
+            <div class="row">
+              <div class="col-md-9">
+                <!-- Custom Tabs -->
+                <div class="card">
+                  <div class="card-header d-flex p-0">
+                    <h3 class="card-title p-3">{{ movie.name }}</h3>
+                  </div><!-- /.card-header -->
+                  <div class="card-body">
+                    <div class="row">
+                         <div class="col-md-12">
+                                <div id='mediaspace2'>This text will be replaced</div>
+                             <br>
+                                             <!-- Social sharing buttons -->
+                            <button type="button" class="btn btn-default btn-sm"><i class="fa fa-share"></i> Share</button>
+                            <button type="button" class="btn btn-default btn-sm"><i class="fa fa-thumbs-o-up"></i> Like</button>
+                            <span class="float-right text-muted"> 观看次数{{ movie.click_nums }}  - {{ comments.count }} comments</span>
+                             <a href="{{ movie.download }}" class="nav-link">
+                             <p><i class="nav-icon fa fa-download text-info"></i>
+                                迅雷下载
+                              </p>
+                            </a>
+                          </div>
+                        <div class="col-md-12">
+                        <br>
+                        <div class="card  card-info">
+                              <div class="card-header no-border">
+                                <h3 class="card-title">评论</h3>
+                              </div>
+                          <!-- /.card-body -->
+                        <div class="card-footer card-comments">
+                            <ul class="list-group" id="comment-list">
+                                {% for comment in comments %}
+                                <li class="list-group-item">
+                                    <div class="card-comment">
+                                      <!-- User image -->
+                                      <img class="img-circle img-sm" src="{{ MEDIA_URL }}{{ comment.user.image }}" alt="User Image">
+
+                                      <div class="comment-text">
+                                        <span class="username">
+                                          {{ comment.user.nick_name }}
+                                          <span class="text-muted float-right">{{ comment.add_time|date:'Y-m-d H:i:s' }}</span>
+                                        </span><!-- /.username -->
+                                        {{ comment.comments }}
+                                      </div>
+                                      <!-- /.comment-text -->
+                                    </div>
+                                </li>
+                                {% endfor %}
+                            </ul>
+                        <!-- /.card-comment -->
+                        </div>
+                                    <!-- /.card-footer -->
+                        <div class="card-footer">
+                                <form action="#" method="post">
+                                  <img class="img-fluid img-circle img-sm" src="{{ MEDIA_URL }}{{ request.user.image }}" alt="Alt Text">
+                                  <!-- .img-push is used to add margin to elements next to floating images -->
+                                  <div class="img-push">
+                                      <textarea type="text" id="remark" class="form-control form-control-sm" placeholder="Write comment"></textarea>
+                                      <br>
+                                    <button type="button" id="add_comment" class="btn btn-default float-right">提交</button>
+                                  </div>
+                                </form>
+                        </div>
+                    </div>
+                    <!-- /.tab-content -->
+                  </div><!-- /.card-body -->
+                <!-- ./card -->
+              </div>
+              </div>
+              </div>
+              </div>
+                <br>
+              <!-- /.col -->
+             <div class="col-md-3">
+                <div class="container-fluid">
+            <!-- COLOR PALETTE -->
+            <!-- Recommended -->
+            <div class="card card-default color-palette-box">
+              <div class="card-header">
+                <h3 class="card-title">
+                  <i class="fa fa-star"></i>
+                  Advertisement
+                </h3>
+              </div>
+              <div class="card-body">
+                <div class="row">
+                    <div class="col-md-12 ">
+                      <a target="_black" href="https://s.click.taobao.com/t?e=m%3D2%26s%3DDas1fcl%2BTLkcQipKwQzePCperVdZeJviEViQ0P1Vf2kguMN8XjClAkjR1mEp1GIYL8PtxxJsl4lv1qWNbEBpmPrdFCQUhtDOlSB8iQJCuN2iR9KyufLv5FH%2FhwblmzC5rnF3ShV1XeF8isIqg9litAZn%2By0keumoxJ%2BuUEnJYcOEEQepqblm8luaay6PHEO80Hd8emvjIz26owIDioOK5ootqEvh1MawIYULNg46oBA%3D">
+                      <span class="mailbox-attachment-icon has-img"><img src="{% static 'dist/img/taobao_other/shoes.jpg' %}"></span>
+                        <span class="text-center text-muted">
+                            夏日出行，吸睛之履
+                        </span></a>
+                 </div>
+                 <div class="col-md-12 ">
+                      <a target="_black" href="https://s.click.taobao.com/t?e=m%3D2%26s%3DcMnVl4p34sYcQipKwQzePCperVdZeJviK7Vc7tFgwiFRAdhuF14FMVnj5RLJLGYe1aH1Hk3GeOjG1rXVe6qtx4QuAthmNVubR0RQU503xceLIdoSz6Pg%2FaSbzz7pGfV2XpXe%2BcsvJh29AmARIwX9K1qxQb0OZ%2Bk0IRF4ik%2BlVWkCP2Qd0k7YoyuIDUkHUShfM6TuA1ux48MjBzA8hgBzbVJDJSsqQEyOEmf0cJxRQdgZivPb6PXPYE85%2FJXH5cq8fzeLlV5dvKlauKpxcR5NtporYQmk4xUorpFig4ZPypU1p3UtD0ApeagL9xH55EYT5T2AV0xHnx4Lb77q09u08EODqJRIHlvgTo%2Bex%2BXfQww9JUjtTl%2Fl9SxP1%2FBsrUpLSqdOoLzKk48hhQs2DjqgEA%3D%3D">
+                      <span class="mailbox-attachment-icon has-img"><img src="{% static 'dist/img/taobao_other/yinhua.jpg' %}"></span>
+                        <span class="text-center text-muted">
+                            印花让假日更精彩
+                        </span></a>
+                 </div>
+                     <div class="col-md-12 ">
+                      <a target="_black" href="https://s.click.taobao.com/t?e=m%3D2%26s%3DgDkVyolpKCEcQipKwQzePCperVdZeJviK7Vc7tFgwiFRAdhuF14FMaodYsB0NyS6RitN3%2FurF3zG1rXVe6qtx4QuAthmNVubR0RQU503xceLIdoSz6Pg%2FTSRJGqxN7%2B4Qjxo875zPVhAFEHVckI7b21v1IZNIZt0OsN2eCvd5HqII%2BH4AtnKmSVGeYI9Zk6fuE4zN3lNfWcWX%2FSZ2KjH3%2BSeGZH5tpjcfNLkbifu3C7O6xx1kLmdTEFtSNh5vEbAuZPTOeaSyugBE4VFzbcW%2BbVkT1yFW6z%2Bsuk7WLgVtKzXiU4NmwY69pVaX5D22hf6xgxdTc00KD8%3D">
+                      <span class="mailbox-attachment-icon has-img"><img src="{% static 'dist/img/taobao_other/yanj.jpg' %}"></span>
+
+                        <span class="text-center text-muted">
+                        防辐射防蓝光眼镜
+                        </span></a>
+                 </div>
+                      <div class="col-md-12 ">
+                      <a target="_black" href="https://s.click.taobao.com/t?e=m%3D2%26s%3Dd5Hv5996vWYcQipKwQzePCperVdZeJviK7Vc7tFgwiFRAdhuF14FMfueNqzal4AT8sviUM61dt3G1rXVe6qtx4QuAthmNVubR0RQU503xceLIdoSz6Pg%2FRd7MNbedNR8sDkmRao%2FribO54LQ%2FVw1L%2FJgK3KRx%2F6B8uo3sUwlHMwW95D0t3aOittvUdx5il7wdrdVNusZXvMzpO4DW7HjwzyO6dA%2BaAVM5rsorDBxoJkYP17RPjXu%2FwwF1fQYg2Z2UkMlKypATI4SZ%2FRwnFFB2BmK89vo9c9gTzn8lcflyrx%2FN4uVXl28qVq4qnFxHk22mithCaTjFSiukWKDhk%2FKlQkTBGpjIIJE4dJy3XBJYNLlPYBXTEefHp43iuYZU80y8YKgpCxRZzxDKgwC2gR22IVO7Gprs7hIuxx2aVrnzttpu5PxWzy9dhFf1GB1Osr%2F">
+                      <span class="mailbox-attachment-icon has-img"><img src="{% static 'dist/img/taobao_other/chaopai.jpg' %}"></span>
+
+                        <span class="text-center text-muted">
+                        闪电潮牌2018秋季新品14-15波
+                        </span></a>
+                 </div>
+                </div>
+              </div>
+            </div>
+          </div>
+                </div>
+            </div>
+        <!-- /.row -->
+        <!-- END CUSTOM TABS -->
+                </div>
+        </div>
+        </section>
+{% endblock %}
+</div>
+<script type="text/javascript">
+    (function(win,doc){
+        var s = doc.createElement("script"), h = doc.getElementsByTagName("head")[0];
+        if (!win.alimamatk_show) {
+            s.charset = "gbk";
+            s.async = true;
+            s.src = "https://alimama.alicdn.com/tkapi.js";
+            h.insertBefore(s, h.firstChild);
+        };
+        var o = {
+            pid: "mm_106705211_61050040_11671250193",/*推广单元ID，用于区分不同的推广渠道*/
+            appkey: "",/*通过TOP平台申请的appkey，设置后引导成交会关联appkey*/
+            unid: "",/*自定义统计字段*/
+            type: "click" /* click 组件的入口标志 （使用click组件必设）*/
+        };
+        win.alimamatk_onload = win.alimamatk_onload || [];
+        win.alimamatk_onload.push(o);
+    })(window,document);
+</script>
+
+
+{% block custom_script %}
+	    <script type="text/javascript">
+     $(document).ready(function () {
+         console.log($(window).width())
+         if($(window).width()<=750)
+             $('#advertising').removeAttr('hidden')
+     })
+    </script>
+    <script src="{% static 'jwplayer/jwplayer.js' %}"></script>
+    <script>jwplayer.key="XbJktrxq5rM9wk2n+fE7Jkg07sbrlT6rMqKU+v9LyOU=";</script>
+    <script type='text/javascript'>
+ var ua = navigator.userAgent.toLowerCase();
+    var isAndroid = ua.indexOf("android") > -1;
+  jwplayer('mediaspace2').setup({
+    playlist: [{
+        flashplayer: '{% static 'jwplayer/jwplayer.flash.swf' %}',
+        sources: [{
+            file: '{{ movie.url }}'
+        }],
+    }],
+    controlbar: 'bottom',
+        width:'100%',
+        aspectratio:"16:9",
+        autostart:true,
+  });
+</script>
+    <script type="text/javascript">
+    $(document).ready(function () {
+        $('#add_comment').click(function () {
+            if ($("#remark").val()==''){
+                alert('跟进信息不能为空')
+                return
+            }
+            remark= $("#remark").val();
+                 $.ajax({
+                  url:"{% url 'course:movie_comment'%}",
+                  type:'POST',
+                  data:{
+                      csrfmiddlewaretoken:'{{ csrf_token }}',
+                      comment:remark,
+                      movie_id:{{ movie.id }}
+                   },
+                   success: function(data) {
+                    if(data.status == 'fail'){
+                        if(data.msg == '用户未登录'){
+                            window.location.href="{% url 'users:login' %}";
+                        }else{
+                            alert(data.msg)
+                        }
+
+                    }else if(data.status == 'success'){
+
+                     var temp= "<li class='list-group-item'>"+
+                            "<div class='card-comment'>"+
+                                '<img class="img-circle img-sm" src="'+ data.img + '" alt="User Image">'+
+                            '<div class="comment-text">'+
+                                '<span class="username">'+data.name+'<span class="text-muted float-right">'+
+                         data.add_time+ '</span>'+'</span>'+
+                          data.comments+'</div>'+
+                            '</div>'+
+                            '</li>';
+
+                      $("#comment-list").prepend(temp);
+                      $("#remark").val('');
+                    }
+                   },
+        })
+    })
+    })
+    </script>
+{% endblock %}
